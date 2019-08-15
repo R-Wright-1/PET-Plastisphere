@@ -1,0 +1,183 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= sp|P00590|CUTI1_FUSSO Cutinase 1 OS=Fusarium solani subsp. pisi
+OX=70791 GN=CUT1 PE=1 SV=1
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_05054 Methylmalonyl-CoA mutase large subunit               28.5    0.67 
+  DMKJLJHC_04494 Gluconate 5-dehydrogenase                            27.7    0.87 
+  DMKJLJHC_03533 Cell division ATP-binding protein FtsE               27.3    1.2  
+  DMKJLJHC_02358 Leucine-responsive regulatory protein                26.6    1.5  
+  DMKJLJHC_02354 Acetone carboxylase beta subunit                     26.2    3.3  
+  DMKJLJHC_04946 NADH-quinone oxidoreductase chain 3                  25.8    4.2  
+  DMKJLJHC_01407 Enoyl-[acyl-carrier-protein] reductase [NADH] FabI   25.0    6.2  
+  DMKJLJHC_02839 hypothetical protein                                 25.0    7.5  
+  DMKJLJHC_07092 hypothetical protein                                 24.6    7.5  
+  DMKJLJHC_04048 hypothetical protein                                 25.0    8.5  
+
+
+> DMKJLJHC_05054 Methylmalonyl-CoA mutase large subunit
+Length=668
+
+ Score = 28.5 bits (62),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  24   QELEARQLGRTTRDDLINGNSASCRDVIFIYARGSTETGNLGTLGPSIAS  73
+            Q++ A +      DDL +GN A  R V  + A    E   +  LG ++A+
+Sbjct  318  QQILAYETDLLEHDDLFDGNPAVARKVAELKAAAEVELAQIADLGGAMAA  367
+
+
+> DMKJLJHC_04494 Gluconate 5-dehydrogenase
+Length=262
+
+ Score = 27.7 bits (60),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 4/52 (8%)
+
+Query  10   LAATASALPTSNPAQELEARQLGRTTRDDLINGNSASCR---DVIFIYARGS  58
+            LA  A+ +  +NPA+E+E  Q  +T  D  + G   SC+     + ++ RG+
+Sbjct  97   LAVNAAGIANANPAEEMEESQF-QTMMDVNLKGVFLSCQAEARAMLVHERGA  147
+
+
+> DMKJLJHC_03533 Cell division ATP-binding protein FtsE
+Length=223
+
+ Score = 27.3 bits (59),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 26/85 (31%), Positives = 37/85 (44%), Gaps = 6/85 (7%)
+
+Query  83   GVWIQGVGGAYRATLGDN-ALP-----RGTSSAAIREMLGLFQQANTKCPDATLIAGGYS  136
+            GV  Q        TL +N ALP     R  +   +RE+LG     + +      ++GG  
+Sbjct  81   GVVHQDCQFLEHLTLEENVALPLTVTHRPVNPDELRELLGWVGLGHRRTAHPAQLSGGER  140
+
+Query  137  QGAALAAASIEDLDSAIRDKIAGTV  161
+            Q AALA A I   D  + D+  G +
+Sbjct  141  QRAALARAIITSPDVILADEPTGNL  165
+
+
+> DMKJLJHC_02358 Leucine-responsive regulatory protein
+Length=165
+
+ Score = 26.6 bits (57),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 20/39 (51%), Gaps = 3/39 (8%)
+
+Query  118  FQQANTK---CPDATLIAGGYSQGAALAAASIEDLDSAI  153
+            FQ+A  +   C +  L++GGY   A    ASI D  + +
+Sbjct  88   FQEALERTESCVECHLVSGGYDYLAKFVCASISDYQTIM  126
+
+
+> DMKJLJHC_02354 Acetone carboxylase beta subunit
+Length=680
+
+ Score = 26.2 bits (56),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 25/57 (44%), Gaps = 1/57 (2%)
+
+Query  21   NPAQELEARQLGRTTRDDLINGNSASCRDVIFIYARGSTETGNLGTLGPSIASNLES  77
+            +P QE+  R        DL    SA    VI  Y R ST   N G + P ++  LE+
+Sbjct  174  DPGQEIAIRAQIEAIAPDLFVFTSAEVWPVIREYERSSTALLN-GYVHPRVSGYLEA  229
+
+
+> DMKJLJHC_04946 NADH-quinone oxidoreductase chain 3
+Length=435
+
+ Score = 25.8 bits (55),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 27/55 (49%), Gaps = 6/55 (11%)
+
+Query  57   GSTETGNLGTLGPSIASNLESAFGKDGVWIQGVGGAYRATLGDNALPRGTSSAAI  111
+            G+  TG +G L P     +E+AF    + I+G+GG     L    LP G  SA +
+Sbjct  78   GAKVTGLVGDLAP-----VEAAFSLKTL-IEGMGGKVECRLDGAKLPEGNRSAYV  126
+
+
+> DMKJLJHC_01407 Enoyl-[acyl-carrier-protein] reductase [NADH] 
+FabI
+Length=262
+
+ Score = 25.0 bits (53),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 20/37 (54%), Gaps = 3/37 (8%)
+
+Query  34   TTRDDLINGNSASCRDVIFIYARGS---TETGNLGTL  67
+            TTRD+  N  + SC   I +  R S   TE G+L TL
+Sbjct  108  TTRDNFKNSLTISCYSFIDVAKRASELMTEGGSLITL  144
+
+
+> DMKJLJHC_02839 hypothetical protein
+Length=303
+
+ Score = 25.0 bits (53),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 17/35 (49%), Gaps = 0/35 (0%)
+
+Query  114  MLGLFQQANTKCPDATLIAGGYSQGAALAAASIED  148
+            +  +    + K PD  L+ GG  +GA + AA   D
+Sbjct  205  IWSVLDATHAKYPDMVLLHGGTPKGAEMIAARWAD  239
+
+
+> DMKJLJHC_07092 hypothetical protein
+Length=150
+
+ Score = 24.6 bits (52),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 21/80 (26%), Positives = 35/80 (44%), Gaps = 10/80 (13%)
+
+Query  63   NLGTLGPSIASNLESAFGKDGVWIQGVG----GAYRATLG---DNALPRGTSSAAI---R  112
+             +G  G S+A    + FG D +W++ +     G  RA L     +AL    ++ A+   R
+Sbjct  57   EIGDWGHSLAWPSGAEFGADTLWLETLSATGHGDVRAFLEWRLRHALSLSKAADALGVSR  116
+
+Query  113  EMLGLFQQANTKCPDATLIA  132
+             M+  +     K P   L+A
+Sbjct  117  RMVAYYSNGEKKVPKPILLA  136
+
+
+> DMKJLJHC_04048 hypothetical protein
+Length=434
+
+ Score = 25.0 bits (53),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 15/33 (45%), Gaps = 0/33 (0%)
+
+Query  180  ADRTKVFCNTGDLVCTGSLIVAAPHLAYGPDAR  212
+            AD   V CN   ++  G L +    L Y P AR
+Sbjct  226  ADLRYVHCNRPTVITGGELTIDMLDLTYNPTAR  258
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 193791129
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,131 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A075B5G4|A0A075B5G4_HUMIN Cutinase OS=Humicola insolens
+OX=34413 PE=1 SV=1
+
+Length=194
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03525 Voltage-gated potassium channel Kch                  27.7    0.40 
+  GFJPDDAG_01814 hypothetical protein                                 26.9    0.94 
+  GFJPDDAG_02364 Swarming motility protein SwrC                       25.8    1.9  
+  GFJPDDAG_03162 hypothetical protein                                 25.0    2.1  
+  GFJPDDAG_02606 Phosphoribosylformylglycinamidine synthase subun...  25.0    2.8  
+  GFJPDDAG_00924 Sulfate permease CysP                                24.3    6.4  
+
+
+> GFJPDDAG_03525 Voltage-gated potassium channel Kch
+Length=340
+
+ Score = 27.7 bits (60),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 22/87 (25%), Positives = 36/87 (41%), Gaps = 10/87 (11%)
+
+Query  77   QANIDEGKRLFALANQKCPNTPVVAGGYSQGAALIAAAVSELSGAVKEQVKGVALFGYTQ  136
+            +ANI E KR+   ++ K  +  +V G       LIA+AV  LS   + +V  +       
+Sbjct  173  KANIFEAKRVAIFSDSKIDDPSLVDG----KTLLIASAVEGLSNTHQREVHTIV------  222
+
+Query  137  NLQNRGGIPNYPRERTKVFCNVGDAVC  163
+             +     IP +     + F    D+V 
+Sbjct  223  EVSEDRHIPKFQHISVEDFILSNDSVS  249
+
+
+> GFJPDDAG_01814 hypothetical protein
+Length=991
+
+ Score = 26.9 bits (58),  Expect = 0.94, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 21/47 (45%), Gaps = 8/47 (17%)
+
+Query  117  ELSGAVKEQVKGVALFGYTQNLQNRGGIP--------NYPRERTKVF  155
+            ELS   KEQ+     F   Q+  ++  +P        N+ RERT  F
+Sbjct  900  ELSQGTKEQLYIAIRFALIQSFHDKYSLPVLIDDGVVNFDRERTNAF  946
+
+
+> GFJPDDAG_02364 Swarming motility protein SwrC
+Length=1010
+
+ Score = 25.8 bits (55),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 21/39 (54%), Gaps = 1/39 (3%)
+
+Query  46   LESHIRNIWI-QGVGGPYDAALATNFLPRGTSQANIDEG  83
+            +E  I+ I + +GVG P  + L T+ +P G      DEG
+Sbjct  109  VEDAIKGIQLPEGVGEPQISQLNTSMIPIGQVSVTFDEG  147
+
+
+> GFJPDDAG_03162 hypothetical protein
+Length=153
+
+ Score = 25.0 bits (53),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 21/43 (49%), Gaps = 4/43 (9%)
+
+Query  115  VSELSGAVKEQVKGVALFGYTQNLQNRGGIPNYPRERTKVFCN  157
+            VS   GAV   V GVALF +      + G P+ P E  K F N
+Sbjct  7    VSLFIGAVAAIVIGVALFMFI----GKSGEPDTPEEVIKEFYN  45
+
+
+> GFJPDDAG_02606 Phosphoribosylformylglycinamidine synthase subunit 
+PurQ
+Length=228
+
+ Score = 25.0 bits (53),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  99   VVAGGYSQGAALIAAAVSELSGAVKEQVK  127
+            ++ GG+S G  L + A++  S  +KE VK
+Sbjct  46   LLPGGFSYGDYLRSGAIARFSNVMKEVVK  74
+
+
+> GFJPDDAG_00924 Sulfate permease CysP
+Length=354
+
+ Score = 24.3 bits (51),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  38   VGPALANGLESHIRNIWIQGV  58
+            VGP + +GL S  R IWI G+
+Sbjct  189  VGPLVGSGLLSPSRGIWIGGL  209
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 98162448
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,207 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|N6VY44|N6VY44_9ALTE Lipase OS=Marinobacter nanhaiticus D15-8W
+OX=626887 GN=J057_15340 PE=4 SV=1
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             39.3    3e-04
+  DMKJLJHC_01762 hypothetical protein                                 25.8    2.6  
+  DMKJLJHC_06471 hypothetical protein                                 26.2    3.1  
+  DMKJLJHC_03775 hypothetical protein                                 26.6    3.1  
+  DMKJLJHC_05388 hypothetical protein                                 24.6    6.0  
+  DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC     25.8    6.5  
+  DMKJLJHC_00810 hypothetical protein                                 25.4    6.6  
+  DMKJLJHC_01441 Spore cortex-lytic enzyme                            25.0    8.5  
+  DMKJLJHC_03750 2,6-dihydropseudooxynicotine hydrolase               25.4    8.9  
+  DMKJLJHC_04043 Ribonucleoside-diphosphate reductase subunit alp...  25.4    9.5  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 39.3 bits (90),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 36/132 (27%), Positives = 51/132 (39%), Gaps = 36/132 (27%)
+
+Query  84   GYLSYESSIEWWGERLASHGFVVMTIDTNTIYDQPGSRRDQIDAA-LDYLVDRSDSSFSA  142
+            GY     +  W  ERLA  GF+ + +      DQPG+    +D A   +L +R       
+Sbjct  81   GYSGLWRNQAWLAERLARAGFIAVAL------DQPGTTFGDLDPAWATHLTERPHQVSRV  134
+
+Query  143  ISGM---------VDGDRLGAVGWSMGGGGTLQLASGDRLSAAIPLAPWNSSFNDFDDIE  193
+            +  +         +D  R+  +G S+GG   L LA G                  FD   
+Sbjct  135  LDAVLADPKLGPRIDRKRISVIGHSLGGSTALFLAGG-----------------RFDP--  175
+
+Query  194  TPTLIFACENDT  205
+             P L+ AC NDT
+Sbjct  176  -PLLLKACGNDT  186
+
+
+> DMKJLJHC_01762 hypothetical protein
+Length=106
+
+ Score = 25.8 bits (55),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  121  RRDQIDAALDYLVDRSDSSFSAISGMVDG  149
+            R DQ      Y+ D+SD  F+ +SG+ DG
+Sbjct  27   RMDQAGTCFLYVQDQSDGLFTVVSGVGDG  55
+
+
+> DMKJLJHC_06471 hypothetical protein
+Length=200
+
+ Score = 26.2 bits (56),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 16/31 (52%), Gaps = 0/31 (0%)
+
+Query  180  APWNSSFNDFDDIETPTLIFACENDTVAPVG  210
+            AP  + + +F+  ETP  +FA   D   PV 
+Sbjct  120  APLRALWEEFEAAETPDAVFAKSLDRAQPVA  150
+
+
+> DMKJLJHC_03775 hypothetical protein
+Length=353
+
+ Score = 26.6 bits (57),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 22/106 (21%), Positives = 39/106 (37%), Gaps = 2/106 (2%)
+
+Query  85   YLSYESSIEWWGERLA-SHGFVVMTIDTNTIYDQPGSRRDQIDAALDYLVDRSDSSFSAI  143
+            Y++ E  +EW  ++   +  ++ + +D     D    RR   D A     D  +      
+Sbjct  109  YVNLERPLEWELQKTGPAKAWIRLEVDERCFVDG-DPRRSIFDGAFRRKWDGFEKEGLLF  167
+
+Query  144  SGMVDGDRLGAVGWSMGGGGTLQLASGDRLSAAIPLAPWNSSFNDF  189
+             G         VG  + G   ++   G  +    PL+ W+S  ND 
+Sbjct  168  YGFRKRFLNRGVGGHIAGKPVVRAGQGYAIGVHFPLSNWDSKVNDL  213
+
+
+> DMKJLJHC_05388 hypothetical protein
+Length=91
+
+ Score = 24.6 bits (52),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 9/30 (30%), Positives = 14/30 (47%), Gaps = 0/30 (0%)
+
+Query  192  IETPTLIFACENDTVAPVGVHASPFYYDIP  221
+            I+ P  +     DT  P+ VH+ P    +P
+Sbjct  26   IDCPAELIHGTADTTVPLAVHSEPLSRQLP  55
+
+
+> DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC
+Length=597
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 12/18 (67%), Gaps = 0/18 (0%)
+
+Query  191  DIETPTLIFACENDTVAP  208
+            D++ P +  ACE D +AP
+Sbjct  473  DVKVPLMAIACETDHIAP  490
+
+
+> DMKJLJHC_00810 hypothetical protein
+Length=336
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 30/62 (48%), Gaps = 5/62 (8%)
+
+Query  87   SYESS---IEW--WGERLASHGFVVMTIDTNTIYDQPGSRRDQIDAALDYLVDRSDSSFS  141
+            SY++S   ++W  W  RL   G   +T+D +  +  P      IDA  D+L   +  SF 
+Sbjct  99   SYKASHFGMDWLNWLLRLYGTGHWTLTVDPDEFFVYPFCDTRPIDALTDWLDTYAIRSFP  158
+
+Query  142  AI  143
+            A+
+Sbjct  159  AM  160
+
+
+> DMKJLJHC_01441 Spore cortex-lytic enzyme
+Length=229
+
+ Score = 25.0 bits (53),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 20/81 (25%), Positives = 38/81 (47%), Gaps = 5/81 (6%)
+
+Query  210  GVHASPFYYDIPASTDKAFFE-INNGNHFCANGDNANDAVLSKYGVSWMKLHIDQDARYG  268
+            G+ ++ +    P +T  A FE ++   +F A G+     V  +  V+ + L+   D R+ 
+Sbjct  81   GLLSAAWLSQQPKATGGAQFECLSRALYFEARGET----VKGQQAVAEVILNRVDDPRFP  136
+
+Query  269  QFLCGPNHESQYRISEYRGTC  289
+              +CG  H+S  R  ++   C
+Sbjct  137  GSICGVVHQSNARGCQFSWYC  157
+
+
+> DMKJLJHC_03750 2,6-dihydropseudooxynicotine hydrolase
+Length=389
+
+ Score = 25.4 bits (54),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 42/194 (22%), Positives = 73/194 (38%), Gaps = 27/194 (14%)
+
+Query  94   WWGERLASHGFVVMTIDTNTIYDQPGSRRDQIDAALDYLVDRSDSS--------FSAISG  145
+            W    LA  G   + ID      QPG+        L  L  R DS         + A   
+Sbjct  171  WLPHALAKRGISTLCID------QPGTGES---IRLQGLHGRYDSEAWGTPVFDWMAAHP  221
+
+Query  146  MVDGDRLGAVGWSMGGGGTLQLASGD-RLSAAIPLAPWNSSFNDFDDIETPTLIFACEND  204
+             +D DR+G  G S+GG    ++ + + R ++    A W ++ N + +++   +    EN 
+Sbjct  222  EIDADRIGCSGISLGGYYVPRVVANEPRFASG---AVWGANHN-WAEVQRRRMQREGEN-  276
+
+Query  205  TVAPVGVHASPFYYDIPASTDKAFFEINNGNHFCANGDNANDAVLSKYGVSWMKLHIDQD  264
+               PV  +    ++   A+  + F E   G       +      L  +G +  ++ +D  
+Sbjct  277  ---PVPHYWKHVWWVFDATDQEDFLEKTKGMTLDGQMEKIKVPFLITHGENDRQIRVDYA  333
+
+Query  265  AR-YGQFLCGPNHE  277
+             + Y Q    P  E
+Sbjct  334  IQSYDQLTSSPRRE  347
+
+
+> DMKJLJHC_04043 Ribonucleoside-diphosphate reductase subunit alpha 
+1
+Length=710
+
+ Score = 25.4 bits (54),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 11/46 (24%), Positives = 25/46 (54%), Gaps = 6/46 (13%)
+
+Query  89   ESSIEWWGERLASHGFVVMTIDTNTIYDQPGSRRDQIDAALDYLVD  134
+            E +I++  +R+A+  + +  ++ NT++         ++  L YLVD
+Sbjct  25   EGNIQFEADRMAARQYFLQHVNQNTVFFH------SLEEKLGYLVD  64
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 268487422
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

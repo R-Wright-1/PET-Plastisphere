@@ -1,0 +1,142 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= UPI0003660256 status=active
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  28.5    0.44 
+  GFJPDDAG_02835 Aminopeptidase 2                                     26.6    1.9  
+  GFJPDDAG_01240 Purine catabolism regulatory protein                 26.6    2.0  
+  GFJPDDAG_02967 PTS system mannitol-specific EIICBA component        25.8    3.6  
+  GFJPDDAG_00868 Sporulation kinase A                                 25.0    6.6  
+  GFJPDDAG_01000 D-alanyl-D-alanine carboxypeptidase DacA             24.6    9.4  
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 28.5 bits (62),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 29/115 (25%), Positives = 49/115 (43%), Gaps = 10/115 (9%)
+
+Query  65   YYPTASGTYGAIAVSPGFTGTSSTMTFWGERLASHGFVVLVIDTI--TLYDQPDSRARQL  122
+            Y+    G    +    GFTG ++T T   +RL+S+ +  + ID I     D P   AR  
+Sbjct  10   YFVEVKGQGKPLVFLHGFTGDTTTWTRVTDRLSSN-YRCISIDLIGHGRTDSPVDCAR--  66
+
+Query  123  KAALDYLATQNGRSSSPIYRKVDTSRRAVAGHSMGGGGSLLAARDNPSYKAAIPM  177
+                 Y   Q     + I  +++  +  + G+SMGG  +L     +P    A+ +
+Sbjct  67   -----YTMEQVSHDINTILNRLEVIQAQLIGYSMGGRTALHFTLMHPQKVGALIL  116
+
+
+> GFJPDDAG_02835 Aminopeptidase 2
+Length=410
+
+ Score = 26.6 bits (57),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 11/36 (31%), Positives = 19/36 (53%), Gaps = 0/36 (0%)
+
+Query  205  APVSSHAIPFYNAIPNSTRKNYVEIRNDDHFCVMNG  240
+            +P+S   + FYN + +    N++ I N   FC+  G
+Sbjct  324  SPISQSNVLFYNTLFDENASNHLAIGNAYAFCIEGG  359
+
+
+> GFJPDDAG_01240 Purine catabolism regulatory protein
+Length=533
+
+ Score = 26.6 bits (57),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 24/125 (19%), Positives = 44/125 (35%), Gaps = 37/125 (30%)
+
+Query  191  SVPTMIFGCQDDSIAPVSSHAIPFYNAIPNSTRKNYVEIRNDDHFCVMN-----------  239
+            S+P  +  C DD   PV    I F   +P      +V I  D H  ++N           
+Sbjct  93   SIPVSVLKCADDFDFPV----IVFQKEVP------FVSITQDIHSVLINQQYDMIKKLDS  142
+
+Query  240  ----------GGGH-----DATLGKLGISWMKRFVDNDTRYSPFVCGAEYNRVVSSYE-V  283
+                      G  H          +L +  + +  +    + P +C  E  ++++ Y+  
+Sbjct  143  YAQDLNKKLLGVNHFRDILQVLHSELNVQVLFQLKEQKVEFYPLLCSPEQVKLINKYDRY  202
+
+Query  284  SRSYN  288
+             ++YN
+Sbjct  203  KKTYN  207
+
+
+> GFJPDDAG_02967 PTS system mannitol-specific EIICBA component
+Length=636
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 26/89 (29%), Positives = 35/89 (39%), Gaps = 5/89 (6%)
+
+Query  6    LSTILLAACAALAAPGLAQAQYQ-QGPDPTASALERNGPFAIRSTSVSRTSVSGFGGGRL  64
+            LS+++L    A  A GL  A +   G  P  S     GP       +    + G+ GG+L
+Sbjct  17   LSSMVLPNIGAFIAWGLITALFIPTGFIPNESLANLVGPMVTYLLPL----LIGYTGGKL  72
+
+Query  65   YYPTASGTYGAIAVSPGFTGTSSTMTFWG  93
+             +    G  GAIA      G   T  F G
+Sbjct  73   VHDQRGGIVGAIATMGVIVGAPDTPMFLG  101
+
+
+> GFJPDDAG_00868 Sporulation kinase A
+Length=486
+
+ Score = 25.0 bits (53),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 10/17 (59%), Gaps = 0/17 (0%)
+
+Query  199  CQDDSIAPVSSHAIPFY  215
+            C DDSI  V   AIP Y
+Sbjct  225  CLDDSIVEVEVKAIPTY  241
+
+
+> GFJPDDAG_01000 D-alanyl-D-alanine carboxypeptidase DacA
+Length=437
+
+ Score = 24.6 bits (52),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 17/30 (57%), Gaps = 2/30 (7%)
+
+Query  101  FVVLVIDTITLYDQPDSRAR--QLKAALDY  128
+            ++ +++D    Y QP SR R  Q K  LDY
+Sbjct  275  YISVILDAKDEYGQPSSRERFIQSKELLDY  304
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 174133680
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

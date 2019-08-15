@@ -1,0 +1,171 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NWX4|A0A0K8NWX4_IDESA Uncharacterized protein ImpD
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0364 PE=4
+SV=1
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03312 N(2)-citryl-N(6)-acetyl-N(6)-hydroxylysine synthase  29.3    0.10 
+  GFJPDDAG_01426 Carbamoyl-phosphate synthase large chain             29.3    0.14 
+  GFJPDDAG_00333 Carboxy-terminal processing protease CtpA            28.1    0.26 
+  GFJPDDAG_01504 Glutaminase                                          25.4    1.9  
+  GFJPDDAG_01746 3-oxoacyl-[acyl-carrier-protein] reductase FabG      25.0    2.5  
+  GFJPDDAG_02640 hypothetical protein                                 24.6    2.5  
+  GFJPDDAG_03676 Serine hydroxymethyltransferase                      23.9    7.2  
+  GFJPDDAG_02907 hypothetical protein                                 23.1    9.0  
+
+
+> GFJPDDAG_03312 N(2)-citryl-N(6)-acetyl-N(6)-hydroxylysine synthase
+Length=597
+
+ Score = 29.3 bits (64),  Expect = 0.10, Method: Composition-based stats.
+ Identities = 23/65 (35%), Positives = 29/65 (45%), Gaps = 1/65 (2%)
+
+Query  97   PLEYVKITMDEVLISSLSTGGSGGEDRLTENVSLNFAKIKFEYVEQDAQGKPKTPNKEFT  156
+            PL+YV +T   V    L     G ED L   V L+   IK  Y+E  A       ++EF 
+Sbjct  87   PLDYVTLTSLIVKEFLLDKQRPGAEDELLLRVILSCRSIK-RYIESRAHDNDALTDEEFD  145
+
+Query  157  YSIAE  161
+            Y  AE
+Sbjct  146  YIDAE  150
+
+
+> GFJPDDAG_01426 Carbamoyl-phosphate synthase large chain
+Length=1070
+
+ Score = 29.3 bits (64),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 17/65 (26%), Positives = 33/65 (51%), Gaps = 7/65 (11%)
+
+Query  64    KYIDNTSHNLFAACATGDHFTKATLICRK------AGTTPLEYVKITMDEVLISSLSTGG  117
+             ++ID   + + A   T DH TKA +  R+      +G T L+ ++    +++I++L+ G 
+Sbjct  956   RFID-IGYQILATKGTADHLTKANIAVREVDKIGSSGPTLLDIIQSGETQLVINTLTKGK  1014
+
+Query  118   SGGED  122
+                 D
+Sbjct  1015  QPARD  1019
+
+
+> GFJPDDAG_00333 Carboxy-terminal processing protease CtpA
+Length=509
+
+ Score = 28.1 bits (61),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 37/72 (51%), Gaps = 9/72 (13%)
+
+Query  49   GAGAGKANFQ--DLSITKYIDNTSHNLFAACAT----GDHFTKATLICRKAGT-TPLEYV  101
+            G+ A KA  Q  DL ITK  D +   +    A     G+  TK TL  ++AG   P+E V
+Sbjct  167  GSPAEKAGLQPNDL-ITKVDDKSIQGMSVTDAVLLIRGEKGTKVTLTIQRAGQDKPME-V  224
+
+Query  102  KITMDEVLISSL  113
+             IT DE+ I ++
+Sbjct  225  TITRDEIPIDTV  236
+
+
+> GFJPDDAG_01504 Glutaminase
+Length=310
+
+ Score = 25.4 bits (54),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 19/34 (56%), Gaps = 7/34 (21%)
+
+Query  56  NFQDLSITKY-IDNTSHNLFAACATGDHFTKATL  88
+           N  DL+I+ Y +DN+S      C  GDH  K TL
+Sbjct  38  NPTDLAISIYTLDNSS------CYAGDHLKKFTL  65
+
+
+> GFJPDDAG_01746 3-oxoacyl-[acyl-carrier-protein] reductase FabG
+Length=247
+
+ Score = 25.0 bits (53),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  23  KTHVGEIDVLAWSWGLSQSGTAH  45
+           K H G+ID+L  + G+++ G  H
+Sbjct  78  KEHFGKIDILINNAGITRDGMVH  100
+
+
+> GFJPDDAG_02640 hypothetical protein
+Length=142
+
+ Score = 24.6 bits (52),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 27/90 (30%), Positives = 38/90 (42%), Gaps = 26/90 (29%)
+
+Query  64   KYIDNT--SHNLFAACATGDHFTKATLICRKAG---------TTPLEYVKITMDEVLISS  112
+            K+ID+    H LF +       TK  +I   AG         T P+ YV      + IS 
+Sbjct  35   KFIDDRGEKHYLFGS-------TKDIIIGILAGYLSVLPVVDTVPIWYV------IYISL  81
+
+Query  113  LSTGGSGGEDRLTENVSLNFAKIKFEYVEQ  142
+            LS  G GG   +T  +  N A  K  Y+++
+Sbjct  82   LS--GIGGSSVITRKIEQNLASTKASYIQE  109
+
+
+> GFJPDDAG_03676 Serine hydroxymethyltransferase
+Length=413
+
+ Score = 23.9 bits (50),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 21/36 (58%), Gaps = 5/36 (14%)
+
+Query  106  DEVLISSLSTGGSGGEDRLTENVSLNFAKIKFEYVE  141
+            D VL  +LS GG      LT   ++NF+ I++ +VE
+Sbjct  110  DTVLGMNLSHGG-----HLTHGSAVNFSGIQYNFVE  140
+
+
+> GFJPDDAG_02907 hypothetical protein
+Length=221
+
+ Score = 23.1 bits (48),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 33/68 (49%), Gaps = 4/68 (6%)
+
+Query  4   DMFLKIEGGKYKVTGESRDKTHVGEID---VLAWSWGLSQSGTAHLGGGAGAGKANFQDL  60
+           ++FL  EG + KV GE+ ++    E+D    +     L+     +  G     + +F+ +
+Sbjct  28  EVFLIEEGVERKV-GETTEEIQFIEVDGKSAIKRVQTLTSDLLGNRKGVTVVERTSFKPI  86
+
+Query  61  SITKYIDN  68
+           S T YI+N
+Sbjct  87  SFTDYINN  94
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.131    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 76071682
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

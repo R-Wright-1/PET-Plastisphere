@@ -1,0 +1,99 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P9R7|A0A0K8P9R7_IDESA Ortho-halobenzoate 1,2-dioxygenase
+beta-ISP protein OhbA OS=Ideonella sakaiensis (strain 201-F6)
+OX=1547922 GN=ISF6_0228 PE=4 SV=1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_04107 Glutamate--tRNA ligase                               24.3    4.4  
+  GFJPDDAG_03243 hypothetical protein                                 23.5    7.5  
+  GFJPDDAG_03424 NADH dehydrogenase-like protein                      23.5    8.8  
+
+
+> GFJPDDAG_04107 Glutamate--tRNA ligase
+Length=485
+
+ Score = 24.3 bits (51),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 10/23 (43%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  91   QDDTGAEARTPFMVARIMATGQT  113
+            Q  TG + +  FM  R+  TGQT
+Sbjct  437  QKSTGHKGKKLFMPIRVAVTGQT  459
+
+
+> GFJPDDAG_03243 hypothetical protein
+Length=321
+
+ Score = 23.5 bits (49),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 18/67 (27%), Positives = 29/67 (43%), Gaps = 4/67 (6%)
+
+Query  88   LGAQDDTGAEARTPFMVARIMATGQTELFASGIYRDRVVRQDGGLRLRSRVAVCDSTVTD  147
+            LG  ++T A      ++      G   +    +  D V ++D  +     VA C + V D
+Sbjct  212  LGMNENTSATMVAGLVIGLAYGAG---VMIQAVQEDGVSKKDVTIAFIFLVA-CHAVVED  267
+
+Query  148  TLLALPL  154
+            TL+ LPL
+Sbjct  268  TLIFLPL  274
+
+
+> GFJPDDAG_03424 NADH dehydrogenase-like protein
+Length=426
+
+ Score = 23.5 bits (49),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 16/66 (24%), Positives = 34/66 (52%), Gaps = 2/66 (3%)
+
+Query  75   ERQRYRHLLGIPLLGAQDDTGAEARTPFMVARIMATGQTELFASGIYRDRVVRQDGGLRL  134
+            E++     +G PL  A+ D+   ++    V  I A   T ++A+G+  + ++ + G   +
+Sbjct  242  EKKGVEFHIGTPLKEAKADSVLISKGEDEVEEIKAG--TIVWAAGVRGNSIIEKAGIENM  299
+
+Query  135  RSRVAV  140
+            R+RV +
+Sbjct  300  RARVKI  305
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 67860447
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

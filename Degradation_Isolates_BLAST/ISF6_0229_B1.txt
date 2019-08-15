@@ -1,0 +1,425 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P8F3|A0A0K8P8F3_IDESA 4-hydroxythreonine-4-phosphate
+dehydrogenase OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0229 PE=3 SV=1
+
+Length=326
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_02869 1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxyla...  275     5e-92
+  DMKJLJHC_02045 4-hydroxythreonine-4-phosphate dehydrogenase         142     2e-40
+  DMKJLJHC_05278 4-hydroxythreonine-4-phosphate dehydrogenase 1       98.6    8e-25
+  DMKJLJHC_07404 4-hydroxythreonine-4-phosphate dehydrogenase 2       43.1    1e-06
+  DMKJLJHC_05566 Phosphate acyltransferase                            29.6    0.40 
+  DMKJLJHC_02021 Phosphate acyltransferase                            29.3    0.51 
+  DMKJLJHC_03362 5-dehydro-2-deoxygluconokinase                       28.1    1.0  
+  DMKJLJHC_03576 putative siderophore transport system ATP-bindin...  27.7    1.6  
+  DMKJLJHC_00781 3-isopropylmalate dehydrogenase                      26.9    2.6  
+  DMKJLJHC_04816 3-isopropylmalate dehydrogenase                      26.6    3.4  
+  DMKJLJHC_04609 Ribosomal RNA small subunit methyltransferase C      25.8    3.6  
+  DMKJLJHC_05487 Acetylornithine deacetylase                          26.6    3.9  
+  DMKJLJHC_04640 putative D,D-dipeptide-binding periplasmic prote...  26.6    4.0  
+  DMKJLJHC_00575 Protein translocase subunit SecA                     26.6    4.9  
+  DMKJLJHC_03245 putative tartrate dehydrogenase/decarboxylase TtuC'  26.2    5.4  
+  DMKJLJHC_04241 L-2-hydroxyglutarate oxidase LhgO                    26.2    5.5  
+  DMKJLJHC_02432 Ferrous iron permease EfeU                           25.8    6.3  
+  DMKJLJHC_02606 Phenylalanine--tRNA ligase beta subunit              25.8    7.3  
+  DMKJLJHC_04557 UDP-glucose 6-dehydrogenase                          25.8    7.3  
+  DMKJLJHC_03516 Lipopolysaccharide export system ATP-binding pro...  25.4    7.5  
+  DMKJLJHC_05455 Threonine synthase                                   25.4    8.3  
+  DMKJLJHC_00646 hypothetical protein                                 25.4    9.9  
+
+
+> DMKJLJHC_02869 1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate 
+dehydrogenase
+Length=325
+
+ Score = 275 bits (702),  Expect = 5e-92, Method: Compositional matrix adjust.
+ Identities = 154/314 (49%), Positives = 197/314 (63%), Gaps = 9/314 (3%)
+
+Query  15   LAVGDPNGIGPEIALKALAALPAAARGRITLYGPAAVLERTASQLG------QEALLREQ  68
+            L +GDPNGIGPEIA KA A+L      R  L G   ++   A  LG      +     ++
+Sbjct  11   LTIGDPNGIGPEIATKAAASLYQDPVCRPVLLGDEYIISPLADSLGFGVQTNRSKWGSDE  70
+
+Query  69   PVVD---AGALPAQAARPGRIDPAAGASAVASASAAIEACRRGEADAVVACPHHETAIHQ  125
+              +D     A+P     PG++  AAG + VA   +A+     G    +V CPH ETA++ 
+Sbjct  71   KTIDLHPIEAMPTAEFIPGKVSAAAGRATVAYVESALTLLSDGFGRGIVGCPHSETAVNL  130
+
+Query  126  AGIAFSGYPSLVARVCGQPEDSVFLMLVGGGLRIVHATLHESVAHALGRLQPALIAAAAR  185
+            +G  FSGYPSL+A +     DS+FLMLVGGGLRIVHATLHE ++ AL R+ P L+  A  
+Sbjct  131  SGRKFSGYPSLLADLLKTGPDSIFLMLVGGGLRIVHATLHEGISGALNRIDPELVVKAVV  190
+
+Query  186  AGARACARLGVADPRIGVFGINPHASEGGLFGPEDAQHVEPAVQALRAEGLRVDGPLGAD  245
+            A   A   LGV  P+IG+FGINPHA E GLFG ED + + PA+Q LR +G+   GP GAD
+Sbjct  191  AADAALRELGVDKPKIGLFGINPHAGENGLFGDEDDRIIVPAIQKLREQGIDAHGPEGAD  250
+
+Query  246  LLLAQRRHDLYVAMLHDQGHIPVKLLAPNAASALSIGAQVLLSSVGHGSAMDIAGRGIAD  305
+             +LA+  +D +VAM HDQGHIPVKLLA   ++ALSIGA  L SSVGHG+A DIAG+  AD
+Sbjct  251  TMLARDGYDAFVAMYHDQGHIPVKLLAGRKSTALSIGANTLFSSVGHGAAFDIAGKNCAD  310
+
+Query  306  PGAVLRTIALLSGA  319
+            P AV+R + L+ GA
+Sbjct  311  PEAVIRAVRLVGGA  324
+
+
+> DMKJLJHC_02045 4-hydroxythreonine-4-phosphate dehydrogenase
+Length=332
+
+ Score = 142 bits (358),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 107/313 (34%), Positives = 155/313 (50%), Gaps = 24/313 (8%)
+
+Query  15   LAVGDPNGIGPEIALKALAALPAAARGRITLYGPAAVLERTASQLGQEALLREQPVVDAG  74
+            L+ GDP+GIGPE+A +A       AR      G  A L R  +++ + A   E       
+Sbjct  12   LSCGDPSGIGPELAARAWEHF--GARLPFVWLGDPAHLPR-GTKIREIAQPSEAVTHSGS  68
+
+Query  75   ALPA------QAARPGRIDPAAGASAVASASAAIEACRRGEADAVVACPHHETAIHQ-AG  127
+            ALP        AARPG  DP    + +   +  ++   RGE  A+   P H+ A+   AG
+Sbjct  69   ALPVLPHAFPAAARPGDPDPENARAVIDVIARGVDLVMRGEGSALTTAPIHKKALKDGAG  128
+
+Query  128  IAFSGYPSLVARVCGQPEDSVFLMLVGGG----LRIVHATLHESVAHALGRLQPALIAAA  183
+             AF G+   +A + G   + V +ML        LR+V AT+H  ++     L P L+   
+Sbjct  129  FAFPGHTEFLAHLAGV--ERVVMMLASSNIKPPLRVVPATIHIGLSEVPSTLTPQLLRDT  186
+
+Query  184  AR---AGARACARLGVADPRIGVFGINPHASEGGLFGPEDAQHVEPAVQALRAEGLRVDG  240
+             R   AG RA    G   PRI + G+NPHA EGG  G E+   +   + +LRAEG  + G
+Sbjct  187  VRITNAGLRA--DFGFTMPRIAIAGLNPHAGEGGAMGREELDWIRDEIASLRAEGFALSG  244
+
+Query  241  PLGADLLLAQR---RHDLYVAMLHDQGHIPVKLLAPNAASALSIGAQVLLSSVGHGSAMD  297
+            PL AD L   R   R+D  +   HDQ  IP+K L  +    +++G   + +S  HG+A D
+Sbjct  245  PLPADTLFHDRARSRYDAVICAYHDQALIPIKTLDFDGGVNVTLGLPFVRTSPDHGTAYD  304
+
+Query  298  IAGRGIADPGAVL  310
+            IAG+G A+P +++
+Sbjct  305  IAGQGRANPASLI  317
+
+
+> DMKJLJHC_05278 4-hydroxythreonine-4-phosphate dehydrogenase 1
+Length=259
+
+ Score = 98.6 bits (244),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 78/224 (35%), Positives = 111/224 (50%), Gaps = 4/224 (2%)
+
+Query  91   GASAVASASAAIEACRRGEADAVVACPHHETAIHQAGIAFSGYPSLVARVCGQPEDSVFL  150
+            GA  +A+    ++     +ADA+V  P ++ ++H AG+A S      A   G    SV  
+Sbjct  19   GAHCLATLGLGLDLVSDRKADALVFAPLNKASLHLAGMAQSDELHWFADRLGH-NGSVSE  77
+
+Query  151  MLVGGGLRIVHATLHESVAHALGRLQPALIAAAARAGARACARLGVADPRIGVFGINPHA  210
+            + V  GL     T H ++      +    I  AAR    A    GVA  RIG+ G+NPH 
+Sbjct  78   INVMEGLWTSRVTSHVALREVADLITVEKIVVAARLIHAALLDGGVAAARIGICGLNPHN  137
+
+Query  211  SEGGLFGPEDAQHVEPAVQALRAEGLRVDGPLGADLLLAQ---RRHDLYVAMLHDQGHIP  267
+             +GG FG E+ + V PAV A +AEGL V+GP  AD +  +   +  D  V + HDQG I 
+Sbjct  138  GDGGNFGTEEIEIVTPAVAAAQAEGLPVEGPYPADTIFLKAVAKELDAVVTLYHDQGQIA  197
+
+Query  268  VKLLAPNAASALSIGAQVLLSSVGHGSAMDIAGRGIADPGAVLR  311
+            +KLL       +  G  V +++  HG+A DI G G A  G +L 
+Sbjct  198  IKLLGFWQGVTVQGGLPVPVTTPAHGTAFDIRGAGRAHVGPMLN  241
+
+
+> DMKJLJHC_07404 4-hydroxythreonine-4-phosphate dehydrogenase 2
+Length=66
+
+ Score = 43.1 bits (100),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 32/52 (62%), Gaps = 0/52 (0%)
+
+Query  259  MLHDQGHIPVKLLAPNAASALSIGAQVLLSSVGHGSAMDIAGRGIADPGAVL  310
+            M HDQ  IP+K +       +++G   + +S  HG+A DIAG+G ADP +++
+Sbjct  1    MYHDQALIPIKTVDFAGGVNVTLGLPFIRTSPDHGTAFDIAGQGKADPTSMI  52
+
+
+> DMKJLJHC_05566 Phosphate acyltransferase
+Length=368
+
+ Score = 29.6 bits (65),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 48/178 (27%), Positives = 70/178 (39%), Gaps = 28/178 (16%)
+
+Query  43   ITLYGPAAVLER----TASQLGQEALLREQPVVDAGALPAQAARPGRIDPAAGASAVASA  98
+              L+G  AVLER      S +G+  L   + VV   A P+   R G+           S 
+Sbjct  47   FILHGDTAVLERLVQKRKSLVGRCELRHAERVVTMDAKPSHVMRNGQ---------GTSM  97
+
+Query  99   SAAIEACRRGEADAVVACPHHETAIHQAGIAFSGYPSLV--ARVCGQPEDSVFLMLVGGG  156
+             + IEA R G+A   V+C +    +  + I     P +   A  C  P  +        G
+Sbjct  98   WSTIEAVRAGDATVAVSCGNTGALMALSMIRLRKIPGVNRPAIACLWPSRNP------QG  151
+
+Query  157  LRIVHATLHESVAHALGRLQPALIAAA-ARAGARACARLGVADPRIGVFGINPHASEG  213
+              ++     +  A A   LQ AL+ AA AR G      L +  PRIG+  +     +G
+Sbjct  152  FNVMLDVGADVKADAEDLLQYALMGAAYARNG------LHLERPRIGLLNVGTEEHKG  203
+
+
+> DMKJLJHC_02021 Phosphate acyltransferase
+Length=390
+
+ Score = 29.3 bits (64),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 31/98 (32%), Positives = 44/98 (45%), Gaps = 13/98 (13%)
+
+Query  23   IGPEIALKALA-ALPAAARGRITLYGPAAVLERTASQ--LGQEALLRE-QPVVDAGALPA  78
+            +GPE  +  +A A   A   +  ++GP  VL    +Q  LG +  L   + VV     PA
+Sbjct  45   LGPEATIAGVAKAARTAPELQFIVHGPQEVLAPLIAQHNLGDKVELHHAEGVVTMEDKPA  104
+
+Query  79   QAARPGRIDPAAGASAVASASAAIEACRRGEADAVVAC  116
+            Q  R G+           S  +AIE+ R G AD  V+C
+Sbjct  105  QVMRSGK---------NTSMWSAIESVREGAADVAVSC  133
+
+
+> DMKJLJHC_03362 5-dehydro-2-deoxygluconokinase
+Length=328
+
+ Score = 28.1 bits (61),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 35/89 (39%), Gaps = 17/89 (19%)
+
+Query  118  HHETAIHQA-----------GIAFSGYPSLVARVCGQPEDSVFLMLVGGGLRIVHATLHE  166
+            H +TA H+A           GIA S  P  V R     +D  F  LV   +  V    HE
+Sbjct  165  HGKTAFHKAAEGCHRGGGRAGIALSD-PFCVNR---HRDD--FRRLVRDQMDYVIGNEHE  218
+
+Query  167  SVAHALGRLQPALIAAAARAGARACARLG  195
+              A     L+PAL  AA   G   C R G
+Sbjct  219  WQALYQTELEPALQQAAQECGTVVCTRSG  247
+
+
+> DMKJLJHC_03576 putative siderophore transport system ATP-binding 
+protein YusV
+Length=256
+
+ Score = 27.7 bits (60),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 20/41 (49%), Gaps = 0/41 (0%)
+
+Query  7   AVAPPRLALAVGDPNGIGPEIALKALAALPAAARGRITLYG  47
+            V P     AV  PNG G    L+AL  L    RGR++L G
+Sbjct  23  VVLPKGRVTAVIGPNGCGKSTFLRALGGLLRPERGRVSLDG  63
+
+
+> DMKJLJHC_00781 3-isopropylmalate dehydrogenase
+Length=367
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  292  HGSAMDIAGRGIADPGAVLRTIAL  315
+            HGSA DIAG+G A+P A + + A+
+Sbjct  286  HGSAPDIAGQGKANPIACILSFAM  309
+
+
+> DMKJLJHC_04816 3-isopropylmalate dehydrogenase
+Length=368
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  292  HGSAMDIAGRGIADPGAVLRTIAL  315
+            HGSA DIAG+G A+P A + + A+
+Sbjct  287  HGSAPDIAGQGKANPIACILSFAM  310
+
+
+> DMKJLJHC_04609 Ribosomal RNA small subunit methyltransferase 
+C
+Length=122
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 23/66 (35%), Positives = 28/66 (42%), Gaps = 6/66 (9%)
+
+Query  184  ARAGARACARLGVADPRIGVFGINPHASEGGLFGPEDAQHVEPAVQALRAEGLRVDGPLG  243
+            A A A  CARL + DPR      +  A+   L GP DA  + P        G   D  LG
+Sbjct  6    AEAAALDCARLNITDPRAQFHWAD--ATRLRLEGPVDAVVMNPPFHT----GRSADPALG  59
+
+Query  244  ADLLLA  249
+            A  + A
+Sbjct  60   AAFITA  65
+
+
+> DMKJLJHC_05487 Acetylornithine deacetylase
+Length=279
+
+ Score = 26.6 bits (57),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 18/42 (43%), Positives = 24/42 (57%), Gaps = 1/42 (2%)
+
+Query  1   MNATPAAVAPPRLALAVGDPNGIGPEIALKALAALPAAARGR  42
+           + A P   APP L   VG+P+ + P +A K  AAL   ARG+
+Sbjct  55  LAALPDLCAPP-LGCIVGEPSKLRPVLAHKGKAALELVARGQ  95
+
+
+> DMKJLJHC_04640 putative D,D-dipeptide-binding periplasmic protein 
+DdpA
+Length=501
+
+ Score = 26.6 bits (57),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 45/105 (43%), Gaps = 24/105 (23%)
+
+Query  141  CGQPED-SVFLMLVGGGLRIVHATLHESVAHALGRLQPALIAAAARAGARACARLGVADP  199
+             G P+D + F+ +V      V    H S A +LGR Q   +AAA  AG     R+G+ D 
+Sbjct  400  WGAPDDLNTFMAMVNN----VPQDWHWS-AFSLGRNQMPYVAAAVLAGGN--VRVGLEDN  452
+
+Query  200  RI---GVFGINPHASEGGLFGPEDAQHVEPAVQALRAEGLRVDGP  241
+             +   GV   N             AQ V+ +V  +   G RV GP
+Sbjct  453  LMLDRGVLATN-------------AQLVDKSVGIIERLGARVIGP  484
+
+
+> DMKJLJHC_00575 Protein translocase subunit SecA
+Length=897
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 43/159 (27%), Positives = 64/159 (40%), Gaps = 20/159 (13%)
+
+Query  106  RRGEADAV--VACPHHETAIHQAGIAF-SGYPSLVARVCGQPEDSVFLMLVGGGL--RIV  160
+            R+ E D V   A   +E  I   G+A   G P LV     +  + +  ML   G+   ++
+Sbjct  411  RKDEHDRVYRTAREKYEAVIKAIGVAHEKGQPILVGTTSIEKSEMLSEMLTKNGVTHNVL  470
+
+Query  161  HATLHESVAHAL---GRLQPALIAAAARAGARACARLG--VADPRIGVFGINPHASEGGL  215
+            +A  HE  A  +   GRL  A+  A   AG     +LG  V    +     NP A    +
+Sbjct  471  NARQHEQEAKIVSDAGRL-GAVTIATNMAGRGTDIQLGGNVDMKVLEELDANPEADPDAV  529
+
+Query  216  FGPEDAQHVEPAVQALRAEGLRVDGPLGADLLLAQRRHD  254
+                +A+H +   + L A GL          +LA  RH+
+Sbjct  530  RARIEAEHADEKAKVLEAGGL---------FVLATERHE  559
+
+
+> DMKJLJHC_03245 putative tartrate dehydrogenase/decarboxylase 
+TtuC'
+Length=352
+
+ Score = 26.2 bits (56),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  292  HGSAMDIAGRGIADPGAVLRTIALL  316
+            HGSA DIAG+ IA+P A + + A +
+Sbjct  277  HGSAPDIAGQNIANPIAAIWSAAQM  301
+
+
+> DMKJLJHC_04241 L-2-hydroxyglutarate oxidase LhgO
+Length=348
+
+ Score = 26.2 bits (56),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 19/37 (51%), Gaps = 0/37 (0%)
+
+Query  221  AQHVEPAVQALRAEGLRVDGPLGADLLLAQRRHDLYV  257
+            AQ + P    +RA+ +  DG +  D L    RH L+V
+Sbjct  286  AQDLAPYKSGIRAQAVAPDGRMIDDFLFVGLRHSLHV  322
+
+
+> DMKJLJHC_02432 Ferrous iron permease EfeU
+Length=518
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 25/72 (35%), Positives = 35/72 (49%), Gaps = 8/72 (11%)
+
+Query  119  HETAIHQAGIAFSGYPSLVARVCGQPEDSVFLMLVGGGLRIVHATL--HESVAHAL--GR  174
+            H TA+  A +    + S  A +  Q EDS+ L L GGGL+   +    H+     L   R
+Sbjct  404  HWTALETATL----WTSHGALLDAQGEDSMLLRLSGGGLQTSRSLRLAHDPSGGPLPDWR  459
+
+Query  175  LQPALIAAAARA  186
+            + PA + A ARA
+Sbjct  460  VNPAQVTATARA  471
+
+
+> DMKJLJHC_02606 Phenylalanine--tRNA ligase beta subunit
+Length=802
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 31/95 (33%), Positives = 42/95 (44%), Gaps = 18/95 (19%)
+
+Query  164  LHESVAHALGRLQPALIAAAARAGARACARLGVADPRIGVFGINPHASEGGLFGPEDAQH  223
+            +   + H    L P L+ AAAR  AR     G AD  + +F + P A +GG         
+Sbjct  540  ISSEMTHMRPDLLPGLLQAAARNQAR-----GFAD--LALFEVGP-AFQGG---------  582
+
+Query  224  VEPAVQALRAEGLRVDGPLGADLLLAQRRHDLYVA  258
+             EP  Q ++A GL V      D   ++R  DLY A
+Sbjct  583  -EPGEQVIQASGLLVGQAGPRDPWGSRRPVDLYDA  616
+
+
+> DMKJLJHC_04557 UDP-glucose 6-dehydrogenase
+Length=388
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 14/27 (52%), Gaps = 0/27 (0%)
+
+Query  198  DPRIGVFGINPHASEGGLFGPEDAQHV  224
+            DPRIG    NP    GG   P+D + +
+Sbjct  235  DPRIGTHYNNPSFGYGGYCLPKDTKQL  261
+
+
+> DMKJLJHC_03516 Lipopolysaccharide export system ATP-binding protein 
+LptB
+Length=255
+
+ Score = 25.4 bits (54),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 51/134 (38%), Gaps = 17/134 (13%)
+
+Query  20   PNGIGPEIALKALAALPAAARGRITLYG----PAAVLERT---------ASQLGQEALLR  66
+            PNG G      AL    AA+ GRI L G     A+  +R           + L  E  LR
+Sbjct  39   PNGAGKTTMFHALTGTVAASSGRIELEGRDVTRASDDDRVRLGIARSFQVTSLFPELSLR  98
+
+Query  67   EQPVVDA-GALPAQAARPGRIDPAAGASAVASASAAIEACRRGEADAVVA--CPHHETAI  123
+            E   + A G  P QA  P R    A  S +  A A IE    G      A    H +   
+Sbjct  99   ENLRLAAQGRTPWQALIPWR-RAEASKSVLDMADAVIERLSLGHVATRAAGELSHGQQRR  157
+
+Query  124  HQAGIAFSGYPSLV  137
+             + G+A +  P ++
+Sbjct  158  LEVGMAIAARPRVI  171
+
+
+> DMKJLJHC_05455 Threonine synthase
+Length=461
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 17/39 (44%), Positives = 21/39 (54%), Gaps = 1/39 (3%)
+
+Query  81   ARPGRIDPAAGASAVASASAAIEACRRGE-ADAVVACPH  118
+            AR GR     GA++  + SAAIEA R  E  D  +  PH
+Sbjct  128  ARTGRRVTIVGATSGDTGSAAIEAFRGLENVDVFILYPH  166
+
+
+> DMKJLJHC_00646 hypothetical protein
+Length=334
+
+ Score = 25.4 bits (54),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 14/50 (28%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  123  IHQAGIAFSGYPSLVARVCGQPEDSVFLMLVGGGLRIVHATLHESVAHAL  172
+            + + G+ F  Y S++A +   P++  F     GGL  V   + +SV   L
+Sbjct  124  VARPGVPFDDYKSMIAYIKAHPDEVRFGATGPGGLPSVVTAMMDSVEGKL  173
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 311004480
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

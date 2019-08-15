@@ -1,0 +1,192 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|Q8RR62|Q8RR62_ACIDE PBS(A) depolymerase OS=Acidovorax delafieldii
+OX=47920 GN=pbsA PE=4 SV=1
+
+Length=304
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA    31.6    0.048
+  GFJPDDAG_01758 Dipeptidyl-peptidase 5                               30.4    0.13 
+  GFJPDDAG_01703 hypothetical protein                                 28.5    0.49 
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               28.1    0.77 
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  27.3    1.0  
+  GFJPDDAG_00945 Amino-acid carrier protein AlsT                      26.6    2.3  
+  GFJPDDAG_03072 2-dehydropantoate 2-reductase                        26.2    2.4  
+  GFJPDDAG_03830 Thermostable monoacylglycerol lipase                 26.2    2.7  
+  GFJPDDAG_01096 Putative teichuronic acid biosynthesis glycosylt...  25.8    3.6  
+
+
+> GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA
+Length=308
+
+ Score = 31.6 bits (70),  Expect = 0.048, Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 39/73 (53%), Gaps = 3/73 (4%)
+
+Query  92   VGAIAIVPGFTARQSSINWWGPRLASHGFVVITIDTNSTLDQPDSRSRQQMAALSQVATL  151
+            +G   +VPG  ++ +  N++G  ++SH   V++I  N T   P + + Q +    Q+  +
+Sbjct  147  MGGAFLVPGNVSKVAEANFFGDPVSSH--FVMSIVKNVTC-VPLNVTNQALITKKQILEI  203
+
+Query  152  SRTSSSPIYNKVD  164
+             + SS+P+   +D
+Sbjct  204  QKASSNPLVKILD  216
+
+
+> GFJPDDAG_01758 Dipeptidyl-peptidase 5
+Length=656
+
+ Score = 30.4 bits (67),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 28/132 (21%), Positives = 49/132 (37%), Gaps = 37/132 (28%)
+
+Query  163  VDTSRLGVMGWSMGGGGSLISARNNPSIKAAAPQ-------------------APWSASK  203
+            VD +RLGV G S GG  +     ++   KAA  Q                   + W   +
+Sbjct  507  VDETRLGVTGGSYGGFMTNWIIGHSDRFKAAVTQRSISNWISFYGVSDIGYYFSEWQIQR  566
+
+Query  204  NF---------------SSLTVPTLIIACENDTIAPVNQHADTFYDSMSRNPRE--FLEI  246
+            +                + +  P LI+  E D   P+ Q A+  + ++ R  +E  F+  
+Sbjct  567  DLGDIETLWKHSPLAYVTEMNTPLLILHSEKDYRCPIEQ-AEQLFIALKREKKEAKFVRF  625
+
+Query  247  NNGSHSCANSGN  258
+               +H+ + +G 
+Sbjct  626  PESNHNLSRTGK  637
+
+
+> GFJPDDAG_01703 hypothetical protein
+Length=257
+
+ Score = 28.5 bits (62),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 24/98 (24%), Positives = 36/98 (37%), Gaps = 7/98 (7%)
+
+Query  87   NAGGPVGAIAIVPGFTARQSSINWWGPRLASHGFVVITIDTNSTLDQPDSRSRQQMAALS  146
+            N    V     + GFT+ +     +   LA  GF VI  D     ++   +S  Q+  + 
+Sbjct  22   NIDKKVPLCFFIHGFTSAKEHNLHYAYYLAEKGFRVILPDALEHGERSTGKSEHQLGEVF  81
+
+Query  147  QVATLSRTSSSPIYNKVDTSR-------LGVMGWSMGG  177
+                L      PI  +    +       +GV G SMGG
+Sbjct  82   WKIVLHTIHELPILKEHFEEKGLVVPNGIGVAGTSMGG  119
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 28.1 bits (61),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  164  DTSRLGVMGWSMGGGGSLISARNNPSIKAAA  194
+            D  R+GVMGWS GG  S   +  +   KA +
+Sbjct  494  DKERVGVMGWSQGGFISAFCSTYSDRFKAVS  524
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 27.3 bits (59),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 24/102 (24%), Positives = 46/102 (45%), Gaps = 10/102 (10%)
+
+Query  82   VYYPTNAGGPVGAIAIVPGFTARQSSINWWGPRLASHGFVVITIDT--NSTLDQPDSRSR  139
+            ++Y     G    +  + GFT   ++      RL+S+ +  I+ID   +   D P   +R
+Sbjct  8    IHYFVEVKGQGKPLVFLHGFTGDTTTWTRVTDRLSSN-YRCISIDLIGHGRTDSPVDCAR  66
+
+Query  140  QQMAALSQVATLSRTSSSPIYNKVDTSRLGVMGWSMGGGGSL  181
+              M  +S          + I N+++  +  ++G+SMGG  +L
+Sbjct  67   YTMEQVSH-------DINTILNRLEVIQAQLIGYSMGGRTAL  101
+
+
+> GFJPDDAG_00945 Amino-acid carrier protein AlsT
+Length=474
+
+ Score = 26.6 bits (57),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 15/30 (50%), Positives = 18/30 (60%), Gaps = 2/30 (7%)
+
+Query  52  PTTSSLEASRGPFSYQSFTVSRPSGYRAGT  81
+            TT S E  RG  S+Q+FT+S  S  R GT
+Sbjct  53  KTTISSEGKRGISSFQAFTISTAS--RVGT  80
+
+
+> GFJPDDAG_03072 2-dehydropantoate 2-reductase
+Length=305
+
+ Score = 26.2 bits (56),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 22/36 (61%), Gaps = 3/36 (8%)
+
+Query  143  AALSQVATLSRTSSSPIYNKVDTS---RLGVMGWSM  175
+            A LSQ AT+ R   +P+   ++++   ++  MG+SM
+Sbjct  218  AVLSQAATIMRNIEAPLAENIESAQYDKISQMGYSM  253
+
+
+> GFJPDDAG_03830 Thermostable monoacylglycerol lipase
+Length=242
+
+ Score = 26.2 bits (56),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 21/97 (22%), Positives = 38/97 (39%), Gaps = 12/97 (12%)
+
+Query  176  GGGGSLISARNNPSIKAAAPQAPWSASKNF-----------SSLTVPTLIIACENDTIAP  224
+            G  G+LI        K    Q P  ++  F           + +  PT I   END I P
+Sbjct  135  GMQGNLIENELYNRYKWKVTQTPILSTYEFRKVVRLARPLLTKVNTPTFIAQGENDGIVP  194
+
+Query  225  VNQHADTFYDSMSRNPREFLEINNGSHSCANSGNSNQ  261
+              + A   Y+++S   ++    +   H   +S ++++
+Sbjct  195  -PKAAKYIYETISSQEKDLFYSSKAKHLICHSEDNHE  230
+
+
+> GFJPDDAG_01096 Putative teichuronic acid biosynthesis glycosyltransferase 
+TuaG
+Length=245
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 19/66 (29%), Positives = 29/66 (44%), Gaps = 8/66 (12%)
+
+Query  229  ADTFYDSMSRNPREFLEINNGS----HSCANSGNSNQALLGKKGVAWMKRFMDNDRRYTS  284
+            +D ++D      +    IN G+    H+     ++N+ LL   G    KRF + D  Y S
+Sbjct  86   SDDYFDHQKVEKQLDFMINRGAKASFHNYDFINSANEVLLPFIG----KRFTNADEIYRS  141
+
+Query  285  FACSNP  290
+            F   NP
+Sbjct  142  FMTINP  147
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.127    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 184084176
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

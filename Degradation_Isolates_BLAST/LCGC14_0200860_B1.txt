@@ -1,0 +1,178 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0F9X315|A0A0F9X315_9ZZZZ Uncharacterized protein OS=marine
+sediment metagenome OX=412755 GN=LCGC14_0200860 PE=4 SV=1
+
+Length=300
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             33.5    0.022
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        30.0    0.22 
+  DMKJLJHC_05921 Solvent efflux pump outer membrane protein SrpC      29.6    0.33 
+  DMKJLJHC_00170 (2S)-methylsuccinyl-CoA dehydrogenase                28.5    0.93 
+  DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC     28.1    1.4  
+  DMKJLJHC_02783 Trigger factor                                       27.7    1.8  
+  DMKJLJHC_02746 Arylesterase                                         26.2    4.4  
+  DMKJLJHC_03022 Adenylate kinase                                     25.8    4.9  
+  DMKJLJHC_05733 hypothetical protein                                 25.8    5.3  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 33.5 bits (75),  Expect = 0.022, Method: Compositional matrix adjust.
+ Identities = 30/96 (31%), Positives = 43/96 (45%), Gaps = 18/96 (19%)
+
+Query  96   GYVSAESSIEWWGPKLASYGFVVMTID---TNSGFDLPPS-------RARQINTALD-YL  144
+            GY     +  W   +LA  GF+ + +D   T  G DL P+       R  Q++  LD  L
+Sbjct  81   GYSGLWRNQAWLAERLARAGFIAVALDQPGTTFG-DLDPAWATHLTERPHQVSRVLDAVL  139
+
+Query  145  IDENSDSRSPVEGMIDTERLGVVGWSMGGGGTLRVA  180
+             D     R      ID +R+ V+G S+GG   L +A
+Sbjct  140  ADPKLGPR------IDRKRISVIGHSLGGSTALFLA  169
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 30.0 bits (66),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 26/54 (48%), Gaps = 3/54 (6%)
+
+Query  142  DYLIDENSDSRSPVEGMIDTERLGVVGWSMGGGGTLRVAEE--GRLKAAIPLAP  193
+            DY+  E  D+       IDTER  + G SMGG G L +A     R ++    AP
+Sbjct  119  DYIAQELPDALGAAFA-IDTERQSITGHSMGGHGALTLAMHMPERFRSVSAFAP  171
+
+
+> DMKJLJHC_05921 Solvent efflux pump outer membrane protein SrpC
+Length=220
+
+ Score = 29.6 bits (65),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  160  DTERLGVVGWSMGGGGTLRVAEEGRLKAAIPLAPYDTTNFRDNYTPTLIFACESDVIAPV  219
+            D  +   +GWS G G ++ +   G LKAA+ +A  +       Y  T++ A E    A V
+Sbjct  69   DLAKSSSIGWSFGPGISIPLFHSGALKAAVDVAKAERDQAFLTYRATVLTALEDVENASV  128
+
+Query  220  AI  221
+            A+
+Sbjct  129  AL  130
+
+
+> DMKJLJHC_00170 (2S)-methylsuccinyl-CoA dehydrogenase
+Length=554
+
+ Score = 28.5 bits (62),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 32/68 (47%), Gaps = 4/68 (6%)
+
+Query  84   TTGTMAAIVVIPGYVSAESSIEWWGPKLASYGFVVMTIDT--NSGFDLPPSRARQINTAL  141
+            T   +AA ++I G    E+  E W P LAS   +   + T  N+G DL   R R +    
+Sbjct  254  TRSEIAAELIICG--GTEAQKEKWLPGLASGEILSTAVFTEPNTGSDLGALRTRAVKDGD  311
+
+Query  142  DYLIDENS  149
+            D+L+  N 
+Sbjct  312  DWLVTGNK  319
+
+
+> DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC
+Length=597
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  195  DTTNFRDNYTPTLIFACESDVIAP  218
+            +T + RD   P +  ACE+D IAP
+Sbjct  467  ETVSVRDVKVPLMAIACETDHIAP  490
+
+
+> DMKJLJHC_02783 Trigger factor
+Length=444
+
+ Score = 27.7 bits (60),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 6/45 (13%)
+
+Query  121  IDTNSGFDLPPS----RARQINTALDYLIDENSDSRSPVEGMIDT  161
+            +DT   FDLPPS     A+QI   L +  +EN D      G I+T
+Sbjct  297  LDTKVKFDLPPSLVEAEAKQIAHQLYH--EENPDDHGHDHGEIET  339
+
+
+> DMKJLJHC_02746 Arylesterase
+Length=273
+
+ Score = 26.2 bits (56),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 29/62 (47%), Gaps = 7/62 (11%)
+
+Query  191  LAPYDTTNFRDNY----TPTLIFACESDVIAPVAIHASAFYNDIPSSTDKAFIEINNGSH  246
+            +  + TT+FR +      PTLI   +SD I P+       +  + +S  + F+ I +  H
+Sbjct  197  MEAFGTTDFRKDLEKITVPTLILHSDSDAIVPLEGSGKRVFETVRNS--ELFL-IEDAPH  253
+
+Query  247  YC  248
+             C
+Sbjct  254  GC  255
+
+
+> DMKJLJHC_03022 Adenylate kinase
+Length=218
+
+ Score = 25.8 bits (55),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  235  DKAFIEINNGSHYCGNGGGIYND  257
+            D+A +E   G   CGN G +Y+D
+Sbjct  117  DEALVERITGRFTCGNCGEVYHD  139
+
+
+> DMKJLJHC_05733 hypothetical protein
+Length=278
+
+ Score = 25.8 bits (55),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 1/35 (3%)
+
+Query  159  IDTERLGVVGWSMGGGGTLRVAEEGRLKAAIPLAP  193
+            +D  +  VVG  +GG   +   E+GR+ AA+ L P
+Sbjct  98   VDPSKTSVVGVGLGGTA-IAAMEQGRIAAAVMLDP  131
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 280217455
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,190 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|G9BY57|G9BY57_9BACT LCC OS=uncultured bacterium OX=77133 PE=1
+SV=1
+
+Length=293
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01758 Dipeptidyl-peptidase 5                               30.4    0.14 
+  GFJPDDAG_00587 General stress protein 16U                           28.1    0.53 
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  27.3    0.96 
+  GFJPDDAG_02866 hypothetical protein                                 26.2    3.0  
+  GFJPDDAG_03715 hypothetical protein                                 25.0    6.3  
+  GFJPDDAG_04349 hypothetical protein                                 25.0    6.5  
+  GFJPDDAG_02441 Arylesterase                                         24.6    7.3  
+  GFJPDDAG_01224 GTPase HflX                                          24.6    7.5  
+  GFJPDDAG_02910 putative beta-lactamase YbxI                         24.6    8.0  
+
+
+> GFJPDDAG_01758 Dipeptidyl-peptidase 5
+Length=656
+
+ Score = 30.4 bits (67),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 27/89 (30%), Positives = 35/89 (39%), Gaps = 17/89 (19%)
+
+Query  109  LASHGFVVLVINTNS------------RFDYPDSRASQLSAALNYLRTSSPSAVRARLDA  156
+            LAS G+ VL +N               R DY       +  A++Y+    P      +D 
+Sbjct  455  LASKGYAVLYVNPRGSHGYGQEFVNAVRGDYGGGDYEDIMRAVDYVLKEFPF-----VDE  509
+
+Query  157  NRLAVAGHSMGGGGTLRIAEQNPSLKAAV  185
+             RL V G S GG  T  I   +   KAAV
+Sbjct  510  TRLGVTGGSYGGFMTNWIIGHSDRFKAAV  538
+
+
+> GFJPDDAG_00587 General stress protein 16U
+Length=193
+
+ Score = 28.1 bits (61),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 29/118 (25%), Positives = 41/118 (35%), Gaps = 16/118 (14%)
+
+Query  169  GGTLRIAEQNPSLKAAVPLTPWHTDK-----TFNTSVPVLIVGAEADTVAPVSQHAIPFY  223
+            G  + + + NP LK AV    W T+K      F+      +V A       V+     FY
+Sbjct  9    GQRIDLTKTNPGLKRAVIGLGWDTNKYQGGHDFDLDASAFLVDAND---KCVNDQDFVFY  65
+
+Query  224  QNLPSTTPKVYVELDNASHFAPNSNNAAI--------SVYTISWMKLWVDNDTRYRQF  273
+             NL   +  V    DN +      +   I        SV+ I       D D R + F
+Sbjct  66   NNLSHPSESVIHTGDNLTGEGDGDDEQLIVDFSKIPSSVHKIGITVTIHDADLRRQNF  123
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 27.3 bits (59),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 31/61 (51%), Gaps = 13/61 (21%)
+
+Query  122  NSRFDYP-DSRASQLSAALNYLRTSSPSAVRARLDANRLAVAGHSMGGGGTLRIAEQNPS  180
+            N+RF Y  D+ A+ +   L++L  S+            + + GHSMGG   L + ++ PS
+Sbjct  71   NNRFIYSYDNLANTVIDLLDHLNVSN------------VHLTGHSMGGQIALNVMKKAPS  118
+
+Query  181  L  181
+            L
+Sbjct  119  L  119
+
+
+> GFJPDDAG_02866 hypothetical protein
+Length=404
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 21/44 (48%), Gaps = 8/44 (18%)
+
+Query  115  VVLVINTNSRFDYPDSRASQLSAALNYLRTSSPSAVRARLDANR  158
+            VVLVIN  S   YP        A+++Y+    P   R R +A R
+Sbjct  99   VVLVINMGSAIFYP--------ASMSYITAFIPKENRQRFNAMR  134
+
+
+> GFJPDDAG_03715 hypothetical protein
+Length=547
+
+ Score = 25.0 bits (53),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 16/62 (26%), Positives = 27/62 (44%), Gaps = 4/62 (6%)
+
+Query  203  LIVGAEADTVAPVSQHAIPF-YQNLPSTTPKVYVELDNASHFAPNSNNAAISVYTISWMK  261
+             ++G   D V  +S HA+PF +    +   K  +E+ ++     NS      VY   W  
+Sbjct  240  FLLGEMEDAVEKLSIHAMPFSFDPYIAFLKKQTIEMSDSKE---NSTLMKAEVYRFLWYY  296
+
+Query  262  LW  263
+            L+
+Sbjct  297  LF  298
+
+
+> GFJPDDAG_04349 hypothetical protein
+Length=515
+
+ Score = 25.0 bits (53),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 13/64 (20%), Positives = 27/64 (42%), Gaps = 2/64 (3%)
+
+Query  141  YLRTSSPSAVRARLDANRLAVAGHSMGGGGTLRIAEQNPSLKAAVPLTPWHTD--KTFNT  198
+            YL  +  + +  RL  +   +A H++  G    + ++N   K +  L  W  +  K F+ 
+Sbjct  353  YLNITDENRLNIRLTPDGEIIATHTLAEGKGQLLLDKNHKRKRSTKLAEWEVEIRKNFDN  412
+
+Query  199  SVPV  202
+               +
+Sbjct  413  QDQI  416
+
+
+> GFJPDDAG_02441 Arylesterase
+Length=267
+
+ Score = 24.6 bits (52),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 24/73 (33%), Positives = 30/73 (41%), Gaps = 11/73 (15%)
+
+Query  149  AVRARLDANRLAVAGHSMGGGGTLRIAEQ--NPSLKAAV---PLTPWHTDK------TFN  197
+            AV   L+     +AG SMGG   +R A +    SLK  +   P  P  T +      T  
+Sbjct  80   AVVKELNLESFFLAGFSMGGSIAIRYATKFATDSLKQLILMGPAAPIFTQRDDFPYGTKK  139
+
+Query  198  TSVPVLIVGAEAD  210
+              V VLI   E D
+Sbjct  140  EEVDVLIRAIEND  152
+
+
+> GFJPDDAG_01224 GTPase HflX
+Length=417
+
+ Score = 24.6 bits (52),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 9/27 (33%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  215  VSQHAIPFYQNLPSTTPKVYVELDNAS  241
+            V QH IP++  +P++  K+  +L N +
+Sbjct  356  VKQHMIPYHVIIPASEGKLLSQLKNET  382
+
+
+> GFJPDDAG_02910 putative beta-lactamase YbxI
+Length=265
+
+ Score = 24.6 bits (52),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 11/71 (15%), Positives = 28/71 (39%), Gaps = 0/71 (0%)
+
+Query  208  EADTVAPVSQHAIPFYQNLPSTTPKVYVELDNASHFAPNSNNAAISVYTISWMKLWVDND  267
+            + D +  +    +PF +    T  ++ ++ +  ++         +S Y + W   +V+  
+Sbjct  168  QVDFMVKLVGEELPFAEKQQKTVKRMMIQDEQDAYILHGKTGTRLSDYGLGWYVGYVETK  227
+
+Query  268  TRYRQFLCNVN  278
+                 F  N+N
+Sbjct  228  KGKWAFAVNLN  238
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 174962888
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

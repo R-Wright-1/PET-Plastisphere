@@ -1,0 +1,136 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NUK8|A0A0K8NUK8_IDESA Tricarboxylate transport protein TctB
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0076 PE=4
+SV=1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_04054 hypothetical protein                                 27.7    0.29 
+  GFJPDDAG_00827 hypothetical protein                                 25.8    1.2  
+  GFJPDDAG_02282 2,3-bisphosphoglycerate-independent phosphoglyce...  24.6    2.9  
+  GFJPDDAG_03520 Cyclic-di-AMP phosphodiesterase GdpP                 24.6    3.1  
+  GFJPDDAG_04224 33 kDa chaperonin                                    24.3    4.3  
+  GFJPDDAG_01764 Inner membrane protein YgaZ                          23.1    9.9  
+
+
+> GFJPDDAG_04054 hypothetical protein
+Length=227
+
+ Score = 27.7 bits (60),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  100  FIAVPVLIVMVSFAGDEFKWIGVLASAVVLTV  131
+            F  + V  ++VSF   EF W+GV+   + L+V
+Sbjct  110  FFCITVSYILVSFVSKEFLWLGVVDCMMFLSV  141
+
+
+> GFJPDDAG_00827 hypothetical protein
+Length=176
+
+ Score = 25.8 bits (55),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 22/97 (23%), Positives = 42/97 (43%), Gaps = 7/97 (7%)
+
+Query  58   LFKSLTIETEGG--DPIGAIAWRPLLITVASIIVYGVLQPRLGLFIAVPVLIVMVSFAGD  115
+            LF  L +E +GG    +    W+  +   A     GV++  +GL   +     ++     
+Sbjct  35   LFHPLKVEVKGGVYGILRIKKWKAYIPDAAGWFRSGVIKNEIGLTSDLGRRTFLMEINRA  94
+
+Query  116  EF-KWIGVLASAVVLT----VFSWAVFVYGLNLTIPL  147
+            E   W+ ++ + +       V SW +F+YG+   +PL
+Sbjct  95   ELSHWMQMMPAPLFFIINSGVMSWGMFLYGILFNLPL  131
+
+
+> GFJPDDAG_02282 2,3-bisphosphoglycerate-independent phosphoglycerate 
+mutase
+Length=487
+
+ Score = 24.6 bits (52),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 19/67 (28%), Positives = 30/67 (45%), Gaps = 3/67 (4%)
+
+Query  80   LLITVASIIVYGVLQPRLGL--FIAVPVLIVMVSFAGDEFK-WIGVLASAVVLTVFSWAV  136
+            LL+T+   I+Y      L L  ++ VPV+  ++ F   +   W   +      TVF W  
+Sbjct  55   LLLTIPLFIIYFFYDFPLFLRNYLWVPVIGFLLLFESPDLALWGLAIGLYFFFTVFFWGT  114
+
+Query  137  FVYGLNL  143
+            F Y L +
+Sbjct  115  FYYHLRI  121
+
+
+> GFJPDDAG_03520 Cyclic-di-AMP phosphodiesterase GdpP
+Length=657
+
+ Score = 24.6 bits (52),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 22/45 (49%), Gaps = 4/45 (9%)
+
+Query  95   PRLGLFIAVPVLIVMVSFAGDEFKWIGVLASAVVLTVFSWAVFVY  139
+            P  GL I   +L+V VSF    ++WI  L   +V  +  +  F +
+Sbjct  13   PLYGLAILTALLLVSVSF----YQWIISLIGLIVFGIVYFIAFYF  53
+
+
+> GFJPDDAG_04224 33 kDa chaperonin
+Length=293
+
+ Score = 24.3 bits (51),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  60  KSLTIETEGGDPIGAI  75
+             LTI+ EGG PIGAI
+Sbjct  61  NKLTIKVEGGGPIGAI  76
+
+
+> GFJPDDAG_01764 Inner membrane protein YgaZ
+Length=240
+
+ Score = 23.1 bits (48),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 26/48 (54%), Gaps = 7/48 (15%)
+
+Query  67   EGGDPIGAIAWRPLLITVASIIVYGVLQPRLGLFIAVPVLIVMVSFAG  114
+            +GG  I AI + P+ +T      +G+L    GL I   +L+ M+ FAG
+Sbjct  18   QGGLSI-AIGYMPVALT------FGLLARTTGLTITETILMSMLVFAG  58
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.147    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 67860447
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

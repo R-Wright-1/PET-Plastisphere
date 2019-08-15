@@ -1,0 +1,138 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|R4YKL9|R4YKL9_OLEAN Lipase OS=Oleispira antarctica RB-8 OX=698738
+GN=lipA PE=4 SV=1
+
+Length=310
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01758 Dipeptidyl-peptidase 5                               31.6    0.058
+  GFJPDDAG_04270 60 kDa chaperonin                                    30.8    0.12 
+  GFJPDDAG_01912 hypothetical protein                                 28.5    0.33 
+  GFJPDDAG_00129 D-alanyl-D-alanine carboxypeptidase DacF             28.1    0.74 
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               28.1    0.82 
+  GFJPDDAG_04122 DNA-directed RNA polymerase subunit beta             24.6    10.0 
+
+
+> GFJPDDAG_01758 Dipeptidyl-peptidase 5
+Length=656
+
+ Score = 31.6 bits (70),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 28/92 (30%), Positives = 41/92 (45%), Gaps = 21/92 (23%)
+
+Query  118  LASHGFVVITIS--ANSGFDQPASRATQ----------LGRALDYVINQSNGSNSPISGM  165
+            LAS G+ V+ ++   + G+ Q    A +          + RA+DYV+ +           
+Sbjct  455  LASKGYAVLYVNPRGSHGYGQEFVNAVRGDYGGGDYEDIMRAVDYVLKEFP--------F  506
+
+Query  166  VDTTRLGVVGWSMGGGGA-LQLASGDRLSAAI  196
+            VD TRLGV G S GG      +   DR  AA+
+Sbjct  507  VDETRLGVTGGSYGGFMTNWIIGHSDRFKAAV  538
+
+
+> GFJPDDAG_04270 60 kDa chaperonin
+Length=545
+
+ Score = 30.8 bits (68),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 33/112 (29%), Positives = 47/112 (42%), Gaps = 25/112 (22%)
+
+Query  73   VASSVSGFGGGTLHYPTNTTGTMGAIAV-VPGF------LLQESSIDFWGPKLASHGFVV  125
+            VA  V G    TL       GT  A+AV  PGF      +L++ ++   G          
+Sbjct  248  VAEDVEGEALATL-VVNKLRGTFNAVAVKAPGFGDRRKAMLEDLAVLTGGE---------  297
+
+Query  126  ITISANSGFDQPASRATQLGRALDYVINQSN-----GSNSP--ISGMVDTTR  170
+              I+ + G D  ++  TQLGRA   V+ + N     GS  P  I+  V+  R
+Sbjct  298  -VITEDLGLDLKSANITQLGRAAKVVVTKENTTVVEGSGQPEKIAARVNQIR  348
+
+
+> GFJPDDAG_01912 hypothetical protein
+Length=163
+
+ Score = 28.5 bits (62),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 24/55 (44%), Gaps = 8/55 (15%)
+
+Query  251  NGGSHFCANDGGSIGGLLGKYGVSWMKRFIDNDLRYDAFLCGPDHAANRSVSEYR  305
+             GG    A D G+I   L +Y   W++R        DAF   P     RS++ +R
+Sbjct  95   QGGPSTFAVDAGAIRRCLFRYTYIWLRR--------DAFWFYPVFVGRRSIAGWR  141
+
+
+> GFJPDDAG_00129 D-alanyl-D-alanine carboxypeptidase DacF
+Length=388
+
+ Score = 28.1 bits (61),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 22/94 (23%), Positives = 38/94 (40%), Gaps = 13/94 (14%)
+
+Query  137  PASRATQLGRALDYVINQSNGSNSPISGMVDTTRLGVVGWSMGGGGALQLASGDRLSAAI  196
+            P  R  ++ + LDY  NQ   S  P+    ++  L  V  S G    +   + +      
+Sbjct  260  PKERNNEVSKMLDYAFNQY--STKPLFKKGES--LAQVKVSKGKENKVNAVTDE------  309
+
+Query  197  PIAPWNQGGNRFDQIETPTLVIACENDVVASVNS  230
+            PI+   Q G + D++E     I  + D+ A +  
+Sbjct  310  PISLLTQKGEKLDEVEQK---ITLKKDLKAPIKK  340
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 28.1 bits (61),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 17/34 (50%), Gaps = 1/34 (3%)
+
+Query  163  SGMVDTTRLGVVGWSMGGG-GALQLASGDRLSAA  195
+             G+ D  R+GV+GWS GG   A      DR  A 
+Sbjct  490  KGIADKERVGVMGWSQGGFISAFCSTYSDRFKAV  523
+
+
+> GFJPDDAG_04122 DNA-directed RNA polymerase subunit beta
+Length=1185
+
+ Score = 24.6 bits (52),  Expect = 10.0, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  62    STGPYSVATRSVASSVSGFGG  82
+             STGPYS+ T+      + FGG
+Sbjct  1051  STGPYSLVTQQPLGGKAQFGG  1071
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 189059424
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,119 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NWX4|A0A0K8NWX4_IDESA Uncharacterized protein ImpD
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0364 PE=4
+SV=1
+
+Length=165
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_00379 Methionine--tRNA ligase                              30.0    0.11 
+  DMKJLJHC_01777 Blue-light-activated histidine kinase                25.0    3.8  
+  DMKJLJHC_07278 hypothetical protein                                 23.1    5.8  
+  DMKJLJHC_00371 Chaperone protein ClpB                               24.3    8.1  
+  DMKJLJHC_04532 D-inositol 3-phosphate glycosyltransferase           24.3    9.1  
+
+
+> DMKJLJHC_00379 Methionine--tRNA ligase
+Length=569
+
+ Score = 30.0 bits (66),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 29/68 (43%), Gaps = 4/68 (6%)
+
+Query  41   SGTAHLGGGAGAGKANFQDLSITKYIDNTSHNLFAACATGDHFTKATLICRKAGTTPLEY  100
+            +G  HLG   G+      DL   +Y     H +   CAT +H T A L   KAG    EY
+Sbjct  14   NGIKHLGNLVGSQLP--ADL-FARYQRARGHEVMFICATDEHGTPAELAASKAGKPVAEY  70
+
+Query  101  VKITMDEV  108
+                M EV
+Sbjct  71   CA-EMHEV  77
+
+
+> DMKJLJHC_01777 Blue-light-activated histidine kinase
+Length=185
+
+ Score = 25.0 bits (53),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  26   VGEIDVLAWSWGLSQSGTAHLGGGAGAGKANF  57
+            VG+ID+++  +GL+  G+A +   + A  AN 
+Sbjct  147  VGDIDIISRGFGLAMIGSAKVLSESVAMMANL  178
+
+
+> DMKJLJHC_07278 hypothetical protein
+Length=61
+
+ Score = 23.1 bits (48),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 8/22 (36%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  11  GGKYKVTGESRDKTHVGEIDVL  32
+           GG +K + + R K  +GE+D  
+Sbjct  36  GGDWKKSPDERRKEKIGELDAW  57
+
+
+> DMKJLJHC_00371 Chaperone protein ClpB
+Length=880
+
+ Score = 24.3 bits (51),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 13/33 (39%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  1    MAMDMFLKIEGGKYKVTGESRDKTHVGEIDVLA  33
+            +A+DM   I G KY+   E R K+ + EI+  A
+Sbjct  238  LALDMGALIAGAKYRGEFEERLKSILKEIEAAA  270
+
+
+> DMKJLJHC_04532 D-inositol 3-phosphate glycosyltransferase
+Length=720
+
+ Score = 24.3 bits (51),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 11/36 (31%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  80   GDHFTKATLICRKAGTTPLEYVKITMDEVLISSLST  115
+            GD F    +   + GTTP E  + + D V +  ++T
+Sbjct  364  GDQFEIDVVCTIEGGTTPYEVSQFSQDGVRVWGITT  399
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.131    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 115949242
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,479 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P8F2|A0A0K8P8F2_IDESA 2-polyprenylphenol hydroxylase and
+related flavodoxin oxidoreductase/CDP-6-deoxy-delta-3,4-glucoseen
+reductase-like OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0230 PE=4 SV=1
+
+Length=338
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_02870 Terephthalate 1,2-dioxygenase, reductase compone...  266     2e-88
+  DMKJLJHC_05211 3-ketosteroid-9-alpha-monooxygenase, ferredoxin ...  70.9    2e-14
+  DMKJLJHC_02474 3-ketosteroid-9-alpha-monooxygenase, ferredoxin ...  65.9    9e-13
+  DMKJLJHC_01576 1,2-phenylacetyl-CoA epoxidase, subunit E            65.1    1e-12
+  DMKJLJHC_01381 1,2-phenylacetyl-CoA epoxidase, subunit E            59.7    4e-11
+  DMKJLJHC_06355 Flavohemoprotein                                     54.7    2e-09
+  DMKJLJHC_01379 Ferredoxin--NADP reductase                           49.7    1e-07
+  DMKJLJHC_01081 Ferredoxin--NADP reductase                           45.1    4e-06
+  DMKJLJHC_01140 Phenoxybenzoate dioxygenase subunit beta             39.7    3e-04
+  DMKJLJHC_06317 Ferredoxin--NADP reductase                           32.3    0.039
+  DMKJLJHC_03375 Succinate dehydrogenase iron-sulfur subunit          29.6    0.32 
+  DMKJLJHC_06592 Succinate dehydrogenase iron-sulfur subunit          29.6    0.38 
+  DMKJLJHC_02277 NADH-quinone oxidoreductase chain 3                  29.6    0.49 
+  DMKJLJHC_01014 Glucokinase                                          28.5    1.00 
+  DMKJLJHC_01332 Bifunctional enzyme IspD/IspF                        27.7    1.7  
+  DMKJLJHC_01754 hypothetical protein                                 27.3    2.2  
+  DMKJLJHC_02415 Ribosomal protein S12 methylthiotransferase RimO     26.2    5.0  
+  DMKJLJHC_03377 Succinate dehydrogenase flavoprotein subunit         26.6    5.0  
+  DMKJLJHC_02522 hypothetical protein                                 26.2    6.7  
+  DMKJLJHC_04842 Na(+)/H(+) antiporter NhaD                           25.8    7.7  
+  DMKJLJHC_01286 Cysteine synthase                                    25.4    8.2  
+
+
+> DMKJLJHC_02870 Terephthalate 1,2-dioxygenase, reductase component 
+1
+Length=338
+
+ Score = 266 bits (681),  Expect = 2e-88, Method: Compositional matrix adjust.
+ Identities = 151/350 (43%), Positives = 198/350 (57%), Gaps = 24/350 (7%)
+
+Query  1    MNHRITIEGSDAAFDCGPAQSVLDAALRAGIELPYSCRKGVCGNCAGAVAEGE--VAGLG  58
+            M H+I++ G D +F+CG +++VLDAA RAG  +PYSCRKGVC +C G +  GE  V G G
+Sbjct  1    MTHKISVFGEDISFECGESETVLDAAERAGFSIPYSCRKGVCSSCEGVITSGEAVVRGQG  60
+
+Query  59   ---GPIRNESCAPDQVLFCMCAPRGDLRIRPAAWHRVDPSARKRFTAKVFRNQLAAPDVS  115
+               GP          VL C   PR +L I P    + DP +RK F AKV + +   PDVS
+Sbjct  61   VCVGPASG-------VLLCQARPRTNLEIVPRNIKKTDPVSRKIFEAKVRKIEQPTPDVS  113
+
+Query  116  VLQLRLPAGQRARFQAGQYLQLALPDGSTRCYSMANPPHENDTLTLHVRHVPGGAFSARV  175
+            V+ LR P G R+ FQAGQYL + +PDG +R YSMANPPH+ND + LH+RHV GG FS  V
+Sbjct  114  VINLRFPIGNRSVFQAGQYLSVLMPDGDSRNYSMANPPHQNDGVELHIRHVSGGKFSQTV  173
+
+Query  176  -PGLAPGDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVERPITLI  234
+               L  G  + VELPFG  TL  +   P + +  GTGFAP +SI++   R    RP+ L 
+Sbjct  174  LANLEKGSILSVELPFGNFTLNENTEVPAILIATGTGFAPIKSIVEHQIREGGSRPLHLY  233
+
+Query  235  WGARRAEGIYLRPAIAKW--QRQWPQGFRFVEALSGEAREGAFAGR---VDAALRAHCPD  289
+            WGA     IYLR     W  +  W   F F   LS      A+ GR   V  A+++  PD
+Sbjct  234  WGANTEADIYLRSLPEMWAAKHDW---FTFTPVLS--EPPSAWKGRTGFVHKAVQSDFPD  288
+
+Query  290  LSGHELYCCGSPGMVQSVREAAVQALGLPAARFHADVFV-NGPAAGAVPA  338
+            +S  E+Y CG+P M+ +  +       L  A F++D FV +G  A  +PA
+Sbjct  289  MSDLEVYACGAPMMIDAASKDFCAESKLDRAAFYSDAFVPSGEPADDLPA  338
+
+
+> DMKJLJHC_05211 3-ketosteroid-9-alpha-monooxygenase, ferredoxin 
+reductase component
+Length=357
+
+ Score = 70.9 bits (172),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 62/226 (27%), Positives = 98/226 (43%), Gaps = 12/226 (5%)
+
+Query  111  APDVSVLQLRLPAGQRARFQAGQYLQLALP---DGSTRCYSMANPPHENDTLTLHVRHVP  167
+            AP+V     R P+G    F+AGQ+L L LP       R +++++ P  N  +T+ V+   
+Sbjct  27   APNVMSFSFRPPSGATFLFRAGQFLTLDLPVPGGNVQRTFTISSSPTSNVYVTVTVK-AQ  85
+
+Query  168  GGAFSAR--VPGLAPGDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARW  225
+             G+   R  +  L PG  ++V  P G   L        +F+  G+G  P  S+   +   
+Sbjct  86   EGSIGGRWMLDHLRPGMRLKVYGPAGVFHLPPQPDSKYLFISAGSGVTPMMSMTTFLFER  145
+
+Query  226  RVERPITLIWGARRAEGIYLRPAIAKWQRQWPQGFRFVEALSGE---AREGAFAGRVDA-  281
+              E  IT I  AR    +  R  + ++     QG +    +  +        + GR +  
+Sbjct  146  GEEPDITFISCARSPRELIFRKRL-EYMACRVQGLKLHFVVGQDDPYETWTGYRGRFNQL  204
+
+Query  282  ALRAHCPDLSGHELYCCGSPGMVQSVREAAVQALGLPAARFHADVF  327
+             L    PD    E+YCCG    +QSVR+  + ALG   A +H + F
+Sbjct  205  MLGLMAPDYLEREIYCCGPESFMQSVRD-MLHALGFDMAHYHQESF  249
+
+
+ Score = 42.7 bits (99),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 35/83 (42%), Gaps = 1/83 (1%)
+
+Query  4    RITIEGSDAAFDCGPAQSVLDAALRAGIELPYSCRKGVCGNCAGAVAEGEVAGL-GGPIR  62
+             +    S  A  C    +VL  A  AG+ +P  C  GVCG C      GEV  +  G I 
+Sbjct  274  EVLFTASGVAQSCAQTDTVLAVAKSAGLNIPSGCTFGVCGTCKIRKTAGEVHMVHNGGIS  333
+
+Query  63   NESCAPDQVLFCMCAPRGDLRIR  85
+            +E      +L C   P G +++ 
+Sbjct  334  DEDIEEGYILACCSHPIGQVKVE  356
+
+
+> DMKJLJHC_02474 3-ketosteroid-9-alpha-monooxygenase, ferredoxin 
+reductase component
+Length=361
+
+ Score = 65.9 bits (159),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 60/226 (27%), Positives = 97/226 (43%), Gaps = 10/226 (4%)
+
+Query  111  APDVSVLQLRLPAGQRARFQAGQYLQLALPDGST---RCYSMANPPHENDTLTLHVRHVP  167
+            AP+        P+G   R+  GQ+L L LP       R Y++++ P     +T+ V+   
+Sbjct  31   APNTVTFSFVAPSGALFRYAPGQFLTLELPVPGGPLWRTYTISSSPSRPLGITITVK-AQ  89
+
+Query  168  GGAFSAR--VPGLAPGDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARW  225
+             G+   R  +  L PG  I+   P G  TL    R+  +F+  G+G  P+ S+   +   
+Sbjct  90   DGSLGTRWMLDTLRPGMKIKAIGPAGVFTLPPKERKKYLFISAGSGITPSLSMTTYLYDR  149
+
+Query  226  RVERPITLIWGARRAEGIYLRPAIAKWQRQWPQ-GFRFVEALSGEARE-GAFAGRVDAAL  283
+              +  +TLI  ARR   I  R  +     + P     F+ A     +    + GR++  +
+Sbjct  150  GTDIDVTLIACARRPSEIIGRHRLELMAARVPTIKLNFIVAQDDPYQVWTGYRGRLNQIM  209
+
+Query  284  RAHCP-DLSGHELYCCGSPGMVQSVREAAVQALGLPAARFHADVFV  328
+                  D    E+YCCG    + +VRE  + ALG    R+H + F 
+Sbjct  210  IGLIAGDYLEREVYCCGPEPFMAAVREMLI-ALGYDMERYHQESFT  254
+
+
+ Score = 39.7 bits (91),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 24/76 (32%), Positives = 32/76 (42%), Gaps = 1/76 (1%)
+
+Query  10   SDAAFDCGPAQSVLDAALRAGIELPYSCRKGVCGNCAGAVAEGEVAGL-GGPIRNESCAP  68
+            SD A +C    ++L     +GI +P  C  GVCG C      G V  +  G I  E    
+Sbjct  284  SDVAAECNETDTILAVGRASGIVIPSGCTFGVCGTCKIRKLSGNVHMVHNGGISQEDIDA  343
+
+Query  69   DQVLFCMCAPRGDLRI  84
+              +L C   P G + I
+Sbjct  344  GYILACCSKPIGTVEI  359
+
+
+> DMKJLJHC_01576 1,2-phenylacetyl-CoA epoxidase, subunit E
+Length=358
+
+ Score = 65.1 bits (157),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 95/230 (41%), Gaps = 18/230 (8%)
+
+Query  113  DVSVLQLRLPAGQRA---RFQAGQYLQLALP-DGST--RCYSMANPPHENDTLTLHVRHV  166
+            D  VL L+ P  + A    F  GQYL      DG    R YS+     EN  L + ++ V
+Sbjct  18   DAVVLTLK-PQDEDAANFDFTQGQYLTFRRDFDGEELRRSYSICAGKDEN-CLKVGIKRV  75
+
+Query  167  PGGAFSARV-PGLAPGDAIEVELPFGAVTLEADARRPIVFV--VGGTGFAPARSILDDMA  223
+             GGAFS      L PGD +E  +P G    + D      ++   GG+G  P  SI+    
+Sbjct  76   EGGAFSTWANEELKPGDTLEAMVPQGRFFTQIDPSSAKTYLGFAGGSGITPVLSIIKTTL  135
+
+Query  224  RWRVERPITLIWGARRAEGIYLRPAIAKWQRQWPQGFRFVEALSGEARE-GAFAGRVDAA  282
+                    TL++  R+   I  R  +   +  +   F  V  L  E +E   F GR+DA 
+Sbjct  136  AREPNATFTLVYANRQVGSIMFREELEDLKNTYLGRFSVVHILESEGQEIDLFTGRIDAE  195
+
+Query  283  -----LRAHCPDLSGHELYCCGSPGMVQSVREAAVQALGLPAARFHADVF  327
+                  R      +    + CG   M+ ++ E+  QA GL  A+   ++F
+Sbjct  196  KMEMLFRLWIDAEAVDTAFICGPEPMMLTIAESLRQA-GLTDAQIKFELF  244
+
+
+ Score = 49.3 bits (116),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 41/79 (52%), Gaps = 2/79 (3%)
+
+Query  5    ITIEGSDAAFDCGPAQSVL-DAALRAGIELPYSCRKGVCGNCAGAVAEGEV-AGLGGPIR  62
+            +T++G+  +F      +VL DAA++  ++ PYSC+ GVC  C   V EGEV   +   + 
+Sbjct  272  VTLDGATRSFKMPKDGTVLLDAAIQNHMDAPYSCKAGVCSTCRAKVLEGEVEMEINHALE  331
+
+Query  63   NESCAPDQVLFCMCAPRGD  81
+            +       VL C C P  D
+Sbjct  332  DYEVRAGYVLSCQCIPLSD  350
+
+
+> DMKJLJHC_01381 1,2-phenylacetyl-CoA epoxidase, subunit E
+Length=226
+
+ Score = 59.7 bits (143),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 62/225 (28%), Positives = 93/225 (41%), Gaps = 27/225 (12%)
+
+Query  115  SVLQLRLPAGQRARFQAGQYLQLALPD----GSTRCYSMANPPHENDTLTLHVRHVPG-G  169
+                L  P  +  R+  GQ + + L         R ++  N  HE  TL   ++  P   
+Sbjct  16   DTYHLSFPRPEGFRYTPGQAVDVTLLREGWRDEARPFTFVNS-HEASTLDFIIKSYPDHD  74
+
+Query  170  AFSARVPGLAPGDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVER  229
+              + ++  L PG+ I++  P+GA+    DA  P  F+ GG G  P  +IL    R R+ER
+Sbjct  75   GVTRQIATLEPGEQIQISEPWGAI---HDAG-PGTFIAGGAGITPFIAIL----RARLER  126
+
+Query  230  P-----ITLIWGARRAEGIYLRPAIAKWQRQWPQGFRFVEALSGEAR--EGAFAGRVDAA  282
+                   TLI+  +RAE I LR      +     G + V  +S +    EG  AGR+D  
+Sbjct  127  EGTLEGTTLIFSNKRAEDIILREEFEAME-----GLKTVFLVSDQDAPGEGVHAGRLDHG  181
+
+Query  283  LRAHCPDLSGHELYCCGSPGMVQSVREAAVQALGLPAARFHADVF  327
+                         Y CG   MV  V +  V + G+  A+   + F
+Sbjct  182  FLRQYATAEAAPFYICGPDEMVDDVEKELV-SFGISDAQIIREEF  225
+
+
+> DMKJLJHC_06355 Flavohemoprotein
+Length=227
+
+ Score = 54.7 bits (130),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 58/192 (30%), Positives = 85/192 (44%), Gaps = 18/192 (9%)
+
+Query  128  RFQAGQYLQLALP------DGSTRCYSMANPPHENDTLTLHVRHVPGGAFSAR-VPGLAP  180
+            RF+ GQ L   L        G+ R +++A+ P E   L L +R     +   R +  L P
+Sbjct  20   RFRPGQALDCTLALRGYDARGNRRTFTIASAPSEPQ-LRLGIRQPASPSLYKRALVDLTP  78
+
+Query  181  GDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVERPITLIWGARRA  240
+            GD + V+   G  TL        VF+ GG G  P RS++ +M   +  R + L +  RR 
+Sbjct  79   GDTLFVQAAAGRFTLPETPDARFVFLAGGIGITPFRSMIAEMLATQDRRSVALFYANRRP  138
+
+Query  241  EGIYLRPAIAKWQRQWPQGFRFVEALSGEAREGAFAGRVDA--ALRAHCPDLSGHE--LY  296
+            E       +A  Q +     +    LS    +G   GR+ A   LR+  P  S HE   Y
+Sbjct  139  EEAAYGDLLALAQDKI--NLQVFHCLSAANVDGGL-GRLTARQVLRS-LP--SAHEALFY  192
+
+Query  297  CCGSPGMVQSVR  308
+              GSPG V+++R
+Sbjct  193  ISGSPGFVRALR  204
+
+
+> DMKJLJHC_01379 Ferredoxin--NADP reductase
+Length=267
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 52/224 (23%), Positives = 93/224 (42%), Gaps = 24/224 (11%)
+
+Query  115  SVLQLRLPAGQRARFQAGQYLQLALPDGS----TRCYSMANPPHENDTLTLHVRHVPGGA  170
+            ++   R+   Q  RF++G+++ + L   +     R YS+A+P + ++ L  +   VP G 
+Sbjct  25   TLFSFRVSRPQSLRFRSGEFVMIGLMGDNGKPLLRAYSIASP-NWDEELEFYSIKVPDGP  83
+
+Query  171  FSARVPGLAPGDAIEVELPFGAVTLEADARRP---IVFVVGGTGFAPARSILDDMARWRV  227
+             ++++  + PGD I +  P    TL  DA  P   + F+  GTG AP  S++ D   +  
+Sbjct  84   LTSKLQHIQPGDEI-ILRPKPVGTLVIDALLPGKRVWFLATGTGIAPFASLMRDPETYEK  142
+
+Query  228  ERPITLI----------WGARRAEGIYLRPAIAKW----QRQWPQGFRFVEALSGEAREG  273
+               + ++          +G    EG+   P I +      + +P   R      G   + 
+Sbjct  143  FDEVVMMHTCRTVAELDYGRELVEGLINDPLIGEMVEGKLKYYPTTTREESPHMGRITDN  202
+
+Query  274  AFAGRVDAALRAHCPDLSGHELYCCGSPGMVQSVREAAVQALGL  317
+               G+V   L     D +      CGS    + V  A ++  GL
+Sbjct  203  LANGKVFKDLDLAPMDPATDRAMVCGSLAFNKDVM-AVLEGFGL  245
+
+
+> DMKJLJHC_01081 Ferredoxin--NADP reductase
+Length=273
+
+ Score = 45.1 bits (105),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 60/228 (26%), Positives = 96/228 (42%), Gaps = 34/228 (15%)
+
+Query  116  VLQLRLPAGQRARFQAGQYLQLALPDGS----TRCYSMANPPHENDTLTLHVRHVPGGAF  171
+            +   RL   +  RF++G+++ + L   +     R YS+A+P  + + L  +   V  G  
+Sbjct  35   LFSFRLKRPRSLRFRSGEFVMIGLVGDNGKPILRAYSIASPSWDEE-LEFYSIKVQEGPL  93
+
+Query  172  SARVPGLAPGDAIEVELPFGAVTLEADARRP---IVFVVGGTGFAPARSILDDMARWRVE  228
+            ++R+  +  GD + +  P    TL  DA  P   +  V  GTG AP  S+L D   W   
+Sbjct  94   TSRLQHIRTGDHV-ILRPKPVGTLVHDALLPGKRLYMVATGTGIAPFASLLRDPETWEKY  152
+
+Query  229  RPITLIWGAR-RAEGIY---------LRPAIAKWQRQWPQGFRFVEALSGEAREGAFAGR  278
+              + L    R RA+  Y         L P + +   Q   G R +   + E  E    GR
+Sbjct  153  NEVILTHTCRQRADLAYGQDLVTDLALDPLVGE---QAAAGLRVITTTTQE--ESPHQGR  207
+
+Query  279  V-------DAALRAHCPDLSGHE--LYCCGSPGMVQSVREAAVQALGL  317
+            +         A     PDL+  E  +  CGS G+ + +  A ++A GL
+Sbjct  208  ITDWISEGKLAQVLGLPDLTPEEDRVMICGSVGLNKDM-AALLEARGL  254
+
+
+> DMKJLJHC_01140 Phenoxybenzoate dioxygenase subunit beta
+Length=321
+
+ Score = 39.7 bits (91),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 35/76 (46%), Gaps = 1/76 (1%)
+
+Query  4    RITIEGSDAAFDCGPAQSVLDAALRAGIELPYSCRKGVCGNCAGAVAEGEVAGLGGPIRN  63
+             +  E S      GP  ++  A  RAG+++   C +GVCG C   V +GE+      + +
+Sbjct  237  EVVAERSGVTVTVGPDDTIAKALGRAGVKVEVKCEEGVCGTCVTDVLDGEIDHRDRFLTD  296
+
+Query  64   ESCAPDQVLFCMCAPR  79
+            E     +++ C C  R
+Sbjct  297  EEREEGEMI-CACCSR  311
+
+
+> DMKJLJHC_06317 Ferredoxin--NADP reductase
+Length=196
+
+ Score = 32.3 bits (72),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 33/136 (24%), Positives = 56/136 (41%), Gaps = 11/136 (8%)
+
+Query  159  LTLHVRHVPGGAFSARVPGLAPGDAIEVELPFGAVTLEADARRP---IVFVVGGTGFAPA  215
+            +  +   VP G  ++++  + PGD I +  P    TL  DA  P   + F+  GTG AP 
+Sbjct  1    MEFYSIKVPDGPLTSKLQHIKPGDEI-ILRPKPVGTLVHDALLPGKRVWFLATGTGIAPF  59
+
+Query  216  RSILDDMARWRVERPITLIWGARRAEGI-YLRPAIAKWQRQWPQGFRFVEAL-----SGE  269
+             S++ D   +     + ++   R  + + Y R  +   Q     G   VE       +  
+Sbjct  60   ASLMRDPETYEKYDQVVMMHTCRTKDELEYGRRLVEDLQNDELIG-EMVEGKLLYYPTTT  118
+
+Query  270  AREGAFAGRVDAALRA  285
+              E  F GR+   L++
+Sbjct  119  REESPFMGRITDNLQS  134
+
+
+> DMKJLJHC_03375 Succinate dehydrogenase iron-sulfur subunit
+Length=258
+
+ Score = 29.6 bits (65),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 38/77 (49%), Gaps = 22/77 (29%)
+
+Query  16   CGPAQSVLDAALRAGIELP------YSCRKGVCGNCAGAVAEGEVAGLGGPIRNESCAPD  69
+            CGP   VLDA ++   E+        SCR+G+CG+CA          +GG I   +C   
+Sbjct  54   CGPM--VLDALIKIKNEVDPTLTFRRSCREGICGSCA--------MNIGG-INTLAC---  99
+
+Query  70   QVLFCMCAPRGDLRIRP  86
+              ++ +   +GD++I P
+Sbjct  100  --IYGLDEVKGDVKIYP  114
+
+
+> DMKJLJHC_06592 Succinate dehydrogenase iron-sulfur subunit
+Length=259
+
+ Score = 29.6 bits (65),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 23/40 (58%), Gaps = 8/40 (20%)
+
+Query  16  CGPAQSVLDAALRAGIELP------YSCRKGVCGNCAGAV  49
+           CGP   VLDA ++   E+        SCR+G+CG+CA  +
+Sbjct  54  CGPM--VLDALIKIKNEIDPTLTFRRSCREGICGSCAMNI  91
+
+
+> DMKJLJHC_02277 NADH-quinone oxidoreductase chain 3
+Length=677
+
+ Score = 29.6 bits (65),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 19/60 (32%), Positives = 32/60 (53%), Gaps = 9/60 (15%)
+
+Query  4   RITIEGSDAAFDCGPAQSVLDAALRAGIELPYSC---RKGVCGNCAGAVAEGEVAGLGGP  60
+           +I I+G++   D  P  +++ A  +AG+E+P  C   R  + GNC   + E     +GGP
+Sbjct  6   KIIIDGNEVEVD--PNLTLIQACEQAGVEIPRFCYHERLSIAGNCRMCLVE----VVGGP  59
+
+
+> DMKJLJHC_01014 Glucokinase
+Length=321
+
+ Score = 28.5 bits (62),  Expect = 1.00, Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 28/66 (42%), Gaps = 0/66 (0%)
+
+Query  169  GAFSARVPGLAPGDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVE  228
+            G    R  G   GD     LPFG + L   A R +V  +   GFAPA       + +   
+Sbjct  235  GEMFVRFMGRVLGDLALTHLPFGGIYLIGGAARGVVPWLSEFGFAPAMHAKGRFSDFLKA  294
+
+Query  229  RPITLI  234
+             P+++I
+Sbjct  295  FPVSVI  300
+
+
+> DMKJLJHC_01332 Bifunctional enzyme IspD/IspF
+Length=375
+
+ Score = 27.7 bits (60),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 22/71 (31%), Positives = 29/71 (41%), Gaps = 14/71 (20%)
+
+Query  198  DARRPIVF--VVGGTGFAPARSILDDMARWRVERPI----TLIWGARRAEGIYLRPAIAK  251
+            D  RP+V   V+GG        +LD +A +R   P       +W     E    R     
+Sbjct  98   DGARPLVSRDVIGG--------VLDALASYRAAAPALPVSDALWHGEDGEVSGTRSREGL  149
+
+Query  252  WQRQWPQGFRF  262
+            W+ Q PQGF F
+Sbjct  150  WRAQTPQGFDF  160
+
+
+> DMKJLJHC_01754 hypothetical protein
+Length=432
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 17/34 (50%), Positives = 19/34 (56%), Gaps = 4/34 (12%)
+
+Query  260  FRFVEALSGEAREGAFAGRV----DAALRAHCPD  289
+             R+V+ LS   R G   GRV    DAALRA C D
+Sbjct  161  LRWVQHLSEFGRLGDVIGRVEIAADAALRARCAD  194
+
+
+> DMKJLJHC_02415 Ribosomal protein S12 methylthiotransferase RimO
+Length=461
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 23/45 (51%), Gaps = 2/45 (4%)
+
+Query  264  EALSGEAREGAFAGRVD--AALRAHCPDLSGHELYCCGSPGMVQS  306
+            + L   AR  A A  +D  AA RA CPD++    +  G PG  ++
+Sbjct  289  DVLKRMARPAASARTLDEIAAWRATCPDITLRSTFIVGYPGETEA  333
+
+
+> DMKJLJHC_03377 Succinate dehydrogenase flavoprotein subunit
+Length=601
+
+ Score = 26.6 bits (57),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 26/56 (46%), Gaps = 5/56 (9%)
+
+Query  134  YLQLALPDGSTRCYSMA-----NPPHENDTLTLHVRHVPGGAFSARVPGLAPGDAI  184
+            Y  LA  D  +RC +M          + D + L++ H+P  A   R+PG++    I
+Sbjct  284  YKDLASRDVVSRCMTMEIREGRGVGDQKDHIFLNLSHLPPEALHERLPGISESAKI  339
+
+
+> DMKJLJHC_02522 hypothetical protein
+Length=839
+
+ Score = 26.2 bits (56),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 28/96 (29%), Positives = 41/96 (43%), Gaps = 11/96 (11%)
+
+Query  124  GQRARFQAGQYLQLALPDGSTRCYSMANPPHENDT----LTLHVRHVPGGAFSARVP---  176
+            GQ AR  AG++  L       R  + ++ P E  T       +    P  +FSA+     
+Sbjct  560  GQNARKVAGEHWVLR----GDRGVTYSDVPREKLTAGKWWPKNYDGPPLASFSAKEAEEI  615
+
+Query  177  GLAPGDAIEVELPFGAVTLEADARRPIVFVVGGTGF  212
+            GL  GD I V +    +T +  + R + F  GG GF
+Sbjct  616  GLKLGDNITVNILGRDITAKVTSFRDVDFSTGGIGF  651
+
+
+> DMKJLJHC_04842 Na(+)/H(+) antiporter NhaD
+Length=432
+
+ Score = 25.8 bits (55),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 18/32 (56%), Gaps = 0/32 (0%)
+
+Query  81   DLRIRPAAWHRVDPSARKRFTAKVFRNQLAAP  112
+            D+R++P AW  V   A    +A +F++ L  P
+Sbjct  224  DVRLKPGAWGVVVLFAATIVSAVLFKDFLQMP  255
+
+
+> DMKJLJHC_01286 Cysteine synthase
+Length=343
+
+ Score = 25.4 bits (54),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 23/58 (40%), Gaps = 8/58 (14%)
+
+Query  242  GIYLRPAIAKWQRQWPQG-----FRFVEALSGEAR---EGAFAGRVDAALRAHCPDLS  291
+            G+YL+P   K     P G     F     L  E     EG   GR+ A L    PD+S
+Sbjct  194  GLYLQPKGVKIALADPDGAALHSFYTTGELKSEGSSIAEGIGQGRITANLEGFTPDMS  251
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326554704
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,175 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P8R1|A0A0K8P8R1_IDESA Uncharacterized protein OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0559 PE=4 SV=1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02598 Putative peroxiredoxin bcp                           33.5    8e-04
+  GFJPDDAG_00148 Thiol-disulfide oxidoreductase ResA                  28.1    0.061
+  GFJPDDAG_00199 Demethylmenaquinone methyltransferase                25.4    0.52 
+  GFJPDDAG_02282 2,3-bisphosphoglycerate-independent phosphoglyce...  23.9    2.2  
+  GFJPDDAG_00943 hypothetical protein                                 23.9    2.4  
+  GFJPDDAG_04201 Peptidyl-tRNA hydrolase                              23.5    2.6  
+  GFJPDDAG_01742 Acetyltransferase                                    23.5    2.6  
+  GFJPDDAG_02581 Glycogen biosynthesis protein GlgD                   23.1    4.3  
+  GFJPDDAG_03432 putative cytosol aminopeptidase                      23.1    4.5  
+  GFJPDDAG_00716 Peptide transport system permease protein SapB       23.1    4.5  
+
+
+> GFJPDDAG_02598 Putative peroxiredoxin bcp
+Length=216
+
+ Score = 33.5 bits (75),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  9    NGLELPILSDPGNEVAAAFGLRFTLPAYRIKQYRK  43
+            N L+  +LSD GN+VA  + L + LP Y ++ Y++
+Sbjct  127  NELDYFVLSDEGNKVADEYNLVYKLPPYLVEIYKE  161
+
+
+> GFJPDDAG_00148 Thiol-disulfide oxidoreductase ResA
+Length=176
+
+ Score = 28.1 bits (61),  Expect = 0.061, Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  3    SREVRTNGLELPILSDPGNEVAAAFGL  29
+            +R +  +GLE PIL D   EV  A+G+
+Sbjct  113  NRFISKHGLEFPILVDKEEEVQNAYGI  139
+
+
+> GFJPDDAG_00199 Demethylmenaquinone methyltransferase
+Length=233
+
+ Score = 25.4 bits (54),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 17/35 (49%), Gaps = 1/35 (3%)
+
+Query  2    NSREVRTNGLELPILSDPGNEVAAAFGLRFTLPAY  36
+            N   +  N +ELP   D  + V   FGLR  +P Y
+Sbjct  99   NIELIHGNAMELPFDDDSFDYVTIGFGLR-NVPDY  132
+
+
+> GFJPDDAG_02282 2,3-bisphosphoglycerate-independent phosphoglycerate 
+mutase
+Length=487
+
+ Score = 23.9 bits (50),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 12/30 (40%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  20   GNEVAAAFGLRFTLPAYRIKQYRKLKNDLP  49
+            G  V  AF L + L  ++ KQY    ND P
+Sbjct  182  GGVVTLAFILHYFLFDWKPKQYDSFTNDEP  211
+
+
+> GFJPDDAG_00943 hypothetical protein
+Length=254
+
+ Score = 23.9 bits (50),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  62   ELFGGPGHGMDLGQCVVGRFARDEIG  87
+            +LFG PG G+   Q + G +  D IG
+Sbjct  206  KLFGKPGKGLKGYQQISGAYHADGIG  231
+
+
+> GFJPDDAG_04201 Peptidyl-tRNA hydrolase
+Length=185
+
+ Score = 23.5 bits (49),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  67   PGHGMDLGQCVVGRFARDEIG  87
+            P +GM +   V+GRF+++E G
+Sbjct  136  PTNGMSVPDYVLGRFSKEEQG  156
+
+
+> GFJPDDAG_01742 Acetyltransferase
+Length=182
+
+ Score = 23.5 bits (49),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 21/36 (58%), Gaps = 1/36 (3%)
+
+Query  60   GDELFGGPGHGMDLGQCVVGRFARDEIGLEGVQLVL  95
+            GDE   G G+G +  +C++  +A  E+ L  VQL +
+Sbjct  96   GDEQSWGYGYGKEAIECLLA-YAFHELNLYRVQLTV  130
+
+
+> GFJPDDAG_02581 Glycogen biosynthesis protein GlgD
+Length=342
+
+ Score = 23.1 bits (48),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 21/42 (50%), Gaps = 0/42 (0%)
+
+Query  40   QYRKLKNDLPTPRARVVGARGDELFGGPGHGMDLGQCVVGRF  81
+            QYR L + L + +   +  + D LF  P  G++  +  VG F
+Sbjct  61   QYRSLMDHLGSGKNWDLNRKRDGLFFFPAPGLEANEEGVGSF  102
+
+
+> GFJPDDAG_03432 putative cytosol aminopeptidase
+Length=501
+
+ Score = 23.1 bits (48),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 10/28 (36%), Positives = 14/28 (50%), Gaps = 0/28 (0%)
+
+Query  20   GNEVAAAFGLRFTLPAYRIKQYRKLKND  47
+              +VA AF   FT+  Y    Y+K  N+
+Sbjct  122  ATDVAHAFTEAFTMSTYEFHGYKKKSNE  149
+
+
+> GFJPDDAG_00716 Peptide transport system permease protein SapB
+Length=283
+
+ Score = 23.1 bits (48),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 21/41 (51%), Gaps = 1/41 (2%)
+
+Query  8    TNGLELPILSDPGNEVAAAFGLRFTLPAYRIKQ-YRKLKND  47
+            T GL   +++ P  E+A    L   +P Y +++  +KLK  
+Sbjct  238  TYGLTWFVINHPTYEIATMSVLLIFIPFYLLEEVVKKLKTK  278
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.143    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 28985536
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

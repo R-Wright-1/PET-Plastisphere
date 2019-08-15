@@ -1,0 +1,324 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P8E8|A0A0K8P8E8_IDESA Pca regulon regulatory protein PcaR
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0225 PE=4
+SV=1
+
+Length=93
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_01111 Pca regulon regulatory protein                       66.2    2e-15
+  DMKJLJHC_02193 hypothetical protein                                 28.5    0.034
+  DMKJLJHC_04881 hypothetical protein                                 26.6    0.34 
+  DMKJLJHC_05359 HTH-type transcriptional regulator KipR              26.6    0.35 
+  DMKJLJHC_04641 L-amino acid amidase                                 26.2    0.43 
+  DMKJLJHC_05285 ECF RNA polymerase sigma factor EcfG                 25.8    0.61 
+  DMKJLJHC_06493 hypothetical protein                                 25.8    0.66 
+  DMKJLJHC_01461 Riboflavin transport system permease protein RibX    24.6    2.0  
+  DMKJLJHC_03079 putative HTH-type transcriptional regulator          23.9    3.2  
+  DMKJLJHC_00478 Glutathione import ATP-binding protein GsiA          23.5    4.2  
+  DMKJLJHC_03437 ATP-dependent RecD-like DNA helicase                 23.5    5.3  
+  DMKJLJHC_05386 HTH-type transcriptional regulator AcrR              23.1    5.9  
+  DMKJLJHC_02128 Recombination protein RecR                           23.1    6.5  
+  DMKJLJHC_01518 Polyphosphate kinase                                 23.1    6.7  
+  DMKJLJHC_02329 Leucine-responsive regulatory protein                22.7    7.0  
+  DMKJLJHC_06524 HTH-type transcriptional repressor RspR              22.7    7.4  
+  DMKJLJHC_06287 Methionine--tRNA ligase                              22.7    7.5  
+  DMKJLJHC_03924 Multidrug resistance protein MexB                    22.7    8.8  
+  DMKJLJHC_07184 Putative 2-aminoethylphosphonate transport syste...  22.3    9.0  
+  DMKJLJHC_02235 Fructose dehydrogenase large subunit                 22.7    9.2  
+  DMKJLJHC_01982 Dihydrolipoyl dehydrogenase                          22.7    9.4  
+
+
+> DMKJLJHC_01111 Pca regulon regulatory protein
+Length=253
+
+ Score = 66.2 bits (160),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  5   NFVSSLDKGLQVLGCFGRQHARLTVSEAARLTGSTPASARRSLLTLQALGYLDSDGKRFW  64
+           +F++SL KGL+V+  FG Q  RL+++E A+ TG   A+ARR LLTL A GY + DGK F 
+Sbjct  7   DFIASLAKGLRVIAAFGAQTPRLSIAEVAQHTGLDRATARRCLLTLHAEGYAEYDGKFFT  66
+
+Query  65  MLPKAL  70
+           + P+ L
+Sbjct  67  LTPRVL  72
+
+
+> DMKJLJHC_02193 hypothetical protein
+Length=72
+
+ Score = 28.5 bits (62),  Expect = 0.034, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  9   SLDKGLQVLGCFGRQHARLTVSEAARLTGSTPASAR  44
+           S   G  V   +G+ H R TV EA   +GST  S R
+Sbjct  13  SAKSGRYVTKAYGKSHPRTTVKEAPGKSGSTGGSYR  48
+
+
+> DMKJLJHC_04881 hypothetical protein
+Length=213
+
+ Score = 26.6 bits (57),  Expect = 0.34, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  45   RSLLTLQALGYLDSDGKRFWMLPKALLI  72
+            R++  +  +GYL  D +R+W+  +ALL+
+Sbjct  177  RNVFRVFLIGYLIMDYQRYWLPLRALLV  204
+
+
+> DMKJLJHC_05359 HTH-type transcriptional regulator KipR
+Length=358
+
+ Score = 26.6 bits (57),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 34/79 (43%), Gaps = 1/79 (1%)
+
+Query  7    VSSLDKGLQVLGCFGRQHARLTVSEAARLTGSTPASARRSLLTLQALGYLDSDGKR-FWM  65
+            V ++D+ LQ+L     +   +   E AR TG+ P++  + +  L     L   G    W+
+Sbjct  107  VGAIDRSLQILDILCERGKPMNAYELARCTGAPPSTIYKIVDELVERDMLSRLGDSAVWL  166
+
+Query  66   LPKALLIAHAYQFPPDAAA  84
+             P+ +     Y+   D  A
+Sbjct  167  GPRLMRYGLIYRSSVDVFA  185
+
+
+> DMKJLJHC_04641 L-amino acid amidase
+Length=187
+
+ Score = 26.2 bits (56),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 16/34 (47%), Positives = 19/34 (56%), Gaps = 1/34 (3%)
+
+Query  27  LTVSEAARLTGSTPASARRSLLTLQALG-YLDSD  59
+           L VSEA RL    PA  + +LL  +A G Y D D
+Sbjct  28  LWVSEANRLREDLPAEVQATLLKHEAAGNYTDPD  61
+
+
+> DMKJLJHC_05285 ECF RNA polymerase sigma factor EcfG
+Length=168
+
+ Score = 25.8 bits (55),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%), Gaps = 2/40 (5%)
+
+Query  21   GRQHARLTVSEAARLTGSTPASARRSLL--TLQALGYLDS  58
+            G Q +RL ++E AR     PA  R +LL   L+ + Y ++
+Sbjct  92   GNQQSRLELAETARALQRLPAEQRETLLLIALEGMSYAEA  131
+
+
+> DMKJLJHC_06493 hypothetical protein
+Length=235
+
+ Score = 25.8 bits (55),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 14/33 (42%), Positives = 22/33 (67%), Gaps = 1/33 (3%)
+
+Query  21   GRQHARLTVSEAARLTGSTPASARRSLLTLQAL  53
+            G+ HAR   S  +RL+  +PA+ RR+L+  +AL
+Sbjct  158  GQAHARRWASRQSRLSAVSPAT-RRALIVAEAL  189
+
+
+> DMKJLJHC_01461 Riboflavin transport system permease protein RibX
+Length=286
+
+ Score = 24.6 bits (52),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 24/76 (32%), Positives = 36/76 (47%), Gaps = 12/76 (16%)
+
+Query  9    SLDKGLQVLGCFGRQHAR---LTVSEAARLTGSTP--ASARRSLLTLQALGYLDSDGKRF  63
+            +L  GL +L   G  H+R   L+V   A  + + P  A A   ++ L +LG         
+Sbjct  99   ALGTGLGILLAVGITHSRAMDLSVMPWAIASQTVPILAIAPMVIVVLASLGVTG------  152
+
+Query  64   WMLPKALLIAHAYQFP  79
+             +LPKAL+ A+   FP
+Sbjct  153  -LLPKALIAAYLSFFP  167
+
+
+> DMKJLJHC_03079 putative HTH-type transcriptional regulator
+Length=150
+
+ Score = 23.9 bits (50),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  28  TVSEAARLTGSTPASARRSLLTLQALGYLDS  58
+           +++E +R  G  P S   ++ TLQ+ GY+ S
+Sbjct  58  SITELSRSAGVRPQSMGATIATLQSTGYVTS  88
+
+
+> DMKJLJHC_00478 Glutathione import ATP-binding protein GsiA
+Length=536
+
+ Score = 23.5 bits (49),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  12   KGLQVLGCFGRQHARLTVSEAARLTGSTPASARR  45
+            +GL V G    ++ R  VSE  R TG  PA   R
+Sbjct  384  EGLTVHGVEKGRNRRELVSEVMRETGLDPAMMER  417
+
+
+> DMKJLJHC_03437 ATP-dependent RecD-like DNA helicase
+Length=1966
+
+ Score = 23.5 bits (49),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 16/32 (50%), Gaps = 5/32 (16%)
+
+Query  54   GYLDSDGKRFWMLPKAL---LIAH--AYQFPP  80
+            GY  +D  R WML  A+   L AH   Y  PP
+Sbjct  177  GYQANDPGRVWMLVGAIWSALTAHGLTYAVPP  208
+
+
+> DMKJLJHC_05386 HTH-type transcriptional regulator AcrR
+Length=205
+
+ Score = 23.1 bits (48),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 21/38 (55%), Gaps = 2/38 (5%)
+
+Query  10  LDKGLQVLGCFGRQHARLTVSEAARLTGSTPASARRSL  47
+           +D  L+++   G Q    T+SEAA+  G TPA+  R  
+Sbjct  16  VDASLRLITEKGPQ--GFTLSEAAKAAGVTPAAVYRHF  51
+
+
+> DMKJLJHC_02128 Recombination protein RecR
+Length=220
+
+ Score = 23.1 bits (48),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 34/73 (47%), Gaps = 7/73 (10%)
+
+Query  21  GRQHARLTVSEAARLTGSTPASARRSLLTLQALGYLDSDGKRFWMLPKALLIAHAYQFPP  80
+           GR      ++  ARL G  P SARR++L L     +   G+   M P A ++A   +   
+Sbjct  25  GRDDIEGLIALMARLPGLGPRSARRAVLHL-----ISKRGQ--LMAPLAEVMADVARNAR  77
+
+Query  81  DAAACAAAAGRSL  93
+           + A C   +G+ +
+Sbjct  78  ECARCGNISGQPV  90
+
+
+> DMKJLJHC_01518 Polyphosphate kinase
+Length=721
+
+ Score = 23.1 bits (48),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 22/46 (48%), Gaps = 3/46 (7%)
+
+Query  45   RSLLTLQALGYLDSD--GKRFWML-PKALLIAHAYQFPPDAAACAA  87
+            RS LT   L YL      K F +L P A+  AH + F P+   C A
+Sbjct  135  RSRLTKADLSYLSEHFLNKVFPVLSPLAIDPAHPFPFIPNTGFCLA  180
+
+
+> DMKJLJHC_02329 Leucine-responsive regulatory protein
+Length=166
+
+ Score = 22.7 bits (47),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  26  RLTVSEAARLTGSTPASARRSLLTLQALGYLD  57
+           R+T  E AR  G +     R + TL+  G++D
+Sbjct  22  RMTNVELARRVGISAPPCLRRVRTLEEAGFID  53
+
+
+> DMKJLJHC_06524 HTH-type transcriptional repressor RspR
+Length=251
+
+ Score = 22.7 bits (47),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 12/45 (27%), Positives = 23/45 (51%), Gaps = 0/45 (0%)
+
+Query  22  RQHARLTVSEAARLTGSTPASARRSLLTLQALGYLDSDGKRFWML  66
+           R  ARL  S+   + G++    R +L+ L+A   ++   +R W +
+Sbjct  28  RPGARLGESQLGAVFGTSRTRVREALMRLEARNIVEVSPRRGWFV  72
+
+
+> DMKJLJHC_06287 Methionine--tRNA ligase
+Length=332
+
+ Score = 22.7 bits (47),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 12/33 (36%), Positives = 16/33 (48%), Gaps = 0/33 (0%)
+
+Query  37   GSTPASARRSLLTLQALGYLDSDGKRFWMLPKA  69
+            G    S  R +   QAL  L +D  R+W+L  A
+Sbjct  105  GQFSTSQGRGVFMDQALSILPADYWRWWLLSHA  137
+
+
+> DMKJLJHC_03924 Multidrug resistance protein MexB
+Length=1016
+
+ Score = 22.7 bits (47),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 11/22 (50%), Gaps = 0/22 (0%)
+
+Query  60   GKRFWMLPKALLIAHAYQFPPD  81
+            G RF+ L     I   YQ PPD
+Sbjct  252  GDRFFKLTDVATIRATYQDPPD  273
+
+
+> DMKJLJHC_07184 Putative 2-aminoethylphosphonate transport system 
+permease protein PhnV
+Length=130
+
+ Score = 22.3 bits (46),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  21  GRQHARLTVSEAARLTGSTPASA  43
+           G Q  R+ + EAA   GSTP  A
+Sbjct  15  GLQTIRIDLEEAAMSLGSTPLHA  37
+
+
+> DMKJLJHC_02235 Fructose dehydrogenase large subunit
+Length=523
+
+ Score = 22.7 bits (47),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 9/26 (35%), Positives = 14/26 (54%), Gaps = 0/26 (0%)
+
+Query  67   PKALLIAHAYQFPPDAAACAAAAGRS  92
+            P+ LL +H+  FP   A  +   GR+
+Sbjct  275  PRVLLNSHSSMFPDGLANSSGQVGRN  300
+
+
+> DMKJLJHC_01982 Dihydrolipoyl dehydrogenase
+Length=464
+
+ Score = 22.7 bits (47),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 15/42 (36%), Positives = 20/42 (48%), Gaps = 4/42 (10%)
+
+Query  37   GSTPASARRSLLTLQA----LGYLDSDGKRFWMLPKALLIAH  74
+            G+   SA+  +L   A    L  L++DGKR W    AL   H
+Sbjct  130  GTEELSAKNIVLATGARARNLPGLEADGKRVWSYKHALQPPH  171
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 47455264
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

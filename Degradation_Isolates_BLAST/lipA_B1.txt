@@ -1,0 +1,170 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|R4YKL9|R4YKL9_OLEAN Lipase OS=Oleispira antarctica RB-8 OX=698738
+GN=lipA PE=4 SV=1
+
+Length=310
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             37.7    0.001
+  DMKJLJHC_04150 hypothetical protein                                 32.3    0.025
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        28.5    0.75 
+  DMKJLJHC_00470 2',3'-cyclic-nucleotide 2'-phosphodiesterase/3'-...  27.3    2.1  
+  DMKJLJHC_04855 Tyrosine recombinase XerC                            26.9    3.0  
+  DMKJLJHC_01028 hypothetical protein                                 26.6    3.4  
+  DMKJLJHC_05763 hypothetical protein                                 26.2    3.5  
+  DMKJLJHC_01203 hypothetical protein                                 25.8    6.4  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 37.7 bits (86),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 41/164 (25%), Positives = 61/164 (37%), Gaps = 55/164 (34%)
+
+Query  117  KLASHGFVVITISANSGFDQPAS---------------RATQLGRALDYVINQSNGSNSP  161
+            +LA  GF+ + +      DQP +               R  Q+ R LD V+     ++  
+Sbjct  95   RLARAGFIAVAL------DQPGTTFGDLDPAWATHLTERPHQVSRVLDAVL-----ADPK  143
+
+Query  162  ISGMVDTTRLGVVGWSMGGGGALQLASGDRLSAAIPIAPWNQGGNRFDQIETPTLVIACE  221
+            +   +D  R+ V+G S+GG  AL LA                 G RFD    P L+ AC 
+Sbjct  144  LGPRIDRKRISVIGHSLGGSTALFLA-----------------GGRFDP---PLLLKACG  183
+
+Query  222  NDVVASV---------NSHASPFYNRIPSTTDKAYLEINGGSHF  256
+            ND    V          +  +P   R P  +    L++ G   F
+Sbjct  184  NDTAKIVCNVYRKGGLTATMAPVSARDPRISAAVLLDMEGIHAF  227
+
+
+> DMKJLJHC_04150 hypothetical protein
+Length=154
+
+ Score = 32.3 bits (72),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 29/57 (51%), Gaps = 6/57 (11%)
+
+Query  46   CDFTRGPNPTPSSLEASTGPYSVATRSVASSVSGFGGGTLHYPTNTTGTMGAIAVVP  102
+             D  RG  P P + +  T  ++VA R      SG GGGTL      TG+ GA A+VP
+Sbjct  26   ADTVRG-RPAPGAGKGKTARHAVALRR-----SGLGGGTLGQILPGTGSAGAEALVP  76
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 28.5 bits (62),  Expect = 0.75, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 20/37 (54%), Gaps = 2/37 (5%)
+
+Query  166  VDTTRLGVVGWSMGGGGALQLASG--DRLSAAIPIAP  200
+            +DT R  + G SMGG GAL LA    +R  +    AP
+Sbjct  135  IDTERQSITGHSMGGHGALTLAMHMPERFRSVSAFAP  171
+
+
+> DMKJLJHC_00470 2',3'-cyclic-nucleotide 2'-phosphodiesterase/3'-nucleotidase
+Length=635
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 27/94 (29%), Positives = 43/94 (46%), Gaps = 7/94 (7%)
+
+Query  162  ISGMVDTTRLGVVGW-SMGGGGALQLASGDRLSAAIPIAPWNQGGNRFDQIETPTLVIAC  220
+            + G     R+GV+G+ +      + L +G+R+S A PIA       R    + P +VIA 
+Sbjct  169  LDGRTHRLRIGVIGFLTAQSRDWVSLKTGNRVSVAAPIAVARAEIARLRACQ-PDIVIAL  227
+
+Query  221  ENDVVASVNSHASPFYNRIPSTTDK--AYLEING  252
+             +  +A       P  N +P+  D   A  EI+G
+Sbjct  228  AHTGIAPA---PKPPGNAVPTRDDAALALAEIDG  258
+
+
+> DMKJLJHC_04855 Tyrosine recombinase XerC
+Length=346
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 20/44 (45%), Gaps = 6/44 (14%)
+
+Query  263  SIGGLLGKYGVSWMKRFIDNDLRYDAFLCGPDHAANRSVSEYRD  306
+             IG L G+Y VSWM+       R DA      H+   +  E RD
+Sbjct  5    KIGRLNGRYVVSWMEHGKRRRFRLDA------HSPKDAEREARD  42
+
+
+> DMKJLJHC_01028 hypothetical protein
+Length=307
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 45/163 (28%), Positives = 63/163 (39%), Gaps = 19/163 (12%)
+
+Query  69   ATRSVASSVSGF----GGGTLHYPTNTTGTMGAIAVVPGFLL--QESSIDF-WGPKL-AS  120
+            A R++A +  GF        L Y        G + +  G L   +E+   F W   L A 
+Sbjct  14   AVRTLAEAQGGFVHDLDAHVLAYLPGQGEAAGTLVITFGNLSTSREAGERFPWAHALVAK  73
+
+Query  121  HGFVVITISANSGFDQPASRATQLGRALDYVINQSNGSNSPISGMVDTTRLGVVGWSMGG  180
+             G+ ++ +  N+       RA  L RAL+ +  Q        +G     R+ V G SMGG
+Sbjct  74   QGWSILVVINNT---NDWFRAANLHRALERLSAQGF-----FAGF---DRICVYGSSMGG  122
+
+Query  181  GGALQLASGDRLSAAIPIAPWNQGGNRFDQIETPTLVIACEND  223
+             GAL  A     S A+  AP +    R    ET        ND
+Sbjct  123  FGALTFAPLFPKSHAVVFAPQSTLDRRRASFETRYRFARRNND  165
+
+
+> DMKJLJHC_05763 hypothetical protein
+Length=171
+
+ Score = 26.2 bits (56),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 11/19 (58%), Gaps = 0/19 (0%)
+
+Query  24   SWTPSPTPNPDPIPDPTPC  42
+            ++ P P P P P P P PC
+Sbjct  93   AYQPYPDPAPQPAPTPMPC  111
+
+
+> DMKJLJHC_01203 hypothetical protein
+Length=403
+
+ Score = 25.8 bits (55),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 23/46 (50%), Gaps = 3/46 (7%)
+
+Query  166  VDTTRLGVVGWSMGG---GGALQLASGDRLSAAIPIAPWNQGGNRF  208
+            VDTTR   +G S       GAL+ A G R  A +     ++GG R+
+Sbjct  188  VDTTRQQALGASTEARNLSGALRAAGGVRPDADLSAIELHRGGQRY  233
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 293250825
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

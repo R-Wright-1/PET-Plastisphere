@@ -1,0 +1,246 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P8F2|A0A0K8P8F2_IDESA 2-polyprenylphenol hydroxylase and
+related flavodoxin oxidoreductase/CDP-6-deoxy-delta-3,4-glucoseen
+reductase-like OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0230 PE=4 SV=1
+
+Length=338
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta             49.3    1e-07
+  GFJPDDAG_02838 Flavohemoprotein                                     47.8    4e-07
+  GFJPDDAG_04105 2-C-methyl-D-erythritol 4-phosphate cytidylyltra...  28.9    0.33 
+  GFJPDDAG_02322 Modulator of FtsH protease HflC                      28.9    0.49 
+  GFJPDDAG_02966 hypothetical protein                                 27.7    1.3  
+  GFJPDDAG_00304 hypothetical protein                                 26.2    3.2  
+  GFJPDDAG_01183 Bifunctional homocysteine S-methyltransferase/5,...  25.8    4.6  
+  GFJPDDAG_01425 Dihydroorotate dehydrogenase B (NAD(+)), electro...  25.4    4.7  
+  GFJPDDAG_02517 Cysteine synthase                                    25.4    5.3  
+  GFJPDDAG_00812 Alcohol dehydrogenase                                25.4    5.8  
+  GFJPDDAG_03963 FMN-dependent NADH-azoreductase 2                    24.6    8.5  
+  GFJPDDAG_03667 Release factor glutamine methyltransferase           24.6    9.5  
+
+
+> GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta
+Length=318
+
+ Score = 49.3 bits (116),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/206 (22%), Positives = 80/206 (39%), Gaps = 23/206 (11%)
+
+Query  128  RFQAGQYLQLALPDGST---RCYSMANPPHENDTLTLHVRHVPGGAFSARV--PGLAPGD  182
+            RF  G ++   + +G     R YS+ NPP + D+  + +R        +R     +  GD
+Sbjct  37   RFSGGSHITTYIENGHQTIARSYSLTNPPGQRDSYQIAIRLHDFSQGGSRFWHEKMKEGD  96
+
+Query  183  AIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVERPITLIWGARRAEG  242
+             + +  P     L   A+   VF   G G  P  S++ ++ R  +  P  L + A+  E 
+Sbjct  97   TLRISHPRNHFPLSFKAKNH-VFYAAGIGITPFLSMMAELKRDGL--PFELHYAAKSKET  153
+
+Query  243  IYLRPAIAKWQRQWPQGFRFVEALSGEAREGAFAGRVDAALRAHCPDLSGHELYCCGSPG  302
+                  + +   +    +      S E R        D++L  H     G  +Y CG P 
+Sbjct  154  CPFYSYLVETHSEETHFY-----FSEEKR------LTDSSLWEH---RVGTHVYFCGPPS  199
+
+Query  303  MVQSVREAAVQALGLPAARFHADVFV  328
+             ++    +A+  +G P +  H + F 
+Sbjct  200  FIEDFTNSAL-TIGYPQSTIHYERFT  224
+
+
+ Score = 48.9 bits (115),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 27/49 (55%), Positives = 29/49 (59%), Gaps = 6/49 (12%)
+
+Query  12   AAFDCGPAQSV------LDAALRAGIELPYSCRKGVCGNCAGAVAEGEV  54
+            A    GPA SV      LDA L+AGI+ PYSCR G CG C   V EGEV
+Sbjct  236  ADLSSGPAVSVSEEETLLDALLKAGIKAPYSCRVGRCGTCELNVFEGEV  284
+
+
+> GFJPDDAG_02838 Flavohemoprotein
+Length=397
+
+ Score = 47.8 bits (112),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/203 (25%), Positives = 89/203 (44%), Gaps = 17/203 (8%)
+
+Query  132  GQYL--QLALPDGS---TRCYSMANPPHENDTLTLHVRHV----PGGAFSARV-PGLAPG  181
+            GQY+  ++ +P       R YS+++ P + D   + V+      P G  S  +   +  G
+Sbjct  183  GQYISVRVTIPGEEFTHIRQYSLSSAPRQ-DFFRISVKKEAEFDPIGKVSNFLHEKIEAG  241
+
+Query  182  DAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVERPITLIWGARRAE  241
+              IEV  P G   LE + + P+  + GG G  P  S+LD +AR   ER  T I  A + E
+Sbjct  242  SEIEVSAPAGDFHLE-EGQSPVALISGGVGITPMMSMLDTIARNIPERKTTFIH-ASKHE  299
+
+Query  242  GIY-LRPAIAKWQRQWPQGFR-FVEALSGEAREGAFAGRVDAALRAHCPDLSGHELYCCG  299
+            G++  R  +     +   G   ++     +  +  F G V+  + +   D  G   Y CG
+Sbjct  300  GVHAFRDEVDTLMDELVNGETCYIYENPHDESQSHFQGYVNKDILSQYVD-EGTTCYVCG  358
+
+Query  300  SPGMVQSVREAAVQALGLPAARF  322
+                +++V  + ++ +G+    F
+Sbjct  359  PAPFMKAVI-STLKEMGVTTIHF  380
+
+
+> GFJPDDAG_04105 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+Length=234
+
+ Score = 28.9 bits (63),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 15/34 (44%), Positives = 18/34 (53%), Gaps = 2/34 (6%)
+
+Query  252  WQRQWPQGFRF--VEALSGEAREGAFAGRVDAAL  283
+            W  Q PQ FR   ++   GEA E  F G  DA+L
+Sbjct  155  WMVQTPQAFRVSVLKKAHGEADEDGFLGTDDASL  188
+
+
+> GFJPDDAG_02322 Modulator of FtsH protease HflC
+Length=311
+
+ Score = 28.9 bits (63),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  214  PARSILDDMARWRVERPITLIWGAR  238
+              R ++D+ A WR+E P+ +I  AR
+Sbjct  101  KKRMLIDNYAVWRIEDPLKMIKNAR  125
+
+
+> GFJPDDAG_02966 hypothetical protein
+Length=679
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 19/35 (54%), Gaps = 0/35 (0%)
+
+Query  169  GAFSARVPGLAPGDAIEVELPFGAVTLEADARRPI  203
+             AF+A    L   D  EV + FG++ L  D+R+ I
+Sbjct  506  NAFTASFDTLYFDDPKEVGIQFGSLHLSVDSRKTI  540
+
+
+> GFJPDDAG_00304 hypothetical protein
+Length=246
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 13/50 (26%), Positives = 22/50 (44%), Gaps = 0/50 (0%)
+
+Query  287  CPDLSGHELYCCGSPGMVQSVREAAVQALGLPAARFHADVFVNGPAAGAV  336
+             PD    ++Y  G+  +     +     L LPA ++H DV+  G +   V
+Sbjct  65   VPDAPNVDVYVNGNRVLRDVAFKDVSDYLTLPAGKYHIDVYPAGTSVTTV  114
+
+
+> GFJPDDAG_01183 Bifunctional homocysteine S-methyltransferase/5,10-methylenetetrahydrofolate 
+reductase
+Length=616
+
+ Score = 25.8 bits (55),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 9/29 (31%), Positives = 15/29 (52%), Gaps = 0/29 (0%)
+
+Query  142  GSTRCYSMANPPHENDTLTLHVRHVPGGA  170
+            G  RC+   N  H N+ + +H  ++  GA
+Sbjct  27   GVDRCFEELNLSHPNEVVKVHKEYIDAGA  55
+
+
+> GFJPDDAG_01425 Dihydroorotate dehydrogenase B (NAD(+)), electron 
+transfer subunit
+Length=257
+
+ Score = 25.4 bits (54),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 45/200 (23%), Positives = 73/200 (37%), Gaps = 22/200 (11%)
+
+Query  115  SVLQLRLPAGQRARFQA-GQYLQLALPDGST----RCYSMANPPHENDTLTLHVRHVPGG  169
+            ++ +L L        +A GQ++ + +  G      R  S+A+  HEN T+ L  R    G
+Sbjct  18   NIFELVLRGDLVGEIKAPGQFVHVKVGAGIDPLLRRPISIASFDHENLTMALIYRAEGKG  77
+
+Query  170  AFSARVPGLAP-GDAIEVELPFGAVTLEADARRPIVFVVGGTGFAPARSILDDMARWRVE  228
+                R+  L    + ++V  P G      + RR  + V GG G  P    L  +++  VE
+Sbjct  78   T---RLLSLVKCNEVVDVLGPLGNGFPVEEGRRTALLVGGGIGVPP----LYGLSKKLVE  130
+
+Query  229  RPITLIWGARRAEGIYLRPAIAKWQRQWPQGFRFVEALSGEAREGAFAGRVDAALRAHCP  288
+                  W  +   G           R    G  +V  + G        G V   +R   P
+Sbjct  131  NG----WTVKHILGFQTESVSFYENRFRELGETYVATVDGSL---GVKGFVTDVIREEAP  183
+
+Query  289  DLSGHELYCCGSPGMVQSVR  308
+                   Y CG   M++++ 
+Sbjct  184  AYD--VFYSCGPTPMLKALE  201
+
+
+> GFJPDDAG_02517 Cysteine synthase
+Length=309
+
+ Score = 25.4 bits (54),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+
+Query  283  LRAHCPDLSGHELYCCGSP  301
+            LR H PDLS H +   GSP
+Sbjct  193  LREHYPDLSVHVVEPAGSP  211
+
+
+> GFJPDDAG_00812 Alcohol dehydrogenase
+Length=328
+
+ Score = 25.4 bits (54),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  315  LGLPAARFHADVFVNGPAAGAV  336
+            LG+PA   H  VF +GP  G +
+Sbjct  127  LGIPAMTAHRSVFSDGPVKGKI  148
+
+
+> GFJPDDAG_03963 FMN-dependent NADH-azoreductase 2
+Length=211
+
+ Score = 24.6 bits (52),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 18/42 (43%), Gaps = 12/42 (29%)
+
+Query  138  ALPDGSTRCYSMA------------NPPHENDTLTLHVRHVP  167
+            A P   T+ YSMA            NP HE   + L+  H+P
+Sbjct  9    AHPHDDTQSYSMAAARAFIDTYKEVNPDHEVVHIDLYREHIP  50
+
+
+> GFJPDDAG_03667 Release factor glutamine methyltransferase
+Length=289
+
+ Score = 24.6 bits (52),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 24/53 (45%), Gaps = 6/53 (11%)
+
+Query  108  QLAAPDVSVLQLRLPAGQRA------RFQAGQYLQLALPDGSTRCYSMANPPH  154
+            Q+ A D+S   L + A   +      RF  G  LQ  + DG      ++NPP+
+Sbjct  145  QMMAVDISSEALAVAAKNSSKLDANVRFFEGDLLQPLIDDGVKLDILLSNPPY  197
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 210363015
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,155 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|P00590|CUTI1_FUSSO Cutinase 1 OS=Fusarium solani subsp. pisi
+OX=70791 GN=CUT1 PE=1 SV=1
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02786 hypothetical protein                                 32.7    0.011
+  GFJPDDAG_03831 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alan...  29.6    0.15 
+  GFJPDDAG_03366 Proline dehydrogenase 1                              26.9    0.94 
+  GFJPDDAG_01383 Signal peptidase I T                                 26.2    1.4  
+  GFJPDDAG_02920 hypothetical protein                                 26.2    1.6  
+  GFJPDDAG_02078 4-hydroxy-3-methylbut-2-enyl diphosphate reductase   26.2    1.8  
+  GFJPDDAG_01178 Putative hydrolase MhqD                              24.6    4.9  
+  GFJPDDAG_01441 Laccase domain protein YfiH                          23.9    9.5  
+
+
+> GFJPDDAG_02786 hypothetical protein
+Length=243
+
+ Score = 32.7 bits (73),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 15/31 (48%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  86   IQGVGGAYRATLGDNALPRGTSSAAIREMLG  116
+            IQGV G     +G+  LP+GTS  +IR +LG
+Sbjct  145  IQGVIGDSVIDVGNTVLPKGTSVVSIRNILG  175
+
+
+> GFJPDDAG_03831 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine 
+ligase
+Length=458
+
+ Score = 29.6 bits (65),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 24/53 (45%), Gaps = 0/53 (0%)
+
+Query  172  RGRIPNYPADRTKVFCNTGDLVCTGSLIVAAPHLAYGPDARGPAPEFLIEKVR  224
+            +G + N+P DR   F +   L  T S  +    L     +RG   E +IE ++
+Sbjct  405  KGALENFPEDRVHSFMDKERLTSTLSSFITGDELVLFKASRGIKLEEVIEGLK  457
+
+
+> GFJPDDAG_03366 Proline dehydrogenase 1
+Length=305
+
+ Score = 26.9 bits (58),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 28/111 (25%), Positives = 39/111 (35%), Gaps = 22/111 (20%)
+
+Query  122  NTKCPDATLIAGGYSQGAALAAASIEDLDSAIRDKIAGTVLFG--------------YTK  167
+            N   P+  L+ G Y +   +A    +D+D   R  I   +L G              YTK
+Sbjct  175  NAYSPNLRLVKGAYKESPEVAFPDKKDVDDNFRKIIKTHLLNGNYTAIATHDDEMIEYTK  234
+
+Query  168  NLQNRGRIPNYPADRTKVF----CNTGDLVCTG-SLIVAAPHLAYGPDARG  213
+             L     IP    +   +F        +LV  G  + V  P   YG D  G
+Sbjct  235  RLVEEHNIPREQFEFQMLFGIRVERQHELVKEGYKMRVYVP---YGTDWYG  282
+
+
+> GFJPDDAG_01383 Signal peptidase I T
+Length=179
+
+ Score = 26.2 bits (56),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 11/51 (22%), Positives = 24/51 (47%), Gaps = 0/51 (0%)
+
+Query  1   MKFFALTTLLAATASALPTSNPAQELEARQLGRTTRDDLINGNSASCRDVI  51
+           ++FF    ++    S +PT +    +   +LG   R D++  ++   +D I
+Sbjct  25  IRFFLFAPIVVDGLSMMPTLHNGDRMIVNKLGEPERFDIVVFHAPEQKDYI  75
+
+
+> GFJPDDAG_02920 hypothetical protein
+Length=326
+
+ Score = 26.2 bits (56),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 15/56 (27%), Positives = 25/56 (45%), Gaps = 1/56 (2%)
+
+Query  115  LGLFQQANTKCPDATLIAGGYSQGAALAAASIEDLDSAIRDKIAGTVLFGYTKNLQ  170
+            +GL      + P+ T + G Y +G  + A     L   + D   G  +F Y KN++
+Sbjct  106  VGLTDNGEMEVPEETEVVGWYDRGVKVGAKGNAVLAGHV-DSKEGPAIFFYLKNIE  160
+
+
+> GFJPDDAG_02078 4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+Length=318
+
+ Score = 26.2 bits (56),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+
+Query  34   TTRDDLINGNSASCRDVIFIYARGSTETGNLGTLGPSIASNLESA  78
+            T   DLI    A   DVI+I  +G  E      + P I   +E+A
+Sbjct  107  TKTHDLIRAKEAEGYDVIYIGKKGHPEPEGAVGVAPEIVHLVETA  151
+
+
+> GFJPDDAG_01178 Putative hydrolase MhqD
+Length=201
+
+ Score = 24.6 bits (52),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 22/35 (63%), Gaps = 4/35 (11%)
+
+Query  129  TLIAGGYSQGAALAAASIEDLDSAIRDKIAGTVLF  163
+             ++A GYS GA +AA+ +  ++ A+R    G +LF
+Sbjct  94   NVVALGYSNGANIAASLMYHVEDALR----GGILF  124
+
+
+> GFJPDDAG_01441 Laccase domain protein YfiH
+Length=278
+
+ Score = 23.9 bits (50),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 17/35 (49%), Gaps = 0/35 (0%)
+
+Query  30   QLGRTTRDDLINGNSASCRDVIFIYARGSTETGNL  64
+            Q G  T     +G  +SC+D  F Y R   +TG +
+Sbjct  230  QCGLNTNQIYTSGFCSSCQDDFFSYRRDGGKTGRI  264
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 127137923
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

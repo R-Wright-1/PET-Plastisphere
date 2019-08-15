@@ -1,0 +1,222 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A1Z2SIQ1|A0A1Z2SIQ1_VIBGA Uncharacterized protein OS=Vibrio
+gazogenes OX=687 GN=BSQ33_03270 PE=4 SV=1
+
+Length=298
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             38.5    5e-04
+  DMKJLJHC_05388 hypothetical protein                                 28.5    0.27 
+  DMKJLJHC_02537 putative copper-transporting ATPase PacS             30.0    0.31 
+  DMKJLJHC_01741 Thermostable monoacylglycerol lipase                 28.9    0.48 
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        27.7    1.2  
+  DMKJLJHC_03142 Ribonuclease                                         26.6    2.4  
+  DMKJLJHC_03978 hypothetical protein                                 26.2    3.8  
+  DMKJLJHC_04046 Non-heme chloroperoxidase                            25.0    4.3  
+  DMKJLJHC_06246 hypothetical protein                                 24.3    5.2  
+  DMKJLJHC_07084 hypothetical protein                                 25.4    5.4  
+  DMKJLJHC_02059 DNA topoisomerase 4 subunit B                        25.4    7.6  
+  DMKJLJHC_03279 hypothetical protein                                 24.3    9.2  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 38.5 bits (88),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 34/110 (31%), Positives = 48/110 (44%), Gaps = 16/110 (15%)
+
+Query  78   SGGQQGIIAVVPGYVSLEGSIKWWGPRLASWGFTVITIDT-NTIYDQPD--------SRA  128
+            SG  Q +  +  GY  L  +  W   RLA  GF  + +D   T +   D         R 
+Sbjct  69   SGADQPVALLSHGYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERP  128
+
+Query  129  SQLSAAIDYVIDKGNDRSSPIYG-LVDPNRVGVIGWSMGGGGSLKLATDR  177
+             Q+S  +D V+      + P  G  +D  R+ VIG S+GG  +L LA  R
+Sbjct  129  HQVSRVLDAVL------ADPKLGPRIDRKRISVIGHSLGGSTALFLAGGR  172
+
+
+> DMKJLJHC_05388 hypothetical protein
+Length=91
+
+ Score = 28.5 bits (62),  Expect = 0.27, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 27/52 (52%), Gaps = 4/52 (8%)
+
+Query  177  RKIDAVIPQAPWYLGLSR-FSSITSPTMIIACQADVVAPVSVHASRFYNQIP  227
+            R+I+A++P       ++R +  I  P  +I   AD   P++VH+     Q+P
+Sbjct  7    RQINALLPHIR---EMARHYGRIDCPAELIHGTADTTVPLAVHSEPLSRQLP  55
+
+
+> DMKJLJHC_02537 putative copper-transporting ATPase PacS
+Length=741
+
+ Score = 30.0 bits (66),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 45/179 (25%), Positives = 71/179 (40%), Gaps = 20/179 (11%)
+
+Query  39   QVPRVDQL-ESSRGPYSVKTINVSRLARGFGGGTI---------HYSTESG---GQQGII  85
+            +VPR   L E       V  + V  L R   GG I         H  T+     G+   +
+Sbjct  259  EVPRATVLREEGEVVVPVGELRVGDLVRVRPGGRIPADGIVETGHSETDRALLTGETLPV  318
+
+Query  86   AVVPGYVSLEGSIKWWGPRLASWGFTVITIDTNTIYDQPDSRASQLSAAIDY--VIDKGN  143
+             V PG V   G +   GP   S   T    D++ ++   D  A+  SA   Y  + ++  
+Sbjct  319  QVAPGVVLSAGEVNLTGP--LSLRVTAAGRDSS-LHRMADLVATAESARTLYTSLAERAA  375
+
+Query  144  DRSSPIYGLVDPNRVGVIGWSMGGGGSLKLATDRKIDAVIPQAPWYLGLSRFSSITSPT  202
+               +P+  L+        GW+ G GG  +LA +     +I   P  LGL+  + +T+ +
+Sbjct  376  RAYAPVVHLLALG--AFCGWAWGTGGDFRLAVNIAAAVLIITCPCALGLAVPAVVTAAS  432
+
+
+> DMKJLJHC_01741 Thermostable monoacylglycerol lipase
+Length=254
+
+ Score = 28.9 bits (63),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 30/62 (48%), Gaps = 2/62 (3%)
+
+Query  155  PNRVGVIGWSMGGGGSLKLATDRK-IDAVIPQAPWYLGLSR-FSSITSPTMIIACQADVV  212
+            P RV  IG  +   G ++LA D   ++ V+  A   L  S     IT PT++I  + D V
+Sbjct  139  PERVPGIGSDIKQEGVVELAYDETPVNCVVELAALVLMTSNMLHRITCPTLVIQARDDHV  198
+
+Query  213  AP  214
+             P
+Sbjct  199  VP  200
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 20/67 (30%), Positives = 32/67 (48%), Gaps = 9/67 (13%)
+
+Query  136  DYVIDKGNDRSSPIYGLVDPNRVGVIGWSMGGGGSLKLATDRKIDAVIPQAPWYLGLSRF  195
+            DY+  +  D     +  +D  R  + G SMGG G+L LA        +P+   +  +S F
+Sbjct  119  DYIAQELPDALGAAFA-IDTERQSITGHSMGGHGALTLAMH------MPER--FRSVSAF  169
+
+Query  196  SSITSPT  202
+            + I +PT
+Sbjct  170  APIANPT  176
+
+
+> DMKJLJHC_03142 Ribonuclease
+Length=212
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 16/37 (43%), Gaps = 0/37 (0%)
+
+Query  195  FSSITSPTMIIACQADVVAPVSVHASRFYNQIPGTTP  231
+            F SIT P ++     DV  P SV    F    PG  P
+Sbjct  129  FDSITIPKVLAQLNRDVRLPASVVEQAFIEANPGLKP  165
+
+
+> DMKJLJHC_03978 hypothetical protein
+Length=206
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 16/60 (27%), Positives = 27/60 (45%), Gaps = 0/60 (0%)
+
+Query  187  PWYLGLSRFSSITSPTMIIACQADVVAPVSVHASRFYNQIPGTTPKAYFEIALGSHFCAN  246
+            P+Y+     SS  S  +    +AD+   V + +  F +   GT P    E+A  + F A+
+Sbjct  21   PFYIDKFLRSSFVSHALAEGRRADIATAVLLWSDSFKHDPAGTLPDDDVELARSAGFGAD  80
+
+
+> DMKJLJHC_04046 Non-heme chloroperoxidase
+Length=102
+
+ Score = 25.0 bits (53),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/64 (23%), Positives = 28/64 (44%), Gaps = 1/64 (2%)
+
+Query  193  SRFSSITSPTMIIACQADVVAPVSVHASRFYNQIPGTTPKAYFEIALGSHFCANTGYPSE  252
+            +   +IT PT+++  + D + P+   A +    +   T K Y   + G     N    +E
+Sbjct  36   ADLQAITVPTLVLHGEDDQIVPIHDAALKSIKLLKNGTLKTYPGYSHGM-LTVNADVLNE  94
+
+Query  253  DILG  256
+            D+L 
+Sbjct  95   DLLA  98
+
+
+> DMKJLJHC_06246 hypothetical protein
+Length=75
+
+ Score = 24.3 bits (51),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 21/48 (44%), Gaps = 1/48 (2%)
+
+Query  103  PRLASWGFTVITIDTNTIYDQPDSRASQLSAAIDYVIDKGNDRSSPIY  150
+            P +  W F  IT     I+    S AS L  ++D      ND S PIY
+Sbjct  5    PPIDPWRFDAITGGPEKIWGL-TSIASALGVSVDKARRLANDPSVPIY  51
+
+
+> DMKJLJHC_07084 hypothetical protein
+Length=151
+
+ Score = 25.4 bits (54),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 23/50 (46%), Gaps = 0/50 (0%)
+
+Query  87   VVPGYVSLEGSIKWWGPRLASWGFTVITIDTNTIYDQPDSRASQLSAAID  136
+            V+P    L G   W  P  A       TID   I+ +PD+ A  ++ A++
+Sbjct  46   VIPVNPGLAGQRLWDEPVYAKLSDVTETIDMIDIFRRPDAVAEVVTEALE  95
+
+
+> DMKJLJHC_02059 DNA topoisomerase 4 subunit B
+Length=651
+
+ Score = 25.4 bits (54),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 19/32 (59%), Gaps = 3/32 (9%)
+
+Query  156  NRVGVIGWSMGG---GGSLKLATDRKIDAVIP  184
+            NR G   + + G   GGS K+A DRK  A++P
+Sbjct  428  NRAGTELFIVEGDSAGGSAKMARDRKTQALLP  459
+
+
+> DMKJLJHC_03279 hypothetical protein
+Length=101
+
+ Score = 24.3 bits (51),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  173  LATDRKIDAVIPQAPWYLGLS  193
+            +A++R+ D+V+P   WY  L+
+Sbjct  38   IASERQRDSVVPVTFWYFSLA  58
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 277610781
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

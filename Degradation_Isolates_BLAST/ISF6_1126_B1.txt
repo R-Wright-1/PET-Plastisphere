@@ -1,0 +1,130 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NTX5|A0A0K8NTX5_IDESA Uncharacterized protein OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_1126 PE=4 SV=1
+
+Length=762
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_06431 hypothetical protein                                 28.5    1.6  
+  DMKJLJHC_00681 hypothetical protein                                 28.5    2.3  
+  DMKJLJHC_01941 Aldehyde dehydrogenase, thermostable                 28.5    2.8  
+  DMKJLJHC_01507 hypothetical protein                                 27.7    2.9  
+  DMKJLJHC_01286 Cysteine synthase                                    28.1    3.4  
+  DMKJLJHC_04320 Transcriptional regulator SlyA                       26.6    6.2  
+
+
+> DMKJLJHC_06431 hypothetical protein
+Length=182
+
+ Score = 28.5 bits (62),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  260  SNQGTLRDVANYIRIGKATNVALAKSGDRLVQ  291
+            S+  TL D+A +IR G+   +   KSGD L +
+Sbjct  24   SDYVTLEDIAQFIRAGREVQIIDLKSGDDLTR  55
+
+
+> DMKJLJHC_00681 hypothetical protein
+Length=301
+
+ Score = 28.5 bits (62),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 30/72 (42%), Gaps = 0/72 (0%)
+
+Query  536  AGDWTVCYNVTGESTIPAATFTNVFVRVLKDDTTEQNLLSCSASLASIYGGVKIDVRNFQ  595
+            A DWTV  + TG +   AA  +  +V    +  T    L+C  S  S +  V+     ++
+Sbjct  35   AADWTVSLHETGAAARRAARHSPGYVMYHMEPPTHARALTCRRSYFSAFWHVEASAERWE  94
+
+Query  596  LHNVLPTSTADD  607
+                  T  ADD
+Sbjct  95   WPVAKATFNADD  106
+
+
+> DMKJLJHC_01941 Aldehyde dehydrogenase, thermostable
+Length=478
+
+ Score = 28.5 bits (62),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 27/57 (47%), Gaps = 0/57 (0%)
+
+Query  240  RLQAVSGNNDPAALSQEDTVSNQGTLRDVANYIRIGKATNVALAKSGDRLVQTTNSF  296
+            R+Q++   +   A SQ   V ++  L    +YI  GKA    L   GDRL + T  F
+Sbjct  304  RIQSLRIGHALQAESQIGPVVDKHQLSQNESYIAKGKAEGANLVTGGDRLNRDTEGF  360
+
+
+> DMKJLJHC_01507 hypothetical protein
+Length=183
+
+ Score = 27.7 bits (60),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 13/32 (41%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  260  SNQGTLRDVANYIRIGKATNVALAKSGDRLVQ  291
+            S+  TL D+A +IR G+   +   KSGD L +
+Sbjct  24   SDYVTLEDIAKFIREGREVQIIDLKSGDDLTR  55
+
+
+> DMKJLJHC_01286 Cysteine synthase
+Length=343
+
+ Score = 28.1 bits (61),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 21/60 (35%), Positives = 25/60 (42%), Gaps = 0/60 (0%)
+
+Query  453  ISGVGPTAVNESGAVVIGFTSKANFGWRAAGGGLTLQRGNVTCADTAPAGSLIGSLVNPG  512
+            I   GP    ++G  V GFT     G   AG GL LQ   V  A   P G+ + S    G
+Sbjct  162  IETTGPEIWEQTGGKVDGFTCAVGSGGTLAGIGLYLQPKGVKIALADPDGAALHSFYTTG  221
+
+
+> DMKJLJHC_04320 Transcriptional regulator SlyA
+Length=139
+
+ Score = 26.6 bits (57),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 23/47 (49%), Gaps = 1/47 (2%)
+
+Query  711  LTEVSSTQGADFVNVDSSNRDHLDQDAQFD-IVKDTATLSQQTTTVG  756
+            LT+  +TQ A  V +    RD L  +   D I++ TA L Q    +G
+Sbjct  82   LTDHGTTQAARIVGISREIRDQLFAELSLDEILRTTAVLEQIERRIG  128
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.129    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 831872733
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

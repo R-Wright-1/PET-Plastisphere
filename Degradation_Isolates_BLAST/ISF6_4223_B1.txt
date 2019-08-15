@@ -1,0 +1,163 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P650|A0A0K8P650_IDESA Bacterioferritin OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_4223 PE=3 SV=1
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_05142 Bacterioferritin                                     165     6e-54
+  DMKJLJHC_02347 Bacterioferritin                                     164     2e-53
+  DMKJLJHC_00752 Oxygen-independent coproporphyrinogen-III oxidas...  28.1    0.40 
+  DMKJLJHC_04050 hypothetical protein                                 26.9    0.82 
+  DMKJLJHC_00511 SsrA-binding protein                                 25.0    3.3  
+  DMKJLJHC_02103 Dihydroorotate dehydrogenase (quinone)               24.6    5.9  
+  DMKJLJHC_03531 hypothetical protein                                 24.3    9.0  
+
+
+> DMKJLJHC_05142 Bacterioferritin
+Length=161
+
+ Score = 165 bits (418),  Expect = 6e-54, Method: Compositional matrix adjust.
+ Identities = 81/149 (54%), Positives = 104/149 (70%), Gaps = 0/149 (0%)
+
+Query  1    MKGDPQVIDHLNAQLKNELTAINQYFLHYRLLKHWGFDKLAKKEYEESIGEMKHADKLTS  60
+            MKGD +VID+LN  L++ELTA++QY+LH+RL + WG  KLAKK   ESI EM HAD L  
+Sbjct  1    MKGDAKVIDYLNRALRSELTAVSQYWLHFRLQEDWGCGKLAKKSRAESIEEMHHADTLIK  60
+
+Query  61   RILMLDGLPNLQDLGKLLIGEDVPEALKCDLQMETAAQATIKAGIAHCEAVRDYVSRDLL  120
+            RI+ L+G PNLQ L  L IGE V E L CDL  E  A A       +CE+V+DYVS+++ 
+Sbjct  61   RIIFLEGHPNLQTLDPLQIGETVRETLSCDLSAELGAVALYTEARDYCESVKDYVSKNIF  120
+
+Query  121  QDILDDTEEHIDFLETQIDLIDKVGPQNY  149
+            + +L D E H+DFLETQI L D++G +NY
+Sbjct  121  EALLTDEEGHVDFLETQIALHDRIGAENY  149
+
+
+> DMKJLJHC_02347 Bacterioferritin
+Length=161
+
+ Score = 164 bits (415),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 79/149 (53%), Positives = 106/149 (71%), Gaps = 0/149 (0%)
+
+Query  1    MKGDPQVIDHLNAQLKNELTAINQYFLHYRLLKHWGFDKLAKKEYEESIGEMKHADKLTS  60
+            MKGD +VI++LNA L++ELTAI+QY++H+R+ + WG  K+AKK   ESI EM HADKL  
+Sbjct  1    MKGDEKVIEYLNAALRSELTAISQYWVHFRMQEDWGLAKMAKKSRAESIEEMNHADKLIE  60
+
+Query  61   RILMLDGLPNLQDLGKLLIGEDVPEALKCDLQMETAAQATIKAGIAHCEAVRDYVSRDLL  120
+            RIL L+G PNLQ L  L IGE   E L+CDL  E  A    +    HCE+VRDYVS++L 
+Sbjct  61   RILFLEGHPNLQRLDPLRIGEGPRETLECDLAGEHDALTLYREARNHCESVRDYVSKNLF  120
+
+Query  121  QDILDDTEEHIDFLETQIDLIDKVGPQNY  149
+            + ++ D E H+DFLETQ+DL D++G + +
+Sbjct  121  EALIADEEGHVDFLETQLDLYDRIGAERF  149
+
+
+> DMKJLJHC_00752 Oxygen-independent coproporphyrinogen-III oxidase-like 
+protein YqeR
+Length=385
+
+ Score = 28.1 bits (61),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 29/55 (53%), Gaps = 0/55 (0%)
+
+Query  97   AQATIKAGIAHCEAVRDYVSRDLLQDILDDTEEHIDFLETQIDLIDKVGPQNYLQ  151
+            A  T KA  A  + V    S +L ++ LDDTE+ I++L   + L + +  + Y Q
+Sbjct  285  ATDTAKAPAAWLDQVARTGSGELSREALDDTEQAIEYLLFSMRLTEGLDAERYAQ  339
+
+
+> DMKJLJHC_04050 hypothetical protein
+Length=286
+
+ Score = 26.9 bits (58),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 21/41 (51%), Gaps = 9/41 (22%)
+
+Query  31   LLKHWGFDKLAKKEYEESIGEMKHADKLTSRILMLDGLPNL  71
+            +  +WGF KL +       G+   A+KL +R L  D  PNL
+Sbjct  175  VYNNWGFSKLTR-------GDYPGAEKLFTRALQYD--PNL  206
+
+
+> DMKJLJHC_00511 SsrA-binding protein
+Length=157
+
+ Score = 25.0 bits (53),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 26/85 (31%), Positives = 38/85 (45%), Gaps = 6/85 (7%)
+
+Query  18   ELTAINQYFLHYRLLKHWGFDKLAKKEYEESIGEMKHADKLTSR----ILMLDGLPNLQD  73
+            EL  IN Y   Y    H+G D+  K++   S  E+      T R    I+ L    N + 
+Sbjct  60   ELWLINGYIAAYMQAGHFGHDERRKRKLLVSKRELSRLWNATQREGMTIVPLKMYFNEKG  119
+
+Query  74   LGKLLIGEDVPEALKCDLQMETAAQ  98
+            + KLLIG  + +  K   + ET A+
+Sbjct  120  IAKLLIG--IAKGKKLADKRETEAK  142
+
+
+> DMKJLJHC_02103 Dihydroorotate dehydrogenase (quinone)
+Length=353
+
+ Score = 24.6 bits (52),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 13/48 (27%), Positives = 22/48 (46%), Gaps = 0/48 (0%)
+
+Query  99   ATIKAGIAHCEAVRDYVSRDLLQDILDDTEEHIDFLETQIDLIDKVGP  146
+            AT+     + E +RD   +  L  +L +  E  D L  +I +  K+ P
+Sbjct  167  ATVNVSSPNTEKLRDLQGKAALSSLLANVIETRDGLARRIPIFLKIAP  214
+
+
+> DMKJLJHC_03531 hypothetical protein
+Length=931
+
+ Score = 24.3 bits (51),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 27/97 (28%), Positives = 44/97 (45%), Gaps = 18/97 (19%)
+
+Query  74   LGKLLIGEDVPEA-------------LKCDLQMETAAQATIKAGIAHCEAVRDYVSRD--  118
+            +G+L  G+  PEA             L  D  +  A  A  KA     EA+R+  S+D  
+Sbjct  482  IGRLEDGDLTPEARDEIAEALWKMAELVEDGGLSDALAAMQKAQEKLSEAIRNGASKDEI  541
+
+Query  119  --LLQDILDDTEEHIDFLETQIDLIDKVGPQNYLQSQ  153
+              L+Q++ + T+ ++  L  +    D+ GPQ   Q+Q
+Sbjct  542  AKLMQELKEATDNYVRMLAERAQEQDQ-GPQFGQQNQ  577
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 108458560
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

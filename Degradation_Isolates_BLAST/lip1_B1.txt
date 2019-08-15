@@ -1,0 +1,147 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= sp|P19833|LIP1_MORS1 Lipase 1 OS=Moraxella sp. (strain TA144)
+OX=77152 GN=lip1 PE=1 SV=1
+
+Length=319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             48.9    2e-07
+  DMKJLJHC_01028 hypothetical protein                                 32.0    0.070
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        28.1    1.2  
+  DMKJLJHC_04775 Citrate synthase                                     26.6    3.4  
+  DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC     26.2    6.0  
+  DMKJLJHC_02265 3-hydroxy-3-isohexenylglutaryl-CoA/hydroxy-methy...  25.4    7.7  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 48.9 bits (115),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 31/92 (34%), Positives = 45/92 (49%), Gaps = 9/92 (10%)
+
+Query  120  GYVSYENSIKWWGPRLASWGFVVITINT-NSIYDDPD--------SRAAQLNAALDNMIA  170
+            GY     +  W   RLA  GF+ + ++   + + D D         R  Q++  LD ++A
+Sbjct  81   GYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERPHQVSRVLDAVLA  140
+
+Query  171  DDTVGSMIDPKRLGAIGWSMGGGGALKLATER  202
+            D  +G  ID KR+  IG S+GG  AL LA  R
+Sbjct  141  DPKLGPRIDRKRISVIGHSLGGSTALFLAGGR  172
+
+
+> DMKJLJHC_01028 hypothetical protein
+Length=307
+
+ Score = 32.0 bits (71),  Expect = 0.070, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 30/62 (48%), Gaps = 8/62 (13%)
+
+Query  138  WGFVVITINTNSIYDDPDSRAAQLNAALDNMIADDTVGSMIDPKRLGAIGWSMGGGGALK  197
+            W  +V+  NTN  +     RAA L+ AL+ + A    G      R+   G SMGG GAL 
+Sbjct  76   WSILVVINNTNDWF-----RAANLHRALERLSAQ---GFFAGFDRICVYGSSMGGFGALT  127
+
+Query  198  LA  199
+             A
+Sbjct  128  FA  129
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 34/86 (40%), Gaps = 27/86 (31%)
+
+Query  131  WGPRLASWGFVVITINTNSIYDDPDSRAAQLNAALDNMIADDTVGSMIDPKRLGAIGWSM  190
+            W P    W ++   +        PD+    L AA             ID +R    G SM
+Sbjct  111  WAPHFQMWDYIAQEL--------PDA----LGAAF-----------AIDTERQSITGHSM  147
+
+Query  191  GGGGALKLAT---ER-STVRAIMPLA  212
+            GG GAL LA    ER  +V A  P+A
+Sbjct  148  GGHGALTLAMHMPERFRSVSAFAPIA  173
+
+
+> DMKJLJHC_04775 Citrate synthase
+Length=431
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 25/110 (23%), Positives = 37/110 (34%), Gaps = 10/110 (9%)
+
+Query  179  DPKRLGAIGWSMGGGGALKLATERSTVRAIMPLAPYHDKSYGEVKTPTLVIACEDDRIAE  238
+            DP RL   G  +      +    + +   ++ L   HD    +V      IA EDD    
+Sbjct  299  DPFRLMGFGHRVYKNFDPRAKVMKESADEVLDLLGIHDNETLKVAKELEKIALEDDFFVS  358
+
+Query  239  TKKYANA-FYKNAIGPKMKVEVNNGSHFCPSYRFNEILLSKPGIAWMQRY  287
+             K Y N  FY   I   M           P+  F  I      + W+ ++
+Sbjct  359  KKLYPNVDFYSGIILEAMGF---------PTSMFTPIFALSRTVGWISQW  399
+
+
+> DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC
+Length=597
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  218  SYGEVKTPTLVIACEDDRIA  237
+            S  +VK P + IACE D IA
+Sbjct  470  SVRDVKVPLMAIACETDHIA  489
+
+
+> DMKJLJHC_02265 3-hydroxy-3-isohexenylglutaryl-CoA/hydroxy-methylglutaryl-CoA 
+lyase
+Length=287
+
+ Score = 25.4 bits (54),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 30/80 (38%), Gaps = 18/80 (23%)
+
+Query  118  VPGYVSYENSIKWWGPR-----------LASWGFVVITINTNSIYDDPDSRAAQLNAALD  166
+            V GYVS      + GP            L   G   I++        P+S +A L A LD
+Sbjct  136  VRGYVSVVTDCPYDGPTPPGSVARVVAALRDMGCYEISLGDTIGQGRPESISAMLGAVLD  195
+
+Query  167  NMIAD-------DTVGSMID  179
+             M AD       DT G  +D
+Sbjct  196  EMPADRLAGHYHDTAGRALD  215
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 301933516
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

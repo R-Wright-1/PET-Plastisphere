@@ -1,0 +1,218 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P2I5|A0A0K8P2I5_IDESA 30S ribosomal protein S13
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=rpsM PE=3 SV=1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_05399 30S ribosomal protein S13                            151     2e-49
+  DMKJLJHC_03021 30S ribosomal protein S13                            148     3e-48
+  DMKJLJHC_05786 Chemotaxis protein CheY                              27.7    0.21 
+  DMKJLJHC_03319 Iron-dependent extradiol dioxygenase                 25.8    1.2  
+  DMKJLJHC_00763 Dephospho-CoA kinase                                 25.4    1.4  
+  DMKJLJHC_02824 Solute-binding protein                               24.6    3.7  
+  DMKJLJHC_01627 Cytochrome bo(3) ubiquinol oxidase subunit 2         24.3    4.9  
+  DMKJLJHC_03337 Phytoene desaturase (lycopene-forming)               23.9    6.0  
+  DMKJLJHC_00968 hypothetical protein                                 23.9    6.4  
+  DMKJLJHC_05054 Methylmalonyl-CoA mutase large subunit               23.9    6.9  
+  DMKJLJHC_02823 hypothetical protein                                 22.7    8.8  
+  DMKJLJHC_03499 hypothetical protein                                 23.5    9.2  
+
+
+> DMKJLJHC_05399 30S ribosomal protein S13
+Length=122
+
+ Score = 151 bits (382),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 76/122 (62%), Positives = 91/122 (75%), Gaps = 1/122 (1%)
+
+Query  1    MARIAGINIPPHKHTEIGLTAIYGIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEI  60
+            MARIAG+NIP  K   I LT I+GIG   A+QIC  TG+   R++ +L+DA++  IRE I
+Sbjct  1    MARIAGVNIPTGKRVPIALTYIHGIGHFAAEQICAATGIEMTRRVNELSDAEVLAIREHI  60
+
+Query  61   -GRLTIEGDLRREMSINIKRLMDLGCYRGFRHRRGLPVRGQRTKTNARTRKGPRKSGALV  119
+                T+EGDLRRE++ N+KRLMDLGCYRG RHRR LPVRGQRT TNARTRKGP K+ A  
+Sbjct  61   DANYTVEGDLRREVATNVKRLMDLGCYRGLRHRRNLPVRGQRTHTNARTRKGPAKAIAGK  120
+
+Query  120  KK  121
+            KK
+Sbjct  121  KK  122
+
+
+> DMKJLJHC_03021 30S ribosomal protein S13
+Length=122
+
+ Score = 148 bits (373),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 75/122 (61%), Positives = 92/122 (75%), Gaps = 1/122 (1%)
+
+Query  1    MARIAGINIPPHKHTEIGLTAIYGIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEI  60
+            MARIAG+NIP  K   I LT I GIG+ TA+QIC   G+   R++ +L+D+++  +RE I
+Sbjct  1    MARIAGVNIPTGKRVPIALTYITGIGQHTARQICEAVGIDLARRVNELSDSEVLAMREYI  60
+
+Query  61   -GRLTIEGDLRREMSINIKRLMDLGCYRGFRHRRGLPVRGQRTKTNARTRKGPRKSGALV  119
+               LT+EGDLRRE+ +N+KRLMDLGCYRG RHRR LPVRGQRT TNARTRKGP K+ A  
+Sbjct  61   DANLTVEGDLRREVQMNVKRLMDLGCYRGLRHRRNLPVRGQRTHTNARTRKGPAKAIAGK  120
+
+Query  120  KK  121
+            KK
+Sbjct  121  KK  122
+
+
+> DMKJLJHC_05786 Chemotaxis protein CheY
+Length=122
+
+ Score = 27.7 bits (60),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 24/47 (51%), Gaps = 3/47 (6%)
+
+Query  74   SINIKRLMDLG---CYRGFRHRRGLPVRGQRTKTNARTRKGPRKSGA  117
+             IN+ RL   G     RG  H RGLP+    T++ A  +   R++GA
+Sbjct  53   DINMPRLDGFGFIEAVRGKTHLRGLPILVLTTESAADLKDRARRAGA  99
+
+
+> DMKJLJHC_03319 Iron-dependent extradiol dioxygenase
+Length=313
+
+ Score = 25.8 bits (55),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  42   DRKIKDLTDADLEKIREEIGRLTIEGDLRREMSINIKRLMDLGCYRG  88
+            DR++  L D  LE + +    L+ +  +RRE+S+  +R+   G   G
+Sbjct  91   DRRVTRLADGSLETLDDLGFALSFQVTIRRELSMPAERINAPGAPAG  137
+
+
+> DMKJLJHC_00763 Dephospho-CoA kinase
+Length=199
+
+ Score = 25.4 bits (54),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 20/35 (57%), Gaps = 3/35 (9%)
+
+Query  17  IGLTAIYGIGRTTAQQICTRTGVPF---DRKIKDL  48
+           +GLT   G+G++T  ++    G+P    D+ + DL
+Sbjct  7   LGLTGSIGMGKSTTAEMFADAGIPVWDADKTVHDL  41
+
+
+> DMKJLJHC_02824 Solute-binding protein
+Length=350
+
+ Score = 24.6 bits (52),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 14/33 (42%), Gaps = 0/33 (0%)
+
+Query  12   HKHTEIGLTAIYGIGRTTAQQICTRTGVPFDRK  44
+            H HTE    A+Y      A    T  G+P D K
+Sbjct  229  HNHTEFTGNALYTATFVFAMNNATYDGLPDDLK  261
+
+
+> DMKJLJHC_01627 Cytochrome bo(3) ubiquinol oxidase subunit 2
+Length=306
+
+ Score = 24.3 bits (51),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 28/62 (45%), Gaps = 9/62 (15%)
+
+Query  1    MARIAGINIPPHKHTEIGLTAI-----YGIGRTTAQQICTRTGVPFDRKIKDLTDADLEK  55
+            MA +  + +PPH   E  LTA      + I R  A QI    G+   +   ++T  DL K
+Sbjct  137  MATVNKVVLPPHTPVEFDLTAAGAMQSFWIPR-LAGQIYAMPGM---QTKMNMTTGDLAK  192
+
+Query  56   IR  57
+            + 
+Sbjct  193  LE  194
+
+
+> DMKJLJHC_03337 Phytoene desaturase (lycopene-forming)
+Length=535
+
+ Score = 23.9 bits (50),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  21   AIYGIGRTTAQQICTRTGVPFDRKI  45
+            AI+G GR TA +I     + FD+ I
+Sbjct  507  AIFGAGRPTAIKILDDMDIDFDKVI  531
+
+
+> DMKJLJHC_00968 hypothetical protein
+Length=336
+
+ Score = 23.9 bits (50),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 11/40 (28%), Positives = 24/40 (60%), Gaps = 2/40 (5%)
+
+Query  44   KIKDLTDADLEKIREEIGRL--TIEGDLRREMSINIKRLM  81
+             I +  DA+ E+IR ++G    ++ G LR E++ +  +++
+Sbjct  144  NIAEADDAERERIRTQMGEPYRSLPGHLRHEVAHHFWQVL  183
+
+
+> DMKJLJHC_05054 Methylmalonyl-CoA mutase large subunit
+Length=668
+
+ Score = 23.9 bits (50),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 18/60 (30%), Positives = 27/60 (45%), Gaps = 7/60 (12%)
+
+Query  15  TEIGLTAIYGIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEIGRLTIE----GDLR  70
+           T +   A+Y  G    Q   T   V FD   +   D+D +  R E+GR+ +     GD+R
+Sbjct  19  TALASNALYRAGLARGQ---TGLSVAFDLPTQTGYDSDHDLARGEVGRVGVPICHLGDMR  75
+
+
+> DMKJLJHC_02823 hypothetical protein
+Length=79
+
+ Score = 22.7 bits (47),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  50  DADLEKIREEIGRLTIEGDLRREMS  74
+           D ++EK+  +IG+L +E D   + S
+Sbjct  53  DGEIEKLHAKIGQLVVERDFLAKAS  77
+
+
+> DMKJLJHC_03499 hypothetical protein
+Length=850
+
+ Score = 23.5 bits (49),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 10/37 (27%), Positives = 23/37 (62%), Gaps = 0/37 (0%)
+
+Query  43   RKIKDLTDADLEKIREEIGRLTIEGDLRREMSINIKR  79
+            R+I++  +A+L ++ ++ G      D+RR +++ I R
+Sbjct  633  RRIREAVEAELARLCQKDGIAATNRDIRRTINLAILR  669
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 63396602
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

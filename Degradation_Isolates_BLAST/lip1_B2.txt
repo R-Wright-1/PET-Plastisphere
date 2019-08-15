@@ -1,0 +1,142 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|P19833|LIP1_MORS1 Lipase 1 OS=Moraxella sp. (strain TA144)
+OX=77152 GN=lip1 PE=1 SV=1
+
+Length=319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01447 Cell division protein FtsA                           29.6    0.28 
+  GFJPDDAG_02441 Arylesterase                                         28.5    0.43 
+  GFJPDDAG_03830 Thermostable monoacylglycerol lipase                 27.7    0.80 
+  GFJPDDAG_01043 hypothetical protein                                 26.9    1.4  
+  GFJPDDAG_02638 Thermolysin                                          25.0    7.2  
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               25.0    7.6  
+
+
+> GFJPDDAG_01447 Cell division protein FtsA
+Length=432
+
+ Score = 29.6 bits (65),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 28/87 (32%), Positives = 40/87 (46%), Gaps = 12/87 (14%)
+
+Query  169  IADDTVGSMIDPKRLGAIGWSMGGGGALKLATERSTVRA--IMPLAPYH---DKSYGEVK  223
+            +A  TV    D K LGA    +GGG       E+  ++A  ++P+   H   D S G ++
+Sbjct  188  LAAGTVALSKDEKSLGAALIDIGGGSTTIAVFEQGHLKATTVLPVGGEHITKDLSIG-LR  246
+
+Query  224  TPTLVIACEDDRIAETKKYANAFYKNA  250
+            T T      DD      KY +AFY +A
+Sbjct  247  TST------DDAEKIKTKYGHAFYDHA  267
+
+
+> GFJPDDAG_02441 Arylesterase
+Length=267
+
+ Score = 28.5 bits (62),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 24/76 (32%), Positives = 38/76 (50%), Gaps = 12/76 (16%)
+
+Query  187  GWSMGGGGALKLATERST--VRAIMPLAP-------YHDKSYGEVKTP--TLVIACEDDR  235
+            G+SMGG  A++ AT+ +T  ++ ++ + P         D  YG  K     L+ A E+DR
+Sbjct  94   GFSMGGSIAIRYATKFATDSLKQLILMGPAAPIFTQRDDFPYGTKKEEVDVLIRAIENDR  153
+
+Query  236  IAETKKYA-NAFYKNA  250
+             A    +  NAFY + 
+Sbjct  154  PATLANFGNNAFYSDV  169
+
+
+> GFJPDDAG_03830 Thermostable monoacylglycerol lipase
+Length=242
+
+ Score = 27.7 bits (60),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 21/81 (26%), Positives = 31/81 (38%), Gaps = 7/81 (9%)
+
+Query  160  QLNAALDNMIADDTVGSMIDPKRLGAIGWSMGGGGALKLATERSTVRAIMPLAPYHDKSY  219
+            QL   + NM  +   G++I+ +      W +     L     R  VR   PL        
+Sbjct  123  QLLKDIGNMFKEGMQGNLIENELYNRYKWKVTQTPILSTYEFRKVVRLARPLLT------  176
+
+Query  220  GEVKTPTLVIACEDDRIAETK  240
+             +V TPT +   E+D I   K
+Sbjct  177  -KVNTPTFIAQGENDGIVPPK  196
+
+
+> GFJPDDAG_01043 hypothetical protein
+Length=229
+
+ Score = 26.9 bits (58),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 31/73 (42%), Gaps = 7/73 (10%)
+
+Query  57   PSDCIADSKITAVALSDTRDNGPFSIRTKRISRQSAKGFGGGTIHYPTNASGCGLLGAIA  116
+            P D +   + +A+ +S T+DN   ++ +KR+     K F G        ASG  L     
+Sbjct  105  PQDLVRSFR-SALNVSQTKDNSATAVMSKRVLESVLKNFNG------EKASGQSLSEQFD  157
+
+Query  117  VVPGYVSYENSIK  129
+             +P  V     I+
+Sbjct  158  QLPENVDLSKPIQ  170
+
+
+> GFJPDDAG_02638 Thermolysin
+Length=553
+
+ Score = 25.0 bits (53),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 21/43 (49%), Gaps = 1/43 (2%)
+
+Query  68   AVALSDTRDNGPFSIRTKRISRQSAKGFGGGTIHYPTNASGCG  110
+            +V  + T+DNG   I +  I  ++A     G  HY  N SG G
+Sbjct  455  SVRYTGTQDNGGVHINSG-IGNKAAYLLSQGGTHYGVNVSGIG  496
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 25.0 bits (53),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 8/14 (57%), Positives = 11/14 (79%), Gaps = 0/14 (0%)
+
+Query  179  DPKRLGAIGWSMGG  192
+            D +R+G +GWS GG
+Sbjct  494  DKERVGVMGWSQGG  507
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 194688908
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

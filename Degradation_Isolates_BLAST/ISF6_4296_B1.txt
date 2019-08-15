@@ -1,0 +1,913 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P673|A0A0K8P673_IDESA Chemotaxis regulator OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_4296 PE=4 SV=1
+
+Length=123
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_05786 Chemotaxis protein CheY                              112     4e-34
+  DMKJLJHC_01016 Chemotaxis protein CheY                              94.4    5e-27
+  DMKJLJHC_01020 Chemotaxis protein CheY                              73.6    1e-18
+  DMKJLJHC_03852 Phosphate regulon transcriptional regulatory pro...  67.0    2e-15
+  DMKJLJHC_04806 Transcriptional regulatory protein OmpR              66.6    3e-15
+  DMKJLJHC_00179 Transcriptional regulatory protein CreB              65.1    1e-14
+  DMKJLJHC_02121 Transcriptional regulatory protein OmpR              64.7    2e-14
+  DMKJLJHC_00745 Phosphate regulon transcriptional regulatory pro...  61.6    2e-13
+  DMKJLJHC_00116 Transcriptional regulatory protein WalR              61.6    2e-13
+  DMKJLJHC_04161 Transcriptional regulatory protein CreB              61.6    2e-13
+  DMKJLJHC_02971 Phosphate regulon transcriptional regulatory pro...  59.7    3e-13
+  DMKJLJHC_05447 Autoinducer 2 sensor kinase/phosphatase LuxQ         62.0    4e-13
+  DMKJLJHC_00900 Cell cycle response regulator CtrA                   60.5    6e-13
+  DMKJLJHC_00194 Transcriptional activator protein CopR               58.2    4e-12
+  DMKJLJHC_00438 Transcriptional regulatory protein WalR              53.5    6e-11
+  DMKJLJHC_00848 Transcriptional regulatory protein BasR              54.7    8e-11
+  DMKJLJHC_00038 Sensory/regulatory protein RpfC                      55.5    8e-11
+  DMKJLJHC_06198 Chemotaxis protein CheY                              52.0    2e-10
+  DMKJLJHC_01202 Autoinducer 2 sensor kinase/phosphatase LuxQ         53.5    3e-10
+  DMKJLJHC_00420 Response regulator PleD                              53.1    5e-10
+  DMKJLJHC_01327 Nitrogen regulation protein NR(I)                    53.1    5e-10
+  DMKJLJHC_00540 Transcriptional regulatory protein OmpR              52.0    7e-10
+  DMKJLJHC_04289 Transcriptional regulatory protein tctD              52.0    8e-10
+  DMKJLJHC_04473 Transcriptional regulatory protein QseB              49.7    4e-09
+  DMKJLJHC_03075 Transcriptional regulatory protein tctD              49.3    6e-09
+  DMKJLJHC_01023 Chemotaxis response regulator protein-glutamate ...  45.8    2e-07
+  DMKJLJHC_02951 C4-dicarboxylate transport transcriptional regul...  45.4    2e-07
+  DMKJLJHC_01375 C4-dicarboxylate transport transcriptional regul...  43.9    8e-07
+  DMKJLJHC_02578 Luminescence regulatory protein LuxO                 40.0    2e-05
+  DMKJLJHC_02577 Sensor protein EvgS                                  37.7    1e-04
+  DMKJLJHC_01329 Nitrogen assimilation regulatory protein             36.6    2e-04
+  DMKJLJHC_01199 Transcriptional regulatory protein DegU              35.4    6e-04
+  DMKJLJHC_04957 putative transcriptional regulatory protein NarL     34.3    0.001
+  DMKJLJHC_06728 Polar-differentiation response regulator DivK        34.3    0.002
+  DMKJLJHC_05927 Transcriptional regulatory protein tctD              32.7    0.002
+  DMKJLJHC_01034 Sensor kinase CckA                                   33.9    0.002
+  DMKJLJHC_05495 Response regulator protein TmoT                      32.7    0.005
+  DMKJLJHC_05204 Photosynthetic apparatus regulatory protein RegA     32.7    0.005
+  DMKJLJHC_00558 Transcriptional regulatory protein AfsQ1             31.2    0.020
+  DMKJLJHC_07315 Alkaline phosphatase synthesis transcriptional r...  28.5    0.14 
+  DMKJLJHC_00691 Photosynthetic apparatus regulatory protein RegA     27.7    0.23 
+  DMKJLJHC_01745 Transcriptional regulatory protein KdpE              26.9    0.56 
+  DMKJLJHC_02720 Tyrosine--tRNA ligase                                26.2    1.0  
+  DMKJLJHC_04162 hypothetical protein                                 25.8    1.2  
+  DMKJLJHC_06705 hypothetical protein                                 24.6    1.5  
+  DMKJLJHC_00283 putative oxidoreductase                              25.0    2.3  
+  DMKJLJHC_03361 hypothetical protein                                 23.9    6.2  
+  DMKJLJHC_04288 Sensor protein BasS                                  23.9    6.9  
+  DMKJLJHC_00039 ATP-dependent DNA helicase RecQ                      23.5    7.9  
+  DMKJLJHC_00635 hypothetical protein                                 23.1    8.3  
+  DMKJLJHC_03448 Phosphate transport system permease protein PstA     23.1    9.8  
+
+
+> DMKJLJHC_05786 Chemotaxis protein CheY
+Length=122
+
+ Score = 112 bits (281),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 54/119 (45%), Positives = 78/119 (66%), Gaps = 3/119 (3%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            +ILA+DDS ++R+M+  +L+ AG+ V  AVDGQD  ++         D+V+TD NMPR+D
+Sbjct  4    TILAIDDSRTIREMLNGSLRQAGFEVHLAVDGQDGLDQLDQLT---PDVVITDINMPRLD  60
+
+Query  63   GISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKV  121
+            G    + +R     +  PIL+LTTES+  +K   R AGATGW+VKPFD  KL+  I++V
+Sbjct  61   GFGFIEAVRGKTHLRGLPILVLTTESAADLKDRARRAGATGWIVKPFDETKLVSAIRRV  119
+
+
+> DMKJLJHC_01016 Chemotaxis protein CheY 
+Length=121
+
+ Score = 94.4 bits (233),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 53/118 (45%), Positives = 76/118 (64%), Gaps = 3/118 (3%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +LAVDDS ++R M+   L SAG  +  A DG    E      G + D +++D NMPR+DG
+Sbjct  5    VLAVDDSRTIRDMLKLALGSAGIELHLAEDGMHGLE---VLDGLEPDAIISDINMPRLDG  61
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKV  121
+                + +R   K ++TPIL+LTTES+ ++K   R+AGATGW+VKPFDP KL++ +  V
+Sbjct  62   FGFIEAVRGQDKHRATPILVLTTESAPELKARARAAGATGWIVKPFDPGKLVKALNMV  119
+
+
+> DMKJLJHC_01020 Chemotaxis protein CheY 
+Length=128
+
+ Score = 73.6 bits (179),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 42/120 (35%), Positives = 62/120 (52%), Gaps = 4/120 (3%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGY-HVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            ++ VDD ++ R ++   L + G   V  A DG  A E    S      LV++D NMP MD
+Sbjct  9    MMVVDDMSTSRGLITQALDAMGVRQVGTASDGPGALEMLQKSPAH---LVISDYNMPNMD  65
+
+Query  63   GISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+            G+     LR NPK KS   +++T  +  ++ +AGR  G   +L KPF P  L   I+ V+
+Sbjct  66   GLQFLHALRSNPKTKSVGFILITGRADREIIEAGRKLGMNNFLKKPFQPQDLKACIETVV  125
+
+
+> DMKJLJHC_03852 Phosphate regulon transcriptional regulatory protein 
+PhoB
+Length=230
+
+ Score = 67.0 bits (162),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 32/121 (26%), Positives = 70/121 (58%), Gaps = 3/121 (2%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            ++L V+D  + R+++A+ L++ G+ V++A +G++A            DL++ D  +P + 
+Sbjct  8    TVLIVEDEPAQREVLAYNLEAEGFRVSKAENGEEALLLVKEDAP---DLIVLDWMLPNVS  64
+
+Query  63   GISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+            GI + ++L+  P+ K  PI++L+  S +  +  G   GA  ++VKP+   +L+  ++  +
+Sbjct  65   GIEVCRRLKTRPETKGVPIIMLSARSEEVDRVRGLETGADDYVVKPYSIVELMARVRAHL  124
+
+Query  123  R  123
+            R
+Sbjct  125  R  125
+
+
+> DMKJLJHC_04806 Transcriptional regulatory protein OmpR
+Length=240
+
+ Score = 66.6 bits (161),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 65/123 (53%), Gaps = 6/123 (5%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPR  60
+            M  I  VDD   +R +V   L+  GY V+ A  G       +  + R +DL++ D  MP+
+Sbjct  4    MAHIAVVDDHKDIRDLVGQYLQRHGYRVSLADSG---MALRALLEHRSFDLIVLDVMMPQ  60
+
+Query  61   MDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQK  120
+             DG+++ + +R   +    P++ LT  S +  +  G   GA  +LVKPF+P +L+  I+ 
+Sbjct  61   EDGLTVCRHIRSTTE---VPVIFLTAMSEETDRIIGLELGADDYLVKPFNPRELLARIRA  117
+
+Query  121  VIR  123
+            V+R
+Sbjct  118  VLR  120
+
+
+> DMKJLJHC_00179 Transcriptional regulatory protein CreB
+Length=233
+
+ Score = 65.1 bits (157),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 43/123 (35%), Positives = 66/123 (54%), Gaps = 6/123 (5%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPR  60
+            M  I  VDD  ++   V+ TL++ GY V    DGQ A++   A   R  D+ + D  MPR
+Sbjct  1    MSRIALVDDDRNILTSVSMTLEAEGYDVETYNDGQAAFD---AFSKRLPDMAVLDIKMPR  57
+
+Query  61   MDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQK  120
+            MDG+ L +KLR      + PI+ LT++  +  +  G   GA  ++ KPF    L+E I+ 
+Sbjct  58   MDGMELLQKLRLKT---AMPIIFLTSKDDEIDEVLGLRMGADDYVKKPFSQRLLVERIRA  114
+
+Query  121  VIR  123
+            ++R
+Sbjct  115  LLR  117
+
+
+> DMKJLJHC_02121 Transcriptional regulatory protein OmpR
+Length=236
+
+ Score = 64.7 bits (156),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 43/120 (36%), Positives = 66/120 (55%), Gaps = 6/120 (5%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L +DD   +R ++   L+   + VT A   +DA        G D++L++ D  MP  DG
+Sbjct  9    LLIIDDDERIRTLLKGFLQRNEFLVTAA---RDAAHARRLLAGLDFNLIVMDVMMPGEDG  65
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVIR  123
+            +SLT+ LR   K  STPIL+LT     + +  G  AGA  +L KPF+P +L+  I  ++R
+Sbjct  66   LSLTRDLR---KTLSTPILLLTARGDTRERIEGLEAGADDYLAKPFEPKELLLRINAILR  122
+
+
+> DMKJLJHC_00745 Phosphate regulon transcriptional regulatory protein 
+PhoB
+Length=230
+
+ Score = 61.6 bits (148),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 29/121 (24%), Positives = 69/121 (57%), Gaps = 3/121 (2%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            S+L V+D ++ R+++ + L++ G+ V  A +G +A    S  +    DL++ D  +P + 
+Sbjct  8    SVLVVEDESAQREVLNYNLEAEGFRVVMAENGDEALLMVSEEKP---DLIVLDWMLPNVS  64
+
+Query  63   GISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+            GI + ++++ + + +  P+++L+  S +  +  G   GA  ++VKP+   +L+  ++  +
+Sbjct  65   GIEICRRIKSSNETRHIPVIMLSARSEEVDRVRGLETGADDYVVKPYSVVELMARVRTQL  124
+
+Query  123  R  123
+            R
+Sbjct  125  R  125
+
+
+> DMKJLJHC_00116 Transcriptional regulatory protein WalR
+Length=228
+
+ Score = 61.6 bits (148),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 40/110 (36%), Positives = 59/110 (54%), Gaps = 6/110 (5%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAG-YHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMP  59
+            +  IL VDD   +R+ +A  L +   + V EA +G DA +KA ++    YDLV+ D  +P
+Sbjct  4    LKKILLVDDDTDLREALAEQLVATDDFEVYEAENGHDAVDKARSAL---YDLVVLDVGLP  60
+
+Query  60   RMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPF  109
+              DG  L KKLR   +    PI++LT   +D     G  +GA  ++ KPF
+Sbjct  61   DTDGRELCKKLR--KQGVKCPIVMLTGHDTDADTILGLDSGANDYVTKPF  108
+
+
+> DMKJLJHC_04161 Transcriptional regulatory protein CreB
+Length=233
+
+ Score = 61.6 bits (148),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 65/123 (53%), Gaps = 6/123 (5%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPR  60
+            M  I  VDD  ++   V+ TL++ G+ V    DGQ A +   A   R  D+ + D  MPR
+Sbjct  1    MSRIALVDDDRNILTSVSMTLEAEGFEVETYNDGQSALD---AFNKRLPDMAVFDIKMPR  57
+
+Query  61   MDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQK  120
+            MDG+ L +++R      + P++ LT++  +  +  G   GA  ++ KPF    L+E I+ 
+Sbjct  58   MDGMDLLQRVRQKT---NMPVIFLTSKDDEIDEVLGLRMGADDYVKKPFSQRLLVERIRA  114
+
+Query  121  VIR  123
+            ++R
+Sbjct  115  LLR  117
+
+
+> DMKJLJHC_02971 Phosphate regulon transcriptional regulatory protein 
+PhoB
+Length=132
+
+ Score = 59.7 bits (143),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/118 (27%), Positives = 62/118 (53%), Gaps = 3/118 (3%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L ++D   + + + F L  AG+ V+   DG  A+ + +   G   D V+ D  +P   G
+Sbjct  6    VLLIEDEPHIAEAIRFILTRAGWAVSVLDDGAQAFARIA---GDPPDAVILDLMLPGRSG  62
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKV  121
+            + +   LR + + ++ P+L+L+     + ++A   AGAT +L KPF  A ++E +  +
+Sbjct  63   LEILADLRADSQLQALPVLMLSARGQGRDREAAERAGATAFLAKPFANADVLEQLDAI  120
+
+
+> DMKJLJHC_05447 Autoinducer 2 sensor kinase/phosphatase LuxQ
+Length=406
+
+ Score = 62.0 bits (149),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 37/112 (33%), Positives = 64/112 (57%), Gaps = 4/112 (4%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L V+D+A  R ++   L + G+ VTEA +G D   +A A +   +D +L D +MP MDG
+Sbjct  130  LLVVEDNAINRLVLREMLTAEGHSVTEAENGADGVRRAEAHR---FDAILMDISMPVMDG  186
+
+Query  64   ISLTKKLR-DNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKL  114
+               T+++R    + +  PI+ +T  +  Q  +A R+AG +  + KP +P +L
+Sbjct  187  PQATREIRAGQGRSRDIPIIAVTAHALPQEMEAFRAAGMSDCVTKPIEPVEL  238
+
+
+> DMKJLJHC_00900 Cell cycle response regulator CtrA
+Length=237
+
+ Score = 60.5 bits (145),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 39/120 (33%), Positives = 61/120 (51%), Gaps = 5/120 (4%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            IL V+D  +  + +   L  A  +V     G++  + A      DYDL+L D N+P M+G
+Sbjct  3    ILLVEDDPTTSRSIELMLTHANLNVYCTDLGEEGIDLAKLY---DYDLILLDLNLPDMNG  59
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVIR  123
+              + ++LR +     TPILILT     + K  G  +GA  ++ KPF   +L+  I  +IR
+Sbjct  60   HEVLRQLRLSRI--ETPILILTGSDDTENKIKGFGSGADDYMTKPFHREELVARIHAIIR  117
+
+
+> DMKJLJHC_00194 Transcriptional activator protein CopR
+Length=223
+
+ Score = 58.2 bits (139),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 59/106 (56%), Gaps = 5/106 (5%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            IL ++D A+    V+  L+  G+ V    +G+D   +A A +   YD+++ D+ +P +DG
+Sbjct  3    ILLIEDDATTSDYVSKGLREEGHTVDALTNGRDGLAQALAGE---YDVMIADRMLPELDG  59
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPF  109
+            +S+ + +R      +TP++ LT       +  G +AGA  +LVKPF
+Sbjct  60   LSVVRAVRAAK--ITTPVIFLTAIGGVDDRIEGLNAGADDYLVKPF  103
+
+
+> DMKJLJHC_00438 Transcriptional regulatory protein WalR
+Length=130
+
+ Score = 53.5 bits (127),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 60/119 (50%), Gaps = 3/119 (3%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L V+D  ++   + + +   GY       G+ A EK   ++    DLVL D  +P + G
+Sbjct  10   VLIVEDEDNIAIALDYLMGREGYAHERIATGRGALEKIRETR---PDLVLLDVMLPEVSG  66
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+              + +K+R +       IL++T   S   ++ G + GA G++ KPF+  +L   +++++
+Sbjct  67   YEICQKVRADAALADVRILMMTARGSAMERRKGLALGADGFIAKPFELGELRAELRRIL  125
+
+
+> DMKJLJHC_00848 Transcriptional regulatory protein BasR
+Length=219
+
+ Score = 54.7 bits (130),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 35/120 (29%), Positives = 63/120 (53%), Gaps = 5/120 (4%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L ++D A +   V   L++ G+ V  A D + A     +S+  ++DL+L D  +P  +G
+Sbjct  3    LLLIEDEADLASAVGAHLRAQGHAVDLAPDLEMAR---ISSRMAEFDLILLDLGLPDGNG  59
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVIR  123
+            +   ++LR +     TP+LI T       + AG  AGA  +L+KP+D  +L+  +  + R
+Sbjct  60   LDFLRELRQSGH--RTPVLITTARDQIMERIAGLEAGADDYLLKPYDLGELVARVTAIHR  117
+
+
+> DMKJLJHC_00038 Sensory/regulatory protein RpfC
+Length=733
+
+ Score = 55.5 bits (132),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 35/121 (29%), Positives = 61/121 (50%), Gaps = 6/121 (5%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPR  60
+            + + L VDD    R ++   L++ G  VT    G +A     A  G  +D+VL+D  MP 
+Sbjct  468  LRAALVVDDQPVNRMILERQLQACGIEVTLCRSGSEALSAVEA--GAAFDVVLSDHRMPG  525
+
+Query  61   MDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQK  120
+            +DGI   +KLR      + P+++L+++      +   +AG +G L KP   ++L   +Q 
+Sbjct  526  LDGIEFAEKLR--AAGVTAPVMLLSSDLDP--SEITEAAGLSGCLQKPVHRSELFRALQS  581
+
+Query  121  V  121
+            +
+Sbjct  582  L  582
+
+
+ Score = 37.4 bits (85),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 23/70 (33%), Positives = 33/70 (47%), Gaps = 1/70 (1%)
+
+Query  50   DLVLTDQNMPRMDGISLTKKLR-DNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKP  108
+            DL+  D +MP MDG + T+ +R +       PI  LT  + +    +   AG   +L KP
+Sbjct  650  DLIFMDISMPEMDGRAATRAIRAEEGAGAHVPICALTAHAMEGDSTSMFEAGVDHYLTKP  709
+
+Query  109  FDPAKLIEVI  118
+               A L E I
+Sbjct  710  LKKAALAEQI  719
+
+
+> DMKJLJHC_06198 Chemotaxis protein CheY
+Length=129
+
+ Score = 52.0 bits (123),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 34/120 (28%), Positives = 59/120 (49%), Gaps = 4/120 (3%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVD-GQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            I+ VDD A+ R ++   L+       E  + G  A E   A + +   LV++D NMP MD
+Sbjct  9    IMVVDDMATSRGLIIQALEELRIKNIEVQNNGAGALE---ALRVKPAHLVISDFNMPVMD  65
+
+Query  63   GISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+            G+ L K LR+    +    +++T  +  +  + G+  G   +L KPF    + + IQ ++
+Sbjct  66   GLGLLKSLRETAATRGVGFILVTGRADRETLERGQKLGMNNFLKKPFTTDAMRQCIQAIL  125
+
+
+> DMKJLJHC_01202 Autoinducer 2 sensor kinase/phosphatase LuxQ
+Length=841
+
+ Score = 53.5 bits (127),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 34/121 (28%), Positives = 63/121 (52%), Gaps = 4/121 (3%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            ++L V+D     ++    L+   + V+ A DGQ A + A  ++   YDL+L D  MP MD
+Sbjct  615  NVLLVEDDDINLEIARELLERMAHQVSCARDGQQAVDMAERTR---YDLILMDIRMPVMD  671
+
+Query  63   GISLTKKLR-DNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKV  121
+            G+  T+++R      +  PI+  +     + K+   +AG +G+L KP   A+L +++ + 
+Sbjct  672  GLEATRRIRASEGASRDVPIIAFSANVLPEAKERFAAAGMSGFLGKPLKGAELSDLLAEF  731
+
+Query  122  I  122
+             
+Sbjct  732  F  732
+
+
+> DMKJLJHC_00420 Response regulator PleD
+Length=463
+
+ Score = 53.1 bits (126),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 33/121 (27%), Positives = 63/121 (52%), Gaps = 3/121 (2%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            SIL VDD A+ R  +   L +A Y   +A  G++A   A   +    +L+L D  +P +D
+Sbjct  4    SILIVDDVATNRIALKAMLSAARYETCQAASGEEAIAVAIEQKP---ELILLDIELPDID  60
+
+Query  63   GISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+            G+++  +LR+    +  PI+ +T   + + +     +GA   L KPF+   ++  ++ ++
+Sbjct  61   GVTVITRLREMAATRYIPIIAITPSDTPEQRLELLQSGANDILSKPFNELVMLARLRSLM  120
+
+Query  123  R  123
+            R
+Sbjct  121  R  121
+
+
+> DMKJLJHC_01327 Nitrogen regulation protein NR(I)
+Length=466
+
+ Score = 53.1 bits (126),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 67/125 (54%), Gaps = 9/125 (7%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNM--  58
+            M  IL VDD   +R+++A  L+  G+    A +  D  ++ +A   R+  L++ D  +  
+Sbjct  1    MSDILIVDDEKDIRELIADILRDEGFQTRLAANSNDCMDEINA---REPALMILDIWLKD  57
+
+Query  59   PRMDGISLTKKL-RDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEV  117
+             +MDGI + K + RDNP     P++I++   + ++  A    GA  ++ KPF+  +L+ V
+Sbjct  58   SKMDGIDILKTVKRDNP---DVPVIIISGHGNIEIAVAAIKQGAYDFIEKPFNIDQLMVV  114
+
+Query  118  IQKVI  122
+            I + +
+Sbjct  115  IGRAM  119
+
+
+> DMKJLJHC_00540 Transcriptional regulatory protein OmpR
+Length=236
+
+ Score = 52.0 bits (123),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 33/117 (28%), Positives = 62/117 (53%), Gaps = 6/117 (5%)
+
+Query  7    VDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDGISL  66
+            +DD   +RQ+++  L+ AG+  T    G+ A E  +  + +  D+ L D  +P  DG++L
+Sbjct  11   LDDEPEIRQLLSQALQEAGFRTT--CFGR-ATEFEAGLKRQPPDVCLVDLGLPDRDGLAL  67
+
+Query  67   TKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVIR  123
+              +L          I+I++  +  Q +  G   GA  +++KPFDPA+++  I+  +R
+Sbjct  68   VHRLALE---SGAAIIIISGRAQVQDRVTGLELGADDYIIKPFDPAEVVARIRARLR  121
+
+
+> DMKJLJHC_04289 Transcriptional regulatory protein tctD
+Length=223
+
+ Score = 52.0 bits (123),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 58/107 (54%), Gaps = 5/107 (5%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L V+D   + +++    ++ G+ +    DG +A      ++   +DLV+ D N+P M G
+Sbjct  3    VLLVEDHDDLAELIMDRFRADGHAIDRERDGAEAERLLRHAR---FDLVILDINLPGMTG  59
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFD  110
+             +L +++R   +  +TP+L+LT  S+   +      GA  ++VKPFD
+Sbjct  60   DALLREIR--ARGDTTPVLVLTARSAVGDRIGVLDYGADDYMVKPFD  104
+
+
+> DMKJLJHC_04473 Transcriptional regulatory protein QseB
+Length=221
+
+ Score = 49.7 bits (117),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/122 (32%), Positives = 65/122 (53%), Gaps = 9/122 (7%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L V+D A++   +   L + G H  + +DG    +  +A  G DY LV+ D  +P   G
+Sbjct  3    LLLVEDDAALAGAMREHLIAHG-HAVDHLDG--IGDAMAALAGVDYALVILDLGLPDGSG  59
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQ--AGRSAGATGWLVKPFDPAKLIEVIQKV  121
+            + L +++R   +    P++I T  + DQ+ Q   G ++GA  +LVKPFD  +L   I  V
+Sbjct  60   LDLLRQIRRAGR--KVPVIIAT--AVDQIAQRIEGLNSGADDYLVKPFDLDELAARISSV  115
+
+Query  122  IR  123
+            +R
+Sbjct  116  LR  117
+
+
+> DMKJLJHC_03075 Transcriptional regulatory protein tctD
+Length=223
+
+ Score = 49.3 bits (116),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 35/120 (29%), Positives = 60/120 (50%), Gaps = 5/120 (4%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            IL V+D+  + ++VA  L   G     A    +A +  +  +   YD V+ D N+P  +G
+Sbjct  3    ILIVEDAGDVAEVVAIRLGKTGMACDLAESCAEAEDCLAVQR---YDAVVLDINLPDRNG  59
+
+Query  64   ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVIR  123
+              L + +R   +   TP+L+LT   S   + +    GA  +LVKPFD  +L   ++ ++R
+Sbjct  60   TELLRDMR--ARGDRTPVLMLTALFSVDDRVSALDLGADDYLVKPFDQRELEARLRALMR  117
+
+
+> DMKJLJHC_01023 Chemotaxis response regulator protein-glutamate 
+methylesterase
+Length=350
+
+ Score = 45.8 bits (107),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 36/116 (31%), Positives = 59/116 (51%), Gaps = 18/116 (16%)
+
+Query  1    MHSILAVDDSASMRQMVAFT------LKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLT  54
+            MH +L VDDSA++RQ++         LK  G    EA D  +A EK    +  + D++  
+Sbjct  1    MHKVLIVDDSATIRQLIRAAIADDPRLKVVG----EASDPYEAREKI---KQLNPDVLTL  53
+
+Query  55   DQNMPRMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQA--GRSAGATGWLVKP  108
+            D  MPRM+G+   +KL    + +  P++++++E+      A    S GA   + KP
+Sbjct  54   DVEMPRMNGLEFLEKLM---RLRPMPVVMVSSETHKGSAAALEALSLGAVECIGKP  106
+
+
+> DMKJLJHC_02951 C4-dicarboxylate transport transcriptional regulatory 
+protein DctD
+Length=443
+
+ Score = 45.4 bits (106),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 33/121 (27%), Positives = 58/121 (48%), Gaps = 7/121 (6%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDY-DLVLTDQNMP  59
+            M  +  VDD   MRQ V+  L  +G+        +DA ++     G D+  +V++D  MP
+Sbjct  4    MMKVAIVDDEEDMRQSVSQWLALSGFDTETFPCAEDALKEI----GPDWPGVVISDIRMP  59
+
+Query  60   RMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQ  119
+             MDG++  K+L         P++++T      M       GA  ++ KPF P ++ E+ +
+Sbjct  60   GMDGMAFLKRLMGIDS--GLPVIMITGHGDVPMAVEAMRLGAMDFMEKPFSPDRMTELAK  117
+
+Query  120  K  120
+            +
+Sbjct  118  R  118
+
+
+> DMKJLJHC_01375 C4-dicarboxylate transport transcriptional regulatory 
+protein DctD
+Length=409
+
+ Score = 43.9 bits (102),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 35/123 (28%), Positives = 60/123 (49%), Gaps = 7/123 (6%)
+
+Query  1    MHSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYD-LVLTDQNMP  59
+            M  +L VDD  ++R+ +  TL+ AG   T A     ++ +A    G  ++ +V+TD  MP
+Sbjct  2    MRRVLLVDDDRAVREALGQTLELAGLSPTVA----GSYIEAKDHIGPGFEGVVVTDIRMP  57
+
+Query  60   RMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQ  119
+              DG +L   ++        P+++LT E    M     + GA  +L KP     L+ V++
+Sbjct  58   GKDGFALLDLVQSADA--ELPVILLTGEGDVPMAVRAMAGGAFDFLEKPCSGKALLAVVE  115
+
+Query  120  KVI  122
+            K +
+Sbjct  116  KAL  118
+
+
+> DMKJLJHC_02578 Luminescence regulatory protein LuxO
+Length=482
+
+ Score = 40.0 bits (92),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 34/117 (29%), Positives = 55/117 (47%), Gaps = 7/117 (6%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            SIL +DD AS+R +    L+++G+ V  A    D        +    ++VL D  +P  D
+Sbjct  30   SILLIDDVASLRGIYESHLQNSGFDVYTAGTANDGI---LLFRNNPIEIVLLDLMLPDRD  86
+
+Query  63   GISLTKKLRD-NPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVI  118
+            G +L  ++ D  P+   T I+++T + S          GA   L+KP   A+L   I
+Sbjct  87   GDALIAEMLDLRPR---TAIIVITADRSIDRAVNAMRCGALDVLIKPVTEARLTGAI  140
+
+
+> DMKJLJHC_02577 Sensor protein EvgS
+Length=500
+
+ Score = 37.7 bits (86),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 31/108 (29%), Positives = 47/108 (44%), Gaps = 4/108 (4%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDG  63
+            +L  DDS + + ++A  L + G       DG  A    +A   +  DLV+ D  MP   G
+Sbjct  260  VLVADDSQTNQFVLAAMLGALGASPMIYADGTSA---RAALLAQSVDLVIVDIEMPGASG  316
+
+Query  64   ISLTKKLR-DNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFD  110
+            + + K LR     +   P++  T         A R+AGA   L KP +
+Sbjct  317  LEVIKCLRASGVPWADCPVIACTGHVQGPNLDAIRTAGADALLAKPLE  364
+
+
+> DMKJLJHC_01329 Nitrogen assimilation regulatory protein
+Length=457
+
+ Score = 36.6 bits (83),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/122 (26%), Positives = 57/122 (47%), Gaps = 9/122 (7%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGY--HVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPR  60
+            ++L  DD  ++R ++   L  AG   H T ++     W      +G+  DLV++D  MP 
+Sbjct  4    TVLVADDDRTIRTVLTQALTRAGCKVHATASLVTLMRW----VEEGKG-DLVISDVMMP-  57
+
+Query  61   MDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQK  120
+             DG  L    R   +    P+++++ +++         A A  +L KPFD   L++  QK
+Sbjct  58   -DGNGLEALPRIGQERPGLPVIVISAQNTIMTAIQAAEAEAYDYLPKPFDLPDLMKRAQK  116
+
+Query  121  VI  122
+             +
+Sbjct  117  AL  118
+
+
+> DMKJLJHC_01199 Transcriptional regulatory protein DegU
+Length=204
+
+ Score = 35.4 bits (80),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 29/120 (24%), Positives = 55/120 (46%), Gaps = 11/120 (9%)
+
+Query  4    ILAVDDSASMR-QMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            IL  DD   +R  +VAF     G  V+ A + Q+A   A       Y+LVL D  MP M 
+Sbjct  3    ILIADDHDLLRDTLVAFLETEEGIEVSSASNFQEAC--ARIHNDAAYNLVLLDYKMPGMS  60
+
+Query  63   G---ISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQ  119
+            G   + +   L+   +     + +++ +++ ++ +   + GA G++ K      L+  ++
+Sbjct  61   GLESLEVVLALKGGQR-----VALISGQATREIAEQALALGAAGFIPKTLPAKSLVNAVK  115
+
+
+> DMKJLJHC_04957 putative transcriptional regulatory protein NarL
+Length=204
+
+ Score = 34.3 bits (77),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 30/120 (25%), Positives = 50/120 (42%), Gaps = 11/120 (9%)
+
+Query  4    ILAVDDSASMRQ-MVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRM-  61
+            +L  DD   +R  +V F     G     A D   A   A  + G ++DLVL D  MP M 
+Sbjct  3    VLIADDHDLLRDTLVMFLNHEGGMETETASDFNSAM--ALLNDGPEFDLVLLDYTMPGMN  60
+
+Query  62   --DGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQ  119
+              DG+    K R   +     + +++  +  ++ +     GA G+L K      L+  ++
+Sbjct  61   GLDGLQRAMKARGGQR-----VALMSGTAPREIAEKALEVGAAGFLPKTLAAKSLVNAVR  115
+
+
+> DMKJLJHC_06728 Polar-differentiation response regulator DivK
+Length=251
+
+ Score = 34.3 bits (77),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 33/119 (28%), Positives = 56/119 (47%), Gaps = 8/119 (7%)
+
+Query  4    ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDY-DLVLTDQNMPRMD  62
+            IL  +D+ + + +    +K     +T AV+G++A E       RD  DL+  D +MP +D
+Sbjct  119  ILVAEDNRTNQLVFRKMVKHLELELTFAVNGREAVELFE----RDRPDLIFMDISMPEID  174
+
+Query  63   GISLTKKLRDNPKFKST---PILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVI  118
+            G +  + +R       T   PI+ LT  +      A  +AG   +L KP   A +++ I
+Sbjct  175  GKAAARAIRRIEAEIETVPVPIVALTAHAMQGDDAAVLAAGIDRYLTKPLRRAAIVDQI  233
+
+
+ Score = 28.1 bits (61),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 18/27 (67%), Gaps = 0/27 (0%)
+
+Query  46  GRDYDLVLTDQNMPRMDGISLTKKLRD  72
+           G   D+V+TD  MP   G+ LT++LR+
+Sbjct  17  GVVCDMVVTDHLMPGGSGLDLTRRLRE  43
+
+
+> DMKJLJHC_05927 Transcriptional regulatory protein tctD
+Length=87
+
+ Score = 32.7 bits (73),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 27/49 (55%), Gaps = 2/49 (4%)
+
+Query  53   LTDQNMPRMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGA  101
+            + D N+P  DGISL + LR      + P+L+LT  S+   +  G  AGA
+Sbjct  1    MLDVNLPGRDGISLLRDLRHGQ--TTIPVLMLTARSATPQRIEGLDAGA  47
+
+
+> DMKJLJHC_01034 Sensor kinase CckA
+Length=770
+
+ Score = 33.9 bits (76),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/119 (27%), Positives = 58/119 (49%), Gaps = 5/119 (4%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            ++L V+D A +R   +  LK  G++V EA + ++A     A      D+ +TD  MP +D
+Sbjct  653  TVLLVEDEAPVRAFASRALKLQGFNVLEAENAEEALAMLEAPD-LAVDIFVTDVIMPGLD  711
+
+Query  63   GISLTKKLRDN-PKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQK  120
+            G S   + R++ P  K+   + ++  + D  K        + +L KPF  ++L   +Q 
+Sbjct  712  GPSWVAQARESRPGIKT---IFMSGYAEDVFKNGDSPIDNSVFLPKPFSLSELTATVQN  767
+
+
+> DMKJLJHC_05495 Response regulator protein TmoT
+Length=215
+
+ Score = 32.7 bits (73),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 26/109 (24%), Positives = 50/109 (46%), Gaps = 5/109 (5%)
+
+Query  14   RQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDGISLTKKLRDN  73
+            R  +   L+S G+ V    D   A+  A AS+      ++ D  +   +G+   ++L   
+Sbjct  20   RGSIGSLLRSEGHRV-RLFDSPAAYLAADASE--TAGCLVLDIRLSGENGLDFQERL--V  74
+
+Query  74   PKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVI  122
+             + ++ P++++T      M   G  AGA   L KPF   +L+E + + +
+Sbjct  75   TQARAVPVVLITGHGDIPMTVRGMRAGAVDVLPKPFADDRLLEAVARAL  123
+
+
+> DMKJLJHC_05204 Photosynthetic apparatus regulatory protein RegA
+Length=184
+
+ Score = 32.7 bits (73),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 33/112 (29%), Positives = 51/112 (46%), Gaps = 11/112 (10%)
+
+Query  2    HSILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDY---DLVLTDQNM  58
+             S+L VDD  S  + +A  ++  G+ V E  +   A +   A +   Y   DL L D N 
+Sbjct  13   RSLLLVDDDESFVKRLARAMEKRGF-VPETAESVAAGKAVVAERPPAYAVVDLRLEDGN-  70
+
+Query  59   PRMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFD  110
+                G+ + + LR+  K  +  I++LT   +     A    GAT +L KP D
+Sbjct  71   ----GLEVVEMLRE--KRPNARIVVLTGYGAIATAVAAVKIGATDYLSKPAD  116
+
+
+> DMKJLJHC_00558 Transcriptional regulatory protein AfsQ1
+Length=390
+
+ Score = 31.2 bits (69),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 26/101 (26%), Positives = 48/101 (48%), Gaps = 5/101 (5%)
+
+Query  15   QMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMDGISLTKKLRDNP  74
+            ++++  L  + + V  A+  ++A    + S     D+V++D  M  M+G    +  R   
+Sbjct  4    RIISAQLARSDFEVITAISAEEALGICAHSPP---DIVISDWMMTGMNGPDFCRAFRRME  60
+
+Query  75   KFKSTPILILTTESSDQMKQA-GRSAGATGWLVKPFDPAKL  114
+            +  S    IL T  SD M  + G  +GA  +L KP + ++L
+Sbjct  61   R-ASYGYFILLTSKSDTMDVSHGLESGADDFLSKPVNGSEL  100
+
+
+> DMKJLJHC_07315 Alkaline phosphatase synthesis transcriptional 
+regulatory protein SphR
+Length=158
+
+ Score = 28.5 bits (62),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 23/45 (51%), Gaps = 0/45 (0%)
+
+Query  79   TPILILTTESSDQMKQAGRSAGATGWLVKPFDPAKLIEVIQKVIR  123
+             P+L+LT   +D     G  AGA  ++ KPF    L+  I+  +R
+Sbjct  8    CPVLMLTGHDTDADTILGLDAGANDYVSKPFKFPVLLARIRAQLR  52
+
+
+> DMKJLJHC_00691 Photosynthetic apparatus regulatory protein RegA
+Length=184
+
+ Score = 27.7 bits (60),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 31/111 (28%), Positives = 47/111 (42%), Gaps = 9/111 (8%)
+
+Query  2    HSILAVDDSASMRQMVAFTLKSAGY--HVTEAVDGQDAWEKASASQGRDYDLVLTDQNMP  59
+             S+L VDD  S    +A  ++  G+     E V    A  ++ A      DL L D +  
+Sbjct  13   RSLLLVDDDISFLTRLARAMEKRGFAPQTAETVAAGRAIVQSQAPAYAVIDLRLEDGS--  70
+
+Query  60   RMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWLVKPFD  110
+               G+ + + LR+  K     I++LT   +     A    GAT +L KP D
+Sbjct  71   ---GLDVVELLRE--KRADARIVVLTGYGAIATAVAAVKMGATDYLAKPAD  116
+
+
+> DMKJLJHC_01745 Transcriptional regulatory protein KdpE
+Length=236
+
+ Score = 26.9 bits (58),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 45/110 (41%), Gaps = 10/110 (9%)
+
+Query  3    SILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDAWEKASASQGRDYDLVLTDQNMPRMD  62
+            ++L V+DS    + V      +G  +  A     A+      Q     +V+ D  +P   
+Sbjct  24   TVLLVEDSRHASEAVRLLCLRSGARIRRADRLASAYRHL---QTYRPSVVIVDIGLPDGS  80
+
+Query  63   GISLTKKLRDNPKFKSTP--ILILTTESSDQMKQAGRSAGATGWLVKPFD  110
+            G  L  +L      K TP   +IL T     +++    AGA G+L KP +
+Sbjct  81   GDGLIAEL-----AKMTPRVPVILGTSGDTALRENALEAGADGFLEKPVE  125
+
+
+> DMKJLJHC_02720 Tyrosine--tRNA ligase
+Length=416
+
+ Score = 26.2 bits (56),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 29/52 (56%), Gaps = 4/52 (8%)
+
+Query  54   TDQNMPRMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAGATGWL  105
+            +DQ    ++GI LT+++ D+  +  T  L+ T++     ++ G+S G   WL
+Sbjct  201  SDQWGNIVNGIDLTRRVLDHEIYGLTSPLLTTSDG----RKMGKSQGGAIWL  248
+
+
+> DMKJLJHC_04162 hypothetical protein
+Length=239
+
+ Score = 25.8 bits (55),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 27/103 (26%), Positives = 41/103 (40%), Gaps = 8/103 (8%)
+
+Query  6    AVDDSASMRQMVAFTLKSAGYHVT--EAVDGQDAWEKASASQGR------DYDLVLTDQN  57
+            AVDD    ++ V   L     HVT  EAV G+   +      GR          ++T  +
+Sbjct  65   AVDDGEFRQEAVELVLCGTAQHVTDEEAVPGKLVHQPDVQPIGRIGTGEQILHKIVTALH  124
+
+Query  58   MPRMDGISLTKKLRDNPKFKSTPILILTTESSDQMKQAGRSAG  100
+            M    G+   + +R +      P  I    ++D M   GR+AG
+Sbjct  125  MREHIGMEPVEGIRRHRGIVFPPDRIFGRRAADDMLVLGRAAG  167
+
+
+> DMKJLJHC_06705 hypothetical protein
+Length=64
+
+ Score = 24.6 bits (52),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 22/41 (54%), Gaps = 3/41 (7%)
+
+Query  42  SASQGRDYDLV--LTDQNMPRMDGISLT-KKLRDNPKFKST  79
+           +A   RD DLV  L D  MPR+D   +T + LR  P+  + 
+Sbjct  8   NAIAARDPDLVQVLADIEMPRLDTWIVTHENLRRLPRIAAV  48
+
+
+> DMKJLJHC_00283 putative oxidoreductase
+Length=244
+
+ Score = 25.0 bits (53),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 18/32 (56%), Gaps = 2/32 (6%)
+
+Query  43  ASQGRDYDLVLTDQNMPRMDGISLTKKLRDNP  74
+           A QG  + L L  +NMP ++ I+   +LR  P
+Sbjct  23  AEQG--HTLFLAGRNMPELEAIAADCRLRGAP  52
+
+
+> DMKJLJHC_03361 hypothetical protein
+Length=371
+
+ Score = 23.9 bits (50),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 15/63 (24%), Positives = 31/63 (49%), Gaps = 7/63 (11%)
+
+Query  38   WEKASASQGRDYDLVLTDQNMPRMDGISLTKKL---RDNPKFKSTPILILTTESSDQMKQ  94
+            +  A  + G++  +    + +  ++ +SL   L   R NPK     +L+L   + DQ++Q
+Sbjct  252  YFTAFGASGKENIVTFPKETLTALEAMSLVGGLDDTRANPKG----VLVLREYTPDQLRQ  307
+
+Query  95   AGR  97
+             G+
+Sbjct  308  DGK  310
+
+
+> DMKJLJHC_04288 Sensor protein BasS
+Length=485
+
+ Score = 23.9 bits (50),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 9/29 (31%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  38  WEKASASQGRDYDLVLTDQNMPRMDGISL  66
+           W  A+ +  R YDL+L    +  ++G++L
+Sbjct  35  WNYANLAANRTYDLLLEGTAIAMLEGVTL  63
+
+
+> DMKJLJHC_00039 ATP-dependent DNA helicase RecQ
+Length=687
+
+ Score = 23.5 bits (49),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 22/48 (46%), Gaps = 4/48 (8%)
+
+Query  58   MPRMDGISLTKKL----RDNPKFKSTPILILTTESSDQMKQAGRSAGA  101
+            MP   G SL  +L    R       +P++ L  +    MKQAG  AGA
+Sbjct  44   MPTGGGKSLCYQLPALARSGVTVVISPLIALMRDQVRAMKQAGVEAGA  91
+
+
+> DMKJLJHC_00635 hypothetical protein
+Length=127
+
+ Score = 23.1 bits (48),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 10/34 (29%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+
+Query  4   ILAVDDSASMRQMVAFTLKSAGYHVTEAVDGQDA  37
+           I  ++D+ ++ + +AF L+  G+ V    DG  A
+Sbjct  36  IAVIEDNEALSRAIAFRLRDCGHAVDLLHDGLKA  69
+
+
+> DMKJLJHC_03448 Phosphate transport system permease protein PstA
+Length=280
+
+ Score = 23.1 bits (48),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 19/32 (59%), Gaps = 5/32 (16%)
+
+Query  80   PILILTTE-----SSDQMKQAGRSAGATGWLV  106
+            PI++ TTE       DQ+++AG + G   W+V
+Sbjct  150  PIVVRTTEDMLLLVPDQLREAGLAMGWPRWIV  181
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.129    0.364    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 66152976
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

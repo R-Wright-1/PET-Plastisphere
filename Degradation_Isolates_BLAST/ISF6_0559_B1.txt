@@ -1,0 +1,223 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P8R1|A0A0K8P8R1_IDESA Uncharacterized protein OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0559 PE=4 SV=1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_06132 Putative peroxiredoxin                               53.1    1e-10
+  DMKJLJHC_01676 Cardiolipin synthase A                               26.6    0.47 
+  DMKJLJHC_00878 hypothetical protein                                 25.8    0.72 
+  DMKJLJHC_06350 2-amino-3-ketobutyrate coenzyme A ligase             25.4    1.1  
+  DMKJLJHC_01305 Thiol-disulfide oxidoreductase ResA                  25.0    1.5  
+  DMKJLJHC_00534 hypothetical protein                                 23.9    3.7  
+  DMKJLJHC_00321 3',5'-cyclic adenosine monophosphate phosphodies...  23.5    4.3  
+  DMKJLJHC_05471 hypothetical protein                                 23.5    4.3  
+  DMKJLJHC_02680 hypothetical protein                                 23.1    5.8  
+  DMKJLJHC_01760 DNA primase                                          23.5    5.9  
+  DMKJLJHC_00864 hypothetical protein                                 23.1    7.1  
+  DMKJLJHC_03485 Histidine--tRNA ligase                               23.1    7.7  
+  DMKJLJHC_01301 Glycogen synthase 1                                  22.7    8.4  
+
+
+> DMKJLJHC_06132 Putative peroxiredoxin
+Length=222
+
+ Score = 53.1 bits (126),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 28/50 (56%), Positives = 32/50 (64%), Gaps = 1/50 (2%)
+
+Query  2    NSREV-RTNGLELPILSDPGNEVAAAFGLRFTLPAYRIKQYRKLKNDLPT  50
+            NSR+  R N L  PILSD    V AAFGL+F LP Y +  Y+ LKNDLP 
+Sbjct  122  NSRKSQRQNHLGFPILSDEKGAVGAAFGLKFALPDYLVALYQSLKNDLPA  171
+
+
+> DMKJLJHC_01676 Cardiolipin synthase A
+Length=476
+
+ Score = 26.6 bits (57),  Expect = 0.47, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 28/56 (50%), Gaps = 7/56 (13%)
+
+Query  9    NGLELPILSDPGNEVAAAFGLR---FTLPAYRI--KQYRKLKNDLPTPRARVVGAR  59
+            NG + P + D G E+  AF  R   F L + RI  + +RKL   +   R   +G+R
+Sbjct  184  NGPDRPAMRDAGVEICVAFPFRWPLFKLASSRIDLRNHRKLA--VIDARISYIGSR  237
+
+
+> DMKJLJHC_00878 hypothetical protein
+Length=256
+
+ Score = 25.8 bits (55),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 28/88 (32%), Positives = 39/88 (44%), Gaps = 5/88 (6%)
+
+Query  6    VRTNGLELPILSDPGNEVAAAFGLRFTLPAYRIKQYRKLKNDLPTPRARVVGARGDELFG  65
+             R NGL++   S   +    A GL   L   R+ Q   L  DLP   A +  +    L  
+Sbjct  105  TRDNGLQVLRWSGTRSFDWRALGLNPFLRPVRL-QASVLGADLPD--AEITVSPNHRLLT  161
+
+Query  66   GPGHGMDLGQCVVGRFARDEIGLEGVQL  93
+                    G+C+V   ARD +GL+GV+L
+Sbjct  162  QAPARAQTGECLV--MARDLVGLDGVEL  187
+
+
+> DMKJLJHC_06350 2-amino-3-ketobutyrate coenzyme A ligase
+Length=327
+
+ Score = 25.4 bits (54),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 25/52 (48%), Gaps = 4/52 (8%)
+
+Query  10   GLELPILSDPGNEVAAAFGLRFTLPAYRIKQYRKLKNDLPTPRARVVGARGD  61
+            G E  I+SD  N  +   G+R      + K+YR   +D+    A++  AR D
+Sbjct  56   GPEDAIISDALNHASIIDGIRLC----KAKRYRYANSDMADLEAQLQAARAD  103
+
+
+> DMKJLJHC_01305 Thiol-disulfide oxidoreductase ResA
+Length=184
+
+ Score = 25.0 bits (53),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 13/27 (48%), Gaps = 0/27 (0%)
+
+Query  6    VRTNGLELPILSDPGNEVAAAFGLRFT  32
+             + +G   P L D   EVA AFG   T
+Sbjct  94   AKDHGFSFPYLYDESQEVAKAFGAVCT  120
+
+
+> DMKJLJHC_00534 hypothetical protein
+Length=358
+
+ Score = 23.9 bits (50),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 10/19 (53%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  23   VAAAFGLRFTLPAYRIKQY  41
+            V AA G+ F LP+ RIK +
+Sbjct  113  VTAAVGVLFGLPSLRIKGF  131
+
+
+> DMKJLJHC_00321 3',5'-cyclic adenosine monophosphate phosphodiesterase 
+CpdA
+Length=261
+
+ Score = 23.5 bits (49),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 23/52 (44%), Gaps = 4/52 (8%)
+
+Query  10   GLELPILSDPGNEVAA--AFGLRFTLPAYRIKQY--RKLKNDLPTPRARVVG  57
+             L+ P+LS PGN         +RF  P  R K    R L+ D  T   R VG
+Sbjct  59   SLDAPVLSVPGNHDTPLDNIFVRFLRPFGRYKAAIDRNLEPDFDTDDLRAVG  110
+
+
+> DMKJLJHC_05471 hypothetical protein
+Length=209
+
+ Score = 23.5 bits (49),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 25/61 (41%), Gaps = 7/61 (11%)
+
+Query  16   LSDPGNEVAAAFGLRFTLPAYRI---KQYRKLKNDLPTPRARVVGARGDELFGGPGHGMD  72
+            L+DPG  +    G    +P   I    + R  K + P P+  V    G  +   P H +D
+Sbjct  97   LADPGQRI----GDEIAVPVVHILFADEVRPAKGNAPDPQVLVDDVMGRLILEPPRHHID  152
+
+Query  73   L  73
+            L
+Sbjct  153  L  153
+
+
+> DMKJLJHC_02680 hypothetical protein
+Length=139
+
+ Score = 23.1 bits (48),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+
+Query  63  LFGGPGHGMDLGQCVVGRF  81
+           L G  G G+ LG CV GR+
+Sbjct  52  LKGPVGQGLALGDCVRGRY  70
+
+
+> DMKJLJHC_01760 DNA primase
+Length=699
+
+ Score = 23.5 bits (49),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+
+Query  46   NDLPTPRARVVGARGDELFGGPGHGMDLGQCV  77
+            N LP  RA ++ A GD++       M LG C 
+Sbjct  506  NALPETRATLLAAAGDDVSETLREAMILGICA  537
+
+
+> DMKJLJHC_00864 hypothetical protein
+Length=264
+
+ Score = 23.1 bits (48),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 26/66 (39%), Gaps = 8/66 (12%)
+
+Query  13   LPILSDPGNEVAAAFGLRFTLPAYRIKQYRKLKNDL----PTPRARVVGARGDELFGGPG  68
+            + IL DP     A F   F     R   +  +  DL     T RAR +GA   E F G  
+Sbjct  116  ITILRDP----VARFVSHFRWSHGRSADHAAISEDLVAFLETDRARRLGASYVEYFAGAP  171
+
+Query  69   HGMDLG  74
+               +LG
+Sbjct  172  MARELG  177
+
+
+> DMKJLJHC_03485 Histidine--tRNA ligase
+Length=591
+
+ Score = 23.1 bits (48),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 22/51 (43%), Gaps = 1/51 (2%)
+
+Query  27   FGLRFTLPAYRIKQYRKLKNDLPTP-RARVVGARGDELFGGPGHGMDLGQC  76
+              LR+ + A   +   + +NDLP+P R   +G        GPG      QC
+Sbjct  177  LALRYDMTAPLARVAAQYRNDLPSPYRRYTMGPVWRNEKPGPGRFRQFYQC  227
+
+
+> DMKJLJHC_01301 Glycogen synthase 1
+Length=473
+
+ Score = 22.7 bits (47),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 24/48 (50%), Gaps = 2/48 (4%)
+
+Query  6   VRTNGLELPILSDPGNEVAAAFGLRFTLPAYR--IKQYRKLKNDLPTP  51
+           ++T GL   + + PG      + +R  +PAYR  +K  +  K+   TP
+Sbjct  15  IKTGGLADVVGALPGALAPLGWEMRVLIPAYRGVLKLLKSKKSVWQTP  62
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.143    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 48444231
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

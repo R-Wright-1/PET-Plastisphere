@@ -1,0 +1,152 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P9R7|A0A0K8P9R7_IDESA Ortho-halobenzoate 1,2-dioxygenase
+beta-ISP protein OhbA OS=Ideonella sakaiensis (strain 201-F6)
+OX=1547922 GN=ISF6_0228 PE=4 SV=1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_02868 Terephthalate 1,2-dioxygenase, terminal oxygenas...  146     1e-46
+  DMKJLJHC_01142 Biphenyl 2,3-dioxygenase subunit beta                25.8    1.6  
+  DMKJLJHC_01418 hypothetical protein                                 24.6    3.9  
+  DMKJLJHC_02231 50S ribosomal protein L25                            24.6    4.2  
+  DMKJLJHC_02802 Galactofuranosyltransferase GlfT2                    24.6    5.1  
+  DMKJLJHC_05410 hypothetical protein                                 23.9    7.1  
+  DMKJLJHC_00866 hypothetical protein                                 23.9    8.1  
+
+
+> DMKJLJHC_02868 Terephthalate 1,2-dioxygenase, terminal oxygenase 
+component subunit beta 1
+Length=161
+
+ Score = 146 bits (369),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 71/143 (50%), Positives = 92/143 (64%), Gaps = 0/143 (0%)
+
+Query  12   AAYAETIDSDALERWPDFFTDDCHYRITHAENEREGLAAGIVYADSRAMLEDRIAALREA  71
+            A YA TID      WP+FF DDC Y+IT A+N  +GL AG+++ DS+AML DRI +L EA
+Sbjct  19   AQYAYTIDDGDFYDWPNFFADDCFYQITSADNFAQGLQAGLMWLDSKAMLHDRILSLLEA  78
+
+Query  72   NIYERQRYRHLLGIPLLGAQDDTGAEARTPFMVARIMATGQTELFASGIYRDRVVRQDGG  131
+            N+YER  YRH+LG P + + D    E+ T FMVARI   G T+LFA+G Y DR    +  
+Sbjct  79   NVYERHSYRHILGQPNISSIDGDEVESETSFMVARITREGPTDLFATGRYVDRYKVSEND  138
+
+Query  132  LRLRSRVAVCDSTVTDTLLALPL  154
+             ++  R+ V DS+  DTLL  PL
+Sbjct  139  AKIMKRIVVLDSSYIDTLLGFPL  161
+
+
+> DMKJLJHC_01142 Biphenyl 2,3-dioxygenase subunit beta
+Length=164
+
+ Score = 25.8 bits (55),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 26/60 (43%), Gaps = 1/60 (2%)
+
+Query  7   LCAFNAAYAETIDSDALERWPDFFTDDCHYRITHAENEREGLAAGIVYADSRAMLEDRIA  66
+           + AF  A    +D+   + W D +TDD  Y +   + E       + Y D+  M  DRI 
+Sbjct  16  VTAFIWAEGAMLDAKEYDAWLDLWTDDGLYIMPIGDGEDYANQVNLCY-DNAKMRRDRIG  74
+
+
+> DMKJLJHC_01418 hypothetical protein
+Length=126
+
+ Score = 24.6 bits (52),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 25/52 (48%), Gaps = 2/52 (4%)
+
+Query  54   YADSRAMLEDRIAALREANIYERQRYRHLLGIPL--LGAQDDTGAEARTPFM  103
+            Y ++ A   DR+A  REA    + +    LG+ L  L A +D  AE R   M
+Sbjct  6    YGEASATFGDRLAGAREAAGLSQTQLAEKLGVRLETLEAWEDDAAEPRANRM  57
+
+
+> DMKJLJHC_02231 50S ribosomal protein L25
+Length=211
+
+ Score = 24.6 bits (52),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 10/14 (71%), Gaps = 0/14 (0%)
+
+Query  45  REGLAAGIVYADSR  58
+           REGL  G+VY D R
+Sbjct  26  REGLVPGVVYGDGR  39
+
+
+> DMKJLJHC_02802 Galactofuranosyltransferase GlfT2
+Length=610
+
+ Score = 24.6 bits (52),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 10/34 (29%), Positives = 21/34 (62%), Gaps = 0/34 (0%)
+
+Query  38   ITHAENEREGLAAGIVYADSRAMLEDRIAALREA  71
+            + +AE++R  ++ G+  A+ RAM+ +  A  R +
+Sbjct  259  LAYAEDDRVAISGGMTMANERAMVWESGATFRSS  292
+
+
+> DMKJLJHC_05410 hypothetical protein
+Length=134
+
+ Score = 23.9 bits (50),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 26/50 (52%), Gaps = 6/50 (12%)
+
+Query  48   LAAGIVYADSRAMLEDRIAALR------EANIYERQRYRHLLGIPLLGAQ  91
+            L AG++ AD  A  ED + AL       EA + E +   H + +P+L A+
+Sbjct  53   LMAGLMLADRTAGTEDELRALSSRVEALEAELTELRAKPHRVEVPVLPAE  102
+
+
+> DMKJLJHC_00866 hypothetical protein
+Length=318
+
+ Score = 23.9 bits (50),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 34/74 (46%), Gaps = 6/74 (8%)
+
+Query  85   IPLLGAQDDTGAEARTPFMVARIMATGQTELF-----ASGIYRDRVVRQDGGLRLRSRVA  139
+            I +LGAQ + G  AR+ F+ +   A  +          +G++  RVV  DGG+     ++
+Sbjct  235  ITMLGAQIEAG-PARSSFIASAGAAMYRPPDLMDWKAPAGLWDMRVVDADGGISDTPAIS  293
+
+Query  140  VCDSTVTDTLLALP  153
+            + D  +   L   P
+Sbjct  294  ITDGQIPQGLPFAP  307
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 103035632
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

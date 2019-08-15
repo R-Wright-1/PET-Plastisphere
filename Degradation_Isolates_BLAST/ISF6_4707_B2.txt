@@ -1,0 +1,128 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NVW0|A0A0K8NVW0_IDESA Putative exported protein
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_4707 PE=4
+SV=1
+
+Length=322
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00420 Putative phosphoesterase YjcG                        27.7    0.68 
+  GFJPDDAG_03175 Flagellar hook-associated protein 3                  26.9    1.4  
+  GFJPDDAG_03607 Pyrimidine-specific ribonucleoside hydrolase RihA    25.8    3.5  
+  GFJPDDAG_04161 Energy-coupling factor transporter ATP-binding p...  25.4    4.8  
+  GFJPDDAG_02759 Kynureninase                                         25.0    6.7  
+
+
+> GFJPDDAG_00420 Putative phosphoesterase YjcG
+Length=181
+
+ Score = 27.7 bits (60),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 22/78 (28%), Positives = 33/78 (42%), Gaps = 2/78 (3%)
+
+Query  26   VTIVVPFAAGGPTDKVARDLAEALRKPLGATIIIENVGGAGGTLGHTKVAKAANDGYTLL  85
+            +T+V PF +  P DK+   +     +    TI ++ V G GG      V K  ND + + 
+Sbjct  35   ITLVFPFDSITPLDKILSHIQSVADRIPPFTISLKGVTGYGGEYLFLNVIK-GND-FIIQ  92
+
+Query  86   LAHIGMSTAPALYRNLQY  103
+            L         + YRN  Y
+Sbjct  93   LHDELYKGVLSPYRNYHY  110
+
+
+> GFJPDDAG_03175 Flagellar hook-associated protein 3
+Length=301
+
+ Score = 26.9 bits (58),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  132  NFAELVKWMEANKGKINLANAGLGAASHLC  161
+            N +EL  WME ++  I  AN GL     L 
+Sbjct  65   NLSELYLWMENSESGIEQANQGLQRVRELT  94
+
+
+> GFJPDDAG_03607 Pyrimidine-specific ribonucleoside hydrolase RihA
+Length=321
+
+ Score = 25.8 bits (55),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 21/83 (25%), Positives = 37/83 (45%), Gaps = 10/83 (12%)
+
+Query  132  NFAELVKWMEANKGKINLANAGLGAASHLCGLLFQQSMKVDMTT--------VPYKGTGP  183
+            NF++L K ++++ G I +AN G   +  +  LL  + M +   T        VP   T  
+Sbjct  107  NFSKLFKLIKSHPGDITIANVGRCTSLAIAWLLSPEVMGLVKETYIMGGAFLVPGNVTEV  166
+
+Query  184  AMTDLLGG--QVDLMCDQTTNTT  204
+            A  +  G     +++C  + N T
+Sbjct  167  AEANFFGDAQAANIVCQNSPNLT  189
+
+
+> GFJPDDAG_04161 Energy-coupling factor transporter ATP-binding 
+protein EcfA2
+Length=289
+
+ Score = 25.4 bits (54),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 10/38 (26%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  244  VTIWHGMYAPKGTPKPVLDKVNAALKVALKDPDFIKRQ  281
+            V +  G    KGTP+ +  + +   ++ L  PD ++ Q
+Sbjct  217  VIMQKGHLKRKGTPEEIFSEADELFEMGLDVPDVVRFQ  254
+
+
+> GFJPDDAG_02759 Kynureninase
+Length=427
+
+ Score = 25.0 bits (53),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 27/66 (41%), Gaps = 4/66 (6%)
+
+Query  178  YKGTGPAMTDLLGGQVDLMCDQTTNTTGQIESGKVKAFAVTTTKRLST-PALAKLPTLEE  236
+            + G  P ++     + D   D     T    +G   AF + T   LS+ P L  L   EE
+Sbjct  256  HAGKKPGLSGWFSSRKDKQFDMDHTLTHDDSAG---AFQIGTPHILSSAPLLGSLELFEE  312
+
+Query  237  SGVKGF  242
+            +G+K  
+Sbjct  313  AGIKNL  318
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 197163767
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,357 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NVW0|A0A0K8NVW0_IDESA Putative exported protein
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_4707 PE=4
+SV=1
+
+Length=322
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_00646 hypothetical protein                                 123     1e-33
+  DMKJLJHC_01952 hypothetical protein                                 104     2e-26
+  DMKJLJHC_03027 hypothetical protein                                 75.5    4e-16
+  DMKJLJHC_03030 hypothetical protein                                 70.5    2e-14
+  DMKJLJHC_03074 hypothetical protein                                 64.7    2e-12
+  DMKJLJHC_05868 hypothetical protein                                 54.3    1e-09
+  DMKJLJHC_03664 Autoinducer 2-binding protein LsrB                   33.9    0.017
+  DMKJLJHC_01424 High-affinity branched-chain amino acid transpor...  28.1    1.2  
+  DMKJLJHC_05881 hypothetical protein                                 26.9    2.6  
+  DMKJLJHC_03454 Type I secretion system membrane fusion protein ...  26.9    2.8  
+  DMKJLJHC_00283 putative oxidoreductase                              26.6    3.6  
+  DMKJLJHC_01227 hypothetical protein                                 26.6    4.3  
+  DMKJLJHC_03819 hypothetical protein                                 25.4    4.9  
+  DMKJLJHC_02564 Putative acyltransferase                             25.8    7.0  
+  DMKJLJHC_01110 3-oxoadipate CoA-transferase subunit A               25.4    7.3  
+
+
+> DMKJLJHC_00646 hypothetical protein
+Length=334
+
+ Score = 123 bits (309),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 94/319 (29%), Positives = 156/319 (49%), Gaps = 22/319 (7%)
+
+Query  1    MKKLLLAAVAALTATAALAE---YPEKPVTIVVPFAAGGPTDKVARDLAEALRKPLGATI  57
+            MK++L+ AVAAL      A    YP K +  V+ + AGG TD V R +     K LG T+
+Sbjct  1    MKRVLIGAVAALALGTGAALADGYPSKEIQGVIQWGAGGSTDTVMRSVTPHAEKTLGGTV  60
+
+Query  58   IIENVGGAGGTLGHTKVAKAANDGYTLLLAHIGMSTAPALYR--NLQYKTLDDFEYLGMV  115
+            +++N+ G  G +    VA    DGYTLL+     +  P LY+   L  K   DF  + ++
+Sbjct  61   VMQNMTGGVGAIALNSVASKPADGYTLLMG----AENPLLYKVMGLGQKDYSDFTPVDIL  116
+
+Query  116  NEVPMTLIGRSTLPANNFAELVKWMEANKGKINLANAGLGA-ASHLCGLLFQQSMKVDMT  174
+                  L+ R  +P +++  ++ +++A+  ++     G G   S +  ++     K+ + 
+Sbjct  117  ARGTAVLVARPGVPFDDYKSMIAYIKAHPDEVRFGATGPGGLPSVVTAMMDSVEGKLPVI  176
+
+Query  175  TVPYKGTGPAMTDLLGGQVDLMCDQTTNTTGQIESGKVKAFAVTTTKRLSTPALAKLP--  232
+            +VPY G GPA+T L GG +D+M          I +GK+K  AV   K    P L K+P  
+Sbjct  177  SVPYDGDGPALTALQGGAIDVMPAVLGAALESIRAGKMKPLAVFEEK--PNPLLPKVPAV  234
+
+Query  233  -TLEESGVKGFNVTIWHGMYAPKGTPKPVLDKVNAALKVALKDPDFIKRQEALGAVVITD  291
+             +  E   K      + G++  KGTP+ ++ K++AA K   + PDF K  +  G  ++  
+Sbjct  235  VSFNEGYAKYLPWGPFFGVFVKKGTPEDIVAKLSAAYKAGAESPDFQKLMDGRGYTIM--  292
+
+Query  292  NRTNGADHKKFVEAEINKW  310
+               +G + + F    ++KW
+Sbjct  293  -NISGPEAEDF----LSKW  306
+
+
+> DMKJLJHC_01952 hypothetical protein
+Length=326
+
+ Score = 104 bits (260),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 78/306 (25%), Positives = 132/306 (43%), Gaps = 12/306 (4%)
+
+Query  14   ATAALAEYPEKPVTIVVPFAAGGPTDKVARDLAEALRKPLGATIIIENVGGAGGTLGHTK  73
+            A A  A +P +P  + V F AG   D +AR + E L   LG  I+IEN  GAGG +G  +
+Sbjct  21   AMAQDASWPSQPQHVFVGFPAGSSPDLLARIVTEPLADKLGQPIVIENKPGAGGVIGVQQ  80
+
+Query  74   VAKAANDGYTLLLAHIG-MSTAPALYRNLQYKTLDDFEYLGMVNEVPMTLIGRSTLPANN  132
+            +  A +   T      G ++TAP L  NL Y    D   + ++   P+ L+  +  PA++
+Sbjct  81   MLNAKDQQNTFATTINGPLTTAPRLTPNLGYDVAKDIAPVALLATSPLVLVVAADFPADD  140
+
+Query  133  FAELVKWMEANKGKINLANAGLGAASHLCGLLFQQSMKVDMTTVPYKGTGPAMTDLLGGQ  192
+             A  +K        +   + G G+ +HL   LF     V+M  +P+       T ++G +
+Sbjct  141  LAGFIKAAGKEPDALAYGSVGKGSGAHLTAELFSDRAGVEMLHIPFTSYAEVTTAIIGNE  200
+
+Query  193  VDLMCDQTTNTTGQIESGKVKAFAVTTTKRLS----TPALAKLPTLEESGVKGFNVTIWH  248
+            +D      +     +++GK+K   +T+ K  +     P +A    L +     F   +W+
+Sbjct  201  IDCGFMAPSAAMQYVQAGKLKILGITSEKPFAKAPGVPVMAGQAGLPDD----FRAELWN  256
+
+Query  249  GMYAPKGTPKPVLDKVNAALKVALKDPDFIKRQEALGAVVITDNRTNGADHKKFVEAEIN  308
+               AP  T   V+  +N  +   L D    KR   +G      +     D +K +  +  
+Sbjct  257  AFIAPAATDPAVIKTLNTDINAILADDAVQKRMLDMGWQAAGGSPE---DLQKRIAQDTK  313
+
+Query  309  KWGPII  314
+             WG ++
+Sbjct  314  VWGAVL  319
+
+
+> DMKJLJHC_03027 hypothetical protein
+Length=334
+
+ Score = 75.5 bits (184),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 79/286 (28%), Positives = 120/286 (42%), Gaps = 24/286 (8%)
+
+Query  10   AALTATAALA------EYPEKPVTIVVPFAAGGPTDKVARDLAEALRKPLGATIIIENVG  63
+            AAL+ TA +A      ++P +PV ++VP   GG TD VAR L+  L +  G    + N  
+Sbjct  21   AALSGTAGIALAAGAEDWPTRPVKLIVPAKPGGGTDAVARVLSTKLEEVGGKAFAVVNQP  80
+
+Query  64   GAGGTLGHTKVAKAANDGYTLLLAHIGMSTAPALYRNLQY--KTLDDFEYLGMVNEVPMT  121
+              GG++    V  A  DG TLL  H G+    A Y +  Y      +F  + +     M 
+Sbjct  81   TGGGSVAAETVRTARPDGTTLLFFHTGLL---ASYHSGVYGHNPATEFTTIAL-----MP  132
+
+Query  122  LIGRSTLPA------NNFAELVKWMEANKGKINLANAGLGAASHLCGLLFQQSMKVDMTT  175
+            + G  +L        ++   L++  +AN   + L     GA+  + GLL + S       
+Sbjct  133  VGGSQSLAVAPDAGIDSVEALIEKAKANPESVTLGVQLKGASHFIAGLLMKDS-GAPFRI  191
+
+Query  176  VPYKGTGPAMTDLLGGQVDLMCDQTTNTTGQIESGKVKAFAVTTTKRLSTPALAKLPTLE  235
+            V         T L GG +D     T+      E+GK+K  A  +      P  A  P++ 
+Sbjct  192  VEAGSDADKFTALQGGNIDAAIVNTSGALQYAEAGKLKILATVSGTPKRDPGAADYPSMS  251
+
+Query  236  ESGVKGFNVTIWHGMYAPKGTPKPVLDKVNAALKVALKDPDFIKRQ  281
+            E G       +   + APKG    + D++NA    A+ D   IK Q
+Sbjct  252  ELGYTNTVYGLDFMVLAPKGMDTALADRINAVFGEAVND-SAIKEQ  296
+
+
+> DMKJLJHC_03030 hypothetical protein
+Length=320
+
+ Score = 70.5 bits (171),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 72/274 (26%), Positives = 116/274 (42%), Gaps = 20/274 (7%)
+
+Query  17   ALAEYPEKPVTIVVPFAAGGPTDKVARDLAEALRKPLGATIIIENVGGAGGTLGHTKVAK  76
+            A + +P+ P+ +VVP  AGG TD + R  A+ L++  G  + + N  G GGT G+  V  
+Sbjct  23   AESSWPKGPIRLVVPSKAGGGTDVMGRIFADYLQRSTGKPVAVINQPGGGGTAGYEMVRS  82
+
+Query  77   AANDGYTLLLAHIGMSTAPALYRNLQYKTLDDFEYLGMVNEVPMTLIGRS-TLPANNFAE  135
+            A  DG TLL  H  +       R      + +F  + M    P  +   +   P N   +
+Sbjct  83   AKPDGQTLLFMHTSIMIHAHTGRYPH--AISEFTPIAMAQIYPPQVYAVAKDAPWNTLKD  140
+
+Query  136  LVKWMEANKGKINLANAGLGAASHLCGLLFQQSMKVDMTTVPYKGTGPAMTDLLGGQVDL  195
+             V+   A+ G+  +    LG  +H    L +    V++  V        +  + GG +D 
+Sbjct  141  FVEDARAHPGERTV-GVSLGGTTHFMAGLIEDRTGVELKLVEASAEVDKVAAIQGGHID-  198
+
+Query  196  MCDQTTNTTGQ-IESGKVKAFAVTTTKRLSTPALAKL-PTLEESGVKGFNVTIWHG---M  250
+            M +    T  Q +  GK+K  A+   +R   P      P LE+    G +V+ W     +
+Sbjct  199  MGNLGAKTAEQFLADGKMKVIALIDPER--NPDFPDFVPALEQ----GVDVS-WQTPLIL  251
+
+Query  251  YAPKGTPKPVLDKVNAALKVALKDPDFIKRQEAL  284
+            + P G     ++ +NAA      DP     QE+L
+Sbjct  252  FGPAGMDPETVEAINAATHGMESDPAI---QESL  282
+
+
+> DMKJLJHC_03074 hypothetical protein
+Length=329
+
+ Score = 64.7 bits (156),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 74/304 (24%), Positives = 123/304 (40%), Gaps = 13/304 (4%)
+
+Query  22   PEKPVTIVVPFAAGGPTDKVARDLAEALRKP--LGATIIIENVGGAGGTLGHTKVAKAAN  79
+            PE P  I  P   GG  D   R + ++L+    L  T+ + N+ G GG +   +V    N
+Sbjct  29   PENPECIA-PANPGGGWDFTCRQVGKSLQDLGLLKQTMQVVNLAGGGGGVAFAEVVNKRN  87
+
+Query  80   DGYTLLLAHIGMSTAPALYRNLQYKTLDDFEYLGMVNEVPMTLIGRSTLPANNFAELVKW  139
+            D   L++A    +             ++   ++  +      +   +        EL+  
+Sbjct  88   DDNNLIVAASSATATRLAQGAYPGNNMNQVRWVASIGADYGVIAVAADSKIKTLPELLDM  147
+
+Query  140  MEANKGKINLAN-AGLGAASHLCGLLFQQSMKV-DMTTVPY---KGTGPAMTDLLGGQVD  194
+            ++ +   I++A  + +G   HL  L+   +  + D+  + Y    G G A+T LL G V 
+Sbjct  148  IKKDPSSISVAGGSAVGGWDHLKVLIAANAYGIKDVRKIKYIAFDGGGEAVTQLLAGSVQ  207
+
+Query  195  LMCDQTTNTTGQIESGKVKAFAVTTTKRLSTPALAKLPTLEESGVKGFNVTIWHGMYAPK  254
+                  +   G ++SG ++  AV   +RL T A AK PT +E GV       W G YAP 
+Sbjct  208  AFSGDLSEAKGFVDSGDIRVLAVLAPERL-TGAFAKFPTAKEQGVDAIGAN-WRGFYAPG  265
+
+Query  255  GTPKPVLDKVNAALKVALKDPDFIKRQEALGAVVITDNRTNGADHKKFVEAEINKWGPII  314
+            G      D   + +      P++ K  EA G   +      G   ++FV   +N+   I 
+Sbjct  266  GMSDAAYDAWVSKITDLYNSPEWKKTMEANGLAPLD---LQGKAFEEFVAKSVNQIQDIS  322
+
+Query  315  KAAG  318
+            K  G
+Sbjct  323  KQIG  326
+
+
+> DMKJLJHC_05868 hypothetical protein
+Length=184
+
+ Score = 54.3 bits (129),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 59/139 (42%), Gaps = 5/139 (4%)
+
+Query  150  ANAGLGAASHLCGLLFQQSMKVD---MTTVPYKGTGPAMTDLLGGQVDLMCDQTTNTTGQ  206
+            A   +G+   +   L  +S  +D   M  V Y G G A+  LLGG + +           
+Sbjct  15   AGGTVGSQDWMKAALLLKSRDLDPRKMRYVAYDGGGDAIAGLLGGSIQVYMGDVGELNSY  74
+
+Query  207  IESGKVKAFAVTTTKRLSTPALAKLPTLEESGVKGFNVTIWHGMYAPKGTPKPVLDKVNA  266
+            + SGK++  AV + KRL  P   K PT +E G      TI  G Y  K       +    
+Sbjct  75   MGSGKMRVLAVMSDKRLEAP-FDKTPTAKELGYDA-EWTILRGYYMGKNVSDEAYNAWVD  132
+
+Query  267  ALKVALKDPDFIKRQEALG  285
+            A K A K P+F + Q+  G
+Sbjct  133  AFKAAYKTPEFAQLQKDKG  151
+
+
+> DMKJLJHC_03664 Autoinducer 2-binding protein LsrB
+Length=329
+
+ Score = 33.9 bits (76),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 36/112 (32%), Positives = 51/112 (46%), Gaps = 15/112 (13%)
+
+Query  152  AGLGAASHLCGLLFQQSMKVDMTTVPYKGTGPAMTDLLGGQVDLMCDQTTNTT--GQIE-  208
+            AG  +A  +   L  +++ +       KG   A  DL  G V ++    T+TT  GQIE 
+Sbjct  18   AGTASAKEMRIALVVKALGIGFFEAANKGAEEAAKDL--GDVKIIYTGPTDTTAEGQIEV  75
+
+Query  209  -----SGKVKAFAVTTTKRLSTPALAKLPTLEESGVKGFNVTIWHGMYAPKG  255
+                 + KV A AVT      T AL  +PTL+++  +G  V  W    AP G
+Sbjct  76   LNSLIAQKVDAIAVTAN---DTDAL--VPTLKKAMQRGITVISWDSGVAPAG  122
+
+
+> DMKJLJHC_01424 High-affinity branched-chain amino acid transport 
+system permease protein LivH
+Length=660
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 28/55 (51%), Gaps = 5/55 (9%)
+
+Query  266  AALKVALKDPDFIKRQEALGAVVITDNRTNGADHKKFVEAEI-NKWGPIIKAAGQ  319
+            A +K  L DPD  KR+EAL A+     R   A H   + A I ++  P IKA  Q
+Sbjct  138  ALVKFLLSDPDPSKRREALQAI----ERDGEASHLAPLRASIPDETDPKIKAEKQ  188
+
+
+> DMKJLJHC_05881 hypothetical protein
+Length=332
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 23/91 (25%), Positives = 40/91 (44%), Gaps = 6/91 (7%)
+
+Query  42   ARDLAEALRKPLGATIIIENVGGAGGTLGHTKVAKAANDGYTLLLAHIGMSTAPALYRNL  101
+            A+D+A+A     G  + +   G  G  LG  K+A   N+    ++   G +    +  N 
+Sbjct  34   AKDVAKAFTAKTGIKVAVVQPGSTGELLG--KIAAEGNNPQFDIVWVDGSAVLSRMLTNG  91
+
+Query  102  QYKTLDDFEYLGMVNEVPMTLIGRSTLPANN  132
+              + + D  Y      VP T +G S +PA++
+Sbjct  92   VLQPVPDAAY----KSVPFTQLGESLIPADH  118
+
+
+> DMKJLJHC_03454 Type I secretion system membrane fusion protein 
+PrsE
+Length=446
+
+ Score = 26.9 bits (58),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 21/81 (26%), Positives = 34/81 (42%), Gaps = 11/81 (14%)
+
+Query  49   LRKPLGATIIIENVGGAGGTLGHTKVAKAANDGYTLLLAHIGMSTAPALYRNLQYKTLDD  108
+            +  P+  T++  N  GAGG +   KV           +A I  S AP +   +  +T  D
+Sbjct  296  IESPVSGTVVALNYSGAGGVVEAGKV-----------IAEILPSEAPLIIETMIARTDID  344
+
+Query  109  FEYLGMVNEVPMTLIGRSTLP  129
+               +G    V +T + + T P
+Sbjct  345  AVKIGQTASVRLTALNQRTTP  365
+
+
+> DMKJLJHC_00283 putative oxidoreductase
+Length=244
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 23/87 (26%), Positives = 36/87 (41%), Gaps = 11/87 (13%)
+
+Query  64   GAGGTLGHTKVAKAANDGYTLLLAHIGMSTAPALYRNLQYKTLDDFEYLGMVNEVPMTLI  123
+            GA   +    + K A  G+TL LA   M    A+  + + +     E         M   
+Sbjct  9    GATSGIARALIRKLAEQGHTLFLAGRNMPELEAIAADCRLRGAPAAEI--------MRFD  60
+
+Query  124  GRSTLPANNFAELVKWMEANKGKINLA  150
+             R     +N+AEL+  +EA +G +N A
+Sbjct  61   ARDH---SNYAELIAQLEAQEGILNCA  84
+
+
+> DMKJLJHC_01227 hypothetical protein
+Length=407
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 42/94 (45%), Gaps = 15/94 (16%)
+
+Query  3    KLLLAAVAALTATAALAEYPEKPVTIV----VPFAAGGPTDKVAR---DLAEALRKPLGA  55
+            K+L    A LT +A L++ P + V I     +    G P D +AR    LA AL    G 
+Sbjct  169  KVLAEIPARLTLSAVLSDRPARQVVIAMGDSITDGNGAPMDAMARWPDYLARALS---GQ  225
+
+Query  56   TIIIENVGGAGGTL-----GHTKVAKAANDGYTL  84
+             I + N G +GG L     G + +A+   D   +
+Sbjct  226  EIAVVNAGISGGRLLSDGMGRSVLARLGQDALAM  259
+
+
+> DMKJLJHC_03819 hypothetical protein
+Length=149
+
+ Score = 25.4 bits (54),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 19/35 (54%), Gaps = 1/35 (3%)
+
+Query  217  VTTTKRLSTPALAKLPTLEESGVKGFN-VTIWHGM  250
+            V+  + +  PALA +P +  +  KGF    +W GM
+Sbjct  32   VSKVETMEAPALANVPEVNGNANKGFTYAQLWAGM  66
+
+
+> DMKJLJHC_02564 Putative acyltransferase
+Length=403
+
+ Score = 25.8 bits (55),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  257  PKPVLDKVNAALKVALKDPDFIKRQEALGAVVI  289
+            P PV +K+ A   +++ D D  +  EA  AVV+
+Sbjct  303  PVPVTEKILADSGMSISDIDLFEVNEAFAAVVL  335
+
+
+> DMKJLJHC_01110 3-oxoadipate CoA-transferase subunit A
+Length=235
+
+ Score = 25.4 bits (54),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 24/45 (53%), Gaps = 3/45 (7%)
+
+Query  39  DKVARDLAEALRK-PLGATIIIENVGGAGG--TLGHTKVAKAAND  80
+           DK    LAEA+   P GAT++I   GG+G    L H  + + A D
+Sbjct  2   DKTVASLAEAVADIPDGATVMIGGFGGSGAPIELIHALIDQGAKD  46
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 305821072
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,170 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0G3BI90|A0A0G3BI90_9BURK Triacylglycerol lipase
+OS=[Polyangium] brachysporum OX=413882 GN=AAW51_2473 PE=4 SV=1
+
+Length=298
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01703 hypothetical protein                                 33.9    0.007
+  GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA    31.2    0.063
+  GFJPDDAG_00067 2-oxoisovalerate dehydrogenase subunit alpha         28.5    0.52 
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               26.9    2.0  
+  GFJPDDAG_00981 General stress protein 18                            25.4    3.5  
+  GFJPDDAG_02947 hypothetical protein                                 25.8    3.8  
+  GFJPDDAG_00731 hypothetical protein                                 25.4    4.8  
+  GFJPDDAG_02299 Phenylalanine--tRNA ligase alpha subunit             25.4    5.0  
+
+
+> GFJPDDAG_01703 hypothetical protein
+Length=257
+
+ Score = 33.9 bits (76),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 24/74 (32%), Positives = 31/74 (42%), Gaps = 7/74 (9%)
+
+Query  103  LASHGFVVITLDTRSTSDQPASRSAQQMAALRQVVALSETRSSPIY-------GKVDPNR  155
+            LA  GF VI  D     ++   +S  Q+  +   + L      PI        G V PN 
+Sbjct  50   LAEKGFRVILPDALEHGERSTGKSEHQLGEVFWKIVLHTIHELPILKEHFEEKGLVVPNG  109
+
+Query  156  LAVMGWSMGGGGTL  169
+            + V G SMGG  TL
+Sbjct  110  IGVAGTSMGGIITL  123
+
+
+> GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA
+Length=308
+
+ Score = 31.2 bits (69),  Expect = 0.063, Method: Compositional matrix adjust.
+ Identities = 25/122 (20%), Positives = 55/122 (45%), Gaps = 16/122 (13%)
+
+Query  80   VGAVAVVPGYLARQSSIRWWGPRLASHGFVVITLDTRSTSDQPASRSAQQMAALRQVVAL  139
+            +G   +VPG +++ +   ++G  ++SH  + I    ++ +  P + + Q +   +Q++ +
+Sbjct  147  MGGAFLVPGNVSKVAEANFFGDPVSSHFVMSI---VKNVTCVPLNVTNQALITKKQILEI  203
+
+Query  140  SETRSSPIYGKVDPNRLAVMGWSMGGGGTLISARDNPSLKAAVPFAPWHNTANFSGVQVP  199
+             +  S+P+   +D     V  +       L+     P +K     AP H+  + S V  P
+Sbjct  204  QKASSNPLVKILD----KVYDYYFEAYQKLV-----PGIKG----APLHDVLSLSLVMNP  250
+
+Query  200  TL  201
+             L
+Sbjct  251  NL  252
+
+
+> GFJPDDAG_00067 2-oxoisovalerate dehydrogenase subunit alpha
+Length=332
+
+ Score = 28.5 bits (62),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 18/33 (55%), Gaps = 3/33 (9%)
+
+Query  187  WHNTANFSGVQVPTLVIACENDTVA---PISRH  216
+            +H  ANF+GV    ++  CEN+  A   PI + 
+Sbjct  162  FHEGANFAGVHKLPVIFMCENNKYAISVPIEKQ  194
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 26.9 bits (58),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  149  GKVDPNRLAVMGWSMGG  165
+            G  D  R+ VMGWS GG
+Sbjct  491  GIADKERVGVMGWSQGG  507
+
+
+> GFJPDDAG_00981 General stress protein 18
+Length=217
+
+ Score = 25.4 bits (54),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 21/81 (26%), Positives = 31/81 (38%), Gaps = 10/81 (12%)
+
+Query  111  ITLDTRSTSDQPASRSAQQMAALRQVVALSETRSSPIYGKVDPNRLAVMGWSMGGGGTLI  170
+            I LD  S  D+   +       L Q + LS+   +   G   P          GG GT+ 
+Sbjct  51   IPLDPNSLDDEQVEKWKGITKELDQTMVLSQLNVNEYAGIFLP----------GGHGTMF  100
+
+Query  171  SARDNPSLKAAVPFAPWHNTA  191
+               D+P L+ A+     +N A
+Sbjct  101  DLPDSPELQQALAHFAENNKA  121
+
+
+> GFJPDDAG_02947 hypothetical protein
+Length=415
+
+ Score = 25.8 bits (55),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 23/90 (26%), Positives = 40/90 (44%), Gaps = 11/90 (12%)
+
+Query  89   YLARQSSIRWWGPRLASHGFVVITLDTRSTSDQPASRSAQQ--------MAALRQVVALS  140
+            +L R   I + G  L   G +++T+ + + SD    ++           +A +   VALS
+Sbjct  283  FLDRNFLIAFNGILL---GVLIVTIFSITESDSDKKKNISDYINFVLIVLALIIDSVALS  339
+
+Query  141  ETRSSPIYGKVDPNRLAVMGWSMGGGGTLI  170
+                   +  + PNRLAV+G ++     LI
+Sbjct  340  AIVFRLSFFGITPNRLAVLGVNILIWANLI  369
+
+
+> GFJPDDAG_00731 hypothetical protein
+Length=398
+
+ Score = 25.4 bits (54),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 20/40 (50%), Gaps = 3/40 (8%)
+
+Query  218  SSFYNSFSSSLAKAYLEINNGSHTCANTGNSNQALIGKYG  257
+              F    ++SLAK  +    G  T ++  N NQAL+G  G
+Sbjct  55   EEFQGELTNSLAKDKI---TGRETVSSMANRNQALVGING  91
+
+
+> GFJPDDAG_02299 Phenylalanine--tRNA ligase alpha subunit
+Length=345
+
+ Score = 25.4 bits (54),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  255  KYGVAWIKRFVDNDTRY  271
+            KYG+  I+ F  NDTR+
+Sbjct  321  KYGIDDIRHFYTNDTRF  337
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 179108928
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

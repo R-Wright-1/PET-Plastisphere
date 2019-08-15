@@ -1,0 +1,248 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NY75|A0A0K8NY75_IDESA Uncharacterized protein ImpC
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0363 PE=4
+SV=1
+
+Length=496
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_00430 Lysine--tRNA ligase                                  34.7    0.023
+  DMKJLJHC_01109 3-oxoadipate CoA-transferase subunit B               33.1    0.044
+  DMKJLJHC_04896 Transcription termination/antitermination protei...  28.9    0.82 
+  DMKJLJHC_04086 hypothetical protein                                 28.5    1.6  
+  DMKJLJHC_01296 Phospho-2-dehydro-3-deoxyheptonate aldolase          28.1    2.1  
+  DMKJLJHC_00292 DNA processing protein DprA                          27.7    2.5  
+  DMKJLJHC_06282 Phospho-2-dehydro-3-deoxyheptonate aldolase          27.7    2.7  
+  DMKJLJHC_01660 30S ribosomal protein S1                             27.7    3.4  
+  DMKJLJHC_01574 Bifunctional protein PaaZ                            26.9    5.4  
+  DMKJLJHC_05642 hypothetical protein                                 25.0    7.0  
+  DMKJLJHC_04414 hypothetical protein                                 26.6    7.1  
+  DMKJLJHC_01464 D-hydantoinase/dihydropyrimidinase                   26.2    7.9  
+  DMKJLJHC_02189 hypothetical protein                                 26.2    9.4  
+  DMKJLJHC_01933 Arylsulfatase                                        26.2    10.0 
+
+
+> DMKJLJHC_00430 Lysine--tRNA ligase
+Length=533
+
+ Score = 34.7 bits (78),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 23/73 (32%), Positives = 38/73 (52%), Gaps = 2/73 (3%)
+
+Query  3    TQQETSQAAG-ATAEFDDFAALLQREFKPKTDQAKTAVEQAVHTLAQQALADTKLISNDV  61
+            +  +  QAAG A   F+DF A  +R+F+  TDQ + A+E   + LA+    D     +D 
+Sbjct  409  SHPDLDQAAGFAVRYFNDFVAP-ERQFRLPTDQERAAIEDLRNQLAELPKTDLNAQFDDP  467
+
+Query  62   FKTIEGMIAAIDK  74
+               ++ M+ A+ K
+Sbjct  468  SDALQTMVFAVGK  480
+
+
+> DMKJLJHC_01109 3-oxoadipate CoA-transferase subunit B
+Length=229
+
+ Score = 33.1 bits (74),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 21/39 (54%), Gaps = 2/39 (5%)
+
+Query  213  DLTKIFQSAEYAAWRSLRESEDSRYI--GLAMPRFLARL  249
+            DLT I  S    AWR+ R+ ED  Y+  G+  P  +AR 
+Sbjct  4    DLTDIQLSNAQIAWRAARDIEDGAYVNLGIGFPEMVARF  42
+
+
+> DMKJLJHC_04896 Transcription termination/antitermination protein 
+NusG
+Length=177
+
+ Score = 28.9 bits (63),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 27/59 (46%), Gaps = 6/59 (10%)
+
+Query  239  GLAMPRFLARLPYGSKTN----PVEGFD-FEEDIEGKDHNRYVWANSAYAMATNITRAF  292
+            G A PR L R   G K      P EGFD   ED++  +H+R     S +  AT +   F
+Sbjct  113  GEAAPRNLIRFEVGEKVQVTDGPFEGFDGMVEDVD-DEHSRLKVTVSIFGRATPVELEF  170
+
+
+> DMKJLJHC_04086 hypothetical protein
+Length=269
+
+ Score = 28.5 bits (62),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/59 (29%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query  189  APFIAGASPSTMQMDSWSELSNPRDLTKIFQSAEYAAWRSLRESEDSRYIGLAMPRFLA  247
+            AP +AG +P+T Q    ++L+N  +L K  Q  + A+  +L+  + ++ I L   +  A
+Sbjct  20   APVLAGPNPATQQATELTQLANKAELIK--QVNQSASQINLQTEQLTQQINLVAGQLKA  76
+
+
+> DMKJLJHC_01296 Phospho-2-dehydro-3-deoxyheptonate aldolase
+Length=456
+
+ Score = 28.1 bits (61),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 21/44 (48%), Gaps = 0/44 (0%)
+
+Query  254  KTNPVEGFDFEEDIEGKDHNRYVWANSAYAMATNITRAFKLYGW  297
+            + + + GFDF E     D NR +   +  A   N+ RAF   G+
+Sbjct  133  RGDIINGFDFTEAARLPDPNRMLQGYTQAAATLNLLRAFSTGGF  176
+
+
+> DMKJLJHC_00292 DNA processing protein DprA
+Length=386
+
+ Score = 27.7 bits (60),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 29/115 (25%), Positives = 51/115 (44%), Gaps = 13/115 (11%)
+
+Query  241  AMPRFLARLPYGSKTNPVEGFDFEEDIEGKDHNRYVWANSAYAMATNITR--AFKLYGWC  298
+            A PR LA++P      P+     +  +  +     V A +A ++   + R  A +L    
+Sbjct  96   AYPRLLAQIP---DAPPLLWALGDTSLLHRPIIALVGARNASSLGLRMARRMAEELGAEG  152
+
+Query  299  TTI-----RGVESGGAVANLPVHSFPTDDGGVDMKCPTEIAISDRREAELAKNGF  348
+             TI     RG+++    A LP  +     GG+D+  P E   +D   A++A++G 
+Sbjct  153  ITIASGLARGIDAAAHTAALPTGTIAVQAGGIDVIYPRE---NDTLAAQIAQSGL  204
+
+
+> DMKJLJHC_06282 Phospho-2-dehydro-3-deoxyheptonate aldolase
+Length=439
+
+ Score = 27.7 bits (60),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 22/49 (45%), Gaps = 0/49 (0%)
+
+Query  254  KTNPVEGFDFEEDIEGKDHNRYVWANSAYAMATNITRAFKLYGWCTTIR  302
+            K + + GFDF  +    D  R + A +  A   N+ RAF   G+    R
+Sbjct  116  KGDIINGFDFTSEARIPDPQRMLQAYTQAAATLNLLRAFSTGGFADIHR  164
+
+
+> DMKJLJHC_01660 30S ribosomal protein S1
+Length=559
+
+ Score = 27.7 bits (60),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 4/46 (9%)
+
+Query  95   AWRGLHHLINNTETDETLKIRVMNISKNELHKT---LKRYKGTAWD  137
+            AWR ++H        ET+K++V+ I+K E H+    +K+ +   WD
+Sbjct  229  AWRRVNHPSEILAIGETVKVQVVKINK-ETHRISLGMKQLQSDPWD  273
+
+
+> DMKJLJHC_01574 Bifunctional protein PaaZ
+Length=689
+
+ Score = 26.9 bits (58),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 22/69 (32%), Positives = 31/69 (45%), Gaps = 1/69 (1%)
+
+Query  14   TAEFDDFAALLQREFKPKTDQAKTAVEQAVHTLAQQALADTKLISNDVFKTIEGMIAAID  73
+            T EFD F   + RE   K  Q  TA+ + +   A +A     L S  + KT  G+  A D
+Sbjct  280  TPEFDLFIKEVHREMTAKAGQKCTAIRRVIVPKAVEADVIAAL-SARLAKTPAGLPDAAD  338
+
+Query  74   KKLSEQINL  82
+             +L    +L
+Sbjct  339  TRLGALASL  347
+
+
+> DMKJLJHC_05642 hypothetical protein
+Length=84
+
+ Score = 25.0 bits (53),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  17  FDDFAALLQREFKPKTDQAKTAVEQAVHTLAQQALADTKLISNDVFKTIEGM  68
+           FDD + L+          AKT  E A+ +L  + LAD   ++ + F  +  M
+Sbjct  8   FDDLSQLMTNAMGV-AQGAKTEAETAMKSLMDRWLADRNFVTREEFDAVRAM  58
+
+
+> DMKJLJHC_04414 hypothetical protein
+Length=328
+
+ Score = 26.6 bits (57),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 34/139 (24%), Positives = 57/139 (41%), Gaps = 24/139 (17%)
+
+Query  175  ELLAEMAKVASAAHAPFIAGASPSTMQMDSWSELSNPRDLTKIFQSAEYAAWRSLRESED  234
+            E++AEM +V        +    P T + D+    + P   +    S   A  R+ +  E+
+Sbjct  146  EIVAEMNRVGMLCDLSHVG---PKTSR-DTIDASTKPVAYSHCLPSGLKAHPRN-KTDEE  200
+
+Query  235  SRYI-------GLAM-PRFLARLPYGSKTNPVEGFDFEEDIEGKDHNRYVWANSAYAMAT  286
+             RYI       G+ M P FLA+ P     + V   D+  +I G+D         A  + T
+Sbjct  201  LRYIVDKGGFVGVTMFPPFLAKGPKADVADYVAAMDYVINIAGED---------AVGIGT  251
+
+Query  287  NITRAFK--LYGWCTTIRG  303
+            + T+ +    + W T  +G
+Sbjct  252  DFTQGYGQPFFDWITHDKG  270
+
+
+> DMKJLJHC_01464 D-hydantoinase/dihydropyrimidinase
+Length=483
+
+ Score = 26.2 bits (56),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  332  EIAISDRREAELAKNGFMPLVHRKNSDFAAFIGAQSL  368
+            E+  S +R AEL   G +PLVH +N D  A + A+ L
+Sbjct  161  ELYSSFKRCAEL---GAIPLVHAENGDVVAELSAKLL  194
+
+
+> DMKJLJHC_02189 hypothetical protein
+Length=474
+
+ Score = 26.2 bits (56),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  203  DSWSELSNPRDLTKIFQSAEYAAW  226
+            DS  +L  P+D  +IF++  +AAW
+Sbjct  272  DSKLKLWRPKDWPQIFKTGHFAAW  295
+
+
+> DMKJLJHC_01933 Arylsulfatase
+Length=517
+
+ Score = 26.2 bits (56),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 28/65 (43%), Gaps = 22/65 (34%)
+
+Query  129  KRYKGTAWDQSPIFKKVYEEEFGQLGGNPYGCLVGDYHFDHSPPDVELL---AEMAKVAS  185
+            +RYK   W         Y ++ GQLG  P G          +PP+ EL    A+  ++ +
+Sbjct  435  QRYKLIYW---------YNDDLGQLGARPNG----------APPEWELFDCEADPMELMN  475
+
+Query  186  AAHAP  190
+             AH P
+Sbjct  476  VAHDP  480
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 513960272
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,159 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P8F3|A0A0K8P8F3_IDESA 4-hydroxythreonine-4-phosphate
+dehydrogenase OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0229 PE=3 SV=1
+
+Length=326
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02742 3-isopropylmalate dehydrogenase                      30.0    0.17 
+  GFJPDDAG_00430 2-oxoglutarate dehydrogenase E1 component            29.6    0.26 
+  GFJPDDAG_01398 Phosphate acyltransferase                            28.9    0.39 
+  GFJPDDAG_00405 Spore germination protein B3                         28.1    0.74 
+  GFJPDDAG_02667 ABC transporter ATP-binding protein NatA             26.6    2.0  
+  GFJPDDAG_01457 Stage V sporulation protein D                        25.8    4.0  
+  GFJPDDAG_02055 Phosphate transport system permease protein PstA     24.6    9.1  
+
+
+> GFJPDDAG_02742 3-isopropylmalate dehydrogenase
+Length=370
+
+ Score = 30.0 bits (66),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
+
+Query  292  HGSAMDIAGRGIADPGAVLRTIALL  316
+            HGSA DIAG+G A+P A++ ++A++
+Sbjct  279  HGSAPDIAGKGKANPLAMILSVAMM  303
+
+
+> GFJPDDAG_00430 2-oxoglutarate dehydrogenase E1 component
+Length=948
+
+ Score = 29.6 bits (65),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 27/62 (44%), Gaps = 8/62 (13%)
+
+Query  233  AEGLRVDGPLGADLL-LAQRRHDL-------YVAMLHDQGHIPVKLLAPNAASALSIGAQ  284
+            A+ +R  G L AD+  L  R  D        +     D  HIPV  L PNA S +  G Q
+Sbjct  87   ADNIRTYGHLAADINPLNDRDKDTRRIELSEFNLTEEDLKHIPVDFLCPNAPSHIKDGLQ  146
+
+Query  285  VL  286
+             +
+Sbjct  147  AI  148
+
+
+> GFJPDDAG_01398 Phosphate acyltransferase
+Length=329
+
+ Score = 28.9 bits (63),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 43/191 (23%), Positives = 76/191 (40%), Gaps = 21/191 (11%)
+
+Query  25   PEIALKALAALPAAARGRITLYGPAAVLERTASQLGQEALLREQPVVDAGALPAQAARPG  84
+             EI L    AL       + LYG    +++  +Q  +  ++    V++A   P +A +  
+Sbjct  15   KEIVLGVKRALSEYNDMEVLLYGDENQIKQYITQDDRLTIVHTDEVIEATDEPVRAVKRK  74
+
+Query  85   RIDPAAGASAVASASAAIEACRRGEADAVVACPHHETAIHQAGIAFSGYPSLVARVCGQP  144
+            +      AS V  A    +A + GEADA ++  +   A+  AG+   G    + R    P
+Sbjct  75   K-----NASMVLMA----QAVKDGEADACISAGN-TGALMTAGLFIVGRIEGIERPALAP  124
+
+Query  145  EDSVFLMLVGGGLRIVHATLHESVAHALGRLQPALIAAAARAGARACARL-GVADPRIGV  203
+                   L G G  ++    +          +P  +A  A  G+    ++ G+ +PRIG+
+Sbjct  125  ---TLPTLNGNGFLMLDLGANVDA-------KPEHLAQYAIMGSIYAEKVRGINNPRIGL  174
+
+Query  204  FGINPHASEGG  214
+              I     +G 
+Sbjct  175  LNIGTEDKKGN  185
+
+
+> GFJPDDAG_00405 Spore germination protein B3
+Length=367
+
+ Score = 28.1 bits (61),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 12/47 (26%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  21   NGIGPEIALKALAALPAAARGRITLYGPAAVLERTASQLGQEALLRE  67
+            N + P+  +K L++ P   +  +TL   AA++E    +L  +  ++E
+Sbjct  250  NLVNPKTKMKILSSTPGNIQVELTLKTEAAIVEFPQDELADKQKIKE  296
+
+
+> GFJPDDAG_02667 ABC transporter ATP-binding protein NatA
+Length=261
+
+ Score = 26.6 bits (57),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 10/29 (34%), Positives = 15/29 (52%), Gaps = 0/29 (0%)
+
+Query  20  PNGIGPEIALKALAALPAAARGRITLYGP  48
+           PNG G    +K +  L     G++TL+G 
+Sbjct  41  PNGAGKSTTVKIILGLEEEYSGQVTLFGE  69
+
+
+> GFJPDDAG_01457 Stage V sporulation protein D
+Length=638
+
+ Score = 25.8 bits (55),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  248  LAQRRHDLYVAMLHDQGHIPV  268
+            L +++ DLY    HD G+I V
+Sbjct  305  LEEKKVDLYKETFHDPGYIEV  325
+
+
+> GFJPDDAG_02055 Phosphate transport system permease protein PstA
+Length=295
+
+ Score = 24.6 bits (52),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 30/65 (46%), Gaps = 7/65 (11%)
+
+Query  180  IAAAARAGARACARL---GVADPRIGVFGINPHA--SEGGLFGPEDAQHVEPAVQALRAE  234
+            I A+ R    A A L   G++ PR+    +NP +  S   LF P +   V   + A+  +
+Sbjct  195  ILASGRVFGEAAALLFTAGLSTPRLDYLNLNPFSPTSPLNLFRPAETLAVH--IWAVNTQ  252
+
+Query  235  GLRVD  239
+            GL  D
+Sbjct  253  GLIPD  257
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 200463579
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

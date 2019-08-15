@@ -1,0 +1,159 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NYN9|A0A0K8NYN9_IDESA Ribosome hibernation protein YhbH
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_1290 PE=4
+SV=1
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03188 Ribosome hibernation promotion factor                68.2    2e-16
+  GFJPDDAG_00269 hypothetical protein                                 25.8    0.60 
+  GFJPDDAG_01308 Ribonuclease J 2                                     25.8    0.72 
+  GFJPDDAG_01034 putative murein peptide carboxypeptidase             23.9    2.9  
+  GFJPDDAG_00190 GTPase Der                                           23.1    5.1  
+  GFJPDDAG_01532 Ribonuclease J1                                      23.1    5.3  
+  GFJPDDAG_03563 hypothetical protein                                 22.7    5.9  
+  GFJPDDAG_00698 hypothetical protein                                 21.9    7.4  
+
+
+> GFJPDDAG_03188 Ribosome hibernation promotion factor
+Length=192
+
+ Score = 68.2 bits (165),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/113 (34%), Positives = 69/113 (61%), Gaps = 4/113 (4%)
+
+Query  1    MNVTISGHHLDVSPALREYVLTKLERITRHFDQVVDINVLLSVEKLREKERRQKAEITLH  60
+            +N  I G +++V+PA+RE+V  K+ ++ R+F++  D NV ++++   +K    K E+T+ 
+Sbjct  2    LNYNIRGENIEVTPAIREHVEKKIGKLDRYFNETPDANVHVNLKVYPDK--NTKTEVTIP  59
+
+Query  61   VKGRDIFVEHAHEDLYAAIDQLMDKLDRQVCRHKDKVQD--HHHASPKRMDAS  111
+            +    +  E  + D+YAAID ++DKL+RQ+ +HK +V        SPK   A+
+Sbjct  60   MPHLVLRAEERNTDMYAAIDLIVDKLERQIRKHKTRVNRKMREKGSPKEFFAA  112
+
+
+> GFJPDDAG_00269 hypothetical protein
+Length=162
+
+ Score = 25.8 bits (55),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 23/51 (45%), Gaps = 0/51 (0%)
+
+Query  24   LERITRHFDQVVDINVLLSVEKLREKERRQKAEITLHVKGRDIFVEHAHED  74
+            L+R  R  D  +     L V    +  RRQ  E+TL V   D  V  AHE+
+Sbjct  58   LKRGVRTIDFALSFIFGLIVMYDAQGIRRQTGELTLKVNSLDELVRKAHEN  108
+
+
+> GFJPDDAG_01308 Ribonuclease J 2
+Length=555
+
+ Score = 25.8 bits (55),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+
+Query  64  RDIFVEHAHEDLYAAIDQLMDKLDRQV  90
+           + IF+ H HED   AI  ++ K+   V
+Sbjct  68  KGIFLTHGHEDSIGAISYVLSKIKAPV  94
+
+
+> GFJPDDAG_01034 putative murein peptide carboxypeptidase
+Length=342
+
+ Score = 23.9 bits (50),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 13/59 (22%), Positives = 34/59 (58%), Gaps = 6/59 (10%)
+
+Query  59   LHVKGRDIFVEHAHEDLYAAIDQLMDKLDRQVCRHKDK----VQDHHHASPKRMDASVS  113
+            ++ KG+ +F+E   E+ Y  +D+++++L +   +  D     + D  +  PK+ ++S++
+Sbjct  228  INTKGKILFIEDIDEEPY-KVDRMINQL-KMANKFNDSAGIIIGDFKNCEPKKRESSLT  284
+
+
+> GFJPDDAG_00190 GTPase Der
+Length=436
+
+ Score = 23.1 bits (48),  Expect = 5.1, Method: Composition-based stats.
+ Identities = 19/76 (25%), Positives = 38/76 (50%), Gaps = 2/76 (3%)
+
+Query  11   DVSPALREYVLTKLERITRHFDQVVDINVLLSVEKLREKERRQKAEITLHVKGRDIFVEH  70
+            DV    R+ + +  E +T  F+ +    + L  E   + + RQ+AEI +      +F+ +
+Sbjct  33   DVPGVTRDRIYSSAEWLTHEFNIIDTGGIELGNEPFLD-QIRQQAEIAIDEADVIVFLTN  91
+
+Query  71   AHEDLYAAIDQLMDKL  86
+              E + AA D+++ K+
+Sbjct  92   GREGVTAA-DEIVAKI  106
+
+
+> GFJPDDAG_01532 Ribonuclease J1
+Length=555
+
+ Score = 23.1 bits (48),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 10/26 (38%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  62  KGRDIFVEHAHEDLYAAIDQLMDKLD  87
+           K + +FV H HED    I  L+ +L+
+Sbjct  66  KIKGLFVTHGHEDHIGGIPYLLRELN  91
+
+
+> GFJPDDAG_03563 hypothetical protein
+Length=157
+
+ Score = 22.7 bits (47),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 14/59 (24%), Positives = 29/59 (49%), Gaps = 11/59 (19%)
+
+Query  52  RQKAEITLHVKGRDIFVEHAHEDLYAAIDQLMDKLD-----------RQVCRHKDKVQD  99
+           ++K + T+  K ++ FVE+  + + +  ++  +KL+            +    KDKVQD
+Sbjct  25  KEKVKDTVKEKAKEKFVENVEDGIQSKANEASEKLESAKENNAANVHNKAEEAKDKVQD  83
+
+
+> GFJPDDAG_00698 hypothetical protein
+Length=66
+
+ Score = 21.9 bits (45),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  5   ISGHHLDVSPALREYV  20
+           +SGH +  +PA R Y+
+Sbjct  6   VSGHRMVCAPAPRYYI  21
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 36792546
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

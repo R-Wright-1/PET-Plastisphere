@@ -1,0 +1,166 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|D7R6G8|D7R6G8_BACIU Carboxylic ester hydrolase OS=Bacillus
+subtilis OX=1423 GN=pnbA PE=3 SV=1
+
+Length=489
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03029 Carboxylesterase NlhH                                43.5    2e-05
+  DMKJLJHC_01721 Carboxylesterase LipF                                33.1    0.048
+  DMKJLJHC_05303 Dipeptide transport system permease protein DppB     29.3    0.80 
+  DMKJLJHC_07480 tRNA pseudouridine synthase A                        26.2    3.0  
+  DMKJLJHC_00339 L-lysine 2,3-aminomutase                             26.2    7.9  
+  DMKJLJHC_02836 hypothetical protein                                 26.6    8.0  
+  DMKJLJHC_03054 Ribose import ATP-binding protein RbsA               26.2    8.4  
+
+
+> DMKJLJHC_03029 Carboxylesterase NlhH
+Length=298
+
+ Score = 43.5 bits (101),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 33/111 (30%), Positives = 47/111 (42%), Gaps = 14/111 (13%)
+
+Query  82   CLYVNVFAPDTPSQNLPVMVWIHGGAFYLGAGSEPLYDGSKLAAQGEVIVVTLNYRLGPF  141
+            C+ V    P+   Q  P+ V IHGG F  G         + LA +    V+ L+YRL P 
+Sbjct  51   CVLVT---PEAAVQGGPLFVNIHGGGFVRGYQKRDTVFCAFLAEKLGCKVLDLDYRLSP-  106
+
+Query  142  GFLHLSSFNEAYSDNLGLLDQAAALKWVRENISAFGGDPDNVTVFGESAGG  192
+                 ++ +E Y            L+WV +     G DP  + + G SAGG
+Sbjct  107  EHPFPTALHETYD----------VLQWVFDQAGDLGIDPSRIAIGGHSAGG  147
+
+
+> DMKJLJHC_01721 Carboxylesterase LipF
+Length=299
+
+ Score = 33.1 bits (74),  Expect = 0.048, Method: Compositional matrix adjust.
+ Identities = 46/166 (28%), Positives = 72/166 (43%), Gaps = 28/166 (17%)
+
+Query  43   EPPEVWEDVLDATAYGPICPQPSDLLSLSYTELPRQSEDCLYVNVFAPDTPSQNLPVMVW  102
+            +P  V  ++   T++  + P+   LL      +P  S   L V   A D       V+++
+Sbjct  25   DPLRVRREMARGTSWAIVPPRGLCLLHRRCGGMPALS---LRVGQVAHDA------VVLY  75
+
+Query  103  IHGGAFYLGAGSEPLYDG--SKLAAQGEVIVVTLNYRLGPFGFLHLSSFNEAYSDNLGLL  160
+            +HGG +   +GS  +Y G   +L+    + V+  +YRL P           A  D     
+Sbjct  76   LHGGGYV--SGSPFMYRGLAGRLSRLSGLEVIVPDYRLAPE-----HPLPAAVEDA----  124
+
+Query  161  DQAAALKWVRENISAFGGDPDNVTVFGESAGGMSIAALLAMPAAKG  206
+             QAA   W  +++ A G  PD + + G+SAGG     LLA   A G
+Sbjct  125  -QAA---W--DDLVAKGYAPDRIILAGDSAGGGLAFLLLARLCAAG  164
+
+
+> DMKJLJHC_05303 Dipeptide transport system permease protein DppB
+Length=354
+
+ Score = 29.3 bits (64),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 26/123 (21%), Positives = 50/123 (41%), Gaps = 15/123 (12%)
+
+Query  261  QLRIAEKENIFQLFFQPALDPKTLPEEPEKAIAEGAASGIPLLIGTTRDEGYLFFTPDSD  320
+            +L +     +  L F   L  + +P +P  A+    AS       TT  + YL    D  
+Sbjct  24   RLIVTVAVTLLGLLFVTFLIGRVVPIDPVLAVVGDRASA------TTYHKAYLALGLDKP  77
+
+Query  321  VHSQETL--------DAALEYLLGKPLAEKAADLYPRSLE-SQIHMMTDLLFWRPAVAYA  371
+            ++ Q  +        D     L  +P+ E  A ++P +LE + + ++   +   PA  +A
+Sbjct  78   LYEQFWIYLKNVLSGDLGTSVLTKRPITEDIAQVFPATLELATVGLLIGTILGIPAGVWA  137
+
+Query  372  SAQ  374
+            + +
+Sbjct  138  AVR  140
+
+
+> DMKJLJHC_07480 tRNA pseudouridine synthase A
+Length=96
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 19/43 (44%), Gaps = 4/43 (9%)
+
+Query  35  GQWRFKAPEPPEVWEDVLDATAYGPIC-PQPSDLLSLSYTELP  76
+           G W   APE      D  D  A GP+C PQ   L  + Y E P
+Sbjct  54  GAW---APEDVRAALDACDRAACGPVCPPQGLYLTGVGYPEDP  93
+
+
+> DMKJLJHC_00339 L-lysine 2,3-aminomutase
+Length=356
+
+ Score = 26.2 bits (56),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 35/133 (26%), Positives = 52/133 (39%), Gaps = 22/133 (17%)
+
+Query  227  ASTSAAFLQVLGINE--GQLDKLHTVSAEDSLKAADQLRIA---EKENIFQLFFQPALDP  281
+            A T    L+  G+ E  G+ D L  V+ E  ++   ++R A     + +   F   A + 
+Sbjct  10   ALTRVTDLERSGLTEPQGRAD-LERVAQEFRIRVTPEMRGAISTPADPVAAQFVPSAHEL  68
+
+Query  282  KTLPEEPEKAIAEGAASGIPLLIGTTRDEGYLFFTPDSDVHS----------------QE  325
+               PEE    I + A S +P L     D   L  T   DV+                 ++
+Sbjct  69   HIRPEELGDPIGDDAHSPVPGLTHRYPDRVILHITKTCDVYCRFCFRRETVGETGPLPED  128
+
+Query  326  TLDAALEYLLGKP  338
+             LDAALEY+   P
+Sbjct  129  QLDAALEYIAATP  141
+
+
+> DMKJLJHC_02836 hypothetical protein
+Length=1359
+
+ Score = 26.6 bits (57),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 17/43 (40%), Positives = 17/43 (40%), Gaps = 3/43 (7%)
+
+Query  40   KAPEPPEVWEDVLDATAYGPICPQPSDLLSLSYTELPRQSEDC  82
+            K P   E  E V    AY PIC    DLLS      P   E C
+Sbjct  307  KRPAGAEETEPVAIEAAYHPICATTGDLLSAVLAHCP---ERC  346
+
+
+> DMKJLJHC_03054 Ribose import ATP-binding protein RbsA
+Length=509
+
+ Score = 26.2 bits (56),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query  278  ALDPKTL-PEEPEKAIAEGAASGIPLLIGTTRDEGYLFFTPDSDV  321
+            A++P+ L  +EP + I  G+ S I  LI T   EGY      S++
+Sbjct  420  AMNPRILIVDEPTRGIDVGSKSEIHDLIRTLASEGYAVIVISSEM  464
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 509358800
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,191 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NXD6|A0A0K8NXD6_IDESA Protocatechuate 3,4-dioxygenase, beta
+chain OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0627 PE=4 SV=1
+
+Length=255
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_01125 Protocatechuate 3,4-dioxygenase beta chain           266     6e-91
+  DMKJLJHC_01149 Hydroxyquinol 1,2-dioxygenase                        71.2    3e-15
+  DMKJLJHC_01817 Catechol 1,2-dioxygenase                             69.7    1e-14
+  DMKJLJHC_01124 Protocatechuate 3,4-dioxygenase alpha chain          60.1    1e-11
+  DMKJLJHC_05254 hypothetical protein                                 26.9    1.7  
+  DMKJLJHC_03660 hypothetical protein                                 25.4    6.6  
+  DMKJLJHC_06021 hypothetical protein                                 24.6    7.0  
+  DMKJLJHC_05739 Metalloprotease TldD                                 25.0    9.2  
+
+
+> DMKJLJHC_01125 Protocatechuate 3,4-dioxygenase beta chain
+Length=242
+
+ Score = 266 bits (680),  Expect = 6e-91, Method: Compositional matrix adjust.
+ Identities = 135/234 (58%), Positives = 160/234 (68%), Gaps = 3/234 (1%)
+
+Query  14   RDTTSHPPAYAPAYKTSVLRSPRNALISLQQSLSEVTGPVFRAEELGPLDNDLILNCAHP  73
+            R+   HP  Y P YKTSV RSP   L+SL+   SE TGP F    +G LDN+LILN    
+Sbjct  10   RNRAIHPEPYDPGYKTSVTRSPNLPLLSLESGPSEETGPAFGHGLIGALDNNLILNWTQG  69
+
+Query  74   DQPHGLPIGERIVVHGYVRDQFGRPVRNALVEVWQANASGRYRHKKDQYIGALDPNFGGC  133
+              P    +GERI++HG V D+  RPVRN LVE+WQANA GRYRHKKD Y   LDPNFGGC
+Sbjct  70   AAP---AVGERILLHGRVLDENARPVRNTLVEIWQANAGGRYRHKKDSYFAPLDPNFGGC  126
+
+Query  134  GRTLTDADGHYVYRTIRPGPYPWRNRINDWRPAHIHYAISGDAWAQRLITQMYFEGDPLI  193
+            GRTLTD +G Y + TIRPG YPW NR NDWRP HIH ++ G ++ QRLITQ+YFEGDPLI
+Sbjct  127  GRTLTDDEGRYEFLTIRPGAYPWPNRGNDWRPMHIHVSVFGHSFGQRLITQVYFEGDPLI  186
+
+Query  194  ASCPILQTVPSEEQIRGLVALQDPGAFVQLDSRAYRFDIVLRGQRATWFENRVQ  247
+            A CPI  T+ S  Q+  LVA  D       D  AY+FDIVLRG+R + FEN+++
+Sbjct  187  AHCPIAATIKSRAQLDRLVAPLDLAHSRPQDYLAYKFDIVLRGRRQSMFENKLE  240
+
+
+> DMKJLJHC_01149 Hydroxyquinol 1,2-dioxygenase
+Length=291
+
+ Score = 71.2 bits (173),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 50/147 (34%), Positives = 68/147 (46%), Gaps = 21/147 (14%)
+
+Query  73   PDQPHGLPI-----GERIVVHGYVRDQFGRPVRNALVEVWQANASGRYRHKKDQYIGALD  127
+            P++P G  I     GE  +  G V D  G P+ NALV+VW  N  G Y  ++      + 
+Sbjct  110  PERPMGATISLDGKGELCLFEGRVLDVDGTPIENALVDVWSDNEDGFYDVQQPD----IQ  165
+
+Query  128  PNFGGCGRTLTDADGHYVYRTIRPGPYPWRNR-----------INDWRPAHIHYAISGDA  176
+            P F   G   T  DG Y +R I+P  YP  +             + WRPAH+H+ IS   
+Sbjct  166  PPFNNRGVFRTGPDGRYAFRGIKPVSYPIPDDGPVGQMLAALGRHPWRPAHMHFMISAPE  225
+
+Query  177  WAQRLITQMYFEGDPLIASCPILQTVP  203
+             A RLIT ++  GD  +AS  +    P
+Sbjct  226  HA-RLITHLFVAGDDYLASDAVFGVKP  251
+
+
+> DMKJLJHC_01817 Catechol 1,2-dioxygenase
+Length=307
+
+ Score = 69.7 bits (169),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 43/123 (35%), Positives = 63/123 (51%), Gaps = 17/123 (14%)
+
+Query  82   GERIVVHGYVRDQFGRPVRNALVEVWQANASGRYRHKKDQYIGALDPNFGGCGRTLTDAD  141
+            GE +++HG VRD  G P+  A+V+VW AN  G Y      Y      ++    R  TDA+
+Sbjct  127  GELLIMHGQVRDADGTPLAGAIVDVWHANTMGNY-----SYFDQTQSDYNLRRRIETDAE  181
+
+Query  142  GHYVYRTIRPGPY--PWRNRINDW---------RPAHIHYAISGDAWAQRLITQMYFEGD  190
+            G Y +R+I P  Y  P  + I  +         RPAHIH+ +S +   + L TQ+  +GD
+Sbjct  182  GRYKFRSILPSGYGCPPGSNIETYLAALGRHGKRPAHIHFFVSANG-QRHLTTQINIDGD  240
+
+Query  191  PLI  193
+            P +
+Sbjct  241  PYL  243
+
+
+> DMKJLJHC_01124 Protocatechuate 3,4-dioxygenase alpha chain
+Length=199
+
+ Score = 60.1 bits (144),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 50/156 (32%), Positives = 73/156 (47%), Gaps = 18/156 (12%)
+
+Query  89   GYVRDQFGRPVRNALVEVWQANASGRYRHKKDQYIGALDPNFGGCGRTLTDA-DGHYVYR  147
+            G V D  G  +R+AL+E WQ +A GR+  ++       DP   G  R   DA  G +  R
+Sbjct  57   GSVFDGTGWALRDALIESWQPDAKGRFAGQE-----GADPKVSGLCRFAADATSGEFTLR  111
+
+Query  148  TIRPGPYPWRNRINDWRPAHIHYAISGDAWAQRLITQMYFEGDPLIASCPILQTVPSEEQ  207
+            TI+PG    RNR    +  HI   I        L T++YF+ D   ++ P+L  +    +
+Sbjct  112  TIKPGAV--RNRAGVMQAPHISLWIVSRGINIGLSTRIYFD-DEDNSADPLLGRIEQSPR  168
+
+Query  208  IRGLVA-LQDPGAFVQLDSRAYRFDIVLRGQRATWF  242
+            +  L+A  + PG         YRF+I L+G   T F
+Sbjct  169  VETLIAKTEAPG--------RYRFNIRLQGTDETVF  196
+
+
+> DMKJLJHC_05254 hypothetical protein
+Length=196
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 18/63 (29%), Positives = 27/63 (43%), Gaps = 7/63 (11%)
+
+Query  62   LDNDLILNCAHPDQPHGLPIGERIVVHGYVRDQFGRPVRNALVEVWQANASGRYRHKKDQ  121
+            LD   + +C H D     P+ E +     +RDQ  +     L E W A  +  +RH  D 
+Sbjct  132  LDARRVGDCIHFDIASESPLPETLARR--IRDQAQK-----LSEAWGAGLNCDFRHGADL  184
+
+Query  122  YIG  124
+            + G
+Sbjct  185  FAG  187
+
+
+> DMKJLJHC_03660 hypothetical protein
+Length=278
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 18/43 (42%), Gaps = 0/43 (0%)
+
+Query  69   NCAHPDQPHGLPIGERIVVHGYVRDQFGRPVRNALVEVWQANA  111
+              +H D     P  E   VHG  R QF R  R  L+ + Q  A
+Sbjct  204  TASHSDAFLADPRSEYDYVHGTARSQFIRVERQCLIRLPQTRA  246
+
+
+> DMKJLJHC_06021 hypothetical protein
+Length=159
+
+ Score = 24.6 bits (52),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 18/32 (56%), Gaps = 1/32 (3%)
+
+Query  75   QPHGLPIG-ERIVVHGYVRDQFGRPVRNALVE  105
+            +P GLP+   R+V HG  R    +P R A VE
+Sbjct  39   EPFGLPLHLRRLVTHGLERQVLDQPNRTAGVE  70
+
+
+> DMKJLJHC_05739 Metalloprotease TldD
+Length=298
+
+ Score = 25.0 bits (53),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 20/42 (48%), Gaps = 2/42 (5%)
+
+Query  94   QFGRPVRNALVEVWQANASGRYRHKKDQYIGALDPNFGGCGR  135
+            Q G PV+ A +    A A  + R   +    +LDP  G CG+
+Sbjct  232  QIGAPVKGATLIGDGATAMQKVRAIGNDM--SLDPGIGNCGK  271
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 224150562
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

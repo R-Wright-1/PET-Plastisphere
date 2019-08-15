@@ -1,0 +1,233 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NUK8|A0A0K8NUK8_IDESA Tricarboxylate transport protein TctB
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0076 PE=4
+SV=1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_01953 hypothetical protein                                 68.2    4e-16
+  DMKJLJHC_03073 hypothetical protein                                 27.3    0.42 
+  DMKJLJHC_01466 HTH-type transcriptional regulator RutR              26.6    1.0  
+  DMKJLJHC_03410 hypothetical protein                                 26.6    1.4  
+  DMKJLJHC_02525 hypothetical protein                                 26.2    1.5  
+  DMKJLJHC_03046 Glycerol-3-phosphate regulon repressor               25.4    2.3  
+  DMKJLJHC_00630 Hydroxypyruvate reductase                            25.0    3.9  
+  DMKJLJHC_02998 ATP-dependent RNA helicase DeaD                      25.0    4.0  
+  DMKJLJHC_06343 hypothetical protein                                 24.3    4.2  
+  DMKJLJHC_04736 3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H...  25.0    4.3  
+  DMKJLJHC_07003 Spermidine-binding periplasmic protein SpuE          24.6    4.3  
+  DMKJLJHC_00835 C4-dicarboxylate TRAP transporter small permease...  24.3    6.6  
+  DMKJLJHC_04173 hypothetical protein                                 23.5    9.7  
+
+
+> DMKJLJHC_01953 hypothetical protein
+Length=147
+
+ Score = 68.2 bits (165),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 51/139 (37%), Positives = 72/139 (52%), Gaps = 11/139 (8%)
+
+Query  16   ILVGIGF---AFGATNYSMGNSARPGPGYFPLLLSVILAILGCVVLFKSLTIETEGGDPI  72
+            IL GIG     +   +Y +G+  R GPG+FP +L  +L  LG V+   +L  +     P 
+Sbjct  13   ILAGIGLFVSLYAVDHYEIGSLRRMGPGFFPAVLGGVLTCLGGVIALPALVRQ----GPA  68
+
+Query  73   GAIAWRPLLITVASIIVYGVLQPRLGLFIA--VPVLIVMVSFAGDEFKWIGVLASAVVLT  130
+              IAW+  L  + +I+V+     RLGL +   + VLI  V+       W  VLA  V  T
+Sbjct  69   IRIAWKECLAVLGAILVFAAGLDRLGLVLVTLISVLIASVAAPDRRIGWRIVLALTV--T  126
+
+Query  131  VFSWAVFVYGLNLTIPLWP  149
+              S AVF +GL +T+PLWP
+Sbjct  127  ALSVAVFSFGLKMTVPLWP  145
+
+
+> DMKJLJHC_03073 hypothetical protein
+Length=143
+
+ Score = 27.3 bits (59),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 15/56 (27%), Positives = 30/56 (54%), Gaps = 1/56 (2%)
+
+Query  6   QRDFVAGLMFILVGIGFAFGATNYSMG-NSARPGPGYFPLLLSVILAILGCVVLFK  60
+             D + G++ +++ +G+A+ AT       S   GP  FPL+++ IL +    ++ K
+Sbjct  1   MSDRIFGIVGLVLALGYAYAATQIEESFLSDAVGPKAFPLIIAAILGLASIAIILK  56
+
+
+> DMKJLJHC_01466 HTH-type transcriptional regulator RutR
+Length=222
+
+ Score = 26.6 bits (57),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 30/64 (47%), Gaps = 5/64 (8%)
+
+Query  30   SMGNSARPGPGYFPLLLSVILAILGCVVLFKSLTIET-EGGDPIGAIAWRPLLITVASII  88
+            S G  A+  P +   L+ ++ A       F S  I+T  GGDP+    W     +V +I+
+Sbjct  160  SEGKMAQTDPHH---LMYMLWATTQHYADF-SHQIDTLNGGDPLSDAQWEAAKTSVKTIV  215
+
+Query  89   VYGV  92
+            + G+
+Sbjct  216  LRGI  219
+
+
+> DMKJLJHC_03410 hypothetical protein
+Length=358
+
+ Score = 26.6 bits (57),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 30/65 (46%), Gaps = 4/65 (6%)
+
+Query  10   VAGLMFILVGIGFAFGATNYSMGNSARPGPGYFPLLLSVILAILGCVVLFKSLTIETEGG  69
+            V  L + +VG G     T   + ++AR      PL+L  I+A++     F  L +   G 
+Sbjct  243  VLALCYAIVGWGIGMRFTREVLSHAAR----ALPLVLGSIIALIALCACFSLLLVHFAGI  298
+
+Query  70   DPIGA  74
+            DP+ A
+Sbjct  299  DPVTA  303
+
+
+> DMKJLJHC_02525 hypothetical protein
+Length=404
+
+ Score = 26.2 bits (56),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 15/33 (45%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+
+Query  122  VLASAVVLTVFSWAVFVYGLNLTIPLWPTIFGQ  154
+            +LASA+VL   +  VF+    L +PL  +IFGQ
+Sbjct  93   ILASALVLAGDNATVFIIANALILPLSASIFGQ  125
+
+
+> DMKJLJHC_03046 Glycerol-3-phosphate regulon repressor
+Length=264
+
+ Score = 25.4 bits (54),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 7/18 (39%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  28  NYSMGNSARPGPGYFPLL  45
+           + + G ++RP PG++P L
+Sbjct  61  DRAHGGASRPHPGHYPTL  78
+
+
+> DMKJLJHC_00630 Hydroxypyruvate reductase
+Length=324
+
+ Score = 25.0 bits (53),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  46  LSVILAILGCVVLFKSLTIETEG  68
+           L+V LA   CVVLF+  T  T G
+Sbjct  40  LAVRLADADCVVLFRERTKVTRG  62
+
+
+> DMKJLJHC_02998 ATP-dependent RNA helicase DeaD
+Length=634
+
+ Score = 25.0 bits (53),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 16/31 (52%), Gaps = 2/31 (6%)
+
+Query  18  VGIGFAFGATNYSMGNSARPGPGYFPLLLSV  48
+           VG G A   T   +G++ R GP   PL L V
+Sbjct  46  VGFGLAIAPT--LLGDAERMGPAALPLALCV  74
+
+
+> DMKJLJHC_06343 hypothetical protein
+Length=122
+
+ Score = 24.3 bits (51),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 17/45 (38%), Positives = 26/45 (58%), Gaps = 2/45 (4%)
+
+Query  100  FIAVPVLIVMVSFAGDEFKWIGVLASAVVLTVFSWAVFVYGLNLT  144
+             +AV V++V+ S   DE  W  + AS +VL +FS  V   GL+ +
+Sbjct  38   LVAVAVILVLRSIDNDE-AWQAIDASVLVL-IFSMMVVGAGLHHS  80
+
+
+> DMKJLJHC_04736 3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoyl:CoA 
+ligase
+Length=575
+
+ Score = 25.0 bits (53),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 11/39 (28%), Positives = 20/39 (51%), Gaps = 2/39 (5%)
+
+Query  37   PGPGYFPLLLSVILAILGCVVLFKSLTIETEGGDPIGAI  75
+            P P Y      +++  LGCV    ++ + +EG DP+  +
+Sbjct  261  PVPFYH--CFGMVMGTLGCVTKGAAIVVPSEGFDPLATL  297
+
+
+> DMKJLJHC_07003 Spermidine-binding periplasmic protein SpuE
+Length=243
+
+ Score = 24.6 bits (52),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  98   GLFIAVPVLIVMVSFAGDEFKWIGVLASAVVL  129
+            G   +VP  I   +FAGD  K+ G + S  +L
+Sbjct  19   GRHYSVPWQIGTTAFAGDTSKYKGDINSYAIL  50
+
+
+> DMKJLJHC_00835 C4-dicarboxylate TRAP transporter small permease 
+protein DctQ
+Length=227
+
+ Score = 24.3 bits (51),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 4/50 (8%)
+
+Query  15   FILVGIGFAFGATNY----SMGNSARPGPGYFPLLLSVILAILGCVVLFK  60
+             +L+G+ +A   T +    ++ N  RPGP     L +  L IL  V+L K
+Sbjct  62   LVLLGMSYAVKVTAHLGVDAIVNMLRPGPRKALSLFAAALCILYAVLLLK  111
+
+
+> DMKJLJHC_04173 hypothetical protein
+Length=129
+
+ Score = 23.5 bits (49),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 32/70 (46%), Gaps = 9/70 (13%)
+
+Query  78   RPLLITVASIIVYGVLQPR-LGLFIAVPVLIVMVSFAGDEFKWIGVLASAVVLTVFSWAV  136
+            RP L  +    +  ++ PR  G++ AV  L   +SF        G LA+A+      W +
+Sbjct  21   RPYLAGLGGAFLRWMVSPRPRGIWAAVVGLTGDLSF--------GALAAALFYPAALWGM  72
+
+Query  137  FVYGLNLTIP  146
+              +G++L  P
+Sbjct  73   RHFGIDLGAP  82
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.147    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 103035632
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

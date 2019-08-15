@@ -1,0 +1,161 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NWN9|A0A0K8NWN9_IDESA Outer membrane porin protein BP0840
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0271 PE=4
+SV=1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02996 Endonuclease 8                                       27.7    0.40 
+  GFJPDDAG_02729 Dihydrolipoyllysine-residue acetyltransferase co...  27.7    1.2  
+  GFJPDDAG_02683 Sodium/proton-dependent alanine carrier protein      27.3    1.3  
+  GFJPDDAG_02504 Di-/tripeptide transporter                           26.9    2.3  
+  GFJPDDAG_03928 hypothetical protein                                 25.8    2.8  
+  GFJPDDAG_01744 Extracellular ribonuclease                           25.8    4.8  
+  GFJPDDAG_01931 hypothetical protein                                 25.4    6.0  
+  GFJPDDAG_01637 Sialic acid TRAP transporter large permease prot...  25.4    6.1  
+
+
+> GFJPDDAG_02996 Endonuclease 8
+Length=103
+
+ Score = 27.7 bits (60),  Expect = 0.40, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 25/44 (57%), Gaps = 3/44 (7%)
+
+Query  85   EHRFNPDDGAQNNASSFW---SGRSFVQLTQAGVGSIYLGRDYT  125
+            E  F   +   NNA +F+     + F +L Q+G G+IY+ ++Y+
+Sbjct  3    ETIFYKMESPSNNAWAFYLSPKHKRFKRLNQSGTGNIYIKKEYS  46
+
+
+> GFJPDDAG_02729 Dihydrolipoyllysine-residue acetyltransferase 
+component of pyruvate dehydrogenase complex
+Length=391
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 36/147 (24%), Positives = 55/147 (37%), Gaps = 17/147 (12%)
+
+Query  10   VLGTFAGAASAQSSVTIYGLFNVAVMKSNSGTANITQLVPGAAGNIWEMRQFGTSRLGFR  69
+            V+G+  G       V +Y       MK  SGTA I    P     + E+R+  T  + FR
+Sbjct  118  VVGSGVGGRILDEDVILY-------MKGESGTAPIRDEKPEPVAPLAEIREQDT--IPFR  168
+
+Query  70   G-NEDLGGGMSAQF-TMEHRFNPDDGAQNNASSFWSGRSFVQLTQAGVGSIYLGRDYTPI  127
+            G  + +   MS    T+ H  + ++    N  + W         +A  GSI +G  +   
+Sbjct  169  GRRKQIASKMSQSLRTIPHCTHFEEIDVTNLLA-WK-----DTMKASGGSISIGAYFIKA  222
+
+Query  128  FWVQLKTDPFGNDGLAQSGSAATYAGY  154
+              V LK  P  N  L +         +
+Sbjct  223  LSVSLKEFPIFNARLNEKEECVELQSH  249
+
+
+> GFJPDDAG_02683 Sodium/proton-dependent alanine carrier protein
+Length=485
+
+ Score = 27.3 bits (59),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 27/58 (47%), Gaps = 3/58 (5%)
+
+Query  208  AGPLYAGVGYETVKDGVADGLGLVNVGVSYDFGVAKVMGYYGRSQTRTAGTTRGENTN  265
+            AGP Y     E+V  G   G   V + + + F    +M YY  ++T  A   RG+N+ 
+Sbjct  335  AGPGYTQAAIESVIPGF--GASFVAIALFF-FAFTTIMAYYYMAETNVAYLLRGKNSK  389
+
+
+> GFJPDDAG_02504 Di-/tripeptide transporter
+Length=497
+
+ Score = 26.9 bits (58),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 20/39 (51%), Gaps = 4/39 (10%)
+
+Query  173  GFVSASFGGFVGRATVALSEGTQTGRIMGLAGEYTAGPL  211
+            GF  A+ G F+G     L++ T     +GLAG Y   PL
+Sbjct  188  GFAVAAIGMFLGLVVFMLTKKTN----LGLAGTYVPNPL  222
+
+
+> GFJPDDAG_03928 hypothetical protein
+Length=163
+
+ Score = 25.8 bits (55),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  206  YTAGPLYAGVGYETVKDGVADGLGLV  231
+            ++  P+YA V YE V   ++D + L+
+Sbjct  64   FSITPVYASVEYEPVDGELSDKVNLI  89
+
+
+> GFJPDDAG_01744 Extracellular ribonuclease
+Length=386
+
+ Score = 25.8 bits (55),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/42 (43%), Positives = 23/42 (55%), Gaps = 7/42 (17%)
+
+Query  244  VMGYYGRSQTRTA--GTTRGENTNHVWALG----GTAKVGPG  279
+            ++ Y GRSQ++T   G     N  HVWA      GTA+ GPG
+Sbjct  212  ILLYSGRSQSKTTNGGGINDWNREHVWAKSHGDFGTAQ-GPG  252
+
+
+> GFJPDDAG_01931 hypothetical protein
+Length=322
+
+ Score = 25.4 bits (54),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 17/25 (68%), Gaps = 0/25 (0%)
+
+Query  18   ASAQSSVTIYGLFNVAVMKSNSGTA  42
+            A+ Q ++ + GL NV+V+   SGTA
+Sbjct  91   AALQKTIKLAGLMNVSVVNCFSGTA  115
+
+
+> GFJPDDAG_01637 Sialic acid TRAP transporter large permease protein 
+SiaM
+Length=661
+
+ Score = 25.4 bits (54),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 10/19 (53%), Gaps = 0/19 (0%)
+
+Query  55   IWEMRQFGTSRLGFRGNED  73
+            IW M  F   R+G RG  D
+Sbjct  335  IWIMTHFEAKRIGLRGLSD  353
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 212012921
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

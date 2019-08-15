@@ -1,0 +1,180 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NZC4|A0A0K8NZC4_IDESA Porin OS=Ideonella sakaiensis (strain
+201-F6) OX=1547922 GN=ISF6_1504 PE=4 SV=1
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_06042 Porin                                                28.1    1.1  
+  DMKJLJHC_05280 AMP nucleosidase                                     28.1    1.3  
+  DMKJLJHC_02901 Ribosomal RNA small subunit methyltransferase H      27.7    1.5  
+  DMKJLJHC_00585 AMP nucleosidase                                     27.3    2.3  
+  DMKJLJHC_04481 hypothetical protein                                 25.8    4.4  
+  DMKJLJHC_00112 Porin                                                26.2    5.6  
+  DMKJLJHC_01796 Putative glycosyltransferase EpsE                    25.8    6.8  
+  DMKJLJHC_02475 Anthranilate 1,2-dioxygenase large subunit           25.8    7.4  
+  DMKJLJHC_03360 Type I secretion system membrane fusion protein ...  25.4    9.1  
+
+
+> DMKJLJHC_06042 Porin
+Length=350
+
+ Score = 28.1 bits (61),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 26/94 (28%), Positives = 43/94 (46%), Gaps = 4/94 (4%)
+
+Query  196  LTANYDQGPLHLGGSYLQAGAGRPGAKEKEYGLRALYELGDFTVG--AYYIRNDNVFGNN  253
+            LT N +  PL+   +Y    + +  +   + G+ A Y +GDF VG  +YY  N      +
+Sbjct  130  LTGNGNADPLNYASAYFYTFSSQSYSNSGQVGVMATYSVGDF-VGRLSYYNPNQQAKNLS  188
+
+Query  254  GWKRNAV-RVSAMYTMGPGELHVNVGKAYAIKGN  286
+             W+ +A   ++       G+L V  G A+   GN
+Sbjct  189  TWQDHAAGELAGSVDYKFGDLQVGAGFAHNAGGN  222
+
+
+> DMKJLJHC_05280 AMP nucleosidase
+Length=494
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  227  GLRALYELGDFTVGAYYIRNDNVFGNN  253
+            GLR    LGDF +   Y+R D+V  ++
+Sbjct  316  GLRNSQRLGDFVLAHAYLREDHVLDDD  342
+
+
+> DMKJLJHC_02901 Ribosomal RNA small subunit methyltransferase 
+H
+Length=335
+
+ Score = 27.7 bits (60),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 28/55 (51%), Gaps = 3/55 (5%)
+
+Query  153  DKLYLYPGRATNMIAYTSPSLSGLVVDAQLSLSETSQAGRTYVLTANYDQGPLHL  207
+            D+L L  G  + M +Y+   L G+V+D  +S  +  QA R +       +GPL +
+Sbjct  75   DRLALVEGTFSEMDSYSDTLLDGIVLDLGVSSMQLDQAERGFSF---MREGPLDM  126
+
+
+> DMKJLJHC_00585 AMP nucleosidase
+Length=491
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+
+Query  227  GLRALYELGDFTVGAYYIRNDNVFGNN  253
+            GLR    LGDF +   Y+R D V  ++
+Sbjct  313  GLRNSQNLGDFVLAHAYLREDKVLDDD  339
+
+
+> DMKJLJHC_04481 hypothetical protein
+Length=160
+
+ Score = 25.8 bits (55),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 12/22 (55%), Gaps = 0/22 (0%)
+
+Query  219  PGAKEKEYGLRALYELGDFTVG  240
+            PG K    G+R + ELGD   G
+Sbjct  64   PGPKAPPVGVRVMVELGDPAPG  85
+
+
+> DMKJLJHC_00112 Porin
+Length=330
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 33/122 (27%), Positives = 51/122 (42%), Gaps = 25/122 (20%)
+
+Query  21   MKRTIFVAAIATLAAGSALAQSSVTVYGRLNV----TAERFTANKQTTYLLNNNASRIGF  76
+            MK+ +F      L+AG A A+ S     R+ V    T   F++  +  + L+        
+Sbjct  1    MKKVLFATTALVLSAGVAAAEVSTGGTARMGVMYNGTDWNFSSRIRVKFTLSGQTD----  56
+
+Query  77   KGVEDLGGGLQ--ASFLMESGFSPDTGAASATFWGRESWVAIGGAFGKVRLGN-MGRTNA  133
+                   GGL+  AS   +        A +A   G    V + GAFGKV +G+ +G + A
+Sbjct  57   -------GGLEFGASLRADQ-------ANTANATGSSGAVYVSGAFGKVSMGDTVGASEA  102
+
+Query  134  YF  135
+             F
+Sbjct  103  LF  104
+
+
+> DMKJLJHC_01796 Putative glycosyltransferase EpsE
+Length=406
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 22/82 (27%), Positives = 36/82 (44%), Gaps = 9/82 (11%)
+
+Query  137  TADYISMHNHDTGTSEDKLYLYPGRATNMIAYTSPSLSGLVVDAQLSLSETSQA-GRTYV  195
+            T D++++ + D         ++P R   M+A    S + +V D  +   ET  A GRT +
+Sbjct  82   TGDWVAIMDSDD-------VIHPDRLRRMLAAAEQSGAQIVSDDLVFFGETEAASGRTLL  134
+
+Query  196  LTANYDQGPLHLGGSYLQAGAG  217
+               + D  P  L  + L A  G
+Sbjct  135  QALDLD-APQMLDAARLMASEG  155
+
+
+> DMKJLJHC_02475 Anthranilate 1,2-dioxygenase large subunit
+Length=412
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+
+Query  188  SQAGRTYVLTANYDQGPLHLGGSYLQAGAGRPGAKEKEYGLRALY  232
+            S+ GR   L   Y Q    L G  L A    P    K++GL+ ++
+Sbjct  95   SRKGRNPKLVCPYHQWTYELDGQLLWARDMGPDFDPKQHGLKPVH  139
+
+
+> DMKJLJHC_03360 Type I secretion system membrane fusion protein 
+PrsE
+Length=431
+
+ Score = 25.4 bits (54),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 16/36 (44%), Gaps = 0/36 (0%)
+
+Query  169  TSPSLSGLVVDAQLSLSETSQAGRTYVLTANYDQGP  204
+            T+PS   +V D    +    Q GRTY L      GP
+Sbjct  350  TTPSFPAIVRDVSADVMRDPQTGRTYFLAQLTLTGP  385
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327850556
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

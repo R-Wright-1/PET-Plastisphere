@@ -1,0 +1,270 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|E9LVI0|E9LVI0_THEFU Cutinase 1 (Fragment) OS=Thermobifida fusca
+OX=2021 GN=cut1 PE=4 SV=1
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             53.9    3e-09
+  DMKJLJHC_01741 Thermostable monoacylglycerol lipase                 33.5    0.016
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        33.1    0.018
+  DMKJLJHC_01054 Lipase 1                                             28.5    0.62 
+  DMKJLJHC_02582 Esterase YbfF                                        27.3    1.3  
+  DMKJLJHC_04053 Fructose dehydrogenase cytochrome subunit            26.2    1.6  
+  DMKJLJHC_02209 hypothetical protein                                 26.9    2.3  
+  DMKJLJHC_01127 HTH-type transcriptional regulator GbpR              26.6    2.4  
+  DMKJLJHC_06099 P-protein                                            26.6    2.6  
+  DMKJLJHC_02746 Arylesterase                                         26.2    3.1  
+  DMKJLJHC_07084 hypothetical protein                                 25.8    3.2  
+  DMKJLJHC_03750 2,6-dihydropseudooxynicotine hydrolase               26.2    3.7  
+  DMKJLJHC_05695 Lysophospholipase L2                                 25.4    5.6  
+  DMKJLJHC_04641 L-amino acid amidase                                 25.0    6.4  
+  DMKJLJHC_01028 hypothetical protein                                 25.0    9.2  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 53.9 bits (128),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 53/99 (54%), Gaps = 11/99 (11%)
+
+Query  57   ISPGYTGTEASIAWLGERIASHGFVVITID----TITTLD-----QPDSRAEQLNAALNH  107
+            +S GY+G   + AWL ER+A  GF+ + +D    T   LD         R  Q++  L+ 
+Sbjct  78   LSHGYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERPHQVSRVLDA  137
+
+Query  108  MINRASSTVRSRIDSSRLAVMGHSMGGGGSLRLASQRPD  146
+            ++  A   +  RID  R++V+GHS+GG  +L LA  R D
+Sbjct  138  VL--ADPKLGPRIDRKRISVIGHSLGGSTALFLAGGRFD  174
+
+
+> DMKJLJHC_01741 Thermostable monoacylglycerol lipase
+Length=254
+
+ Score = 33.5 bits (75),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 31/108 (29%), Positives = 49/108 (45%), Gaps = 4/108 (4%)
+
+Query  45   YPRENNTYGAVAISPGYTGTEASIAWLGERIASH-GFVVITIDTITTLDQPDSRAEQLNA  103
+            +  E N  G + I  G+TG+  S+ +LG+ +    GF V+          PD  ++    
+Sbjct  11   FAFEGNETGVLVIH-GFTGSTQSMRYLGQSLHERFGFTVLGPCLPGHGTSPDEMSKTGYL  69
+
+Query  104  ALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGSLRLASQRPDLKAAI  151
+                 + RA   + +R    R+ V G SMGG  +L LA++ P L   I
+Sbjct  70   DWLGAVERALEALAAR--KKRVFVTGLSMGGTLTLNLAARFPKLVQGI  115
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 33.1 bits (74),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  120  IDSSRLAVMGHSMGGGGSLRLASQRPD  146
+            ID+ R ++ GHSMGG G+L LA   P+
+Sbjct  135  IDTERQSITGHSMGGHGALTLAMHMPE  161
+
+
+> DMKJLJHC_01054 Lipase 1
+Length=319
+
+ Score = 28.5 bits (62),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 23/92 (25%), Positives = 39/92 (42%), Gaps = 13/92 (14%)
+
+Query  132  MGGGGSLRL------ASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTH  185
+             G G +LR+      A +R  LK+ I      +   +  + +P + +    DTI     H
+Sbjct  219  FGPGMTLRVTTMRVNARERASLKSQIA----QMIPKYPQLDLPVVSVHGTADTIVSEKIH  274
+
+Query  186  ARPFYNSLPTSISKAYLELDGATHFAPNIPNK  217
+            A PF  ++P +     + L G  H  P++  K
+Sbjct  275  AIPFTKTVPGA---TLISLKGIGHMTPHVATK  303
+
+
+> DMKJLJHC_02582 Esterase YbfF
+Length=257
+
+ Score = 27.3 bits (59),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  127  VMGHSMGGGGSLRLASQRPD  146
+            V+GHSMGG  ++ LA   PD
+Sbjct  81   VLGHSMGGKAAMMLALTHPD  100
+
+
+> DMKJLJHC_04053 Fructose dehydrogenase cytochrome subunit
+Length=101
+
+ Score = 26.2 bits (56),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 29/61 (48%), Gaps = 2/61 (3%)
+
+Query  128  MGHSMGGGGSLRLASQRPDLKAAIPLTPWHL-NKNWSSVRVPTLIIGADLDTIAPVLTHA  186
+            +G + GG G+   A+Q  +++A  P TPW + N  W +     + +   L  IA  +   
+Sbjct  37   VGQTFGGTGNTVTAAQVAEMRAGGP-TPWIVANAAWMTWLAIVIAVIVVLAIIAVFVMRG  95
+
+Query  187  R  187
+            R
+Sbjct  96   R  96
+
+
+> DMKJLJHC_02209 hypothetical protein
+Length=462
+
+ Score = 26.9 bits (58),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 22/37 (59%), Gaps = 2/37 (5%)
+
+Query  203  ELDGAT--HFAPNIPNKIIGKYSVAWLKRFVDNDTRY  237
+            EL G T  H +P+ P +   + S+A  +RF+D D+ +
+Sbjct  387  ELLGITPIHLSPDFPAEATEEASLALSRRFMDEDSYF  423
+
+
+> DMKJLJHC_01127 HTH-type transcriptional regulator GbpR
+Length=304
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 28/55 (51%), Gaps = 10/55 (18%)
+
+Query  91   LDQPDSRAEQLNAALNHMINRASST--------VRSRIDSSRLAV--MGHSMGGG  135
+            LD+PD+  E ++AA    +   S T        VRS I++  LAV  + H + GG
+Sbjct  218  LDEPDTAFENVSAAFGRAVVLGSDTVWFISEGVVRSEIEAGTLAVLPLRHGLLGG  272
+
+
+> DMKJLJHC_06099 P-protein
+Length=277
+
+ Score = 26.6 bits (57),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 29/64 (45%), Gaps = 9/64 (14%)
+
+Query  46   PRENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAAL  105
+            P EN+TYG VA           +   G  I    FV + I+ +     P +R +Q+  A+
+Sbjct  52   PVENSTYGRVA------DIHTLLPESGLHIVDEAFVRVHINLLGV---PGARLDQIETAM  102
+
+Query  106  NHMI  109
+            +H +
+Sbjct  103  SHTV  106
+
+
+> DMKJLJHC_02746 Arylesterase
+Length=273
+
+ Score = 26.2 bits (56),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 11/39 (28%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  158  LNKNWSSVRVPTLIIGADLDTIAPVLTHARPFYNSLPTS  196
+              K+   + VPTLI+ +D D I P+    +  + ++  S
+Sbjct  205  FRKDLEKITVPTLILHSDSDAIVPLEGSGKRVFETVRNS  243
+
+
+> DMKJLJHC_07084 hypothetical protein
+Length=151
+
+ Score = 25.8 bits (55),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 30/104 (29%), Positives = 40/104 (38%), Gaps = 12/104 (12%)
+
+Query  9    PNPTDALLE--ARSGPFSVSEENVSRLSASGFGGGTIYYPR--ENNTYGAVAISPGYTGT  64
+            P  TDALL    RS          +R   +GF     Y P+      Y  + ++PG  G 
+Sbjct  2    PAYTDALLRHVLRSARVIAVVGASARPERAGF-----YVPQFLIARGYRVIPVNPGLAGQ  56
+
+Query  65   EASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNHM  108
+                 W     A    V  TID I    +PD+ AE +  AL  +
+Sbjct  57   RL---WDEPVYAKLSDVTETIDMIDIFRRPDAVAEVVTEALEAL  97
+
+
+> DMKJLJHC_03750 2,6-dihydropseudooxynicotine hydrolase
+Length=389
+
+ Score = 26.2 bits (56),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 22/47 (47%), Gaps = 3/47 (6%)
+
+Query  120  IDSSRLAVMGHSMGGGGSLRLASQRPDLKAAIPLTPWHLNKNWSSVR  166
+            ID+ R+   G S+GG    R+ +  P   +      W  N NW+ V+
+Sbjct  223  IDADRIGCSGISLGGYYVPRVVANEPRFASG---AVWGANHNWAEVQ  266
+
+
+> DMKJLJHC_05695 Lysophospholipase L2
+Length=311
+
+ Score = 25.4 bits (54),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 24/89 (27%), Positives = 37/89 (42%), Gaps = 11/89 (12%)
+
+Query  67   SIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRASSTVRSRIDSSRLA  126
+            +I W G+ +A H         +   D+     + + AA      RA+  +        L 
+Sbjct  72   TIDWRGQGLADHALADPMTGHVGDFDEYQRDVDAMLAA------RATLGL-----PEPLF  120
+
+Query  127  VMGHSMGGGGSLRLASQRPDLKAAIPLTP  155
+            ++ HSMGG   LR A +  DL+AA    P
+Sbjct  121  LLAHSMGGNIGLRSAMRGLDLRAAAFTAP  149
+
+
+> DMKJLJHC_04641 L-amino acid amidase
+Length=187
+
+ Score = 25.0 bits (53),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 16/65 (25%), Positives = 25/65 (38%), Gaps = 11/65 (17%)
+
+Query  130  HSMGGGGSLRLASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTHARPF  189
+            HSM G     +     D         W +    S++ VP L+I    D   P +   +PF
+Sbjct  99   HSMNGPTEFHVIGTMRD---------WTIIDRLSAIEVPVLLISGRHDEATPAVV--QPF  147
+
+Query  190  YNSLP  194
+             + +P
+Sbjct  148  ADEIP  152
+
+
+> DMKJLJHC_01028 hypothetical protein
+Length=307
+
+ Score = 25.0 bits (53),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 28/112 (25%), Positives = 44/112 (39%), Gaps = 12/112 (11%)
+
+Query  44   YYPRENNTYGAVAISPGYTGTEASIA----WLGERIASHGFVVITIDTITTLDQPDSRAE  99
+            Y P +    G + I+ G   T         W    +A  G+ ++ +   T       RA 
+Sbjct  36   YLPGQGEAAGTLVITFGNLSTSREAGERFPWAHALVAKQGWSILVVINNTN---DWFRAA  92
+
+Query  100  QLNAALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGSLRLASQRPDLKAAI  151
+             L+ AL  +   ++    +  D  R+ V G SMGG G+L  A   P   A +
+Sbjct  93   NLHRALERL---SAQGFFAGFD--RICVYGSSMGGFGALTFAPLFPKSHAVV  139
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233326316
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

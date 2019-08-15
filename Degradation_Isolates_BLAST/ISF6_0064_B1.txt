@@ -1,0 +1,390 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NTC6|A0A0K8NTC6_IDESA Outer membrane protein A OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0064 PE=3 SV=1
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03366 putative lipoprotein YiaD                            73.9    1e-16
+  DMKJLJHC_06534 Outer membrane porin F                               72.4    3e-16
+  DMKJLJHC_04931 putative lipoprotein YiaD                            59.7    3e-11
+  DMKJLJHC_00254 Outer membrane lipoprotein Omp16                     55.8    2e-10
+  DMKJLJHC_02226 putative lipoprotein YiaD                            57.0    3e-10
+  DMKJLJHC_00021 Outer membrane porin F                               55.5    7e-10
+  DMKJLJHC_07427 putative lipoprotein YiaD                            50.8    5e-09
+  DMKJLJHC_00274 Outer membrane lipoprotein Omp16                     51.6    9e-09
+  DMKJLJHC_03787 Motility protein B                                   43.5    6e-06
+  DMKJLJHC_06430 Outer membrane lipoprotein Omp16                     41.2    2e-05
+  DMKJLJHC_01393 putative lipoprotein YiaD                            40.8    6e-05
+  DMKJLJHC_03473 hypothetical protein                                 39.3    2e-04
+  DMKJLJHC_04231 hypothetical protein                                 28.9    0.38 
+  DMKJLJHC_05256 flagellum biosynthesis repressor protein FlbT        27.3    0.89 
+  DMKJLJHC_01701 hypothetical protein                                 26.2    3.4  
+  DMKJLJHC_00300 Threonine synthase                                   25.8    4.3  
+  DMKJLJHC_07532 hypothetical protein                                 23.9    5.2  
+  DMKJLJHC_05761 hypothetical protein                                 25.0    6.3  
+  DMKJLJHC_01485 Methyl-accepting chemotaxis protein I                25.4    6.8  
+  DMKJLJHC_06877 hypothetical protein                                 24.6    9.3  
+
+
+> DMKJLJHC_03366 putative lipoprotein YiaD
+Length=226
+
+ Score = 73.9 bits (180),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 44/113 (39%), Positives = 58/113 (51%), Gaps = 0/113 (0%)
+
+Query  117  VTFAADAFFDFDKAVLKPEGRAKLDDLVSKIGGINLEVIIAVGHTDYIGSDAYNQRLSVR  176
+            VT   D  F  D + L+P+ +  L  L   +       +  VG+TD  GS  YN  LS +
+Sbjct  114  VTMPQDVLFATDSSSLRPDLQRDLYTLAGSLNRYPDTTVEVVGNTDNTGSADYNLNLSRK  173
+
+Query  177  RAEAVKAYLVGKGVERNRVYTEGKGEKQPVADNKTAEGRAKNRRVEIEVVGTR  229
+            RA++V + L   GV   R+   G+GE  PVA N TAEGR  NRRVE  +   R
+Sbjct  174  RAQSVASVLQAGGVAPGRIIVSGRGESDPVASNLTAEGRQANRRVEFIIRSIR  226
+
+
+> DMKJLJHC_06534 Outer membrane porin F
+Length=221
+
+ Score = 72.4 bits (176),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 57/106 (54%), Gaps = 5/106 (5%)
+
+Query  121  ADAFFDFDKAVLKPEGRAKLDDLVSKIGGINLEVIIAVGHTDYIGSDAYNQRLSVRRAEA  180
+            +D  F  D +V+  EGR +L    +     + E+    GHTD   SDAYN  LS+RRA +
+Sbjct  120  SDTLFATDSSVVSAEGRRRLVYFFTHANAFSYEID---GHTDSRASDAYNMALSMRRANS  176
+
+Query  181  VKAYLVGKGVERNRVYTEGKGEKQPVADNKTAEGRAKNRRVEIEVV  226
+            V   ++ + V        G GE+ P+A N TA G  KNRRVEIE V
+Sbjct  177  VA--VIARSVGARITAVRGYGERMPIATNSTAAGMQKNRRVEIECV  220
+
+
+> DMKJLJHC_04931 putative lipoprotein YiaD
+Length=330
+
+ Score = 59.7 bits (143),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 55/161 (34%), Positives = 76/161 (47%), Gaps = 17/161 (11%)
+
+Query  85   PAAPAATPSAPAATPAPRPAPA-----PAPAAPTSEKVTFAADAFFDFDKAVLKPEGRAK  139
+            P A     + P ATPAP P+ +     PAP+A   E +        D    +  P G   
+Sbjct  173  PGADQTAATTPDATPAPVPSASASLMPPAPSASFIETLRQGGSVVLD---GLDFPSGSTD  229
+
+Query  140  LDD--------LVSKIGGINLEVIIAVGHTDYIGSDAYNQRLSVRRAEAVKAYLV-GKGV  190
+            L D        L + +     +  I VGHTD  GS   N  +S RRA++VKA L    GV
+Sbjct  230  LADKSYPVLEQLAAFLKAHPDQHAILVGHTDDSGSLDANIAVSKRRAQSVKARLEKSYGV  289
+
+Query  191  ERNRVYTEGKGEKQPVADNKTAEGRAKNRRVEIEVVGTRTR  231
+            +  ++  EG G   P A N TA GR +NRRVE+ +  T+++
+Sbjct  290  DAGQLEAEGVGFLAPRASNLTAAGREQNRRVEVMLTPTQSQ  330
+
+
+> DMKJLJHC_00254 Outer membrane lipoprotein Omp16
+Length=176
+
+ Score = 55.8 bits (133),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 36/112 (32%), Positives = 51/112 (46%), Gaps = 0/112 (0%)
+
+Query  109  PAAPTSEKVTFAADAFFDFDKAVLKPEGRAKLDDLVSKIGGINLEVIIAVGHTDYIGSDA  168
+            P +P     T      F  D++ L    R  L    S +        I  GH D  G+  
+Sbjct  53   PNSPAYFSQTIGDMVHFQVDQSTLTDTARGILTQQASWLVSHPSYTAIIEGHADEQGTRE  112
+
+Query  169  YNQRLSVRRAEAVKAYLVGKGVERNRVYTEGKGEKQPVADNKTAEGRAKNRR  220
+            YN  L  RRA A + +L+ +GV  NR+ T   G+++P+A   + E  AKNRR
+Sbjct  113  YNLALGARRANAAQEFLISQGVAANRLRTVSYGKERPLAVCSSEECYAKNRR  164
+
+
+> DMKJLJHC_02226 putative lipoprotein YiaD
+Length=682
+
+ Score = 57.0 bits (136),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 42/68 (62%), Gaps = 0/68 (0%)
+
+Query  159  GHTDYIGSDAYNQRLSVRRAEAVKAYLVGKGVERNRVYTEGKGEKQPVADNKTAEGRAKN  218
+            G+TD  G    N +LS  RA+AV + L+ +GV    +  +G GE QP+A N T +GR +N
+Sbjct  536  GYTDNQGRAEMNLQLSQERAQAVISGLLSRGVLIGNLVAKGYGEAQPIATNSTEDGREQN  595
+
+Query  219  RRVEIEVV  226
+            RR+E  ++
+Sbjct  596  RRIEFVLL  603
+
+
+ Score = 27.3 bits (59),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 15/30 (50%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  74   AAPAAPAAPASPAAPAATPSAPAATPAPRP  103
+            AAP A +AP S A P  TP      PA RP
+Sbjct  646  AAPDADSAPQSDAIPVETPKDGTPRPADRP  675
+
+
+> DMKJLJHC_00021 Outer membrane porin F
+Length=319
+
+ Score = 55.5 bits (132),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 44/77 (57%), Gaps = 1/77 (1%)
+
+Query  155  IIAVGHTDYIGSDAYNQRLSVRRAEAVKAYLVGK-GVERNRVYTEGKGEKQPVADNKTAE  213
+            ++ VGHTD +GS A N  LS RRAE+ +  ++   G    ++  EG G   P A N T  
+Sbjct  243  VVLVGHTDAVGSLAVNIALSKRRAESARQRMITTYGTAPAQISAEGAGYLAPRATNLTKA  302
+
+Query  214  GRAKNRRVEIEVVGTRT  230
+            GR KNRRVE  +  T++
+Sbjct  303  GREKNRRVEAVLTSTQS  319
+
+
+> DMKJLJHC_07427 putative lipoprotein YiaD
+Length=142
+
+ Score = 50.8 bits (120),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 37/124 (30%), Positives = 64/124 (52%), Gaps = 13/124 (10%)
+
+Query  115  EKVTFAADAFFDFDKAVLKPEGRAKLDDLVSKIGGINLEV------IIAV-GHTD---YI  164
+            ++  F+++  F+   A L   G+ ++ ++   +  +  ++      I+ V G+TD     
+Sbjct  16   DRFVFSSEVLFEPGSATLSQGGKTQIGNVTKILEQVAAQIPPDINWILQVNGYTDKTPLS  75
+
+Query  165  GSDAY--NQRLSVRRAEAVKAYLVGK-GVERNRVYTEGKGEKQPVADNKTAEGRAKNRRV  221
+            GS  +  N  LS  RA +V  Y++   G   NR+   G GE  PVAD  T E RA+NRR+
+Sbjct  76   GSGEFKDNWELSQARALSVVHYMIDSLGFPPNRLAASGYGEYHPVADGTTPEARAQNRRI  135
+
+Query  222  EIEV  225
+            E+++
+Sbjct  136  ELKL  139
+
+
+> DMKJLJHC_00274 Outer membrane lipoprotein Omp16
+Length=225
+
+ Score = 51.6 bits (122),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 36/104 (35%), Positives = 51/104 (49%), Gaps = 3/104 (3%)
+
+Query  125  FDFDKAVLKPEGRAKLDDLVSKIGGINLEVIIAVGHTDYIGSDAYNQRLSVRRAEAVKAY  184
+            F F+ + L P+ R+ L    S I           G+TD +GS+AYN+ L +RRA AV  +
+Sbjct  81   FAFNSSALSPQARSALARQASWIRQFPQIRFRVYGYTDLVGSNAYNKALGMRRARAVVQF  140
+
+Query  185  LVGKGVERNRVY-TEGKGEKQPVADNKTAEGRAKNRRVEIEVVG  227
+            L  +G+ R R+      GE +P+    T      NRR   EV G
+Sbjct  141  LETQGISRQRLEAVVSYGETRPLV--YTPAPNEANRRAVTEVSG  182
+
+
+> DMKJLJHC_03787 Motility protein B
+Length=362
+
+ Score = 43.5 bits (101),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 36/121 (30%), Positives = 51/121 (42%), Gaps = 5/121 (4%)
+
+Query  110  AAPTSEKVTFAADAFFDFDKAVLKPEGRAKLDDLVSKIGGINLEVIIAV-GHTD----YI  164
+            + P + K+   A   F    A L       L  L S +  I     IA+ G+TD    + 
+Sbjct  160  STPLTIKIRLKAKILFGNGDATLTKGADKILTPLASTLATIPKGYQIAIHGYTDDKPIHT  219
+
+Query  165  GSDAYNQRLSVRRAEAVKAYLVGKGVERNRVYTEGKGEKQPVADNKTAEGRAKNRRVEIE  224
+                 N +LS  RA +V      +GV    +  EG  +  P+A N T  GR +NRRV I 
+Sbjct  220  PEFPSNWQLSTARALSVVLLFQQQGVAGEALSAEGFSKYHPIASNDTETGRQQNRRVSIV  279
+
+Query  225  V  225
+            +
+Sbjct  280  I  280
+
+
+> DMKJLJHC_06430 Outer membrane lipoprotein Omp16
+Length=176
+
+ Score = 41.2 bits (95),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 35/113 (31%), Positives = 53/113 (47%), Gaps = 2/113 (2%)
+
+Query  109  PAAPTSEKVTFAADAFFDFDKAVLKPEGRAKLDDLVSKIG-GINLEVIIAVGHTDYIGSD  167
+            P +P     T      F  D++ L P+ +  LD     +    +  +II  G+ D  G++
+Sbjct  58   PRSPAYFNQTVGNVVHFIVDQSTLNPQAQQILDGQAQWLNRNADFRIIIE-GNADERGTE  116
+
+Query  168  AYNQRLSVRRAEAVKAYLVGKGVERNRVYTEGKGEKQPVADNKTAEGRAKNRR  220
+             YN  L  RRA AV+ YL+  GV   R+ T   G+++PVA         +NRR
+Sbjct  117  EYNLALGARRAAAVQEYLISHGVAAGRIKTISYGKERPVATCPEEACFEQNRR  169
+
+
+> DMKJLJHC_01393 putative lipoprotein YiaD
+Length=463
+
+ Score = 40.8 bits (94),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 37/124 (30%), Positives = 61/124 (49%), Gaps = 13/124 (10%)
+
+Query  115  EKVTFAADAFFDFDKAVLKPEGRAKLDDLVSKIGGINLEV------IIAV-GHTD---YI  164
+            ++  F+++  F    A L   G+A+++ + S +  +  E+      II V GHTD     
+Sbjct  337  DRFVFSSEVLFPPGSATLSDAGKAQIEQVTSLLNNLRSEIPSDIPWIIRVDGHTDDTPLS  396
+
+Query  165  GSDAY--NQRLSVRRAEAVKAYLVGK-GVERNRVYTEGKGEKQPVADNKTAEGRAKNRRV  221
+            G+  +  N  LS  RA +V  Y+V   G    R+   G  +  PV    T E RA+NRR+
+Sbjct  397  GTGQFKDNWELSQARALSVVKYMVDSLGFPPQRLAAAGFAQFDPVNTADTPEARAQNRRI  456
+
+Query  222  EIEV  225
+            E+++
+Sbjct  457  ELKL  460
+
+
+> DMKJLJHC_03473 hypothetical protein
+Length=687
+
+ Score = 39.3 bits (90),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 24/62 (39%), Positives = 33/62 (53%), Gaps = 1/62 (2%)
+
+Query  143  LVSKIGGINLEVIIAVGHTDYIGSDAYNQRLSVRRAEAVKAYLVGK-GVERNRVYTEGKG  201
+            L ++I     E+ +  GHTD +GS A N  LS RRAE+V   L    GV    +  +G G
+Sbjct  596  LQARIADNPREIFLIEGHTDAVGSAASNLALSDRRAESVALALSEYFGVPSENLVVQGYG  655
+
+Query  202  EK  203
+            E+
+Sbjct  656  EQ  657
+
+
+> DMKJLJHC_04231 hypothetical protein
+Length=273
+
+ Score = 28.9 bits (63),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 23/71 (32%), Positives = 34/71 (48%), Gaps = 3/71 (4%)
+
+Query  154  VIIAVGHTDYIGSDAYNQRLSVRRAEAVKAYLVGK-GVERNRVYTEGKGEKQPVADNKTA  212
+            + +  GH+D +G    N  LS  RAEA+   L  + GV    + T+G GE      ++T 
+Sbjct  182  LFLVEGHSDAVGDAVTNLALSDARAEAMAQVLSEQYGVPPQNIITQGYGETD--LKHQTN  239
+
+Query  213  EGRAKNRRVEI  223
+                 NRR+ I
+Sbjct  240  GPDEVNRRIII  250
+
+
+> DMKJLJHC_05256 flagellum biosynthesis repressor protein FlbT
+Length=151
+
+ Score = 27.3 bits (59),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 36/79 (46%), Gaps = 15/79 (19%)
+
+Query  123  AFFDFDKAVLKPEGRAKL----DDLVSKIGGI----NLEVIIAVGHTDYIGSDAYNQRLS  174
+            A+F    A+++PE R KL     D++ KI G+        + +  H  YI    Y + ++
+Sbjct  56   AYFLIQTALIRPETREKLVPVIQDMLVKIAGVFSRDKTGGVFSAAH--YIAVQDYYKAMT  113
+
+Query  175  -----VRRAEAVKAYLVGK  188
+                 +R  EAV  Y+  K
+Sbjct  114  ALRPLMRHEEAVLTYMAEK  132
+
+
+> DMKJLJHC_01701 hypothetical protein
+Length=321
+
+ Score = 26.2 bits (56),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 18/82 (22%), Positives = 39/82 (48%), Gaps = 5/82 (6%)
+
+Query  91   TPSAPAATPAPRPAPAPAPAAPTSEKVTFAADAFFDFDKAVLKPEGRAKL-DDLVSKIGG  149
+            +P+AP + P P PAP+   ++  + +   + +    + K   + EGR  L  D+  +   
+Sbjct  28   SPNAPKSAPRPTPAPSGLASSQVAPRSQLSREMQSYYTKVTAEMEGRGLLRTDVAPRDAP  87
+
+Query  150  INLEVIIAVGHTDYIGSDAYNQ  171
+             N  +++     D+I +  Y++
+Sbjct  88   FNQRLLV----RDFIHTALYDE  105
+
+
+> DMKJLJHC_00300 Threonine synthase
+Length=465
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 40/104 (38%), Gaps = 15/104 (14%)
+
+Query  17   AVASSGAFAQAKTIDNWVNSNGIVWKNGTNELCWRNAYWTPATAAAECDGALKMAAAAAP  76
+            AV  SG  ++A+T+    +S     K     LC       P +A A   G  K A A  P
+Sbjct  356  AVYDSGMASEARTLAEIADS----LKETGELLC-------PHSAIAVSVG--KQALARDP  402
+
+Query  77   AAPAAPASPAAPAATPSAPAATPAPRPA--PAPAPAAPTSEKVT  118
+            A P    + A PA  P A       RP   P  A      E+VT
+Sbjct  403  ATPMVTLATAHPAKFPDAVEKATGIRPELPPRMADLFDREERVT  446
+
+
+> DMKJLJHC_07532 hypothetical protein
+Length=67
+
+ Score = 23.9 bits (50),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 13/30 (43%), Positives = 16/30 (53%), Gaps = 3/30 (10%)
+
+Query  105  PAPAPAAPTSEKVTFAADAFFD---FDKAV  131
+            P PAP A    +V    D+FFD   FD A+
+Sbjct  36   PEPAPIAAGRGEVILGPDSFFDGHVFDPAM  65
+
+
+> DMKJLJHC_05761 hypothetical protein
+Length=196
+
+ Score = 25.0 bits (53),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 19/41 (46%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query  73   AAAPAAPAAPASPAAPAATPSAPAATPAPRPAPAPAPAAPT  113
+            A A A  A+  +  A A + +APAA PA  PAP    AAPT
+Sbjct  8    ALATAVSASMLTLPAFAGSLAAPAAEPAVTPAPVMV-AAPT  47
+
+
+ Score = 25.0 bits (53),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 17/36 (47%), Positives = 19/36 (53%), Gaps = 3/36 (8%)
+
+Query  72   AAAAPAAPAAPASPAAPAATPSAPAATPAPRPAPAP  107
+            +A+    PA   S AAPAA P   A TPAP    AP
+Sbjct  14   SASMLTLPAFAGSLAAPAAEP---AVTPAPVMVAAP  46
+
+
+> DMKJLJHC_01485 Methyl-accepting chemotaxis protein I
+Length=868
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 26/49 (53%), Gaps = 0/49 (0%)
+
+Query  58   ATAAAECDGALKMAAAAAPAAPAAPASPAAPAATPSAPAATPAPRPAPA  106
+            +TA  E  GA    +A A A   AP+  +A AA  +A A   AP PAPA
+Sbjct  813  STARVEQKGAAPKQSAPAKATTPAPSFSSARAAGKTAQAVKSAPLPAPA  861
+
+
+> DMKJLJHC_06877 hypothetical protein
+Length=205
+
+ Score = 24.6 bits (52),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 19/54 (35%), Gaps = 0/54 (0%)
+
+Query  65   DGALKMAAAAAPAAPAAPASPAAPAATPSAPAATPAPRPAPAPAPAAPTSEKVT  118
+            DG L       P A      P AP   P AP   P     PA   AA  S  VT
+Sbjct  134  DGGLLQHHLGQPDAIGIGPDPRAPRLGPHAPGHHPGMGLVPALQDAASGSLLVT  187
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.126    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 196427743
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

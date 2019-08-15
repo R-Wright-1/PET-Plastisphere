@@ -1,0 +1,126 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P650|A0A0K8P650_IDESA Bacterioferritin OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_4223 PE=3 SV=1
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02285 hypothetical protein                                 29.3    0.11 
+  GFJPDDAG_01328 DNA polymerase III PolC-type                         24.6    4.3  
+  GFJPDDAG_01623 hypothetical protein                                 23.5    4.7  
+  GFJPDDAG_04107 Glutamate--tRNA ligase                               23.5    7.2  
+  GFJPDDAG_04222 ATP-dependent zinc metalloprotease FtsH              23.5    7.5  
+
+
+> GFJPDDAG_02285 hypothetical protein
+Length=394
+
+ Score = 29.3 bits (64),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 34/125 (27%), Positives = 62/125 (50%), Gaps = 13/125 (10%)
+
+Query  5    PQVIDHLNAQ--LKNELTAINQYFLHYRLLKHWGFDKLAKKEYEES---IGEMKHADKLT  59
+            P+  + +N Q  L+ ++ +I+   +++  ++  GF K+A  EYEES    GE K      
+Sbjct  273  PEEAESINKQFDLQTDVKSIDPEVVNHAFIR--GFSKIALHEYEESEENWGEDKSVITAL  330
+
+Query  60   SRILMLDGLPNLQDLGKLLIGEDVPEALKCDLQMETAAQATIKAGIAHCEAVRDYVSRDL  119
+               L +D + +  D+ K L+GE+  +AL  D Q  +  +A         E VR  + + +
+Sbjct  331  EGGLFIDLISS--DI-KSLMGEESYQALSTDAQ--SYLEAVKSQDKEKAETVRTNIEK-M  384
+
+Query  120  LQDIL  124
+            L D++
+Sbjct  385  LNDVI  389
+
+
+> GFJPDDAG_01328 DNA polymerase III PolC-type
+Length=1439
+
+ Score = 24.6 bits (52),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 29/53 (55%), Gaps = 6/53 (11%)
+
+Query  74   LGKLLIGEDVPEALKCDLQMETAAQATIKAGIAHCEAVRDYVSRDLLQDILDD  126
+            + K + GE++PE ++  ++ E      +K+ I H  AV   +S  L++  L+D
+Sbjct  835  MAKSIYGEELPEIVEARIEKE------LKSIIGHGFAVIYLISHKLVKKSLND  881
+
+
+> GFJPDDAG_01623 hypothetical protein
+Length=109
+
+ Score = 23.5 bits (49),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/42 (29%), Positives = 23/42 (55%), Gaps = 0/42 (0%)
+
+Query  115  VSRDLLQDILDDTEEHIDFLETQIDLIDKVGPQNYLQSQMGE  156
+            +S+D  +DIL + +    +L  +  L DK+G    LQ++  +
+Sbjct  21   MSQDKKEDILSNFDHFKQYLGNKASLADKLGMNEELQAKAAQ  62
+
+
+> GFJPDDAG_04107 Glutamate--tRNA ligase
+Length=485
+
+ Score = 23.5 bits (49),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 25/90 (28%), Positives = 39/90 (43%), Gaps = 6/90 (7%)
+
+Query  72   QDLGKLLIGEDVPEALKCDLQ----METAAQATIKAGIAHCEAVRDYVSRDLLQDILDDT  127
+            QD   +L  E+VPE L+  L     +E    A IK+ I   +    +  + L   I    
+Sbjct  396  QDAKAVLDEEEVPEVLQAFLNEIEALENYEAAEIKSSIKAVQKSTGHKGKKLFMPIRVAV  455
+
+Query  128  --EEHIDFLETQIDLIDKVGPQNYLQSQMG  155
+              + H   L   I+L+ K   ++ LQS +G
+Sbjct  456  TGQTHGPELPNAIELLGKDTVKHRLQSLLG  485
+
+
+> GFJPDDAG_04222 ATP-dependent zinc metalloprotease FtsH
+Length=653
+
+ Score = 23.5 bits (49),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+
+Query  136  TQIDLIDKVGPQNYLQSQMGEV  157
+            T+  + DK+GP  + QSQ G+V
+Sbjct  516  TEYGMSDKLGPLQFGQSQGGQV  537
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 71296419
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,95 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NT92|A0A0K8NT92_IDESA Tricarboxylate transport membrane
+protein TctA OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0077 PE=4 SV=1
+
+Length=501
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01764 Inner membrane protein YgaZ                          27.3    2.0  
+  GFJPDDAG_01843 L-cystine transport system permease protein TcyB     25.4    8.1  
+  GFJPDDAG_00566 hypothetical protein                                 25.4    8.3  
+
+
+> GFJPDDAG_01764 Inner membrane protein YgaZ
+Length=240
+
+ Score = 27.3 bits (59),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 38/90 (42%), Gaps = 19/90 (21%)
+
+Query  419  AFAVIGYIFYKLSCEAAPLLLGFILGPMMEENLRRALLLSRGDW----------STFVTR  468
+            AF +    F  +S +   +  GFI+G M         L+S G W             +  
+Sbjct  111  AFGITDETFTVISVKEGKVRTGFIVGVM---------LISYGSWVVNSGVGYFIGELLPE  161
+
+Query  469  PLSAGLLLAAVAMIVIVMLPSIKKKREDAF  498
+             L A + +A  AM V +++PS+KK  +  F
+Sbjct  162  FLQASMTIALYAMFVGLLVPSMKKSIKVTF  191
+
+
+> GFJPDDAG_01843 L-cystine transport system permease protein TcyB
+Length=221
+
+ Score = 25.4 bits (54),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 29/52 (56%), Gaps = 4/52 (8%)
+
+Query  23  AFLGCILGTLIGVLPGLGPVATIAML--LPSIY--ALDATPALIMLAGIYYG  70
+           A +  +LG ++ VL  L  +++I +L  +   Y  A+  TP L+ L  I+YG
+Sbjct  24  ALISFVLGMILAVLTALARLSSIKILRGIARFYVSAIRGTPLLVQLFIIFYG  75
+
+
+> GFJPDDAG_00566 hypothetical protein
+Length=408
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 26/53 (49%), Gaps = 13/53 (25%)
+
+Query  419  AFAVIGYIFYKLSCEAAPLLLG-------------FILGPMMEENLRRALLLS  458
+            +F +I  I+Y  S   +PLL+G             F+ GP++E   ++ LL S
+Sbjct  20   SFYMIATIWYVKSVTESPLLIGLTSAVAILPVTIQFLYGPVIERFSKKKLLCS  72
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.142    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 337058020
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

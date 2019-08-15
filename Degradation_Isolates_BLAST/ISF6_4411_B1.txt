@@ -1,0 +1,258 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P6J1|A0A0K8P6J1_IDESA Flagellin OS=Ideonella sakaiensis
+(strain 201-F6) OX=1547922 GN=ISF6_4411 PE=3 SV=1
+
+Length=268
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03564 B-type flagellin                                     97.1    1e-23
+  DMKJLJHC_00601 Flagellin                                            50.1    9e-08
+  DMKJLJHC_05711 Flagellin                                            45.4    2e-06
+  DMKJLJHC_01187 Glucose--fructose oxidoreductase                     30.4    0.18 
+  DMKJLJHC_02920 Outer membrane protein assembly factor BamD          28.1    0.95 
+  DMKJLJHC_01272 hypothetical protein                                 27.7    0.99 
+  DMKJLJHC_02149 Periplasmic serine endoprotease DegP                 26.6    3.0  
+  DMKJLJHC_06831 Outer membrane protein assembly factor BamD          25.8    5.0  
+  DMKJLJHC_04643 putative cardiolipin synthase YwiE                   25.4    6.4  
+  DMKJLJHC_02143 Formyltetrahydrofolate deformylase                   25.0    9.2  
+
+
+> DMKJLJHC_03564 B-type flagellin
+Length=476
+
+ Score = 97.1 bits (240),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 64/163 (39%), Positives = 95/163 (58%), Gaps = 0/163 (0%)
+
+Query  4    TINTNVQSINAQRNLSASQGSLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGINV  63
+            +I +N  +++A   LSA+Q +       LSSGL+INS  D+ +G   A+   +Q+ GI  
+Sbjct  7    SIMSNSGALSALNGLSAAQSANDALEGELSSGLKINSPADNPSGFITAEGFTSQINGITQ  66
+
+Query  64   AIRNANDGISLAQTAEGALSTVTDVLQRMRELAVQAQNGSNGTSDRANLDTEFQQLNEEI  123
+            A  NAN+GISL QTA+GA+    +V Q++  +AVQA NG+    +  +L     QL  +I
+Sbjct  67   ASSNANEGISLLQTAQGAVQQQLNVSQKLNSIAVQAANGTQTPEEAQSLQGVVSQLTGQI  126
+
+Query  124  TRIAGQTKFNGTAIVGASAGAQTFQVGANNGDTLTITTSQVSA  166
+            + IA QT+FN   ++  S     FQVGAN G TL+++    SA
+Sbjct  127  STIATQTQFNNINLLDGSFTGVQFQVGANEGQTLSLSIGNTSA  169
+
+
+ Score = 42.7 bits (99),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 55/109 (50%), Gaps = 0/109 (0%)
+
+Query  160  TTSQVSALSGNSITSASNASTALAAIDTKLDSITTDRATYGAMMNRFQFTIQNLQTTNEN  219
+            T S + ALS  ++++ S A++A+  +   ++ +       GA   R Q T+ NL TTN N
+Sbjct  368  TQSNLKALSTINVSTVSGANSAINIVKYAIEGLNNLGGQLGATQQRMQATLNNLTTTNSN  427
+
+Query  220  QTAARGRIMDTDFAVETANLSRAQILQQAGTAMVAQANQLPQQVLSLLR  268
+                   + D +  + +  L+++QI  QAG A +  ++QL Q    LL 
+Sbjct  428  LQNGLSTVQDANIPMVSQQLTQSQIQAQAGVAALKSSSQLQQAYQKLLP  476
+
+
+> DMKJLJHC_00601 Flagellin
+Length=434
+
+ Score = 50.1 bits (118),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 71/140 (51%), Gaps = 3/140 (2%)
+
+Query  3    ATINTNVQSINAQRNLSASQGSLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGIN  62
+            ++I TN  ++ A + L      L+T+   +S+G  + SAKD+AA  AI+  M + V+G +
+Sbjct  2    SSILTNNGAMVALQTLKGINSGLATTQSEISTGKSVASAKDNAAVWAISKVMESDVKGFD  61
+
+Query  63   VAIRNANDGISLAQTAEGALSTVTDVLQRMRELAVQAQNGSNGTSDRANLDTEFQQLNEE  122
+                +   G S    A  A  TVTD+L  ++   V AQ  +    DR  + T+   L ++
+Sbjct  62   GISGSLALGESTVAVARQASETVTDLLTDIKGKIVAAQEEN---VDRGKIQTDIVALTDQ  118
+
+Query  123  ITRIAGQTKFNGTAIVGASA  142
+            I  + G  +FNG  ++  S+
+Sbjct  119  IKSVVGAAQFNGLNLIDGSS  138
+
+
+ Score = 39.3 bits (90),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/110 (29%), Positives = 56/110 (51%), Gaps = 0/110 (0%)
+
+Query  159  ITTSQVSALSGNSITSASNASTALAAIDTKLDSITTDRATYGAMMNRFQFTIQNLQTTNE  218
+            ++T  + AL+   +TS + A+ AL++ID  ++  T   A +G+   R Q     +   + 
+Sbjct  325  VSTGGLGALANIDVTSDAGATGALSSIDALIEKATDSAAAFGSAEGRIQTQADFIADLSG  384
+
+Query  219  NQTAARGRIMDTDFAVETANLSRAQILQQAGTAMVAQANQLPQQVLSLLR  268
+            +  A  G ++D +    +A L   Q  QQ G   ++ ANQ PQ ++SL R
+Sbjct  385  SMKAGIGALVDANMEEASARLQALQTQQQLGIQALSIANQQPQNIMSLFR  434
+
+
+> DMKJLJHC_05711 Flagellin
+Length=278
+
+ Score = 45.4 bits (106),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 78/302 (26%), Positives = 131/302 (43%), Gaps = 61/302 (20%)
+
+Query  3    ATINTNVQSINAQRNLSASQGSLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGIN  62
+            ++I TN  ++ A + L +    L+T+  ++S+GL+I SA+D+A+  AI+  M    +G +
+Sbjct  2    SSILTNTSAMTALQTLQSVNDQLNTTQSQISTGLKIQSAQDNASYFAISQSM----KGDS  57
+
+Query  63   VAIRNANDGISLAQ----TAEGALSTVTDVLQRMRELAVQAQN-GSNGTSDRANLDTEFQ  117
+                  ND +++ +    TA    S+V D+ ++  E    AQ  G + T  +  L +   
+Sbjct  58   GMYSQINDALTMTKNAVATAALGASSVNDLAEQFAEQVSFAQGQGVDLTKVKDTLTSLVS  117
+
+Query  118  QLNEEITRIAGQTKFNGTAIVGASAGAQTFQVGANNGDTLTITT---------SQVSALS  168
+            Q+   I+    Q+ FNG ++V  SA        + NG +   T+         S  S LS
+Sbjct  118  QMKTTIS----QSTFNGVSLVSGSANNTVVTGISRNGGSFATTSLTFASVDLSSIASTLS  173
+
+Query  169  G----------------------NSITSASNASTALAAIDTKLDSITTDRATYGAMMNRF  206
+            G                      + +T A NA+T+L    T   +I T +   G + ++ 
+Sbjct  174  GVAAAISAGASSTALQGALSSAQSQLTLAINAATSLGVTQT---AIQTQQDFLGKLTDQI  230
+
+Query  207  QFTIQNLQTTNENQTAARGRIMDTDFAVETANLSRAQILQQAGTAMVAQANQLPQQVLSL  266
+               +              G ++D D   E A L   Q+ QQ  T  ++ ANQ PQ +LSL
+Sbjct  231  DTGV--------------GNMVDADMETEAAKLQSLQVQQQLATQSLSIANQAPQTILSL  276
+
+Query  267  LR  268
+             R
+Sbjct  277  FR  278
+
+
+> DMKJLJHC_01187 Glucose--fructose oxidoreductase
+Length=353
+
+ Score = 30.4 bits (67),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 57/219 (26%), Positives = 84/219 (38%), Gaps = 43/219 (20%)
+
+Query  24   SLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGINVAIRNANDGISLAQTAEGALS  83
+             L  S+Q L +G  +   K   A LA ADR+                 I+ A+ A+    
+Sbjct  75   HLPVSLQALGAGKHVICEKPLVASLADADRL-----------------IAAAKEAD---R  114
+
+Query  84   TVTDVLQR-----MRELAVQAQNGSNGTSDRANLDTEFQQ-LNEEITRIAGQTK-FNGTA  136
+             VT V Q      M +L      G  G    A+L+T + +  +   T   G  K  NG A
+Sbjct  115  IVTPVFQYRYGPAMAQLRALIAAGLTGKPYAASLETHWMRGPDYYATPWRGTWKGENGGA  174
+
+Query  137  IVGASAGAQTFQVGANNGDTLTITTSQVSALSGNSITSASNASTA-LAAIDTKLDS--IT  193
+            ++G +          +N D + +    V+ LS    T  +   T   AAI  ++ S  + 
+Sbjct  175  VLGHA---------IHNHDLMMMVMGPVARLSAMCATRVNPIETEDCAAISFEMTSGAVV  225
+
+Query  194  TDRATYGAM--MNRFQFTIQNLQTTNENQTAARGRIMDT  230
+            T   T GA     R +F  + L  T E+ TA      DT
+Sbjct  226  TSSITLGAADDTTRIRFCFEGL--TAESGTAPYAPATDT  262
+
+
+> DMKJLJHC_02920 Outer membrane protein assembly factor BamD
+Length=282
+
+ Score = 28.1 bits (61),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  182  LAAIDTKLDSITTDRATYGAMMNRFQFTIQNLQTTNENQTA  222
+            LA  + ++      R  Y A +NRF+  ++  QTT++   A
+Sbjct  173  LAGKEMEIGRYYLKRGNYSAAINRFRVVVEQFQTTSQTPEA  213
+
+
+> DMKJLJHC_01272 hypothetical protein
+Length=185
+
+ Score = 27.7 bits (60),  Expect = 0.99, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 31/67 (46%), Gaps = 19/67 (28%)
+
+Query  13   NAQRNLSASQGSLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGINVAIRNANDGI  72
+             ++R LSA+QG+++  M+   +  R+  A+ D AG  I                    G 
+Sbjct  80   RSERALSAAQGAMAELMRAHFTLWRLTPAEADVAGFTI-------------------KGF  120
+
+Query  73   SLAQTAE  79
+            S+A+TAE
+Sbjct  121  SVAETAE  127
+
+
+> DMKJLJHC_02149 Periplasmic serine endoprotease DegP
+Length=487
+
+ Score = 26.6 bits (57),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 26/105 (25%), Positives = 43/105 (41%), Gaps = 11/105 (10%)
+
+Query  54   MNAQVRGINVAIRNANDGISLAQTAEGALSTVTDVLQRMRELAVQAQNGSNGTSDRANLD  113
+            M  +V G+N AI + N G S+      A + V+ V+ +++E          G + R  L 
+Sbjct  232  MQGEVVGVNTAILSPNGG-SIGIGFSMASNVVSKVVDQLKEY---------GETRRGWLG  281
+
+Query  114  TEFQQLNEEITRIAGQTKFNGTAIVGASAGAQTFQVGANNGDTLT  158
+             + Q +  ++    G  K  G  I     G    + G   GD +T
+Sbjct  282  VKIQDVTPDMAEAMGLPKPEGALISEVPDGPAK-EAGIKAGDVIT  325
+
+
+> DMKJLJHC_06831 Outer membrane protein assembly factor BamD
+Length=265
+
+ Score = 25.8 bits (55),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  182  LAAIDTKLDSITTDRATYGAMMNRFQFTIQNLQTT  216
+            LA  + ++      R  Y A +NRF+  ++  QTT
+Sbjct  156  LAGKEMEIGRYYLKRGDYAAAINRFRVVVEQYQTT  190
+
+
+> DMKJLJHC_04643 putative cardiolipin synthase YwiE
+Length=473
+
+ Score = 25.4 bits (54),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 23/93 (25%), Positives = 40/93 (43%), Gaps = 11/93 (12%)
+
+Query  43   DDAAGLAIADRMNAQVR-GINVAIRNANDGISLAQTAEGALSTVTDVLQRMRELAVQAQN  101
+            DDA G  +ADR+ A+ R G+ V +            A G+       L R+RE  +  ++
+Sbjct  149  DDALGREMADRLIARARAGVRVHV---------LYDALGSHGIPRRYLDRLREAGIDIRD  199
+
+Query  102  GSNGTSDRANLDTEFQQLNEEITRIAGQTKFNG  134
+                   ++ L   F+  + +I  + G+  F G
+Sbjct  200  FHAIRQSQSRLQINFRN-HRKIVVVDGRVAFTG  231
+
+
+> DMKJLJHC_02143 Formyltetrahydrofolate deformylase
+Length=296
+
+ Score = 25.0 bits (53),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 8/47 (17%), Positives = 23/47 (49%), Gaps = 0/47 (0%)
+
+Query  182  LAAIDTKLDSITTDRATYGAMMNRFQFTIQNLQTTNENQTAARGRIM  228
+            + A+  ++  + ++  TY  ++        +++ T EN+  A  R++
+Sbjct  110  IGALPIEIVGVVSNHLTYQKVVVNHDIPFHHIKVTKENKPEAEARLL  156
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.121    0.306    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 241191248
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

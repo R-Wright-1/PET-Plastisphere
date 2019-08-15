@@ -1,0 +1,110 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NTC6|A0A0K8NTC6_IDESA Outer membrane protein A OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0064 PE=3 SV=1
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02845 Motility protein B                                   47.0    2e-07
+  GFJPDDAG_02484 Motility protein B                                   43.9    2e-06
+  GFJPDDAG_02483 hypothetical protein                                 25.0    5.0  
+  GFJPDDAG_03597 Putative pyridoxal phosphate-dependent acyltrans...  24.3    7.1  
+
+
+> GFJPDDAG_02845 Motility protein B
+Length=263
+
+ Score = 47.0 bits (110),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 31/77 (40%), Positives = 42/77 (55%), Gaps = 5/77 (6%)
+
+Query  155  IIAVGHTDYI----GSDAYNQRLSVRRA-EAVKAYLVGKGVERNRVYTEGKGEKQPVADN  209
+            II  GHTD +         N  LSV RA   +K  L    ++      +G GE +P+ADN
+Sbjct  182  IIISGHTDNVPIRNAEFDSNWELSVMRAVNFMKIILHNPKLDPQWFSAKGFGEFEPIADN  241
+
+Query  210  KTAEGRAKNRRVEIEVV  226
+             TAEGR +NRRVE+ ++
+Sbjct  242  GTAEGRGQNRRVEVLIL  258
+
+
+> GFJPDDAG_02484 Motility protein B
+Length=242
+
+ Score = 43.9 bits (102),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 46/90 (51%), Gaps = 9/90 (10%)
+
+Query  139  KLDDLVSKIGGINLEVIIAVGHTDYIGSDAY----NQRLSVRRAEAVKAYLVG-KGVERN  193
+            K+ DL+S+I       +   GHTD    + Y    N  LS  RA +V  YL+  + ++  
+Sbjct  147  KVGDLLSRIPNF----VKVEGHTDNRPINTYQFPSNWELSSARASSVIRYLIKTENLDPK  202
+
+Query  194  RVYTEGKGEKQPVADNKTAEGRAKNRRVEI  223
+            R    G G+ +P+A N T E   +NRRVE+
+Sbjct  203  RFIAVGYGDTRPIAPNDTGENLQRNRRVEV  232
+
+
+> GFJPDDAG_02483 hypothetical protein
+Length=364
+
+ Score = 25.0 bits (53),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  124  FFDFDKAVLKPEGRAKLD  141
+            F+D D+ V+KPE   K+D
+Sbjct  338  FYDKDEPVMKPEDVLKMD  355
+
+
+> GFJPDDAG_03597 Putative pyridoxal phosphate-dependent acyltransferase
+Length=396
+
+ Score = 24.3 bits (51),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 24/43 (56%), Gaps = 1/43 (2%)
+
+Query  150  INLEVIIAVGHTDYIGSDAYNQRLSVRRAEAVKAYLVGKGVER  192
+            IN + ++ +   +Y+G  A ++RL     EAVK Y VG G  R
+Sbjct  39   INGKKLVNLSSNNYLGL-ATDERLKKVAIEAVKEYGVGSGAVR  80
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.126    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 127333136
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,116 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1F4G492|A0A1F4G492_9BURK Uncharacterized protein
+OS=Burkholderiales bacterium RIFCSPHIGHO2_01_FULL_63_240 OX=1797552
+GN=A2711_12500 PE=4 SV=1
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00861 hypothetical protein                                 26.2    2.7  
+  GFJPDDAG_02882 hypothetical protein                                 25.8    3.4  
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  25.4    4.6  
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  24.6    6.6  
+  GFJPDDAG_01108 Fatty acid metabolism regulator protein              24.3    8.5  
+
+
+> GFJPDDAG_00861 hypothetical protein
+Length=416
+
+ Score = 26.2 bits (56),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  75   AISPGFTATETSIAWLGRRIATHGF  99
+             I PG T TE  + W+ +R+   G 
+Sbjct  200  VIHPGITTTEDVVDWIRQRVLDSGL  224
+
+
+> GFJPDDAG_02882 hypothetical protein
+Length=845
+
+ Score = 25.8 bits (55),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 14/26 (54%), Gaps = 0/26 (0%)
+
+Query  86   SIAWLGRRIATHGFVVITLNTLTTLD  111
+            SI W G+RI T  F V+   T  + D
+Sbjct  817  SILWEGKRIVTQPFCVMVNCTCPSTD  842
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 25.4 bits (54),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 24/47 (51%), Gaps = 4/47 (9%)
+
+Query  111  DQPASRANQLMAALSYVVNSSTSAVKARIDTTRLAVAGHSMGGGGAL  157
+            D P   A   M  +S+ +N+    +  R++  +  + G+SMGG  AL
+Sbjct  59   DSPVDCARYTMEQVSHDINT----ILNRLEVIQAQLIGYSMGGRTAL  101
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 24.6 bits (52),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 12/53 (23%), Positives = 27/53 (51%), Gaps = 1/53 (2%)
+
+Query  114  ASRANQLMAALSYVVNSSTSAVKARIDTTRLAVAGHSMGGGGALIAARDNPTL  166
+            + + N+ + +   + N+    +   ++ + + + GHSMGG  AL   +  P+L
+Sbjct  68   SEKNNRFIYSYDNLANTVIDLLD-HLNVSNVHLTGHSMGGQIALNVMKKAPSL  119
+
+
+> GFJPDDAG_01108 Fatty acid metabolism regulator protein
+Length=206
+
+ Score = 24.3 bits (51),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 11/21 (52%), Gaps = 0/21 (0%)
+
+Query  170  YPLTPWNSSTSFSTVRVPTMI  190
+            Y    WN    F+T+R  T+I
+Sbjct  74   YERVDWNEHDIFTTIRTVTLI  94
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.128    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 168359526
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

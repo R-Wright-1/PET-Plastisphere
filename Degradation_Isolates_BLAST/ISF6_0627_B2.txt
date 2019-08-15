@@ -1,0 +1,135 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NXD6|A0A0K8NXD6_IDESA Protocatechuate 3,4-dioxygenase, beta
+chain OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0627 PE=4 SV=1
+
+Length=255
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00098 NADPH dehydrogenase                                  28.9    0.26 
+  GFJPDDAG_00205 Chorismate mutase AroH                               25.0    2.7  
+  GFJPDDAG_03372 3-ketoacyl-CoA thiolase                              25.0    5.3  
+  GFJPDDAG_03170 Amidophosphoribosyltransferase                       24.3    7.8  
+  GFJPDDAG_00080 Putative L,D-transpeptidase YkuD                     23.9    8.7  
+  GFJPDDAG_00939 Serine-aspartate repeat-containing protein D         24.3    9.4  
+
+
+> GFJPDDAG_00098 NADPH dehydrogenase
+Length=338
+
+ Score = 28.9 bits (63),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 14/53 (26%), Positives = 26/53 (49%), Gaps = 0/53 (0%)
+
+Query  68   LNCAHPDQPHGLPIGERIVVHGYVRDQFGRPVRNALVEVWQANASGRYRHKKD  120
+            +N A   +  G  + E    HGY+ ++F  P+ N   + +  +A  RYR  ++
+Sbjct  147  INGARRAKEAGFDVIEVHAAHGYLINEFLSPLSNKRTDEYGGSAENRYRFLRE  199
+
+
+> GFJPDDAG_00205 Chorismate mutase AroH
+Length=121
+
+ Score = 25.0 bits (53),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  74  DQPHGLPIGERIVVH  88
+           D PHGLP+  R+++H
+Sbjct  79  DVPHGLPLCIRVMIH  93
+
+
+> GFJPDDAG_03372 3-ketoacyl-CoA thiolase
+Length=392
+
+ Score = 25.0 bits (53),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  64  NDLILNCAHPDQPHGLPIGERI  85
+           +DLI+ CA P+   GL +   I
+Sbjct  50  DDLIIGCAMPEAEQGLNMARNI  71
+
+
+> GFJPDDAG_03170 Amidophosphoribosyltransferase
+Length=233
+
+ Score = 24.3 bits (51),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/66 (20%), Positives = 28/66 (42%), Gaps = 3/66 (5%)
+
+Query  131  GGCGRTLTDADGHYVYRTIRPGPYPWRNRINDWRP--AHIHYAISGDAWAQRLITQMYFE  188
+            GGC R+  D    ++   +    Y W N  ++W+      H     +A+ +  + +  + 
+Sbjct  46   GGCSRSFDDLAQGFINGDVCLDCYRWEND-SEWKGILTENHSFYQYNAFLKEYLARFKYS  104
+
+Query  189  GDPLIA  194
+            GD ++ 
+Sbjct  105  GDYVLG  110
+
+
+> GFJPDDAG_00080 Putative L,D-transpeptidase YkuD
+Length=167
+
+ Score = 23.9 bits (50),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 15/23 (65%), Gaps = 0/23 (0%)
+
+Query  1   MGRAPEPGDEFLMRDTTSHPPAY  23
+           +GR P PGD F++ +  ++  AY
+Sbjct  17  LGRNPMPGDPFIIVNKENNQLAY  39
+
+
+> GFJPDDAG_00939 Serine-aspartate repeat-containing protein D
+Length=2069
+
+ Score = 24.3 bits (51),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 28/68 (41%), Gaps = 19/68 (28%)
+
+Query  87    VHGYVRDQFGRPVRNALVEVWQANASGRYRHKKDQYIGALDPNFGGCGRTLTDADGHYVY  146
+             V G + D    P+++ALVE+  A             +G L         T T+A+G Y+ 
+Sbjct  1119  VSGVIVDASNNPIQSALVEIRDA-------------VGTL------IAETYTNANGEYII  1159
+
+Query  147   RTIRPGPY  154
+               +  G Y
+Sbjct  1160  TGLGSGSY  1167
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 146600650
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

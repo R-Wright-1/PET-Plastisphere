@@ -1,0 +1,175 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NYN9|A0A0K8NYN9_IDESA Ribosome hibernation protein YhbH
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_1290 PE=4
+SV=1
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_00806 Ribosome hibernation promotion factor                45.4    1e-07
+  DMKJLJHC_04446 Ribosome hibernation promotion factor                38.1    4e-05
+  DMKJLJHC_00178 Phosphoenolpyruvate carboxykinase (ATP)              28.1    0.18 
+  DMKJLJHC_01036 Putative aldehyde dehydrogenase AldA                 25.0    2.6  
+  DMKJLJHC_02245 hypothetical protein                                 24.6    2.9  
+  DMKJLJHC_05541 Heat-inducible transcription repressor HrcA          24.6    2.9  
+  DMKJLJHC_02289 Ribonuclease J 1                                     23.9    4.9  
+  DMKJLJHC_04555 putative ABC transporter ATP-binding protein YheS    23.5    6.9  
+  DMKJLJHC_03076 Sensor protein QseC                                  23.1    8.8  
+
+
+> DMKJLJHC_00806 Ribosome hibernation promotion factor
+Length=191
+
+ Score = 45.4 bits (106),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 36/117 (31%), Positives = 59/117 (50%), Gaps = 13/117 (11%)
+
+Query  1    MNVTISGHHLDVSPALREYVLTKL-ERITRHFDQVVDINVLLSV---EKLREKERRQKAE  56
+            M   ISG  LD+  AL+ +V T+L E + ++  +  D  +  S    E + E        
+Sbjct  1    MRYQISGKQLDIGEALQTHVKTELSETVDKYMQRPTDAQITFSKHAHEFICEATVHLSTG  60
+
+Query  57   ITLHVKGRDIFVEHAHEDLYAAIDQLMDKLDRQVCRHKDKVQDHH--HASPKRMDAS  111
+            +T   KG      HA E +Y+A +   +K+D+Q+ RHK +++DHH   A P   +A+
+Sbjct  61   LTATAKG------HATE-IYSAFESCREKMDKQLRRHKRRLKDHHRDRAEPVEFEAA  110
+
+
+> DMKJLJHC_04446 Ribosome hibernation promotion factor
+Length=191
+
+ Score = 38.1 bits (87),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 55/107 (51%), Gaps = 11/107 (10%)
+
+Query  1    MNVTISGHHLDVSPALREYVLTKL-ERITRHFDQVVDINVLLSV---EKLREKERRQKAE  56
+            M   ISG  +D+  AL+ +V ++L E +T++  +  D  V  S    E + E        
+Sbjct  1    MRYQISGKQIDIGDALQTHVKSELDETVTKYSQRPTDAVVTFSRSAHEYVCESTVHLSTG  60
+
+Query  57   ITLHVKGRDIFVEHAHEDLYAAIDQLMDKLDRQVCRHKDKVQDHHHA  103
+            ++   +G      HA E +YAA +   +K+D+Q+ R+K +++DH  +
+Sbjct  61   LSASARG------HATE-IYAAFEGCREKMDKQLRRYKRRLKDHQRS  100
+
+
+> DMKJLJHC_00178 Phosphoenolpyruvate carboxykinase (ATP)
+Length=532
+
+ Score = 28.1 bits (61),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 13/26 (50%), Positives = 18/26 (69%), Gaps = 4/26 (15%)
+
+Query  55   AEITLHVKGRDIFVEHAHEDLYAAID  80
+            A++  H++GRD+FV    EDLYA  D
+Sbjct  95   ADMLAHLQGRDMFV----EDLYAGSD  116
+
+
+> DMKJLJHC_01036 Putative aldehyde dehydrogenase AldA
+Length=786
+
+ Score = 25.0 bits (53),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 25/49 (51%), Gaps = 3/49 (6%)
+
+Query  46   LREKERRQKAEITLHVKGRDIFVEHAHEDLYAAIDQLMDKL---DRQVC  91
+            +RE+       +TL + G+  F+     DL AA++ ++D +     QVC
+Sbjct  250  IRERTAGSGKALTLELGGKSPFIVFDDADLDAAVEGVVDAIWFNQGQVC  298
+
+
+> DMKJLJHC_02245 hypothetical protein
+Length=388
+
+ Score = 24.6 bits (52),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 15/47 (32%), Positives = 24/47 (51%), Gaps = 1/47 (2%)
+
+Query  53   QKAEITLHVKGRDIFVEHAHEDLYAAIDQLMDKLDRQVCRHKDKVQD  99
+            + A ++LHV+G D F E + E    AI +   +L RQ+     +  D
+Sbjct  269  ETAVVSLHVRGADGF-EMSGESRMEAISRSPSELTRQMLNRSHQYPD  314
+
+
+> DMKJLJHC_05541 Heat-inducible transcription repressor HrcA
+Length=355
+
+ Score = 24.6 bits (52),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 19/63 (30%), Positives = 27/63 (43%), Gaps = 0/63 (0%)
+
+Query  27   ITRHFDQVVDINVLLSVEKLREKERRQKAEITLHVKGRDIFVEHAHEDLYAAIDQLMDKL  86
+            I RH  Q+  +   L    L   E  Q ++  L V+GR   +E    D    I  L D L
+Sbjct  209  IARHRQQIDTLAADLVESGLALWEEGQGSQGRLIVRGRANLLEGTEADDLERIRTLFDDL  268
+
+Query  87   DRQ  89
+            +R+
+Sbjct  269  ERK  271
+
+
+> DMKJLJHC_02289 Ribonuclease J 1
+Length=558
+
+ Score = 23.9 bits (50),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 10/25 (40%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  66  IFVEHAHEDLYAAIDQLMDKLDRQV  90
+           IF+ HAHED   A+  + + L + V
+Sbjct  71  IFITHAHEDHIGALAHVWNGLRKPV  95
+
+
+> DMKJLJHC_04555 putative ABC transporter ATP-binding protein YheS
+Length=299
+
+ Score = 23.5 bits (49),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 28/46 (61%), Gaps = 4/46 (9%)
+
+Query  43   VEKLREKERRQKAEITLHVKGRDIFVEHAHEDLYAAIDQLMDKLDR  88
+            +E++RE+  ++ A+  L+ +GR   VE   +  YA   ++MD LDR
+Sbjct  241  IEEMRERLAKKLADPALYEEGRGGEVETWQKK-YA---EVMDGLDR  282
+
+
+> DMKJLJHC_03076 Sensor protein QseC
+Length=469
+
+ Score = 23.1 bits (48),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 10/25 (40%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  78   AIDQLMDKLDRQVCRHKDKVQDHHH  102
+            A+++ M +LDRQV   K  + D  H
+Sbjct  233  AMNRFMGRLDRQVGAMKHLISDTAH  257
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 55726280
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

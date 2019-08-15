@@ -1,0 +1,239 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|E8U721|E8U721_DEIML Triacylglycerol lipase OS=Deinococcus
+maricopensis (strain DSM 21211 / LMG 22137 / NRRL B-23946 / LB-34)
+OX=709986 GN=Deima_1209 PE=4 SV=1
+
+Length=315
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             48.5    3e-07
+  DMKJLJHC_01741 Thermostable monoacylglycerol lipase                 29.6    0.35 
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        29.3    0.48 
+  DMKJLJHC_04046 Non-heme chloroperoxidase                            26.9    1.0  
+  DMKJLJHC_03315 2,6-dihydropseudooxynicotine hydrolase               28.1    1.3  
+  DMKJLJHC_02746 Arylesterase                                         27.7    1.4  
+  DMKJLJHC_02743 hypothetical protein                                 27.7    1.7  
+  DMKJLJHC_01352 Dipeptide transport system permease protein DppB     26.9    2.9  
+  DMKJLJHC_00031 Mercuric reductase                                   26.9    3.0  
+  DMKJLJHC_01054 Lipase 1                                             26.9    3.0  
+  DMKJLJHC_04163 Aspartate kinase Ask_LysC                            26.6    3.6  
+  DMKJLJHC_02730 Iron uptake protein A1                               25.8    6.6  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 29/89 (33%), Positives = 45/89 (51%), Gaps = 9/89 (10%)
+
+Query  113  ISPGYTGTQASVAWLGPRLASHGFVVIVID----TLSRYD-----YPSSRGDQLRAALRY  163
+            +S GY+G   + AWL  RLA  GF+ + +D    T    D     + + R  Q+   L  
+Sbjct  78   LSHGYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERPHQVSRVLDA  137
+
+Query  164  LTTSSAVRTRVDATRLAVMGHSMGGGGAL  192
+            +     +  R+D  R++V+GHS+GG  AL
+Sbjct  138  VLADPKLGPRIDRKRISVIGHSLGGSTAL  166
+
+
+> DMKJLJHC_01741 Thermostable monoacylglycerol lipase
+Length=254
+
+ Score = 29.6 bits (65),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 35/111 (32%), Positives = 46/111 (41%), Gaps = 19/111 (17%)
+
+Query  105  DGTFGGVAISPGYTGTQASVAWLGPRLASH-GFVVI---------VIDTLSRYDYPSSRG  154
+            +G   GV +  G+TG+  S+ +LG  L    GF V+           D +S+  Y     
+Sbjct  14   EGNETGVLVIHGFTGSTQSMRYLGQSLHERFGFTVLGPCLPGHGTSPDEMSKTGYL----  69
+
+Query  155  DQLRAALRYLTTSSAVRTRVDATRLAVMGHSMGGGGALEAAKDNPALKAAI  205
+            D L A  R L   +A + RV  T     G SMGG   L  A   P L   I
+Sbjct  70   DWLGAVERALEALAARKKRVFVT-----GLSMGGTLTLNLAARFPKLVQGI  115
+
+
+ Score = 26.6 bits (57),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 16/66 (24%), Positives = 29/66 (44%), Gaps = 2/66 (3%)
+
+Query  178  RLAVMGHSMGGGGALEAAKDNPALKAAIPLTPW--NTDKSWPELTTPTLIFGAQNDSVAP  235
+            R+  +G  +   G +E A D   +   + L      T      +T PTL+  A++D V P
+Sbjct  141  RVPGIGSDIKQEGVVELAYDETPVNCVVELAALVLMTSNMLHRITCPTLVIQARDDHVVP  200
+
+Query  236  VSSHAI  241
+             ++  +
+Sbjct  201  QANEMV  206
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 29.3 bits (64),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  174  VDATRLAVMGHSMGGGGALEAAKDNP  199
+            +D  R ++ GHSMGG GAL  A   P
+Sbjct  135  IDTERQSITGHSMGGHGALTLAMHMP  160
+
+
+> DMKJLJHC_04046 Non-heme chloroperoxidase
+Length=102
+
+ Score = 26.9 bits (58),  Expect = 1.0, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 23/49 (47%), Gaps = 3/49 (6%)
+
+Query  219  LTTPTLIFGAQNDSVAPVSSHAIPFYTSLASTLPKAYLELRGASHGAPT  267
+            +T PTL+   ++D + P+   A+     L +   K Y    G SHG  T
+Sbjct  41   ITVPTLVLHGEDDQIVPIHDAALKSIKLLKNGTLKTY---PGYSHGMLT  86
+
+
+> DMKJLJHC_03315 2,6-dihydropseudooxynicotine hydrolase
+Length=389
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 26/62 (42%), Gaps = 3/62 (5%)
+
+Query  169  AVRTRVDATRLAVMGHSMGGGGALEAAKDNPALKAAIPLTPWNTDKSWPELTTPTLIFGA  228
+            A R  VDA R+ + G S+GG  A     + P   +      W  + +W E+    L    
+Sbjct  218  AARDDVDAARIGITGISLGGYYAPRVCANEPRYASG---AVWGANHNWAEVQQKRLKREG  274
+
+Query  229  QN  230
+            +N
+Sbjct  275  EN  276
+
+
+> DMKJLJHC_02746 Arylesterase
+Length=273
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 17/67 (25%), Positives = 33/67 (49%), Gaps = 7/67 (10%)
+
+Query  214  KSWPELTTPTLIFGAQNDSVAPVSSHAIPFYTSLASTLPKAYLELRGASHGAPTST----  269
+            K   ++T PTLI  + +D++ P+       + ++ ++  + +L +  A HG   S     
+Sbjct  207  KDLEKITVPTLILHSDSDAIVPLEGSGKRVFETVRNS--ELFL-IEDAPHGCNVSHAARF  263
+
+Query  270  NTTIAKY  276
+            NTT+  Y
+Sbjct  264  NTTLVDY  270
+
+
+> DMKJLJHC_02743 hypothetical protein
+Length=463
+
+ Score = 27.7 bits (60),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 25/54 (46%), Gaps = 1/54 (2%)
+
+Query  224  LIFGAQNDSVAPVSSHAIPFYTSLASTLPKAYLELRGASHGAPTSTNTTIAKYA  277
+            L++  QN SV P S   +  +  L   L +  +EL     GAP  T T + + A
+Sbjct  168  LLYLDQNRSVGPQSKFGLKRHVGLNENLGRELMELHTLGVGAPY-TQTDVRQLA  220
+
+
+> DMKJLJHC_01352 Dipeptide transport system permease protein DppB
+Length=335
+
+ Score = 26.9 bits (58),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  140  VIDTLSRYDYPSSRGDQLRAALRYLTTSSAV  170
+            ++D++SR DYPS +G  L  A+  +  +  V
+Sbjct  291  MVDSISRRDYPSVQGGLLLIAVIVMLVNLIV  321
+
+
+> DMKJLJHC_00031 Mercuric reductase
+Length=704
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 27/98 (28%), Positives = 40/98 (41%), Gaps = 9/98 (9%)
+
+Query  5    YSACPAPYDHRGMRK-----HASLLAALPVLLAACGTTTSTLTTPAVTPQTLSGAATNPY  59
+            + A P+P   R +R      HA+   ALP +      T + L+ P     TL GAA   +
+Sbjct  20   FVADPSPEGLRNLRDGLQSWHANHPIALPAVFFVTYVTVAALSLPFAVWMTLLGAALFGF  79
+
+Query  60   ERGPAPTTALLEAARGPYATASTTVPRSSVSDFGGATI  97
+              G      L+  A    AT +  V R  + D+  A +
+Sbjct  80   WEG----LVLISFASALGATLALLVTRYLMRDWARAKL  113
+
+
+> DMKJLJHC_01054 Lipase 1
+Length=319
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 21/82 (26%), Positives = 34/82 (41%), Gaps = 9/82 (11%)
+
+Query  195  AKDNPALKAAIPLTPWNTDKSWPELTTPTLIFGAQNDSVAPVSSHAIPFYTSLASTLPKA  254
+            A++  +LK+ I          +P+L  P +      D++     HAIPF      T+P A
+Sbjct  234  ARERASLKSQIA----QMIPKYPQLDLPVVSVHGTADTIVSEKIHAIPF----TKTVPGA  285
+
+Query  255  YL-ELRGASHGAPTSTNTTIAK  275
+             L  L+G  H  P      + +
+Sbjct  286  TLISLKGIGHMTPHVATKQVVE  307
+
+
+> DMKJLJHC_04163 Aspartate kinase Ask_LysC
+Length=395
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 17/36 (47%), Gaps = 0/36 (0%)
+
+Query  16   GMRKHASLLAALPVLLAACGTTTSTLTTPAVTPQTL  51
+            GMR HA + A +   LAA G     +TT  +    L
+Sbjct  337  GMRSHAGVAAQMFKALAAEGINIKVITTSEIKISVL  372
+
+
+> DMKJLJHC_02730 Iron uptake protein A1
+Length=332
+
+ Score = 25.8 bits (55),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 31/107 (29%), Positives = 43/107 (40%), Gaps = 28/107 (26%)
+
+Query  195  AKDNPALKAAIPLTPWNTDKSWPELTTPTLIFGAQNDSVA--PVSSHAI-----------  241
+            A D+P L AAIP+T  +    W  LT+   I  A  + V    V+S+             
+Sbjct  91   AVDDPTLNAAIPVTYRDPAGHWFALTSRARIVYASKERVGADEVTSYEDLADPKWKGRIC  150
+
+Query  242  --PFYTSLASTLPKAYLELRGASHGAPTSTNTTIAKYAVAWLKRFED  286
+              PF +     L  AYL    A HGA  +T         +WL+  +D
+Sbjct  151  TRPFTSDYNVALTAAYL----AHHGAEATT---------SWLEGIKD  184
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.129    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 296750108
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

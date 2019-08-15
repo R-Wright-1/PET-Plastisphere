@@ -1,0 +1,103 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P8D2|A0A0K8P8D2_IDESA Putative exported protein
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0226 PE=4
+SV=1
+
+Length=322
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03844 hypothetical protein                                 29.6    0.26 
+  GFJPDDAG_03496 DNA replication and repair protein RecF              25.8    3.7  
+  GFJPDDAG_00843 Pyrroline-5-carboxylate reductase                    25.0    7.1  
+  GFJPDDAG_02098 hypothetical protein                                 24.6    8.7  
+
+
+> GFJPDDAG_03844 hypothetical protein
+Length=410
+
+ Score = 29.6 bits (65),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  134  PVKNVQEFIAYAKANPGKVTYGSQGNGTTSHLTASLFMQLTGTEMVHVPY  183
+            P  N ++   + K NPGK TY +  + T +     L  + T +++   P+
+Sbjct  178  PPTNFEDLKGFIKENPGKFTYPNPADFTGNAFLRHLLYEKTDSDLAQSPF  227
+
+
+> GFJPDDAG_03496 DNA replication and repair protein RecF
+Length=372
+
+ Score = 25.8 bits (55),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 26/49 (53%), Gaps = 4/49 (8%)
+
+Query  153  TYGSQGNGTTSHLTASLFMQLTGTEMVHVPYKGTAPALVDLVGGQIDVF  201
+            T+GSQG   T+ L+    ++L   E++H   K     L+D V  ++D +
+Sbjct  281  TFGSQGQQRTTALS----VKLAEIELIHSEIKEYPILLLDDVLSELDDY  325
+
+
+> GFJPDDAG_00843 Pyrroline-5-carboxylate reductase
+Length=281
+
+ Score = 25.0 bits (53),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 21/40 (53%), Gaps = 0/40 (0%)
+
+Query  4    ALARRLGAACLTAACLLGSAAAQTPQALKIIVPYPAGGTA  43
+            ALAR++GA  +  A  +     ++P  L+  V  P G TA
+Sbjct  201  ALARKIGAQTIFGAAKMMLEREESPTQLRENVTSPNGTTA  240
+
+
+> GFJPDDAG_02098 hypothetical protein
+Length=395
+
+ Score = 24.6 bits (52),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/38 (29%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  216  KLRILGVADEQRSAALPEVPTFAEQGLPSMNAVTWFAV  253
+            +L  +GV+  +   +LP+V     +    MN +TW  V
+Sbjct  128  ELEEMGVSKGKMQFSLPDVENIQRELSYRMNNITWVGV  165
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 197163767
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

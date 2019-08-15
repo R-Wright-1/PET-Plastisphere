@@ -1,0 +1,238 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|H6WX58|H6WX58_9ACTN Serine hydrolase OS=Thermobifida halotolerans
+OX=483545 PE=4 SV=1
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02539 Phospholipase YtpA                                   30.4    0.10 
+  GFJPDDAG_04033 hypothetical protein                                 27.3    0.83 
+  GFJPDDAG_02931 2-(acetamidomethylene)succinate hydrolase            26.6    1.2  
+  GFJPDDAG_02282 2,3-bisphosphoglycerate-independent phosphoglyce...  26.6    2.0  
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  25.8    2.5  
+  GFJPDDAG_03964 hypothetical protein                                 25.8    2.9  
+  GFJPDDAG_02726 Phenylalanine dehydrogenase                          25.8    3.2  
+  GFJPDDAG_03189 hypothetical protein                                 23.9    3.3  
+  GFJPDDAG_03560 hypothetical protein                                 25.0    4.2  
+  GFJPDDAG_02461 NAD kinase                                           25.4    4.2  
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  25.0    5.4  
+  GFJPDDAG_03895 Glutamine--fructose-6-phosphate aminotransferase...  25.0    5.5  
+  GFJPDDAG_01851 putative multidrug resistance ABC transporter AT...  24.6    8.7  
+
+
+> GFJPDDAG_02539 Phospholipase YtpA
+Length=267
+
+ Score = 30.4 bits (67),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 23/99 (23%), Positives = 38/99 (38%), Gaps = 0/99 (0%)
+
+Query  45   YPTDNNTFGAVAISPGYTGTQSSISWLGERLASHGFVVMTIDTNTTLDQPDSRASQLDAA  104
+            + +D      + I  G         WL E   + GF V+  D         S+   +D+ 
+Sbjct  4    WESDQEARAVIVIIHGAMEHHGRYGWLIEMWRAAGFHVIMGDLPGQGMTSRSQRGHIDSF  63
+
+Query  105  LDYMVEDSSYSVRNRIDSSRLAAMGHSMGGGGTLRLAER  143
+             +Y+VE   +          +  +GHSMGG   +RL + 
+Sbjct  64   DEYIVEVKDWVQAAYQFELPVFVIGHSMGGLIAVRLLQE  102
+
+
+> GFJPDDAG_04033 hypothetical protein
+Length=215
+
+ Score = 27.3 bits (59),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 28/62 (45%), Gaps = 3/62 (5%)
+
+Query  13   NSSIEALRGPFRVDEERVSRLQARGFGGGTIYYPTDNNTFGAVAISPGYTGTQSSISWLG  72
+            N+ +E L   F+    +V+  Q    G  +I   ++  TF +   S GYT   S   W G
+Sbjct  80   NNKVELLEESFKEINMQVANGQVVINGDLSITNKSNFKTFASAKASKGYT---SKTYWWG  136
+
+Query  73   ER  74
+            ER
+Sbjct  137  ER  138
+
+
+> GFJPDDAG_02931 2-(acetamidomethylene)succinate hydrolase
+Length=217
+
+ Score = 26.6 bits (57),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 27/66 (41%), Gaps = 0/66 (0%)
+
+Query  91   LDQPDSRASQLDAALDYMVEDSSYSVRNRIDSSRLAAMGHSMGGGGTLRLAERRPDLQAA  150
+            LD P    S L+A+  Y      Y +    +      +G S+G    +  A R P+L   
+Sbjct  24   LDLPGHGKSTLEASDHYFEHTLDYLITQLQEKGEGYLIGLSLGASLAIHTALRAPELVKG  83
+
+Query  151  IPLTPW  156
+            I LT +
+Sbjct  84   IVLTGY  89
+
+
+> GFJPDDAG_02282 2,3-bisphosphoglycerate-independent phosphoglycerate 
+mutase
+Length=487
+
+ Score = 26.6 bits (57),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 14/30 (47%), Gaps = 0/30 (0%)
+
+Query  231  VDDDTRYTQFLCPGPSTGWGSDVEEYRSTC  260
+            +D+  RY  F   GP    G  V+E RS  
+Sbjct  423  LDEGERYVPFFMVGPGVKQGEKVQEKRSLV  452
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 25.8 bits (55),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 26/99 (26%), Positives = 49/99 (49%), Gaps = 13/99 (13%)
+
+Query  60   GYTGTQSSISWLGERLASHGFVVMTIDT--NTTLDQPDSRASQLDAALDYMVEDSSY---  114
+            G+TG  ++ + + +RL+S+ +  ++ID   +   D P      +D A  Y +E  S+   
+Sbjct  26   GFTGDTTTWTRVTDRLSSN-YRCISIDLIGHGRTDSP------VDCA-RYTMEQVSHDIN  77
+
+Query  115  SVRNRIDSSRLAAMGHSMGGGGTLRLAERRPDLQAAIPL  153
+            ++ NR++  +   +G+SMGG   L      P    A+ L
+Sbjct  78   TILNRLEVIQAQLIGYSMGGRTALHFTLMHPQKVGALIL  116
+
+
+> GFJPDDAG_03964 hypothetical protein
+Length=424
+
+ Score = 25.8 bits (55),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  27   EERVSRLQARGFGGGTI  43
+            EER++R+ +RGFG G I
+Sbjct  137  EERMNRVSSRGFGFGYI  153
+
+
+> GFJPDDAG_02726 Phenylalanine dehydrogenase
+Length=389
+
+ Score = 25.8 bits (55),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 37/86 (43%), Gaps = 14/86 (16%)
+
+Query  41   GTIY--YPTDNNTFGAVAISPGYTGTQSSISWLG-------ERLASHGFVVMTID-TNTT  90
+            G IY    T+ N +G    S    G   +I  LG       ERL   G  +   D +  +
+Sbjct  172  GVIYGLQATNQNVWG----SKDLHGKSYAIQGLGKVGFKVAERLLEEGADLFVTDISQKS  227
+
+Query  91   LDQPDSRASQLDAALDYMVEDSSYSV  116
+            +DQ  ++A  + AA+  +  D  YSV
+Sbjct  228  IDQLVAKAKNMGAAIKVVSGDEIYSV  253
+
+
+> GFJPDDAG_03189 hypothetical protein
+Length=55
+
+ Score = 23.9 bits (50),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 7/13 (54%), Positives = 11/13 (85%), Gaps = 0/13 (0%)
+
+Query  33  LQARGFGGGTIYY  45
+           +Q +G+GGG IY+
+Sbjct  18  IQCQGYGGGQIYF  30
+
+
+> GFJPDDAG_03560 hypothetical protein
+Length=197
+
+ Score = 25.0 bits (53),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 22/76 (29%), Positives = 31/76 (41%), Gaps = 3/76 (4%)
+
+Query  125  LAAMGHSMGGGGTLRLAERRPDLQAAIPLTPWHTDKTWGSVRVPTLIIGAENDTIASVRS  184
+            +   G S G   T RL    PD           T+K   S ++  L++   NDTI+  R 
+Sbjct  1    MKEKGMSRGQPITFRLPSDTPDHVLKHLQRLKETEKRNFSSKIAELVLNGVNDTISRQR-  59
+
+Query  185  HSEPFYNSLPGSLDKA  200
+              E     LP  L+K+
+Sbjct  60   --EAITIPLPKGLEKS  73
+
+
+> GFJPDDAG_02461 NAD kinase
+Length=266
+
+ Score = 25.4 bits (54),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  101  LDAALDYMVEDSSYSVRNRIDSSRLAAMGHSMGGGGTLRLAERR  144
+            + A LD++ E +     N +DS   A +  S+GG GT   A R+
+Sbjct  17   IQAKLDHLYELAKRYQFNIVDSPETANIIVSIGGDGTFLQAVRQ  60
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 25.0 bits (53),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 10/30 (33%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  118  NRIDSSRLAAMGHSMGGGGTLRLAERRPDL  147
+            + ++ S +   GHSMGG   L + ++ P L
+Sbjct  90   DHLNVSNVHLTGHSMGGQIALNVMKKAPSL  119
+
+
+> GFJPDDAG_03895 Glutamine--fructose-6-phosphate aminotransferase 
+[isomerizing]
+Length=600
+
+ Score = 25.0 bits (53),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 17/29 (59%), Gaps = 2/29 (7%)
+
+Query  19   LRGPFRVDEERVSRLQARGFGGGTIYYPT  47
+            L G  ++ E  +S +QA GF GG + + T
+Sbjct  476  LEGALKLKE--ISYIQAEGFAGGELKHGT  502
+
+
+> GFJPDDAG_01851 putative multidrug resistance ABC transporter 
+ATP-binding/permease protein YheH
+Length=672
+
+ Score = 24.6 bits (52),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  84   TIDTNTTLDQPDSRASQLDAAL  105
+            TI +N +LD P     Q+DAAL
+Sbjct  517  TIASNVSLDDPRISREQVDAAL  538
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 150856803
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,170 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|D7R6G8|D7R6G8_BACIU Carboxylic ester hydrolase OS=Bacillus
+subtilis OX=1423 GN=pnbA PE=3 SV=1
+
+Length=489
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03298 Carboxylesterase NlhH                                46.2    1e-06
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               31.6    0.12 
+  GFJPDDAG_00180 Flagellar brake protein YcgR                         29.6    0.32 
+  GFJPDDAG_03779 Tyrosine-protein kinase YwqD                         28.1    0.94 
+  GFJPDDAG_04265 Putative conjugal transfer protein                   27.7    1.7  
+  GFJPDDAG_02847 Pseudouridine kinase                                 26.2    4.4  
+  GFJPDDAG_01406 Thiamine pyrophosphokinase                           25.8    5.4  
+  GFJPDDAG_01496 Cytochrome c oxidase subunit 3                       25.0    9.3  
+
+
+> GFJPDDAG_03298 Carboxylesterase NlhH
+Length=257
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/108 (31%), Positives = 49/108 (45%), Gaps = 13/108 (12%)
+
+Query  92   TPSQN--LPVMVWIHGGAFYLGAGSEPLYDGSKLAAQGEVIVVTLNYRLGPFGFLHLSSF  149
+            TPS +   PVMV+ HGG +  G           ++    +IVV++ YRL P        +
+Sbjct  78   TPSGHGPFPVMVYSHGGGWVFGDLESADNICRYVSRYAGIIVVSIGYRLAP-----EHKY  132
+
+Query  150  NEAYSDNLGLLDQAAALKWVRENISAFGGDPDNVTVFGESAGGMSIAA  197
+              A+ D +       A+KW   N+    GD   + V GES+GG   AA
+Sbjct  133  PSAFQDVI------EAIKWTFRNLEKLKGDNTRIGVGGESSGGNLAAA  174
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 31.6 bits (70),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 34/114 (30%), Positives = 52/114 (46%), Gaps = 14/114 (12%)
+
+Query  94   SQNLPVMVWIHGGAFYLGAGSEPLYDGS-------KLAAQGEVIVVTLNYRLGPFGFLHL  146
+            ++  P++V IHGG    G  S P++ G        +L  +   IV+  NYR G  G+ + 
+Sbjct  408  NKKYPLLVLIHGGP---GWASFPIHSGCFNEKYPVELFIEKGFIVLEPNYR-GSSGYGN-  462
+
+Query  147  SSFNEAYSDNLGLLDQAAALKWVRENISAFGGDPDNVTVFGESAGGMSIAALLA  200
+              F +A   NLG+ D    +  V   +     D + V V G S GG  I+A  +
+Sbjct  463  -GFLKANYRNLGIGDYQDVIFGVDALVDKGIADKERVGVMGWSQGGF-ISAFCS  514
+
+
+> GFJPDDAG_00180 Flagellar brake protein YcgR
+Length=215
+
+ Score = 29.6 bits (65),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 19/68 (28%), Positives = 30/68 (44%), Gaps = 1/68 (1%)
+
+Query  169  VRENISAFGGDPDNVTVFGESAGGMSIAALLAMPAAKGLFQKAIMESGASRTMTKEQAAS  228
+            + E++SA GG    V       GGM I+ ++ +P   G  Q   +E    R   K+Q   
+Sbjct  123  ITEDLSA-GGCAVKVKKRMGLHGGMKISTIIVLPMQTGECQYVEIEGKVIRVFEKDQNEV  181
+
+Query  229  TSAAFLQV  236
+             S  F+ +
+Sbjct  182  ASIEFVHL  189
+
+
+> GFJPDDAG_03779 Tyrosine-protein kinase YwqD
+Length=234
+
+ Score = 28.1 bits (61),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 47/108 (44%), Gaps = 31/108 (29%)
+
+Query  50   DVLDATAYGPICPQPSDLLSLSYTELPRQSEDCLYVNVFAP------DTPSQNLPVMV--  101
+            D LD    GP+ P P++LLS       R  E+ L V+V+A       DTP    PV+   
+Sbjct  124  DHLDLLTCGPVPPNPAELLS------SRSMEEFL-VDVYADYEMVIFDTP----PVLAVT  172
+
+Query  102  -------WIHGGAFYLGAGS---EPLYDGSKL--AAQGEVIVVTLNYR  137
+                     HG    + +G+   E    G +L    +G+++ V LN R
+Sbjct  173  DAQVLSNQCHGSILVVSSGTTEIEAAQKGKELLQTGKGKLLGVILNNR  220
+
+
+> GFJPDDAG_04265 Putative conjugal transfer protein
+Length=449
+
+ Score = 27.7 bits (60),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 24/111 (22%), Positives = 47/111 (42%), Gaps = 15/111 (14%)
+
+Query  153  YSDNLGLLDQAAALKWVRENISAFGGDPDNVTVFGESAGGMSIAALLAMPAAKGLFQKAI  212
+            Y + +  ++ +A L+  R N+      P+NV    E  G ++I  L+          K  
+Sbjct  245  YGERVITIEDSAELRLDRPNVVGMEARPENV----EGRGEVTIRNLV----------KNA  290
+
+Query  213  MESGASRTMTKEQAASTSAAFLQVLGI-NEGQLDKLHTVSAEDSLKAADQL  262
+            +     R +  E  +  +   LQ +   +EG +  +H  S ED+L+  + +
+Sbjct  291  LRMRPDRIIVGEVRSGEAFDMLQAMNTGHEGSITTVHANSPEDALRRVEAM  341
+
+
+> GFJPDDAG_02847 Pseudouridine kinase
+Length=364
+
+ Score = 26.2 bits (56),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 14/24 (58%), Gaps = 0/24 (0%)
+
+Query  169  VRENISAFGGDPDNVTVFGESAGG  192
+            + EN+   G D + VTV GE  GG
+Sbjct  99   IAENLGRLGRDANLVTVVGEDTGG  122
+
+
+> GFJPDDAG_01406 Thiamine pyrophosphokinase
+Length=215
+
+ Score = 25.8 bits (55),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 21/47 (45%), Gaps = 10/47 (21%)
+
+Query  161  DQAAALKWVRENISAFGGDPDNVTVFGESAGG----MSIAALLAMPA  203
+            D   AL W      A   +PD +T+FG + G     M    LL MP+
+Sbjct  80   DLELALNW------AIDQNPDKITIFGATGGRLDHFMGNLQLLMMPS  120
+
+
+> GFJPDDAG_01496 Cytochrome c oxidase subunit 3
+Length=209
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 10/17 (59%), Positives = 10/17 (59%), Gaps = 0/17 (0%)
+
+Query  279  LDPKTLPEEPEKAIAEG  295
+              PKT P  PEKA  EG
+Sbjct  7    FTPKTWPASPEKATLEG  23
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327311764
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,190 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|C3RYL0|C3RYL0_9BACT LipIAF5-2 OS=uncultured bacterium OX=77133
+GN=lipIAF5-2 PE=4 SV=1
+
+Length=308
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             29.6    0.32 
+  DMKJLJHC_02746 Arylesterase                                         28.5    0.83 
+  DMKJLJHC_04046 Non-heme chloroperoxidase                            25.8    2.5  
+  DMKJLJHC_04840 Phosphate transport system permease protein PstA     26.9    2.8  
+  DMKJLJHC_03990 hypothetical protein                                 24.6    3.9  
+  DMKJLJHC_02457 ABC transporter periplasmic-binding protein YtfQ     26.2    5.2  
+  DMKJLJHC_02374 Manganese transport system membrane protein MntB     25.8    6.6  
+  DMKJLJHC_05921 Solvent efflux pump outer membrane protein SrpC      25.4    6.8  
+  DMKJLJHC_00008 Glycerophosphodiester phosphodiesterase, cytopla...  25.4    7.6  
+  DMKJLJHC_02210 hypothetical protein                                 25.4    8.8  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 29.6 bits (65),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 23/94 (24%), Positives = 38/94 (40%), Gaps = 14/94 (15%)
+
+Query  101  GYLSFESSIEWWGPRLASHGFVVMTIDT--NTIYD-------QPSQRRDQIEAALQYLVN  151
+            GY     +  W   RLA  GF+ + +D    T  D         ++R  Q+   L  ++ 
+Sbjct  81   GYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERPHQVSRVLDAVLA  140
+
+Query  152  QSNSSSSPISGMVDSSRLAAVGWSMGGGGTLQLA  185
+                    +   +D  R++ +G S+GG   L LA
+Sbjct  141  DPK-----LGPRIDRKRISVIGHSLGGSTALFLA  169
+
+
+> DMKJLJHC_02746 Arylesterase
+Length=273
+
+ Score = 28.5 bits (62),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 21/52 (40%), Gaps = 3/52 (6%)
+
+Query  204  NDFNRIQVPTLIFACQLDAIAPVALHASPFYNRIPNTTPKAFFEMTGGDHWC  255
+             D  +I VPTLI     DAI P+       +  + N+     F +    H C
+Sbjct  207  KDLEKITVPTLILHSDSDAIVPLEGSGKRVFETVRNSE---LFLIEDAPHGC  255
+
+
+> DMKJLJHC_04046 Non-heme chloroperoxidase
+Length=102
+
+ Score = 25.8 bits (55),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 29/72 (40%), Gaps = 5/72 (7%)
+
+Query  174  WSMGGGGTLQLAADGGIKAAIALAPWNSSINDFNRIQVPTLIFACQLDAIAPVALHASPF  233
+            W  G  G+ + A D GIKA            D   I VPTL+   + D I P+   A   
+Sbjct  11   WRQGMMGSAK-AHDEGIKAFSE----TDQTADLQAITVPTLVLHGEDDQIVPIHDAALKS  65
+
+Query  234  YNRIPNTTPKAF  245
+               + N T K +
+Sbjct  66   IKLLKNGTLKTY  77
+
+
+> DMKJLJHC_04840 Phosphate transport system permease protein PstA
+Length=278
+
+ Score = 26.9 bits (58),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 23/55 (42%), Gaps = 3/55 (5%)
+
+Query  207  NRIQVPTLIFACQLDAIAPVALHASPFYNRIPNTTPKAFFEMT---GGDHWCANG  258
+            NRI +   I A  L      A+  + FYN I    P  F EMT   G D   AN 
+Sbjct  11   NRIAMTLSIAAAGLGLFILAAILWTLFYNGIGAIRPSIFLEMTPPPGSDGGLANA  65
+
+
+> DMKJLJHC_03990 hypothetical protein
+Length=62
+
+ Score = 24.6 bits (52),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  283  RYAPFLCGPNHAAQTL  298
+            RYAP   GP+ +AQT+
+Sbjct  34   RYAPVTLGPSSSAQTV  49
+
+
+> DMKJLJHC_02457 ABC transporter periplasmic-binding protein YtfQ
+Length=318
+
+ Score = 26.2 bits (56),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 15/27 (56%), Positives = 19/27 (70%), Gaps = 1/27 (4%)
+
+Query  7   NTLASLLLASSALLLSGTAFAANPPGG  33
+           N L SLLL S+A+L+  +AFAAN   G
+Sbjct  2   NILKSLLL-SAAVLMPASAFAANETVG  27
+
+
+> DMKJLJHC_02374 Manganese transport system membrane protein MntB
+Length=284
+
+ Score = 25.8 bits (55),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 14/26 (54%), Gaps = 0/26 (0%)
+
+Query  181  TLQLAADGGIKAAIALAPWNSSINDF  206
+            TLQLA  GG+   + LA W   +  F
+Sbjct  133  TLQLAIIGGVSLVVLLAKWRDLLAVF  158
+
+
+> DMKJLJHC_05921 Solvent efflux pump outer membrane protein SrpC
+Length=220
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 22/33 (67%), Gaps = 0/33 (0%)
+
+Query  165  DSSRLAAVGWSMGGGGTLQLAADGGIKAAIALA  197
+            D ++ +++GWS G G ++ L   G +KAA+ +A
+Sbjct  69   DLAKSSSIGWSFGPGISIPLFHSGALKAAVDVA  101
+
+
+> DMKJLJHC_00008 Glycerophosphodiester phosphodiesterase, cytoplasmic
+Length=254
+
+ Score = 25.4 bits (54),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 27/61 (44%), Gaps = 2/61 (3%)
+
+Query  244  AFFEMTGGDHWCANGGNIYSALLGKYGVSWMKLHLDQDTRYAPFLCGPNHAAQTLISEYR  303
+            A  ++ GGD    +   +   + G+  V  +    DQD    P + G   A+ TL+  YR
+Sbjct  81   AEIKLRGGDEGVPSLEQVLELVAGQ--VPLLIEIKDQDGALGPNVGGLGQASATLLRSYR  138
+
+Query  304  G  304
+            G
+Sbjct  139  G  139
+
+
+> DMKJLJHC_02210 hypothetical protein
+Length=476
+
+ Score = 25.4 bits (54),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 26/94 (28%), Positives = 40/94 (43%), Gaps = 7/94 (7%)
+
+Query  191  KAAIALAPWNSSINDFNRIQVPTLIFACQLDAIAPV-ALHASPFYNRIP--NTTPKAFFE  247
+            KA I+L  +  ++        PTL    +  A+  + +L  S  + RI   N T     E
+Sbjct  230  KAYISLEQFTVTLFQL----YPTLYLHKRTRAVEYMFSLLMSRVFERIATGNETRAGLTE  285
+
+Query  248  MTGGDHWCANGGNIYSALLGKYGVSWMKLHLDQD  281
+                  +  N GN+ +ALL    + W  LHL Q+
+Sbjct  286  NHALVRFFRNPGNLENALLLDDSLFWGSLHLFQE  319
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 290644151
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

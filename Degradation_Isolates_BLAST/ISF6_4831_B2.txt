@@ -1,0 +1,207 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|A0A0K8P6T7|PETH_IDESA Poly(ethylene terephthalate) hydrolase
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_4831 PE=1
+SV=1
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03830 Thermostable monoacylglycerol lipase                 30.0    0.15 
+  GFJPDDAG_01703 hypothetical protein                                 29.3    0.22 
+  GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA    29.3    0.26 
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               29.6    0.27 
+  GFJPDDAG_01782 ESX secretion system protein YueB                    26.6    2.3  
+  GFJPDDAG_00731 hypothetical protein                                 25.0    5.8  
+  GFJPDDAG_00067 2-oxoisovalerate dehydrogenase subunit alpha         24.6    7.1  
+  GFJPDDAG_03508 Sporulation initiation inhibitor protein Soj         24.6    7.4  
+  GFJPDDAG_02904 Bis(5'-nucleosyl)-tetraphosphatase, symmetrical      24.6    7.6  
+  GFJPDDAG_03919 Putative ribosomal N-acetyltransferase YdaF          24.3    8.6  
+
+
+> GFJPDDAG_03830 Thermostable monoacylglycerol lipase
+Length=242
+
+ Score = 30.0 bits (66),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 25/97 (26%), Positives = 38/97 (39%), Gaps = 12/97 (12%)
+
+Query  162  GGGGSLISAANNPSLKAAAPQAPWDSSTNF-----------SSVTVPTLIFACENDSIAP  210
+            G  G+LI        K    Q P  S+  F           + V  PT I   END I P
+Sbjct  135  GMQGNLIENELYNRYKWKVTQTPILSTYEFRKVVRLARPLLTKVNTPTFIAQGENDGIVP  194
+
+Query  211  VNSSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQ  247
+               +A  IY+++S   K     +   H   +S ++++
+Sbjct  195  -PKAAKYIYETISSQEKDLFYSSKAKHLICHSEDNHE  230
+
+
+> GFJPDDAG_01703 hypothetical protein
+Length=257
+
+ Score = 29.3 bits (64),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 49/244 (20%), Positives = 85/244 (35%), Gaps = 64/244 (26%)
+
+Query  73   NAGGTVGAIAIVPGYTARQSSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALR  132
+            N    V     + G+T+ +     +   LA  GF VI  D     ++ + +S  Q+  + 
+Sbjct  22   NIDKKVPLCFFIHGFTSAKEHNLHYAYYLAEKGFRVILPDALEHGERSTGKSEHQLGEVF  81
+
+Query  133  QVASLNGTSSSPIYGKVDTAR-------MGVMGWSMGGGGSL------------ISAANN  173
+                L+     PI  +    +       +GV G SMGG  +L            +S   N
+Sbjct  82   WKIVLHTIHELPILKEHFEEKGLVVPNGIGVAGTSMGGIITLGALTQYQWISSAVSLMGN  141
+
+Query  174  PS-LKAAAPQAP------WDSSTNFSSVTVPTLIFAC----------------------E  204
+            P+ +K A  Q        +D S  FS   + ++++                        +
+Sbjct  142  PTYVKFAQAQLEQVEALGYDIS--FSKEEIKSMLYELSHYDLSLQPEKLAGRPLMFWHGK  199
+
+Query  205  NDSIAPVN------SSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQALIGKKGVAWM  258
+             D + P N       S LP Y+   ++   F+E     H       S  A++G   V W 
+Sbjct  200  RDKVVPFNLTREFYESILPYYEE-HKDKLLFIEDEKADHKV-----SRDAVLGL--VEWF  251
+
+Query  259  KRFM  262
+            ++ +
+Sbjct  252  EKHL  255
+
+
+> GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA
+Length=308
+
+ Score = 29.3 bits (64),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 18/76 (24%), Positives = 39/76 (51%), Gaps = 3/76 (4%)
+
+Query  77   TVGAIAIVPGYTARQSSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALRQVAS  136
+             +G   +VPG  ++ +   ++G  ++SH   V++I  N T   P + ++Q +   +Q+  
+Sbjct  146  IMGGAFLVPGNVSKVAEANFFGDPVSSH--FVMSIVKNVTC-VPLNVTNQALITKKQILE  202
+
+Query  137  LNGTSSSPIYGKVDTA  152
+            +   SS+P+   +D  
+Sbjct  203  IQKASSNPLVKILDKV  218
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 29.6 bits (65),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 18/34 (53%), Gaps = 0/34 (0%)
+
+Query  147  GKVDTARMGVMGWSMGGGGSLISAANNPSLKAAA  180
+            G  D  R+GVMGWS GG  S   +  +   KA +
+Sbjct  491  GIADKERVGVMGWSQGGFISAFCSTYSDRFKAVS  524
+
+
+> GFJPDDAG_01782 ESX secretion system protein YueB
+Length=732
+
+ Score = 26.6 bits (57),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 23/47 (49%), Gaps = 0/47 (0%)
+
+Query  47   AGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQSS  93
+            AGP  V++  ++    YG G   Y  + G  VGA+ I   Y  R+ S
+Sbjct  522  AGPVDVKNEKINHVPNYGTGFAPYFLSLGLFVGALLISIVYPLREPS  568
+
+
+> GFJPDDAG_00731 hypothetical protein
+Length=398
+
+ Score = 25.0 bits (53),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 24/104 (23%), Positives = 43/104 (41%), Gaps = 8/104 (8%)
+
+Query  156  VMGWSMGGGGSLISAANNPSLKAAAPQAPWDSSTNFSSVT-----VPTLIFACENDSIAP  210
+            ++  ++G   SLI ++NN  +   +     ++ +  SSV       P LI +C       
+Sbjct  116  LISEAIGDRTSLILSSNNAEITNTSTSLKVETKSGESSVIDGINRKPGLIRSCGGVEDKE  175
+
+Query  211  VNSSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQALIGKKG  254
+             N   LP +D    +  + +E N         GN  + L+ +KG
+Sbjct  176  TN---LPKHDVTCTDPDEIIEYNAYFGDTTPKGNGFEVLLDEKG  216
+
+
+> GFJPDDAG_00067 2-oxoisovalerate dehydrogenase subunit alpha
+Length=332
+
+ Score = 24.6 bits (52),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 14/28 (50%), Gaps = 0/28 (0%)
+
+Query  182  QAPWDSSTNFSSVTVPTLIFACENDSIA  209
+            Q  +    NF+ V    +IF CEN+  A
+Sbjct  159  QGDFHEGANFAGVHKLPVIFMCENNKYA  186
+
+
+> GFJPDDAG_03508 Sporulation initiation inhibitor protein Soj
+Length=253
+
+ Score = 24.6 bits (52),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  209  APVNSSALPIYDSMSRNAKQFLEI  232
+            AP +   + IYD+ SR A+ +LE+
+Sbjct  222  APSHGEPIIIYDAKSRGAEVYLEL  245
+
+
+> GFJPDDAG_02904 Bis(5'-nucleosyl)-tetraphosphatase, symmetrical
+Length=380
+
+ Score = 24.6 bits (52),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 38/75 (51%), Gaps = 9/75 (12%)
+
+Query  213  SSALPIYDSMSRNAKQFLEINGGSHSCANSGNSNQALIGKKGVAWMKRFMDNDTRYSTFA  272
+            S+ +P Y+ +  +AK+ + I+GG+    ++G  N  +I        +R    DT  +T+ 
+Sbjct  202  STRIPTYNPIIDHAKKIIAIDGGN-VIKSTGQLNAFII--------QRTPSGDTFNNTYT  252
+
+Query  273  CENPNSTRVSDFRTA  287
+             ++P    + DF++ 
+Sbjct  253  DKHPVYEVLMDFKSE  267
+
+
+> GFJPDDAG_03919 Putative ribosomal N-acetyltransferase YdaF
+Length=199
+
+ Score = 24.3 bits (51),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 18/31 (58%), Gaps = 2/31 (6%)
+
+Query  82   AIVPGYTARQSSIKWWGPRLASHGFVVITID  112
+            A++ GY+    ++  WG  L S G ++ TID
+Sbjct  73   AVLEGYSQNNKAL--WGMELKSTGKIIGTID  101
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.125    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 172475264
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,142 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A075B5G4|A0A075B5G4_HUMIN Cutinase OS=Humicola insolens
+OX=34413 PE=1 SV=1
+
+Length=194
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_04730 hypothetical protein                                 26.6    1.8  
+  DMKJLJHC_03115 Protein-L-isoaspartate O-methyltransferase           25.4    3.2  
+  DMKJLJHC_05434 putative transport protein HsrA                      25.4    4.9  
+  DMKJLJHC_00973 Catalase                                             25.4    5.0  
+  DMKJLJHC_06826 hypothetical protein                                 23.5    8.4  
+  DMKJLJHC_01464 D-hydantoinase/dihydropyrimidinase                   24.6    9.0  
+  DMKJLJHC_02180 PCP degradation transcriptional activation protein   24.3    9.5  
+
+
+> DMKJLJHC_04730 hypothetical protein
+Length=329
+
+ Score = 26.6 bits (57),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  142  GGIPNYPRERTKVFCNVGDAVCTGTLIITP  171
+            GGI   PR++ ++    G+  C G L I P
+Sbjct  297  GGIFPRPRQKPRILAPSGECNCHGALRICP  326
+
+
+> DMKJLJHC_03115 Protein-L-isoaspartate O-methyltransferase
+Length=216
+
+ Score = 25.4 bits (54),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 24/73 (33%), Positives = 30/73 (41%), Gaps = 22/73 (30%)
+
+Query  89   LANQKCPNTPVVAGGYSQGAA--------LIAAAVSELSGAVKEQVK-------------  127
+            LA     N  VVAG  ++GAA        +I  AV  +  AV +Q+K             
+Sbjct  119  LAEMDVDNAAVVAGPLAEGAAKHGPYDAIMIEGAVETVPSAVLDQLKEGGRIAAIFMEGA  178
+
+Query  128  -GVALFGYTQNLQ  139
+             GVA  GY  N Q
+Sbjct  179  LGVARIGYKINGQ  191
+
+
+> DMKJLJHC_05434 putative transport protein HsrA
+Length=477
+
+ Score = 25.4 bits (54),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 23/48 (48%), Gaps = 3/48 (6%)
+
+Query  29   TEPGNMGITVGPALANGLESHIRNIWIQGVGGP---YDAALATNFLPR  73
+            T P  +G  +GP L   + +++   WI  +  P       LAT F+P+
+Sbjct  144  TVPALLGPVMGPPLGGFITTYLDWRWIFWINIPIAVLGVILATIFIPK  191
+
+
+> DMKJLJHC_00973 Catalase
+Length=503
+
+ Score = 25.4 bits (54),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  32   GNMGITVGPALANGLESHIRNIW  54
+             + GI V PA  NG  SH  ++W
+Sbjct  180  SDRGIPVNPAHMNGYGSHTYSMW  202
+
+
+> DMKJLJHC_06826 hypothetical protein
+Length=84
+
+ Score = 23.5 bits (49),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 23/58 (40%), Gaps = 0/58 (0%)
+
+Query  75   TSQANIDEGKRLFALANQKCPNTPVVAGGYSQGAALIAAAVSELSGAVKEQVKGVALF  132
+            T+   I  GK L  +   K P  PVVA     GAA +  A +  S  V      + L 
+Sbjct  7    TAVYAIARGKPLRRMFRHKAPLGPVVAIATLTGAAFLMGATNVQSALVATGALAIVLL  64
+
+
+> DMKJLJHC_01464 D-hydantoinase/dihydropyrimidinase
+Length=483
+
+ Score = 24.6 bits (52),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 22/56 (39%), Gaps = 0/56 (0%)
+
+Query  4    AIENGLESGSANACPDAILIFARGSTEPGNMGITVGPALANGLESHIRNIWIQGVG  59
+            ++ NGL SG+ +        F       G    T  P    GLE  +  +W  GVG
+Sbjct  296  SLWNGLSSGTLSCVATDHCAFTTDQKRYGVGDFTKIPNGTGGLEDRLPMLWTYGVG  351
+
+
+> DMKJLJHC_02180 PCP degradation transcriptional activation protein
+Length=302
+
+ Score = 24.3 bits (51),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 10/29 (34%), Positives = 15/29 (52%), Gaps = 0/29 (0%)
+
+Query  19  DAILIFARGSTEPGNMGITVGPALANGLE  47
+           D + + AR   EP    + + P +A GLE
+Sbjct  47  DELFLRARYGVEPTEKALEIAPDIAAGLE  75
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 150660301
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

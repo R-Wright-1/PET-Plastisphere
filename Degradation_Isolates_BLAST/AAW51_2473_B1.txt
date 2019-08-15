@@ -1,0 +1,150 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0G3BI90|A0A0G3BI90_9BURK Triacylglycerol lipase
+OS=[Polyangium] brachysporum OX=413882 GN=AAW51_2473 PE=4 SV=1
+
+Length=298
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_04046 Non-heme chloroperoxidase                            32.0    0.020
+  DMKJLJHC_03428 Lipase 1                                             32.7    0.031
+  DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC     28.9    0.68 
+  DMKJLJHC_06354 Non-heme chloroperoxidase                            27.3    1.7  
+  DMKJLJHC_05733 hypothetical protein                                 26.6    3.2  
+  DMKJLJHC_01369 5'-deoxynucleotidase YfbR                            25.0    8.2  
+  DMKJLJHC_00693 hypothetical protein                                 25.0    8.4  
+
+
+> DMKJLJHC_04046 Non-heme chloroperoxidase
+Length=102
+
+ Score = 32.0 bits (71),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 22/49 (45%), Gaps = 0/49 (0%)
+
+Query  184  FAPWHNTANFSGVQVPTLVIACENDTVAPISRHASSFYNSFSSSLAKAY  232
+            F+    TA+   + VPTLV+  E+D + PI   A        +   K Y
+Sbjct  29   FSETDQTADLQAITVPTLVLHGEDDQIVPIHDAALKSIKLLKNGTLKTY  77
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 32.7 bits (73),  Expect = 0.031, Method: Compositional matrix adjust.
+ Identities = 39/139 (28%), Positives = 57/139 (41%), Gaps = 25/139 (18%)
+
+Query  76   VSGSVGAVAVVP-GYLARQSSIRWWGPRLASHGFVVITLDTRSTS--DQPASRSAQQMAA  132
+            +SG+   VA++  GY     +  W   RLA  GF+ + LD   T+  D   + +      
+Sbjct  68   ISGADQPVALLSHGYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTER  127
+
+Query  133  LRQVV-ALSETRSSPIYG-KVDPNRLAVMGWSMGGGGTLISARDNPSLKAAVPFAPWHNT  190
+              QV   L    + P  G ++D  R++V+G S+GG   L  A           F P    
+Sbjct  128  PHQVSRVLDAVLADPKLGPRIDRKRISVIGHSLGGSTALFLAGGR--------FDP----  175
+
+Query  191  ANFSGVQVPTLVIACENDT  209
+                    P L+ AC NDT
+Sbjct  176  --------PLLLKACGNDT  186
+
+
+> DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC
+Length=597
+
+ Score = 28.9 bits (63),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  189  NTANFSGVQVPTLVIACENDTVAP  212
+             T +   V+VP + IACE D +AP
+Sbjct  467  ETVSVRDVKVPLMAIACETDHIAP  490
+
+
+> DMKJLJHC_06354 Non-heme chloroperoxidase
+Length=273
+
+ Score = 27.3 bits (59),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 21/85 (25%), Positives = 31/85 (36%), Gaps = 8/85 (9%)
+
+Query  161  WSMGGGGTLISARDNPSLKAAVPFAPWHNTANFSGVQVPTLVIACENDTVAPISRHASSF  220
+            W MG  G++    D         F+    T +   +  PTLVI  ++D + PI    +  
+Sbjct  182  WLMGMQGSIKGHYD-----CIREFSEVDYTEDLKKIARPTLVIHGDDDQIVPIKASGALT  236
+
+Query  221  YNSFSSSLAKAYLEINNGSHTCANT  245
+                  +  K Y     GSH  A  
+Sbjct  237  AQIVKDATLKIY---EGGSHGLAQV  258
+
+
+> DMKJLJHC_05733 hypothetical protein
+Length=278
+
+ Score = 26.6 bits (57),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 23/36 (64%), Gaps = 2/36 (6%)
+
+Query  151  VDPNRLAVMGWSMGGGGTLISARDNPSLKAAVPFAP  186
+            VDP++ +V+G  +G GGT I+A +   + AAV   P
+Sbjct  98   VDPSKTSVVG--VGLGGTAIAAMEQGRIAAAVMLDP  131
+
+
+> DMKJLJHC_01369 5'-deoxynucleotidase YfbR
+Length=197
+
+ Score = 25.0 bits (53),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 21/37 (57%), Gaps = 1/37 (3%)
+
+Query  128  QQMAALRQVVAL-SETRSSPIYGKVDPNRLAVMGWSM  163
+            QQMA L ++  L S TR++PI+    P   A   W++
+Sbjct  7    QQMAFLAEIEKLKSVTRATPIHDASRPENSAEHSWTL  43
+
+
+> DMKJLJHC_00693 hypothetical protein
+Length=196
+
+ Score = 25.0 bits (53),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 8/20 (40%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  135  QVVALSETRSSPIYGKVDPN  154
+            Q+   S+T +  I+GK+DP 
+Sbjct  145  QIAGFSKTEADKIFGKLDPK  164
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 277610781
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

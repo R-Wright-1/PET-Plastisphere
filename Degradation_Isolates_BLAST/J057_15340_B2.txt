@@ -1,0 +1,239 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|N6VY44|N6VY44_9ALTE Lipase OS=Marinobacter nanhaiticus D15-8W
+OX=626887 GN=J057_15340 PE=4 SV=1
+
+Length=291
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03830 Thermostable monoacylglycerol lipase                 30.0    0.12 
+  GFJPDDAG_02367 Proline iminopeptidase                               29.6    0.19 
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               27.7    1.1  
+  GFJPDDAG_02740 Ketol-acid reductoisomerase (NADP(+))                26.6    1.9  
+  GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA    26.2    2.4  
+  GFJPDDAG_01499 Protoheme IX farnesyltransferase 2                   25.8    2.9  
+  GFJPDDAG_01758 Dipeptidyl-peptidase 5                               26.2    3.0  
+  GFJPDDAG_00598 hypothetical protein                                 25.4    3.6  
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  25.0    5.5  
+  GFJPDDAG_01851 putative multidrug resistance ABC transporter AT...  25.4    5.7  
+  GFJPDDAG_04002 Periplasmic dipeptide transport protein              25.0    6.9  
+  GFJPDDAG_02623 Sodium/proline symporter                             24.6    8.6  
+  GFJPDDAG_02553 hypothetical protein                                 24.3    8.9  
+  GFJPDDAG_01604 hypothetical protein                                 24.3    9.1  
+
+
+> GFJPDDAG_03830 Thermostable monoacylglycerol lipase
+Length=242
+
+ Score = 30.0 bits (66),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 3/54 (6%)
+
+Query  191  DIETPTLIFACENDTVAPVGVHASPFYYDIPASTDKAFFEINNGNHF-CANGDN  243
+             + TPT I   END + P    A+ + Y+  +S +K  F  +   H  C + DN
+Sbjct  177  KVNTPTFIAQGENDGIVPPK--AAKYIYETISSQEKDLFYSSKAKHLICHSEDN  228
+
+
+> GFJPDDAG_02367 Proline iminopeptidase
+Length=280
+
+ Score = 29.6 bits (65),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 26/49 (53%), Gaps = 4/49 (8%)
+
+Query  188  DFDDIETPTLIFACENDTVAPVGVHASPFYYDIPASTDKAFFEINNGNH  236
+            D   I+TPT++F    D+  P  V++   ++ +P ST   F+   N NH
+Sbjct  215  DISRIKTPTIVFCGRYDSQCPF-VYSEEIFHLVPNST---FYIYENSNH  259
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 27.7 bits (60),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 19/33 (58%), Gaps = 9/33 (27%)
+
+Query  129  LDYLVDRSDSSFSAISGMVDGDRLGAVGWSMGG  161
+            +D LVD+         G+ D +R+G +GWS GG
+Sbjct  484  VDALVDK---------GIADKERVGVMGWSQGG  507
+
+
+> GFJPDDAG_02740 Ketol-acid reductoisomerase (NADP(+))
+Length=343
+
+ Score = 26.6 bits (57),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 23/40 (58%), Gaps = 3/40 (8%)
+
+Query  248  VLSKYGVSWMKLHIDQDARYGQFLCGP---NHESQYRISE  284
+            ++ + G+  M+  I   A++G F+ GP   N E++ R+ E
+Sbjct  237  LMYEQGLEGMRFSISDTAQWGDFVSGPRVVNEETKARMKE  276
+
+
+> GFJPDDAG_01632 Pyrimidine-specific ribonucleoside hydrolase RihA
+Length=308
+
+ Score = 26.2 bits (56),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 23/38 (61%), Gaps = 2/38 (5%)
+
+Query  76   MGGIVVIPGYLSYESSIEWWGERLASHGFVVMTIDTNT  113
+            MGG  ++PG +S  +   ++G+ ++SH   VM+I  N 
+Sbjct  147  MGGAFLVPGNVSKVAEANFFGDPVSSH--FVMSIVKNV  182
+
+
+> GFJPDDAG_01499 Protoheme IX farnesyltransferase 2
+Length=304
+
+ Score = 25.8 bits (55),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 43/109 (39%), Gaps = 23/109 (21%)
+
+Query  1    MNKLQKLPLTLTSAALLCAGGLTVNTA-------VAETRGPDPTEAYVEAEGPYNVDTIN  53
+            +N L  + LTL  ++L+ AG  T+N         + E     PT    +  GP       
+Sbjct  56   LNSLDTMFLTLIGSSLIIAGSCTINNVYDRDIDHLMERTKERPTVTG-KINGP-------  107
+
+Query  54   VSSLALGF----GGGTIHYPTNTTGQMGGIVVIPGYLSYESSIEWWGER  98
+              +L LGF     G  + + T  T  + G+V   G  SY      W +R
+Sbjct  108  -KALMLGFIMIAVGLIMLFMTTVTAGVIGLV---GVFSYVVLYTMWSKR  152
+
+
+> GFJPDDAG_01758 Dipeptidyl-peptidase 5
+Length=656
+
+ Score = 26.2 bits (56),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 43/184 (23%), Positives = 59/184 (32%), Gaps = 54/184 (29%)
+
+Query  99   LASHGFVVMTID-----------TNTIY-DQPGSRRDQIDAALDYLVDRSDSSFSAISGM  146
+            LAS G+ V+ ++            N +  D  G   + I  A+DY++             
+Sbjct  455  LASKGYAVLYVNPRGSHGYGQEFVNAVRGDYGGGDYEDIMRAVDYVLKEFP--------F  506
+
+Query  147  VDGDRLGAVGWSMGGGGT-LQLASGDRLSAAI---PLAPWNSSF---------------N  187
+            VD  RLG  G S GG  T   +   DR  AA+    ++ W S +                
+Sbjct  507  VDETRLGVTGGSYGGFMTNWIIGHSDRFKAAVTQRSISNWISFYGVSDIGYYFSEWQIQR  566
+
+Query  188  DFDDIE---------------TPTLIFACENDTVAPVGVHASPFYYDIPASTDKAFFEIN  232
+            D  DIE               TP LI   E D   P+      F        +  F    
+Sbjct  567  DLGDIETLWKHSPLAYVTEMNTPLLILHSEKDYRCPIEQAEQLFIALKREKKEAKFVRFP  626
+
+Query  233  NGNH  236
+              NH
+Sbjct  627  ESNH  630
+
+
+> GFJPDDAG_00598 hypothetical protein
+Length=170
+
+ Score = 25.4 bits (54),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 2/31 (6%)
+
+Query  1   MNKLQKLPLTLTSAALLCAGGLTVNTAVAET  31
+           M K +K+ + +T A  +CA G T++TA A +
+Sbjct  1   MKKFKKIMMGITVA--ICAFGFTISTASAAS  29
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 25.0 bits (53),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 19/39 (49%), Gaps = 1/39 (3%)
+
+Query  185  SFNDFDDIETPTLIFACENDTVAPVGVHASPFYYDIPAS  223
+            S N+   I+TP L+   E+D V P+         DIP S
+Sbjct  208  SANELRSIQTPCLLVWGEHDRVVPLST-GHKLKQDIPNS  245
+
+
+> GFJPDDAG_01851 putative multidrug resistance ABC transporter 
+ATP-binding/permease protein YheH
+Length=672
+
+ Score = 25.4 bits (54),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 24/52 (46%), Gaps = 4/52 (8%)
+
+Query  79   IVVIPGYLSYESSIEWWGERLASHGFVVMTIDTNTIYDQPGSRRDQIDAALD  130
+            IV IP    Y++  E  G  L        TI +N   D P   R+Q+DAAL 
+Sbjct  492  IVDIP----YQTIREHMGIVLQDPYLFTGTIASNVSLDDPRISREQVDAALK  539
+
+
+> GFJPDDAG_04002 Periplasmic dipeptide transport protein
+Length=537
+
+ Score = 25.0 bits (53),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 24/60 (40%), Gaps = 1/60 (2%)
+
+Query  229  FEINNGNHFCANGDNANDAVLSKYGVSWMKLHIDQDARYGQFLCGPNHESQYRISEYRGT  288
+            F +  G  F    D   DAV+  +   WM  + DQ   YG    G   +  + I E + T
+Sbjct  105  FMLREGVKFQDGTDLNADAVVKNFE-RWMNGNADQFPYYGSMFGGFKADEGHVIKEVKAT  163
+
+
+> GFJPDDAG_02623 Sodium/proline symporter
+Length=502
+
+ Score = 24.6 bits (52),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 26/54 (48%), Gaps = 7/54 (13%)
+
+Query  16   LLCAGGLTVNTAVAETRGPDPTEAYVEAEGPYNVDTIN-------VSSLALGFG  62
+            +  A  +T   A++E  G + T   V A  P N+DT+N       VS LA G G
+Sbjct  192  MFLALVITPIVAISELGGWNATVDAVRAVDPANLDTMNTMTGIGVVSLLAWGLG  245
+
+
+> GFJPDDAG_02553 hypothetical protein
+Length=260
+
+ Score = 24.3 bits (51),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 7/23 (30%), Positives = 12/23 (52%), Gaps = 0/23 (0%)
+
+Query  182  WNSSFNDFDDIETPTLIFACEND  204
+            W +  N+ + ++ P LI   E D
+Sbjct  185  WRTPLNELESLDAPVLIIHGEKD  207
+
+
+> GFJPDDAG_01604 hypothetical protein
+Length=255
+
+ Score = 24.3 bits (51),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 15/35 (43%), Positives = 18/35 (51%), Gaps = 1/35 (3%)
+
+Query  1    MNKLQKLPLTLTSAALLCAGGLTVNTAVAETRGPD  35
+            +  L+K P TL SAA L  G + V  AV     PD
+Sbjct  177  VKLLEKYP-TLESAAFLIVGWVGVKLAVFTLAHPD  210
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 173304472
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

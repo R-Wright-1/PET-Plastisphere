@@ -1,0 +1,202 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1Z2SIQ1|A0A1Z2SIQ1_VIBGA Uncharacterized protein OS=Vibrio
+gazogenes OX=687 GN=BSQ33_03270 PE=4 SV=1
+
+Length=298
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               29.6    0.22 
+  GFJPDDAG_03612 3-oxoacyl-[acyl-carrier-protein] reductase FabG      28.9    0.31 
+  GFJPDDAG_00053 1-deoxy-D-xylulose-5-phosphate synthase              28.9    0.41 
+  GFJPDDAG_01312 Dipicolinate synthase subunit B                      28.1    0.45 
+  GFJPDDAG_01703 hypothetical protein                                 27.7    0.87 
+  GFJPDDAG_01889 (R)-stereoselective amidase                          26.9    1.8  
+  GFJPDDAG_00234 Aspartate aminotransferase                           25.4    5.2  
+  GFJPDDAG_01815 putative metallophosphoesterase YhaO                 25.4    5.3  
+  GFJPDDAG_03280 Carboxylesterase                                     25.0    5.8  
+  GFJPDDAG_01737 putative spore germination protein GerPE             24.3    7.0  
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 29.6 bits (65),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 19/34 (56%), Gaps = 9/34 (26%)
+
+Query  134  AIDYVIDKGNDRSSPIYGLVDPNRVGVIGWSMGG  167
+             +D ++DKG         + D  RVGV+GWS GG
+Sbjct  483  GVDALVDKG---------IADKERVGVMGWSQGG  507
+
+
+> GFJPDDAG_03612 3-oxoacyl-[acyl-carrier-protein] reductase FabG
+Length=264
+
+ Score = 28.9 bits (63),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 24/91 (26%), Positives = 39/91 (43%), Gaps = 6/91 (7%)
+
+Query  18   FFSLPSFAVPCSDCSNGFERGQVPRVDQLESSRGPYSVKTINVSRLA-RGFGGGTIHYST  76
+            +FSL   +    +   G +RG +  +  L   RG +     + S+ A  GF     H + 
+Sbjct  120  YFSLVQLSQDVYNQMRGKKRGAIVNISSLSGLRGTHGNSAYSASKFAVTGFTQAFAHEAI  179
+
+Query  77   ESGGQQGIIAVVPGYVSLE---GSIKWWGPR  104
+            E   +  + A+ PGYV  E    +I+  G R
+Sbjct  180  EHNIR--VNAICPGYVDTEMGRNAIQSKGER  208
+
+
+> GFJPDDAG_00053 1-deoxy-D-xylulose-5-phosphate synthase
+Length=630
+
+ Score = 28.9 bits (63),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 2/47 (4%)
+
+Query  55   VKTINVSRLARGFGGGTIHYSTESGGQQGIIAV--VPGYVSLEGSIK  99
+            V TI  + L  GFG G + ++ E G  + +I    +P Y    GS+K
+Sbjct  556  VLTIEEAVLQGGFGSGVLEFAQEQGYHEAVIDRIGIPDYFIEHGSVK  602
+
+
+> GFJPDDAG_01312 Dipicolinate synthase subunit B
+Length=197
+
+ Score = 28.1 bits (61),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 36/77 (47%), Gaps = 3/77 (4%)
+
+Query  201  PTMIIACQADVVAPVSVHA-SRFYNQIPGTTPKAYFEIALGSHFCANTGYPSEDILGRNG  259
+            P + + C   V+AP++ ++ S+F N +  +      +  L +H     G  + D LG NG
+Sbjct  81   PKIPLDCM--VIAPLTGNSMSKFANAMTDSPVLMAAKATLRNHRPVVLGISTNDALGLNG  138
+
+Query  260  VAWMKRFIDKDERYTQF  276
+            V  M+    KD  +  F
+Sbjct  139  VNLMRLISTKDIYFIPF  155
+
+
+> GFJPDDAG_01703 hypothetical protein
+Length=257
+
+ Score = 27.7 bits (60),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 24/87 (28%), Positives = 35/87 (40%), Gaps = 7/87 (8%)
+
+Query  88   VPGYVSLEGSIKWWGPRLASWGFTVITIDTNTIYDQPDSRASQLSAAIDYVIDKGNDRSS  147
+            + G+ S +     +   LA  GF VI  D     ++   ++      + + I        
+Sbjct  33   IHGFTSAKEHNLHYAYYLAEKGFRVILPDALEHGERSTGKSEHQLGEVFWKIVLHTIHEL  92
+
+Query  148  PIY-------GLVDPNRVGVIGWSMGG  167
+            PI        GLV PN +GV G SMGG
+Sbjct  93   PILKEHFEEKGLVVPNGIGVAGTSMGG  119
+
+
+> GFJPDDAG_01889 (R)-stereoselective amidase
+Length=513
+
+ Score = 26.9 bits (58),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 31/134 (23%), Positives = 56/134 (42%), Gaps = 16/134 (12%)
+
+Query  91   YVSLEGSIKWWGPRLASW---GFTVITIDTNTIYDQPDSRASQLSAAIDYVIDKGNDRSS  147
+            YV   G  K + P L+     GFT++ I+ N + D  D R+ + +  +++        S 
+Sbjct  162  YVDSVGRHKIYDPVLSFQLLNGFTLMRINPNYLPD--DKRSHKYATLMEWNNVDYRPSSK  219
+
+Query  148  PIYGLVDPNRVGVIGWSMGGGGSLK-----------LATDRKIDAVIPQAPWYLGLSRFS  196
+              +    P R+ V+ + M    S +           +A+D K D V+    +   L  F 
+Sbjct  220  RHFKTSYPVRICVVQYMMRKINSFEEFANQVEYFTDVASDAKSDFVVFPEIFTTQLMSFL  279
+
+Query  197  SITSPTMIIACQAD  210
+            +I SP++ +    D
+Sbjct  280  NIQSPSLAVRRLTD  293
+
+
+> GFJPDDAG_00234 Aspartate aminotransferase
+Length=396
+
+ Score = 25.4 bits (54),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 18/71 (25%), Positives = 30/71 (42%), Gaps = 7/71 (10%)
+
+Query  27   PCSDCSNGFERGQVPRVDQLESSRGPYSVKTI-------NVSRLARGFGGGTIHYSTESG  79
+            P  D    FE       D+L +  G + +K         NVS  A+  G   +   T++ 
+Sbjct  290  PVEDMRQAFEERLTIVFDKLNNIPGFHCLKPQGAFYLFPNVSEAAKNTGYNNVDEFTKAL  349
+
+Query  80   GQQGIIAVVPG  90
+             ++  +AV+PG
+Sbjct  350  LEEAKVAVIPG  360
+
+
+> GFJPDDAG_01815 putative metallophosphoesterase YhaO
+Length=401
+
+ Score = 25.4 bits (54),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 24/108 (22%), Positives = 41/108 (38%), Gaps = 15/108 (14%)
+
+Query  155  PNRVG---VIGWSMGGGGSLKLATDR----KIDAVIPQAPWYLGLSRFSSITSPTMIIAC  207
+            P R G   +IG   G  GS+  + +      ID ++ +   Y  L           I+  
+Sbjct  153  PKRTGDRYMIGILHGSEGSIHSSHETYAPFSIDELLEKKYHYWALGHIHD----RRILHE  208
+
+Query  208  QADVVAPVSVHASRFYNQIPGTTPKAYFEIALGSHFCANTGYPSEDIL  255
+            +  +V P ++           T PK  +E+ L  H    T  P+ D++
+Sbjct  209  EPFIVYPGNIQG----RHRKETGPKGCYEVVLNQHHTELTFIPTHDLM  252
+
+
+> GFJPDDAG_03280 Carboxylesterase
+Length=248
+
+ Score = 25.0 bits (53),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 19/36 (53%), Gaps = 1/36 (3%)
+
+Query  156  NRVGVIGWSMGGGGSLKLATDRKIDAVIPQ-APWYL  190
+              + V G S+GG  SLKL     +  ++P  AP Y+
+Sbjct  85   EEIAVAGLSLGGVFSLKLGYTVPVKGIVPMCAPMYI  120
+
+
+> GFJPDDAG_01737 putative spore germination protein GerPE
+Length=135
+
+ Score = 24.3 bits (51),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 14/50 (28%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  2    MNVLTKCKLALGIIAIFFSLPSFAVPCSDCSNGFERGQVPRVDQLESSRG  51
+            +N L  C + +  I I  +  S  +   + SN +  G+V  + QLE  +G
+Sbjct  73   VNRLNLCPIKVNNIYIRATSFSSIIHIGNTSNVYMEGRVKNIRQLEKDKG  122
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 179108928
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

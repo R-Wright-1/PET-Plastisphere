@@ -1,0 +1,195 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|Q47RJ6|Q47RJ6_THEFY Triacylglycerol lipase OS=Thermobifida fusca
+(strain YX) OX=269800 GN=Tfu_0883 PE=4 SV=1
+
+Length=301
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  30.8    0.092
+  GFJPDDAG_02344 putative hydrolase                                   27.3    1.1  
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  25.8    3.1  
+  GFJPDDAG_00272 14.7 kDa ribonuclease H-like protein                 24.3    6.2  
+  GFJPDDAG_00861 hypothetical protein                                 25.0    6.4  
+  GFJPDDAG_03944 L-allo-threonine aldolase                            25.0    7.2  
+  GFJPDDAG_03091 Glutamate synthase [NADPH] small chain               25.0    7.4  
+  GFJPDDAG_03733 Cell wall-associated protease                        25.0    8.2  
+  GFJPDDAG_02299 Phenylalanine--tRNA ligase alpha subunit             24.6    9.5  
+  GFJPDDAG_02882 hypothetical protein                                 24.6    9.8  
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 30.8 bits (68),  Expect = 0.092, Method: Compositional matrix adjust.
+ Identities = 30/114 (26%), Positives = 52/114 (46%), Gaps = 8/114 (7%)
+
+Query  82   IYYPRENNTYGA-VAISPGYTGTEASIAWLGERIASHGFVVITIDTIT--TLDQPDSRAE  138
+            I+Y  E    G  +    G+TG   +   + +R++S+ +  I+ID I     D P   A 
+Sbjct  8    IHYFVEVKGQGKPLVFLHGFTGDTTTWTRVTDRLSSN-YRCISIDLIGHGRTDSPVDCAR  66
+
+Query  139  QLNAALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPL  192
+                 ++H IN    T+ +R++  +  ++G+SMGG   L      P    A+ L
+Sbjct  67   YTMEQVSHDIN----TILNRLEVIQAQLIGYSMGGRTALHFTLMHPQKVGALIL  116
+
+
+> GFJPDDAG_02344 putative hydrolase
+Length=281
+
+ Score = 27.3 bits (59),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  155  VRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPL  192
+            V SR+ +  + V+GHS G   +L +A Q P+    + L
+Sbjct  84   VISRLTTEPVYVLGHSWGADLSLHIAKQYPNQMKGLIL  121
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 25.8 bits (55),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 24/93 (26%), Positives = 42/93 (45%), Gaps = 10/93 (11%)
+
+Query  114  IASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRASSTVR--SRIDSSRLAVMGHSM  171
+            +    + VI+ID       P   +E+ N  +    N A++ +     ++ S + + GHSM
+Sbjct  50   LLKENYNVISIDL-----PPFGNSEKNNRFIYSYDNLANTVIDLLDHLNVSNVHLTGHSM  104
+
+Query  172  GGGGTLRLASQRPDL--KAAIPLTPWHLNK-NW  201
+            GG   L +  + P L  K  +  +  +L K NW
+Sbjct  105  GGQIALNVMKKAPSLVEKGVLLCSSGYLKKMNW  137
+
+
+> GFJPDDAG_00272 14.7 kDa ribonuclease H-like protein
+Length=128
+
+ Score = 24.3 bits (51),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 30/76 (39%), Gaps = 7/76 (9%)
+
+Query  87   ENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNH  146
+            E N  GA A +PG +G    I W GE +  H         +  +D  ++       AL  
+Sbjct  3    EVNIDGASAGNPGPSGAGIFIKWNGE-VEKHSI------PLGMMDNHEAEFTACKKALEL  55
+
+Query  147  MINRASSTVRSRIDSS  162
+             + +   TV  R DS 
+Sbjct  56   CLEKKDDTVWLRSDSQ  71
+
+
+> GFJPDDAG_00861 hypothetical protein
+Length=416
+
+ Score = 25.0 bits (53),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  95   AISPGYTGTEASIAWLGERIASHGF  119
+             I PG T TE  + W+ +R+   G 
+Sbjct  200  VIHPGITTTEDVVDWIRQRVLDSGL  224
+
+
+> GFJPDDAG_03944 L-allo-threonine aldolase
+Length=382
+
+ Score = 25.0 bits (53),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 30/68 (44%), Gaps = 3/68 (4%)
+
+Query  6    PRRERSSLLSRALQVTAAAATALVTAVSLAAPAHAANPYERGPNPTDALLEASSGPFSVS  65
+            P++   SLL    +VT    T  +  VS    A+  +  ++ PN     +E     F++ 
+Sbjct  316  PQKRVESLLIDLYEVTGIGLTGYIKEVSENECAYEVSVGDQYPNVPKEEIENF---FTLL  372
+
+Query  66   EENVSRLS  73
+             EN+  LS
+Sbjct  373  NENLQNLS  380
+
+
+> GFJPDDAG_03091 Glutamate synthase [NADPH] small chain
+Length=495
+
+ Score = 25.0 bits (53),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 29/104 (28%), Positives = 44/104 (42%), Gaps = 21/104 (20%)
+
+Query  194  PWHLNKNWSSVTVPTLIIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPN-  252
+            P    K+W+  T P       L     +   A+     +P+  S   +E++GAT   P  
+Sbjct  20   PEERTKDWNDYTSP-------LSEKEVMKQGARCMDCGVPTCQSG--MEINGATTGCPVY  70
+
+Query  253  --IP--NKIIGKYSVAW---LKR--FVDNDTRYTQFLCPGPRDG  287
+              IP  N ++  Y   W   LKR   ++N   +T F CP P +G
+Sbjct  71   HLIPEWNDLV--YQGQWKEALKREHQMNNFPEFTGFACPAPCEG  112
+
+
+> GFJPDDAG_03733 Cell wall-associated protease
+Length=1120
+
+ Score = 25.0 bits (53),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 20/34 (59%), Gaps = 0/34 (0%)
+
+Query  150  RASSTVRSRIDSSRLAVMGHSMGGGGTLRLASQR  183
+             ASSTV ++++  ++A    S  G  TL++  Q+
+Sbjct  896  EASSTVTAKVNGKQIATAKASSKGQFTLKIKKQK  929
+
+
+> GFJPDDAG_02299 Phenylalanine--tRNA ligase alpha subunit
+Length=345
+
+ Score = 24.6 bits (52),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  233  PSSISKAYLELDGATHFAPNI-PNKI-IGKYSVAWLKRFVDNDTRY-TQF  279
+            P+ +  A  +    T FA  + P +I + KY +  ++ F  NDTR+ TQF
+Sbjct  292  PNVLEMAGFDSKKYTGFAFGMGPERIAMLKYGIDDIRHFYTNDTRFVTQF  341
+
+
+> GFJPDDAG_02882 hypothetical protein
+Length=845
+
+ Score = 24.6 bits (52),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  105  ASIAWLGERIASHGFVVITIDTITTLDQPD  134
+            ASI W G+RI +  F V+   T  + D  D
+Sbjct  816  ASILWEGKRIVTQPFCVMVNCTCPSTDGHD  845
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 181596552
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

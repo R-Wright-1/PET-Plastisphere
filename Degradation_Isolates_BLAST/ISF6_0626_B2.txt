@@ -1,0 +1,143 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NXF4|A0A0K8NXF4_IDESA Protocatechuate 3,4-dioxygenase,
+alpha chain OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0626 PE=4 SV=1
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00731 hypothetical protein                                 30.4    0.079
+  GFJPDDAG_01447 Cell division protein FtsA                           25.8    2.6  
+  GFJPDDAG_01283 hypothetical protein                                 25.4    3.3  
+  GFJPDDAG_00088 hypothetical protein                                 25.0    4.2  
+  GFJPDDAG_01290 Ribonuclease Y                                       24.3    6.6  
+  GFJPDDAG_02647 Diacylglycerol kinase                                23.9    9.9  
+
+
+> GFJPDDAG_00731 hypothetical protein
+Length=398
+
+ Score = 30.4 bits (67),  Expect = 0.079, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 22/38 (58%), Gaps = 0/38 (0%)
+
+Query  30   PRQAGFEIFENDFGPVLVTPQTRGRRIRIEGTVIDGSG  67
+            P+  GFE+  ++ G ++ T   RG RI   G+V+  +G
+Sbjct  203  PKGNGFEVLLDEKGEIIETYSERGHRIPANGSVLSATG  240
+
+
+> GFJPDDAG_01447 Cell division protein FtsA
+Length=432
+
+ Score = 25.8 bits (55),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+
+Query  53   GRRIRIEGTVIDGSGTLVRDAL  74
+            G R+ +EGT+I GS T++ + L
+Sbjct  149  GVRLEMEGTIITGSKTILHNTL  170
+
+
+> GFJPDDAG_01283 hypothetical protein
+Length=386
+
+ Score = 25.4 bits (54),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 41/106 (39%), Gaps = 21/106 (20%)
+
+Query  58   IEGTVIDGSGTLVRDALLECWQANADGRYAHPGDRQSGQPLDPAFRGWGRACTDFDTGLY  117
+            I G VI+G+ TL  +   EC  A++   Y+   D + G    P   G+     DF    +
+Sbjct  247  IGGEVIEGTSTLRAEICQECSLADSTWSYSF-TDTEVGPTPAPTATGFQ---PDFS---F  299
+
+Query  118  AFDTIKPGRVVGRNGRRMAPHVNLWVVARGINLGLNTRIYFDDEPE  163
+             FD     RV   +G        L  V  GI        YFD  PE
+Sbjct  300  TFDPSSIDRVACGDGA-------LTAVGEGIR-------YFDGAPE  331
+
+
+> GFJPDDAG_00088 hypothetical protein
+Length=368
+
+ Score = 25.0 bits (53),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 27/63 (43%), Gaps = 3/63 (5%)
+
+Query  1    MSFRPID---SPLPLRETASQTAGPYVHIGLAPRQAGFEIFENDFGPVLVTPQTRGRRIR  57
+            + F+P+D   S L LR    +       I     Q   + F++   P++   + R R I 
+Sbjct  134  LEFQPVDDTNSSLYLRTFLEKLDSENERINYNTYQFNRDYFDDGIDPIMPYYKIRDRNIS  193
+
+Query  58   IEG  60
+            I+G
+Sbjct  194  IDG  196
+
+
+> GFJPDDAG_01290 Ribonuclease Y
+Length=519
+
+ Score = 24.3 bits (51),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 35/147 (24%), Positives = 56/147 (38%), Gaps = 23/147 (16%)
+
+Query  28   LAPRQAGFEIFENDFGPVLVTPQTRGRRI------RIEGTVIDG-SGTLVRDALLECWQA  80
+            L  RQ   E  E+    ++ + QT   RI        +G ++D     L  D  +   + 
+Sbjct  118  LNERQQHIEEMESKVDEMVRSQQTELERISSLTRDEAKGIILDRVENELSHDIAIMVREH  177
+
+Query  81   NADGRYAHPGDRQSGQPLDPAF-RGWGRACTDFDTGLYAF--DTIKPGRVVGRNGRRMAP  137
+              + R     D+++ + L  A  R       +    +     D +K GR++GR GR +  
+Sbjct  178  --ETRAKEDADKKAKEVLSLAIQRCAAEHVAETTVSVVNLPNDEMK-GRIIGREGRNIRT  234
+
+Query  138  HVNLWVVARGINLGLNTRIYFDDEPEA  164
+               L     GI+L        DD PEA
+Sbjct  235  LETLT----GIDL------IIDDTPEA  251
+
+
+> GFJPDDAG_02647 Diacylglycerol kinase
+Length=318
+
+ Score = 23.9 bits (50),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 9/36 (25%), Positives = 17/36 (47%), Gaps = 0/36 (0%)
+
+Query  33  AGFEIFENDFGPVLVTPQTRGRRIRIEGTVIDGSGT  68
+           +G E+F+     VL+  +  G    +  T+ +G  T
+Sbjct  26  SGRELFKKHLAEVLIKLEKAGYETSVHATICEGDAT  61
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.142    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 113666355
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

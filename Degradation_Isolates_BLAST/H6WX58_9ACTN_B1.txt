@@ -1,0 +1,231 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|H6WX58|H6WX58_9ACTN Serine hydrolase OS=Thermobifida halotolerans
+OX=483545 PE=4 SV=1
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             52.4    1e-08
+  DMKJLJHC_01741 Thermostable monoacylglycerol lipase                 33.9    0.011
+  DMKJLJHC_01054 Lipase 1                                             33.1    0.023
+  DMKJLJHC_03665 Ribose import ATP-binding protein RbsA               31.2    0.092
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        30.8    0.11 
+  DMKJLJHC_05388 hypothetical protein                                 28.5    0.22 
+  DMKJLJHC_03656 Lipid A biosynthesis lauroyltransferase              28.5    0.56 
+  DMKJLJHC_03150 Glutathione transport system permease protein GsiD   27.7    0.96 
+  DMKJLJHC_03967 Peptidase T                                          25.8    5.3  
+  DMKJLJHC_01629 Transcriptional activatory protein AadR              25.4    6.5  
+  DMKJLJHC_02582 Esterase YbfF                                        25.0    7.4  
+  DMKJLJHC_03662 Dihydroanticapsin 7-dehydrogenase                    25.4    8.0  
+  DMKJLJHC_02518 tRNA 2-selenouridine synthase                        25.0    8.4  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 49/99 (49%), Gaps = 11/99 (11%)
+
+Query  57   ISPGYTGTQSSISWLGERLASHGFVVMTIDT-NTTLDQPD--------SRASQLDAALDY  107
+            +S GY+G   + +WL ERLA  GF+ + +D   TT    D         R  Q+   LD 
+Sbjct  78   LSHGYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERPHQVSRVLDA  137
+
+Query  108  MVEDSSYSVRNRIDSSRLAAMGHSMGGGGTLRLAERRPD  146
+            ++ D       RID  R++ +GHS+GG   L LA  R D
+Sbjct  138  VLADPKLG--PRIDRKRISVIGHSLGGSTALFLAGGRFD  174
+
+
+> DMKJLJHC_01741 Thermostable monoacylglycerol lipase
+Length=254
+
+ Score = 33.9 bits (76),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 34/110 (31%), Positives = 50/110 (45%), Gaps = 8/110 (7%)
+
+Query  45   YPTDNNTFGAVAISPGYTGTQSSISWLGERLASH-GFVVMTIDTNTTLDQPDSRASQLDA  103
+            +  + N  G + I  G+TG+  S+ +LG+ L    GF V+          PD  +     
+Sbjct  11   FAFEGNETGVLVIH-GFTGSTQSMRYLGQSLHERFGFTVLGPCLPGHGTSPDEMSKT--G  67
+
+Query  104  ALDYM--VEDSSYSVRNRIDSSRLAAMGHSMGGGGTLRLAERRPDLQAAI  151
+             LD++  VE +  ++  R    R+   G SMGG  TL LA R P L   I
+Sbjct  68   YLDWLGAVERALEALAAR--KKRVFVTGLSMGGTLTLNLAARFPKLVQGI  115
+
+
+> DMKJLJHC_01054 Lipase 1
+Length=319
+
+ Score = 33.1 bits (74),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 14/55 (25%), Positives = 28/55 (51%), Gaps = 3/55 (5%)
+
+Query  167  VPTLIIGAENDTIASVRSHSEPFYNSLPGSLDKAYLELDGASHFAPNLSNTTIAK  221
+            +P + +    DTI S + H+ PF  ++PG+     + L G  H  P+++   + +
+Sbjct  256  LPVVSVHGTADTIVSEKIHAIPFTKTVPGA---TLISLKGIGHMTPHVATKQVVE  307
+
+
+> DMKJLJHC_03665 Ribose import ATP-binding protein RbsA
+Length=512
+
+ Score = 31.2 bits (69),  Expect = 0.092, Method: Compositional matrix adjust.
+ Identities = 26/87 (30%), Positives = 40/87 (46%), Gaps = 7/87 (8%)
+
+Query  20   RGPFRVDEE-RVSRLQARGFGGGTIYYPTDNNTFGAVAISPGYTGTQSSISWLGERLASH  78
+            +G  R+D+  RV R  A     G +Y P D    GA+   P +     ++  LG + + H
+Sbjct  317  KGAVRIDDRVRVIRSPAAAIDEGIVYVPEDRGKQGAITQLPIFQNV--TLPSLG-KTSRH  373
+
+Query  79   GFVVMTID---TNTTLDQPDSRASQLD  102
+            GF  M  +     T  ++ D RA+ LD
+Sbjct  374  GFTRMAEEFALARTYCERLDLRAAALD  400
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 30.8 bits (68),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  120  IDSSRLAAMGHSMGGGGTLRLAERRPD  146
+            ID+ R +  GHSMGG G L LA   P+
+Sbjct  135  IDTERQSITGHSMGGHGALTLAMHMPE  161
+
+
+> DMKJLJHC_05388 hypothetical protein
+Length=91
+
+ Score = 28.5 bits (62),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 21/51 (41%), Gaps = 3/51 (6%)
+
+Query  160  KTWGSVRVPTLIIGAENDTIASVRSHSEPFYNSLPGSLDKAYLELDGASHF  210
+            + +G +  P  +I    DT   +  HSEP    LP   D     L GA H 
+Sbjct  21   RHYGRIDCPAELIHGTADTTVPLAVHSEPLSRQLP---DAHLTTLPGAGHM  68
+
+
+> DMKJLJHC_03656 Lipid A biosynthesis lauroyltransferase
+Length=291
+
+ Score = 28.5 bits (62),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 15/37 (41%), Positives = 19/37 (51%), Gaps = 5/37 (14%)
+
+Query  33   LQARGFGGGTIYYPTDNNTFGAVAISPGYTGTQSSIS  69
+            L ARG+  G IY P +N  F A      Y  T S+I+
+Sbjct  137  LSARGYRVGAIYRPMNNQAFNA-----QYVATISAIA  168
+
+
+> DMKJLJHC_03150 Glutathione transport system permease protein 
+GsiD
+Length=271
+
+ Score = 27.7 bits (60),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 14/55 (25%), Positives = 24/55 (44%), Gaps = 1/55 (2%)
+
+Query  207  ASHFAPNLSNTTIAKYSISW-LKRFVDDDTRYTQFLCPGPSTGWGSDVEEYRSTC  260
+            A H APN++N  I + +I + L    +    Y       P+  WG  + E ++  
+Sbjct  176  AEHIAPNIANLLIVQGTIQFSLGILAEAGLSYVGLGAQPPTPSWGRMLAEAQTMV  230
+
+
+> DMKJLJHC_03967 Peptidase T
+Length=413
+
+ Score = 25.8 bits (55),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 14/63 (22%)
+
+Query  36   RGFGGGTIYYPTDNNTFGAVAISPGYTGTQSSISWLGERLASHGFVVMTIDTNTTLDQPD  95
+            RG+ GGTI YP   +   +  +SP          +LGE+L   G  ++T  + TTL   D
+Sbjct  100  RGYNGGTITYPDAPDLLLSPEVSP----------YLGEKL---GHDIITA-SGTTLLGAD  145
+
+Query  96   SRA  98
+             +A
+Sbjct  146  DKA  148
+
+
+> DMKJLJHC_01629 Transcriptional activatory protein AadR
+Length=242
+
+ Score = 25.4 bits (54),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 18/30 (60%), Gaps = 0/30 (0%)
+
+Query  143  RRPDLQAAIPLTPWHTDKTWGSVRVPTLII  172
+            R+ DL  A+ L+  HT+KT   +R   L+I
+Sbjct  182  RQQDLADALGLSLVHTNKTLSRLRTENLVI  211
+
+
+> DMKJLJHC_02582 Esterase YbfF
+Length=257
+
+ Score = 25.0 bits (53),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+
+Query  128  MGHSMGGGGTLRLAERRPD  146
+            +GHSMGG   + LA   PD
+Sbjct  82   LGHSMGGKAAMMLALTHPD  100
+
+
+> DMKJLJHC_03662 Dihydroanticapsin 7-dehydrogenase
+Length=698
+
+ Score = 25.4 bits (54),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 27/62 (44%), Gaps = 7/62 (11%)
+
+Query  21   GPFRVDEERVSRLQARGFGGGTIYYPTDNNTFGAVAISP---GYTGTQSSISWLGERLAS  77
+            G F V  E    ++A+G GG  I+  + N     +A SP    Y   ++S   L   LA 
+Sbjct  549  GYFLVSREAFKVMRAQGIGGSIIFVASKN----GLAASPNASAYCTAKASEIHLARCLAL  604
+
+Query  78   HG  79
+             G
+Sbjct  605  EG  606
+
+
+> DMKJLJHC_02518 tRNA 2-selenouridine synthase
+Length=357
+
+ Score = 25.0 bits (53),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  171  IIGAENDTIASVRSHSEPFYNSLPGSLDKAYLELD  205
+            + G + DTI  VRS SE   + +PG+++   L+ D
+Sbjct  9    VAGLDFDTIIDVRSPSEFAEDHIPGAINLPVLDDD  43
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233326316
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

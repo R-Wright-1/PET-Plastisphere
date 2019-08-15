@@ -1,0 +1,239 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P2I5|A0A0K8P2I5_IDESA 30S ribosomal protein S13
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=rpsM PE=3 SV=1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_04156 30S ribosomal protein S13                            153     2e-50
+  GFJPDDAG_02320 Formamidopyrimidine-DNA glycosylase                  28.9    0.058
+  GFJPDDAG_01538 Putative multidrug export ATP-binding/permease p...  28.9    0.070
+  GFJPDDAG_02848 Pseudouridine-5'-phosphate glycosidase               27.7    0.16 
+  GFJPDDAG_04001 Oligopeptide transport ATP-binding protein OppF      25.4    1.2  
+  GFJPDDAG_04263 hypothetical protein                                 24.3    2.5  
+  GFJPDDAG_00526 Oligoendopeptidase F, plasmid                        24.3    2.7  
+  GFJPDDAG_03068 hypothetical protein                                 23.5    2.8  
+  GFJPDDAG_00158 hypothetical protein                                 24.3    3.1  
+  GFJPDDAG_00408 HTH-type transcriptional regulator AcrR              23.9    3.2  
+  GFJPDDAG_01578 3-oxoacyl-[acyl-carrier-protein] reductase FabG      23.1    6.5  
+  GFJPDDAG_00606 hypothetical protein                                 23.1    6.6  
+  GFJPDDAG_01987 hypothetical protein                                 22.3    7.2  
+  GFJPDDAG_00136 Spore germination protein A1                         22.7    8.8  
+
+
+> GFJPDDAG_04156 30S ribosomal protein S13
+Length=121
+
+ Score = 153 bits (386),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 76/121 (63%), Positives = 94/121 (78%), Gaps = 0/121 (0%)
+
+Query  1    MARIAGINIPPHKHTEIGLTAIYGIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEI  60
+            MARIAG++IP  K   I LT IYGIG+ TA +I +  GV  D +++DLTD +L KIR+ +
+Sbjct  1    MARIAGVDIPRDKRVVISLTYIYGIGKNTAAKILSEAGVSEDTRVRDLTDDELGKIRDIV  60
+
+Query  61   GRLTIEGDLRREMSINIKRLMDLGCYRGFRHRRGLPVRGQRTKTNARTRKGPRKSGALVK  120
+             +L +EGDLRRE+S+NIKRLM++G YRG RHRRGLPVRGQ TK NARTRKGPRK+ A  K
+Sbjct  61   DKLKVEGDLRREVSLNIKRLMEIGSYRGLRHRRGLPVRGQHTKNNARTRKGPRKTVANKK  120
+
+Query  121  K  121
+            K
+Sbjct  121  K  121
+
+
+> GFJPDDAG_02320 Formamidopyrimidine-DNA glycosylase
+Length=274
+
+ Score = 28.9 bits (63),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 26/48 (54%), Gaps = 0/48 (0%)
+
+Query  13   KHTEIGLTAIYGIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEI  60
+            K T +  T + G+G     +   R G+  DRK K L+  ++E++ E+I
+Sbjct  160  KATLLDQTVLVGLGNIYVDEALFRAGIHPDRKSKALSRKEVERLHEQI  207
+
+
+> GFJPDDAG_01538 Putative multidrug export ATP-binding/permease 
+protein
+Length=581
+
+ Score = 28.9 bits (63),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 27/49 (55%), Gaps = 4/49 (8%)
+
+Query  17   IGLTAIYGIGRTTAQQICTRTGVPFDRKI----KDLTDADLEKIREEIG  61
+            IGL    G G+T+  Q+ TR   P + +I    +DL +  L+ +R+ IG
+Sbjct  365  IGLIGGTGSGKTSITQLITRFYEPEEGEILIDGRDLKEYSLKSLRQNIG  413
+
+
+> GFJPDDAG_02848 Pseudouridine-5'-phosphate glycosidase
+Length=311
+
+ Score = 27.7 bits (60),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 27/61 (44%), Gaps = 9/61 (15%)
+
+Query  63   LTIEGDLRREMSINI-------KRLMDLGCYRGFRHRRGLPVRGQRTKT--NARTRKGPR  113
+            + I  DL      N+       K ++D+G    +   +G+PV G +T +     TRK P 
+Sbjct  139  MDISADLEELAKSNVAVVCAGAKSILDIGLTLEYLETKGVPVLGFKTDSLPAFYTRKSPY  198
+
+Query  114  K  114
+            K
+Sbjct  199  K  199
+
+
+> GFJPDDAG_04001 Oligopeptide transport ATP-binding protein OppF
+Length=321
+
+ Score = 25.4 bits (54),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 15/64 (23%), Positives = 33/64 (52%), Gaps = 7/64 (11%)
+
+Query  4   IAGINIPPHKHTEIGLTAIYGIGRTTAQQICTRTGVPF-------DRKIKDLTDADLEKI  56
+           + G++   +K   +G+    G G++T  ++  R   P        DR++  L+++D+ K+
+Sbjct  32  VDGVSFTVNKGETLGIVGESGCGKSTTGRMLMRLIDPSEGKVTFEDRELTSLSNSDMRKV  91
+
+Query  57  REEI  60
+           R E+
+Sbjct  92  RREM  95
+
+
+> GFJPDDAG_04263 hypothetical protein
+Length=310
+
+ Score = 24.3 bits (51),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 23/47 (49%), Gaps = 6/47 (13%)
+
+Query  33   ICTRTGVPFDRKIKDLTDADLEKIREEIGRLTIEGDLRREMSINIKR  79
+            +  + GV  D+ ++D+       IREE GR        +E+S+ + R
+Sbjct  171  VTLQAGVGLDQALRDIVPYFEGPIREEFGRFI------QELSVGVPR  211
+
+
+> GFJPDDAG_00526 Oligoendopeptidase F, plasmid
+Length=595
+
+ Score = 24.3 bits (51),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 23/47 (49%), Gaps = 12/47 (26%)
+
+Query  21   AIYGIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEIGRLTIEG  67
+            AI G+ R   +Q          +K+KD  D DLEK+   I  L+I G
+Sbjct  127  AIAGMERFVTEQ---------RKKVKDQLDPDLEKV---IHSLSIHG  161
+
+
+> GFJPDDAG_03068 hypothetical protein
+Length=83
+
+ Score = 23.5 bits (49),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 13/29 (45%), Positives = 17/29 (59%), Gaps = 7/29 (24%)
+
+Query  60  IGRLTIEGDLRREMSINIKRLMDLGCYRG  88
+           I  L++EG +RR       RL+DLG  RG
+Sbjct  20  ITSLSLEGTMRR-------RLLDLGFVRG  41
+
+
+> GFJPDDAG_00158 hypothetical protein
+Length=354
+
+ Score = 24.3 bits (51),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 11/16 (69%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  41  FDRKIKDLTDADLEKI  56
+           FD KIK+L  ADL KI
+Sbjct  60  FDYKIKELETADLVKI  75
+
+
+> GFJPDDAG_00408 HTH-type transcriptional regulator AcrR
+Length=198
+
+ Score = 23.9 bits (50),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 8/12 (67%), Positives = 10/12 (83%), Gaps = 0/12 (0%)
+
+Query  76  NIKRLMDLGCYR  87
+           NIK+L DL C+R
+Sbjct  82  NIKKLFDLFCHR  93
+
+
+> GFJPDDAG_01578 3-oxoacyl-[acyl-carrier-protein] reductase FabG
+Length=245
+
+ Score = 23.1 bits (48),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 24/54 (44%), Gaps = 6/54 (11%)
+
+Query  24  GIGRTTAQQICTRTGVPFDRKIKDLTDADLEKIREEIGRLTIEGDLRREMSINI  77
+           GIG+T  +    +        I +  D D EK RE+   L  EG + R   +N+
+Sbjct  14  GIGKTLVEHFAKQGA------IVEFMDMDGEKGREQSRLLNSEGYITRFHEVNV  61
+
+
+> GFJPDDAG_00606 hypothetical protein
+Length=298
+
+ Score = 23.1 bits (48),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 11/47 (23%), Positives = 23/47 (49%), Gaps = 2/47 (4%)
+
+Query  69   LRREMSINIKRLMDLGCYRGFRHR--RGLPVRGQRTKTNARTRKGPR  113
+            L +E+ +N+K + ++    GF +R      +  +R +     +K PR
+Sbjct  15   LSKELKLNVKEMFNIFLINGFINRVDENWVLTEKRKQIGGTIKKHPR  61
+
+
+> GFJPDDAG_01987 hypothetical protein
+Length=110
+
+ Score = 22.3 bits (46),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 10/35 (29%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  13  KHTEIGLTAIYGIGRTTAQQICTRTGVPFDRKIKD  47
+           K+  IG+TA        AQ+I  +     DR++++
+Sbjct  40  KYNNIGVTAADKFTFKDAQEIMKKIETRLDREVEN  74
+
+
+> GFJPDDAG_00136 Spore germination protein A1
+Length=492
+
+ Score = 22.7 bits (47),  Expect = 8.8, Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+
+Query  1    MARIAGINIPPHKHTEIGLTAIYGIGR  27
+            M RIA I+ P    T +GL A   IG+
+Sbjct  348  MFRIAAIHTPTPLSTAMGLIAAVLIGQ  374
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 42716142
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

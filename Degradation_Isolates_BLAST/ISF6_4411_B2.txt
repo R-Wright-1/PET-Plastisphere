@@ -1,0 +1,171 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P6J1|A0A0K8P6J1_IDESA Flagellin OS=Ideonella sakaiensis
+(strain 201-F6) OX=1547922 GN=ISF6_4411 PE=3 SV=1
+
+Length=268
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03179 Flagellin                                            134     4e-38
+  GFJPDDAG_03175 Flagellar hook-associated protein 3                  64.3    7e-13
+  GFJPDDAG_02531 hypothetical protein                                 26.9    0.86 
+  GFJPDDAG_01312 Dipicolinate synthase subunit B                      25.4    3.4  
+  GFJPDDAG_01740 ATP-dependent helicase/deoxyribonuclease subunit B   25.0    6.1  
+  GFJPDDAG_00978 hypothetical protein                                 24.6    6.6  
+
+
+> GFJPDDAG_03179 Flagellin
+Length=382
+
+ Score = 134 bits (338),  Expect = 4e-38, Method: Compositional matrix adjust.
+ Identities = 67/140 (48%), Positives = 96/140 (69%), Gaps = 0/140 (0%)
+
+Query  5    INTNVQSINAQRNLSASQGSLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGINVA  64
+            IN N+ ++N  R L+++  +   SM++LSSG+RIN A DDAAGLAI+++M  Q+RG++ A
+Sbjct  3    INHNIAALNTYRQLNSASTAQGKSMEKLSSGMRINKAGDDAAGLAISEKMRGQIRGLDQA  62
+
+Query  65   IRNANDGISLAQTAEGALSTVTDVLQRMRELAVQAQNGSNGTSDRANLDTEFQQLNEEIT  124
+             +N+ D IS+ QTAEGAL+    +LQRMREL+VQ+ N +N T DR N+  E  QL  E+ 
+Sbjct  63   SKNSQDAISMIQTAEGALNETHSILQRMRELSVQSANDTNTTEDRKNIQDEMNQLGTEVE  122
+
+Query  125  RIAGQTKFNGTAIVGASAGA  144
+            RI  QT+FN   ++    GA
+Sbjct  123  RIGNQTEFNTKKLLNGKMGA  142
+
+
+ Score = 68.9 bits (167),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 35/96 (36%), Positives = 57/96 (59%), Gaps = 4/96 (4%)
+
+Query  143  GAQTFQVGANNGDTLTITTSQVSA----LSGNSITSASNASTALAAIDTKLDSITTDRAT  198
+            G+ TF +GANNG T+ ++   + A    +    + + S A TA+  +D  +  ++T+R+ 
+Sbjct  285  GSSTFHIGANNGQTINLSVEDMRASTLGVKDLQVGTQSQAETAMKVVDQAIQKVSTERSK  344
+
+Query  199  YGAMMNRFQFTIQNLQTTNENQTAARGRIMDTDFAV  234
+             G+  NR + TI NL T++EN TAA  RI D D+A+
+Sbjct  345  LGSYQNRLEHTINNLNTSSENLTAAESRIRDVDYAL  380
+
+
+> GFJPDDAG_03175 Flagellar hook-associated protein 3
+Length=301
+
+ Score = 64.3 bits (155),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 57/234 (24%), Positives = 101/234 (43%), Gaps = 37/234 (16%)
+
+Query  13   NAQRNLSASQGSLSTSMQRLSSGLRINSAKDDAAGLAIADRMNAQVRGINVAIRNANDGI  72
+            N+ RNLS+S G +     +L++G +I    DD           + + GI    RN ++  
+Sbjct  11   NSMRNLSSSYGRMGQLQDQLATGKKITKPSDDPVVAMKGMFYRSNLTGIEQYKRNLSELY  70
+
+Query  73   SLAQTAEGALSTVTDVLQRMRELAVQAQNGSNGTSDRANLDTEFQQLNEEI-----TRIA  127
+               + +E  +      LQR+REL +Q +NG+    DR  + TE +Q+  ++     T++A
+Sbjct  71   LWMENSESGIEQANQGLQRVRELTIQGKNGTLSDEDRKAVATEIEQIKNDLVSVSETKVA  130
+
+Query  128  GQTKFNGTAI------VGASAGAQTFQVGANNG----DTLTITTSQVSALSGN-------  170
+            G+  F+GT +       G  A     QV  N G    D   +  SQ  +L  N       
+Sbjct  131  GRYIFHGTDVGNSPIKDGNPADGSAPQVADNLGSGSIDAYPVEVSQGVSLKANVNPNNVF  190
+
+Query  171  -------------SITSASNAS--TALAAIDTKLDSITTDRATYGAMMNRFQFT  209
+                         +  S  +++  T L  +D+ +++++ +R+  GA  NR +  
+Sbjct  191  NQKLFDTVHNIQKAFESGDDSALDTELENLDSVMNTLSAERSELGARYNRLEMV  244
+
+
+> GFJPDDAG_02531 hypothetical protein
+Length=167
+
+ Score = 26.9 bits (58),  Expect = 0.86, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 32/76 (42%), Gaps = 5/76 (7%)
+
+Query  106  TSDRANLDTEFQQLNEEITRIAGQTKFNGTA--IVGASAGAQTFQVGANNGDTLTITTSQ  163
+            + D  N+    Q LN     I     ++  A  ++G   G  T Q+G  NG+ +T+    
+Sbjct  35   SHDAENIFNRNQWLNSWTNGIYDYHHYHSDAHEVLGVMEGDATVQLGGKNGEEVTVHKGD  94
+
+Query  164  VSALS---GNSITSAS  176
+            V  L    G+   SAS
+Sbjct  95   VIILPAGTGHKKLSAS  110
+
+
+> GFJPDDAG_01312 Dipicolinate synthase subunit B
+Length=197
+
+ Score = 25.4 bits (54),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 34/75 (45%), Gaps = 9/75 (12%)
+
+Query  106  TSDRANLDTEFQQLNEEITRIAGQTKFNGTAIVGASAGAQTFQVGANNGDTLTITTSQVS  165
+            TS   N +T F +  + I RI   T   G  ++ +   A+        G  + +    ++
+Sbjct  41   TSTVMNTETRFGKGEDWIKRIEDVT---GHKVIDSIVKAEPL------GPKIPLDCMVIA  91
+
+Query  166  ALSGNSITSASNAST  180
+             L+GNS++  +NA T
+Sbjct  92   PLTGNSMSKFANAMT  106
+
+
+> GFJPDDAG_01740 ATP-dependent helicase/deoxyribonuclease subunit 
+B
+Length=1162
+
+ Score = 25.0 bits (53),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 12/28 (43%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  237  ANLSRAQILQQAGTAMVAQANQLPQQVL  264
+            A+LS+AQ +Q A  A++  A +L  Q+L
+Sbjct  847  ASLSKAQCIQLAKEAVLMLAPKLQHQIL  874
+
+
+> GFJPDDAG_00978 hypothetical protein
+Length=415
+
+ Score = 24.6 bits (52),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 29/100 (29%), Positives = 45/100 (45%), Gaps = 10/100 (10%)
+
+Query  133  NGTAIVGA--SAGAQTFQVGANNGDTLTITTSQVSALSGNSITSASNASTALAAIDTKLD  190
+             G  IV A  S G+    +   + DT  I   +   L    +TS   A T L+AI + L 
+Sbjct  5    KGIWIVPALYSVGSLALAIVTVSLDTYWIHKLE-PFLPVIMLTSIDLAQTVLSAIASSLL  63
+
+Query  191  SITTDRATYGAMMNRF-----QFTIQNLQTTNENQTAARG  225
+            ++TT   T+  +M        QF+ + LQ   +++T  RG
+Sbjct  64   TMTT--FTFSTVMVVLTTYSSQFSPRTLQNFVKDKTTMRG  101
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.121    0.306    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 155857581
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

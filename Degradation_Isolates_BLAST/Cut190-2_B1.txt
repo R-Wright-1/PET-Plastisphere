@@ -1,0 +1,255 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|W0TJ64|W0TJ64_9PSEU Alpha/beta hydrolase family protein
+OS=Saccharomonospora viridis OX=1852 GN=Cut190 PE=1 SV=1
+
+Length=304
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             43.9    9e-06
+  DMKJLJHC_01054 Lipase 1                                             36.6    0.002
+  DMKJLJHC_01741 Thermostable monoacylglycerol lipase                 29.6    0.32 
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        29.6    0.33 
+  DMKJLJHC_05298 hypothetical protein                                 28.5    0.94 
+  DMKJLJHC_06781 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-d...  27.7    1.1  
+  DMKJLJHC_02999 Single-stranded-DNA-specific exonuclease RecJ        26.9    2.8  
+  DMKJLJHC_02209 hypothetical protein                                 26.2    4.9  
+  DMKJLJHC_03564 B-type flagellin                                     26.2    5.0  
+  DMKJLJHC_03657 hypothetical protein                                 25.8    5.7  
+  DMKJLJHC_01172 Acylamidase                                          25.4    7.5  
+  DMKJLJHC_01028 hypothetical protein                                 25.4    7.7  
+  DMKJLJHC_03678 Ferri-bacillibactin esterase BesA                    25.4    8.4  
+  DMKJLJHC_03029 Carboxylesterase NlhH                                25.4    8.5  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 43.9 bits (102),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 46/94 (49%), Gaps = 23/94 (24%)
+
+Query  105  GFTASQGSMSWYGERVASQGFIVFTIDTNTRLDQPG---------------QRGRQLLAA  149
+            G++    + +W  ER+A  GFI         LDQPG               +R  Q+   
+Sbjct  81   GYSGLWRNQAWLAERLARAGFIAVA------LDQPGTTFGDLDPAWATHLTERPHQVSRV  134
+
+Query  150  LDYLVERSDRKVRERLDPNRLAVMGHSMGGGGSL  183
+            LD ++  +D K+  R+D  R++V+GHS+GG  +L
+Sbjct  135  LDAVL--ADPKLGPRIDRKRISVIGHSLGGSTAL  166
+
+
+> DMKJLJHC_01054 Lipase 1
+Length=319
+
+ Score = 36.6 bits (83),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 28/103 (27%), Positives = 45/103 (44%), Gaps = 13/103 (13%)
+
+Query  178  GGGGSLEATVMR------PSLKASIPLTPWNLDKTWGQVQVPTFIIGAELDTIASVRTHA  231
+            G G +L  T MR       SLK+ I      +   + Q+ +P   +    DTI S + HA
+Sbjct  220  GPGMTLRVTTMRVNARERASLKSQIA----QMIPKYPQLDLPVVSVHGTADTIVSEKIHA  275
+
+Query  232  KPFYESLPSSLPKAYMELDGATHFAPNIPNTTIAKYVISWLKR  274
+             PF +++P +     + L G  H  P++    + + V    KR
+Sbjct  276  IPFTKTVPGA---TLISLKGIGHMTPHVATKQVVEAVNEVAKR  315
+
+
+> DMKJLJHC_01741 Thermostable monoacylglycerol lipase
+Length=254
+
+ Score = 29.6 bits (65),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 44/106 (42%), Gaps = 7/106 (7%)
+
+Query  94   EGTFGAVAVAPGFTASQGSMSWYGERVASQ-GFIVFTIDTNTRLDQPGQRGRQLLAALDY  152
+            EG    V V  GFT S  SM + G+ +  + GF V           P +  +     LD+
+Sbjct  14   EGNETGVLVIHGFTGSTQSMRYLGQSLHERFGFTVLGPCLPGHGTSPDEMSKT--GYLDW  71
+
+Query  153  L--VERSDRKVRERLDPNRLAVMGHSMGGGGSLEATVMRPSLKASI  196
+            L  VER+   +  R    R+ V G SMGG  +L      P L   I
+Sbjct  72   LGAVERALEALAAR--KKRVFVTGLSMGGTLTLNLAARFPKLVQGI  115
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 29.6 bits (65),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 19/57 (33%), Positives = 30/57 (53%), Gaps = 7/57 (12%)
+
+Query  165  LDPNRLAVMGHSMGGGGSLEATVMRP----SLKASIPL-TPWNLDKTWGQVQVPTFI  216
+            +D  R ++ GHSMGG G+L   +  P    S+ A  P+  P   D  WG+ Q+  ++
+Sbjct  135  IDTERQSITGHSMGGHGALTLAMHMPERFRSVSAFAPIANPTQSD--WGRKQLGAYL  189
+
+
+> DMKJLJHC_05298 hypothetical protein
+Length=326
+
+ Score = 28.5 bits (62),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 32/133 (24%), Positives = 47/133 (35%), Gaps = 33/133 (25%)
+
+Query  98   GAVAVAP-GFTASQGSMSWYGERVASQGFIVFTIDTNTRLDQPG--------QRGRQLLA  148
+            G VA+A  G   + GS  W G          F +    R DQ          + GR++ A
+Sbjct  102  GRVAMADLGDLRASGSRRWLGR------LAFFRMAQEQRTDQHDATLNQAEPEEGRRISA  155
+
+Query  149  ALDYLVERSDRKVRERLDPNRLAVMGHSMGGGGSLEATVMRPSLKASIPLTPWNLDKTWG  208
+            ALD+  +R D + R                     EA   +   KA+I L P++     G
+Sbjct  156  ALDHHADRDDGQGR------------------ACAEAASHKAHGKAAIVLEPFHCGPDRG  197
+
+Query  209  QVQVPTFIIGAEL  221
+            ++       G  L
+Sbjct  198  RIDTARGKAGQRL  210
+
+
+> DMKJLJHC_06781 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate 
+ligase
+Length=179
+
+ Score = 27.7 bits (60),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 22/51 (43%), Gaps = 0/51 (0%)
+
+Query  109  SQGSMSWYGERVASQGFIVFTIDTNTRLDQPGQRGRQLLAALDYLVERSDR  159
+             +G     G+ VA+   + F  D N R + P      +LAA    VE  DR
+Sbjct  74   DRGKRPLMGQAVATHADLAFVTDDNPRSEDPATIRAAILAACPEAVEVGDR  124
+
+
+> DMKJLJHC_02999 Single-stranded-DNA-specific exonuclease RecJ
+Length=584
+
+ Score = 26.9 bits (58),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 11/38 (29%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  116  YGERVASQGFIVFTIDTNTRLDQPGQRGRQLLAALDYL  153
+             G   A+    +  ++TN ++ + GQ+G  L+A LD +
+Sbjct  204  LGHLCAASVVFLMLVETNRQMREAGQKGPDLMAMLDLV  241
+
+
+> DMKJLJHC_02209 hypothetical protein
+Length=462
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 12/38 (32%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  248  ELDGAT--HFAPNIPNTTIAKYVISWLKRFVDEDTRYS  283
+            EL G T  H +P+ P     +  ++  +RF+DED+ ++
+Sbjct  387  ELLGITPIHLSPDFPAEATEEASLALSRRFMDEDSYFA  424
+
+
+> DMKJLJHC_03564 B-type flagellin
+Length=476
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 39/153 (25%), Positives = 64/153 (42%), Gaps = 14/153 (9%)
+
+Query  103  APGFTASQGSMSWYGERVASQGFIVFTIDTNTRLDQPGQRGRQL---LAALDYLVERSDR  159
+            A G TAS G     G  + +QG + F  DT   +   G  G Q    L AL  +   +  
+Sbjct  330  AGGTTASSG-----GNNLVAQGKVSFQSDTGFSVTNAGNVGLQTQSNLKALSTINVSTVS  384
+
+Query  160  KVRERLDPNRLAVMG-HSMGGGGSLEATV--MRPSLKASIPLTPWNLDKTWGQVQVPTFI  216
+                 ++  + A+ G +++  GG L AT   M+ +L  ++  T  NL      VQ     
+Sbjct  385  GANSAINIVKYAIEGLNNL--GGQLGATQQRMQATLN-NLTTTNSNLQNGLSTVQDANIP  441
+
+Query  217  IGAELDTIASVRTHAKPFYESLPSSLPKAYMEL  249
+            + ++  T + ++  A        S L +AY +L
+Sbjct  442  MVSQQLTQSQIQAQAGVAALKSSSQLQQAYQKL  474
+
+
+> DMKJLJHC_03657 hypothetical protein
+Length=303
+
+ Score = 25.8 bits (55),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 20/41 (49%), Gaps = 2/41 (5%)
+
+Query  64   RGPFSVA--TERVSSFASGFGGGTIYYPRETDEGTFGAVAV  102
+            + PF  A  T R  S+A   G  TIY P+   EGT   V V
+Sbjct  135  KDPFGRAEFTARQKSYARAAGERTIYTPQMMIEGTQALVGV  175
+
+
+> DMKJLJHC_01172 Acylamidase
+Length=470
+
+ Score = 25.4 bits (54),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 17/33 (52%), Gaps = 1/33 (3%)
+
+Query  254  HFAPNIPNTTIAKYVISWLKRFVDEDTRYSQFL  286
+            H   N+P   +A +V +WL R   E   +SQF 
+Sbjct  342  HTEANLPTLDMAGFVQAWLTRHTIERA-WSQFF  373
+
+
+> DMKJLJHC_01028 hypothetical protein
+Length=307
+
+ Score = 25.4 bits (54),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 24/98 (24%), Positives = 36/98 (37%), Gaps = 22/98 (22%)
+
+Query  115  WYGERVASQGFIVFTIDTNTRLDQPGQRGRQLLAALDYLVERSDRKVRERLDP-------  167
+            W    VA QG+ +  +  NT                D+    +  +  ERL         
+Sbjct  66   WAHALVAKQGWSILVVINNTN---------------DWFRAANLHRALERLSAQGFFAGF  110
+
+Query  168  NRLAVMGHSMGGGGSLEATVMRPSLKASIPLTPWNLDK  205
+            +R+ V G SMGG G+L    + P   A +      LD+
+Sbjct  111  DRICVYGSSMGGFGALTFAPLFPKSHAVVFAPQSTLDR  148
+
+
+> DMKJLJHC_03678 Ferri-bacillibactin esterase BesA
+Length=296
+
+ Score = 25.4 bits (54),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 19/37 (51%), Gaps = 1/37 (3%)
+
+Query  165  LDPNRLAVMGHSMGGGGSLEATVMRP-SLKASIPLTP  200
+            LDP R  + GHS GG  +L     +P S  A +  +P
+Sbjct  146  LDPARRTLFGHSFGGLFALWLLFTKPESFSAWVAASP  182
+
+
+> DMKJLJHC_03029 Carboxylesterase NlhH
+Length=298
+
+ Score = 25.4 bits (54),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  165  LDPNRLAVMGHSMGGG  180
+            +DP+R+A+ GHS GG 
+Sbjct  133  IDPSRIAIGGHSAGGN  148
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 285430803
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

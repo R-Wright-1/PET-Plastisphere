@@ -1,0 +1,138 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= UPI00064655D2 status=active
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  28.9    0.30 
+  GFJPDDAG_01408 Small ribosomal subunit biogenesis GTPase RsgA       26.2    2.8  
+  GFJPDDAG_00559 hypothetical protein                                 25.8    3.4  
+  GFJPDDAG_02286 Thioredoxin                                          24.3    5.9  
+  GFJPDDAG_00861 hypothetical protein                                 24.6    7.8  
+  GFJPDDAG_01620 Tryptophan 2,3-dioxygenase                           24.6    8.6  
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 28.9 bits (63),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 19/92 (21%), Positives = 42/92 (46%), Gaps = 5/92 (5%)
+
+Query  72   YYPSTAGSYGVIAMCPGFTATQSSIAWLARRMAS-HGFVVVAMNTNSTLDQPASRANQLM  130
+            Y+    G    +    GFT   ++   +  R++S +  + + +  +   D P   A   M
+Sbjct  10   YFVEVKGQGKPLVFLHGFTGDTTTWTRVTDRLSSNYRCISIDLIGHGRTDSPVDCARYTM  69
+
+Query  131  AALSYAVNSAPSAVRSRIDTSKQAVAGHSMGG  162
+              +S+ +N+    + +R++  +  + G+SMGG
+Sbjct  70   EQVSHDINT----ILNRLEVIQAQLIGYSMGG  97
+
+
+> GFJPDDAG_01408 Small ribosomal subunit biogenesis GTPase RsgA
+Length=293
+
+ Score = 26.2 bits (56),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 29/61 (48%), Gaps = 1/61 (2%)
+
+Query  35   QTSAPTSASLNATAGPLSVSTSSISSLAARGFGGGTVYYPSTAGSYGVIAMCPGFTATQS  94
+            Q+    S+ LNA    L + T+ ISS   RG    T +        G++A  PGF++ + 
+Sbjct  167  QSGVGKSSLLNALKPELELKTAMISSHLGRG-KHTTRHVELIDIENGLVADTPGFSSLEF  225
+
+Query  95   S  95
+            S
+Sbjct  226  S  226
+
+
+> GFJPDDAG_00559 hypothetical protein
+Length=464
+
+ Score = 25.8 bits (55),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 19/47 (40%), Positives = 24/47 (51%), Gaps = 5/47 (11%)
+
+Query  92   TQSSIAWLARRMA--SHGFVVVAMNTNSTLDQPASRANQLMAALSYA  136
+            T  S ++L RRM+   HG   V  NT S LD     + Q   AL+YA
+Sbjct  358  TGESKSYLVRRMSPWKHGLDPVDFNTKSDLDSFVKYSAQ---ALAYA  401
+
+
+> GFJPDDAG_02286 Thioredoxin
+Length=104
+
+ Score = 24.3 bits (51),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 8/26 (31%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  185  NTSTSFGSVRVPTMIIGADGDTVAAV  210
+             T+  +G + +PT+++  DG+ V  V
+Sbjct  62   ETAGKYGVMSIPTLVVLKDGEVVDKV  87
+
+
+> GFJPDDAG_00861 hypothetical protein
+Length=416
+
+ Score = 24.6 bits (52),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 28/71 (39%), Gaps = 14/71 (20%)
+
+Query  46   ATAGPLSVSTSSISSLAARGFGGGTVYYPSTAGSYGVIA--------MCPGFTATQSSIA  97
+             +A PL V   SI S          + YPS A     +A        + PG T T+  + 
+Sbjct  160  VSAQPLIVDWLSIRS------SKELMAYPSIAELARELAEEALSRAVIHPGITTTEDVVD  213
+
+Query  98   WLARRMASHGF  108
+            W+ +R+   G 
+Sbjct  214  WIRQRVLDSGL  224
+
+
+> GFJPDDAG_01620 Tryptophan 2,3-dioxygenase
+Length=272
+
+ Score = 24.6 bits (52),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 18/46 (39%), Gaps = 0/46 (0%)
+
+Query  145  RSRIDTSKQAVAGHSMGGGGSMIAARDNTSLKASFPMTPWNTSTSF  190
+            R R   + + + GH MG GGS         L   F    WN  T+ 
+Sbjct  227  RFRHMKTVERIIGHKMGTGGSSGVGYLKKVLDHRFFPELWNVRTAL  272
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.124    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 174133680
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

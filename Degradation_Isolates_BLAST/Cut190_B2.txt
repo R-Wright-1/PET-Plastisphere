@@ -1,0 +1,183 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|W0TJ64|W0TJ64_9PSEU Alpha/beta hydrolase family protein
+OS=Saccharomonospora viridis OX=1852 GN=Cut190 PE=1 SV=1
+
+Length=304
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  27.7    0.83 
+  GFJPDDAG_02539 Phospholipase YtpA                                   27.3    1.1  
+  GFJPDDAG_01277 hypothetical protein                                 27.3    1.1  
+  GFJPDDAG_00861 hypothetical protein                                 26.2    2.9  
+  GFJPDDAG_01259 hypothetical protein                                 25.8    3.8  
+  GFJPDDAG_03684 ATP synthase subunit delta                           25.0    4.5  
+  GFJPDDAG_02553 hypothetical protein                                 25.0    5.4  
+  GFJPDDAG_01541 putative MscS family protein YkuT                    24.6    7.7  
+  GFJPDDAG_02931 2-(acetamidomethylene)succinate hydrolase            24.3    8.6  
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 27.7 bits (60),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 22/88 (25%), Positives = 42/88 (48%), Gaps = 7/88 (8%)
+
+Query  105  GFTASQGSMSWYGERVASQGFIVFTIDT--NTRLDQPGQRGRQLLAALDYLVERSDRKVR  162
+            GFT    + +   +R++S  +   +ID   + R D P    R  +  + + +      + 
+Sbjct  26   GFTGDTTTWTRVTDRLSS-NYRCISIDLIGHGRTDSPVDCARYTMEQVSHDI----NTIL  80
+
+Query  163  ERLDPNRLAVMGHSMGGGGSLEATVMRP  190
+             RL+  +  ++G+SMGG  +L  T+M P
+Sbjct  81   NRLEVIQAQLIGYSMGGRTALHFTLMHP  108
+
+
+> GFJPDDAG_02539 Phospholipase YtpA
+Length=267
+
+ Score = 27.3 bits (59),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 25/94 (27%), Positives = 38/94 (40%), Gaps = 4/94 (4%)
+
+Query  88   YPRETDEGTFGAVAVAPGFTASQGSMSWYGERVASQGFIVFTIDTNTR-LDQPGQRGRQL  146
+            +  E+D+     + +  G     G   W  E   + GF V   D   + +    QRG   
+Sbjct  2    WKWESDQEARAVIVIIHGAMEHHGRYGWLIEMWRAAGFHVIMGDLPGQGMTSRSQRGH--  59
+
+Query  147  LAALD-YLVERSDRKVRERLDPNRLAVMGHSMGG  179
+            + + D Y+VE  D           + V+GHSMGG
+Sbjct  60   IDSFDEYIVEVKDWVQAAYQFELPVFVIGHSMGG  93
+
+
+> GFJPDDAG_01277 hypothetical protein
+Length=355
+
+ Score = 27.3 bits (59),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  244  KAYMELDGATHFAPNIPNTTIAKY  267
+            K+ + LD   H   N+PN+ +A+Y
+Sbjct  222  KSRLNLDQHVHLLQNVPNSQMARY  245
+
+
+> GFJPDDAG_00861 hypothetical protein
+Length=416
+
+ Score = 26.2 bits (56),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 10/36 (28%), Positives = 15/36 (42%), Gaps = 0/36 (0%)
+
+Query  90   RETDEGTFGAVAVAPGFTASQGSMSWYGERVASQGF  125
+            RE  E       + PG T ++  + W  +RV   G 
+Sbjct  189  RELAEEALSRAVIHPGITTTEDVVDWIRQRVLDSGL  224
+
+
+> GFJPDDAG_01259 hypothetical protein
+Length=517
+
+ Score = 25.8 bits (55),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 27/71 (38%), Gaps = 21/71 (30%)
+
+Query  141  QRGRQLLAALDYLVERSDRKVRERLDPNR-------------LAVMGHSMGGGGSLEATV  187
+            +  + +   L+ +VER D K  E+L PN              L+   H  GG        
+Sbjct  98   EENKSMAEELNDMVERDDGKEDEKLLPNNFMEDIPIERYKVDLSTSDHIEGGN-------  150
+
+Query  188  MRPSLKASIPL  198
+             RPS+   I L
+Sbjct  151  -RPSMDDEISL  160
+
+
+> GFJPDDAG_03684 ATP synthase subunit delta
+Length=178
+
+ Score = 25.0 bits (53),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 17/39 (44%), Gaps = 0/39 (0%)
+
+Query  75   SSFASGFGGGTIYYPRETDEGTFGAVAVAPGFTASQGSM  113
+            SSFA   G  ++     TDE   G + V  G     GS+
+Sbjct  127  SSFAKKVGKQSLRITNVTDEHLLGGIKVQIGTRIYDGSL  165
+
+
+> GFJPDDAG_02553 hypothetical protein
+Length=260
+
+ Score = 25.0 bits (53),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 18/65 (28%), Positives = 25/65 (38%), Gaps = 2/65 (3%)
+
+Query  210  VQVPTFIIGAELDTIASVRTHAKPFYESLPS-SLPKAYMELDGATHFAPNIPNTTIAKYV  268
+            +  P  II  E D   SV  HA    + L     P +       TH+ P   N  I   +
+Sbjct  195  LDAPVLIIHGEKDRNVSV-EHAYRLEKRLKELGKPFSTQYFKEFTHYFPPRKNQQIVSML  253
+
+Query  269  ISWLK  273
+             +W+K
+Sbjct  254  CAWMK  258
+
+
+> GFJPDDAG_01541 putative MscS family protein YkuT
+Length=288
+
+ Score = 24.6 bits (52),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 12/55 (22%), Positives = 23/55 (42%), Gaps = 5/55 (9%)
+
+Query  249  LDGATHFAPNIPNTTIAKYVISWLKRFVDEDTRYSQFLCPNPTDRAIEEYRSTCP  303
+             DG  H+ PN   T+++ +    ++  VD    Y      +  D+A+   +  C 
+Sbjct  165  FDGTLHYVPNREITSVSNHSRGNMRALVDIGISYD-----DDIDKAMVVLQQVCE  214
+
+
+> GFJPDDAG_02931 2-(acetamidomethylene)succinate hydrolase
+Length=217
+
+ Score = 24.3 bits (51),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 32/68 (47%), Gaps = 2/68 (3%)
+
+Query  136  LDQPGQRGRQLLAALDYLVERS-DRKVRERLDPNRLAVMGHSMGGGGSLEATVMRPSLKA  194
+            LD PG  G+  L A D+  E + D  + +  +     ++G S+G   ++   +  P L  
+Sbjct  24   LDLPGH-GKSTLEASDHYFEHTLDYLITQLQEKGEGYLIGLSLGASLAIHTALRAPELVK  82
+
+Query  195  SIPLTPWN  202
+             I LT ++
+Sbjct  83   GIVLTGYS  90
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 184084176
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,376 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|D1A9G5|D1A9G5_THECD Triacylglycerol lipase OS=Thermomonospora
+curvata (strain ATCC 19995 / DSM 43183 / JCM 3096 / NBRC 15933 /
+NCIMB 10081 / Henssen B9) OX=471852 GN=Tcur_1278 PE=4 SV=1
+
+Length=289
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             46.6    1e-06
+  DMKJLJHC_01054 Lipase 1                                             33.1    0.026
+  DMKJLJHC_01949 hypothetical protein                                 31.6    0.089
+  DMKJLJHC_03315 2,6-dihydropseudooxynicotine hydrolase               30.8    0.16 
+  DMKJLJHC_01741 Thermostable monoacylglycerol lipase                 30.0    0.23 
+  DMKJLJHC_06473 hypothetical protein                                 27.7    0.39 
+  DMKJLJHC_04046 Non-heme chloroperoxidase                            27.7    0.55 
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        27.7    1.3  
+  DMKJLJHC_05298 hypothetical protein                                 27.7    1.3  
+  DMKJLJHC_02365 L-Lysine--8-amino-7-oxononanoate transaminase        27.7    1.4  
+  DMKJLJHC_00552 23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD  26.9    2.7  
+  DMKJLJHC_01181 Alpha-D-ribose 1-methylphosphonate 5-triphosphat...  25.8    3.6  
+  DMKJLJHC_05388 hypothetical protein                                 25.0    3.6  
+  DMKJLJHC_04845 6-phosphogluconate dehydrogenase, NADP(+)-depend...  25.8    6.1  
+  DMKJLJHC_03414 hypothetical protein                                 25.8    6.4  
+  DMKJLJHC_03786 Chemotaxis protein PomA                              25.4    6.5  
+  DMKJLJHC_02818 Precorrin-3B C(17)-methyltransferase                 25.4    6.6  
+  DMKJLJHC_05505 Galactose/methyl galactoside import ATP-binding ...  25.4    6.7  
+  DMKJLJHC_04441 2-aminohexano-6-lactam racemase                      25.0    7.0  
+  DMKJLJHC_05325 Ribosomal RNA large subunit methyltransferase J      25.4    7.3  
+  DMKJLJHC_00517 Ammonia channel                                      25.4    7.9  
+  DMKJLJHC_05355 3-oxoacyl-[acyl-carrier-protein] synthase 1          25.4    8.8  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 46.6 bits (109),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 31/101 (31%), Positives = 45/101 (45%), Gaps = 21/101 (21%)
+
+Query  87   ISPGFTASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDS---------------RGRQL  131
+            +S G++  W + AWL  RLA  GF+ +       LDQP +               R  Q+
+Sbjct  78   LSHGYSGLWRNQAWLAERLARAGFIAVA------LDQPGTTFGDLDPAWATHLTERPHQV  131
+
+Query  132  LAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKSR  172
+               LD +     +  R+D  R++V GHS+GG   L  A  R
+Sbjct  132  SRVLDAVLADPKLGPRIDRKRISVIGHSLGGSTALFLAGGR  172
+
+
+> DMKJLJHC_01054 Lipase 1
+Length=319
+
+ Score = 33.1 bits (74),  Expect = 0.026, Method: Compositional matrix adjust.
+ Identities = 21/89 (24%), Positives = 38/89 (43%), Gaps = 7/89 (8%)
+
+Query  169  AKSRTSLKAAIPIAPWNLDKTWPEVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKA  228
+            A+ R SLK+ I      +   +P++  P + + G  D+I     H+IPF  ++  A    
+Sbjct  234  ARERASLKSQIA----QMIPKYPQLDLPVVSVHGTADTIVSEKIHAIPFTKTVPGA---T  286
+
+Query  229  YLELNNASHFFPQFSNDTMAKFMISWMKR  257
+             + L    H  P  +   + + +    KR
+Sbjct  287  LISLKGIGHMTPHVATKQVVEAVNEVAKR  315
+
+
+> DMKJLJHC_01949 hypothetical protein
+Length=630
+
+ Score = 31.6 bits (70),  Expect = 0.089, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 42/83 (51%), Gaps = 13/83 (16%)
+
+Query  52   AVSEQSVSRLSVSGFGGGRIYYPTTTSQGTFGAIAISPGFTASWSSLAWLGPRLASHGFV  111
+            AV E+++SR    GF GG + + +       GA+A+  G  +S S+ A    R A   F 
+Sbjct  29   AVVERAISR---RGFLGGAVAFGS-------GAMAMGTGLLSSTSAKAQSASRFA---FT  75
+
+Query  112  VIGIETNTRLDQPDSRGRQLLAA  134
+             IGI+T+ ++  PD     LL +
+Sbjct  76   PIGIQTDYQIHVPDGYQHGLLVS  98
+
+
+> DMKJLJHC_03315 2,6-dihydropseudooxynicotine hydrolase
+Length=389
+
+ Score = 30.8 bits (68),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 37/145 (26%), Positives = 57/145 (39%), Gaps = 21/145 (14%)
+
+Query  71   IYYPTTTSQGTFGAIAISPGFTASWSSL--AWLGPRLASHGFVVIGIETNTRLDQPDS--  126
+            +Y P T  QG   A+    G  +    L  +WL   LA  G   + +      DQP +  
+Sbjct  140  LYTPATGVQGPAPAVVYLNGLDSCKELLYWSWLPHALAKRGIASLCV------DQPGTGE  193
+
+Query  127  --RGRQLLAALDYLTQRSSV------RNRVDASRLAVAGHSMGGGGTLEAAKSRTSLKAA  178
+              R + + A  D  T  + +      R+ VDA+R+ + G S+GG        +     + 
+Sbjct  194  ALRLQGMTAHYDSETWGTPIYEWLAARDDVDAARIGITGISLGGYYAPRVCANEPRYASG  253
+
+Query  179  IPIAPWNLDKTWPEVRTPTLIIGGE  203
+               A W  +  W EV+   L   GE
+Sbjct  254  ---AVWGANHNWAEVQQKRLKREGE  275
+
+
+> DMKJLJHC_01741 Thermostable monoacylglycerol lipase
+Length=254
+
+ Score = 30.0 bits (66),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 40/94 (43%), Gaps = 5/94 (5%)
+
+Query  79   QGTFGAIAISPGFTASWSSLAWLGPRLASH-GFVVIGIETNTRLDQPDSRGRQLLAALDY  137
+            +G    + +  GFT S  S+ +LG  L    GF V+G         PD   +     LD+
+Sbjct  14   EGNETGVLVIHGFTGSTQSMRYLGQSLHERFGFTVLGPCLPGHGTSPDEMSKT--GYLDW  71
+
+Query  138  L--TQRSSVRNRVDASRLAVAGHSMGGGGTLEAA  169
+            L   +R+         R+ V G SMGG  TL  A
+Sbjct  72   LGAVERALEALAARKKRVFVTGLSMGGTLTLNLA  105
+
+
+> DMKJLJHC_06473 hypothetical protein
+Length=82
+
+ Score = 27.7 bits (60),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 33/69 (48%), Gaps = 3/69 (4%)
+
+Query  198  LIIGGELDSIAPVATHSIPFYNSLTNAR--EKAYLELNNASHFFPQFSNDTMAKFMISWM  255
+            L+I G  D +AP    S    + L   +     + ++  A HFF +   DTM   + S++
+Sbjct  15   LVINGTADRVAPPKDTST-LVSKLHEQKGITITHEQVEGAGHFFEEPHMDTMISTVSSYV  73
+
+Query  256  KRFIDDDTR  264
+            KR + + +R
+Sbjct  74   KRRLGEASR  82
+
+
+> DMKJLJHC_04046 Non-heme chloroperoxidase
+Length=102
+
+ Score = 27.7 bits (60),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 18/37 (49%), Gaps = 0/37 (0%)
+
+Query  193  VRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKAY  229
+            +  PTL++ GE D I P+   ++     L N   K Y
+Sbjct  41   ITVPTLVLHGEDDQIVPIHDAALKSIKLLKNGTLKTY  77
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 16/39 (41%), Positives = 21/39 (54%), Gaps = 4/39 (10%)
+
+Query  148  VDASRLAVAGHSMGGGGTLEAA----KSRTSLKAAIPIA  182
+            +D  R ++ GHSMGG G L  A    +   S+ A  PIA
+Sbjct  135  IDTERQSITGHSMGGHGALTLAMHMPERFRSVSAFAPIA  173
+
+
+> DMKJLJHC_05298 hypothetical protein
+Length=326
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 35/127 (28%), Positives = 51/127 (40%), Gaps = 32/127 (25%)
+
+Query  70   RIYYPTTT-SQGTFGAIAISP-GFTASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDS-  126
+            +I +P     Q   G +A++  G   +  S  WLG RLA   F  +  E  T  DQ D+ 
+Sbjct  88   QIEHPEDRIGQHLSGRVAMADLGDLRASGSRRWLG-RLA---FFRMAQEQRT--DQHDAT  141
+
+Query  127  -------RGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKSRTSLKAAI  179
+                    GR++ AALD+   R   + R                   EAA  +   KAAI
+Sbjct  142  LNQAEPEEGRRISAALDHHADRDDGQGRA----------------CAEAASHKAHGKAAI  185
+
+Query  180  PIAPWNL  186
+             + P++ 
+Sbjct  186  VLEPFHC  192
+
+
+> DMKJLJHC_02365 L-Lysine--8-amino-7-oxononanoate transaminase
+Length=456
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 40/83 (48%), Gaps = 16/83 (19%)
+
+Query  76   TTSQGTFGAIAISPGFTASW----SSLAWLGPRLASHGFVVIGIETNTRL--------DQ  123
+            T ++G  GA A+  GFT S     +++A    +L   G +  G++   RL        D 
+Sbjct  304  TIAEGA-GAKAVGHGFTYSGHPVSAAVALEVLKLYEGGLLENGVKMGQRLLAGLDGLRDH  362
+
+Query  124  P---DSRGRQLLAALDYLTQRSS  143
+            P   D RGR +LAA++ +T +  
+Sbjct  363  PLVGDVRGRGMLAAVELVTDKEK  385
+
+
+> DMKJLJHC_00552 23S rRNA (uracil(1939)-C(5))-methyltransferase 
+RlmD
+Length=406
+
+ Score = 26.9 bits (58),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 18/79 (23%), Positives = 35/79 (44%), Gaps = 8/79 (10%)
+
+Query  208  APVATHSIPFYNSLTNAREKAYLELNNASHFFPQFSNDTMAKFMISWMKRFIDDDTRYDQ  267
+            A    H++  + ++T A ++ + + +   H     + D   + ++       D+  RYD 
+Sbjct  282  AQAEVHAVEAWAAMTEALDQGWRQ-SKGLHRLSTEARDLFRRPLLP------DEINRYDA  334
+
+Query  268  FLCPPPRAIGDISDYRDTC  286
+             +  PPRA G  S  R+ C
+Sbjct  335  VVIDPPRA-GAESQVREIC  352
+
+
+> DMKJLJHC_01181 Alpha-D-ribose 1-methylphosphonate 5-triphosphate 
+synthase subunit PhnG
+Length=147
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 23/66 (35%), Positives = 31/66 (47%), Gaps = 1/66 (2%)
+
+Query  4   RKSFGLLS-ATAALVAGLVAAPPAQAAANPYQRGPDPTESLLRAARGPFAVSEQSVSRLS  62
+           R   GLL+ AT   +A L    PA A     + G       + A+ GPF + E +V+R S
+Sbjct  12  RDRMGLLARATPTRLAELFPEIPAHALLRAPEAGAVMVRGRVGASGGPFNLGEMTVTRCS  71
+
+Query  63  VSGFGG  68
+           V   GG
+Sbjct  72  VRLEGG  77
+
+
+> DMKJLJHC_05388 hypothetical protein
+Length=91
+
+ Score = 25.0 bits (53),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 11/41 (27%), Positives = 19/41 (46%), Gaps = 0/41 (0%)
+
+Query  185  NLDKTWPEVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAR  225
+             + + +  +  P  +I G  D+  P+A HS P    L +A 
+Sbjct  18   EMARHYGRIDCPAELIHGTADTTVPLAVHSEPLSRQLPDAH  58
+
+
+> DMKJLJHC_04845 6-phosphogluconate dehydrogenase, NADP(+)-dependent, 
+decarboxylating
+Length=470
+
+ Score = 25.8 bits (55),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 25/52 (48%), Gaps = 4/52 (8%)
+
+Query  162  GGGTLEAAKSRTSLKAAIPIAPWNLDKTWPEVRTPTLIIGGEL-DSIAPVAT  212
+            G GT+ A  S    +   PIA WN++   PEV    +   G+L D I P  T
+Sbjct  10   GLGTMGAMLSLNIAEKGFPIAVWNME---PEVTDVFVRDAGDLADKITPAKT  58
+
+
+> DMKJLJHC_03414 hypothetical protein
+Length=359
+
+ Score = 25.8 bits (55),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 23/52 (44%), Gaps = 0/52 (0%)
+
+Query  49   GPFAVSEQSVSRLSVSGFGGGRIYYPTTTSQGTFGAIAISPGFTASWSSLAW  100
+            GP   +  SV+R  + G G GR  +  T  QG   ++        + + LAW
+Sbjct  298  GPDGTALWSVARADICGLGPGRAGFVATDGQGVVASLEGGALRVLTRAPLAW  349
+
+
+> DMKJLJHC_03786 Chemotaxis protein PomA
+Length=269
+
+ Score = 25.4 bits (54),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 16/36 (44%), Gaps = 0/36 (0%)
+
+Query  93   ASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDSRG  128
+            A W +L    P +   G V+  I    RLD PD  G
+Sbjct  142  AIWEALGGYAPTIGVLGAVMGLIHVMLRLDHPDELG  177
+
+
+> DMKJLJHC_02818 Precorrin-3B C(17)-methyltransferase
+Length=247
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 19/36 (53%), Gaps = 1/36 (3%)
+
+Query  85   IAISPGFTASWSSLAWLGPRLASHGFVVIGIETNTR  120
+            IAI PG TA  ++ A LG  L  H F  I +  N +
+Sbjct  108  IAILPGITAMLAASARLGAPL-GHDFCAINLSCNLK  142
+
+
+> DMKJLJHC_05505 Galactose/methyl galactoside import ATP-binding 
+protein MglA
+Length=249
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 12/20 (60%), Gaps = 0/20 (0%)
+
+Query  180  PIAPWNLDKTWPEVRTPTLI  199
+             I PW LD+   EVR  TL+
+Sbjct  96   EIKPWQLDEVQMEVRAWTLL  115
+
+
+> DMKJLJHC_04441 2-aminohexano-6-lactam racemase
+Length=137
+
+ Score = 25.0 bits (53),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 25/56 (45%), Gaps = 2/56 (4%)
+
+Query  45   RAARGPFAVSEQSVSRLSVSGFGGGRIYYPT-TTSQGTFG-AIAISPGFTASWSSL  98
+            RA + PF   +    +L  + F  G I YP   T  G  G  + ++P F AS   L
+Sbjct  61   RATKAPFDPRQALAGKLKKAAFAEGLICYPMPGTRDGRNGDHVLLAPPFIASEPEL  116
+
+
+> DMKJLJHC_05325 Ribosomal RNA large subunit methyltransferase 
+J
+Length=261
+
+ Score = 25.4 bits (54),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 16/40 (40%), Positives = 22/40 (55%), Gaps = 1/40 (3%)
+
+Query  125  DSRGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGG  164
+            D R R +L AL+ L+   ++R+ V     A AGH M G G
+Sbjct  200  DERHRPMLRALEKLSLPEAIRHEVRFPP-ARAGHGMVGSG  238
+
+
+> DMKJLJHC_00517 Ammonia channel
+Length=432
+
+ Score = 25.4 bits (54),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  3    LRKSFGLLSATAALVAGLVAAPPAQAAANP  32
+            LR    +L A + +VAGLVA  PA     P
+Sbjct  276  LRGKASMLGAASGIVAGLVAVTPACGTIGP  305
+
+
+> DMKJLJHC_05355 3-oxoacyl-[acyl-carrier-protein] synthase 1
+Length=409
+
+ Score = 25.4 bits (54),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 29/62 (47%), Gaps = 4/62 (6%)
+
+Query  150  ASRLAVAGHSMGGGGTLEAAKSRTSLKAAIPIAPWNLDKTWPEVRTPTLII----GGELD  205
+            +S  ++ GHS+G  G  EA  S   +++    A  N+    P +    ++     G ELD
+Sbjct  327  SSTKSLTGHSLGATGVHEAIYSLLMMQSGFITASANVTDLDPALHKGEIVTSLRDGVELD  386
+
+Query  206  SI  207
+            S+
+Sbjct  387  SV  388
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 265880748
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

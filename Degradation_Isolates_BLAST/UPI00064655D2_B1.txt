@@ -1,0 +1,169 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= UPI00064655D2 status=active
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             43.1    2e-05
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        32.0    0.061
+  DMKJLJHC_05388 hypothetical protein                                 27.3    0.57 
+  DMKJLJHC_00139 General stress protein A                             28.1    1.1  
+  DMKJLJHC_00010 Chromosome partition protein Smc                     27.3    2.0  
+  DMKJLJHC_06980 hypothetical protein                                 25.0    3.3  
+  DMKJLJHC_01475 Biotin carboxylase                                   26.2    4.3  
+  DMKJLJHC_04147 putative oxidoreductase                              25.8    4.5  
+  DMKJLJHC_03275 30S ribosomal protein S7                             24.6    8.8  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 43.1 bits (100),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 31/109 (28%), Positives = 46/109 (42%), Gaps = 19/109 (17%)
+
+Query  74   PSTAGSYGVIAMCPGFTATQSSIAWLARRMASHGFVVVAMNTNSTLDQPASRANQLMAAL  133
+            P +     V  +  G++    + AWLA R+A  GF+ VA      LDQP +    L  A 
+Sbjct  67   PISGADQPVALLSHGYSGLWRNQAWLAERLARAGFIAVA------LDQPGTTFGDLDPAW  120
+
+Query  134  SYAVNSAPSAVRS-------------RIDTSKQAVAGHSMGGGGSMIAA  169
+            +  +   P  V               RID  + +V GHS+GG  ++  A
+Sbjct  121  ATHLTERPHQVSRVLDAVLADPKLGPRIDRKRISVIGHSLGGSTALFLA  169
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 32.0 bits (71),  Expect = 0.061, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  134  SYAVNSAPSAVRSR--IDTSKQAVAGHSMGGGGSMIAA  169
+             Y     P A+ +   IDT +Q++ GHSMGG G++  A
+Sbjct  119  DYIAQELPDALGAAFAIDTERQSITGHSMGGHGALTLA  156
+
+
+> DMKJLJHC_05388 hypothetical protein
+Length=91
+
+ Score = 27.3 bits (59),  Expect = 0.57, Method: Composition-based stats.
+ Identities = 14/51 (27%), Positives = 21/51 (41%), Gaps = 3/51 (6%)
+
+Query  190  FGSVRVPTMIIGADGDTVAAVTAHSRPMYASLPS---STFKAYGELNSASH  237
+            +G +  P  +I    DT   +  HS P+   LP    +T    G +   SH
+Sbjct  23   YGRIDCPAELIHGTADTTVPLAVHSEPLSRQLPDAHLTTLPGAGHMPHHSH  73
+
+
+> DMKJLJHC_00139 General stress protein A
+Length=302
+
+ Score = 28.1 bits (61),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 30/60 (50%), Gaps = 2/60 (3%)
+
+Query  127  NQLMAALSYAVNSAPSAVRSRIDTSKQAVAGHSMGGGGSMIAARDNTSLKASFPMTPWNT  186
+            N + +   + +N A ++  SR  T++Q     ++GGG   IAA+ +  +    P  PW T
+Sbjct  213  NNVFSGQVHLLNPAWNSSWSR--TAQQRRQSKALGGGAEEIAAQPDAIIHFHGPNKPWKT  270
+
+
+> DMKJLJHC_00010 Chromosome partition protein Smc
+Length=1152
+
+ Score = 27.3 bits (59),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 27/49 (55%), Gaps = 1/49 (2%)
+
+Query  132  ALSYAVNSAPSAVRSRIDTSKQAVAGHSMGGGGSMIAARDNTSLKASFP  180
+            ALS A  S  S   S+++++K AVA H    GG  +A R+  +  A+ P
+Sbjct  695  ALSRA-ESDRSIAGSKLESAKLAVARHEEEAGGGRMALREAENALAALP  742
+
+
+> DMKJLJHC_06980 hypothetical protein
+Length=86
+
+ Score = 25.0 bits (53),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 3/42 (7%)
+
+Query  141  PSAVRSRIDTSKQAVA-GHSMGGG--GSMIAARDNTSLKASF  179
+            P+ VRSRI  +K A+A  H +  G  G++ A   N S++  F
+Sbjct  42   PAGVRSRIHVAKSAIAMNHRISTGTPGTLGAPDLNVSIQPIF  83
+
+
+> DMKJLJHC_01475 Biotin carboxylase
+Length=447
+
+ Score = 26.2 bits (56),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 19/35 (54%), Gaps = 0/35 (0%)
+
+Query  161  GGGGSMIAARDNTSLKASFPMTPWNTSTSFGSVRV  195
+            GGG  M  A+D  SL+++F        ++FG+  V
+Sbjct  163  GGGRGMKVAKDEASLESAFRTARAEAKSAFGNDEV  197
+
+
+> DMKJLJHC_04147 putative oxidoreductase
+Length=252
+
+ Score = 25.8 bits (55),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 27/66 (41%), Gaps = 15/66 (23%)
+
+Query  53   VSTSSISSLAARGFGGGTVYYPSTAGSYG---------------VIAMCPGFTATQSSIA  97
+            V+ SS+S+    G  GG  Y  + AG  G               V A+CPGF AT  +  
+Sbjct  139  VNLSSVSAQRGGGIFGGPHYSAAKAGILGLTKAMARELAPNNVRVNAICPGFIATDITAG  198
+
+Query  98   WLARRM  103
+             L   M
+Sbjct  199  KLTPEM  204
+
+
+> DMKJLJHC_03275 30S ribosomal protein S7
+Length=156
+
+ Score = 24.6 bits (52),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 19/56 (34%), Positives = 27/56 (48%), Gaps = 7/56 (13%)
+
+Query  103  MASHGFVVVAMNTNS-TLDQPASRANQLMAALSYAVNSAPSAVRSRIDTSKQAVAG  157
+            +A    +  A N N  T+++      +L   +  AVNS  SAV+ R DT K A A 
+Sbjct  99   LAIRWLITAAKNRNENTMEE------RLAGEILDAVNSRGSAVKKREDTHKMADAN  148
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.124    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 269790759
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

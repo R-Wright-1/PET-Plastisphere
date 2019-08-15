@@ -1,0 +1,94 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NZC4|A0A0K8NZC4_IDESA Porin OS=Ideonella sakaiensis (strain
+201-F6) OX=1547922 GN=ISF6_1504 PE=4 SV=1
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02730 Dihydrolipoyl dehydrogenase                          26.6    2.6  
+  GFJPDDAG_00255 Carboxypeptidase 1                                   25.0    8.8  
+  GFJPDDAG_00732 hypothetical protein                                 24.3    9.1  
+
+
+> GFJPDDAG_02730 Dihydrolipoyl dehydrogenase
+Length=475
+
+ Score = 26.6 bits (57),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 28/61 (46%), Gaps = 2/61 (3%)
+
+Query  60   NKQTTYLLNNNASRIGFKGVEDLGGGLQASFLMESGFSPDTGAASATFWGRESWVAIGGA  119
+            NK+ T L     S      VE + G   ASFL ES    + G   + F  +E+ VA GG 
+Sbjct  93   NKKITQLRLGVESLCKANQVEIIKGS--ASFLSESRVGVENGHEFSLFNFKEAIVATGGD  150
+
+Query  120  F  120
+            F
+Sbjct  151  F  151
+
+
+> GFJPDDAG_00255 Carboxypeptidase 1
+Length=504
+
+ Score = 25.0 bits (53),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 16/23 (70%), Gaps = 1/23 (4%)
+
+Query  219  PGAKEKEYGLRALYELG-DFTVG  240
+            P AK+KE+ L+ L ++G DF  G
+Sbjct  207  PKAKQKEFSLKVLEQMGYDFNSG  229
+
+
+> GFJPDDAG_00732 hypothetical protein
+Length=183
+
+ Score = 24.3 bits (51),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 9/32 (28%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+
+Query  254  GWKRNAVRVSAMYTMGPGELHVNVGKAYAIKG  285
+            G  +  V + A+  +G    H+N+G    I+G
+Sbjct  80   GTLKCPVAIDAVRLIGTARFHINIGDLTPIEG  111
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 211187968
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

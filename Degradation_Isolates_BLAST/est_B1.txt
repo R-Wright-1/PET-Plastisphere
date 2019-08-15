@@ -1,0 +1,154 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0D4L7E6|A0A0D4L7E6_9GAMM Esterase OS=Psychrobacter sp. PAMC
+21119 OX=1112209 GN=est PE=4 SV=1
+
+Length=313
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             51.2    5e-08
+  DMKJLJHC_01028 hypothetical protein                                 30.0    0.28 
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        27.7    1.5  
+  DMKJLJHC_05298 hypothetical protein                                 27.3    2.3  
+  DMKJLJHC_01173 HTH-type transcriptional regulator EthR              25.8    5.8  
+  DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC     25.8    6.5  
+  DMKJLJHC_02260 hypothetical protein                                 24.3    8.5  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 51.2 bits (121),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 30/82 (37%), Positives = 43/82 (52%), Gaps = 9/82 (11%)
+
+Query  124  WWGPRLASWGFVVITIDT-NSIYDDPD--------SRAAQLNAALDHIIADDTVGNKIDP  174
+            W   RLA  GF+ + +D   + + D D         R  Q++  LD ++AD  +G +ID 
+Sbjct  91   WLAERLARAGFIAVALDQPGTTFGDLDPAWATHLTERPHQVSRVLDAVLADPKLGPRIDR  150
+
+Query  175  KRLGAIGWSMGGGGALKLAKER  196
+            KR+  IG S+GG  AL LA  R
+Sbjct  151  KRISVIGHSLGGSTALFLAGGR  172
+
+
+> DMKJLJHC_01028 hypothetical protein
+Length=307
+
+ Score = 30.0 bits (66),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 31/105 (30%), Positives = 43/105 (41%), Gaps = 21/105 (20%)
+
+Query  132  WGFVVITIDTNSIYDDPDSRAAQLNAALDHIIADDTVGNKIDPKRLGAIGWSMGGGGALK  191
+            W  +V+  +TN  +     RAA L+ AL+ + A    G      R+   G SMGG GAL 
+Sbjct  76   WSILVVINNTNDWF-----RAANLHRALERLSAQ---GFFAGFDRICVYGSSMGGFGALT  127
+
+Query  192  LAKERSTVRAIMPLAPYHDKSYGEVKTPTLVIACERDRIATNEKY  236
+             A          PL P   KS+  V  P   +   R    T  ++
+Sbjct  128  FA----------PLFP---KSHAVVFAPQSTLDRRRASFETRYRF  159
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 27.7 bits (60),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 41/107 (38%), Gaps = 27/107 (25%)
+
+Query  125  WGPRLASWGFVVITIDTNSIYDDPDSRAAQLNAALDHIIADDTVGNKIDPKRLGAIGWSM  184
+            W P    W ++   +        PD+    L AA             ID +R    G SM
+Sbjct  111  WAPHFQMWDYIAQEL--------PDA----LGAAF-----------AIDTERQSITGHSM  147
+
+Query  185  GGGGALKLAK---ER-STVRAIMPLAPYHDKSYGEVKTPTLVIACER  227
+            GG GAL LA    ER  +V A  P+A      +G  +    + A E+
+Sbjct  148  GGHGALTLAMHMPERFRSVSAFAPIANPTQSDWGRKQLGAYLGADEQ  194
+
+
+> DMKJLJHC_05298 hypothetical protein
+Length=326
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 36/76 (47%), Gaps = 11/76 (14%)
+
+Query  93   TIHYPTDAIGCGLSGAIAVVP-GYVSYEAAIKWWGPRLASWGFVVITIDTNSIYD-----  146
+             I +P D IG  LSG +A+   G +    + +W G RLA   F +        +D     
+Sbjct  88   QIEHPEDRIGQHLSGRVAMADLGDLRASGSRRWLG-RLAF--FRMAQEQRTDQHDATLNQ  144
+
+Query  147  -DPDSRAAQLNAALDH  161
+             +P+    +++AALDH
+Sbjct  145  AEPEE-GRRISAALDH  159
+
+
+> DMKJLJHC_01173 HTH-type transcriptional regulator EthR
+Length=218
+
+ Score = 25.8 bits (55),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 23/56 (41%), Gaps = 2/56 (4%)
+
+Query  41  LPTVPTLPTVPSDCIADSAITAAALSDTRDNGPFSVSTKHVARQSAKGFGGGTIHY  96
+           LP     P  P        I AAAL      G F ++T+ +A ++       T+HY
+Sbjct  11  LPARSRRPARPQSDGKREQIAAAALRVMLQKGVFDITTRKIAAEAE--ISVATLHY  64
+
+
+> DMKJLJHC_01505 Poly(3-hydroxyalkanoate) polymerase subunit PhaC
+Length=597
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  212  SYGEVKTPTLVIACERDRIA  231
+            S  +VK P + IACE D IA
+Sbjct  470  SVRDVKVPLMAIACETDHIA  489
+
+
+> DMKJLJHC_02260 hypothetical protein
+Length=101
+
+ Score = 24.3 bits (51),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 12/50 (24%), Positives = 24/50 (48%), Gaps = 0/50 (0%)
+
+Query  203  MPLAPYHDKSYGEVKTPTLVIACERDRIATNEKYTNVFYHNATGPKMKIE  252
+            M +AP   +   ++    L   C+ DR  T ++  N+   +A G + ++E
+Sbjct  1    MRIAPCQAQRQADILKGGLGAGCDLDRGETGDQAANMIADDAHGGEARVE  50
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 294158404
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

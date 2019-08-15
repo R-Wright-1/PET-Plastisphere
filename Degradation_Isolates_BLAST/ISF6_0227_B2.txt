@@ -1,0 +1,152 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8P8S4|A0A0K8P8S4_IDESA Ortho-halobenzoate 1,2-dioxygenase
+alpha-ISP protein OhbB OS=Ideonella sakaiensis (strain 201-F6)
+OX=1547922 GN=ISF6_0227 PE=4 SV=1
+
+Length=414
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02297 Ribonuclease HIII                                    30.8    0.13 
+  GFJPDDAG_02825 Rod shape-determining protein MreB                   27.7    1.5  
+  GFJPDDAG_00746 hypothetical protein                                 26.9    1.7  
+  GFJPDDAG_00177 hypothetical protein                                 25.4    3.6  
+  GFJPDDAG_02337 Acetyl-coenzyme A carboxylase carboxyl transfera...  26.2    3.8  
+  GFJPDDAG_03154 Beta-lactam-inducible penicillin-binding protein     26.2    4.7  
+  GFJPDDAG_03504 tRNA modification GTPase MnmE                        25.8    5.3  
+
+
+> GFJPDDAG_02297 Ribonuclease HIII
+Length=307
+
+ Score = 30.8 bits (68),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 22/32 (69%), Gaps = 0/32 (0%)
+
+Query  215  ASLLHLFFTTFELNRLSQKGGVIVDESGGNHV  246
+            AS++  +    E+++LS+K GV++ +  GNHV
+Sbjct  240  ASIIARYAFLKEMDKLSEKAGVVIPKGAGNHV  271
+
+
+> GFJPDDAG_02825 Rod shape-determining protein MreB
+Length=334
+
+ Score = 27.7 bits (60),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 33/69 (48%), Gaps = 7/69 (10%)
+
+Query  156  LLFGSFGDEVPGIEEYLGEEICERIERVLHKPVEVIGR-FTQALPNNWKLYVENVRDSYH  214
+            LL G    E+  IE  +G+ + +  ER +    ++ GR     LP   +L    ++D+  
+Sbjct  199  LLIGERTAELVKIE--VGQALIDHEERTM----DIRGRDLVTGLPKTIELSSNEIQDALK  252
+
+Query  215  ASLLHLFFT  223
+             SLLH+  T
+Sbjct  253  ESLLHILET  261
+
+
+> GFJPDDAG_00746 hypothetical protein
+Length=198
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 27/52 (52%), Gaps = 8/52 (15%)
+
+Query  276  KDPSLLAGFQEY-----GDGVTLQILSVFPGFVLQQIQNCLAVRQVLPRGVE  322
+            K+  L+ GF++Y       GV L+      G ++QQ +N  A RQ+  R VE
+Sbjct  53   KNIVLMHGFKDYCALLFHKGVLLKDTH---GILIQQTENVQAARQIRFRNVE  101
+
+
+> GFJPDDAG_00177 hypothetical protein
+Length=114
+
+ Score = 25.4 bits (54),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  168  IEEYLGEEICERIERVLHKPVE  189
+            I+  + EEI E I ++ HKP E
+Sbjct  48   IQSTVNEEIIENIRQMYHKPFE  69
+
+
+> GFJPDDAG_02337 Acetyl-coenzyme A carboxylase carboxyl transferase 
+subunit beta
+Length=289
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 23/41 (56%), Gaps = 5/41 (12%)
+
+Query  216  SLLHLFFTTFELNRLSQKGGVIVD-----ESGGNHVSYSMV  251
+            SL+ +  T+  LNRLS+ GG+ +       +GG   S++ V
+Sbjct  177  SLMQMAKTSVALNRLSENGGLFISIMTHPTTGGVSASFASV  217
+
+
+> GFJPDDAG_03154 Beta-lactam-inducible penicillin-binding protein
+Length=682
+
+ Score = 26.2 bits (56),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 35/126 (28%), Positives = 59/126 (47%), Gaps = 15/126 (12%)
+
+Query  267  RSDDANYRLK-DPSLLAGFQEYGDGVTLQILSVFPGFVLQQIQNCLAVR-QVLPRGVERT  324
+            + +D N+ +  +PS +    E GD V +  +S   G +L + Q  LA+  +    G+   
+Sbjct  141  KDEDENWFVAWEPSFILPEMEKGDKVGVDSISAKRGEILDRNQQPLAINGEAFELGIVPK  200
+
+Query  325  ELNWTYLG----YADDTPEQRQVRLKQSNLIGPAGFISMEDGAVGGFVQRGIAGAGALEA  380
+            E N   L       D + E  Q +L QS  + P  F+ ++  A+    +R +    ALE 
+Sbjct  201  EFNDGDLDKLSKLIDLSSESIQSKLDQS-WVKPEFFVPIKKIALS---ERPL----ALE-  251
+
+Query  381  VVEMGG  386
+            V+E+GG
+Sbjct  252  VIELGG  257
+
+
+> GFJPDDAG_03504 tRNA modification GTPase MnmE
+Length=461
+
+ Score = 25.8 bits (55),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  198  LPNNWKLYVENVRDSYHASLLHLFFTTFELNR  229
+            L   W+L  E + DS H SL+   F+ F L +
+Sbjct  430  LTRTWELLGEIIGDSVHESLIDQLFSQFCLGK  461
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 268609747
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,182 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8P820|A0A0K8P820_IDESA DNA topoisomerase III OS=Ideonella
+sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_5356 PE=4 SV=1
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_02915 D-alanine--D-alanine ligase B                        28.5    0.28 
+  DMKJLJHC_01485 Methyl-accepting chemotaxis protein I                28.5    0.30 
+  DMKJLJHC_05904 D-alanine--D-alanine ligase                          27.3    0.71 
+  DMKJLJHC_03412 hypothetical protein                                 26.2    1.4  
+  DMKJLJHC_02271 NADH-quinone oxidoreductase chain 2                  25.4    3.2  
+  DMKJLJHC_04047 hypothetical protein                                 24.3    4.7  
+  DMKJLJHC_01324 Benzoate--CoA ligase                                 24.6    5.0  
+  DMKJLJHC_02503 Solute-binding protein                               23.9    8.4  
+  DMKJLJHC_00801 Ribonuclease D                                       23.5    9.2  
+
+
+> DMKJLJHC_02915 D-alanine--D-alanine ligase B
+Length=307
+
+ Score = 28.5 bits (62),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 12/52 (23%), Positives = 27/52 (52%), Gaps = 2/52 (4%)
+
+Query  73   PNAAFMKAMTPSAQL-AAIIGDKAMPRTEVTKKVWDYIKAHKLQDAAKKTMI  123
+            P+   ++   P  ++  +++GD+A+  TE+    W Y  A K Q+   + ++
+Sbjct  170  PDQVMVETYAPGREMTVSVLGDRALCVTEIITSGW-YDYAAKYQEGGSRHVV  220
+
+
+> DMKJLJHC_01485 Methyl-accepting chemotaxis protein I
+Length=868
+
+ Score = 28.5 bits (62),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 26/64 (41%), Positives = 32/64 (50%), Gaps = 6/64 (9%)
+
+Query  16   MEKSTMATAKKAAPAKKAPAKKAAAKKAPAA-KKAAPAKKAAPA-----KKAASKTAPAK  69
+            M   TMA      PA+ AP   A  ++  AA K++APAK   PA      +AA KTA A 
+Sbjct  793  MLTQTMARFDLGQPARIAPESTARVEQKGAAPKQSAPAKATTPAPSFSSARAAGKTAQAV  852
+
+Query  70   KRTP  73
+            K  P
+Sbjct  853  KSAP  856
+
+
+> DMKJLJHC_05904 D-alanine--D-alanine ligase
+Length=304
+
+ Score = 27.3 bits (59),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 16/62 (26%), Positives = 30/62 (48%), Gaps = 3/62 (5%)
+
+Query  73   PNAAFMKAMTPSAQLAA-IIGDKAMPRTEVTKKVWDYIKAHKLQDAAKKTMINADAKLKE  131
+            P    ++   P  +L A ++GD+A+  T++  + W Y  + K      + ++ AD    E
+Sbjct  167  PEEVMVETYAPGRELTATVLGDRALTVTDIVTEGW-YDYSAKYTVGGSRHVLPADLP-SE  224
+
+Query  132  IF  133
+            IF
+Sbjct  225  IF  226
+
+
+> DMKJLJHC_03412 hypothetical protein
+Length=484
+
+ Score = 26.2 bits (56),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 29/128 (23%), Positives = 48/128 (38%), Gaps = 9/128 (7%)
+
+Query  9    PPHPQPVMEKSTMATAKKAAPAKKAPAKKAAAKKAPAAKKAA---PAKKAAPAKKAASKT  65
+            P  P P  + ++  TA +AAP  + P  +   + + AA+ A     A  A P +K   + 
+Sbjct  299  PDFPDPAGDCTSGQTACRAAPHGEDPGLRDGREVSGAARDALVNYVANLALPPRKTVREV  358
+
+Query  66   APAKKRTPNAAFMKAMTPSAQLAAIIGDKAMPRTEVTKKVWDY--IKAHKLQDAAKKTMI  123
+             P K +   A       P+     + GD A       + +W Y  +  H + D       
+Sbjct  359  LPGKAQFYAAGCASCHQPAFVTERLKGDPA----RSFQLIWPYSDLLLHDMGDGLADDRP  414
+
+Query  124  NADAKLKE  131
+               A  +E
+Sbjct  415  EGSASGRE  422
+
+
+> DMKJLJHC_02271 NADH-quinone oxidoreductase chain 2
+Length=408
+
+ Score = 25.4 bits (54),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 19/56 (34%), Positives = 27/56 (48%), Gaps = 0/56 (0%)
+
+Query  17   EKSTMATAKKAAPAKKAPAKKAAAKKAPAAKKAAPAKKAAPAKKAASKTAPAKKRT  72
+            E  T+ TA+    A+   A+K+A   AP   K  PA K    +  A  T+ AK R+
+Sbjct  241  EIGTLGTARPRTAAQADEARKSAKDSAPKPAKGKPADKTGVTEAEAQATSKAKPRS  296
+
+
+> DMKJLJHC_04047 hypothetical protein
+Length=137
+
+ Score = 24.3 bits (51),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  37  KAAAKKAPAAKKAAPAKKAAPAKKAASKTAP  67
+           K   + A  + +AAPA K APA K   KT P
+Sbjct  41  KGCEQHAQKSHQAAPAHKVAPAHKMMQKTPP  71
+
+
+> DMKJLJHC_01324 Benzoate--CoA ligase
+Length=506
+
+ Score = 24.6 bits (52),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 11/22 (50%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  9    PPHPQPVMEKSTMATAKKAAPA  30
+            P HP  V+E ST+  A+ AAP 
+Sbjct  131  PDHPAQVIEASTLHRAEDAAPC  152
+
+
+> DMKJLJHC_02503 Solute-binding protein
+Length=321
+
+ Score = 23.9 bits (50),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 22/74 (30%), Positives = 32/74 (43%), Gaps = 16/74 (22%)
+
+Query  44   PAAKKAAPAKKAAPAKKAASKTAPAKKRTPNAAFMKAMTPSAQLAAIIGDKAMPRTEVTK  103
+            PA ++ A   KAAP +  AS  A            +A T + Q+ A+I     P T    
+Sbjct  166  PALEQFAMLAKAAPVQVEASDIA------------QAFT-TGQVQAMI---TSPSTGANS  209
+
+Query  104  KVWDYIKAHKLQDA  117
+            K WD++  +   DA
+Sbjct  210  KAWDFVDTYTQIDA  223
+
+
+> DMKJLJHC_00801 Ribonuclease D
+Length=204
+
+ Score = 23.5 bits (49),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  107  DYIKAHKLQDAAKKTMINAD  126
+            D +  HKL+DA +K +I  D
+Sbjct  153  DVLHLHKLRDALEKRLIRED  172
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.119    0.335    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 100324168
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

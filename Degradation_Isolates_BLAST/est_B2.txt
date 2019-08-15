@@ -1,0 +1,122 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0D4L7E6|A0A0D4L7E6_9GAMM Esterase OS=Psychrobacter sp. PAMC
+21119 OX=1112209 GN=est PE=4 SV=1
+
+Length=313
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03919 Putative ribosomal N-acetyltransferase YdaF          30.0    0.12 
+  GFJPDDAG_01043 hypothetical protein                                 26.9    1.3  
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               26.9    2.1  
+  GFJPDDAG_01447 Cell division protein FtsA                           25.4    5.7  
+
+
+> GFJPDDAG_03919 Putative ribosomal N-acetyltransferase YdaF
+Length=199
+
+ Score = 30.0 bits (66),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 8/61 (13%)
+
+Query  110  AVVPGYVSYEAAIKWWGPRLASWGFVVITIDTNSIYDDPDSRAAQLNAALDHIIADDTVG  169
+            AV+ GY     A+  WG  L S G ++ TID  +I    +      NA L +++++D  G
+Sbjct  73   AVLEGYSQNNKAL--WGMELKSTGKIIGTIDFVTINHKHN------NAELGYVLSEDYWG  124
+
+Query  170  N  170
+            N
+Sbjct  125  N  125
+
+
+> GFJPDDAG_01043 hypothetical protein
+Length=229
+
+ Score = 26.9 bits (58),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 30/74 (41%), Gaps = 7/74 (9%)
+
+Query  50   VPSDCIADSAITAAALSDTRDNGPFSVSTKHVARQSAKGFGGGTIHYPTDAIGCGLSGAI  109
+            +P D +  S  +A  +S T+DN   +V +K V     K F G        A G  LS   
+Sbjct  104  IPQDLVR-SFRSALNVSQTKDNSATAVMSKRVLESVLKNFNG------EKASGQSLSEQF  156
+
+Query  110  AVVPGYVSYEAAIK  123
+              +P  V     I+
+Sbjct  157  DQLPENVDLSKPIQ  170
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 26.9 bits (58),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 30/146 (21%), Positives = 53/146 (36%), Gaps = 36/146 (25%)
+
+Query  173  DPKRLGAIGWSMGG------------------GGALKLAKERST-------VRAIMPLAP  207
+            D +R+G +GWS GG                  GG +   +           +R  +   P
+Sbjct  494  DKERVGVMGWSQGGFISAFCSTYSDRFKAVSVGGGMTNWRSHYVNTDIPYFIRMHLGDTP  553
+
+Query  208  YHD-KSYGEVK---------TPTLVIACERD-RIATNEKYTNVFYHNATGPKMKIEVNNG  256
+            ++D + Y +           TPTL+   E+D R+ T+  Y         G K ++ +  G
+Sbjct  554  WNDPEVYAKTSPMTYIKSACTPTLIQHGEKDARVPTSNAYELYQGLKDMGIKTELIIFKG  613
+
+Query  257  SHFCPTYRFNEILLSKPGIAWMQRYI  282
+              + P      + + K  + W   Y+
+Sbjct  614  MAYSPDQPGMNVAIMKQNLMWFSHYL  639
+
+
+> GFJPDDAG_01447 Cell division protein FtsA
+Length=432
+
+ Score = 25.4 bits (54),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 27/88 (31%), Positives = 43/88 (49%), Gaps = 12/88 (14%)
+
+Query  163  IADDTVGNKIDPKRLGAIGWSMGGGGALKLAKERSTVRA--IMPLAPYH---DKSYGEVK  217
+            +A  TV    D K LGA    +GGG       E+  ++A  ++P+   H   D S G ++
+Sbjct  188  LAAGTVALSKDEKSLGAALIDIGGGSTTIAVFEQGHLKATTVLPVGGEHITKDLSIG-LR  246
+
+Query  218  TPTLVIACERDRIATNEKYTNVFYHNAT  245
+            T T     + ++I T  KY + FY +A+
+Sbjct  247  TST----DDAEKIKT--KYGHAFYDHAS  268
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 191547048
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

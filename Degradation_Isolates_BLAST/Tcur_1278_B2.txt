@@ -1,0 +1,226 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|D1A9G5|D1A9G5_THECD Triacylglycerol lipase OS=Thermomonospora
+curvata (strain ATCC 19995 / DSM 43183 / JCM 3096 / NBRC 15933 /
+NCIMB 10081 / Henssen B9) OX=471852 GN=Tcur_1278 PE=4 SV=1
+
+Length=289
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  30.8    0.075
+  GFJPDDAG_02391 Hydroxyacylglutathione hydrolase                     30.0    0.12 
+  GFJPDDAG_02553 hypothetical protein                                 27.7    0.75 
+  GFJPDDAG_01758 Dipeptidyl-peptidase 5                               27.3    1.3  
+  GFJPDDAG_03917 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  26.9    1.4  
+  GFJPDDAG_00725 Swarming motility protein SwrC                       26.2    3.3  
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  25.4    3.8  
+  GFJPDDAG_01094 Sporulation-specific N-acetylmuramoyl-L-alanine ...  25.8    4.0  
+  GFJPDDAG_00937 Lipase                                               25.0    6.9  
+  GFJPDDAG_03318 Response regulator PleD                              24.6    7.1  
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 30.8 bits (68),  Expect = 0.075, Method: Compositional matrix adjust.
+ Identities = 50/211 (24%), Positives = 75/211 (36%), Gaps = 47/211 (22%)
+
+Query  67   GGGRIYYPTTTSQGTFGAIAISPGFTASWSSLAWLGPRLASHGFVVIGI--------ETN  118
+             G  +Y+             +  GF +S  S   L P L    + VI I        E N
+Sbjct  13   NGANVYFEHHQHPTASETFVLLHGFLSSTFSFRRLTP-LLKENYNVISIDLPPFGNSEKN  71
+
+Query  119  TR-LDQPDSRGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKSRTSL--  175
+             R +   D+    ++  LD+L          + S + + GHSMGG   L   K   SL  
+Sbjct  72   NRFIYSYDNLANTVIDLLDHL----------NVSNVHLTGHSMGGQIALNVMKKAPSLVE  121
+
+Query  176  KAAIPIAPWNLDK-TWPEVRTPTLIIGGELDSIAPVATHSIPFYNSLTN---AREKAYLE  231
+            K  +  +   L K  WP                  + +H IPF++        R      
+Sbjct  122  KGVLLCSSGYLKKMNWP----------------VTMLSH-IPFFHLYVKMWLTRSGVRNN  164
+
+Query  232  LNNASHFFPQFSNDTMAKFMISWMKRFIDDD  262
+            L N  H   +  +D M   M  ++K F++DD
+Sbjct  165  LENVVH-DSKLIDDEM---MFGYLKPFLEDD  191
+
+
+> GFJPDDAG_02391 Hydroxyacylglutathione hydrolase
+Length=226
+
+ Score = 30.0 bits (66),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 37/132 (28%), Positives = 57/132 (43%), Gaps = 16/132 (12%)
+
+Query  104  RLASHGFVVIGIETN--TRLDQPDSRGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMG  161
+            +++ HG  V+ IETN  T L  P   G +       LT  +    + D   L   GH+  
+Sbjct  2    KISYHGHSVVKIETNGKTILIDPFINGNE-------LTDLNVDDEKPDVIILT-HGHNDH  53
+
+Query  162  GGGTLEAAKSRTSLK-AAIPIAPWNLDKTWPEVRTPTLIIGG--ELDSIAPVATHSIPFY  218
+             G T+E AK   SL  A+  +A +    +W  V+T  + +GG  E D      T +    
+Sbjct  54   VGDTVELAKKNDSLVIASHELATY---LSWQLVKTHPMHVGGAYEFDFGKVKMTQAFHGS  110
+
+Query  219  NSLTNAREKAYL  230
+              +T+  E  Y+
+Sbjct  111  GLITDGNEIIYM  122
+
+
+> GFJPDDAG_02553 hypothetical protein
+Length=260
+
+ Score = 27.7 bits (60),  Expect = 0.75, Method: Compositional matrix adjust.
+ Identities = 17/62 (27%), Positives = 25/62 (40%), Gaps = 2/62 (3%)
+
+Query  196  PTLIIGGELDSIAPVATHSIPFYNSLTN-AREKAYLELNNASHFFPQFSNDTMAKFMISW  254
+            P LII GE D    V  H+      L    +  +       +H+FP   N  +   + +W
+Sbjct  198  PVLIIHGEKDRNVSV-EHAYRLEKRLKELGKPFSTQYFKEFTHYFPPRKNQQIVSMLCAW  256
+
+Query  255  MK  256
+            MK
+Sbjct  257  MK  258
+
+
+> GFJPDDAG_01758 Dipeptidyl-peptidase 5
+Length=656
+
+ Score = 27.3 bits (59),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 39/177 (22%), Positives = 63/177 (36%), Gaps = 43/177 (24%)
+
+Query  97   SLAWLGPRLASHGFVVIGIE--TNTRLDQPDSRGRQLLAALDYLTQRSSVRNRVDASRLA  154
+            ++ ++ PR  SHG+   G E     R D        ++ A+DY+ +       VD +RL 
+Sbjct  461  AVLYVNPR-GSHGY---GQEFVNAVRGDYGGGDYEDIMRAVDYVLKEFPF---VDETRLG  513
+
+Query  155  VAGHSMGGGGTLEAAKSRTSLKAAI---PIAPW-----------------------NLDK  188
+            V G S GG  T          KAA+    I+ W                       +++ 
+Sbjct  514  VTGGSYGGFMTNWIIGHSDRFKAAVTQRSISNWISFYGVSDIGYYFSEWQIQRDLGDIET  573
+
+Query  189  TWP--------EVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKAYLELNNASH  237
+             W         E+ TP LI+  E D   P+      F       +E  ++    ++H
+Sbjct  574  LWKHSPLAYVTEMNTPLLILHSEKDYRCPIEQAEQLFIALKREKKEAKFVRFPESNH  630
+
+
+> GFJPDDAG_03917 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=266
+
+ Score = 26.9 bits (58),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 16/64 (25%), Positives = 29/64 (45%), Gaps = 4/64 (6%)
+
+Query  192  EVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKAYLELNNASHFFPQFSNDTMAKFM  251
+            +++ P LII G+ DSI     +   F N   N+    ++ L+ A H       D + + +
+Sbjct  206  DLKQPALIILGKQDSICGYEDYDFLF-NKFPNS---TFVILDKAGHMLTIEKRDIVQQLI  261
+
+Query  252  ISWM  255
+              W+
+Sbjct  262  RDWL  265
+
+
+> GFJPDDAG_00725 Swarming motility protein SwrC
+Length=1012
+
+ Score = 26.2 bits (56),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 19/56 (34%), Positives = 29/56 (52%), Gaps = 13/56 (23%)
+
+Query  188  KTWPEVRTPTLIIGG----------ELDSIAPV--ATHSIPFYNSLTN-AREKAYL  230
+            +T+P+V +PTL+I G          E     PV  A   I  Y+SLT+ +RE  ++
+Sbjct  36   ETYPDVDSPTLMIQGVYPNHSSEEIEKTVTTPVEEAIEGIKPYDSLTSTSRENGFM  91
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 25.4 bits (54),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 21/92 (23%), Positives = 42/92 (46%), Gaps = 5/92 (5%)
+
+Query  72   YYPTTTSQGTFGAIAISPGFTASWSSLAWLGPRLAS-HGFVVIGIETNTRLDQPDSRGRQ  130
+            Y+     QG    +    GFT   ++   +  RL+S +  + I +  + R D P    R 
+Sbjct  10   YFVEVKGQGK--PLVFLHGFTGDTTTWTRVTDRLSSNYRCISIDLIGHGRTDSPVDCARY  67
+
+Query  131  LLAALDYLTQRSSVRNRVDASRLAVAGHSMGG  162
+             +  + +    +++ NR++  +  + G+SMGG
+Sbjct  68   TMEQVSH--DINTILNRLEVIQAQLIGYSMGG  97
+
+
+> GFJPDDAG_01094 Sporulation-specific N-acetylmuramoyl-L-alanine 
+amidase
+Length=474
+
+ Score = 25.8 bits (55),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  138  LTQRSSVRNRVDASRLAVAGHSMGGGGTLEA  168
+            LTQRS++ NR +        H+ GGG   E+
+Sbjct  59   LTQRSNLANRTNPDFFLSIHHNAGGGSGFES  89
+
+
+> GFJPDDAG_00937 Lipase
+Length=413
+
+ Score = 25.0 bits (53),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 35/80 (44%), Gaps = 9/80 (11%)
+
+Query  149  DASRLAVAGHSMGGGGTLEAAKSRTSLKAAIPIAPWNLDKTWPEVRTPTLIIGGELDSIA  208
+            +  R+ + GHSMGG    + ++    L  +  I   +  K  P+ +  + +  G+ D + 
+Sbjct  129  EEYRVHLLGHSMGG----QTSRMLLELLRSGSIEEQDYHKNNPQAQQMSSLYVGDKDWVH  184
+
+Query  209  PVATHSI-----PFYNSLTN  223
+             V T +      PF N L N
+Sbjct  185  SVTTLATPHDGSPFANKLEN  204
+
+
+> GFJPDDAG_03318 Response regulator PleD
+Length=362
+
+ Score = 24.6 bits (52),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 15/64 (23%), Positives = 29/64 (45%), Gaps = 0/64 (0%)
+
+Query  82   FGAIAISPGFTASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQR  141
+            F A+ I+ GF+ + + + +        GF+   I    +      +  +L A  D+LT  
+Sbjct  141  FFALLINIGFSETMNVIPYHATTSLLAGFIAYSIAEQIKRSNEQYQMLKLNATKDFLTSL  200
+
+Query  142  SSVR  145
+            ++VR
+Sbjct  201  NNVR  204
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 171646056
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

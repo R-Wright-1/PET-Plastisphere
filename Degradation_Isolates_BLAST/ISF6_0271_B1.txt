@@ -1,0 +1,131 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A0K8NWN9|A0A0K8NWN9_IDESA Outer membrane porin protein BP0840
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0271 PE=4
+SV=1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_06042 Porin                                                28.5    1.0  
+  DMKJLJHC_00580 Alpha-ketoglutarate-dependent dioxygenase AlkB       26.6    3.7  
+  DMKJLJHC_02640 Xylose isomerase                                     26.6    3.9  
+  DMKJLJHC_06740 ATP-dependent Clp protease proteolytic subunit       25.4    5.2  
+  DMKJLJHC_00578 Chaperone protein DnaJ                               25.4    9.1  
+  DMKJLJHC_03076 Sensor protein QseC                                  25.4    9.8  
+
+
+> DMKJLJHC_06042 Porin
+Length=350
+
+ Score = 28.5 bits (62),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 20/45 (44%), Positives = 25/45 (56%), Gaps = 3/45 (7%)
+
+Query  1   MKKSLVALAVLGTFAGAASAQSSVTIYGLFNVAVMKSNSGTANIT  45
+           MKK L+A   L   AGAASA  + + YG F +A    NS   NI+
+Sbjct  1   MKKLLIASTALTLVAGAASADVTFSGYGRFGLAY---NSTDGNIS  42
+
+
+> DMKJLJHC_00580 Alpha-ketoglutarate-dependent dioxygenase AlkB
+Length=208
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 22/50 (44%), Gaps = 1/50 (2%)
+
+Query  254  RTAGTTRGENTNHVWALGGTAKVGPGLAKAMYYKIDPRFANNTRQKLGLG  303
+            R    TRG  T  +W   G   V  G A+ +Y+ ID R A  T   L  G
+Sbjct  149  RIGNATRGGKTQSLWLRSGDVMVMGGEARLLYHGID-RIAPATSTLLPKG  197
+
+
+> DMKJLJHC_02640 Xylose isomerase
+Length=435
+
+ Score = 26.6 bits (57),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 13/27 (48%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  139  NDGLAQSGSAATYAGYTTPASPAALGG  165
+             DG  +   AA YAG+ TPA+ A L G
+Sbjct  374  EDGALEGAVAARYAGWETPAAQAMLTG  400
+
+
+> DMKJLJHC_06740 ATP-dependent Clp protease proteolytic subunit
+Length=121
+
+ Score = 25.4 bits (54),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 24/53 (45%), Gaps = 2/53 (4%)
+
+Query  169  PNSIGFVSASFGGFVGRATVALSEGTQTGRIMGLAGEYTAGPLYAGVGYETVK  221
+            PNS   V    GG+ G+AT  +    +T ++     E      + G  YETV+
+Sbjct  36   PNSRIMVHQPSGGYQGQATDIMIHAQETQKLKKRLNEIYVK--HTGNSYETVE  86
+
+
+> DMKJLJHC_00578 Chaperone protein DnaJ
+Length=387
+
+ Score = 25.4 bits (54),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 24/47 (51%), Gaps = 9/47 (19%)
+
+Query  166  ARAPNSIGFVSASFGGFV-------GRATVALSEGTQTGRIMGLAGE  205
+             R P  +   +A+ GG V       GR+ V +  G+Q+GR M L G+
+Sbjct  280  CRVP--VSMATAALGGEVEVPTIDGGRSRVKIPSGSQSGRQMRLRGK  324
+
+
+> DMKJLJHC_03076 Sensor protein QseC
+Length=469
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 28/92 (30%), Positives = 37/92 (40%), Gaps = 15/92 (16%)
+
+Query  248  YGRSQTRTAGTTRGENTNHVWALGGTAKVGPGLAKAMYYKIDPRFANNTRQK---LGLGY  304
+            +GRS  R  G T GE  + +W        GPG A  +  ++  RF  +   K    GLG 
+Sbjct  376  HGRSPVRL-GVTPGEVWSEIW----VEDAGPGPAADLLDRVGQRFERSASSKGDSAGLGL  430
+
+Query  305  DYLLSKRTNLYVEAAFGKEDARTNKNAYGFGV  336
+              + +      V  AFG    R    A GF V
+Sbjct  431  SIVRA------VAQAFGGT-LRMETTAQGFRV  455
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 329146408
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

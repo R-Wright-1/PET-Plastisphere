@@ -1,0 +1,148 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A0K8NY75|A0A0K8NY75_IDESA Uncharacterized protein ImpC
+OS=Ideonella sakaiensis (strain 201-F6) OX=1547922 GN=ISF6_0363 PE=4
+SV=1
+
+Length=496
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01141 Bicarbonate transporter BicA                         29.6    0.44 
+  GFJPDDAG_00524 hypothetical protein                                 27.3    1.9  
+  GFJPDDAG_03123 Solute-binding protein                               26.9    2.6  
+  GFJPDDAG_00223 N-acetyl-alpha-D-glucosaminyl L-malate deacetyla...  26.6    3.0  
+  GFJPDDAG_01324 putative ribosomal protein YlxQ                      25.0    4.9  
+  GFJPDDAG_00441 Denitrification regulatory protein NirQ              25.8    6.5  
+
+
+> GFJPDDAG_01141 Bicarbonate transporter BicA
+Length=493
+
+ Score = 29.6 bits (65),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 27/88 (31%), Positives = 40/88 (45%), Gaps = 8/88 (9%)
+
+Query  244  RFLARLPYGSKTNPVEGFDFEEDIEGKDHN---RYVWANSAYAMATNITRAFKLYGWCTT  300
+            R   +L + S T  VE FDF EDI+    +    ++W +SA      I   +   G    
+Sbjct  404  RVSGQLFFASVTEFVESFDFTEDIKEVTLDLTHTHLWDDSAVGAIDKIVIKYHQNGVKVN  463
+
+Query  301  IRGV--ESGGAVANLPVHSFPTDDGGVD  326
+            + G+  ES   +  L VH+ P   GG+D
+Sbjct  464  LIGLNTESNKLMDRLAVHNKP---GGLD  488
+
+
+> GFJPDDAG_00524 hypothetical protein
+Length=313
+
+ Score = 27.3 bits (59),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 13/57 (23%), Positives = 24/57 (42%), Gaps = 0/57 (0%)
+
+Query  338  RREAELAKNGFMPLVHRKNSDFAAFIGAQSLQKPAEYDDPDATANANLAARLPYLFA  394
+            + + +L  N F P    K  D       + ++KP +YD P    + +    + +LF 
+Sbjct  52   KEKVDLQFNTFHPQGMTKIGDLYYMTSVEIIEKPVKYDHPQEGYDRSTGKGIGHLFV  108
+
+
+> GFJPDDAG_03123 Solute-binding protein
+Length=336
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 48/211 (23%), Positives = 82/211 (39%), Gaps = 26/211 (12%)
+
+Query  39   VEQAVHTLAQQALADTKLISNDV---FKTIEGMIAAIDKKLSEQINLIIHHEDFTKLEGA  95
+            +E  +  +A  A  + K +  D+   F + E    A+D +L +++   +   D   L   
+Sbjct  92   IEMTIPAVAPLASFNEKFLVFDLPFLFNSNEAAYKALDGELGQELMADLEKNDLKGLVFG  151
+
+Query  96   WRGLHHLINN---TETDETLKIRVMNISKNELHKTLKRYKGTAWDQSPIFKKVYEEEFGQ  152
+              G  H+ NN    E+ E +K       +N LH     +K    + SP         FG+
+Sbjct  152  ENGFRHMSNNEGPIESPEDVKGLKFRTLENPLHT--DTFKAFGANASPF-------AFGE  202
+
+Query  153  LGGNPYGCL-VGDYHFDHSPPDVELLAEMAKVAS-AAHAPFIAGASPSTMQMDSWSELSN  210
+            L    Y  L  G Y     P  +    +  +V    +    +  A+   M  D ++EL  
+Sbjct  203  L----YTALQQGTYDAMECPVSLYYTNKFYEVQDYLSLTGHVYAATALIMNNDFYNEL--  256
+
+Query  211  PRDLTKIFQSA--EYA-AWRSLRESEDSRYI  238
+            P DL ++   A  EY    R L + +D  ++
+Sbjct  257  PEDLKELVNEASEEYRDEQRGLAQKQDVEFL  287
+
+
+> GFJPDDAG_00223 N-acetyl-alpha-D-glucosaminyl L-malate deacetylase 
+1
+Length=233
+
+ Score = 26.6 bits (57),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 23/46 (50%), Gaps = 3/46 (7%)
+
+Query  323  GGVDMKCPTE---IAISDRREAELAKNGFMPLVHRKNSDFAAFIGA  365
+            GG   K  +E   I I D  EAEL+ NG +PL   +    A  +GA
+Sbjct  22   GGTLAKYASEGKKIVICDITEAELSSNGTVPLRKEEALKAAYLLGA  67
+
+
+> GFJPDDAG_01324 putative ribosomal protein YlxQ
+Length=105
+
+ Score = 25.0 bits (53),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 10/18 (56%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  441  ATKARKPLSGAEIVVEEV  458
+            A +ARK +SG E+V++EV
+Sbjct  13   ANRARKIISGEELVIKEV  30
+
+
+> GFJPDDAG_00441 Denitrification regulatory protein NirQ
+Length=293
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 21/78 (27%), Positives = 40/78 (51%), Gaps = 3/78 (4%)
+
+Query  47   AQQALADTKLISNDVFKTIEGMIAAIDKKLSEQ---INLIIHHEDFTKLEGAWRGLHHLI  103
+            +Q  L+D+KLIS  V  + + ++   + ++SE+   I  ++   D T    A R +   I
+Sbjct  212  SQSKLSDSKLISQFVALSSDLLVQVKNGQISEEAASIRALLDACDLTVYLPAKRAIQRGI  271
+
+Query  104  NNTETDETLKIRVMNISK  121
+             +   DE  K  ++NI++
+Sbjct  272  VDKLEDEREKAAILNIAE  289
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332997080
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

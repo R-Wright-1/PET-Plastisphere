@@ -1,0 +1,131 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= tr|A0A1F4G492|A0A1F4G492_9BURK Uncharacterized protein
+OS=Burkholderiales bacterium RIFCSPHIGHO2_01_FULL_63_240 OX=1797552
+GN=A2711_12500 PE=4 SV=1
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_03428 Lipase 1                                             47.4    7e-07
+  DMKJLJHC_00051 S-formylglutathione hydrolase                        32.7    0.033
+  DMKJLJHC_01054 Lipase 1                                             30.4    0.17 
+  DMKJLJHC_00010 Chromosome partition protein Smc                     26.6    3.4  
+  DMKJLJHC_03350 Histidinol dehydrogenase                             25.8    5.2  
+
+
+> DMKJLJHC_03428 Lipase 1
+Length=336
+
+ Score = 47.4 bits (111),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 38/114 (33%), Positives = 56/114 (49%), Gaps = 15/114 (13%)
+
+Query  65   PTTQARYGVIAISPGFTATETSIAWLGRRIATHGFVVITLN----TLTTLDQPA------  114
+            P + A   V  +S G++    + AWL  R+A  GF+ + L+    T   LD PA      
+Sbjct  67   PISGADQPVALLSHGYSGLWRNQAWLAERLARAGFIAVALDQPGTTFGDLD-PAWATHLT  125
+
+Query  115  SRANQLMAALSYVVNSSTSAVKARIDTTRLAVAGHSMGGGGALIAA--RDNPTL  166
+             R +Q+   L  V+  +   +  RID  R++V GHS+GG  AL  A  R +P L
+Sbjct  126  ERPHQVSRVLDAVL--ADPKLGPRIDRKRISVIGHSLGGSTALFLAGGRFDPPL  177
+
+
+> DMKJLJHC_00051 S-formylglutathione hydrolase
+Length=276
+
+ Score = 32.7 bits (73),  Expect = 0.033, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 22/43 (51%), Gaps = 2/43 (5%)
+
+Query  125  SYVVNSSTSAVKAR--IDTTRLAVAGHSMGGGGALIAARDNPT  165
+             Y+      A+ A   IDT R ++ GHSMGG GAL  A   P 
+Sbjct  119  DYIAQELPDALGAAFAIDTERQSITGHSMGGHGALTLAMHMPE  161
+
+
+> DMKJLJHC_01054 Lipase 1
+Length=319
+
+ Score = 30.4 bits (67),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 35/75 (47%), Gaps = 7/75 (9%)
+
+Query  158  IAARDNPTLKASYPLTPWNSSTSFSTVRVPTMIIGADGDTIASVAAHARPFYASLPGSTT  217
+            + AR+  +LK+            +  + +P + +    DTI S   HA PF  ++PG+T 
+Sbjct  232  VNARERASLKSQIA----QMIPKYPQLDLPVVSVHGTADTIVSEKIHAIPFTKTVPGATL  287
+
+Query  218  KAYGELNGGTHFSPN  232
+             +   L G  H +P+
+Sbjct  288  IS---LKGIGHMTPH  299
+
+
+> DMKJLJHC_00010 Chromosome partition protein Smc
+Length=1152
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 22/42 (52%), Gaps = 0/42 (0%)
+
+Query  130  SSTSAVKARIDTTRLAVAGHSMGGGGALIAARDNPTLKASYP  171
+            S  S   +++++ +LAVA H    GG  +A R+     A+ P
+Sbjct  701  SDRSIAGSKLESAKLAVARHEEEAGGGRMALREAENALAALP  742
+
+
+> DMKJLJHC_03350 Histidinol dehydrogenase
+Length=436
+
+ Score = 25.8 bits (55),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 34/136 (25%), Positives = 55/136 (40%), Gaps = 18/136 (13%)
+
+Query  102  ITLNTLTTLDQPASRANQLMAALSYVVNSSTSAVKARIDT-TRLAVAGHSMGGGGALIAA  160
+            I L+ ++  +   S    L+   +    +   AV+AR++T  R A+AG S    GA+I  
+Sbjct  252  IALDLMSQAEHDESAQAILITTDAEFGQAVARAVEARLETLERRAIAGVSWRDFGAVIVV  311
+
+Query  161  RDNPTLKASYPLTPWNSSTSFSTVRVPT--MIIGADGDTIASVAAHARPFYASLPGSTTK  218
+            RD             + +   S    P    +  AD D ++    HA   +  L   T +
+Sbjct  312  RD------------LDEAAELSNRVAPEHLELCVADPDALSEKITHAGAIF--LGAYTPE  357
+
+Query  219  AYGELNGG-THFSPNS  233
+            A G+  GG  H  P +
+Sbjct  358  AIGDYVGGPNHVLPTA  373
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.128    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 258060726
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

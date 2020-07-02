@@ -22,6 +22,5 @@ This is the Github repository for all code used to produce the analyses in [A mu
   c) Proteomic analysis of isolates</br>
   d) Metabolomic analysis of isolates</br></br>
 **4. Community and isolates (5 month growth experiment)**</br>
-  a) Growth at three months</br>
-  b) FTIR analysis at five months</br></br>
+  a) Growth at three months and FTIR analysis at five months</br>
 **5. All code used for this chapter of my PhD thesis**

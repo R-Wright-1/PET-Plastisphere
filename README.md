@@ -9,25 +9,26 @@ I have not provided comprehensive instructions on reproducing these analyses, bu
 ## This repository has the following sections:</br>
 
 ### 1. FTIR with raw plastics**</br></br>
+A .csv file with the FTIR data, a .py script and a .png file that this creates</br></br>
 
 ### 2. Community succession**</br>
-  a) Fig. S2 DNA yields of all samples used for amplicon sequencing</br>
-  b) Basic analysis (DADA2 in R)</br>
-  c) Fig. S3 stacked bar</br>
-  d) Fig. S4 diversity</br>
-  e) Fig. 1 NMDS, principal response curve and heatmap</br>
-  f) Table S1. ANOSIM and PERMANOVA</br>
-  g) Fig. 2 colonisation dynamics</br>
-  h) PICRUSt2</br>
-  i) Community metabolomics</br></br>
+a) DNA yields: DNA concentrations in each sample as measured by Qubit as well as bioanalyser and qPCR results of the library used for MiSeq (note that this also contained samples run for other projects in the same run).</br>
+b) Basic processing DADA2 in R: this has the script used for analysis and several of the plots output by this. Raw sequencing data can be downloaded from the NCBI SRA [PRJNA544783](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=NCID_1_11700513_130.14.22.76_5555_1593658013_3135564330_0MetA0_S_HStore&o=acc_s%3Aa)</br>
+c) Stacked bar: All samples and taxonomy arranged by time point, a script for plotting the stacked bar plots and the bar plots .png</br>
+d) Diversity: A script for plotting the mean diversity of treatments on different days, and outputting this information to .csv files</br>
+e) NMDS, principal response curve and heatmap: scripts for carrying out the PRC analysis in R, extracting the data in Python and plotting this alongside a regular NMDS plot and a heat map of the important ASVs</br>
+f) ANOSIM and PERMANOVA: A script for carrying out the ANOSIM and PERMANOVA tests listed in one of the supplementary tables</br>
+g) Colonisation dynamics: </br>
+h) PICRUSt2</br>
+i) Community metabolomics</br></br>
 
 ### 3. Isolates**</br>
-  a) Genomic analysis</br>
-  b) Growth of isolates</br>
-  c) Proteomic analysis of isolates</br>
-  d) Metabolomic analysis of isolates</br></br>
+a) Genomic analysis</br>
+b) Growth of isolates</br>
+c) Proteomic analysis of isolates</br>
+d) Metabolomic analysis of isolates</br></br>
 
 ### 4. Community and isolates (5 month growth experiment)**</br>
-  a) Growth at three months and FTIR analysis at five months</br>
+a) Growth at three months and FTIR analysis at five months</br>
 
 ### 5. All code used for this chapter of my PhD thesis**

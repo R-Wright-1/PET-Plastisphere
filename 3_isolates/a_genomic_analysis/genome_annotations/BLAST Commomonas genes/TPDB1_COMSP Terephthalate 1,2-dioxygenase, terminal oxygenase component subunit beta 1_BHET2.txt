@@ -1,0 +1,139 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|Q3C1E2|TPDB1_COMSP Terephthalate 1,2-dioxygenase, terminal
+oxygenase component subunit beta 1 OS=Comamonas sp. OX=34028
+GN=tphA3I PE=1 SV=1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01298 Putative zinc protease AlbF                          26.2    0.92 
+  GFJPDDAG_03020 1,2-beta-oligoglucan phosphorylase                   25.4    2.0  
+  GFJPDDAG_03845 Intracellular proteinase inhibitor                   24.3    3.2  
+  GFJPDDAG_00036 hypothetical protein                                 24.3    4.0  
+  GFJPDDAG_03729 Formimidoylglutamase                                 24.3    4.7  
+  GFJPDDAG_01501 2-oxoglutarate carboxylase small subunit             23.9    6.5  
+
+
+> GFJPDDAG_01298 Putative zinc protease AlbF
+Length=429
+
+ Score = 26.2 bits (56),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  31   TKDCHYRVTNVDNHAEGLAAGIVWADSQDMLTDRISALREANIYER  76
+            TKD  Y+  N   H   +   +V +   D + D+I + +E   YE+
+Sbjct  183  TKDMLYQCYNTFYHPSNMLLFVVGSVEPDQIMDQIRSNQEKKNYEK  228
+
+
+> GFJPDDAG_03020 1,2-beta-oligoglucan phosphorylase
+Length=1109
+
+ Score = 25.4 bits (54),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 20/63 (32%), Positives = 30/63 (48%), Gaps = 9/63 (14%)
+
+Query  16   KTVDSDAME---QWPTFFTKDCHYRVTNVDNHAEGLAAGIVWADSQDMLTDRISALREAN  72
+            KTV S   E    WP +F  D +Y +   D+H +     IVW     ++ D I+A  + +
+Sbjct  653  KTVYSHQYEDNGNWPQWFMFDRYYTIQQDDSHGD----IIVWP--LKVVGDYIAATHDYS  706
+
+Query  73   IYE  75
+            I E
+Sbjct  707  ILE  709
+
+
+> GFJPDDAG_03845 Intracellular proteinase inhibitor
+Length=162
+
+ Score = 24.3 bits (51),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 20/89 (22%), Positives = 38/89 (43%), Gaps = 7/89 (8%)
+
+Query  6    QIAAFNAAYAKTVDSDAMEQWPTFFTKDCHYRVTNVDNHAEGLAAGIVWADSQDMLTDRI  65
+            Q ++  + Y  TV  +  EQ  TF           +D   +     +V+ DS+  +  + 
+Sbjct  59   QDSSGQSVYVYTV-KNQTEQEKTFVFSSGQ----TIDFELQNQKGEVVYKDSKKKMYTQ-  112
+
+Query  66   SALREANIYERHRYRHILGLPSIQSGDAT  94
+             A++E  I +   +   + LP ++SG  T
+Sbjct  113  -AIQEITIKQGEEFSQKVVLPKVESGTYT  140
+
+
+> GFJPDDAG_00036 hypothetical protein
+Length=307
+
+ Score = 24.3 bits (51),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  134  LQERIAVCDSTVTDTLMALP  153
+            +QE IA+  ST++D ++ LP
+Sbjct  1    MQEVIALLPSTISDKVLTLP  20
+
+
+> GFJPDDAG_03729 Formimidoylglutamase
+Length=316
+
+ Score = 24.3 bits (51),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  3    NEIQIAAFNAAYAKTVDSDAMEQWPTFFTK  32
+            N IQI   N A AK     A+EQ  T +TK
+Sbjct  185  NLIQIGIRNYANAKAYHDYAIEQGVTVYTK  214
+
+
+> GFJPDDAG_01501 2-oxoglutarate carboxylase small subunit
+Length=1146
+
+ Score = 23.9 bits (50),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 17/66 (26%), Positives = 29/66 (44%), Gaps = 17/66 (26%)
+
+Query  15   AKTVDSDAMEQWPTFFTKDCHYR-------VTNVDNHAEGLAAGIVWADSQDMLTDRISA  67
+            AKT D DA+     F +++ H+        +T V  H+E L          +M  D++ A
+Sbjct  73   AKTADVDAIHPGYGFLSENIHFARRCEEEGITFVGPHSEHL----------NMFGDKVKA  122
+
+Query  68   LREANI  73
+              +A +
+Sbjct  123  RHQAQL  128
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.132    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 67860447
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

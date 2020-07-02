@@ -1,0 +1,4 @@
+ 11526 ERROR:   SEQ_FEAT.GeneXrefWithoutGene
+     1 ERROR:   SEQ_FEAT.OnlyGeneXrefs
+     5 WARNING: SEQ_FEAT.BadEcNumberValue
+    22 WARNING: SEQ_FEAT.ProteinNameEndsInBracket

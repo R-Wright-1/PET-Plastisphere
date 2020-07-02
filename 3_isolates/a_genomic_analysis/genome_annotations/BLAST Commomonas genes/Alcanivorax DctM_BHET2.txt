@@ -1,0 +1,253 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= Alcanivorax DctM-like transporter
+
+Length=781
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03125 C4-dicarboxylate TRAP transporter large permease...  46.2    5e-06
+  GFJPDDAG_00644 Sialic acid TRAP transporter large permease prot...  35.8    0.009
+  GFJPDDAG_01089 hypothetical protein                                 33.9    0.034
+  GFJPDDAG_01302 Galactose/methyl galactoside import ATP-binding ...  30.0    0.55 
+  GFJPDDAG_02485 Chemotaxis protein PomA                              29.3    0.80 
+  GFJPDDAG_02305 hypothetical protein                                 28.9    0.81 
+  GFJPDDAG_03296 Quinol oxidase subunit 3                             27.3    3.0  
+  GFJPDDAG_02293 Endonuclease MutS2                                   27.7    3.7  
+  GFJPDDAG_00833 Hemin transport system permease protein HmuU         26.9    5.1  
+  GFJPDDAG_01337 30S ribosomal protein S2                             26.6    5.6  
+  GFJPDDAG_01938 L-arabinose transport system permease protein AraQ   26.6    6.0  
+  GFJPDDAG_00443 Na(+)/H(+) antiporter NhaG                           26.6    6.5  
+  GFJPDDAG_00533 putative HIT-like protein                            25.4    7.4  
+  GFJPDDAG_02603 Adenylosuccinate lyase                               26.2    9.0  
+  GFJPDDAG_00757 Spore germination protein A1                         26.2    9.9  
+
+
+> GFJPDDAG_03125 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=427
+
+ Score = 46.2 bits (108),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 51/104 (49%), Gaps = 13/104 (13%)
+
+Query  664  IGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQVV  723
+            +GM +D   A++++   +  +    G+DP+HF +I +    +G++TPP+ +N  +   V 
+Sbjct  328  VGMFIDTISALVVLTPILLPIVVAVGVDPVHFGVILVANLAIGFITPPLGVNLFVASSVG  387
+
+Query  724  GDDEVESAKLHSGSFFRRYEKFLLPIAV-MLTALLAVSYLPLMS  766
+            G              F +    +LP  V ML  LL +++ P +S
+Sbjct  388  GVQ------------FEKIAWAILPFLVSMLICLLVITFFPPLS  419
+
+
+> GFJPDDAG_00644 Sialic acid TRAP transporter large permease protein 
+SiaM
+Length=426
+
+ Score = 35.8 bits (81),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 30/53 (57%), Gaps = 0/53 (0%)
+
+Query  661  MVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVA  713
+            +++IG ++D   A+I++      +     IDP+HF +I  +   +G LTPPV 
+Sbjct  323  LLIIGTLLDGIAALIILVPVFMPLVSGFQIDPIHFGVIICINLTIGLLTPPVG  375
+
+
+> GFJPDDAG_01089 hypothetical protein
+Length=387
+
+ Score = 33.9 bits (76),  Expect = 0.034, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 27/51 (53%), Gaps = 2/51 (4%)
+
+Query  57   RGAGMVQQPTCNPDPNIDQLTREIVRKRQQESANDPLADVLGTSEINEGAI  107
+            +G  +   P  +P P  DQL  + + +RQ + AN   AD  G  EI+E ++
+Sbjct  126  KGTDITNLPNESPAPTEDQLKDQEIDQRQIDQANHNGAD--GVQEIDEKSV  174
+
+
+> GFJPDDAG_01302 Galactose/methyl galactoside import ATP-binding 
+protein MglA
+Length=511
+
+ Score = 30.0 bits (66),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 29/105 (28%), Positives = 49/105 (47%), Gaps = 9/105 (9%)
+
+Query  2    DKPTFTVANRSIKEWVSSLPTLIILLLTIFLSSGEIIHSQLLKIGENTWESYFLLRGAGM  61
+            D+PT  +  + IKE +  + TLI    +I L     I  +L +I E       + +G G+
+Sbjct  165  DEPTAVLTPQEIKELIQIMKTLIKEGKSIIL-----ITHKLKEIMEVCDNVTVIRKGKGI  219
+
+Query  62   VQQPTCNPDPN---IDQLTREIVRKRQQESANDPLADVLGTSEIN  103
+                  + DPN      + RE+  K +++ AN P  +VL   ++N
+Sbjct  220  GTVKVSDTDPNHLASLMVGREVTFKTEKKEAN-PAENVLEIRDLN  263
+
+
+> GFJPDDAG_02485 Chemotaxis protein PomA
+Length=271
+
+ Score = 29.3 bits (64),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 27/45 (60%), Gaps = 0/45 (0%)
+
+Query  460  LKRLIPLLPYGIVVGTVLVFFSDVLNRHLDEFSAPIILPVMLLAV  504
+            +K+L  L P G++VG + V F+ + N  +  FS+ I LP + + +
+Sbjct  1    MKKLDVLTPIGVLVGVLFVSFAIITNAGITGFSSFIDLPSIFVVI  45
+
+
+> GFJPDDAG_02305 hypothetical protein
+Length=189
+
+ Score = 28.9 bits (63),  Expect = 0.81, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  461  KRLIPLLPYGIVVGTVLVFFSDVLNRHLDEFSAPIILPVML-LAVLFY  507
+            K L P +   ++    L FF  V  +++ +FS PI++ + + L VLFY
+Sbjct  124  KELKPFIRASVLSNVPLAFFYTVFGQYIKQFSPPILVMIFIALIVLFY  171
+
+
+> GFJPDDAG_03296 Quinol oxidase subunit 3
+Length=203
+
+ Score = 27.3 bits (59),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 41/81 (51%), Gaps = 1/81 (1%)
+
+Query  151  STLGDYKR-LLLCLLVLICAATATLGRHHIALRPQRTVKDYLVSTTAQLIANALLLSSAF  209
+            S + D K  +++ LL+LI + T+ L  + +  R  +++  +LV T    +    L  + F
+Sbjct  59   SEVFDMKNTIIMTLLLLISSFTSGLSINELRKRNVKSMIVWLVITLLFGLGFLYLEITEF  118
+
+Query  210  VYRMEEVAAMESGVRVGHFYL  230
+            V+ + E AAM +      FYL
+Sbjct  119  VHLIHEGAAMTTNSFWSSFYL  139
+
+
+> GFJPDDAG_02293 Endonuclease MutS2
+Length=785
+
+ Score = 27.7 bits (60),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 29/50 (58%), Gaps = 2/50 (4%)
+
+Query  66   TCNPDPNIDQLTREIVRKRQQ--ESANDPLADVLGTSEINEGAIRQSLER  113
+            T  P P+++Q  R++V +  +  ++A++ L  +      NEG IR+ LER
+Sbjct  125  TVIPLPHLEQDIRKVVDENGEILDTASEALRSIRTQLRANEGRIREKLER  174
+
+
+> GFJPDDAG_00833 Hemin transport system permease protein HmuU
+Length=352
+
+ Score = 26.9 bits (58),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 31/55 (56%), Gaps = 8/55 (15%)
+
+Query  456  LPHSLKRLIP-----LLPYGIVVGTVLVFFSDVLNRHLDEFSAPIILPVMLLAVL  505
+            +PH L+R++      LLP  IVVG   +  +D+++R +    AP  LP+ ++  L
+Sbjct  283  IPHFLRRIVGHDHKHLLPLSIVVGGGFLVLADLISRTII---APTELPIGVITAL  334
+
+
+> GFJPDDAG_01337 30S ribosomal protein S2
+Length=235
+
+ Score = 26.6 bits (57),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 11/38 (29%), Positives = 22/38 (58%), Gaps = 1/38 (3%)
+
+Query  220  ESGVRVGHFYLHQFWIAGFAILTAASLYQLMSRPKDLE  257
+            E   R G +Y++Q W+ G  +    ++ + ++R KD+E
+Sbjct  82   EEAERAGMYYINQRWLGG-TLTNFETIQKRITRLKDIE  118
+
+
+> GFJPDDAG_01938 L-arabinose transport system permease protein 
+AraQ
+Length=275
+
+ Score = 26.6 bits (57),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 18/30 (60%), Gaps = 0/30 (0%)
+
+Query  715  NHLLTRQVVGDDEVESAKLHSGSFFRRYEK  744
+            ++LL   V+ D E+ +  L + SFF +Y K
+Sbjct  209  DYLLPLLVLQDSELRTIPLAASSFFAQYTK  238
+
+
+> GFJPDDAG_00443 Na(+)/H(+) antiporter NhaG
+Length=524
+
+ Score = 26.6 bits (57),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 23/111 (21%), Positives = 49/111 (44%), Gaps = 8/111 (7%)
+
+Query  420  LFNSGIKIFILSLVLFFIYSQFARTSPARIAPFSEALPHSLKRLIPLLPYGIVVGTVLVF  479
+            LFN G+ + + ++  F++ S         I      L   +   I ++  G+++G  L +
+Sbjct  165  LFNDGLAVVLFNISAFYLVSY--------IDAGWAGLGSGIWEFIRVVSLGVIIGGALGY  216
+
+Query  480  FSDVLNRHLDEFSAPIILPVMLLAVLFYEKLSRHCLHLFALALIPMLAMSF  530
+               +L ++ D++   II  V+L    F    S H   + A+ +  ++  +F
+Sbjct  217  AFSILTKYYDDYPLEIIFSVILFYGSFLLAESVHASGVIAVVIAALIFGNF  267
+
+
+> GFJPDDAG_00533 putative HIT-like protein
+Length=111
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  131  RVTPGVIAFRTVEGGVAKIVSTLGDYK  157
+            RV   V A  T E G  K+++ +GDY+
+Sbjct  69   RVIREVAATVTEENGACKVITNIGDYQ  95
+
+
+> GFJPDDAG_02603 Adenylosuccinate lyase
+Length=432
+
+ Score = 26.2 bits (56),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 23/51 (45%), Gaps = 6/51 (12%)
+
+Query  108  RQSLERSRENCRTRWERFQTIEERVTPGVIAFRTVEGGVAKIVSTLGDYKR  158
+            ++ + + REN     ER   IEE     V+AF         +  TLGD ++
+Sbjct  42   KEDVAKIRENAGFNVERINEIEEETRHDVVAF------TRAVSETLGDERK  86
+
+
+> GFJPDDAG_00757 Spore germination protein A1
+Length=504
+
+ Score = 26.2 bits (56),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 22/45 (49%), Gaps = 0/45 (0%)
+
+Query  105  GAIRQSLERSRENCRTRWERFQTIEERVTPGVIAFRTVEGGVAKI  149
+            G  R+S +RS EN R   +  + + E V   +   +TV G  + +
+Sbjct  6    GKNRESFQRSNENVRESTQPVKPLSENVMVNIEYIQTVFGHTSDL  50
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 549461088
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

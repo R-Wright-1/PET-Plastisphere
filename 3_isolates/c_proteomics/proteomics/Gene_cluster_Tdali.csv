@@ -1,0 +1,10 @@
+Gene,Name,Enzyme,Bp,F/C,Color
+DMKJLJHC_01108,1108 pcaF,Beta-ketoadipyl-CoA thiolase,1202,R,
+DMKJLJHC_01109,1109 pcaJ,3-oxoadipate CoA-transferase subunit B,689,R,
+DMKJLJHC_01110,1110 pcaI,3-oxoadipate CoA-transferase subunit A,707,R,
+DMKJLJHC_01111,1111 pcaR,Pca regulon regulatory protein,761,F,
+,,,,,
+DMKJLJHC_01123,1123 pcaB,"3-carboxy-cis,cis-muconate cycloisomerase",1064,R,
+DMKJLJHC_01124,1124 pcaG,"Protocatechuate 3,4-dioxygenase alpha chain",599,R,
+DMKJLJHC_01125,1125 pcaH,"Protocatechuate 3,4-dioxygenase beta chain",728,R,
+DMKJLJHC_01126,1126 pcaC,hypothetical protein,389,R,

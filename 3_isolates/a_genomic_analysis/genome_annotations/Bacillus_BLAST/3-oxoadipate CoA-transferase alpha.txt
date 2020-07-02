@@ -1,0 +1,170 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1X9M9P7|A0A1X9M9P7_9BACI 3-oxoadipate CoA-transferase subunit
+A OS=Bacillus krulwichiae OX=199441 GN=catI PE=4 SV=1
+
+Length=204
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00475 HTH-type transcriptional regulator TcaR              26.2    0.93 
+  GFJPDDAG_03130 PTS system EIIBC component                           26.2    1.5  
+  GFJPDDAG_01215 Sporulation inhibitor of replication protein SirA    25.0    2.7  
+  GFJPDDAG_04165 30S ribosomal protein S9                             24.6    3.0  
+  GFJPDDAG_01602 RNA polymerase sigma factor SigI                     24.3    5.4  
+  GFJPDDAG_01433 Lipoprotein signal peptidase                         23.9    7.0  
+  GFJPDDAG_02656 Kinase A inhibitor                                   23.9    7.7  
+  GFJPDDAG_03274 Glyceraldehyde-3-phosphate dehydrogenase 1           23.9    8.4  
+  GFJPDDAG_02291 Long-chain-fatty-acid--CoA ligase                    23.9    8.9  
+
+
+> GFJPDDAG_00475 HTH-type transcriptional regulator TcaR
+Length=150
+
+ Score = 26.2 bits (56),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  148  EKLVHVPSLNPDVAVLGVQRADKDGNAHLW  177
+            E+L+    L  DV V G +R  K+  A +W
+Sbjct  3    ERLIEAVELFEDVMVFGTERVLKNVKADVW  32
+
+
+> GFJPDDAG_03130 PTS system EIIBC component
+Length=459
+
+ Score = 26.2 bits (56),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 28/109 (26%), Positives = 47/109 (43%), Gaps = 23/109 (21%)
+
+Query  45   KKDLNVIAPISDILFDMLIGVGSVKKVTAAWAGNVSAGLGHN--YRRSVEK--------A  94
+            KK   V+  + D  + +++G G V KVT  +   VSAG G      R+ E+        A
+Sbjct  53   KKTEGVLGFVEDETYQVILGPGKVNKVTEEFGKLVSAGSGDFDLKARAAEQKADLKKKNA  112
+
+Query  95   IPHKVKIEDHSNFSLGLALLGGAMGVPYLPTKSLLGTGLVKSNPKLKVE  143
+             P K+ +   +N             +P +P  +L+ +GL+    K  V+
+Sbjct  113  TPFKLLLRRVANIF-----------IPLIP--ALIASGLITGFTKFFVQ  148
+
+
+> GFJPDDAG_01215 Sporulation inhibitor of replication protein SirA
+Length=145
+
+ Score = 25.0 bits (53),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  120  VPYLPTKSLLGTGLVKSNPKLKVE  143
+            +PYLPT+ LL   L+K+     V+
+Sbjct  53   IPYLPTQRLLKQELMKTEGAFWVD  76
+
+
+> GFJPDDAG_04165 30S ribosomal protein S9
+Length=130
+
+ Score = 24.6 bits (52),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  18  SGDSVVLGACLEPMIPFAAAHEIIRQ  43
+           +G+ V+    +E  IPFAA  E+I+Q
+Sbjct  25  NGNIVINDREVEVYIPFAALREVIKQ  50
+
+
+> GFJPDDAG_01602 RNA polymerase sigma factor SigI
+Length=251
+
+ Score = 24.3 bits (51),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  10  EAIETHIQSGDSVVLGACLEPMIPF  34
+           E +   IQ+GD  +L   LE   PF
+Sbjct  19  EEMAIQIQNGDEQLLNTVLEDYKPF  43
+
+
+> GFJPDDAG_01433 Lipoprotein signal peptidase
+Length=172
+
+ Score = 23.9 bits (50),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 17/23 (74%), Gaps = 1/23 (4%)
+
+Query  98   KVKIEDHSNFSLGLA-LLGGAMG  119
+            +V  + HS FSL LA +LGGA+G
+Sbjct  76   QVHAKGHSLFSLSLAFMLGGAIG  98
+
+
+> GFJPDDAG_02656 Kinase A inhibitor
+Length=239
+
+ Score = 23.9 bits (50),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 22/98 (22%), Positives = 41/98 (42%), Gaps = 10/98 (10%)
+
+Query  50   VIAPISDILFDMLIGVGSVKKVTAAWAGNVSAGLGHNYRRSVEKAIPHKVK-----IEDH  104
+            V + +  IL  + IG  S  ++      ++    G  +   +E+   H        I+ H
+Sbjct  79   VCSEVEHILSQLTIGEQSQSRII-----DIPVCYGGEFGPDLEEVATHNGMSSDEVIQTH  133
+
+Query  105  SNFSLGLALLGGAMGVPYLPTKSLLGTGLVKSNPKLKV  142
+            SN    + ++G A G PY+   S       + +P+LK+
+Sbjct  134  SNGEYLVYMIGFAPGFPYIGGMSSDIATPRRESPRLKI  171
+
+
+> GFJPDDAG_03274 Glyceraldehyde-3-phosphate dehydrogenase 1
+Length=335
+
+ Score = 23.9 bits (50),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  35   AAAHEIIRQEKKDLNVIAPISDILFD  60
+            AA+H++I       N +AP + +L D
+Sbjct  141  AASHDVISNASCTTNCLAPFAKVLND  166
+
+
+> GFJPDDAG_02291 Long-chain-fatty-acid--CoA ligase
+Length=564
+
+ Score = 23.9 bits (50),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  104  HSNFSLGLALLGGAMGVPYLPTKS  127
+            HSNF    A + G++GVP+  T S
+Sbjct  364  HSNFLWDKARIKGSIGVPWPGTDS  387
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 106624728
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

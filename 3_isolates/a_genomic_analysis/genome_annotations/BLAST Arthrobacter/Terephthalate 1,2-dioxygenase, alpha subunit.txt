@@ -1,0 +1,128 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1H1HXV3|A0A1H1HXV3_9MICC Terephthalate 1,2-dioxygenase, alpha
+subunit OS=Arthrobacter crystallopoietes OX=37928
+GN=SAMN04489742_4782 PE=4 SV=1
+
+Length=423
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+GFJPDDAG_02297 Ribonuclease HIII                                      28.5       0.71 
+GFJPDDAG_02337 Acetyl-coenzyme A carboxylase carboxyl transferase...  27.3       1.6  
+GFJPDDAG_01068 RNA pyrophosphohydrolase                               26.6       2.2  
+GFJPDDAG_02369 hypothetical protein                                   24.6       6.5  
+GFJPDDAG_01190 Major cardiolipin synthase ClsA                        25.4       7.5  
+GFJPDDAG_02488 Cell division protein FtsA                             25.4       9.2  
+
+
+>GFJPDDAG_02297 Ribonuclease HIII
+Length=307
+
+ Score = 28.5 bits (62),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 13/49 (27%), Positives = 27/49 (55%), Gaps = 5/49 (10%)
+
+Query  204  KLYMENVKDSYH-----ASILHLFFTTFELNRLSQRGGIIVSEDGGCHV  247
+            ++Y     +S H     ASI+  +    E+++LS++ G+++ +  G HV
+Sbjct  223  RVYFSTKGESIHLAVAAASIIARYAFLKEMDKLSEKAGVVIPKGAGNHV  271
+
+
+>GFJPDDAG_02337 Acetyl-coenzyme A carboxylase carboxyl transferase 
+subunit beta
+Length=289
+
+ Score = 27.3 bits (59),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 23/41 (56%), Gaps = 5/41 (12%)
+
+Query  217  SILHLFFTTFELNRLSQRGGIIVS-----EDGGCHVSYSEI  252
+            S++ +  T+  LNRLS+ GG+ +S       GG   S++ +
+Sbjct  177  SLMQMAKTSVALNRLSENGGLFISIMTHPTTGGVSASFASV  217
+
+
+>GFJPDDAG_01068 RNA pyrophosphohydrolase
+Length=173
+
+ Score = 26.6 bits (57),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 9/22 (41%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  3    TEALPQELPAWEDTLTRVPYWI  24
+            +E +PQ+L  +E  L  VP W+
+Sbjct  111  SEKVPQQLEGYESELEMVPKWV  132
+
+
+>GFJPDDAG_02369 hypothetical protein
+Length=107
+
+ Score = 24.6 bits (52),  Expect = 6.5, Method: Composition-based stats.
+ Identities = 13/47 (28%), Positives = 25/47 (53%), Gaps = 5/47 (11%)
+
+Query  91   ALLALDKRGEAKD--FTCVYHAWTYNLQ---GDLTGVAFKDGVRGEG  132
+            + +A  ++G+ +D  +  +YH + Y+     GD   + +  GV GEG
+Sbjct  52   SFIAWIQKGDYQDQGYGQLYHVYWYDYNSPTGDTATICYTKGVEGEG  98
+
+
+>GFJPDDAG_01190 Major cardiolipin synthase ClsA
+Length=404
+
+ Score = 25.4 bits (54),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  3    TEALPQELPAWEDTLTRVPYWIF  25
+            T+    ELP WE  L + P W++
+Sbjct  379  TKKAFDELPFWEIALRKTPKWLY  401
+
+
+>GFJPDDAG_02488 Cell division protein FtsA
+Length=718
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 27/57 (47%), Gaps = 2/57 (4%)
+
+Query  314  RQVLPVSVERTNLNWTYLGFDSDTA--AQRKIRMKQSNLVGPGGYVSMEDGCVGGFV  368
+            +Q++P S      N   +    D+    +  IR++  + V PG  + ME+  + GF+
+Sbjct  612  KQLVPGSSIHITFNGKEIELKKDSTRILRNGIRLEMDDPVFPGDSIEMEEQPMSGFI  668
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 275957734
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

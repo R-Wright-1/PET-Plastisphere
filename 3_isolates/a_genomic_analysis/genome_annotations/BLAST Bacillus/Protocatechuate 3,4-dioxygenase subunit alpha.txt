@@ -1,0 +1,163 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A328LKA7|A0A328LKA7_9BACI Protocatechuate 3,4-dioxygenase
+subunit alpha OS=Bacillus sp. SRB_336 OX=1969380 GN=B5P43_21845 PE=4
+SV=1
+
+Length=210
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00939 Serine-aspartate repeat-containing protein D         29.3    0.21 
+  GFJPDDAG_01146 Dihydroorotate dehydrogenase (quinone)               28.1    0.46 
+  GFJPDDAG_01545 N-acetyldiaminopimelate deacetylase                  26.2    1.6  
+  GFJPDDAG_01777 Long-chain-fatty-acid--CoA ligase                    24.6    5.7  
+  GFJPDDAG_02812 HTH-type transcriptional repressor CarH              23.9    7.0  
+  GFJPDDAG_00058 Stage 0 sporulation protein A                        23.9    8.6  
+
+
+> GFJPDDAG_00939 Serine-aspartate repeat-containing protein D
+Length=2069
+
+ Score = 29.3 bits (64),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 25/51 (49%), Gaps = 2/51 (4%)
+
+Query  38    RLHGTVTDGAGEPVPDAILEIWQPAADGTVAAETGSLVRDGYTFTGWGRAS  88
+              + G + D +  P+  A++EI    A GT+ AET +     Y  TG G  S
+Sbjct  1118  SVSGVIVDASNNPIQSALVEIRD--AVGTLIAETYTNANGEYIITGLGSGS  1166
+
+
+ Score = 27.3 bits (59),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 26/104 (25%), Positives = 40/104 (38%), Gaps = 27/104 (26%)
+
+Query  39   LHGTVTDG-AGEPVPDAILEIWQPAADGTVAAETGSLVRDGYTFTGWGRASTDRTGKYTF  97
+            + G VTD  + +P+PDAI++         V   +G +V  G          TD  G YT 
+Sbjct  610  ISGNVTDDVSSQPIPDAIVQ---------VVNSSGQVVTSGM---------TDSLGNYTI  651
+
+Query  98   TTVNPGASRPGAAPFIAVVVFARGLTNRLFTRAYLPEDAAALEA  141
+              + PG+         ++V  A G +N +            L A
+Sbjct  652  ENLVPGS--------YSIVFSANGYSNSVIGAVVTQNQTTTLNA  687
+
+
+ Score = 27.3 bits (59),  Expect = 0.85, Method: Compositional matrix adjust.
+ Identities = 22/74 (30%), Positives = 36/74 (49%), Gaps = 22/74 (30%)
+
+Query  31    PGSAGSLRLHGTVTD-GAGEPVPDAILEIWQPAADGTVAAETGSLVRDGYTFTGWGRAST  89
+             P SAG   ++G VT+   GEP+PD +++++           T  LV+            T
+Sbjct  1460  PISAG---VNGFVTNRTTGEPIPDTVIQLFD---------ATSVLVK---------TVLT  1498
+
+Query  90    DRTGKYTFTTVNPG  103
+             D++G Y  T ++PG
+Sbjct  1499  DQSGAYVLTDLSPG  1512
+
+
+> GFJPDDAG_01146 Dihydroorotate dehydrogenase (quinone)
+Length=590
+
+ Score = 28.1 bits (61),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 37/134 (28%), Positives = 53/134 (40%), Gaps = 18/134 (13%)
+
+Query  55   ILEIWQPAADGTVAAETGSLVRDGYTFTGWGRASTDRTGKYTFTTVN---PGASRPGAAP  111
+            I E WQ  +   + AE   L+ DGY F+G G   T R  +     +N   P      +  
+Sbjct  239  IHEPWQALSLLKIGAEL-VLLSDGYVFSGPGL--TKRINEALLDEINEQTPPQKGWLSYW  295
+
+Query  112  FIAVVVFARGLTNRLF--TRAYLPEDAAALEA---------DPLLSSLPADRRGTLIATR  160
+            +  + +F  GL   LF  T   LP D   LE          D ++  +  DR  TL  T 
+Sbjct  296  YFGLFIFLGGLFALLFSLTSVILPYDELFLEMERNTIAGFNDRIMKFMSHDRM-TLAGTM  354
+
+Query  161  EDGGGLHWDVRLQG  174
+              GG ++  +   G
+Sbjct  355  ISGGIVYTQLAYHG  368
+
+
+> GFJPDDAG_01545 N-acetyldiaminopimelate deacetylase
+Length=372
+
+ Score = 26.2 bits (56),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 16/58 (28%), Positives = 27/58 (47%), Gaps = 13/58 (22%)
+
+Query  20   LPFDKDNELAVPGSAGSLRLH------------GTVTDGAGEPVPDAILEIWQPAADG  65
+            LP  ++ +L  P S    ++H            G +T    +P+ D +L I+QPA +G
+Sbjct  73   LPIKEETDLDFPSSHEG-KMHACGHDFHMAIELGILTHFVDQPIQDDLLFIFQPAEEG  129
+
+
+> GFJPDDAG_01777 Long-chain-fatty-acid--CoA ligase
+Length=518
+
+ Score = 24.6 bits (52),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 34/73 (47%), Gaps = 15/73 (21%)
+
+Query  21   PFDKDNELAVPGSAGS--LRLHGTVTDGAGEPVPDAILEIWQPAADG--------TVAAE  70
+            P D+  +   PGS G+  + L   V D  GE V  A+ ++ +    G         +  E
+Sbjct  332  PLDRPRK---PGSIGTSIMNLENKVVDELGEEV--AVGQVGELIVKGPNVMKGYYKMEEE  386
+
+Query  71   TGSLVRDGYTFTG  83
+            T + +RDG+ +TG
+Sbjct  387  TSATIRDGWLYTG  399
+
+
+> GFJPDDAG_02812 HTH-type transcriptional repressor CarH
+Length=216
+
+ Score = 23.9 bits (50),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 17/33 (52%), Gaps = 2/33 (6%)
+
+Query  46   GAGEPVPDAI--LEIWQPAADGTVAAETGSLVR  76
+            G+  P  DA+  +E W+P A G     T  LVR
+Sbjct  122  GSNVPTRDALRFIEAWKPHAIGISIGMTTELVR  154
+
+
+> GFJPDDAG_00058 Stage 0 sporulation protein A
+Length=259
+
+ Score = 23.9 bits (50),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 13/52 (25%), Positives = 21/52 (40%), Gaps = 1/52 (2%)
+
+Query  65   GTVAAETGSLVRDGYTFTGWGRASTDRTGKYTFTTVNPGASRPGAAPFIAVV  116
+             T A+     +R       W R + D        TV+   ++P  + FIA+V
+Sbjct  198  NTTASRVERAIRHAIE-VAWSRGNIDSISSLFGYTVSMSKAKPTNSEFIAMV  248
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.140    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 110298463
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

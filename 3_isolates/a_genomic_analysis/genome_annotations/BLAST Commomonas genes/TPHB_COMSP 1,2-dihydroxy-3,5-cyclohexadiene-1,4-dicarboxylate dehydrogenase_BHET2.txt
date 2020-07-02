@@ -1,0 +1,180 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|Q3C1E1|TPHB_COMSP
+1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase
+OS=Comamonas sp. OX=34028 GN=tphBI PE=1 SV=1
+
+Length=315
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02742 3-isopropylmalate dehydrogenase                      29.3    0.31 
+  GFJPDDAG_02383 hypothetical protein                                 26.2    3.4  
+  GFJPDDAG_01344 Chemotaxis response regulator protein-glutamate ...  25.8    3.6  
+  GFJPDDAG_03714 ATP-dependent RNA helicase DbpA                      25.8    3.9  
+  GFJPDDAG_02164 Cysteine desulfurase IscS                            25.8    4.0  
+  GFJPDDAG_01457 Stage V sporulation protein D                        25.8    4.0  
+  GFJPDDAG_01143 hypothetical protein                                 25.8    4.1  
+  GFJPDDAG_03850 Arginine--tRNA ligase                                25.0    6.0  
+  GFJPDDAG_02449 Argininosuccinate lyase                              25.0    7.2  
+  GFJPDDAG_03673 Methyl-accepting chemotaxis protein McpA             24.6    9.7  
+
+
+> GFJPDDAG_02742 3-isopropylmalate dehydrogenase
+Length=370
+
+ Score = 29.3 bits (64),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 20/25 (80%), Gaps = 0/25 (0%)
+
+Query  286  HGSAMDIAGRGVADSTALLRTIALL  310
+            HGSA DIAG+G A+  A++ ++A++
+Sbjct  279  HGSAPDIAGKGKANPLAMILSVAMM  303
+
+
+> GFJPDDAG_02383 hypothetical protein
+Length=727
+
+ Score = 26.2 bits (56),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 24/48 (50%), Gaps = 6/48 (13%)
+
+Query  154  VHVTLHESVRSALERLSPQLVVNAVQAAVQTCTLLGVPKPQVAVFGIN  201
+            +HV L    RSA+E+L+P + +        T  +  +P+P   V+  N
+Sbjct  82   IHVRLAGLRRSAMEKLNPSMRLKV------TRDMFYLPEPNTGVYFRN  123
+
+
+> GFJPDDAG_01344 Chemotaxis response regulator protein-glutamate 
+methylesterase
+Length=360
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  168  RLSPQLVVNAVQAAVQTCTLLGVPKPQVA  196
+            +L  Q  V A+  A +TC + G+PK  +A
+Sbjct  310  KLKEQGEVKAIAEAKETCIVFGMPKSAIA  338
+
+
+> GFJPDDAG_03714 ATP-dependent RNA helicase DbpA
+Length=941
+
+ Score = 25.8 bits (55),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 29/58 (50%), Gaps = 9/58 (16%)
+
+Query  19   GPEIALKALRQLSANERSLIKVYGPWSALEQA--AQICQMESL-------LQDLIHEE  67
+            G ++      QL  N+R L+K+ G W  L+ A   +I QM +        +QD++ +E
+Sbjct  356  GVDLNEDDFNQLVDNQRRLVKIRGQWMKLDPAMIRRIQQMMTKAKQEGISIQDMLEQE  413
+
+
+> GFJPDDAG_02164 Cysteine desulfurase IscS
+Length=380
+
+ Score = 25.8 bits (55),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 24/116 (21%), Positives = 46/116 (40%), Gaps = 15/116 (13%)
+
+Query  145  MLVGAGLRIVHVTLHESVRSALERLSPQLVVNAVQAAV----------QTCTLLG-VPKP  193
+             L  +G  + ++ +  + R ++E L  +L  + +   V          Q    +G + K 
+Sbjct  109  FLESSGFEVTYIPVDRTGRLSVEELKAELRDDTILVTVMFGNNEVGTIQPIKEIGELLKD  168
+
+Query  194  QVAVFGINPHASEGQLFGLEDSQITAPAVETLRKCGLAVDGPMGADMVLAQRKHDL  249
+              A F    H    Q FGL    +    V+ L   G  ++GP G   + +++  D+
+Sbjct  169  HQAYF----HTDAVQAFGLTHINVQELGVDLLSVSGHKINGPKGIGFLYSKKDVDI  220
+
+
+> GFJPDDAG_01457 Stage V sporulation protein D
+Length=638
+
+ Score = 25.8 bits (55),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  242  LAQRKHDLYVAMLHDQGHIPI  262
+            L ++K DLY    HD G+I +
+Sbjct  305  LEEKKVDLYKETFHDPGYIEV  325
+
+
+> GFJPDDAG_01143 hypothetical protein
+Length=493
+
+ Score = 25.8 bits (55),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 22/42 (52%), Gaps = 2/42 (5%)
+
+Query  107  VIACPHHETAIHRAGIAFSGYPSLLANVLGMNEDQVFLMLVG  148
+             ++ PH+ + +  A +A+S +   LA +LG   D  + +  G
+Sbjct  146  TLSTPHYGSEL--ADLAYSSWAGWLAGILGSKNDATYSLQTG  185
+
+
+> GFJPDDAG_03850 Arginine--tRNA ligase
+Length=338
+
+ Score = 25.0 bits (53),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 14/51 (27%), Positives = 20/51 (39%), Gaps = 0/51 (0%)
+
+Query  256  DQGHIPIKLLAPNGASALSIGGRVVLSSVGHGSAMDIAGRGVADSTALLRT  306
+            D  HIP  L   +G    +  GRV+L       A+ IA   +      L+ 
+Sbjct  132  DMKHIPFGLYLKDGKKMSTRKGRVILLQEVLQEAIKIAEENIKQKNPSLKN  182
+
+
+> GFJPDDAG_02449 Argininosuccinate lyase
+Length=464
+
+ Score = 25.0 bits (53),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 20/41 (49%), Gaps = 0/41 (0%)
+
+Query  190  VPKPQVAVFGINPHASEGQLFGLEDSQITAPAVETLRKCGL  230
+              KP+  V   N   S  Q   LED + +   V+ L+KCG+
+Sbjct  10   TKKPEEWVDEFNASISFDQELVLEDIEGSIAHVKMLKKCGV  50
+
+
+> GFJPDDAG_03673 Methyl-accepting chemotaxis protein McpA
+Length=429
+
+ Score = 24.6 bits (52),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 18/57 (32%), Positives = 29/57 (51%), Gaps = 1/57 (2%)
+
+Query  78   GEITPQAGLSTVQSATAAIRACENGEVDAVIACPHHETAIHRAGIAFSGYPSLLANV  134
+            G+I  Q  L  + ++  A RA E+G+  AV+A    + A   +G A  G   L+ N+
+Sbjct  253  GDIANQTNLLALNASIEAARAGEHGKGFAVVAEEVRKLA-DESGKAVQGISDLIKNI  308
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 193205464
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

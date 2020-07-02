@@ -1,0 +1,183 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1H1HXW2|A0A1H1HXW2_9MICC Terephthalate 1,2-dioxygenase, beta
+subunit OS=Arthrobacter crystallopoietes OX=37928
+GN=SAMN04489742_4783 PE=4 SV=1
+
+Length=164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+GFJPDDAG_00616 5-methylcytosine-specific restriction enzyme B         27.3       0.54 
+GFJPDDAG_00151 Transcriptional regulatory protein SrrA                26.6       0.78 
+GFJPDDAG_01382 Ribosome biogenesis GTPase A                           25.8       1.3  
+GFJPDDAG_03878 RNA pyrophosphohydrolase                               24.3       3.2  
+GFJPDDAG_01292 Putative competence-damage inducible protein           24.6       4.1  
+GFJPDDAG_01675 Adapter protein MecA 1                                 23.9       5.8  
+GFJPDDAG_02191 Queuine tRNA-ribosyltransferase                        23.9       6.5  
+GFJPDDAG_01093 hypothetical protein                                   23.1       7.5  
+GFJPDDAG_02677 putative ABC transporter ATP-binding protein           23.5       7.9  
+GFJPDDAG_00706 Serine protease Do-like HtrB                           23.1       10.0 
+
+
+>GFJPDDAG_00616 5-methylcytosine-specific restriction enzyme B
+Length=854
+
+ Score = 27.3 bits (59),  Expect = 0.54, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 27/52 (52%), Gaps = 6/52 (12%)
+
+Query  97   VRRLSESGGIHTETPFTVIRVTNGAQTELFATGKYV------DLIEYADEQP  142
+            + RL+   G    T +TV+ +T   Q E    G +V      DL++YA+E+P
+Sbjct  41   LSRLNIFMGEQDITDYTVVDITRKLQKENPTAGSFVHWSNTTDLVKYAEERP  92
+
+
+>GFJPDDAG_00151 Transcriptional regulatory protein SrrA
+Length=238
+
+ Score = 26.6 bits (57),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 18/34 (53%), Gaps = 0/34 (0%)
+
+Query  28  DEDRLEEWPAYFLEKCNYMVTNAENYAAHMEAGV  61
+           DEDR+      +LE+ NY +  AEN    +E  +
+Sbjct  12  DEDRIRRLLKMYLERENYAIDEAENGEQALEMAL  45
+
+
+>GFJPDDAG_01382 Ribosome biogenesis GTPase A
+Length=288
+
+ Score = 25.8 bits (55),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 18/76 (24%), Positives = 34/76 (45%), Gaps = 2/76 (3%)
+
+Query  22   SYANCIDEDRLEEWPAYFLEKCNYMVTNAENYAAHMEAGVIWADSRAMLADRVSALREAN  81
+            + A+  D +R  +W AYF ++   +   A N  A     VI   ++ +L ++   ++   
+Sbjct  58   NKADMADTNRTNQWIAYFRKQG--ITALAVNAQAGKGLQVIVQAAKEILKEKFDRMKSRG  115
+
+Query  82   IYESHSYRHILGIPQV  97
+            +        I+GIP V
+Sbjct  116  MRPRAIRAMIVGIPNV  131
+
+
+>GFJPDDAG_03878 RNA pyrophosphohydrolase
+Length=150
+
+ Score = 24.3 bits (51),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 40/86 (47%), Gaps = 4/86 (5%)
+
+Query  15   GIMQLQASYANCIDEDRLEEWPAYFLEKCNYMVTNAENYAAHMEAGVIWADSRAMLADRV  74
+            G ++   S+ NCI+ + LEE   Y     +Y + NA  Y    ++  + +D    LAD  
+Sbjct  53   GGIENDESHLNCIEREMLEE-TGYRAIIVSY-IGNAMRYFQSTKSEPLLSDGYFYLADLS  110
+
+Query  75   SALREANIYESHSYRHILGIPQVRRL  100
+              ++E   YE+  Y   + I  V+ L
+Sbjct  111  EKVQEP--YENEHYIEWIDIKSVKYL  134
+
+
+>GFJPDDAG_01292 Putative competence-damage inducible protein
+Length=411
+
+ Score = 24.6 bits (52),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 12/44 (27%), Positives = 20/44 (45%), Gaps = 0/44 (0%)
+
+Query  26   CIDEDRLEEWPAYFLEKCNYMVTNAENYAAHMEAGVIWADSRAM  69
+             +DE+ LE   +YF++    M  N E  A  +E   +  +   M
+Sbjct  90   TMDEEALESIKSYFVKVNREMTPNNEKQAHILEGSDVLKNEHGM  133
+
+
+>GFJPDDAG_01675 Adapter protein MecA 1
+Length=223
+
+ Score = 23.9 bits (50),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 16/31 (52%), Gaps = 5/31 (16%)
+
+Query  134  LIEYADEQPMFAQRL-----VVCDSNTIDTL  159
+            L+EYADE  M   RL     VV   +  DTL
+Sbjct  188  LLEYADESRMTVHRLEEYGKVVISEHVFDTL  218
+
+
+>GFJPDDAG_02191 Queuine tRNA-ribosyltransferase
+Length=379
+
+ Score = 23.9 bits (50),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 10/38 (26%), Positives = 20/38 (53%), Gaps = 0/38 (0%)
+
+Query  16   IMQLQASYANCIDEDRLEEWPAYFLEKCNYMVTNAENY  53
+            +++L       I EDRL ++   F E+  +   +A+N+
+Sbjct  342  LLKLMEQVRQAIREDRLGDFKEDFFEQYGFNRPDAKNF  379
+
+
+>GFJPDDAG_01093 hypothetical protein
+Length=104
+
+ Score = 23.1 bits (48),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 18/34 (53%), Gaps = 0/34 (0%)
+
+Query  129  GKYVDLIEYADEQPMFAQRLVVCDSNTIDTLIAF  162
+            GK+   +E A+E     + +V    N+ D LIAF
+Sbjct  17   GKFQTEMEMAEELATGEETIVAVRRNSDDDLIAF  50
+
+
+>GFJPDDAG_02677 putative ABC transporter ATP-binding protein
+Length=575
+
+ Score = 23.5 bits (49),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 11/46 (24%), Positives = 22/46 (48%), Gaps = 5/46 (11%)
+
+Query  53   YAAHMEAGVIWADSRAMLADRVSALREANIYE-----SHSYRHILG  93
+            ++  +   ++W    A   + + A ++A I+E     SH Y  +LG
+Sbjct  419  FSGSVSENLLWGKEDATREEMIQAAKDAQIHETILNLSHGYDTVLG  464
+
+
+>GFJPDDAG_00706 Serine protease Do-like HtrB
+Length=423
+
+ Score = 23.1 bits (48),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 11/48 (23%), Positives = 23/48 (48%), Gaps = 0/48 (0%)
+
+Query  52   NYAAHMEAGVIWADSRAMLADRVSALREANIYESHSYRHILGIPQVRR  99
+            N    +EAGVI A+     A   + ++E ++    + + +  +  +RR
+Sbjct  339  NLPESVEAGVIVANIDGTSAAADAGIKEGDVITEMNGKSVANVADLRR  386
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 75216944
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

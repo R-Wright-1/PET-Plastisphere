@@ -1,0 +1,136 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|Q3C1D5|TPDA2_COMSP Terephthalate 1,2-dioxygenase, terminal
+oxygenase component subunit alpha 2 OS=Comamonas sp. OX=34028
+GN=tphA2II PE=1 SV=1
+
+Length=413
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02297 Ribonuclease HIII                                    32.3    0.049
+  GFJPDDAG_03504 tRNA modification GTPase MnmE                        27.7    1.4  
+  GFJPDDAG_02337 Acetyl-coenzyme A carboxylase carboxyl transfera...  27.3    1.8  
+  GFJPDDAG_00794 Putative HTH-type transcriptional regulator YwnA     25.0    5.7  
+  GFJPDDAG_00662 hypothetical protein                                 25.0    7.1  
+  GFJPDDAG_03628 Phosphate acetyltransferase                          25.0    8.3  
+
+
+> GFJPDDAG_02297 Ribonuclease HIII
+Length=307
+
+ Score = 32.3 bits (72),  Expect = 0.049, Method: Compositional matrix adjust.
+ Identities = 22/82 (27%), Positives = 41/82 (50%), Gaps = 7/82 (9%)
+
+Query  168  LGPEICE--RIERVLHKPVEVIGRFTQKLPNNWKLYFENVKDSYH-----ASLLHMFFTT  220
+            + PE+ E   I++ + K         QK     ++YF    +S H     AS++  +   
+Sbjct  190  MAPELPEGILIDQFVEKNTYFKHIAAQKEIQKERVYFSTKGESIHLAVAAASIIARYAFL  249
+
+Query  221  FELNRLSQKGGVIVDESGGHHV  242
+             E+++LS+K GV++ +  G+HV
+Sbjct  250  KEMDKLSEKAGVVIPKGAGNHV  271
+
+
+> GFJPDDAG_03504 tRNA modification GTPase MnmE
+Length=461
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  194  LPNNWKLYFENVKDSYHASLLHMFFTTFELNR  225
+            L   W+L  E + DS H SL+   F+ F L +
+Sbjct  430  LTRTWELLGEIIGDSVHESLIDQLFSQFCLGK  461
+
+
+> GFJPDDAG_02337 Acetyl-coenzyme A carboxylase carboxyl transferase 
+subunit beta
+Length=289
+
+ Score = 27.3 bits (59),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 23/41 (56%), Gaps = 5/41 (12%)
+
+Query  212  SLLHMFFTTFELNRLSQKGGVIVD-----ESGGHHVSYSMI  247
+            SL+ M  T+  LNRLS+ GG+ +       +GG   S++ +
+Sbjct  177  SLMQMAKTSVALNRLSENGGLFISIMTHPTTGGVSASFASV  217
+
+
+> GFJPDDAG_00794 Putative HTH-type transcriptional regulator YwnA
+Length=137
+
+ Score = 25.0 bits (53),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 21/34 (62%), Gaps = 1/34 (3%)
+
+Query  331  DSAEQRKVRLKQA-NLIGPAGFISMEDGAVGGFV  363
+            DSA    VR+++  +L+   GFI  ++G  GGF+
+Sbjct  30   DSAGVHPVRIRKVLSLLKKQGFIRSKEGTGGGFI  63
+
+
+> GFJPDDAG_00662 hypothetical protein
+Length=155
+
+ Score = 25.0 bits (53),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 23/84 (27%), Positives = 28/84 (33%), Gaps = 10/84 (12%)
+
+Query  40   WNYLCLESEIPGAGDFRTTFAGETPIVVVRDADQEIYAFENRCAHRGALIALEKSGRTDS  99
+            W+   LE  IP             P    RDA  E  A E R A +   I    + RT  
+Sbjct  51   WDEFVLEYRIPYFSS-----NDSLPNSPDRDAVNERAALEGRSAEKSVTINRFIASRTKL  105
+
+Query  100  FQCVYHAWSYNRQGDLTGVAFEKG  123
+             +C+      N   DL    F  G
+Sbjct  106  LECI-----ENISSDLWDKTFRIG  124
+
+
+> GFJPDDAG_03628 Phosphate acetyltransferase
+Length=323
+
+ Score = 25.0 bits (53),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 30/55 (55%), Gaps = 2/55 (4%)
+
+Query  333  AEQRKVRLKQANLIGPAGFISMEDGAVGGFVQRGIAGAANLDA-VIEMGGDHEGS  386
+            A+Q  V+L   +++ PA F  M D  V  FV+R    A+  DA  I + G++ G+
+Sbjct  57   ADQLGVKLDGCDVVDPASFAGM-DELVKAFVERRKGKASEEDAKKILLDGNYFGT  110
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 267793304
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

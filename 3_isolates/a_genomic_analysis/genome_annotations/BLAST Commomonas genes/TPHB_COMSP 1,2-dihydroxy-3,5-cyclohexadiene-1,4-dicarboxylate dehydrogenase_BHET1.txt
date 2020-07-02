@@ -1,0 +1,284 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= sp|Q3C1E1|TPHB_COMSP
+1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase
+OS=Comamonas sp. OX=34028 GN=tphBI PE=1 SV=1
+
+Length=315
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_02869 1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxyla...  244     3e-80
+  DMKJLJHC_02045 4-hydroxythreonine-4-phosphate dehydrogenase         124     8e-34
+  DMKJLJHC_05278 4-hydroxythreonine-4-phosphate dehydrogenase 1       87.8    5e-21
+  DMKJLJHC_07404 4-hydroxythreonine-4-phosphate dehydrogenase 2       44.7    3e-07
+  DMKJLJHC_05976 3-oxoacyl-[acyl-carrier-protein] synthase 2          30.8    0.19 
+  DMKJLJHC_04703 hypothetical protein                                 27.7    1.7  
+  DMKJLJHC_05455 Threonine synthase                                   26.9    2.9  
+  DMKJLJHC_05195 hypothetical protein                                 25.4    5.2  
+  DMKJLJHC_04125 4-hydroxy-tetrahydrodipicolinate synthase            25.8    6.3  
+  DMKJLJHC_01766 hypothetical protein                                 25.8    7.3  
+  DMKJLJHC_00781 3-isopropylmalate dehydrogenase                      25.4    7.4  
+  DMKJLJHC_04816 3-isopropylmalate dehydrogenase                      25.4    8.9  
+  DMKJLJHC_01529 hypothetical protein                                 25.0    9.4  
+  DMKJLJHC_04174 hypothetical protein                                 23.9    9.4  
+
+
+> DMKJLJHC_02869 1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate 
+dehydrogenase
+Length=325
+
+ Score = 244 bits (623),  Expect = 3e-80, Method: Compositional matrix adjust.
+ Identities = 141/329 (43%), Positives = 193/329 (59%), Gaps = 36/329 (11%)
+
+Query  6    RRLALAIGDPHGIGPEIALKALRQLSANERSLIKVYG---------------------PW  44
+            R + L IGDP+GIGPEIA KA   L  +      + G                      W
+Sbjct  7    RSVLLTIGDPNGIGPEIATKAAASLYQDPVCRPVLLGDEYIISPLADSLGFGVQTNRSKW  66
+
+Query  45   SALEQAAQICQMESLLQDLIHEEAGSLAQPAQW--GEITPQAGLSTVQSATAAIRACENG  102
+             + E+   +  +E++               A++  G+++  AG +TV    +A+    +G
+Sbjct  67   GSDEKTIDLHPIEAM-------------PTAEFIPGKVSAAAGRATVAYVESALTLLSDG  113
+
+Query  103  EVDAVIACPHHETAIHRAGIAFSGYPSLLANVLGMNEDQVFLMLVGAGLRIVHVTLHESV  162
+                ++ CPH ETA++ +G  FSGYPSLLA++L    D +FLMLVG GLRIVH TLHE +
+Sbjct  114  FGRGIVGCPHSETAVNLSGRKFSGYPSLLADLLKTGPDSIFLMLVGGGLRIVHATLHEGI  173
+
+Query  163  RSALERLSPQLVVNAVQAAVQTCTLLGVPKPQVAVFGINPHASEGQLFGLEDSQITAPAV  222
+              AL R+ P+LVV AV AA      LGV KP++ +FGINPHA E  LFG ED +I  PA+
+Sbjct  174  SGALNRIDPELVVKAVVAADAALRELGVDKPKIGLFGINPHAGENGLFGDEDDRIIVPAI  233
+
+Query  223  ETLRKCGLAVDGPMGADMVLAQRKHDLYVAMLHDQGHIPIKLLAPNGASALSIGGRVVLS  282
+            + LR+ G+   GP GAD +LA+  +D +VAM HDQGHIP+KLLA   ++ALSIG   + S
+Sbjct  234  QKLREQGIDAHGPEGADTMLARDGYDAFVAMYHDQGHIPVKLLAGRKSTALSIGANTLFS  293
+
+Query  283  SVGHGSAMDIAGRGVADSTALLRTIALLG  311
+            SVGHG+A DIAG+  AD  A++R + L+G
+Sbjct  294  SVGHGAAFDIAGKNCADPEAVIRAVRLVG  322
+
+
+> DMKJLJHC_02045 4-hydroxythreonine-4-phosphate dehydrogenase
+Length=332
+
+ Score = 124 bits (310),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 94/316 (30%), Positives = 154/316 (49%), Gaps = 23/316 (7%)
+
+Query  6    RRLALAIGDPHGIGPEIALKALRQLSANERSLIKVYGPWSALEQAAQICQMESLLQDLIH  65
+            R + L+ GDP GIGPE+A +A     A  R      G  + L +  +I ++    + + H
+Sbjct  8    RPVILSCGDPSGIGPELAARAWEHFGA--RLPFVWLGDPAHLPRGTKIREIAQPSEAVTH  65
+
+Query  66   EEAGSLAQP------AQWGEITPQAGLSTVQSATAAIRACENGEVDAVIACPHHETAIHR  119
+              +     P      A+ G+  P+   + +      +     GE  A+   P H+ A+  
+Sbjct  66   SGSALPVLPHAFPAAARPGDPDPENARAVIDVIARGVDLVMRGEGSALTTAPIHKKALKD  125
+
+Query  120  -AGIAFSGYPSLLANVLGMNEDQVFLMLVGAG----LRIVHVTLHESVRSALERLSPQLV  174
+             AG AF G+   LA++ G+  ++V +ML  +     LR+V  T+H  +      L+PQL+
+Sbjct  126  GAGFAFPGHTEFLAHLAGV--ERVVMMLASSNIKPPLRVVPATIHIGLSEVPSTLTPQLL  183
+
+Query  175  VNAVQAAVQTCTL---LGVPKPQVAVFGINPHASEGQLFGLEDSQITAPAVETLRKCGLA  231
+             + V+  +    L    G   P++A+ G+NPHA EG   G E+       + +LR  G A
+Sbjct  184  RDTVR--ITNAGLRADFGFTMPRIAIAGLNPHAGEGGAMGREELDWIRDEIASLRAEGFA  241
+
+Query  232  VDGPMGADMVLAQR---KHDLYVAMLHDQGHIPIKLLAPNGASALSIGGRVVLSSVGHGS  288
+            + GP+ AD +   R   ++D  +   HDQ  IPIK L  +G   +++G   V +S  HG+
+Sbjct  242  LSGPLPADTLFHDRARSRYDAVICAYHDQALIPIKTLDFDGGVNVTLGLPFVRTSPDHGT  301
+
+Query  289  AMDIAGRGVADSTALL  304
+            A DIAG+G A+  +L+
+Sbjct  302  AYDIAGQGRANPASLI  317
+
+
+> DMKJLJHC_05278 4-hydroxythreonine-4-phosphate dehydrogenase 1
+Length=259
+
+ Score = 87.8 bits (216),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 64/199 (32%), Positives = 101/199 (51%), Gaps = 4/199 (2%)
+
+Query  103  EVDAVIACPHHETAIHRAGIAFSGYPSLLANVLGMNEDQVFLMLVGAGLRIVHVTLHESV  162
+            + DA++  P ++ ++H AG+A S      A+ LG N   V  + V  GL    VT H ++
+Sbjct  37   KADALVFAPLNKASLHLAGMAQSDELHWFADRLGHN-GSVSEINVMEGLWTSRVTSHVAL  95
+
+Query  163  RSALERLSPQLVVNAVQAAVQTCTLLGVPKPQVAVFGINPHASEGQLFGLEDSQITAPAV  222
+            R   + ++ + +V A +         GV   ++ + G+NPH  +G  FG E+ +I  PAV
+Sbjct  96   REVADLITVEKIVVAARLIHAALLDGGVAAARIGICGLNPHNGDGGNFGTEEIEIVTPAV  155
+
+Query  223  ETLRKCGLAVDGPMGADMVLAQ---RKHDLYVAMLHDQGHIPIKLLAPNGASALSIGGRV  279
+               +  GL V+GP  AD +  +   ++ D  V + HDQG I IKLL       +  G  V
+Sbjct  156  AAAQAEGLPVEGPYPADTIFLKAVAKELDAVVTLYHDQGQIAIKLLGFWQGVTVQGGLPV  215
+
+Query  280  VLSSVGHGSAMDIAGRGVA  298
+             +++  HG+A DI G G A
+Sbjct  216  PVTTPAHGTAFDIRGAGRA  234
+
+
+> DMKJLJHC_07404 4-hydroxythreonine-4-phosphate dehydrogenase 2
+Length=66
+
+ Score = 44.7 bits (104),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 22/52 (42%), Positives = 33/52 (63%), Gaps = 0/52 (0%)
+
+Query  253  MLHDQGHIPIKLLAPNGASALSIGGRVVLSSVGHGSAMDIAGRGVADSTALL  304
+            M HDQ  IPIK +   G   +++G   + +S  HG+A DIAG+G AD T+++
+Sbjct  1    MYHDQALIPIKTVDFAGGVNVTLGLPFIRTSPDHGTAFDIAGQGKADPTSMI  52
+
+
+> DMKJLJHC_05976 3-oxoacyl-[acyl-carrier-protein] synthase 2
+Length=350
+
+ Score = 30.8 bits (68),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 38/91 (42%), Gaps = 15/91 (16%)
+
+Query  87   STVQSATAAIRACENGEVDAVIACPHHETAIHRAGIAFSGYPSLLANVLGMNEDQV----  142
+            ++VQ+   A R    GE D  I C   E AI R  ++  G+ +  A   G N+D      
+Sbjct  97   ASVQAIGDAARLLRAGEADIAI-CGGSEAAIDR--VSLGGFAAARALSSGYNDDPAAASR  153
+
+Query  143  --------FLMLVGAGLRIVHVTLHESVRSA  165
+                    F+M  GAG+ ++    H   R A
+Sbjct  154  PFDAGRDGFVMGEGAGILVIETLAHARARGA  184
+
+
+> DMKJLJHC_04703 hypothetical protein
+Length=333
+
+ Score = 27.7 bits (60),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 23/58 (40%), Gaps = 1/58 (2%)
+
+Query  73   QPAQWGEITPQAGLSTVQSATAAIRACENGEVDAVIACPHHETAIHRAGIAFSGYPSL  130
+             P  W  I  Q  L  V  +   +     G+ DA+I C H  T  H  G+     PSL
+Sbjct  209  DPDHWDLIEGQGSLFHVSYSGVTLALVHGGQPDALILC-HEPTREHMRGLPGYALPSL  265
+
+
+> DMKJLJHC_05455 Threonine synthase
+Length=461
+
+ Score = 26.9 bits (58),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query  3    IVHRRLALAIGDPHGIGPEIALKALRQLSAN-ERSLIKVYG  42
+            I+HR L+     P G+ P I+     Q+S+N ER+L   YG
+Sbjct  285  ILHRALSGGSYTPTGVLPSISPSMDIQVSSNFERALFDAYG  325
+
+
+> DMKJLJHC_05195 hypothetical protein
+Length=153
+
+ Score = 25.4 bits (54),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 35/81 (43%), Gaps = 6/81 (7%)
+
+Query  143  FLMLVGAGLRIVHVTLHESVRSALERLSPQ---LVVNAVQAAVQTCTLLGVPKPQVAVFG  199
+            FL + G    I  +   E  +S   + +P    L+  AVQ  + T +L G   PQ A   
+Sbjct  47   FLSIAGDQAEI-EIDGPEGSKSDSRKATPAEAALLRAAVQEQISTLSLTGAEPPQGAYVT  105
+
+Query  200  INPHASEGQLFGLEDSQITAP  220
+            ++ H +    +G  D  +T P
+Sbjct  106  VDWHFTTDSGYG--DGSMTYP  124
+
+
+> DMKJLJHC_04125 4-hydroxy-tetrahydrodipicolinate synthase
+Length=269
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 11/21 (52%), Gaps = 0/21 (0%)
+
+Query  239  DMVLAQRKHDLYVAMLHDQGH  259
+            D  LAQR HD  V   H  GH
+Sbjct  195  DHALAQRIHDRLVIFWHQMGH  215
+
+
+> DMKJLJHC_01766 hypothetical protein
+Length=671
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 23/39 (59%), Gaps = 2/39 (5%)
+
+Query  172  QLVVNAVQAAVQTCTLLGVPKPQ--VAVFGINPHASEGQ  208
+            Q  + A+  A      LG+P P+  VAV+G +P+A+ G+
+Sbjct  27   QRRLRAILRAADYQLRLGLPGPEDAVAVWGRSPYAARGE  65
+
+
+> DMKJLJHC_00781 3-isopropylmalate dehydrogenase
+Length=367
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  286  HGSAMDIAGRGVADSTALLRTIAL  309
+            HGSA DIAG+G A+  A + + A+
+Sbjct  286  HGSAPDIAGQGKANPIACILSFAM  309
+
+
+> DMKJLJHC_04816 3-isopropylmalate dehydrogenase
+Length=368
+
+ Score = 25.4 bits (54),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  286  HGSAMDIAGRGVADSTALLRTIAL  309
+            HGSA DIAG+G A+  A + + A+
+Sbjct  287  HGSAPDIAGQGKANPIACILSFAM  310
+
+
+> DMKJLJHC_01529 hypothetical protein
+Length=170
+
+ Score = 25.0 bits (53),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  1    MTIVHRRLALAIGDPHGIGPEIALKALRQL  30
+            +T   R LA  IG P  + PEIAL  +  L
+Sbjct  85   LTYRFRFLAPQIGGPSPLSPEIALADIESL  114
+
+
+> DMKJLJHC_04174 hypothetical protein
+Length=83
+
+ Score = 23.9 bits (50),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query  171  PQLVVNAVQAAVQTCTLLGVPKP-QVAVFGINPHASEGQLF  210
+            P+L++++V    Q  T+ G P P  +AV GI     +G L+
+Sbjct  17   PELLLDSVAINTQALTIFGRPIPIAMAVQGILSGGQDGTLY  57
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 296750108
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

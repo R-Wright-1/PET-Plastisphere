@@ -1,0 +1,144 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A2J7YME2|A0A2J7YME2_PSEPU Terephthalate 1,2-dioxygenase,
+reductase component 2 OS=Pseudomonas putida OX=303 GN=tphA1II PE=4
+SV=1
+
+Length=306
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta               50.8       3e-08
+GFJPDDAG_02838 Flavohemoprotein                                       28.5       0.55 
+GFJPDDAG_01425 Dihydroorotate dehydrogenase B (NAD(+)), electron ...  25.4       3.9  
+GFJPDDAG_01989 hypothetical protein                                   25.4       5.1  
+GFJPDDAG_01475 putative NTE family protein                            25.0       6.2  
+
+
+>GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta
+Length=318
+
+ Score = 50.8 bits (120),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 47/215 (22%), Positives = 85/215 (40%), Gaps = 23/215 (11%)
+
+Query  103  GDVLRLRLRPDR----VVRYQAGQHVVLWL----GAVARPYSLASLPGEDDFLEFHI---  151
+             +V R  L P+     + R+  G H+  ++      +AR YSL + PG+ D  +  I   
+Sbjct  19   ANVKRFTLVPENRNEPLPRFSGGSHITTYIENGHQTIARSYSLTNPPGQRDSYQIAIRLH  78
+
+Query  152  DCQRPGAFCDKARGLQVGDQMRLGEFRGGALHYDPDWQERPLWLLAAGTGLAPLWGILRE  211
+            D  + G+     + ++ GD +R+   R    H+   ++ +     AAG G+ P   ++ E
+Sbjct  79   DFSQGGSRFWHEK-MKEGDTLRISHPRN---HFPLSFKAKNHVFYAAGIGITPFLSMMAE  134
+
+Query  212  ALRRGHRGEIRVVHVARDPAGHYLAEKLLKLPGVSVELVLVEH---VDEALAGMRLLSRQ  268
+              R G   E+     +++    Y    L++           E     D +L   R+    
+Sbjct  135  LKRDGLPFELHYAAKSKETCPFY--SYLVETHSEETHFYFSEEKRLTDSSLWEHRV---G  189
+
+Query  269  TVALLCGAPASVERFARRMFMAGVPRGQVFADVFV  303
+            T    CG P+ +E F       G P+  +  + F 
+Sbjct  190  THVYFCGPPSFIEDFTNSALTIGYPQSTIHYERFT  224
+
+
+ Score = 41.2 bits (95),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 17/33 (52%), Positives = 21/33 (64%), Gaps = 0/33 (0%)
+
+Query  18   NLLDALNEAGLNVPYSCRAGSCHACLVRCLEGQ  50
+             LLDAL +AG+  PYSCR G C  C +   EG+
+Sbjct  251  TLLDALLKAGIKAPYSCRVGRCGTCELNVFEGE  283
+
+
+>GFJPDDAG_02838 Flavohemoprotein
+Length=397
+
+ Score = 28.5 bits (62),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 22/108 (20%), Positives = 44/108 (41%), Gaps = 13/108 (12%)
+
+Query  133  RPYSLASLPGEDDFLEFHIDCQRPGAFCDKAR-------GLQVGDQMRLGEFRGGALHYD  185
+            R YSL+S P +D F    I  ++   F    +        ++ G ++ +     G  H +
+Sbjct  201  RQYSLSSAPRQDFF---RISVKKEAEFDPIGKVSNFLHEKIEAGSEIEVSA-PAGDFHLE  256
+
+Query  186  PDWQERPLWLLAAGTGLAPLWGILREALRRGHRGEIRVVHVARDPAGH  233
+                + P+ L++ G G+ P+  +L    R     +   +H ++    H
+Sbjct  257  EG--QSPVALISGGVGITPMMSMLDTIARNIPERKTTFIHASKHEGVH  302
+
+
+>GFJPDDAG_01425 Dihydroorotate dehydrogenase B (NAD(+)), electron 
+transfer subunit
+Length=257
+
+ Score = 25.4 bits (54),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 31/120 (26%), Positives = 52/120 (43%), Gaps = 12/120 (10%)
+
+Query  104  DVLRLRLRPDRVVRYQA-GQHVVLWLGA-----VARPYSLASLPGEDDFLEFHIDCQRPG  157
+            ++  L LR D V   +A GQ V + +GA     + RP S+AS   E+  +      +  G
+Sbjct  18   NIFELVLRGDLVGEIKAPGQFVHVKVGAGIDPLLRRPISIASFDHENLTMALIYRAEGKG  77
+
+Query  158  A-FCDKARGLQVGDQMRLGEFRGGALHYDPDWQERPLWLLAAGTGLAPLWGILREALRRG  216
+                   +  +V D   LG    G   +  +   R   L+  G G+ PL+G+ ++ +  G
+Sbjct  78   TRLLSLVKCNEVVDV--LGPLGNG---FPVEEGRRTALLVGGGIGVPPLYGLSKKLVENG  132
+
+
+>GFJPDDAG_01989 hypothetical protein
+Length=465
+
+ Score = 25.4 bits (54),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  235  LAEKLLKLPGVSVELVLVEHVDEA  258
+            + +KL+K+ GV+VE +++E + +A
+Sbjct  256  VTKKLIKMSGVNVEDIVIEELKKA  279
+
+
+>GFJPDDAG_01475 putative NTE family protein
+Length=259
+
+ Score = 25.0 bits (53),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 17/31 (55%), Gaps = 2/31 (6%)
+
+Query  19  LLDALNEAGLNVPYSCRAGSCHACLVRCLEG  49
+           +L A ++A  N+P    AGS    LV CL G
+Sbjct  23  VLKAFDDA--NIPIDMIAGSSMGALVGCLYG  51
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 185742592
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,131 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A164E2Y8|A0A164E2Y8_GEOSE Terephthalate 1,2-dioxygenase,
+reductase component 2 OS=Geobacillus stearothermophilus OX=1422
+GN=tphA1II PE=4 SV=1
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta             32.7    0.003
+  GFJPDDAG_02391 Hydroxyacylglutathione hydrolase                     24.6    1.6  
+  GFJPDDAG_03169 ComF operon protein 1                                24.6    2.0  
+  GFJPDDAG_04329 Nucleoid-associated protein                          22.7    5.3  
+  GFJPDDAG_03881 hypothetical protein                                 23.1    6.0  
+  GFJPDDAG_01420 Calcium-transporting ATPase                          22.7    8.1  
+
+
+> GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta
+Length=318
+
+ Score = 32.7 bits (73),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 26/58 (45%), Gaps = 9/58 (16%)
+
+Query  52   PAPGVS----LLDAALGQGVLLDHKCKKGTCGRCMVTVLAGA-----HLLAPKTRRER  100
+            PA  VS    LLDA L  G+   + C+ G CG C + V  G        L+ K R E 
+Sbjct  242  PAVSVSEEETLLDALLKAGIKAPYSCRVGRCGTCELNVFEGEVDHGDSFLSEKERSEH  299
+
+
+> GFJPDDAG_02391 Hydroxyacylglutathione hydrolase
+Length=226
+
+ Score = 24.6 bits (52),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  37  SVIQIEQNGKTFTVQP  52
+           SV++IE NGKT  + P
+Sbjct  9   SVVKIETNGKTILIDP  24
+
+
+> GFJPDDAG_03169 ComF operon protein 1
+Length=495
+
+ Score = 24.6 bits (52),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 26/62 (42%), Gaps = 2/62 (3%)
+
+Query  22  SAAPPKPDGPSAVRPSVIQIEQNGKTFTVQPAP-GVSLLDAALGQG-VLLDHKCKKGTCG  79
+           S+ PP+P  PS      +Q   +G++  +   P  +  L      G VL +     G C 
+Sbjct  30  SSLPPQPLNPSFQFSPELQFFLSGRSLLIDELPFSIDTLQKHYTNGHVLYEKGVHGGQCH  89
+
+Query  80  RC  81
+           RC
+Sbjct  90  RC  91
+
+
+> GFJPDDAG_04329 Nucleoid-associated protein
+Length=106
+
+ Score = 22.7 bits (47),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 15/36 (42%), Gaps = 0/36 (0%)
+
+Query  69   LDHKCKKGTCGRCMVTVLAGAHLLAPKTRREREKTD  104
+            L  K  +GT G  MVTV+   H      +   E  D
+Sbjct  28   LGEKQIEGTAGGGMVTVIVSGHKQVLDVKINEEAVD  63
+
+
+> GFJPDDAG_03881 hypothetical protein
+Length=164
+
+ Score = 23.1 bits (48),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 22/47 (47%), Gaps = 1/47 (2%)
+
+Query  65   QGVLLDHKCKKGTCGRCMVTVLAGAHLLAPKTRREREKTDQPAKRLA  111
+            + +LLDH  K   C     T+     +L+P + +E E    P KRL 
+Sbjct  26   KEILLDHMKKCKVCTDSFSTIHDFYEVLSPASPKE-EAEIPPLKRLV  71
+
+
+> GFJPDDAG_01420 Calcium-transporting ATPase
+Length=893
+
+ Score = 22.7 bits (47),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 11/21 (52%), Positives = 16/21 (76%), Gaps = 1/21 (5%)
+
+Query  37   SVIQIEQNGKTFTV-QPAPGV  56
+            S+I ++QNGK F+V + AP V
+Sbjct  443  SIIVVDQNGKHFSVTKGAPDV  463
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 40296598
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

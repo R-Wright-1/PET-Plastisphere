@@ -1,0 +1,107 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|A0A0K8P8E7|MHETH_IDESA Mono(2-hydroxyethyl) terephthalate
+hydrolase OS=Ideonella sakaiensis (strain 201-F6) OX=1547922
+GN=ISF6_0224 PE=1 SV=1
+
+Length=603
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01290 Ribonuclease Y                                       28.9    0.89 
+  GFJPDDAG_00997 hypothetical protein                                 26.9    2.3  
+  GFJPDDAG_03637 hypothetical protein                                 25.4    8.1  
+  GFJPDDAG_00134 hypothetical protein                                 25.0    9.9  
+
+
+> GFJPDDAG_01290 Ribonuclease Y
+Length=519
+
+ Score = 28.9 bits (63),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 35/73 (48%), Gaps = 4/73 (5%)
+
+Query  147  GQIASALSRNFATIATDGGHDNAVNDNPDALGTVAFGLDPQARLDMGYNSYDQVTQAGKA  206
+            G+I     RN  T+ T  G D  ++D P+A+  +  G DP  R +    + +++ Q G+ 
+Sbjct  222  GRIIGREGRNIRTLETLTGIDLIIDDTPEAV--ILSGFDP-IRRETARIALEKLVQDGRI  278
+
+Query  207  AVARFYGRAADKS  219
+              AR      DKS
+Sbjct  279  HPARI-EEMVDKS  290
+
+
+> GFJPDDAG_00997 hypothetical protein
+Length=166
+
+ Score = 26.9 bits (58),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 11/21 (52%), Gaps = 2/21 (10%)
+
+Query  378  WDAGMSGLSGTTYNQGWRSWW  398
+            W AGM  L    Y +GW  WW
+Sbjct  106  WAAGM--LDSIQYFEGWNIWW  124
+
+
+> GFJPDDAG_03637 hypothetical protein
+Length=167
+
+ Score = 25.4 bits (54),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 13/36 (36%), Positives = 19/36 (53%), Gaps = 0/36 (0%)
+
+Query  524  PGMNHCSGGPGTDRFDMLTPLVAWVERGEAPDQISA  559
+            P   H   G G+   D ++P++  VE GEA  +I A
+Sbjct  16   PTDGHGGYGVGSLSLDNVSPVIIDVEEGEATIEIGA  51
+
+
+> GFJPDDAG_00134 hypothetical protein
+Length=140
+
+ Score = 25.0 bits (53),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 13/22 (59%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  85   AAALPEHCEVSGAIAKRTGIDG  106
+            AAAL E   V   +AKR GIDG
+Sbjct  92   AAALTEVLNVFPILAKRIGIDG  113
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 413894170
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

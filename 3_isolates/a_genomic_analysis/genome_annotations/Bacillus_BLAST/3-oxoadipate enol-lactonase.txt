@@ -1,0 +1,450 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A2B9EVP5|A0A2B9EVP5_BACCE 3-oxoadipate enol-lactonase
+OS=Bacillus cereus OX=1396 GN=pcaD PE=4 SV=1
+
+Length=300
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_01747 Pimeloyl-[acyl-carrier protein] methyl ester est...  285     4e-97
+  GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase  69.3    2e-14
+  GFJPDDAG_02367 Proline iminopeptidase                               63.9    1e-12
+  GFJPDDAG_02441 Arylesterase                                         56.6    3e-10
+  GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  56.2    4e-10
+  GFJPDDAG_01144 Proline iminopeptidase                               47.0    3e-07
+  GFJPDDAG_01018 Putative aminoacrylate hydrolase RutD                45.4    1e-06
+  GFJPDDAG_03917 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carbox...  43.1    8e-06
+  GFJPDDAG_02344 putative hydrolase                                   40.4    6e-05
+  GFJPDDAG_02931 2-(acetamidomethylene)succinate hydrolase            36.6    9e-04
+  GFJPDDAG_01166 Dihydrolipoyllysine-residue acetyltransferase co...  31.6    0.042
+  GFJPDDAG_00769 4,5:9,10-diseco-3-hydroxy-5,9,17-trioxoandrosta-...  30.0    0.13 
+  GFJPDDAG_02799 Acetyltransferase                                    26.9    1.0  
+  GFJPDDAG_04199 Ribose-phosphate pyrophosphokinase                   27.3    1.0  
+  GFJPDDAG_00505 Oligoendopeptidase F, plasmid                        27.7    1.1  
+  GFJPDDAG_03918 hypothetical protein                                 26.6    1.7  
+  GFJPDDAG_02434 Dipeptidyl-peptidase 5                               26.2    2.7  
+  GFJPDDAG_03389 Cysteine desulfurase SufS                            26.2    2.8  
+  GFJPDDAG_01927 hypothetical protein                                 25.8    3.4  
+  GFJPDDAG_02783 Oligoendopeptidase F, plasmid                        24.6    9.3  
+
+
+> GFJPDDAG_01747 Pimeloyl-[acyl-carrier protein] methyl ester esterase
+Length=303
+
+ Score = 285 bits (730),  Expect = 4e-97, Method: Compositional matrix adjust.
+ Identities = 136/293 (46%), Positives = 202/293 (69%), Gaps = 4/293 (1%)
+
+Query  10   VSLSNGETIAYQEVGRRNTDI-LLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQS  68
+            V L NGET AY+E  R    I L+L+HGNMTSS+HWD+V++K+ + Y IYA+D+RGFG+S
+Sbjct  9    VLLGNGETFAYRE--RSGGHIPLVLVHGNMTSSKHWDVVLDKMDESYKIYAVDMRGFGES  66
+
+Query  69   TYNQSIDSLQDFAEDVKLFIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLILVESV  128
+            +Y+  I S++D ++D+K +++ L L  FS+MGWS GG VAMQF  ++P++ + LIL+ S 
+Sbjct  67   SYHGEIGSIKDLSDDLKDWVELLGLSGFSMMGWSTGGAVAMQFVVDYPDYCKDLILLASA  126
+
+Query  129  GMKGYPIFKKDTNGQPIVSNLVKTKEEIAQDPVQIAPVLDAIKNMNKLYYRTVWNLLIYT  188
+              +GYP F    +G P + N + T +E+  D  +  PV  A    ++ + RT+WN LIY+
+Sbjct  127  STRGYPFFGTKADGTPDLGNRLGTIDEVIDDSGKTVPVQAAYDGNDREFLRTLWNALIYS  186
+
+Query  189  HNQPEPDRYEKYLDDMLTQRNFVDVNYALITFNISDEHNGVVEGSKQIHRIKAPTLVIQG  248
+            HNQPE +RYE+Y+DDM TQRN  D+  AL TFNISD HNG+V+G+ +   I  P LV++G
+Sbjct  187  HNQPEEERYEEYIDDMRTQRNLADIYQALNTFNISDVHNGLVDGTGEAGSIAIPVLVLRG  246
+
+Query  249  DRDYVVPQVVGEELAKHL-PNAELNVLEDCGHSPFIDCLDVFIKHVENWLEQK  300
+            DRDYV+ + + EE+ + +  NA    L++ GHSP ID +D  ++ +E++L+ K
+Sbjct  247  DRDYVITKEMTEEIVEDIGENATFVELKNSGHSPLIDDIDQLLEVIESFLQTK  299
+
+
+> GFJPDDAG_03456 2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+Length=302
+
+ Score = 69.3 bits (168),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 64/264 (24%), Positives = 115/264 (44%), Gaps = 48/264 (18%)
+
+Query  28   TDILLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQSTYNQS-IDSLQDFAEDVKL  86
+            ++  +L+HG ++S+  +  +   L++ Y++ ++DL  FG S  N   I S  + A  V  
+Sbjct  28   SETFVLLHGFLSSTFSFRRLTPLLKENYNVISIDLPPFGNSEKNNRFIYSYDNLANTVID  87
+
+Query  87   FIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLILVESVG-----------MKGYPI  135
+             +D L +    L G SMGG +A+      P+ VEK +L+ S G           +   P 
+Sbjct  88   LLDHLNVSNVHLTGHSMGGQIALNVMKKAPSLVEKGVLLCSSGYLKKMNWPVTMLSHIPF  147
+
+Query  136  FKKDTNGQPIVSNLVKTKEEIAQDPVQIAPVLDAIKNMNKLYYRTVWNLLIYTHNQPEPD  195
+            F          S +    E +  D                   + + + +++ + +P   
+Sbjct  148  FHLYVKMWLTRSGVRNNLENVVHDS------------------KLIDDEMMFGYLKP---  186
+
+Query  196  RYEKYLDDMLTQRNFVDVNYALITFNISDEHNGVVEGSKQIHRIKAPTLVIQGDRDYVVP  255
+                +L+D        D+  AL T  I D    +   + ++  I+ P L++ G+ D VVP
+Sbjct  187  ----FLED--------DIFKAL-TRMIRDREGDL--SANELRSIQTPCLLVWGEHDRVVP  231
+
+Query  256  QVVGEELAKHLPNAELNVLEDCGH  279
+               G +L + +PN++L VLE+ GH
+Sbjct  232  LSTGHKLKQDIPNSKLVVLEETGH  255
+
+
+> GFJPDDAG_02367 Proline iminopeptidase
+Length=280
+
+ Score = 63.9 bits (154),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 59/260 (23%), Positives = 117/260 (45%), Gaps = 38/260 (15%)
+
+Query  49   EKLQDQYHIYALDLRGFGQSTYNQSID--SLQDFAEDVKLFIDELKLEKFSLMGWSMGGG  106
+            ++  D + +Y ++L+  G ST  +  D  S+ + ++D++     L  + ++  G S GG 
+Sbjct  43   DRFVDDFKVYLVNLKESGNSTEIKDEDELSMSETSKDLEAIRVALGYDDWNFAGHSTGGM  102
+
+Query  107  VAMQFTANHPNFVEKLILVESVGMKGYPIFKKDTNGQPIVSNLVKTKEEIAQD--PV--Q  162
+            + + + ANHP+ +++LI+                 G    +  ++ ++ I  D  P+   
+Sbjct  103  LGLVYAANHPDSLKRLIV----------------GGASATNEYMEDRDSIYSDENPLNKS  146
+
+Query  163  IAPVLDAIKNMNKLYYRTVWNLLIYTH-NQPEPDRYEKYLDD----MLTQRNFVDVNYA-  216
+            +  V   +K+              +T  +  +P R+++Y        + QR     +YA 
+Sbjct  147  LKEVFSTLKSKGSTKEERAQAGREWTEMSLNDPSRFDEYFSKPSSGKVVQRRLDYYSYAE  206
+
+Query  217  LITFNISDEHNGVVEGSKQIHRIKAPTLVIQGDRDYVVPQVVGEELAKHLPNAELNVLED  276
+            L T++I ++          I RIK PT+V  G  D   P V  EE+   +PN+   + E+
+Sbjct  207  LPTYDIRED----------ISRIKTPTIVFCGRYDSQCPFVYSEEIFHLVPNSTFYIYEN  256
+
+Query  277  CGHSPFIDCLDVFIKHVENW  296
+              HSP ++ L+ F   V+++
+Sbjct  257  SNHSPHLEELEKFRGMVKDF  276
+
+
+> GFJPDDAG_02441 Arylesterase
+Length=267
+
+ Score = 56.6 bits (135),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 61/251 (24%), Positives = 106/251 (42%), Gaps = 28/251 (11%)
+
+Query  31   LLLIHGNMTSSQHWDLVIEKL-QDQYHIYALDLRGFGQSTYNQSIDSLQDFAEDVKLFID  89
+            ++ IHG   + + ++  + +L Q  Y    +DLRG GQS            A+D+   + 
+Sbjct  24   IVFIHGWPLNHKMFEYQMNELPQKGYRFIGVDLRGHGQSDKPVHGYDYTTLAKDIHAVVK  83
+
+Query  90   ELKLEKFSLMGWSMGGGVAMQF-TANHPNFVEKLILVESVGMKGYPIFKKDTNGQPIVSN  148
+            EL LE F L G+SMGG +A+++ T    + +++LIL+        PIF +  +       
+Sbjct  84   ELNLESFFLAGFSMGGSIAIRYATKFATDSLKQLILMGPAA----PIFTQRDDFP-----  134
+
+Query  149  LVKTKEEIAQDPVQIAPVLDAIKNMNKLYYRTVWNLLIYTHNQPEPDRYEKYLDDMLTQR  208
+               TK+E      ++  ++ AI+N          N   Y+      D    + D +  + 
+Sbjct  135  -YGTKKE------EVDVLIRAIENDRPATLANFGNNAFYSDVS---DELSAWFDGLGLEA  184
+
+Query  209  NFVDVNYALITFNISDEHNGVVEGSKQIHRIKAPTLVIQGDRDYVVPQVVGEELAKHLPN  268
+            +         +    D  N       +++ I  PTL++ G  D +       EL KH+ N
+Sbjct  185  SAHATIACAKSLRDEDLRN-------ELNDIGVPTLLMHGKHDQICEFDFSVELQKHIKN  237
+
+Query  269  AELNVLEDCGH  279
+            + L   E+ GH
+Sbjct  238  SSLVPFEESGH  248
+
+
+> GFJPDDAG_02574 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=269
+
+ Score = 56.2 bits (134),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 56/104 (54%), Gaps = 3/104 (3%)
+
+Query  31   LLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQ--STYNQSIDSLQDFAEDVKLFI  88
+            L+ +HG    +  W  V ++L   Y   ++DL G G+  S  + +  +++  + D+   +
+Sbjct  21   LVFLHGFTGDTTTWTRVTDRLSSNYRCISIDLIGHGRTDSPVDCARYTMEQVSHDINTIL  80
+
+Query  89   DELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLIL-VESVGMK  131
+            + L++ +  L+G+SMGG  A+ FT  HP  V  LIL   S G+K
+Sbjct  81   NRLEVIQAQLIGYSMGGRTALHFTLMHPQKVGALILESASPGLK  124
+
+
+> GFJPDDAG_01144 Proline iminopeptidase
+Length=222
+
+ Score = 47.0 bits (110),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 52/229 (23%), Positives = 102/229 (45%), Gaps = 38/229 (17%)
+
+Query  64   GFGQSTYNQSID---SLQDFAEDVKLFIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVE  120
+            G G+S  + S+D   S++   E+++L    L L+   + G S G  +A+ + A +   +E
+Sbjct  8    GCGKS--DDSVDGTYSIEREIENLELLRAALGLKTIHIFGESWGSVLALSYAAKYTKNIE  65
+
+Query  121  KLILVESVGM--KGYPIFKKDTNGQPIVSNLVKTKEEIAQDPVQIAPVLDAIKNMNKLYY  178
+            +++L   +G+  +GY  FK+   G+  + + ++                  I  M+K  +
+Sbjct  66   RIVLTAVIGLNNQGYHDFKRGLLGRMSIVDKMRL----------------GIYGMSKTPF  109
+
+Query  179  RTVWNLLIYTHNQPEPDRYEKYLDDMLTQRNFVDVNYAL---ITFNISDEHNGVVEGSKQ  235
+              +  LL         DR+  Y  + L ++  V  N      I+  +  E + ++   + 
+Sbjct  110  DKITRLL---------DRHYVYSQETLKRKAAVKFNREANKQISRELGCEFD-LIPIPEG  159
+
+Query  236  IHRIKAPTLVIQGDRDYVVPQVVGEELAKHLPNAELNVLEDCGHSPFID  284
+            IH+I  P ++ QG  D + P  V +E+  HL  + L  +E  GH   ++
+Sbjct  160  IHQI--PIMIAQGSADILPPSYVRKEMIPHLHRSILVEVEKSGHWTIVE  206
+
+
+> GFJPDDAG_01018 Putative aminoacrylate hydrolase RutD
+Length=278
+
+ Score = 45.4 bits (106),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/129 (26%), Positives = 67/129 (52%), Gaps = 10/129 (8%)
+
+Query  9    FVSLSNGETIAYQEVGRRNTDILLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQS  68
+            F+++ N + +  +E G  +  ++  +HG  ++   +  V E+L+ ++ I A+D  G G++
+Sbjct  5    FINIGN-QPLHIKEWGTPDLPVIFCVHGLGSTGLSFIEVAEQLKAEFRIIAIDAPGHGKT  63
+
+Query  69   ---TYNQSID--SLQDFAEDVKLFIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLI  123
+               TY +  +   + D+  +    ID+L +  F  +  S G  VA+ FTA +P  V   I
+Sbjct  64   PPFTYGEEYEMPRMTDWLNEA---IDQLDIGPFYFLSHSWGSFVALHFTARYPEKVRDNI  120
+
+Query  124  LVESVGMKG  132
+            L++  G +G
+Sbjct  121  LLDG-GYQG  128
+
+
+> GFJPDDAG_03917 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate 
+synthase
+Length=266
+
+ Score = 43.1 bits (100),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 62/287 (22%), Positives = 112/287 (39%), Gaps = 36/287 (13%)
+
+Query  17   TIAYQEVGRRNTDILLLIHGNMTSSQH---WDLVIEKLQDQYHIYALDLRGFGQSTYNQS  73
+            +I Y++ G      LL++H   T  +    W   + K  + Y    +D+   G S  ++ 
+Sbjct  9    SIHYEDRGEGTP--LLILHSMGTDHRAMMAWIEPVFKDINGYRRIYIDIPAHGHSDVDEK  66
+
+Query  74   IDSLQDFAEDVKLFIDEL-KLEKFSLMGWSMGGGVAMQFTANHPNFVEKLILVESVGMKG  132
+            ++S  D   ++  FID +   E FSL+G+S GG +A          V  + L+ S     
+Sbjct  67   LNSTDDILMNILDFIDSVFPDETFSLLGFSFGGYLAQGILHFRQKQVRSICLLASA----  122
+
+Query  133  YPIFKKDTNGQPIVSNLVKTKEEIAQDPVQIAPVLDAIKNMNKLYYRTVWNLLIYTHNQP  192
+                             +  KE    D V +      +  ++     T   L +Y  N+ 
+Sbjct  123  -----------------LHLKERNLPDKVILEKDEGILSTLDSDIKSTFETLFVY-QNKE  164
+
+Query  193  EPDRYEKYLD--DMLTQRNFVDVNYALITFNISDEHNGVVEGSKQIHRIKAPTLVIQGDR  250
+              D + + +    +L  R F+  N+    +  ++E    V   KQ      P L+I G +
+Sbjct  165  NLDCFLREIQPGRLLANREFLTSNWKEKGYFFTEEPFLGVSDLKQ------PALIILGKQ  218
+
+Query  251  DYVVPQVVGEELAKHLPNAELNVLEDCGHSPFIDCLDVFIKHVENWL  297
+            D +      + L    PN+   +L+  GH   I+  D+  + + +WL
+Sbjct  219  DSICGYEDYDFLFNKFPNSTFVILDKAGHMLTIEKRDIVQQLIRDWL  265
+
+
+> GFJPDDAG_02344 putative hydrolase
+Length=281
+
+ Score = 40.4 bits (93),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 27/107 (25%), Positives = 52/107 (49%), Gaps = 2/107 (2%)
+
+Query  22   EVGRRNTDILLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQS-TYNQSIDSL-QD  79
+            E+G +   +L+ +HG    S  +  + + L + +HI  LDL G G++       D L   
+Sbjct  17   EIGDKYLPLLVCLHGMTGDSNSFVELTKHLCNDFHIILLDLPGHGETGPLPHEKDYLFSS  76
+
+Query  80   FAEDVKLFIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLILVE  126
+             ++ +   I  L  E   ++G S G  +++     +PN ++ LIL++
+Sbjct  77   LSKRIMGVISRLTTEPVYVLGHSWGADLSLHIAKQYPNQMKGLILID  123
+
+
+> GFJPDDAG_02931 2-(acetamidomethylene)succinate hydrolase
+Length=217
+
+ Score = 36.6 bits (83),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 61/275 (22%), Positives = 106/275 (39%), Gaps = 76/275 (28%)
+
+Query  39   TSSQHWDLVIEKLQDQYHIYALDLRGFGQSTYNQSIDSLQDFAEDVKLFIDEL--KLEKF  96
+            T+  H+   I    D Y +  LDL G G+ST   S      F   +   I +L  K E +
+Sbjct  3    TAQTHFSNQIPYFGDGYELILLDLPGHGKSTLEASDHY---FEHTLDYLITQLQEKGEGY  59
+
+Query  97   SLMGWSMGGGVAMQFTANHPNFVEKLILVESVGMKGYPIFKKDTNGQPIVS------NLV  150
+             L+G S+G  +A+      P  V+ ++L       GY  +  D   + +        N+ 
+Sbjct  60   -LIGLSLGASLAIHTALRAPELVKGIVLT------GYSPYIPDELKEIMEKQNEYYLNIK  112
+
+Query  151  KTKEEIAQDPVQIAPVLDAIKNMNKLYYRTVWNLLIYTHNQPEPDRYEKYLDDM------  204
+            +  EEIA+             + +KL+    W   I           +K L  M      
+Sbjct  113  ENDEEIAE-------------HFHKLHGEK-WEQTI-----------KKVLHSMTFHYPA  147
+
+Query  205  LTQRNFVDVNYALITFNISDEHNGVVEGSKQIHRIKAPTLVIQGDRDYVVPQVVGEELAK  264
+            +T+ N  D+   ++  N          GS  +H ++A + V + ++              
+Sbjct  148  VTRENMQDIKPPVLMLN----------GSHDVHEVEAVSFVKRSNQ--------------  183
+
+Query  265  HLPNAELNVLEDCGHSPFIDCLDVFIKHVENWLEQ  299
+                 E+ ++ D GH+  ID  ++F + VE +LE+
+Sbjct  184  ---TIEVGLIPDGGHTANIDQPEIFNRVVERFLER  215
+
+
+> GFJPDDAG_01166 Dihydrolipoyllysine-residue acetyltransferase 
+component of acetoin cleaving system
+Length=265
+
+ Score = 31.6 bits (70),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 27/110 (25%), Positives = 56/110 (51%), Gaps = 12/110 (11%)
+
+Query  21   QEVGRRNTDILLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQS----TYNQ--SI  74
+            Q VG+   + ++ +HG   +S+ +   +E  ++ Y++  + L G G S    +YN+  +I
+Sbjct  8    QGVGK---EYVVFLHGIGGNSKIFSKQLETFKEFYNVVTIHLPGHGHSPGIESYNEPFTI  64
+
+Query  75   DSLQDFAEDVKLFIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLIL  124
+            D +     DV   +D++ +EK   +G S+G  V  +     P+ V+  ++
+Sbjct  65   DLIVREVVDV---LDDIGMEKAHFIGISLGSVVIHELLQKVPHRVKSAVM  111
+
+
+> GFJPDDAG_00769 4,5:9,10-diseco-3-hydroxy-5,9,17-trioxoandrosta-1(10),2-diene-4-oate 
+hydrolase
+Length=248
+
+ Score = 30.0 bits (66),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 25/109 (23%), Positives = 49/109 (45%), Gaps = 2/109 (2%)
+
+Query  22   EVGRRN-TDILLLIHGNMTSSQHWDLVIEKLQDQYHIYALDLRGFGQSTYNQSIDSLQDF  80
+             VG++N    +++  G    S+ W+ V  ++     +   D  G G+S  + +  + +  
+Sbjct  24   RVGKKNYKPTIVMDAGYGDYSKAWNEVAPEIAKFAEVVLYDRAGLGRSDKSSNPRTSEQM  83
+
+Query  81   AEDVKLFIDELKLEK-FSLMGWSMGGGVAMQFTANHPNFVEKLILVESV  128
+              ++K  +  L +   + L+G S GG     F   + N V  L+LV+S 
+Sbjct  84   VIELKELLTNLNIAPPYILVGHSFGGVNMRLFATEYSNEVSGLVLVDST  132
+
+
+> GFJPDDAG_02799 Acetyltransferase
+Length=138
+
+ Score = 26.9 bits (58),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 27/58 (47%), Gaps = 3/58 (5%)
+
+Query  243  TLVIQGDRDYVVPQVVGEELAKHLPNAELNVLEDCGHSPFIDCLDVFIKHVENWLEQK  300
+            + V++ D D +V  VVGE    HL    L V ED  H  +   L   I  +E +  +K
+Sbjct  39   SFVLRNDEDEIVGGVVGEMFWHHLHVDFLWVSEDFRHGGYGSKL---IHQIEEYAREK  93
+
+
+> GFJPDDAG_04199 Ribose-phosphate pyrophosphokinase
+Length=319
+
+ Score = 27.3 bits (59),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 23/50 (46%), Gaps = 4/50 (8%)
+
+Query  201  LDDMLTQRNFVDVNYALITFNISDEHNGVVEGSKQIHRIKAPTLVIQGDR  250
+            L D   +R F + +  ++    S +H GV    K   R+KAP  +I   R
+Sbjct  157  LADYFEERGFNNEDLVIV----SPDHGGVTRARKLAERLKAPIAIIDKRR  202
+
+
+> GFJPDDAG_00505 Oligoendopeptidase F, plasmid
+Length=594
+
+ Score = 27.7 bits (60),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 19/84 (23%), Positives = 39/84 (46%), Gaps = 6/84 (7%)
+
+Query  173  MNKLYYRTVWNL-LIYTHNQPEPDRYEKYLDDMLTQRNFV-DVNYALITFNISDEHNGVV  230
+            MN+  Y++VWNL  I+      PD +    D M+    ++ +++  L  +    E +   
+Sbjct  2    MNQTKYKSVWNLDSIFKGGSGSPDLH----DHMIQTEVYIKELDEKLKEWKTPREESDAY  57
+
+Query  231  EGSKQIHRIKAPTLVIQGDRDYVV  254
+            + +  +H ++   L I   R +V+
+Sbjct  58   QIADILHELREIKLCISQARSFVI  81
+
+
+> GFJPDDAG_03918 hypothetical protein
+Length=268
+
+ Score = 26.6 bits (57),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 24/105 (23%), Positives = 41/105 (39%), Gaps = 12/105 (11%)
+
+Query  182  WNLLIYTHNQPEPDRYEKYLDDMLTQRNFVDVNYALITFNISDEHNGVVEGSKQIHRIKA  241
+            W L I     P+  R  K +     +  FV   +    F   +E NG ++   Q+ R+  
+Sbjct  46   WLLTIIERFNPQGYRLSKPVRS--NKGTFVSGGWICTQFECGEEENGRIKEKLQVARLFH  103
+
+Query  242  PTL-------VIQGDRDYVVPQVVG---EELAKHLPNAELNVLED  276
+              L       ++Q D  +     +    EE++K LPN    ++ D
+Sbjct  104  HDLSNINVKDMVQVDNRWAKAHRIAWQTEEISKELPNKTRKIIND  148
+
+
+> GFJPDDAG_02434 Dipeptidyl-peptidase 5
+Length=649
+
+ Score = 26.2 bits (56),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 22/71 (31%), Positives = 33/71 (46%), Gaps = 7/71 (10%)
+
+Query  45   DLVIEK----LQDQYHIYALDLRGFGQSTY-NQSIDSLQDFAEDVKLFIDE--LKLEKFS  97
+            +L IEK    L+  Y   +    GF ++ Y N  I   QD    V   +D+     E+  
+Sbjct  440  ELFIEKGFIVLEPNYRGSSGYGNGFLKANYRNLGIGDYQDVIFGVDALVDKGIADKERVG  499
+
+Query  98   LMGWSMGGGVA  108
+            +MGWS GG ++
+Sbjct  500  VMGWSQGGFIS  510
+
+
+> GFJPDDAG_03389 Cysteine desulfurase SufS
+Length=409
+
+ Score = 26.2 bits (56),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 22/86 (26%), Positives = 38/86 (44%), Gaps = 14/86 (16%)
+
+Query  131  KGYPIFKKDTNGQPIVSNLVKTKEEIAQDPVQIAPVLDAIKNMNKLY--YRTVWNLLIYT  188
+            K +PI  ++ NG P+V          +Q PV +      I+ MN  Y  Y +  +  ++T
+Sbjct  8    KQFPILDQEVNGHPLV---YLDSAATSQKPVSV------IEAMNDYYRGYNSNVHRGVHT  58
+
+Query  189  HNQPEPDRYEKYLDDMLTQRNFVDVN  214
+                  D YE   + +   RNF++ +
+Sbjct  59   LGTRATDGYEGAREKV---RNFINAS  81
+
+
+> GFJPDDAG_01927 hypothetical protein
+Length=289
+
+ Score = 25.8 bits (55),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 15/69 (22%), Positives = 29/69 (42%), Gaps = 1/69 (1%)
+
+Query  71   NQSIDSLQDFAED-VKLFIDELKLEKFSLMGWSMGGGVAMQFTANHPNFVEKLILVESVG  129
+            N+  +  Q F E+ V    D L   +++   W+       +F  +  N++ + +      
+Sbjct  112  NEGHEETQPFEEERVSYQYDRLSAVQYAERWWNSYNPAFKKFENDCTNYISQCLHAGDAP  171
+
+Query  130  MKGYPIFKK  138
+            M+GYP   K
+Sbjct  172  MRGYPTKGK  180
+
+
+> GFJPDDAG_02783 Oligoendopeptidase F, plasmid
+Length=595
+
+ Score = 24.6 bits (52),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 10/36 (28%), Positives = 19/36 (53%), Gaps = 1/36 (3%)
+
+Query  178  YRTVWNLLIYTHNQPEPDRYEKYLDDMLTQRN-FVD  212
+            Y  +WNL ++     +   + K+LD +  ++N F D
+Sbjct  8    YSDIWNLDVFFSGGSDSQEFRKHLDTLEKKKNDFAD  43
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 180767344
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

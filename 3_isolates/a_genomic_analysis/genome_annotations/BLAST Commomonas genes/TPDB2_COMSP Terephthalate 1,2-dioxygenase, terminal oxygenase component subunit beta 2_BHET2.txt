@@ -1,0 +1,151 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|Q3C1D4|TPDB2_COMSP Terephthalate 1,2-dioxygenase, terminal
+oxygenase component subunit beta 2 OS=Comamonas sp. OX=34028
+GN=tphA3II PE=1 SV=1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03020 1,2-beta-oligoglucan phosphorylase                   24.6    3.3  
+  GFJPDDAG_00036 hypothetical protein                                 24.3    3.9  
+  GFJPDDAG_01298 Putative zinc protease AlbF                          24.3    4.0  
+  GFJPDDAG_03845 Intracellular proteinase inhibitor                   23.9    4.7  
+  GFJPDDAG_03729 Formimidoylglutamase                                 23.9    4.9  
+  GFJPDDAG_01501 2-oxoglutarate carboxylase small subunit             23.9    5.7  
+  GFJPDDAG_02527 Leucine--tRNA ligase                                 23.9    5.8  
+
+
+> GFJPDDAG_03020 1,2-beta-oligoglucan phosphorylase
+Length=1109
+
+ Score = 24.6 bits (52),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 30/63 (48%), Gaps = 9/63 (14%)
+
+Query  16   KTIDSDAME---QWPTFFTKDCHYCVTNVDNHDEGLAAGIVWADSQDMLTDRISALREAN  72
+            KT+ S   E    WP +F  D +Y +   D+H +     IVW     ++ D I+A  + +
+Sbjct  653  KTVYSHQYEDNGNWPQWFMFDRYYTIQQDDSHGD----IIVWP--LKVVGDYIAATHDYS  706
+
+Query  73   IYE  75
+            I E
+Sbjct  707  ILE  709
+
+
+> GFJPDDAG_00036 hypothetical protein
+Length=307
+
+ Score = 24.3 bits (51),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  134  LQERIAVCDSTVTDTLMALP  153
+            +QE IA+  ST++D ++ LP
+Sbjct  1    MQEVIALLPSTISDKVLTLP  20
+
+
+> GFJPDDAG_01298 Putative zinc protease AlbF
+Length=429
+
+ Score = 24.3 bits (51),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 21/46 (46%), Gaps = 0/46 (0%)
+
+Query  31   TKDCHYCVTNVDNHDEGLAAGIVWADSQDMLTDRISALREANIYER  76
+            TKD  Y   N   H   +   +V +   D + D+I + +E   YE+
+Sbjct  183  TKDMLYQCYNTFYHPSNMLLFVVGSVEPDQIMDQIRSNQEKKNYEK  228
+
+
+> GFJPDDAG_03845 Intracellular proteinase inhibitor
+Length=162
+
+ Score = 23.9 bits (50),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 11/43 (26%), Positives = 23/43 (53%), Gaps = 2/43 (5%)
+
+Query  52   IVWADSQDMLTDRISALREANIYERHRYRHILGLPSIQSGDAT  94
+            +V+ DS+  +  +  A++E  I +   +   + LP ++SG  T
+Sbjct  100  VVYKDSKKKMYTQ--AIQEITIKQGEEFSQKVVLPKVESGTYT  140
+
+
+> GFJPDDAG_03729 Formimidoylglutamase
+Length=316
+
+ Score = 23.9 bits (50),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  3    NEIQIAAFNAAYAKTIDSDAMEQWPTFFTK  32
+            N IQI   N A AK     A+EQ  T +TK
+Sbjct  185  NLIQIGIRNYANAKAYHDYAIEQGVTVYTK  214
+
+
+> GFJPDDAG_01501 2-oxoglutarate carboxylase small subunit
+Length=1146
+
+ Score = 23.9 bits (50),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 17/66 (26%), Positives = 28/66 (42%), Gaps = 17/66 (26%)
+
+Query  15   AKTIDSDAMEQWPTFFTKDCHYC-------VTNVDNHDEGLAAGIVWADSQDMLTDRISA  67
+            AKT D DA+     F +++ H+        +T V  H E L          +M  D++ A
+Sbjct  73   AKTADVDAIHPGYGFLSENIHFARRCEEEGITFVGPHSEHL----------NMFGDKVKA  122
+
+Query  68   LREANI  73
+              +A +
+Sbjct  123  RHQAQL  128
+
+
+> GFJPDDAG_02527 Leucine--tRNA ligase
+Length=804
+
+ Score = 23.9 bits (50),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 16/76 (21%), Positives = 33/76 (43%), Gaps = 1/76 (1%)
+
+Query  45   DEGLAAGIVWADSQDMLTDRISALREANIYERHRYRHILGLPSIQSGDATQASASTPFMV  104
+            +E +   I W + +++ T +++      ++ R RY     +P I   D T +      + 
+Sbjct  388  EEAITKAISWLEEKNIGTKKVTYRLRDWLFSRQRYWG-EPIPVIHWEDGTTSPVPVSELP  446
+
+Query  105  LRIMHTGETEVFASGE  120
+            L +  T E +   +GE
+Sbjct  447  LVLPKTTEIKPSGTGE  462
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 67860447
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

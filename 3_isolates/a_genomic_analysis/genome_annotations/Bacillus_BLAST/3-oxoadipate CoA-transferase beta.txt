@@ -1,0 +1,204 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1X9M625|A0A1X9M625_9BACI 3-oxoadipate CoA-transferase subunit
+B OS=Bacillus krulwichiae OX=199441 GN=catJ_2 PE=4 SV=1
+
+Length=173
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00116 Succinyl-CoA:3-ketoacid coenzyme A transferase s...  43.5    1e-06
+  GFJPDDAG_00314 putative succinyl-CoA:3-ketoacid coenzyme A tran...  34.3    0.002
+  GFJPDDAG_03614 Inner membrane transport permease YbhS               26.9    0.64 
+  GFJPDDAG_02106 Deoxyribose-phosphate aldolase                       26.6    0.74 
+  GFJPDDAG_02973 hypothetical protein                                 24.3    5.7  
+  GFJPDDAG_01714 HTH-type transcriptional regulator MalR              23.9    6.7  
+  GFJPDDAG_01361 hypothetical protein                                 23.5    7.1  
+  GFJPDDAG_01309 4-hydroxy-tetrahydrodipicolinate synthase            23.9    7.2  
+  GFJPDDAG_02793 hypothetical protein                                 23.5    8.2  
+  GFJPDDAG_01696 hypothetical protein                                 23.5    9.5  
+
+
+> GFJPDDAG_00116 Succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B
+Length=220
+
+ Score = 43.5 bits (101),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 67/143 (47%), Gaps = 20/143 (14%)
+
+Query  3    LMQQGHVNCGFIGGAEIDKYGNVNTSYIGDHQDPVIKLPGSGGAADIASLSQRLLVIMNH  62
+            +++ GH+N   +GG E+ + G++    I     P   + G GGA D+   +QR++VIM H
+Sbjct  93   MIRGGHINIAILGGMEVAENGDLANWMI-----PGKMIKGMGGAMDLVHGAQRIIVIMEH  147
+
+Query  63   EKRRFKEKV-DYITSPGYGDGGNWREEEGLPRGGIGALITTLGVMKPNPSRNELELLSIH  121
+              +  + K+    T P  G G   R            +IT   VM  + +   L L  + 
+Sbjct  148  VNKAGESKILKECTLPLTGKGVVHR------------IITDRAVM--DVTDEGLLLREVA  193
+
+Query  122  PGVTLDQVKENTGWNLLVSEQLQ  144
+             G +++ ++ +T   L+V E ++
+Sbjct  194  NGFSVEDIQSSTDATLIVGEDVK  216
+
+
+> GFJPDDAG_00314 putative succinyl-CoA:3-ketoacid coenzyme A transferase 
+subunit B
+Length=220
+
+ Score = 34.3 bits (77),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/69 (25%), Positives = 40/69 (58%), Gaps = 5/69 (7%)
+
+Query  3    LMQQGHVNCGFIGGAEIDKYGNVNTSYIGDHQDPVIKLPGSGGAADIASLSQRLLVIMNH  62
+            ++++G ++   +G  ++ + G++    I     P  K+PG GGA ++AS +++++V+M H
+Sbjct  94   MIRRGKIDLTILGSLQVSEKGDLANWII-----PGKKVPGMGGATELASKAKKVIVLMTH  148
+
+Query  63   EKRRFKEKV  71
+              +    K+
+Sbjct  149  LDKNGGSKI  157
+
+
+> GFJPDDAG_03614 Inner membrane transport permease YbhS
+Length=338
+
+ Score = 26.9 bits (58),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 17/67 (25%), Positives = 34/67 (51%), Gaps = 3/67 (4%)
+
+Query  102  TLGVMKPNPSRNELELLSIHPGVTLDQVKENTGWNL-LVSEQLQET--VAPSKEELEVIR  158
+            TLG++    ++NEL+++   P V + Q+  +  +NL  ++E L     + P     + +R
+Sbjct  239  TLGILLSAFAKNELQMMQFIPIVVVPQIFFSGLFNLDTITEWLSWIGKITPLYYAADALR  298
+
+Query  159  SIDPEGF  165
+             +   GF
+Sbjct  299  DVMIRGF  305
+
+
+> GFJPDDAG_02106 Deoxyribose-phosphate aldolase
+Length=223
+
+ Score = 26.6 bits (57),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 23/92 (25%), Positives = 41/92 (45%), Gaps = 9/92 (10%)
+
+Query  15   GGAEIDKYGNVNTSYIGDHQDPVIKLPGSGGAADIASLSQRLL---VIMNHEKRR-----  66
+            G  E+D   N+     GDH+     +     A+   +LS+ ++   ++ + EK +     
+Sbjct  86   GATEVDMVINIGALKSGDHELVKRDIEAVVAASKGKALSKVIIETCLLTDEEKVKACQLA  145
+
+Query  67   FKEKVDYI-TSPGYGDGGNWREEEGLPRGGIG  97
+             +   DY+ TS G+  GG   E+  L R  +G
+Sbjct  146  VEAGADYVKTSTGFSTGGATVEDIALMRKTVG  177
+
+
+> GFJPDDAG_02973 hypothetical protein
+Length=468
+
+ Score = 24.3 bits (51),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 24/89 (27%), Positives = 40/89 (45%), Gaps = 12/89 (13%)
+
+Query  82   GGNWREEEGLPRGGIGALITTLGVMKPNPSRNELELLSIHPG---------VTLDQVKEN  132
+             GNW  +  + R     + TT     P+    EL++ S+  G          T++ VK++
+Sbjct  205  NGNWSFDVPVKRIPSETIQTTARTETPD-GEFELQMTSVTKGKATTTLEYTYTVESVKDD  263
+
+Query  133  TGWNLLVSEQLQETVAPSKEELEVIRSID  161
+               NL+V + L   ++ S  E+   RSID
+Sbjct  264  --LNLIVFDDLGNRLSKSSAEILETRSID  290
+
+
+> GFJPDDAG_01714 HTH-type transcriptional regulator MalR
+Length=343
+
+ Score = 23.9 bits (50),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  2    YLMQQGHVNCGFIGG  16
+            YL++ GH   GFIGG
+Sbjct  177  YLLELGHECIGFIGG  191
+
+
+> GFJPDDAG_01361 hypothetical protein
+Length=196
+
+ Score = 23.5 bits (49),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  142  QLQETVAPSKEELEVIRSI  160
+            QLQ T+   KEELE +R I
+Sbjct  108  QLQATIQQQKEELEELRQI  126
+
+
+> GFJPDDAG_01309 4-hydroxy-tetrahydrodipicolinate synthase
+Length=290
+
+ Score = 23.9 bits (50),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 19/37 (51%), Gaps = 0/37 (0%)
+
+Query  24   NVNTSYIGDHQDPVIKLPGSGGAADIASLSQRLLVIM  60
+            +V +  IG+    ++ L   G   + A L QRLL IM
+Sbjct  205  SVASHVIGNEMQEMVSLFAGGKTLEAAKLHQRLLPIM  241
+
+
+> GFJPDDAG_02793 hypothetical protein
+Length=452
+
+ Score = 23.5 bits (49),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 9/14 (64%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  147  VAPSKEELEVIRSI  160
+            ++PSK+E++VIRSI
+Sbjct  66   LSPSKKEVDVIRSI  79
+
+
+> GFJPDDAG_01696 hypothetical protein
+Length=247
+
+ Score = 23.5 bits (49),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 22/80 (28%), Positives = 39/80 (49%), Gaps = 9/80 (11%)
+
+Query  95   GIGALITTLGVMKPNPSRNELELLSIHPGVT----LDQVKENTGWNLLVSEQLQETVAPS  150
+            G+GAL+  L  + P   ++    +   P V+    L+Q +E   +   V ++L +T+   
+Sbjct  105  GMGALV--LKNLYPKMEQDIRSAVMFAPCVSIYDHLEQEREQKFFYKKVIKELSQTLGVR  162
+
+Query  151  KEELEVI---RSIDPEGFWT  167
+            +EE E     +S+D E F T
+Sbjct  163  EEECETFISRQSLDYEVFKT  182
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.136    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 82909586
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

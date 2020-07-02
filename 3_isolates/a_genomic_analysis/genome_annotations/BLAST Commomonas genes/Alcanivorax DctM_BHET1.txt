@@ -1,0 +1,769 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET1_clean.fna
+           7,485 sequences; 1,939,562 total letters
+
+
+
+Query= Alcanivorax DctM-like transporter
+
+Length=781
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  DMKJLJHC_00834 C4-dicarboxylate TRAP transporter large permease...  58.5    1e-09
+  DMKJLJHC_01855 C4-dicarboxylate TRAP transporter large permease...  48.5    2e-06
+  DMKJLJHC_06314 C4-dicarboxylate TRAP transporter large permease...  44.3    3e-06
+  DMKJLJHC_05728 C4-dicarboxylate TRAP transporter large permease...  44.3    2e-05
+  DMKJLJHC_05832 C4-dicarboxylate TRAP transporter large permease...  40.8    4e-05
+  DMKJLJHC_02505 C4-dicarboxylate TRAP transporter large permease...  43.1    8e-05
+  DMKJLJHC_01846 C4-dicarboxylate TRAP transporter large permease...  42.4    2e-04
+  DMKJLJHC_04568 C4-dicarboxylate TRAP transporter large permease...  40.8    4e-04
+  DMKJLJHC_01046 C4-dicarboxylate TRAP transporter large permease...  40.4    5e-04
+  DMKJLJHC_02397 C4-dicarboxylate TRAP transporter large permease...  40.4    6e-04
+  DMKJLJHC_05000 C4-dicarboxylate TRAP transporter large permease...  38.1    0.002
+  DMKJLJHC_02436 C4-dicarboxylate TRAP transporter large permease...  38.5    0.002
+  DMKJLJHC_04400 C4-dicarboxylate TRAP transporter large permease...  36.2    0.010
+  DMKJLJHC_03090 C4-dicarboxylate TRAP transporter large permease...  35.8    0.019
+  DMKJLJHC_01922 Sialic acid TRAP transporter large permease prot...  35.0    0.027
+  DMKJLJHC_02403 C4-dicarboxylate TRAP transporter large permease...  33.9    0.060
+  DMKJLJHC_01873 C4-dicarboxylate TRAP transporter large permease...  33.9    0.065
+  DMKJLJHC_07367 C4-dicarboxylate TRAP transporter large permease...  32.3    0.067
+  DMKJLJHC_05877 C4-dicarboxylate TRAP transporter large permease...  33.9    0.068
+  DMKJLJHC_02773 C4-dicarboxylate TRAP transporter large permease...  32.0    0.23 
+  DMKJLJHC_01153 C4-dicarboxylate TRAP transporter large permease...  31.2    0.47 
+  DMKJLJHC_03828 Sialic acid TRAP transporter large permease prot...  30.8    0.48 
+  DMKJLJHC_02243 Sialic acid TRAP transporter large permease prot...  30.8    0.53 
+  DMKJLJHC_01961 C4-dicarboxylate TRAP transporter large permease...  30.0    0.90 
+  DMKJLJHC_00689 Sensor histidine kinase RegB                         29.3    1.6  
+  DMKJLJHC_05659 Molecular chaperone Hsp31 and glyoxalase 3           28.9    1.6  
+  DMKJLJHC_02826 C4-dicarboxylate TRAP transporter large permease...  28.9    1.9  
+  DMKJLJHC_01602 C4-dicarboxylate TRAP transporter large permease...  28.1    4.0  
+  DMKJLJHC_04158 hypothetical protein                                 27.7    4.1  
+  DMKJLJHC_05911 Molecular chaperone Hsp31 and glyoxalase 3           27.7    4.2  
+  DMKJLJHC_07178 Sialic acid TRAP transporter permease protein SiaT   26.6    4.8  
+  DMKJLJHC_05897 hypothetical protein                                 27.7    5.0  
+  DMKJLJHC_03710 HTH-type transcriptional regulator SinR              25.8    6.9  
+  DMKJLJHC_02605 hypothetical protein                                 25.8    7.6  
+  DMKJLJHC_02373 Manganese transport system membrane protein MntB     26.6    9.8  
+  DMKJLJHC_05509 C4-dicarboxylate TRAP transporter large permease...  24.6    10.0 
+
+
+> DMKJLJHC_00834 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=462
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 44/167 (26%), Positives = 79/167 (47%), Gaps = 21/167 (13%)
+
+Query  609  STNETTTHIGALLILMALSVSTGGIIERSGLMEMLPEAFSSIWIA--------MTILVVT  660
+            +T +T    G L I +   ++   I++     E +P+  +   I         + I+ V 
+Sbjct  293  ATRDTLFEAGKLTITLMFIIANALILKHVLTDEQIPQKITEALIGAGLGKIMFLVIVNVI  352
+
+Query  661  MVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTR  720
+            +++ G  M+P G +++V   +  +A   G+DP+H  +I +V  E+G +TPPV LN  +T 
+Sbjct  353  LLIGGQFMEPSGLILIVAPLVFPIAMQLGVDPIHLGIIMVVNMEIGMITPPVGLNLFVTS  412
+
+Query  721  QVVGDDEVESAKLHSGSFFRRYEKFLLP-IAVMLTALLAVSYLPLMS  766
+             V G                R  +  LP +AV+   L+ V+Y+P +S
+Sbjct  413  GVAGMP------------IMRVVRAALPFLAVLFVFLILVTYVPFLS  447
+
+
+ Score = 31.2 bits (69),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 17/71 (24%), Positives = 39/71 (55%), Gaps = 1/71 (1%)
+
+Query  355  AYTGASGIFVIAAGATIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNKS  414
+            A +G+S   V+A G+ +   + + G  K  A      +G++G+++ P +++V+ A+    
+Sbjct  107  ALSGSSPATVVAIGSIVIAAMRQVGYSKDFAAGVICNAGTLGILIPPSIVMVVYAS-ATD  165
+
+Query  415  VTTTELFNSGI  425
+            V+   +F +G+
+Sbjct  166  VSVGRMFLAGV  176
+
+
+> DMKJLJHC_01855 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=434
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 32/119 (27%), Positives = 56/119 (47%), Gaps = 12/119 (10%)
+
+Query  654  MTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVA  713
+            M +  V M+ +GMI+D    ++++           G DP+ F ++T++  E+G LTPP+ 
+Sbjct  328  MLLYCVLMIGLGMILDSTSTMLILIPIFLPAVTATGADPVWFGVVTVLGAEIGLLTPPLG  387
+
+Query  714  LNHLLTRQVVGDDEVESAKLHSGSFFRRYEKFLLPIAVMLTALLAVSYLPLMSEGLHQW  772
+            ++  + R  + D +     +  G+          P A M+T LLA   L +    L QW
+Sbjct  388  ISVFVVRDALADGDTTLGDIFIGA---------APFATMMTGLLA---LLVFFPALTQW  434
+
+
+> DMKJLJHC_06314 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=107
+
+ Score = 44.3 bits (103),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 34/115 (30%), Positives = 53/115 (46%), Gaps = 11/115 (10%)
+
+Query  659  VTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLL  718
+            V ++++GMIMD    +++       V  + G+DP+ F +I ++   LG  TPPV    L 
+Sbjct  4    VILLLLGMIMDMAPLILICTPIFLPVVTDLGMDPIQFGVIMMMNLGLGLCTPPVG-ACLF  62
+
+Query  719  TRQVVGDDEVESAKLHSGSFFRRYEKFLLPIAVMLTALLAVSYLPLMSEGLHQWL  773
+               VVG+  ++ A      F+            M  ALL V+Y+P  S  L   L
+Sbjct  63   VGCVVGEIRIDQAVKSIWPFYMA----------MFVALLLVTYVPAFSMYLPSLL  107
+
+
+> DMKJLJHC_05728 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=204
+
+ Score = 44.3 bits (103),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 54/110 (49%), Gaps = 7/110 (6%)
+
+Query  656  ILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALN  715
+            +++   VV+GM +D    +++       +    G DP+ F +I+++  E+G +TPPV LN
+Sbjct  94   LIIAIYVVLGMFLDSLSMLVVTIPIFFPIIKALGFDPIWFGVISVIVIEMGLITPPVGLN  153
+
+Query  716  HLLTRQVVGDDEVESAKLHSGSFFRRYEKFLLPIAVMLTALLAVSYLPLM  765
+              + + V+ D  + +        FR    F+L + V L  ++    + LM
+Sbjct  154  VFVVKGVMNDVPLATV-------FRGVFPFMLSMVVCLALIIVFPEIALM  196
+
+
+> DMKJLJHC_05832 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=99
+
+ Score = 40.8 bits (94),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 29/102 (28%), Positives = 47/102 (46%), Gaps = 11/102 (11%)
+
+Query  666  MIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQVVGD  725
+            M M+   A+I++   +  +A   GIDP+HF    ++   +G  TPPV +   +   +   
+Sbjct  1    MFMETIAALIILFVPLQTLAAGVGIDPIHFATFAVLNLVIGLTTPPVGICLFICANI---  57
+
+Query  726  DEVESAKLHSGSFFRRYEKFLLPIAVMLTALLAVSYLPLMSE  767
+                 A+L  G   R    F+L     +  LL VSY+P +S 
+Sbjct  58   -----ARLPLGPVIRAIGPFIL---TNIIVLLLVSYIPALST  91
+
+
+> DMKJLJHC_02505 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=433
+
+ Score = 43.1 bits (100),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 44/173 (25%), Positives = 81/173 (47%), Gaps = 5/173 (3%)
+
+Query  309  LALYIWIGMMLKQTKLAHLVFDVLRPW-KMSPELMAFVVLAVAAIPTAYTGASGIFVIAA  367
+            L L+I +G +L +++L+  +F  L PW   +P  +  V +   AI  A +G+S       
+Sbjct  64   LPLFILMGEILLRSRLSQDMFSGLAPWLGRAPGRLLHVNVLGCAIFAAVSGSSAATAATI  123
+
+Query  368  GATIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNKSVTTTELFNSGIKI  427
+            G     EL + G  + L L   A S ++G ++ P +++++     +  +   LF +GI  
+Sbjct  124  GRMSVPELTKRGYPESLILGTLAGSATLGFLIPPSVILIVYGVATEQ-SIARLFIAGILP  182
+
+Query  428  FILSLVLFFIYSQFARTSPARIAPFSEALPHSLKRLIP---LLPYGIVVGTVL  477
+             ++ + LF  Y          + P  E  P   ++L+    LLP  I++G V+
+Sbjct  183  GVMLVALFGGYVALRAWMNPEMIPVEEGAPSLREKLVASRSLLPVVILIGGVI  235
+
+
+ Score = 41.2 bits (95),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/79 (27%), Positives = 42/79 (53%), Gaps = 0/79 (0%)
+
+Query  654  MTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVA  713
+            + +L V  +V+G  +D    V+L  + I  +    GIDP+ F +  ++  E+  +TPPV 
+Sbjct  323  LAVLTVFFIVLGCFLDGISVVVLTTSIILPMVQAAGIDPMWFGIYLVLVVEMSQITPPVG  382
+
+Query  714  LNHLLTRQVVGDDEVESAK  732
+             N  + + + G + ++ A+
+Sbjct  383  FNLFVIQGLTGFNIMKIAR  401
+
+
+> DMKJLJHC_01846 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=631
+
+ Score = 42.4 bits (98),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 40/166 (24%), Positives = 82/166 (49%), Gaps = 16/166 (10%)
+
+Query  602  LEGSLRFST-----NETTTHIGALLILMALSVSTGGIIERSGLMEMLPEAFSSI----WI  652
+            L+G++R  T      ETT  +  + +L+  + S   ++  SGL  +L  A +S+     +
+Sbjct  461  LKGTIRRDTVWSIMRETTATVSMVYLLILGATSFSFLMGISGLPNLLVSAMTSVTESPIL  520
+
+Query  653  AMTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPV  712
+             + ++VV  +V+G +MD    +I+    +  +  + G+DP+ + ++T+   E+G +TPP 
+Sbjct  521  LILMIVVLYLVLGTVMDSIAIMIIAVPVLLPLILHLGLDPIWWAIVTVCLVEIGLITPPF  580
+
+Query  713  ALNHLLTRQVVGDDEVESAKLHSGSFFRRYEKFLLPIAVMLTALLA  758
+             LN  + + +          L  G  +R    F++   + +T L+A
+Sbjct  581  GLNLFVMKSI-------DRNLTLGDVYRGVTPFIIADFLKITLLIA  619
+
+
+> DMKJLJHC_04568 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=455
+
+ Score = 40.8 bits (94),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 0/70 (0%)
+
+Query  657  LVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNH  716
+            L V  ++IGM +D   AV+L  A I  +    GID L F +  +V  E+  +TPPV  N 
+Sbjct  346  LTVFYIIIGMFLDGISAVVLTMAIIDPMLRAAGIDLLWFGIFIVVVVEMAQITPPVGFNL  405
+
+Query  717  LLTRQVVGDD  726
+             + + +   D
+Sbjct  406  FVLQGMTRHD  415
+
+
+ Score = 37.4 bits (85),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 31/120 (26%), Positives = 61/120 (51%), Gaps = 4/120 (3%)
+
+Query  308  NLALYIWIGMMLKQTKLAHLVFDVLRPW--KMSPELMAFVVLAVAAIPTAYTGASGIFVI  365
+            +L L+IW+G +L +T+L+  +F  L PW  +    L+   V+       A +G+S   + 
+Sbjct  83   SLPLFIWMGEILYRTRLSEDMFKGLAPWLARFPGGLLHSNVVGCTVF-AAVSGSSAATLT  141
+
+Query  366  AAGATIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNKSVTTTELFNSGI  425
+              G     EL + G  + + +   A + ++G+++ P  L +I+  + +  + T LF +GI
+Sbjct  142  TVGKMSIPELRKRGYPEFMIVGTLAGAATLGLMIPPS-LTLIVYGVTEQQSITSLFMAGI  200
+
+
+> DMKJLJHC_01046 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=432
+
+ Score = 40.4 bits (93),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 40/72 (56%), Gaps = 1/72 (1%)
+
+Query  654  MTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVA  713
+            + ILV+ MV +G  ++    ++L       V  + GIDP+ F ++ ++  E+G ++PPV 
+Sbjct  324  LVILVIYMV-LGCFLEGLAMLVLTLPIFLPVILDLGIDPIWFGVLVVLTLEMGLISPPVG  382
+
+Query  714  LNHLLTRQVVGD  725
+            +N  + + V  D
+Sbjct  383  INVFIVKSVAKD  394
+
+
+ Score = 27.3 bits (59),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 29/101 (29%), Positives = 44/101 (44%), Gaps = 1/101 (1%)
+
+Query  355  AYTGASGIFVIAAGATIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNKS  414
+            A +G+S    +  G T   E+ R     +L+    A  G++G+++ P    VI A L + 
+Sbjct  112  ALSGSSVASALTMGRTALAEMDRYAYSPRLSTGVVAAGGTLGILIPPSTGFVIYAILTQQ  171
+
+Query  415  VTTTELFNSGIKIFILSLVLFFIYSQFARTSPARIAPFSEA  455
+             +   LF +GI   IL L  F +      T  A I P   A
+Sbjct  172  -SIGRLFMAGILPGILLLSAFILTIMILCTLRAEIGPKGPA  211
+
+
+> DMKJLJHC_02397 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=440
+
+ Score = 40.4 bits (93),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 6/93 (6%)
+
+Query  639  LMEMLPEAFSSIWIAMTILVVTMVVIGMIMDPYGAVILVNATIAQ--VAFNNGIDP----  692
+            L E++     S W+ +  ++V  +V+G  MD    ++L   T     VA + G+DP    
+Sbjct  310  LAELIVGQGISPWLVLGAMLVLYLVLGCFMDSLSMILLTLPTFWPIVVALDLGMDPQALA  369
+
+Query  693  LHFWMITLVAFELGYLTPPVALNHLLTRQVVGD  725
+            L F ++ L+  E+G +TPPV LN  +   + G+
+Sbjct  370  LWFGVLVLIVVEVGLITPPVGLNLFVIAAIEGE  402
+
+
+> DMKJLJHC_05000 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=240
+
+ Score = 38.1 bits (87),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 44/172 (26%), Positives = 80/172 (47%), Gaps = 19/172 (11%)
+
+Query  607  RFSTNETTTHIGALLILMALSVSTGGIIERSGLMEMLPEAFSSIWIAMTILVVTMVVIGM  666
+            R +  +T   +G+++ L+  +VS  GI  R G  + L    SS+ I    ++V M++I M
+Sbjct  78   RDAMRQTVITVGSIIWLVIGAVSLVGIYNRIGGDDFLHGLLSSLNIPPLAVIVVMMLIVM  137
+
+Query  667  IMDPY---GAVILVNATI-AQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQV  722
+            ++  +    A++ +   I   V  N G DP+ F ++  +  ++ YL+PP        + V
+Sbjct  138  VLGTFLEWIAILFITVPIFVPVVINLGFDPVWFGVLFAMNLQIYYLSPPFGPACFFLKSV  197
+
+Query  723  VGDDEVESAKLHSGSFFRRYEKFLLP-IAVMLTALLAVSYLPLMSEGLHQWL  773
+               D +E  ++            +LP I + +  LL V +LP    G+  WL
+Sbjct  198  APKD-IELQEIFVA---------VLPFIGLQIVGLLLVLFLP----GIALWL  235
+
+
+> DMKJLJHC_02436 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=441
+
+ Score = 38.5 bits (88),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 39/136 (29%), Positives = 67/136 (49%), Gaps = 9/136 (7%)
+
+Query  349  VAAIPTAYTGASGIFVIAAGATIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVII  408
+            V+ I  A +G  G  ++  G     ++IR G  ++LA+      GS+G ++ P  +V+II
+Sbjct  117  VSVILAAMSGIIGGEIVLLGLLALPQMIRQGYDRKLAIGVICAGGSLGTMVPPS-IVLII  175
+
+Query  409  AALNKSVTTTELFNSG-IKIFILS--LVLFFIY-----SQFARTSPARIAPFSEALPHSL  460
+              L  +V+  +LF S  I  F+L+   VL+ I       + A        P+SE L    
+Sbjct  176  YGLTANVSIGDLFTSAFIPGFMLAAFYVLYVIIRVKLNPELAPVPEPDDRPWSEKLKLLK  235
+
+Query  461  KRLIPLLPYGIVVGTV  476
+              ++P+L  G V+G++
+Sbjct  236  GIVLPVLVIGFVLGSI  251
+
+
+ Score = 28.9 bits (63),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 26/116 (22%), Positives = 52/116 (45%), Gaps = 9/116 (8%)
+
+Query  631  GGIIERSGLMEMLPEAFSSIWIAMTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGI  690
+            GGI   SGL+  + +  + I + +T++ + +  +GM +D  G  +L       +  + G 
+Sbjct  316  GGIDFVSGLLMGVSD--TPIVVILTMMAI-LFFLGMFLDWVGIALLTMPIFVPIVKDLGY  372
+
+Query  691  DPLHFWMITLVAFELGYLTPPVALNHLLTRQVVGDDEVESAKLHSGSFFRRYEKFL  746
+            DP+ F ++  +  ++ +L+PP        + V   D      +  G  FR    F+
+Sbjct  373  DPVWFGVVFAMNMQVSFLSPPFGPAAFYLKSVAPKD------ISLGEIFRSLLPFI  422
+
+
+> DMKJLJHC_04400 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=429
+
+ Score = 36.2 bits (82),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 33/145 (23%), Positives = 71/145 (49%), Gaps = 2/145 (1%)
+
+Query  311  LYIWIGMMLKQTKLAHLVFDVLRPW-KMSPELMAFVVLAVAAIPTAYTGASGIFVIAAGA  369
+            LY+++G ++ +      +FD  +      P  +A   +   AI  A +G+S       G+
+Sbjct  63   LYVFMGQIILKGGAGKDLFDFAQKIVGRLPGGLAVAAVFACAIFAAISGSSTATAATIGS  122
+
+Query  370  TIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNKSVTTTELFNSGIKIFI  429
+                E++  G  +++   + A++GS+G+++ P  +  I+ +L  + +  +LF +G+   I
+Sbjct  123  ISIPEMLSRGYSRKMTAGSVAVAGSLGILIPPS-VSFILYSLVTNASIGKLFLAGVLPGI  181
+
+Query  430  LSLVLFFIYSQFARTSPARIAPFSE  454
+            +   LF +Y+ FA     R  P ++
+Sbjct  182  MLAFLFALYTVFASIRERRADPNAQ  206
+
+
+ Score = 32.0 bits (71),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 41/86 (48%), Gaps = 2/86 (2%)
+
+Query  651  WIAMTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNN-GIDPLHFWMITLVAFELGYLT  709
+            W  +  + V  +V+G  MD   A ILV   I   A     ID + F +I +V  E+G +T
+Sbjct  316  WQFLIAINVLYLVLGAFMDA-SAAILVTVPILLPALQAMNIDLIWFGVILVVNMEIGAVT  374
+
+Query  710  PPVALNHLLTRQVVGDDEVESAKLHS  735
+            PPV +N  + + +  D  +    + S
+Sbjct  375  PPVGMNLFVVQSLREDYTIREVLMGS  400
+
+
+> DMKJLJHC_03090 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=581
+
+ Score = 35.8 bits (81),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 26/107 (24%), Positives = 57/107 (53%), Gaps = 7/107 (7%)
+
+Query  307  LNLALYIWIGMMLKQTKLAHLVFDVLR----PWKMSPELMAFVVLAVAAIPTAYTGASGI  362
+            L +  + ++G++L+++ +A  + D +     P +     +A+ V+ V A+  A TG    
+Sbjct  77   LAIPFFTFMGIVLEKSGMAEDLLDTIGQLFGPVRGG---LAYAVIIVGALLAATTGVVAA  133
+
+Query  363  FVIAAGATIYNELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIA  409
+             VIA G      ++R G  +++A    A SG++  ++ P L+++++A
+Sbjct  134  SVIAMGLISLPIMLRYGYDRKVATGVIAASGTLAQIIPPSLVLIVLA  180
+
+
+> DMKJLJHC_01922 Sialic acid TRAP transporter large permease protein 
+SiaM
+Length=426
+
+ Score = 35.0 bits (79),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 23/117 (20%), Positives = 60/117 (51%), Gaps = 12/117 (10%)
+
+Query  606  LRFSTNETTTHIGALLILMALSVSTGGIIERSGLMEMLPEAFSSIWIA--------MTIL  657
+            ++ +  +  T IG +++++ +S    G+I  + +    P++ +S  ++        + ++
+Sbjct  264  MKTAFTDAITDIGLIMLIILMS----GMIGFAIIFLQAPQSIASALLSTLSDPRAIVAVI  319
+
+Query  658  VVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVAL  714
+            ++++ + G+  +    V+L+      V    G+DP+HF ++ +    LG +TPPV +
+Sbjct  320  LISLFIAGLFFESTILVLLLTPIFVPVIEKAGVDPVHFGILMMTIVTLGSMTPPVGV  376
+
+
+> DMKJLJHC_02403 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=441
+
+ Score = 33.9 bits (76),  Expect = 0.060, Method: Compositional matrix adjust.
+ Identities = 22/117 (19%), Positives = 56/117 (48%), Gaps = 5/117 (4%)
+
+Query  609  STNETTTHIGALLILMALSVSTGGIIERSGLMEMLPEAFS-----SIWIAMTILVVTMVV  663
+            +T +T       ++++  ++S G + +  G    + + F+       W  + ++ ++ +V
+Sbjct  278  ATRQTLQITVMFMLIITAALSFGAVFDGLGAGRAIEDFFTESLGLGPWQVLILMQLSFLV  337
+
+Query  664  IGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTR  720
+            +GM +D    +++V      +A + G D + + ++  +  ++ YLTPP   N  L +
+Sbjct  338  MGMFLDDTAMLVIVAPVYVSLARHLGFDMIWYGVLYTITCQVAYLTPPFGYNLFLMK  394
+
+
+ Score = 30.4 bits (67),  Expect = 0.79, Method: Compositional matrix adjust.
+ Identities = 38/166 (23%), Positives = 80/166 (48%), Gaps = 7/166 (4%)
+
+Query  291  GIAVYLGMMMEMS--TLFLNLALYIWIGMMLKQTKLAHLVFDVLRPWKMS-PELMAFVVL  347
+            G  +  G +M++   T  L L +++++G ++ +++LA  ++ +   W    P  +A   +
+Sbjct  44   GTQISFGSVMKLMKWTPLLTLPMFVYMGYVMSESRLAEDLYRMFHVWFGPLPGGLAIGTI  103
+
+Query  348  AVAAIPTAYTGASGIFVIAAGATI-YNELIRAGARKQLALAATAMSGSMGVVLRPCLLVV  406
+             +  + +   G S +  +A GATI   EL+R    K +         S+G+++ P +++V
+Sbjct  104  LLMVMISVMNGLS-VAGMAIGATIALPELLRRNYDKLMISGVIQAGSSLGILIPPSVVLV  162
+
+Query  407  IIAALNKSVTTTELFNSGIKIFILSLVLFFIYSQF-ARTSPARIAP  451
+            + + + +    +EL+ +G    +L   LF  Y     R +PA   P
+Sbjct  163  LFSLIARQ-PVSELWLAGAVPGLLMATLFIAYIVIRCRLNPALAPP  207
+
+
+> DMKJLJHC_01873 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=433
+
+ Score = 33.9 bits (76),  Expect = 0.065, Method: Compositional matrix adjust.
+ Identities = 18/69 (26%), Positives = 37/69 (54%), Gaps = 0/69 (0%)
+
+Query  657  LVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNH  716
+            ++V  +V+G  ++  G V++       V  + G DP+ F +I ++  E+G ++PPV +N 
+Sbjct  326  IIVIYLVLGCFLEGIGMVLITVPVFLPVVTSFGYDPIWFGVIVVIVVEIGLISPPVGMNI  385
+
+Query  717  LLTRQVVGD  725
+             + +    D
+Sbjct  386  FVIQAQFAD  394
+
+
+ Score = 30.8 bits (68),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 36/69 (52%), Gaps = 10/69 (14%)
+
+Query  355  AYTGASGIFVIAAGATIYN----------ELIRAGARKQLALAATAMSGSMGVVLRPCLL  404
+            A  GASG F    G+++            E+ RAG     + A+ A  G++G+++ P ++
+Sbjct  102  ATIGASGAFGTVCGSSVATAATMTRISLPEMRRAGFTDSFSTASIAAGGTLGILIPPSII  161
+
+Query  405  VVIIAALNK  413
+            +VI +A+ +
+Sbjct  162  LVIYSAIAE  170
+
+
+> DMKJLJHC_07367 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=141
+
+ Score = 32.3 bits (72),  Expect = 0.067, Method: Compositional matrix adjust.
+ Identities = 23/106 (22%), Positives = 48/106 (45%), Gaps = 11/106 (10%)
+
+Query  661  MVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTR  720
+            M+V+GM +D   A++L+  T   +    G D +   ++  +   +G  TPP+     ++ 
+Sbjct  45   MLVVGMFLDLPAAILLLGPTFVAIGHAIGFDLVQLGVMICINLSIGLFTPPIGTTLFVSA  104
+
+Query  721  QVVGDDEVESAKLHSGSFFRRYEKFLLPIAVMLTALLAVSYLPLMS  766
+             +        A++  G+  R    F +   V +  L+  SY+P ++
+Sbjct  105  AI--------ARVGIGAVVRELWPFYV---VAMAVLVLFSYIPALT  139
+
+
+> DMKJLJHC_05877 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=426
+
+ Score = 33.9 bits (76),  Expect = 0.068, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 54/109 (50%), Gaps = 15/109 (14%)
+
+Query  665  GMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQVVG  724
+            GM +    A+ILV   +  +    GIDP+HF +I  +   +G  TPPVA + L+T   + 
+Sbjct  328  GMFLHGAAAIILVVPVVMPLVHAVGIDPIHFGIIVTLNLAIGQQTPPVA-SVLITSCSIA  386
+
+Query  725  DDEV-ESAKLHSGSFFRRYEKFLLP-IAVMLTALLAVSYLPLMSEGLHQ  771
+               + E+++ +            LP I V+   L+ V+Y+P +S  L +
+Sbjct  387  KSGIWETSRTN------------LPFIGVLAFILVLVTYVPAVSLALTE  423
+
+
+> DMKJLJHC_02773 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=437
+
+ Score = 32.0 bits (71),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 44/79 (56%), Gaps = 10/79 (13%)
+
+Query  657  LVVTMVVIGMIMDPYGAVILVNAT----IAQVAFNNGI--DP----LHFWMITLVAFELG  706
+            +V+  +V+GM+++    ++L        I Q+ F +G+  +P    + F +I +VA E+ 
+Sbjct  322  IVLIYMVLGMVLESLSMILLTVPIFYPLIYQLDFGSGVLSNPDNALIWFAVIVVVATEIS  381
+
+Query  707  YLTPPVALNHLLTRQVVGD  725
+             +TPPV +N  + R V+ D
+Sbjct  382  LITPPVGMNVFVLRSVLPD  400
+
+
+ Score = 27.3 bits (59),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 22/86 (26%), Positives = 40/86 (47%), Gaps = 2/86 (2%)
+
+Query  377  RAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNKSVTTTELFNSGIKIFILSLVLFF  436
+            R G    +A  + A  G++G+++ P  +++II  L       +LF +GI   +L + L+ 
+Sbjct  131  RFGYDDSIATGSIAAGGTLGILIPPS-VIMIIFGLLTESDIGKLFIAGILPGVLGICLYL  189
+
+Query  437  IYSQFARTSPARIAPFSEALPHSLKR  462
+            +    A      +AP     P S+ R
+Sbjct  190  VAVMVAVRLKPELAP-KVRRPQSMSR  214
+
+
+> DMKJLJHC_01153 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=439
+
+ Score = 31.2 bits (69),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 30/122 (25%), Positives = 57/122 (47%), Gaps = 8/122 (7%)
+
+Query  595  EEGVSEKLEGSLRFSTNETTTHIGALLI--LMALSVSTGGIIERSGLMEMLPEAFSSIWI  652
+             E + + L GS+R +       +G+     ++A S ++ GII  +   ++      S + 
+Sbjct  272  PELIRKSLMGSVRVTGMMLIIIMGSTTFSQILAFSGASQGIIRFATGFDL------SAYA  325
+
+Query  653  AMTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPV  712
+             +  ++V ++V+GM MD    ++L       +      DP+ F ++ L+A EL   TPP 
+Sbjct  326  MLLAMLVVLIVLGMFMDQLSIMMLTLPIFLPLVTLYHFDPVWFGVVMLLALELSLATPPF  385
+
+Query  713  AL  714
+             L
+Sbjct  386  GL  387
+
+
+> DMKJLJHC_03828 Sialic acid TRAP transporter large permease protein 
+SiaM
+Length=431
+
+ Score = 30.8 bits (68),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 21/79 (27%), Positives = 36/79 (46%), Gaps = 11/79 (14%)
+
+Query  685  AFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQVVGDDEVESAKLHSGSFFRRYEK  744
+            A + G+DP+HF +I +V   +G  TPP  L   +   +         K   G   R    
+Sbjct  350  AVSLGVDPVHFGVIVVVNTMIGLATPPYGLLLFVVSGI--------TKSPIGQTIRHLVP  401
+
+Query  745  FLLPIAVMLTALLAVSYLP  763
+            FL+   +M+  L  ++++P
+Sbjct  402  FLI---IMIVGLAIITFVP  417
+
+
+> DMKJLJHC_02243 Sialic acid TRAP transporter large permease protein 
+SiaM
+Length=425
+
+ Score = 30.8 bits (68),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 15/61 (25%), Positives = 36/61 (59%), Gaps = 0/61 (0%)
+
+Query  654  MTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVA  713
+            M  ++V ++++G  +D    ++++   +  +    GIDP++F ++ ++   +G LTPPV 
+Sbjct  316  MAFIMVLVILVGTALDLTPTILILTPVLLPLVLKAGIDPIYFGVMFIMNCCIGLLTPPVG  375
+
+Query  714  L  714
+            +
+Sbjct  376  V  376
+
+
+> DMKJLJHC_01961 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=441
+
+ Score = 30.0 bits (66),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 16/60 (27%), Positives = 25/60 (42%), Gaps = 0/60 (0%)
+
+Query  665  GMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQVVG  724
+            GM MD    + +       V    G DP+ F +   +   +G  TPPV +N  +   + G
+Sbjct  343  GMFMDAITIMFITLPIFLPVVREMGWDPIWFGIFLSIMLAIGLFTPPVGINLFVAANITG  402
+
+
+> DMKJLJHC_00689 Sensor histidine kinase RegB
+Length=459
+
+ Score = 29.3 bits (64),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 24/45 (53%), Gaps = 0/45 (0%)
+
+Query  644  PEAFSSIWIAMTILVVTMVVIGMIMDPYGAVILVNATIAQVAFNN  688
+            PEA +++   M  L + + + G + +P+  +ILV  TIA  A   
+Sbjct  81   PEAAATLMFDMAQLAILLAITGGLSNPFALLILVPVTIAATALKR  125
+
+
+> DMKJLJHC_05659 Molecular chaperone Hsp31 and glyoxalase 3
+Length=231
+
+ Score = 28.9 bits (63),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 17/43 (40%), Positives = 21/43 (49%), Gaps = 1/43 (2%)
+
+Query  64   QPTCNPDPNIDQL-TREIVRKRQQESANDPLADVLGTSEINEG  105
+            QP  +P  N +   T E  R    E+AN  LA  L  SE+NE 
+Sbjct  50   QPPLDPVSNSEDFKTDETRRFEADEAANAQLASTLKLSEVNEA  92
+
+
+> DMKJLJHC_02826 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=440
+
+ Score = 28.9 bits (63),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  374  ELIRAGARKQLALAATAMSGSMGVVLRPCLLVVIIAALNK  413
+            EL R G   QLA    A  G++G+++ P  ++VI A L +
+Sbjct  132  ELRRHGYSGQLATGTLAAGGTLGILIPPSFVLVIYAILTE  171
+
+
+ Score = 27.3 bits (59),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 19/89 (21%), Positives = 38/89 (43%), Gaps = 13/89 (15%)
+
+Query  665  GMIMDPYGAVILV----NATIAQVAFNNGIDPLHFW--MITLVAFELGYLTPPVALNHLL  718
+            G +MD    ++L        ++ + +  G +    W  +I L+  E+G +TPPV +N  +
+Sbjct  335  GCVMDSLSMILLTIPIFFPIVSALDYGLGAEEFALWFGIIVLIVVEVGLITPPVGMNLFV  394
+
+Query  719  TRQVVGDDEVESAKLHSGSFFRRYEKFLL  747
+               +  +  + +        FR    F+L
+Sbjct  395  INSMAKETPLSAT-------FRGVVPFIL  416
+
+
+> DMKJLJHC_01602 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=453
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 13/43 (30%), Positives = 21/43 (49%), Gaps = 2/43 (5%)
+
+Query  685  AFNNGIDPLHFW--MITLVAFELGYLTPPVALNHLLTRQVVGD  725
+             F    + L  W  ++ L+  ELG +TPPV +N  +   +  D
+Sbjct  370  GFGMSTENLKIWFGILALIVVELGLITPPVGMNVFVISSMAKD  412
+
+
+> DMKJLJHC_04158 hypothetical protein
+Length=208
+
+ Score = 27.7 bits (60),  Expect = 4.1, Method: Composition-based stats.
+ Identities = 14/49 (29%), Positives = 24/49 (49%), Gaps = 1/49 (2%)
+
+Query  87   ESANDPLADVLGTSEINEGAIRQSLERSRENC-RTRWERFQTIEERVTP  134
+            + A DP     G +  +E  +R +LE SR+ C +  W     +++ V P
+Sbjct  14   DPARDPALVREGVNGNHEATVRSALEPSRDLCLQIMWAHLGRVDQHVRP  62
+
+
+> DMKJLJHC_05911 Molecular chaperone Hsp31 and glyoxalase 3
+Length=230
+
+ Score = 27.7 bits (60),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 14/43 (33%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  64   QPTCNPDPNIDQLTREIVRKRQQES-ANDPLADVLGTSEINEG  105
+            QP  +P  N +    +  R+ + ++ AN  LA+ L  SE+NE 
+Sbjct  50   QPPLDPVSNSENFKTDATRRFEADADANAQLANTLKLSEVNEA  92
+
+
+> DMKJLJHC_07178 Sialic acid TRAP transporter permease protein 
+SiaT
+Length=127
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 21/96 (22%), Positives = 41/96 (43%), Gaps = 10/96 (10%)
+
+Query  656  ILVVTMVVI----GMIMDPYGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPP  711
+            ++++TM+ I    GM +D  G  +L       +  + G DP+ F ++  +  ++ +L+PP
+Sbjct  20   VVILTMMAILFFLGMFLDWVGIALLTMPIFVPIVKDLGYDPVWFGVVFAMNMQVSFLSPP  79
+
+Query  712  VALNHLLTRQVVGDDEVESAKLHSGSFFRRYEKFLL  747
+                    + V   D      +  G  F     F+L
+Sbjct  80   FGPAAFYLKSVAPKD------ISLGEIFSSLVPFIL  109
+
+
+> DMKJLJHC_05897 hypothetical protein
+Length=415
+
+ Score = 27.7 bits (60),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  38  IHSQLLKIGENTWESYFLLR-GAGMVQQPTCNPDPNIDQLTREIVRK  83
+           +H QLLKIG  T ++ F+ + GA  +      PDP+  Q  R+++ K
+Sbjct  39  LHLQLLKIGRQTQQTLFIRQNGACGMATDLIVPDPHQRQQHRQVLGK  85
+
+
+> DMKJLJHC_03710 HTH-type transcriptional regulator SinR
+Length=106
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Composition-based stats.
+ Identities = 12/36 (33%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  713  ALNHLLTRQVVGDDEVESAKLHSGSFFRRYEKFLLP  748
+            AL+  +   + GD E E       +FFR+Y+K   P
+Sbjct  56   ALDTTVEYLLAGDGEKEEENAEDIAFFRKYKKMAAP  91
+
+
+> DMKJLJHC_02605 hypothetical protein
+Length=95
+
+ Score = 25.8 bits (55),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  318  MLKQTKLAHLVFDVLRPWKMSPELMAFVVLAVAAIPTAYTGASGIFVIAAGATIYNELIR  377
+            M  QT+L    FD  +  + +PE   FV L   A  T   GA+  FV+ +    Y+ L+ 
+Sbjct  1    MTNQTRL----FDTPKH-EQTPEQRRFVALTEVAYTTVDFGAAFCFVLGSIFFFYDSLMI  55
+
+Query  378  AG  379
+             G
+Sbjct  56   PG  57
+
+
+> DMKJLJHC_02373 Manganese transport system membrane protein MntB
+Length=273
+
+ Score = 26.6 bits (57),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 28/97 (29%), Positives = 41/97 (42%), Gaps = 17/97 (18%)
+
+Query  671  YGAVILVNATIAQVAFNNGIDPLHFWMITLVAFELGYLTPPVALNHLLTRQVVGDDEVES  730
+            YG + +++ATI  +  + GI              + YL  P A+  LLTR+ V    V  
+Sbjct  177  YGLLAILSATIVAMLSSVGI-----------ILSVAYLIAPGAIAFLLTRRFVSMMGVAV  225
+
+Query  731  AKLHSGSFFRRYEKFLLP------IAVMLTALLAVSY  761
+            A       F  Y  F L       I ++LTAL  V++
+Sbjct  226  AVALLAGVFGTYAAFWLDAAPAPTIVLVLTALFIVAF  262
+
+
+> DMKJLJHC_05509 C4-dicarboxylate TRAP transporter large permease 
+protein DctM
+Length=67
+
+ Score = 24.6 bits (52),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  684  VAFNNGIDPLHFWMITLVAFELGYLTPPVA  713
+            V    GIDP+HF  + ++   +  LT PV 
+Sbjct  19   VVMQLGIDPVHFDSVMILKLAIATLTLPVG  48
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 855498416
+
+
+  Database: BHET1_clean.fna
+    Posted date:  Jun 21, 2018  7:42 PM
+  Number of letters in database: 1,939,562
+  Number of sequences in database:  7,485
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

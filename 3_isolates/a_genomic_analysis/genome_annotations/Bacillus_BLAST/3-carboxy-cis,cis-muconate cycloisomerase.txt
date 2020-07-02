@@ -1,0 +1,179 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A328LQJ8|A0A328LQJ8_9BACI 3-carboxy-cis,cis-muconate
+cycloisomerase OS=Bacillus sp. SRB_336 OX=1969380 GN=B5P43_21850
+PE=4 SV=1
+
+Length=478
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_02603 Adenylosuccinate lyase                               92.4    4e-21
+  GFJPDDAG_02449 Argininosuccinate lyase                              33.1    0.033
+  GFJPDDAG_03300 Aspartate ammonia-lyase                              33.1    0.035
+  GFJPDDAG_01570 Putative N-acetyl-LL-diaminopimelate aminotransf...  28.5    1.1  
+  GFJPDDAG_00072 putative methylmalonyl-CoA mutase small subunit      27.3    2.3  
+  GFJPDDAG_01678 hypothetical protein                                 23.9    8.0  
+
+
+> GFJPDDAG_02603 Adenylosuccinate lyase
+Length=432
+
+ Score = 92.4 bits (228),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 106/384 (28%), Positives = 161/384 (42%), Gaps = 52/384 (14%)
+
+Query  30   VLAVETAWAEVLENAGLAPAGAAAAVRKAAMEGGFTAAELAAAAQGGGNPVIPIVARLRD  89
+            +LA E AWAE+    G  P    A +R+ A   GF    +    +   + V+     + +
+Sbjct  28   ILACE-AWAEI----GDIPKEDVAKIRENA---GFNVERINEIEEETRHDVVAFTRAVSE  79
+
+Query  90   LVAADNPQASRAVHASLTSQDVLDTALMSLSAHRVAALREDVAGATAALARLARRHAGTL  149
+             +  +     + VH  LTS DV+DTAL          + +D+      L   A  H  T+
+Sbjct  80   TLGDE----RKWVHYGLTSTDVVDTALSYQLKQANDIILKDLERFVEILKNKAIEHKHTV  135
+
+Query  150  QPARTLTQHSLPSTFGLKAAQWFHGLAAAAARLDAADFPVQFG---GAAGTLAAGAVLAA  206
+               RT   H+ P+TFGLK A W+  +     R  AA   V+FG   GA GT A       
+Sbjct  136  MMGRTHGVHAEPTTFGLKLALWYEEMKRNVERFKAAADGVEFGKISGAVGTYA-------  188
+
+Query  207  KGSTDAFTLADSLAATLGLATAPAPWHT-NRTAVTALGDALASLCDAAGKVANDVLLLSR  265
+              + D F +   +   LG+  AP    T  R         LA +  +  K + +V  L +
+Sbjct  189  --NIDPF-VESYVCERLGIKPAPVSTQTLQRDRHAHYMGTLALIATSIEKFSVEVRGLQK  245
+
+Query  266  PEFGELAEPRSAGRGVSSAMPQKQNPV-------LSILVRSAALAAPQQAAQLHLAAALS  318
+             E  E+ E  + G+  SSAMP K+NP+       ++ ++R   L A +     H      
+Sbjct  246  SETREVEEFFAKGQKGSSAMPHKRNPIGSENMTGMARVIRGYMLTAYENVPLWH------  299
+
+Query  319  VDERPDGAWHSEWEALRTLLELAAGAAAALR----ELAEGLHVFPDAMRANLALSGPLLL  374
+              ER     HS   A R +L  A  A   +      + + L VFP+ M+ N+  +  L+ 
+Sbjct  300  --ERDIS--HS--SAERVILPDATIALNYMLNRFGNIIKNLTVFPENMQRNMDRTLGLIY  353
+
+Query  375  SEAVGAEVVPLMDDGTAGGEAGST  398
+            S+ V   ++ L+D G    EA  T
+Sbjct  354  SQRV---LLALIDKGMTREEAYDT  374
+
+
+> GFJPDDAG_02449 Argininosuccinate lyase
+Length=464
+
+ Score = 33.1 bits (74),  Expect = 0.033, Method: Compositional matrix adjust.
+ Identities = 50/213 (23%), Positives = 84/213 (39%), Gaps = 38/213 (18%)
+
+Query  102  VHASLTSQDVLDTALMSLSAHRVAALREDVAGATAALARLARRHAGTLQPARTLTQHSLP  161
+            +H   +  D + T +      RV  +   V     A+   A  +  T+ P  T  Q + P
+Sbjct  103  LHTGRSRNDQIATDMHLFLKRRVKEIVTLVEDLQEAIITQAEENVETIIPGYTHLQRAQP  162
+
+Query  162  STFGLKAAQWF-------HGLAAAAARLDAADFPVQFGGAAGTLAAGAVLAAKGSTDAFT  214
+             +F      +F         L  +  R+D +  P+  G  AGT               F 
+Sbjct  163  ISFAHHLMCYFWMVNRDKERLVDSLKRIDIS--PLGAGALAGT--------------TFP  206
+
+Query  215  LADSLAATL-GLATAPAPWHTNRTAVTALGDALASLCDAA------GKVANDVLLLSRPE  267
+            +    +A L G  +    +  +  AV+     L  L +++       ++A +++L S  E
+Sbjct  207  IDREYSAELLGFESC---YENSLDAVSDRDFILEFLSNSSIMMTHLSRLAEEMILWSTEE  263
+
+Query  268  FG--ELAEPRSAGRGVSSAMPQKQNPVLSILVR  298
+            F   EL +  + G   SS MPQK+NP ++ LVR
+Sbjct  264  FRFIELDDSFTTG---SSIMPQKKNPDMAELVR  293
+
+
+> GFJPDDAG_03300 Aspartate ammonia-lyase
+Length=476
+
+ Score = 33.1 bits (74),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 35/72 (49%), Gaps = 7/72 (10%)
+
+Query  235  NRTAVTALGDALASLCDAAGKVANDVLLLS---RPEFGELAEP-RSAGRGVSSAMPQKQN  290
+            N  A T +  AL        K+AND+ L++   R   GE++ P R  G   SS MP K N
+Sbjct  273  NTDAYTEVSAALKVCMINMSKIANDLRLMASGPRAGLGEISLPSRQPG---SSIMPGKVN  329
+
+Query  291  PVLSILVRSAAL  302
+            PV+  L+   A 
+Sbjct  330  PVMPELINQVAF  341
+
+
+> GFJPDDAG_01570 Putative N-acetyl-LL-diaminopimelate aminotransferase
+Length=383
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 22/87 (25%), Positives = 32/87 (37%), Gaps = 15/87 (17%)
+
+Query  215  LADSLAATLGLATAPAPWHTNRTAVTALGDALASLCDAAGKVANDVLLLSRPEFGELAEP  274
+            + D ++ T+G    P P H    A  A+ D   S    AG             F EL E 
+Sbjct  27   IDDMISLTIGQPDFPTPQHIKDAAKKAIDDNFTSYTHNAG-------------FLELRE-  72
+
+Query  275  RSAGRGVSSAMPQKQNPVLSILVRSAA  301
+             +A R +        NP   ++V + A
+Sbjct  73   -AAARFIKEKYHVHYNPETEVIVTNGA  98
+
+
+> GFJPDDAG_00072 putative methylmalonyl-CoA mutase small subunit
+Length=596
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 23/91 (25%), Positives = 39/91 (43%), Gaps = 5/91 (5%)
+
+Query  18   HAAAGDDAVVE--AVLAVETAWAEVLENAGLAPAGAAAAVRKAAMEGGFTAAELAAAA--  73
+            H + G    +E   + A +  W EVL + GLA    + ++  +A    F  + L +    
+Sbjct  245  HFSVGSHFFMEIAKIRAFKKLWQEVLSSYGLAEERISGSISTSAETSQFNKSTLDSYVNM  304
+
+Query  74   -QGGGNPVIPIVARLRDLVAADNPQASRAVH  103
+             +GGG     I+A +  LV     + S  V+
+Sbjct  305  LRGGGEAFSAILAGVDYLVVTPFNEVSGEVN  335
+
+
+> GFJPDDAG_01678 hypothetical protein
+Length=75
+
+ Score = 23.9 bits (50),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 22/77 (29%), Positives = 35/77 (45%), Gaps = 7/77 (9%)
+
+Query  56   RKAAMEGGFTAAELAAAAQGGGNPVIPIVARLRDLVAADNPQASRAVHASLTSQDVLDTA  115
+            R A++ GG TA       +G G PV P     ++     +P ++R V   LTS+   +  
+Sbjct  4    RTASLSGGRTAKPPQLRFRGLGTPVFP-----QESTPFTSP-STRDVVTELTSEKTNEMV  57
+
+Query  116  LMSLSAHRVA-ALREDV  131
+                S H++   L+ DV
+Sbjct  58   SYYSSYHQLLYTLKNDV  74
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.128    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 318377696
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

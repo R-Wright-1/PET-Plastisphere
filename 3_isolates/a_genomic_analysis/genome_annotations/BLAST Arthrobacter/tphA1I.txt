@@ -1,0 +1,236 @@
+BLASTP 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A2J7YIU8|A0A2J7YIU8_PSEPU Terephthalate 1,2-dioxygenase,
+reductase component 1 OS=Pseudomonas putida OX=303 GN=tphA1I PE=4
+SV=1
+
+Length=562
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta               47.8       9e-07
+GFJPDDAG_00977 Methionine aminopeptidase 2                            45.1       4e-06
+GFJPDDAG_04152 Methionine aminopeptidase 1                            37.0       0.002
+GFJPDDAG_00983 putative peptidase                                     36.2       0.004
+GFJPDDAG_02575 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1...  28.9       0.90 
+GFJPDDAG_00034 Aminopeptidase YpdF                                    28.5       1.0  
+GFJPDDAG_02232 Type II secretion system protein E                     27.7       2.4  
+GFJPDDAG_03478 Lactate 2-monooxygenase                                26.2       6.3  
+GFJPDDAG_01602 RNA polymerase sigma factor SigI                       25.8       7.2  
+GFJPDDAG_00637 Aldehyde dehydrogenase PuuC                            25.8       8.4  
+GFJPDDAG_02859 Sensor histidine kinase YpdA                           25.8       9.2  
+GFJPDDAG_03701 Flagellar basal-body rod protein FlgG                  25.4       9.8  
+
+
+>GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta
+Length=318
+
+ Score = 47.8 bits (112),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 17/37 (46%), Positives = 27/37 (73%), Gaps = 0/37 (0%)
+
+Query  18   ASQELLLDAMLASGLPVPFSCRRGACGSCKVKVVSGQ  54
+            + +E LLDA+L +G+  P+SCR G CG+C++ V  G+
+Sbjct  247  SEEETLLDALLKAGIKAPYSCRVGRCGTCELNVFEGE  283
+
+
+>GFJPDDAG_00977 Methionine aminopeptidase 2
+Length=247
+
+ Score = 45.1 bits (105),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 47/170 (28%), Positives = 69/170 (41%), Gaps = 10/170 (6%)
+
+Query  349  DGMLAAREQSVRAVAAIASQL----QVGMTTAQALEMAAHTLQAMGASHTWHPTYIRFGD  404
+            D  L A ++  R VA I  +L    + G+TT +  EMA    +  GA       Y   G 
+Sbjct  6    DEELQALKEIGRIVAMIRDELRSHTKAGVTTKELDEMAGKLFEQNGAISGPKGEYDFPGF  65
+
+Query  405  DTVRTPRQ---GIDLQRVLRTTDIVVVDVGPVWDGYEGDYGDTFVFGQH--ALHHACVKA  459
+              +    +   GI  +RV+   D+V +DV    +GY  D G +FV G+    L   C  A
+Sbjct  66   TCISVNEEVAHGIPGERVINEGDLVNIDVSGSKNGYYADTGISFVVGEGDPKLTDLCEAA  125
+
+Query  460  LHEVFDETRQAWGRGLTGRELYDFAERSAQAKGWQLERNLAGHRIADFPH  509
+            L   F+   Q    G     +       A+  G+ +  NL GH +    H
+Sbjct  126  LKS-FEAGLQKARAGSKQNGIGKAVNNEARKNGYTVIMNLTGHGVGRSLH  174
+
+
+>GFJPDDAG_04152 Methionine aminopeptidase 1
+Length=248
+
+ Score = 37.0 bits (84),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 26/101 (26%), Positives = 44/101 (44%), Gaps = 13/101 (13%)
+
+Query  412  QGIDLQRVLRTTDIVVVDVGPVWDGYEGDYGDTFVFGQHALHHACVKALHEVFDETRQAW  471
+             GI   RVL+  DI+ +D+G  ++GY GD   T+  G             ++ D T ++ 
+Sbjct  77   HGIPGDRVLKDGDIISIDIGAKYNGYHGDSAWTYPVG------TIDDETQKLLDVTEESL  130
+
+Query  472  GRGLT----GRELYDFA---ERSAQAKGWQLERNLAGHRIA  505
+              GL     G  L + +   +   +A G+ + R   GH + 
+Sbjct  131  FLGLKEAKPGERLSNISHSIQTFVEANGFSIVREYVGHGVG  171
+
+
+>GFJPDDAG_00983 putative peptidase
+Length=365
+
+ Score = 36.2 bits (82),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 41/96 (43%), Gaps = 7/96 (7%)
+
+Query  369  LQVGMTTAQALEMAAHTLQAMGASHTWHPTYIRFGDDTVRTPRQGIDLQRVLRTTDIVVV  428
+            LQ G+T  + L    + L+  G       T + FG+        G    R L+  D V+ 
+Sbjct  165  LQEGITEMEVLAKIEYELKKKGIREMSFSTMVLFGEKA--GDPHGNPGDRTLKAGDFVLF  222
+
+Query  429  DVGPVWDGYEGDYGDTFVF-----GQHALHHACVKA  459
+            D+G V +GY  D   TF +      Q  +++  +KA
+Sbjct  223  DLGVVLEGYTSDITRTFAYKSVSDKQKDIYNTVLKA  258
+
+
+>GFJPDDAG_02575 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate 
+synthase
+Length=584
+
+ Score = 28.9 bits (63),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 48/113 (42%), Gaps = 11/113 (10%)
+
+Query  197  TWQHDDQRPLILFATGTGYAGIKPLLLTALAGDADVTLYWGGSSPADF---YDREFLDVS  253
+            T+ + D+R    FA G   A  KP++L   +G A    Y     PA     Y R  L V 
+Sbjct  51   TYVNVDERSAAFFALGIAKAENKPVVLLCSSGTAGANYY-----PAIIEARYARIPLIVL  105
+
+Query  254  SRAHPHFRWQPVLSAQARIQQVALSQTH-RWHEAQVYACGNATMITQAREQCL  305
+            +   PH   + V + QA IQQ+ L   H +W         + +M+  AR   +
+Sbjct  106  TADRPH-ELREVGAPQA-IQQIDLYGKHVKWSTDMALPESSPSMLEYARSSAV  156
+
+
+>GFJPDDAG_00034 Aminopeptidase YpdF
+Length=354
+
+ Score = 28.5 bits (62),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 22/89 (25%), Positives = 36/89 (40%), Gaps = 13/89 (15%)
+
+Query  412  QGIDLQRVLRTTDIVVVDVGPVWDGYEGDYGDTFVFGQHALHHACVKALHEVFDETRQA-  470
+             G+   +V+   D V +D G  + GY  D   T   G+ +      + L E++D   Q+ 
+Sbjct  194  HGVASDKVIEKGDFVTLDYGAYYKGYCSDMTRTLSVGEPS------EKLKEIYDVVLQSQ  247
+
+Query  471  ------WGRGLTGRELYDFAERSAQAKGW  493
+                     G+TG+E    A      KG+
+Sbjct  248  LLAMEQIKPGMTGKEADAIARDYITEKGY  276
+
+
+>GFJPDDAG_02232 Type II secretion system protein E
+Length=553
+
+ Score = 27.7 bits (60),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 31/131 (24%), Positives = 56/131 (43%), Gaps = 8/131 (6%)
+
+Query  222  LLTALAGDADVTLYWGGSSPADFYDREFLDVSSRAHPHFRWQPVLSAQARIQQVALSQTH  281
+            L+  L  + D  L+   S P DFY  E L    R    F+ +  ++ +  I +V +++ +
+Sbjct  88   LMIPLKKEGD-KLFVAMSDPLDFYAIEDL----RLATGFQIETAIATKDDILKV-INKFY  141
+
+Query  282  RWHEAQVYACGNATMITQAREQCLAAGVKPHRFVAEAFVASGALTTQASSANPLHPELEK  341
+               +             Q  E+ +     P   +    + S A+T +AS  + + P+  K
+Sbjct  142  DLEDGFEDLFQENRNQNQVEEETIVDSESPIVRLVNG-ILSNAVTQKASDIH-IDPQETK  199
+
+Query  342  VGPRYSLDGML  352
+            V  RY +DG+L
+Sbjct  200  VVIRYRVDGIL  210
+
+
+>GFJPDDAG_03478 Lactate 2-monooxygenase
+Length=393
+
+ Score = 26.2 bits (56),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 22/47 (47%), Gaps = 1/47 (2%)
+
+Query  204  RPLILFATGTGYAGIKPLLLTALAGDADVTLYWGGSSPADFYDREFL  250
+            RP +   T  G  G+K ++   LA D D+TL   G   A   DR  L
+Sbjct  336  RPYMYGLTLGGEQGVKEVIRNLLA-DTDLTLALSGQRSASHLDRSLL  381
+
+
+>GFJPDDAG_01602 RNA polymerase sigma factor SigI
+Length=251
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 16/65 (25%), Positives = 31/65 (48%), Gaps = 3/65 (5%)
+
+Query  437  YEGDYGDTFVFGQHALHHACVKALHEVFDETRQAWGRGLTGRELYDFAERSAQAKGWQLE  496
+            YE D  D F  G  A H A +K  HE    +  ++   +  R++ D+  ++ + +   ++
+Sbjct  57   YESD--DEFSIGLIAFHDAILKYNHE-RGSSIISFSEVIIKRKVIDYIRKNGKIQDVSMD  113
+
+Query  497  RNLAG  501
+              L+G
+Sbjct  114  MTLSG  118
+
+
+>GFJPDDAG_00637 Aldehyde dehydrogenase PuuC
+Length=486
+
+ Score = 25.8 bits (55),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 11/46 (24%), Positives = 23/46 (50%), Gaps = 0/46 (0%)
+
+Query  369  LQVGMTTAQALEMAAHTLQAMGASHTWHPTYIRFGDDTVRTPRQGI  414
+            +QVG+     L     T+ ++G  + + PT +   D+ +R  ++ I
+Sbjct  346  VQVGLQEGAKLATGGKTITSLGEGNFYEPTVLYDVDNKMRVAQEEI  391
+
+
+>GFJPDDAG_02859 Sensor histidine kinase YpdA
+Length=579
+
+ Score = 25.8 bits (55),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 26/47 (55%), Gaps = 2/47 (4%)
+
+Query  387  QAMGASHTWHPTYIRFGDDTVRTPRQGIDLQRVLRTTDIVVVDVGPV  433
+            + MGA+ +     +R  D TV+  R+G+++     T +I++ DV  +
+Sbjct  212  ERMGAAQSQKA--LRLADSTVKYMRKGLNVSSAQATCEILMRDVNAL  256
+
+
+>GFJPDDAG_03701 Flagellar basal-body rod protein FlgG
+Length=280
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  415  DLQRVLRTTDIVVVDVGPVWDGYEGDYGDTFV  446
+            DLQ   R+ DI ++DV    DG  G  G  F+
+Sbjct  91   DLQETGRSLDIALLDVSMPADGETGASGSVFL  122
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 383768175
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,175 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A328LM60|A0A328LM60_9BACI Protocatechuate 3,4-dioxygenase
+subunit beta OS=Bacillus sp. SRB_336 OX=1969380 GN=B5P43_21840 PE=4
+SV=1
+
+Length=282
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03651 Acyl-CoA dehydrogenase                               29.6    0.22 
+  GFJPDDAG_00939 Serine-aspartate repeat-containing protein D         28.5    0.63 
+  GFJPDDAG_00525 hypothetical protein                                 26.2    1.6  
+  GFJPDDAG_02172 hypothetical protein                                 25.8    3.1  
+  GFJPDDAG_02988 Alcohol dehydrogenase                                25.0    5.6  
+  GFJPDDAG_02707 1,2-phenylacetyl-CoA epoxidase, subunit A            24.6    7.0  
+  GFJPDDAG_00822 DNA helicase IV                                      24.6    8.5  
+  GFJPDDAG_01962 Shikimate kinase                                     23.9    9.6  
+
+
+> GFJPDDAG_03651 Acyl-CoA dehydrogenase
+Length=379
+
+ Score = 29.6 bits (65),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 26/51 (51%), Gaps = 2/51 (4%)
+
+Query  108  QGERIKVAGRVLDGDGRPVAGQLVEIWQA--NAAGRYIHKRDQHPAPIDPN  156
+            +G+  K+A   LDG    +A Q V I Q   +A+  Y  +R+Q   PI  N
+Sbjct  228  EGDGFKIAMMTLDGGRNGIAAQAVGIAQGALDASVDYAKEREQFGKPIAAN  278
+
+
+> GFJPDDAG_00939 Serine-aspartate repeat-containing protein D
+Length=2069
+
+ Score = 28.5 bits (62),  Expect = 0.63, Method: Compositional matrix adjust.
+ Identities = 22/96 (23%), Positives = 35/96 (36%), Gaps = 19/96 (20%)
+
+Query  113   KVAGRVLDGDGRPVAGQLVEIWQANAAGRYIHKRDQHPAPIDPNFTGVGRCITGADGSYA  172
+              V+G ++D    P+   LVEI   +A G  I +                   T A+G Y 
+Sbjct  1118  SVSGVIVDASNNPIQSALVEIR--DAVGTLIAE-----------------TYTNANGEYI  1158
+
+Query  173   FTTIKPGAYPWKNHLNAWRPAHIHFSLFGSEFTQRI  208
+              T +  G+Y      + + P+    +L   E    I
+Sbjct  1159  ITGLGSGSYTIGVFADGYAPSFTGVTLSTGEMLTNI  1194
+
+
+ Score = 24.6 bits (52),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 25/68 (37%), Gaps = 20/68 (29%)
+
+Query  114  VAGRVLDGDGRPVAGQLVEIWQANAAGRYIHKRDQHPAPIDPNFTGVGRCITGADGSYAF  173
+            V G V D    P+ G LV I Q N            P   D         IT  +G+Y  
+Sbjct  696  VMGTVTDNAMNPIEGALVTIIQNNI-----------PIATD---------ITDQNGNYEI  735
+
+Query  174  TTIKPGAY  181
+              + PG+Y
+Sbjct  736  PNLAPGSY  743
+
+
+> GFJPDDAG_00525 hypothetical protein
+Length=155
+
+ Score = 26.2 bits (56),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 16/66 (24%), Positives = 28/66 (42%), Gaps = 7/66 (11%)
+
+Query  50   LTQPNLDYAPYRSSILRHPTKSLHHADPETIELFSPAFGHQDVSPLEADLTIVHNGEPQG  109
+            + QP L++AP++S       K    +  + I       G ++    E  L  + N  P+ 
+Sbjct  1    MIQPKLNFAPFQSKYAEQTVKMWRESKEQAI-------GQKEKHSFENHLYFLTNILPEQ  53
+
+Query  110  ERIKVA  115
+             +I VA
+Sbjct  54   FQIDVA  59
+
+
+> GFJPDDAG_02172 hypothetical protein
+Length=259
+
+ Score = 25.8 bits (55),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  208  IITQMYFPGDQLFPLDPIYQSIVDQDA  234
+            I+T + F GD LFP  PI + I+   A
+Sbjct  112  ILTMVMFQGDSLFPYWPIKEGILFNLA  138
+
+
+> GFJPDDAG_02988 Alcohol dehydrogenase
+Length=344
+
+ Score = 25.0 bits (53),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 2/35 (6%)
+
+Query  176  IKPGAYPWKNHLNAWRPAHIHF-SLFGSEFTQRII  209
+            ++ GAY  K   + WRP  +HF  + GS+ T  I+
+Sbjct  46   MREGAYG-KGEKSGWRPEGVHFPRIPGSDITGEIV  79
+
+
+> GFJPDDAG_02707 1,2-phenylacetyl-CoA epoxidase, subunit A
+Length=322
+
+ Score = 24.6 bits (52),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 18/34 (53%), Gaps = 3/34 (9%)
+
+Query  45   DGGTVLTQPNL---DYAPYRSSILRHPTKSLHHA  75
+            DG  ++TQ N+    Y PY  ++ R   + + HA
+Sbjct  142  DGAAIITQTNMLHASYGPYARALKRICAEEVFHA  175
+
+
+> GFJPDDAG_00822 DNA helicase IV
+Length=775
+
+ Score = 24.6 bits (52),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 14/55 (25%), Positives = 24/55 (44%), Gaps = 4/55 (7%)
+
+Query  11   VVHSGAAAGPRQETQQELSAEIAAIASTYRKSVRDGGTVLTQPNLDYAPYRSSIL  65
+            +V   A +G      Q     IA +   YR +++    +L  PN  +  Y S++L
+Sbjct  227  IVQGAAGSGKTSAALQR----IAYLLYKYRGNLKANQIILFSPNAMFNSYVSNVL  277
+
+
+> GFJPDDAG_01962 Shikimate kinase
+Length=167
+
+ Score = 23.9 bits (50),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 29/63 (46%), Gaps = 17/63 (27%)
+
+Query  214  FPGDQLFPLDPIYQSIVDQDARDRLVATYNHELTSPEWSLGYNWDIVLTGSRRTWTENEA  273
+              GDQ  PL       V +++RDRL++ YN     P +  G++  I         TEN+ 
+Sbjct  110  LEGDQDRPL-------VKENSRDRLLSLYNRRF--PLYKSGHSITI--------QTENKT  152
+
+Query  274  LGE  276
+            + E
+Sbjct  153  VDE  155
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 167526063
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

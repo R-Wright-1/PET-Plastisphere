@@ -1,0 +1,179 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|A0A1Y6FHD6|A0A1Y6FHD6_9BACI Phthalate 4,5-dioxygenase, oxygenase
+subunit OS=Bacillus sp. OV166 OX=1882763 GN=SAMN05444673_2399 PE=4
+SV=1
+
+Length=424
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_00213 Cytochrome b6-f complex iron-sulfur subunit          35.0    0.003
+  GFJPDDAG_03588 Gamma-glutamylputrescine oxidoreductase              35.4    0.005
+  GFJPDDAG_02651 23S rRNA (uracil-C(5))-methyltransferase RlmCD       26.6    3.0  
+  GFJPDDAG_01229 Penicillin acylase 2                                 26.6    3.5  
+  GFJPDDAG_00746 hypothetical protein                                 25.8    4.6  
+  GFJPDDAG_00784 3-hydroxyanthranilate 3,4-dioxygenase                25.0    5.8  
+  GFJPDDAG_00224 N-acetyl-alpha-D-glucosaminyl L-malate synthase      25.8    6.5  
+  GFJPDDAG_02540 Serine acetyltransferase                             24.6    8.3  
+  GFJPDDAG_03554 hypothetical protein                                 23.5    8.7  
+
+
+> GFJPDDAG_00213 Cytochrome b6-f complex iron-sulfur subunit
+Length=169
+
+ Score = 35.0 bits (79),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 36/81 (44%), Gaps = 10/81 (12%)
+
+Query  55   AFRDSEGNVAILDAYCPHRRAHLFWGRNEECG--LRCVYHGWKFDRDGNCVDMPNEPEES  112
+             +++ EG V  L   C H    + W  N +      C  HG  + ++G   ++P  P  +
+Sbjct  86   VYKNKEGKVIALSPVCKHLGCTVNWNGNPDHKEMFYCPCHGGMYHKNGK--NVPGTPPTA  143
+
+Query  113  KFKHKVELTAYPTWEKSGIIW  133
+                   L +YPT EK GI++
+Sbjct  144  ------PLDSYPTKEKDGILY  158
+
+
+> GFJPDDAG_03588 Gamma-glutamylputrescine oxidoreductase
+Length=513
+
+ Score = 35.4 bits (80),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 22/91 (24%), Positives = 38/91 (42%), Gaps = 3/91 (3%)
+
+Query  25   RYWIPAMLTEEVPEADCPPVKLKLLGEELVAFRDSEGNVAILDAYCPHRRAHLFWGRNEE  84
+            +  IP+   +E+   +   V L   G     +RD  G + I+D  C H      W   + 
+Sbjct  423  KLQIPSKKPQELQNGEGDIVNLN--GRRCGGYRDESGRLHIVDTTCTHLGCETEWNHGDH  480
+
+Query  85   CGLRCVYHGWKFDRDGNCVDMPNEPEESKFK  115
+                C  HG +F  DG+ ++ P +   + F+
+Sbjct  481  T-WDCPCHGSRFSIDGDVIEGPAKKPLTTFE  510
+
+
+> GFJPDDAG_02651 23S rRNA (uracil-C(5))-methyltransferase RlmCD
+Length=458
+
+ Score = 26.6 bits (57),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 23/91 (25%), Positives = 37/91 (41%), Gaps = 5/91 (5%)
+
+Query  43   PVKLKLLGEELVAFRDSEGNVAILDAYCPHRRAHLFWGRNEE--CGLRCVYHGWKFDRDG  100
+            P + K+L ++ + + D +G   ++DAYC      LF  +  +   G+  V      D   
+Sbjct  292  PEQTKVLYDKALEYADLQGEETVIDAYCGIGTISLFLAQKAKKVYGVEIVPQAI-VDAKQ  350
+
+Query  101  NCVDMPNEPEESKFKHKVELTAYPTWEKSGI  131
+            N   + N     +FK        P W K GI
+Sbjct  351  NA--LLNGITNVEFKAGPAEVVIPDWYKEGI  379
+
+
+> GFJPDDAG_01229 Penicillin acylase 2
+Length=794
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 12/26 (46%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  182  SSFAHNNNIQDKTSMRSRATNPKLEV  207
+            S FAH N  ++  SMR  A +P LE+
+Sbjct  387  SEFAHQNEGENVMSMRWTALDPSLEL  412
+
+
+> GFJPDDAG_00746 hypothetical protein
+Length=198
+
+ Score = 25.8 bits (55),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 12/24 (50%), Gaps = 0/24 (0%)
+
+Query  395  TYRAARACDAFLPKGVDWREGLNE  418
+            T RA R  D FL K   W+E   E
+Sbjct  3    TNRANRKVDGFLKKAKKWKEEFEE  26
+
+
+> GFJPDDAG_00784 3-hydroxyanthranilate 3,4-dioxygenase
+Length=121
+
+ Score = 25.0 bits (53),  Expect = 5.8, Method: Composition-based stats.
+ Identities = 20/86 (23%), Positives = 36/86 (42%), Gaps = 25/86 (29%)
+
+Query  189  NIQDKTSMRSRATNPKLEVDKTDYGFRYVGIRDLKEDGNYIRAYQFIMPAQQMRGQMMKW  248
+            NI++K S  S   +PK+  +  DY F+ V ++     G+++                  W
+Sbjct  7    NIKEKLSTFSEHWSPKVMCEMNDYQFKLVKVQ-----GDFV------------------W  43
+
+Query  249  HDGSQ--EEYPTIRGHIWVPVDDENV  272
+            HD  +  E +  I G +++   D  V
+Sbjct  44   HDHKETDEVFIVIEGEMFIAFRDGEV  69
+
+
+> GFJPDDAG_00224 N-acetyl-alpha-D-glucosaminyl L-malate synthase
+Length=374
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  114  FKHKVELTAYPTWEKSGIIWTYMG  137
+             K K+ +T YPT   SG++ T +G
+Sbjct  1    MKLKIGITCYPTVGGSGVVATELG  24
+
+
+> GFJPDDAG_02540 Serine acetyltransferase
+Length=171
+
+ Score = 24.6 bits (52),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/53 (25%), Positives = 22/53 (42%), Gaps = 1/53 (2%)
+
+Query  165  ESCNWLQALEGGIDTSHSSFAHNNNIQDKTSMRSRATNPKLEVDKTDYGFRYV  217
+            ES  W   +  G D + +   +  NIQD + +     NP +  D+   G   +
+Sbjct  33   ESSIWFNTVIRG-DVAPTKIGNKVNIQDNSVLHQSPNNPLILEDEVTVGHSVI  84
+
+
+> GFJPDDAG_03554 hypothetical protein
+Length=76
+
+ Score = 23.5 bits (49),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 13/27 (48%), Positives = 15/27 (56%), Gaps = 1/27 (4%)
+
+Query  10  LCRTDAG-TPMGEVFRRYWIPAMLTEE  35
+           LC   +G T +G  F R WIP   TEE
+Sbjct  11  LCAWGSGVTWLGLSFIRLWIPVRSTEE  37
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 276774177
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

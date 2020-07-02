@@ -1,0 +1,204 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: BHET2_clean.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= sp|Q3C1E0|TPDR1_COMSP Terephthalate 1,2-dioxygenase, reductase
+component 1 OS=Comamonas sp. OX=34028 GN=tphA1I PE=1 SV=1
+
+Length=336
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta             52.4    1e-08
+  GFJPDDAG_02838 Flavohemoprotein                                     44.7    4e-06
+  GFJPDDAG_00582 NADP-dependent alcohol dehydrogenase C 1             28.1    0.70 
+  GFJPDDAG_01425 Dihydroorotate dehydrogenase B (NAD(+)), electro...  26.9    1.7  
+  GFJPDDAG_03145 Trifunctional nucleotide phosphoesterase protein...  27.3    1.8  
+  GFJPDDAG_02517 Cysteine synthase                                    26.6    2.1  
+  GFJPDDAG_02624 Malate synthase A                                    25.0    7.2  
+  GFJPDDAG_02488 Cell division protein FtsA                           25.0    8.5  
+  GFJPDDAG_03379 Ribonuclease M5                                      24.3    8.8  
+
+
+> GFJPDDAG_03097 Phenoxybenzoate dioxygenase subunit beta
+Length=318
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 51/213 (24%), Positives = 87/213 (41%), Gaps = 29/213 (14%)
+
+Query  129  KFEAGQYLLIHLDDGE---SRSYSMANPPHESD----GITLHVRHVPGGRFSTIVQQLKS  181
+            +F  G ++  ++++G    +RSYS+ NPP + D     I LH     G RF    +++K 
+Sbjct  37   RFSGGSHITTYIENGHQTIARSYSLTNPPGQRDSYQIAIRLHDFSQGGSRFWH--EKMKE  94
+
+Query  182  GDTLEIELPFGSIALKPDDTRPLICVAGGTGFAPIKSVLDDLAKRKVQRDITLIWGARNP  241
+            GDTL I  P     L     +  +  A G G  P  S++ +L +  +            P
+Sbjct  95   GDTLRISHPRNHFPLS-FKAKNHVFYAAGIGITPFLSMMAELKRDGL------------P  141
+
+Query  242  SGLYLPSAIDKWRKTWPQFRYIAAI-TDLGNVPADAHAGRVDDALRTHFGNLHDHVVHCC  300
+              L+  +   K ++T P + Y+    ++  +          D +L  H    H   V+ C
+Sbjct  142  FELHYAA---KSKETCPFYSYLVETHSEETHFYFSEEKRLTDSSLWEHRVGTH---VYFC  195
+
+Query  301  GSPSLVQSVRTAASDMGLLAQNFHADVFATSPT  333
+            G PS ++    +A  +G      H + F    T
+Sbjct  196  GPPSFIEDFTNSALTIGYPQSTIHYERFTPPKT  228
+
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 22/70 (31%), Positives = 35/70 (50%), Gaps = 0/70 (0%)
+
+Query  13   AFPCAPGQSVLDAALQAGIELPYSCRKGSCGNCASALLDGNITSFNGMAVRSELCTSEQV  72
+            A   +  +++LDA L+AGI+ PYSCR G CG C   + +G +   +      E      +
+Sbjct  243  AVSVSEEETLLDALLKAGIKAPYSCRVGRCGTCELNVFEGEVDHGDSFLSEKERSEHRSI  302
+
+Query  73   LLCGCTAASD  82
+            L C   A ++
+Sbjct  303  LTCVSRAKTE  312
+
+
+> GFJPDDAG_02838 Flavohemoprotein
+Length=397
+
+ Score = 44.7 bits (104),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 31/118 (26%), Positives = 62/118 (53%), Gaps = 12/118 (10%)
+
+Query  133  GQYLLIHLD-DGES----RSYSMANPPHESDGITLHVRHV----PGGRFSTIV-QQLKSG  182
+            GQY+ + +   GE     R YS+++ P + D   + V+      P G+ S  + +++++G
+Sbjct  183  GQYISVRVTIPGEEFTHIRQYSLSSAPRQ-DFFRISVKKEAEFDPIGKVSNFLHEKIEAG  241
+
+Query  183  DTLEIELPFGSIALKPDDTRPLICVAGGTGFAPIKSVLDDLAKRKVQRDITLIWGARN  240
+              +E+  P G   L+ +   P+  ++GG G  P+ S+LD +A+   +R  T I  +++
+Sbjct  242  SEIEVSAPAGDFHLE-EGQSPVALISGGVGITPMMSMLDTIARNIPERKTTFIHASKH  298
+
+
+> GFJPDDAG_00582 NADP-dependent alcohol dehydrogenase C 1
+Length=346
+
+ Score = 28.1 bits (61),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 18/80 (23%), Positives = 29/80 (36%), Gaps = 16/80 (20%)
+
+Query  3    HQIHIHDSDIAFPCAPGQSVLDAALQAGIELP---------YSCRKGSCGNCASA-----  48
+            H  H    ++ +P  PG  +     + G E+            C   SCG C +      
+Sbjct  46   HTAHGEWGEVKYPLVPGHEIAGIVTEVGSEVTKYKAGDRVGVGCMVDSCGECKNCREGEE  105
+
+Query  49   --LLDGNITSFNGMAVRSEL  66
+               L GN+ ++ G+    EL
+Sbjct  106  QYCLKGNVPTYAGVDKYGEL  125
+
+
+> GFJPDDAG_01425 Dihydroorotate dehydrogenase B (NAD(+)), electron 
+transfer subunit
+Length=257
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 37/172 (22%), Positives = 76/172 (44%), Gaps = 20/172 (12%)
+
+Query  146  RSYSMANPPHESDGITLHVRHVPGGRFSTIVQQLKSGDTLEIELPFGSIALKPDDTRPLI  205
+            R  S+A+  HE+  +T+ + +   G+ + ++  +K  + +++  P G+     +  R  +
+Sbjct  53   RPISIASFDHEN--LTMALIYRAEGKGTRLLSLVKCNEVVDVLGPLGNGFPVEEGRRTAL  110
+
+Query  206  CVAGGTGFAPIKSVLDDLAKRKVQRDITL--IWGARNPSGLYLPSAIDKWRKTWPQFRYI  263
+             V GG G  P    L  L+K+ V+   T+  I G +  S  +  +   +  +T     Y+
+Sbjct  111  LVGGGIGVPP----LYGLSKKLVENGWTVKHILGFQTESVSFYENRFRELGET-----YV  161
+
+Query  264  AAITDLGNVPADAHAGRVDDALRTHFGNLHDHVVHCCGSPSLVQSVRTAASD  315
+            A +     V      G V D +R      +D V + CG   +++++ +   D
+Sbjct  162  ATVDGSLGV-----KGFVTDVIREE-APAYD-VFYSCGPTPMLKALESQLGD  206
+
+
+> GFJPDDAG_03145 Trifunctional nucleotide phosphoesterase protein 
+YfkN
+Length=1752
+
+ Score = 27.3 bits (59),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 10/24 (42%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  267   TDLGNVPADAHAGRVDDALRTHFG  290
+             T+LGN+ ADA   + + +++TH G
+Sbjct  1535  TNLGNLIADAMVEKANQSIKTHIG  1558
+
+
+> GFJPDDAG_02517 Cysteine synthase
+Length=309
+
+ Score = 26.6 bits (57),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  283  DALRTHFGNLHDHVVHCCGSPSL  305
+            + LR H+ +L  HVV   GSP L
+Sbjct  191  EVLREHYPDLSVHVVEPAGSPVL  213
+
+
+> GFJPDDAG_02624 Malate synthase A
+Length=529
+
+ Score = 25.0 bits (53),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 20/35 (57%), Gaps = 1/35 (3%)
+
+Query  210  GTGFAPIKSVLDDLAKRKVQRDITLIWGARNPSGL  244
+            G G API  +++D+A  ++ R     W  R+P G+
+Sbjct  431  GQGAAPIHDLMEDVATAEISRAQLWQW-IRHPKGV  464
+
+
+> GFJPDDAG_02488 Cell division protein FtsA
+Length=718
+
+ Score = 25.0 bits (53),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 21/50 (42%), Gaps = 0/50 (0%)
+
+Query  155  HESDGITLHVRHVPGGRFSTIVQQLKSGDTLEIELPFGSIALKPDDTRPL  204
+             + D ++    H P      I +QL  G ++ I      I LK D TR L
+Sbjct  590  QQGDAVSFKSAHTPTINEILIKKQLVPGSSIHITFNGKEIELKKDSTRIL  639
+
+
+> GFJPDDAG_03379 Ribonuclease M5
+Length=137
+
+ Score = 24.3 bits (51),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 10/30 (33%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  88   SSFRRLDPEARKRFTAKVYSNTLAAPDVSL  117
+              F+R  PEA   +  ++Y    AAP+  L
+Sbjct  87   KQFKREFPEAEHLYIDRMYKEVAAAPEYHL  116
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 208713109
+
+
+  Database: BHET2_clean.fna
+    Posted date:  Jun 21, 2018  7:43 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

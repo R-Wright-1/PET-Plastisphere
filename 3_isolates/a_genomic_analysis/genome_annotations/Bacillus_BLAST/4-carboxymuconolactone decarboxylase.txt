@@ -1,0 +1,140 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: Baqui_new.fna
+           4,255 sequences; 1,178,118 total letters
+
+
+
+Query= tr|G4NXV0|G4NXV0_BACPT 4-carboxymuconolactone decarboxylase domain
+protein OS=Bacillus subtilis subsp. spizizenii (strain TU-B-10)
+OX=1052585 GN=pcaC PE=4 SV=1
+
+Length=244
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  GFJPDDAG_03846 Sugar fermentation stimulation protein A             28.1    0.39 
+  GFJPDDAG_01114 RNA polymerase-associated protein RapA               26.9    1.4  
+  GFJPDDAG_00869 hypothetical protein                                 26.2    1.7  
+  GFJPDDAG_01172 Hydroxyacylglutathione hydrolase GloC                26.2    2.0  
+  GFJPDDAG_02818 Renalase                                             24.3    8.0  
+  GFJPDDAG_01185 Cystathionine gamma-synthase/O-acetylhomoserine ...  24.3    8.2  
+
+
+> GFJPDDAG_03846 Sugar fermentation stimulation protein A
+Length=246
+
+ Score = 28.1 bits (61),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 30/71 (42%), Gaps = 4/71 (6%)
+
+Query  138  DAYLQMIFTDETPLNASIGNVTFAPGARNYWHSHKIGQV--LLVTGGEGWYQEEGKPAQL  195
+            D  +Q +F +   LN  +       G +   H    G++  LLV+GG  W QE   P + 
+Sbjct  13   DTLVQAVFLNR--LNRFVLECELPTGTKEKVHLPDPGRLKDLLVSGGPIWLQESTDPKRK  70
+
+Query  196  LKTGDVINIPP  206
+             K   V+   P
+Sbjct  71   TKWSAVMTYDP  81
+
+
+> GFJPDDAG_01114 RNA polymerase-associated protein RapA
+Length=1054
+
+ Score = 26.9 bits (58),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 22/72 (31%), Positives = 33/72 (46%), Gaps = 13/72 (18%)
+
+Query  24    DDVLFGDIW---AREEELSPRDRSM-----ITVSALIAEGNFEQLSPHLQKAKENGLTK-  74
+             D V+  D W   A EE+ + R   M     + V  LIAEG  E+    LQ  K + + + 
+Sbjct  969   DTVILYDTWWNPAVEEQAADRAHRMGQKNTVQVIKLIAEGTIEEKMNELQDKKRHLIQEV  1028
+
+Query  75    ----EEIAEIIT  82
+                 E++ + IT
+Sbjct  1029  MNPDEKVVQTIT  1040
+
+
+> GFJPDDAG_00869 hypothetical protein
+Length=306
+
+ Score = 26.2 bits (56),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+
+Query  58   EQLSPHLQKAKENGLTKEEIAEIITHL  84
+            E+LS   + AKE G+ KEE+++++T +
+Sbjct  174  EELSVATELAKEAGIDKEEVSKLLTEI  200
+
+
+> GFJPDDAG_01172 Hydroxyacylglutathione hydrolase GloC
+Length=258
+
+ Score = 26.2 bits (56),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 21/64 (33%), Positives = 32/64 (50%), Gaps = 4/64 (6%)
+
+Query  82   THLSFY-AGWPKAWSAFH---IAKDIFKNEKKTGQYMTSDQLSNSTIFPIGEKVEANFTG  137
+            T L FY A +     AFH   + +D+F+ E  + Q + +   +   I  I E+ E  F+G
+Sbjct  89   TKLPFYRAMFWHNRPAFHPKPLKEDVFETEHHSFQIVHTPGHALDHIVLIDEEKEICFSG  148
+
+Query  138  DAYL  141
+            D YL
+Sbjct  149  DLYL  152
+
+
+> GFJPDDAG_02818 Renalase
+Length=324
+
+ Score = 24.3 bits (51),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 15/57 (26%), Positives = 31/57 (54%), Gaps = 4/57 (7%)
+
+Query  95   SAFHIAKD--IFKNEKKTGQYMTSDQLSNSTIFPIGEKVEANFTGDAYLQMIFTDET  149
+            +A ++ KD  I + + K  +Y  ++++ ++    +GE       GDA+L+   TDE+
+Sbjct  243  AALYLDKDSTIIEAQLKRWRYAEAEEVMHTPYMEVGEGYRVVVCGDAFLRE--TDES  297
+
+
+> GFJPDDAG_01185 Cystathionine gamma-synthase/O-acetylhomoserine 
+(thiol)-lyase
+Length=374
+
+ Score = 24.3 bits (51),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  1    MAKKQTAGRDILGEFAPKFAELNDDVLFGDIWAREEELSPR  41
+            + K  T G DI+   A K+   ++DVL G +    E+L  R
+Sbjct  181  LQKPLTEGADIVIHSATKYLGGHNDVLAGVVVVNSEDLGKR  221
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 137385752
+
+
+  Database: Baqui_new.fna
+    Posted date:  Apr 26, 2019  4:59 PM
+  Number of letters in database: 1,178,118
+  Number of sequences in database:  4,255
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

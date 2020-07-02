@@ -1,0 +1,139 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  Alignment.hmm
+# target sequence database:        BHET2_clean.fna
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Alignment  [M=297]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    0.00013   19.1   0.2       0.18    8.8   0.0    2.2  2  GFJPDDAG_02434  Dipeptidyl-peptidase 5
+    0.00081   16.5   0.0     0.0011   16.1   0.0    1.1  1  GFJPDDAG_02574  2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-car
+     0.0013   15.8   0.0      0.013   12.6   0.0    2.0  2  GFJPDDAG_03830  Thermostable monoacylglycerol lipase
+     0.0068   13.5   0.0       0.71    6.9   0.0    2.2  2  GFJPDDAG_03456  2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hyd
+  ------ inclusion threshold ------
+      0.051   10.6   0.1       0.18    8.9   0.0    1.9  3  GFJPDDAG_02553  hypothetical protein
+
+
+Domain annotation for each sequence (and alignments):
+>> GFJPDDAG_02434  Dipeptidyl-peptidase 5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.0   0.1   0.00038      0.32     154     201 ..     493     541 ..     484     552 .. 0.72
+   2 !    8.8   0.0   0.00022      0.18     197     267 ..     570     639 ..     546     643 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 8.0 bits;  conditional E-value: 0.00038
+       Alignment 154 vDtsrlavvGwsmGGGGalklakerpslkAai...plaPwntsksfsevkv 201
+                      D +r++v+Gws GG  +   ++  +++kA+     ++ w +  ++ ++ +
+  GFJPDDAG_02434 493 ADKERVGVMGWSQGGFISAFCSTYSDRFKAVSvggGMTNWRS--HYVNTDI 541
+                     599************888888887788888652223555555..5555555 PP
+
+  == domain 2  score: 8.8 bits;  conditional E-value: 0.00022
+       Alignment 197 sevkvPtliiaaenDtiApvsshaspfYnslpsstekaylElnngsHfaansgsnnallgkygvaWlkrfv 267
+                     ++  +Ptli   e+D+  p+s  a  +Y+ l     k+ l + +g  +++ +  +n ++ k+ + W+  ++
+  GFJPDDAG_02434 570 KSACTPTLIQHGEKDARVPTS-NAYELYQGLKDMGIKTELIIFKGMAYSPDQPGMNVAIMKQNLMWFSHYL 639
+                     45679**********988865.6999****************************************99886 PP
+
+>> GFJPDDAG_02574  2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.1   0.0   1.3e-06    0.0011      76     179 ..       8     108 ..       5     117 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 16.1 bits;  conditional E-value: 1.3e-06
+       Alignment  76 iyYpteasgtvgaiavvPGyvatessikwlgprlAshGFvvitid..tnstlDqPdsRaeqlkaAldylveksssavrsrvDtsrlavvGwsmGG 168
+                     i+Y  e +g+   ++   G+++ +++ +   +rl s  +  i+id   + + D P   a+  +  +++ +    +++ +r++  +   +G+smGG
+  GFJPDDAG_02574   8 IHYFVEVKGQGKPLVFLHGFTGDTTTWTRVTDRLSSN-YRCISIDliGHGRTDSPVDCARYTMEQVSHDI----NTILNRLEVIQAQLIGYSMGG 97 
+                     99****99**99**********************985.66666662156789999988887766655555....56******************* PP
+
+       Alignment 169 GGalklakerp 179
+                       al+ +  +p
+  GFJPDDAG_02574  98 RTALHFTLMHP 108
+                     **999876655 PP
+
+>> GFJPDDAG_03830  Thermostable monoacylglycerol lipase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7   0.0     0.064        54     158     168 ..      84      94 ..      65     106 .. 0.82
+   2 !   12.6   0.0   1.5e-05     0.013     198     254 ..     177     231 ..     172     236 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.064
+       Alignment 158 rlavvGwsmGG 168
+                      + v+G+smGG
+  GFJPDDAG_03830  84 EVYVIGFSMGG 94 
+                     5679******9 PP
+
+  == domain 2  score: 12.6 bits;  conditional E-value: 1.5e-05
+       Alignment 198 evkvPtliiaaenDtiApvsshaspfYnslpsstekaylElnngsHfaansgsnnal 254
+                     +v++Pt+i   enD i p +  a+ +Y++++ s+ek  +  ++++H   +s+ n++l
+  GFJPDDAG_03830 177 KVNTPTFIAQGENDGIVPPK-AAKYIYETIS-SQEKDLFYSSKAKHLICHSEDNHEL 231
+                     79***************975.6999****99.7788888889999998887755555 PP
+
+>> GFJPDDAG_03456  2-hydroxy-6-oxo-6-phenylhexa-2,4-dienoate hydrolase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.9   0.0   0.00083      0.71     150     181 ..      88     119 ..       8     127 .. 0.66
+   2 !    4.6   0.0     0.004       3.4     194     249 ..     210     261 ..     206     276 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.00083
+       Alignment 150 vrsrvDtsrlavvGwsmGGGGalklakerpsl 181
+                     + ++++ s +   G+smGG  al++ k+ psl
+  GFJPDDAG_03456  88 LLDHLNVSNVHLTGHSMGGQIALNVMKKAPSL 119
+                     4455666778889************9999887 PP
+
+  == domain 2  score: 4.6 bits;  conditional E-value: 0.004
+       Alignment 194 ksfsevkvPtliiaaenDtiApvsshaspfYnslpsstekaylElnngsHfaansg 249
+                     ++ +++++P l++  e+D++ p s+  +++ +++p+s   + + l+++ H +++++
+  GFJPDDAG_03456 210 NELRSIQTPCLLVWGEHDRVVPLST-GHKLKQDIPNS---KLVVLEETGHLVPEEK 261
+                     67789*****************986.56788999944...3455777778777776 PP
+
+>> GFJPDDAG_02553  hypothetical protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.0      0.74   6.3e+02     108     117 ..      69      78 ..      67      80 .. 0.85
+   2 ?   -2.2   0.0      0.49   4.2e+02     153     172 ..     114     133 ..     108     140 .. 0.84
+   3 ?    8.9   0.0   0.00021      0.18     194     264 ..     190     258 ..     183     260 .] 0.78
+
+  Alignments for each domain:
+  == domain 1  score: -2.8 bits;  conditional E-value: 0.74
+       Alignment 108 rlAshGFvvi 117
+                     ++As+GF+v+
+  GFJPDDAG_02553  69 QFASQGFIVF 78 
+                     689*****97 PP
+
+  == domain 2  score: -2.2 bits;  conditional E-value: 0.49
+       Alignment 153 rvDtsrlavvGwsmGGGGal 172
+                     rv  +r+ + G+s GG  al
+  GFJPDDAG_02553 114 RVARKRIHIFGFSRGGVMAL 133
+                     7888999*******997665 PP
+
+  == domain 3  score: 8.9 bits;  conditional E-value: 0.00021
+       Alignment 194 ksfsevkvPtliiaaenDtiApvsshaspfYnslpsstekay..lElnngsHfaansgsnnallgkygvaWlk 264
+                     ++ +++ +P+lii  e+D+  +v+ ha ++ ++l +   k +     ++ +H+ +  +  n+ +  +  aW+k
+  GFJPDDAG_02553 190 NELESLDAPVLIIHGEKDRNVSVE-HAYRLEKRLKEL-GKPFstQYFKEFTHYFPPRK--NQQIVSMLCAWMK 258
+                     5678999************99985.999999999854.4443114478999****999..888888999***9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (297 nodes)
+Target sequences:                         4255  (1178118 residues searched)
+Passed MSV filter:                       123  (0.0289072); expected 85.1 (0.02)
+Passed bias filter:                      116  (0.027262); expected 85.1 (0.02)
+Passed Vit filter:                        13  (0.00305523); expected 4.3 (0.001)
+Passed Fwd filter:                         5  (0.00117509); expected 0.0 (1e-05)
+Initial search space (Z):               4255  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.26u 0.01s 00:00:00.27 Elapsed: 00:00:00.13
+# Mc/sec: 2691.55
+//
+[ok]

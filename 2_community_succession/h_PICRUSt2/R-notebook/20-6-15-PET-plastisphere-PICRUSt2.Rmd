@@ -1,0 +1,718 @@
+---
+title: "Summary of PICRUSt2 analysis of the PET plastisphere"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+  pdf_document:
+    toc: yes
+---
+
+```{R, setup_r, include=FALSE}
+library(reticulate)
+library(kableExtra)
+library(knitr)
+library(exactRankTests)
+library(nlme)
+library(dplyr)
+library(ggplot2)
+library(compositions)
+library(vegan)
+
+opts_knit$set(root.dir = '/Users/robynwright/Documents/OneDrive/Github/Human_metagenome/')
+#reticulate::py_config()
+```
+
+```{python, setup_python, results='hide'}
+import os
+import pandas as pd
+import csv
+import numpy as np
+import math
+from matplotlib.lines import Line2D
+import matplotlib as mpl
+from matplotlib.patches import Patch
+import matplotlib.pyplot as plt
+import random
+from scipy.spatial import distance
+from scipy import stats
+from sklearn import manifold
+from sklearn.decomposition import PCA
+import statsmodels.stats.multitest as sm
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+
+def get_cols(num):
+    colormap_20, colormap_40b, colormap_40c = mpl.cm.get_cmap('tab20', 256), mpl.cm.get_cmap('tab20b', 256), mpl.cm.get_cmap('tab20c', 256)
+    norm, norm2 = mpl.colors.Normalize(vmin=0, vmax=19), mpl.colors.Normalize(vmin=20, vmax=39)
+    m1, m2, m3 = mpl.cm.ScalarMappable(norm=norm, cmap=colormap_20), mpl.cm.ScalarMappable(norm=norm, cmap=colormap_40b), mpl.cm.ScalarMappable(norm=norm2, cmap=colormap_40c)
+    colors_20 = [m1.to_rgba(a) for a in range(20)]
+    colors_40 = [m2.to_rgba(a) for a in range(20)]+[m3.to_rgba(a) for a in range(20,40)]
+    if num < 21: return colors_20
+    elif num < 41: return colors_40
+    else: return colors_40+colors_40+colors_40
+```
+
+Here I have several sections showing an exploration of genes for PET degradation present in the PICRUSt2 predicted metagenomes. 
+
+## Summary {.tabset}
+
+### Genes included
+
+Summary of the genes that we are looking for in the predicted metagenomes.
+
+```{python, genes_searched, results='hide'}
+cols = ['KEGG ortholog', 'Product', 'Added to PICRUSt2']
+genes = [['K21104', 'Poly(ethylene terephthalate) hydrolase (PETase)', 'HMM'], ['K18074', 'Terephthalate 1,2-dioxygenase oxygenase component (alpha subunit; tphA2)', 'HMM'], ['K18074', 'Terephthalate 1,2-dioxygenase oxygenase component (alpha subunit; tphA3)', 'HMM'], ['K18076', '1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase (tphB)', 'HMM'], ['K00448', 'Protocatechuate 3,4-dioxygenase (alpha subunit; pcaG)', 'Default'], ['K00449', 'Protocatechuate 3,4- dioxygenase (beta subunit; pcaH)', 'Default'], ['K01857', '3-carboxy-cis,cis-muconate cycloisomerase (pcaB)', 'Default'], ['K01607', '4-carboxymuconolactone decarboxylase (pcaC)', 'Default'], ['K14727', '3-oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase (pcaL)', 'Default'], ['K01055', '3-oxoadipate enol-lactonase (pcaD)', 'Default'], ['K01031', '3-oxoadipate CoA-transferase (alpha subunit; pcaI)', 'Default'], ['K01032', '3-oxoadipate CoA-transferase (beta subunit; pcaJ)', 'Default']]
+genes_df = pd.DataFrame(genes, columns=cols)
+#genes_df = genes_df.set_index('KEGG ortholog')
+```
+
+```{r, genes_table, cache=TRUE}
+py$genes_df %>%
+  kable() %>%
+  kable_styling()
+```
+
+```{python, random, results='hide'}
+genes_df = genes_df.set_index('KEGG ortholog')
+```
+
+### PETases predicted
+
+Look at the ASVs predicted to contain PETases and their taxonomic classifications. Note that many of these ASVs are currently unclassified at even the phylum level.
+
+```{python, petases_predicted, results='hide', fig.keep='all'}
+petases = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-plastisphere-community/PICRUSt2/results/picrust_not_reduced/ko_PETases.csv', header=None, index_col=0)
+#print(petases.loc['ASV000020', :].values[0])
+asvs = list(petases.index.values)
+copies = list(petases.loc[:, 1])
+
+abun = pd.read_csv('/Users/robynwright/Documents/OneDrive/PhD_Plastic_Oceans/Experiments/PET_MiSeq2/basic/Treatment1_All_percent.csv', index_col=0, header=0)
+
+taxonomy = pd.read_csv('/Users/robynwright/Documents/OneDrive/PhD_Plastic_Oceans/Experiments/PET_MiSeq2/basic/Taxonomy.csv', header=0, index_col=0)
+taxonomy = taxonomy.loc[asvs, :]
+labels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
+maxs, maxs_trt = [], []
+for asv in asvs:
+  this_asv = taxonomy.loc[asv, :].values
+  for b in range(len(this_asv)):
+    if not isinstance(this_asv[b], str):
+      if b == 6 and 'Unclassified' not in this_asv[b-1]:
+        new = this_asv[b-1]+' sp.'
+      elif 'Unclassified' not in this_asv[b-1]:
+        new = 'Unclassified '+this_asv[b-1]
+      else:
+        new = this_asv[b-1]
+      taxonomy.loc[asv, labels[b]] = new
+    elif b == 6 and isinstance(this_asv[b], str):
+      taxonomy.loc[asv, labels[b]] = this_asb[b-1]+' '+this_asv[b]
+  maximum = abun.loc[asv, :].max(axis=0)
+  maximum_id = abun.loc[asv, :].idxmax(axis=1)
+  maxs.append(maximum), maxs_trt.append(maximum_id)
+taxonomy.drop(['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus'], axis=1, inplace=True)
+taxonomy['PETase copies'] = copies
+taxonomy['Maximum relative abundance (%)'] = maxs
+taxonomy['Treatment'] = maxs_trt
+#taxonomy = taxonomy.sort_values(['Class', 'Order', 'Family', 'Genus', 'Species'])
+taxonomy = taxonomy.sort_values(['Maximum relative abundance (%)'], ascending=False)
+```
+
+```{r, petases_copies_table, cache=TRUE}
+py$taxonomy %>%
+  kable() %>%
+  kable_styling()
+```
+```{python, get_picrust, results='hide', fig.keep='all'}
+sample_order = ['Day00Inoc', 'Day01NoC', 'Day03NoC', 'Day07NoC', 'Day14NoC', 'Day21NoC', 'Day30NoC', 'Day42NoC', 'Day01LowCrysWater', 'Day03LowCrysWater', 'Day07LowCrysWater', 'Day14LowCrysWater', 'Day21LowCrysWater', 'Day30LowCrysWater', 'Day42LowCrysWater', 'Day01LowCrys', 'Day03LowCrys', 'Day07LowCrys', 'Day14LowCrys', 'Day21LowCrys', 'Day30LowCrys', 'Day42LowCrys', 'Day01PET', 'Day03PET', 'Day07PET', 'Day14PET', 'Day21PET', 'Day30PET', 'Day42PET', 'Day01WeatherPET', 'Day03WeatherPET', 'Day07WeatherPET', 'Day14WeatherPET', 'Day21WeatherPET', 'Day30WeatherPET', 'Day42WeatherPET', 'Day01BHET', 'Day03BHET', 'Day07BHET', 'Day14BHET', 'Day21BHET', 'Day30BHET', 'Day42BHET']
+functions_keeping = ['PETase', 'tphA2', 'tphA3', 'tphB', 'K00448', 'K00449', 'K01857', 'K01607', 'K14727', 'K01055', 'K01031', 'K01032']
+colors = ['k', 'y', 'r', 'm', 'b', 'g', 'orange']
+labels = ['Inoculum', 'No carbon', 'Amorphous PET\nplanktonic', 'Amorphous PET\nbiofilm', 'PET powder', 'Weathered PET powder', 'BHET']
+trts = ['Inoc', 'NoC', 'LowCrysWater', 'LowCrys', 'PET', 'WeatherPET', 'BHET']
+
+picrust_unstrat = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-plastisphere-community/PICRUSt2/results/picrust_not_reduced/ko_all_metagenome_out/pred_metagenome_unstrat.tsv', index_col=0, header=0, sep='\t')
+picrust_unstrat_all = pd.DataFrame(picrust_unstrat)
+picrust_unstrat = picrust_unstrat.loc[functions_keeping, :]
+cols = list(picrust_unstrat.columns)
+rename = {}
+dropping = []
+for col in cols:
+  for sam in sample_order:
+    if sam == col[:-1]:
+      rename[col] = sam
+    elif 'Inoc' in col:
+      rename[col] = 'Day00Inoc'
+  if 'Control' in col:
+    dropping.append(col)
+picrust_unstrat = picrust_unstrat.rename(columns=rename)
+picrust_unstrat = picrust_unstrat.drop(dropping, axis=1).loc[:, sample_order]
+```
+```{python, plot_raw_picrust, results='hide', fig.keep='all'}
+handles = []
+x = [0, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48]
+alpha = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3]
+for c in range(len(colors)):
+  handles.append(Patch(facecolor=colors[c], edgecolor='k', label=labels[c]))
+day, alph = ['Inoculum', 'Day 1', 'Day 3', 'Day 7', 'Day 14', 'Day 21', 'Day 30', 'Day 42'], [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3]
+handles.append(Patch(facecolor='w', edgecolor='w', label=''))
+for d in range(len(day)):
+  handles.append(Patch(facecolor='k', edgecolor='k', label=day[d], alpha=alph[d]))
+def plot_picrust_raw(function):
+  plt.figure(figsize=(10,4))
+  ax1 = plt.subplot(121)
+  ax2 = plt.subplot(122)
+  count = 0
+  for sample in sample_order:
+    mean = picrust_unstrat.loc[function, sample].mean()
+    std = picrust_unstrat.loc[function, sample].std()
+    for a in range(len(trts)):
+      if trts[a] in sample:
+        if 'Water' in sample and 'Water' not in trts[a]:
+          continue
+        color, label = colors[a], labels[a]
+    ax1.bar(x[count], mean, yerr=std, color=color, edgecolor='k', alpha=alpha[count], capsize=1)
+    ax2.bar(x[count], mean, yerr=std, color=color, edgecolor='k', alpha=alpha[count], capsize=1)
+    count += 1
+  ax2.legend(handles=handles, loc='upper left', bbox_to_anchor=(1,1), fontsize=8)
+  ax1.set_title(function), ax2.set_title(function)
+  ax2.semilogy()
+  ax1.set_ylabel('Proportion of population (%)')
+  plt.sca(ax1)
+  plt.ylim(ymin=0)
+  plt.tight_layout()
+```
+
+## Raw PICRUSt2 abundance plots {.tabset}
+
+For each of these, the left and right plots are identical but the right plot is plotted on a log scale.
+
+### PETase
+
+```{python, plot_raw_PETase, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('PETase')
+plt.show()
+```
+
+### tphA2
+
+```{python, plot_raw_tphA2, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('tphA2')
+plt.show()
+```
+
+### tphA3
+
+```{python, plot_raw_tphA3, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('tphA3')
+plt.show()
+```
+
+### tphB
+
+```{python, plot_raw_tphB, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('tphB')
+plt.show()
+```
+
+### K00448
+
+```{python, plot_raw_K00448, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K00448')
+plt.show()
+```
+
+### K00449
+
+```{python, plot_raw_K00449, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K00449')
+plt.show()
+```
+
+### K01857
+
+```{python, plot_raw_K01857, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K01857')
+plt.show()
+```
+
+### K01607
+
+```{python, plot_raw_K01607, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K01607')
+plt.show()
+```
+
+### K14727
+
+```{python, plot_raw_K14727, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K14727')
+plt.show()
+```
+
+### K01055
+
+```{python, plot_raw_K01055, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K01055')
+plt.show()
+```
+
+### K01031
+
+```{python, plot_raw_K01031, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K01031')
+plt.show()
+```
+
+### K01032
+
+```{python, plot_raw_K01032, results='hide', fig.keep='all', cache=TRUE}
+plot_picrust_raw('K01032')
+plt.show()
+```
+
+## Fold change with no carbon control {.tabset}
+
+Now I am plotting the fold change (calculated as log2, but converted back to absolute) for each K0 compared with the mean value for the no carbon control (i.e. the mean of all replicates for all days) .
+
+```{python, plot_fc, results='hide', fig.keep='all'}
+picrust_unstrat_log = picrust_unstrat.replace(to_replace=0, value=0.00001)
+#math.log2(num)
+rename = {}
+for col in list(picrust_unstrat.columns):
+  if 'NoC' in col:
+    rename[col] = 'NoC'
+picrust_unstrat_log.rename(columns=rename, inplace=True)
+def get_fc(function):
+  ma, mi = 0, 0
+  this_abun = pd.DataFrame(picrust_unstrat_log.loc[function, :])
+  x, y = [0, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, ], [0, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+  plt.figure(figsize=(6,3))
+  ax1 = plt.subplot(111)
+  nc = this_abun.loc['NoC', :].mean()
+  print(nc)
+  nc = math.log2(nc)
+  new_order = []
+  for sample in sample_order:
+    if 'NoC' not in sample:
+      new_order.append(sample)
+  colormap, norm = mpl.cm.get_cmap('RdBu_r', 256), mpl.colors.Normalize(vmin=-10, vmax=10)
+  m = mpl.cm.ScalarMappable(norm=norm, cmap=colormap)
+  ax1 = plt.subplot2grid((7,16), (1,1), rowspan=5, colspan=7)
+  axinoc = plt.subplot2grid((7,16), (3,0))
+  axcolbar = plt.subplot2grid((13,16), (0,1), colspan=7, frameon=False)
+  ax2 = plt.subplot2grid((7,16), (0,8), colspan=7, frameon=False)
+  plt.sca(ax2)
+  plt.xticks([]), plt.yticks([])
+  plt.sca(axcolbar)
+  plt.xticks([]), plt.yticks([])
+  for a in range(len(new_order)):
+    this_mean_abs = this_abun.loc[new_order[a], :].mean()
+    this_mean = math.log2(this_mean_abs)
+    this_diff = math.pow(this_mean-nc, 2)
+    if this_diff < 1:
+      this_diff = -1/this_diff
+    #print(new_order[a], float(nc), float(this_mean_abs), float(this_diff), '\n')
+    color = m.to_rgba(this_diff)
+    if this_diff > ma: ma = this_diff
+    if this_diff < mi: mi = this_diff
+    if x[a] == 0 and y[a] == 0:
+      axinoc.bar([1], [1], color=color, edgecolor='k', width=1)
+      axinoc.set_xlim([0.5, 1.5]), axinoc.set_ylim([0,1])
+      print(new_order[a])
+    else:
+      ax1.bar([x[a]], [1], bottom=[y[a]], color=color, edgecolor='k', width=1)
+  print(new_order)
+  plt.sca(ax1)
+  plt.xticks([1, 2, 3, 4, 5, 6, 7], ['1', '3', '7', '14', '21', '30', '42'])
+  plt.xlabel('Day')
+  plt.yticks([0.5, 1.5, 2.5, 3.5, 4.5, 5.5], ['BHET', 'Weathered\nPET powder', 'PET powder', 'Amorphous PET\nBiofilm', 'Amorphous PET\nPlanktonic'])
+  ax1.yaxis.set_ticks_position('right')
+  plt.sca(axinoc)
+  plt.xticks([1], ['Inoculum'], rotation=90)
+  plt.yticks([])
+  ax1.set_xlim([0.5, 7.5]), ax1.set_ylim([0, 5])
+  cb1 = mpl.colorbar.ColorbarBase(axcolbar, cmap=colormap, norm=norm, orientation='horizontal')
+  cb1.set_ticks([])
+  axcolbar.text(-12, -25, '<-10')
+  axcolbar.text(9, -25, '>10')
+  axcolbar.text(0, 0, 'Fold change', ha='center', va='center')
+  plt.tight_layout()
+```
+
+### PETase
+
+```{python, plot_fc_petase, results='hide', fig.keep='all', cache=TRUE}
+get_fc('PETase')
+plt.tight_layout()
+plt.show()
+```
+
+### tphA2
+
+```{python, plot_fc_tphA2, results='hide', fig.keep='all', cache=TRUE}
+get_fc('tphA2')
+plt.tight_layout()
+plt.show()
+```
+
+### tphA3
+
+```{python, plot_fc_tphA3, results='hide', fig.keep='all', cache=TRUE}
+get_fc('tphA3')
+plt.tight_layout()
+plt.show()
+```
+
+### tphB
+
+```{python, plot_fc_tphB, results='hide', fig.keep='all', cache=TRUE}
+get_fc('tphB')
+plt.tight_layout()
+plt.show()
+```
+
+### K00448
+
+```{python, plot_fc_K00448, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K00448')
+plt.tight_layout()
+plt.show()
+```
+
+### K00449
+
+```{python, plot_fc_K00449, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K00449')
+plt.tight_layout()
+plt.show()
+```
+
+### K01857
+
+```{python, plot_fc_K01857, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K01857')
+plt.tight_layout()
+plt.show()
+```
+
+### K01607
+
+```{python, plot_fc_K01607, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K01607')
+plt.tight_layout()
+plt.show()
+```
+
+### K14727
+
+```{python, plot_fc_K14727, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K14727')
+plt.tight_layout()
+plt.show()
+```
+
+### K01055
+
+```{python, plot_fc_K01055, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K01055')
+plt.tight_layout()
+plt.show()
+```
+
+### K01031
+
+```{python, plot_fc_K01031, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K01031')
+plt.tight_layout()
+plt.show()
+```
+
+### K01032
+
+```{python, plot_fc_K01032, results='hide', fig.keep='all', cache=TRUE}
+get_fc('K01032')
+plt.tight_layout()
+plt.show()
+```
+
+## Contributions to key functions split by taxa {.tabset}
+
+This first section is to filter the file very large (> 7 GB) default stratified PICRUSt2 output to only include the functions that we are interested in: PETase, tphA2, tphA3, tphB, K00448 and K00449.
+Note that for each of these, if the contributions of individual taxa were below 0.5% relative abundance, these have been grouped to 'Other'. Taxonomic classifications shown are the lowest available for each. More than one bar for a taxonomic classification (e.g. as can be seen in K00448/K00449 for Thalassospira) indicates that more than one ASV is contributing to this genera. 
+
+```{python, get_picrust_strat, results='hide', fig.keep='all', cache=TRUE}
+key_functions = ['PETase', 'tphA2', 'tphA3', 'tphB', 'K00448', 'K00449']
+functions = [[], [], [], [], [], []]
+count = 0
+with open('/Users/robynwright/Documents/OneDrive/Github/PET-plastisphere-community/PICRUSt2/results/picrust_not_reduced/ko_all_metagenome_out/pred_metagenome_contrib.tsv') as f:
+    for row in f:
+        for fu in range(len(key_functions)):
+            if key_functions[fu] in row:
+                functions[fu].append(row)
+cols = ['sample', 'function', 'taxon', 'taxon_abun', 'taxon_rel_abun', 'genome_function_count', 'taxon_function_abun', 'taxon_rel_function_abun']
+count = 0
+for func in functions:
+    this_func = []
+    for l in func:
+        l = l.split('\t')
+        for a in range(len(l)):
+          l[a] = l[a].replace('\n', '')
+        this_func.append(l)
+    this_df = pd.DataFrame(this_func, columns=cols)
+    this_df.to_csv('/Users/robynwright/Documents/OneDrive/Github/PET-plastisphere-community/PICRUSt2/results/picrust_not_reduced/ko_all_metagenome_out/'+key_functions[count]+'.csv')
+    count += 1
+```
+
+```{python, get_taxonomy, results='hide', fig.keep='all'}
+taxonomy = pd.read_csv('/Users/robynwright/Documents/OneDrive/PhD_Plastic_Oceans/Experiments/PET_MiSeq2/basic/Taxonomy.csv', header=0, index_col=0)
+asvs = list(taxonomy.index.values)
+labels = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
+tax_dict = {}
+
+for asv in asvs:
+  this_asv = taxonomy.loc[asv, :].values
+  new = ''
+  for b in range(len(this_asv)):
+    if not isinstance(this_asv[b], str):
+      new = this_asv[b-1]
+    elif b == 6 and isinstance(this_asv[b], str):
+      new = this_asv[b-1]+' '+this_asv[b]
+    if new != '':
+      this_asv[b] = new
+  tax_dict[asv] = this_asv
+```
+
+```{python, get_taxonomy_2, results='hide', fig.keep='all'}
+key_functions = ['PETase', 'tphA2', 'tphA3', 'tphB', 'K00448', 'K00449']
+sample_order = ['Day00Inoc', 'Day01NoC', 'Day03NoC', 'Day07NoC', 'Day14NoC', 'Day21NoC', 'Day30NoC', 'Day42NoC', 'Day01LowCrysWater', 'Day03LowCrysWater', 'Day07LowCrysWater', 'Day14LowCrysWater', 'Day21LowCrysWater', 'Day30LowCrysWater', 'Day42LowCrysWater', 'Day01LowCrys', 'Day03LowCrys', 'Day07LowCrys', 'Day14LowCrys', 'Day21LowCrys', 'Day30LowCrys', 'Day42LowCrys', 'Day01PET', 'Day03PET', 'Day07PET', 'Day14PET', 'Day21PET', 'Day30PET', 'Day42PET', 'Day01WeatherPET', 'Day03WeatherPET', 'Day07WeatherPET', 'Day14WeatherPET', 'Day21WeatherPET', 'Day30WeatherPET', 'Day42WeatherPET', 'Day01BHET', 'Day03BHET', 'Day07BHET', 'Day14BHET', 'Day21BHET', 'Day30BHET', 'Day42BHET']
+x = [0, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48]
+def get_picrust_stratified_plot(function):
+  plt.close()
+  this_func = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-plastisphere-community/PICRUSt2/results/picrust_not_reduced/ko_all_metagenome_out/'+function+'.csv', header=0, index_col=1)
+  this_func.drop(['Unnamed: 0', 'function', 'taxon_abun', 'taxon_rel_abun', 'genome_function_count', 'taxon_rel_function_abun'], axis=1, inplace=True)
+  rename = {}
+  all_samples = list(this_func.index.values)
+  for samp in all_samples:
+    for sam in sample_order:
+      if sam == samp[:-1]:
+        rename[samp] = sam
+      elif 'Inoc' in samp:
+        rename[samp] = 'Day00Inoc'
+  this_func = this_func.rename(index=rename)
+  plotting, all_asvs = [], []
+  for sam in sample_order:
+    this_sample = pd.DataFrame(this_func.loc[sam, :])
+    mi = 0.5
+    if this_sample.shape[1] == 1:
+      this_sample = this_sample.transpose()
+    try:
+      this_sample.set_index('taxon', inplace=True)
+      if this_sample.shape[0] == 1:
+        this_sample_above = this_sample
+      else:
+        this_sample = this_sample.groupby(by=this_sample.index, axis=0).mean()
+        if this_sample.loc[:, 'taxon_function_abun'].sum() < 0.5:
+          mi = 0.05
+        this_sample_below = this_sample[this_sample['taxon_function_abun'] < 0.5]
+        this_sample_above = this_sample[this_sample['taxon_function_abun'] >= 0.5]
+        s_below = this_sample_below.loc[:, 'taxon_function_abun'].sum()
+        this_sample_above.loc['Other'] = s_below
+    except:
+      print('Had an except')
+      print(this_sample)
+    plotting.append(this_sample_above)
+    all_asvs += list(this_sample_above.index.values)
+  genera, orders = [], []
+  for asv in all_asvs:
+    if asv == 'Other':
+      genera.append('Other')
+      orders.append('Other')
+      continue
+    genera.append(tax_dict[asv][-1])
+    orders.append(tax_dict[asv][2])
+  genera = sorted(list(set(genera)))
+  colors = get_cols(len(genera))
+  color_dict = {}
+  handles = []
+  for a in range(len(genera)):
+    color_dict[genera[a]] = colors[a]
+    handles.append(Patch(facecolor=colors[a], edgecolor='k', label=genera[a]))
+  asv_col = {}
+  for asv in all_asvs:
+    if asv == 'Other':
+      asv_col[asv] = color_dict['Other']
+    else:
+      asv_col[asv] = color_dict[tax_dict[asv][-1]]
+  plt.figure(figsize=(10,4))
+  ax1 = plt.subplot(111)
+  for a in range(len(plotting)):
+    this_plot = plotting[a]
+    asvs = list(this_plot.index.values)
+    bottom = 0
+    for asv in asvs:
+      this_num = this_plot.loc[asv, 'taxon_function_abun']
+      ax1.bar(x[a], this_num, bottom=bottom, width=0.8, color=asv_col[asv], edgecolor='k')
+      bottom += this_num
+  fs = 10
+  if len(handles) > 10:
+    fs = 8
+  cols = max([1, math.floor(len(handles)/10)])
+  ax1.legend(handles=handles, loc='upper left', bbox_to_anchor=(1,1), ncol=cols, fontsize=fs)
+  ymax = ax1.get_ylim()[1]/10
+  labels = [1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42]
+  labels = [str(a) for a in labels]
+  trt_labels, x_trt = ['No carbon', '\nplanktonic', '\nbiofilm', 'PET powder', 'Weathered\nPET powder', 'BHET', 'Amorphous PET'], [5, 13, 21, 29, 37, 45, 17]
+  for a in range(len(trt_labels)):
+    ax1.text(x_trt[a], -ymax, trt_labels[a], ha='center', va='top')
+  plt.xticks(x[1:], labels, fontsize=8)
+  plt.xlim([-1, 49])
+  ax1.text(0, -0.5, 'Inoculum', ha='center', va='top', rotation=90)
+  plt.ylabel('Relative abundance (%)')
+  plt.title(function)
+  plt.tight_layout()
+```
+
+### PETase
+
+```{python, strat_petase, results='hide', fig.keep='all', cache=TRUE}
+get_picrust_stratified_plot('PETase')
+plt.show()
+```
+
+### tphA2
+
+```{python, strat_tphA2, results='hide', fig.keep='all', cache=TRUE}
+get_picrust_stratified_plot('tphA2')
+plt.show()
+```
+
+### tphA3
+
+```{python, strat_tphA3, results='hide', fig.keep='all', cache=TRUE}
+get_picrust_stratified_plot('tphA3')
+plt.show()
+```
+
+### tphB
+
+```{python, strat_tphB, results='hide', fig.keep='all', cache=TRUE}
+get_picrust_stratified_plot('tphB')
+plt.show()
+```
+
+### K00448
+
+```{python, strat_K00448, results='hide', fig.keep='all', cache=TRUE}
+get_picrust_stratified_plot('K00448')
+plt.show()
+```
+
+### K00449
+
+```{python, strat_K00449, results='hide', fig.keep='all', cache=TRUE}
+get_picrust_stratified_plot('K00449')
+plt.show()
+```
+
+## Oxygenases in the predicted metagenomes {.tabset}
+
+```{python, diox_1, results='hide', fig.keep='all', cache=TRUE}
+ko_functions = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-plastisphere-community/PICRUSt2/kegg_list.csv', header=0, index_col=0)
+ko = list(ko_functions.index.values)
+keeping_diox, keeping_mono = [], []
+for k in range(len(ko)):
+  if isinstance(ko_functions.loc[ko[k], 'Product'], str):
+    if 'dioxygenase' in ko_functions.loc[ko[k], 'Product']:
+      keeping_diox.append(True)
+    else:
+      keeping_diox.append(False)
+  else:
+    keeping_diox.append(False)
+  if isinstance(ko_functions.loc[ko[k], 'Product'], str):
+    if 'monooxygenase' in ko_functions.loc[ko[k], 'Product']:
+      keeping_mono.append(True)
+    else:
+      keeping_mono.append(False)
+  else:
+    keeping_mono.append(False)
+dioxygenase = ko_functions.loc[keeping_diox, :]
+monooxygenase = ko_functions.loc[keeping_mono, :]
+print(dioxygenase, monooxygenase)
+```
+
+### Dioxygenases
+
+The dioxygenases plotted here are just a sum of all di/mono-oxygenase genes in all community members. I've highlighted 100% as this would be equivalent to each bacterium having 1 gene copy, but obviously they are likely less spread. 
+
+```{python, oxygen_plot, results='hide', fig.keep='all', cache=TRUE}
+handles = []
+x = [0, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48]
+alpha = [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3]
+for c in range(len(colors)):
+  handles.append(Patch(facecolor=colors[c], edgecolor='k', label=labels[c]))
+day, alph = ['Inoculum', 'Day 1', 'Day 3', 'Day 7', 'Day 14', 'Day 21', 'Day 30', 'Day 42'], [1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3]
+handles.append(Patch(facecolor='w', edgecolor='w', label=''))
+for d in range(len(day)):
+  handles.append(Patch(facecolor='k', edgecolor='k', label=day[d], alpha=alph[d]))
+  
+def oxygenase_plot(ko, picrust, title):
+  picrust_using = pd.DataFrame(picrust)
+  picrust_ko = list(picrust_using.index.values)
+  ko_new, rename = [], {}
+  for k in ko:
+    if k in picrust_ko:
+      ko_new.append(k)
+      rename[k] = 'Oxygenase'
+  picrust_using = pd.DataFrame(picrust_using.loc[ko_new, :])
+  picrust_using = picrust_using.rename(index=rename)
+  picrust_using = picrust_using.groupby(by=picrust_using.index, axis=0).sum()
+  
+  plt.figure(figsize=(10,4))
+  ax1 = plt.subplot(111)
+  ax1.plot([x[0], x[-1]], [100,100], 'k--')
+  count = 0
+  for sample in sample_order:
+    mean = picrust_using.loc['Oxygenase', sample].mean()
+    std = picrust_using.loc['Oxygenase', sample].std()
+    for a in range(len(trts)):
+      if trts[a] in sample:
+        if 'Water' in sample and 'Water' not in trts[a]:
+          continue
+        color, label = colors[a], labels[a]
+    ax1.bar(x[count], mean, yerr=std, color=color, edgecolor='k', alpha=alpha[count], capsize=1)
+    count += 1
+  ax1.legend(handles=handles, loc='upper left', bbox_to_anchor=(1,1), fontsize=8)
+  ax1.set_title(title)
+  ax1.set_ylabel('Proportion of population (%)')
+  plt.sca(ax1)
+  plt.ylim(ymin=0)
+  plt.xlim([-1, 49])
+  plt.tight_layout()
+  return
+
+cols = list(picrust_unstrat_all.columns)
+rename = {}
+dropping = []
+for col in cols:
+  for sam in sample_order:
+    if sam == col[:-1]:
+      rename[col] = sam
+    elif 'Inoc' in col:
+      rename[col] = 'Day00Inoc'
+  if 'Control' in col:
+    dropping.append(col)
+picrust_unstrat_all = picrust_unstrat_all.rename(columns=rename)
+picrust_unstrat_all = picrust_unstrat_all.drop(dropping, axis=1)
+```
+
+```{python, diox_2, results='hide', fig.keep='all', cache=TRUE}
+oxygenase_plot(list(dioxygenase.index.values), picrust_unstrat_all, 'Dioxygenases')
+plt.show()
+```
+
+### Monooxygenases
+
+```{python, mono_3, results='hide', fig.keep='all', cache=TRUE}
+oxygenase_plot(list(monooxygenase.index.values), picrust_unstrat_all, 'Monooxygenases')
+plt.show()
+```

@@ -1,10 +1,11 @@
 Step,Thioclava,Bacillus,Name,Thio_PET,Thio_BHET,Thio_TPA,Baci_PET,Baci_BHET,Baci_TPA,Enzyme name
-01_PETase,0051,,,0.466003333,0.420783333,0.347806667,ND,ND,ND,PETase
+01_PETase,51,,,0.466003333,0.420783333,0.347806667,ND,ND,ND,PETase
+01b_PETase,1741,,,1.061543333,1.81536,1.172093333,ND,ND,ND,PETase
 02_BHETase,1504,,,-0.306566667,2.86346,-6.67E-05,ND,ND,ND,PHA_depolymerase
 03_MHETase,1741,,,1.061543333,1.81536,1.172093333,ND,ND,ND,Carboxylesterase
-04_EG_dehydrogenase,0884,,,0.946703333,1.805116667,0.841236667,ND,ND,ND,Alcohol_dehydrogenase
-05_EG_dehydrogenase,0999,,,0.955513333,2.142263333,0.91706,ND,ND,ND,Acetaldehyde_dehydrogenase
-06_EG_CoA_ligase,0538,,,1.954383333,2.669486667,1.82055,ND,ND,ND,Fatty acid_CoA ligase
+04_EG_dehydrogenase,884,,,0.946703333,1.805116667,0.841236667,ND,ND,ND,Alcohol_dehydrogenase
+05_EG_dehydrogenase,999,,,0.955513333,2.142263333,0.91706,ND,ND,ND,Acetaldehyde_dehydrogenase
+06_EG_CoA_ligase,538,,,1.954383333,2.669486667,1.82055,ND,ND,ND,Fatty acid_CoA ligase
 07_TPA_tphA2II,2867,,,ND,ND,ND,ND,ND,ND,"Terephthalate_1,2-dioxygenase_alpha subunit"
 07_TPA_tphA2II_secondbest,1143,,,0.868443333,-0.086956667,3.645466667,ND,ND,ND,"Terephthalate_1,2-dioxygenase_alpha subunit"
 08 TPA_tphA3I,2868,,,ND,ND,ND,ND,ND,ND,"Terephthalate_1,2-dioxygenase_beta subunit"

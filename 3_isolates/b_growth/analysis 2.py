@@ -43,10 +43,11 @@ def get_distinct_colors(n):
     return colors
 
 def sep_plots(bac, name, colors, title, ax):
-    names = ['No carbon', 'Glucose', 'Succinate', 'Fructose', 'Pyruvate', 'Glycerol', 'GlcNAc', 'Marine broth', 'BHET']
+    names = ['No carbon', 'Glucose', 'Succinate', 'Fructose', 'Pyruvate', 'Glycerol', 'GlcNAc', 'Marine broth']
     xlabels = [0, 24, 48, 72]
     count = 0
     for a in range(len(bac)):
+        if count > 7: continue
         n = a % 3
         if n == 2:
             ax[n].plot(times, bac[a], color=colors[count], label=names[count])
@@ -72,7 +73,8 @@ ax4 = plt.subplot(234)
 ax5 = plt.subplot(235, sharey=ax4)
 ax6 = plt.subplot(236, sharey=ax4)
 
-colors = ['k']+get_distinct_colors(8)
+#colors = ['k']+get_distinct_colors(8)
+colors = ['k', '#e6194B', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#469990', '#dcbeff']
 ax = [ax1, ax2, ax3]
 names = sep_plots(b1, 'Bac 1 jul', colors, r'$Thioclava$ sp. BHET1', ax)
 lines = [Line2D([0], [0], color=c, linewidth=2) for c in colors]

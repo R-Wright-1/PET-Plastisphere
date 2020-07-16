@@ -154,7 +154,7 @@ for a in range(len(x)):
 plt.savefig('1340 1410 ratio.png')
 plt.close()
 """
-ref = 2501
+ref = 1410
 bonds = ['C=O\n1710 cm$^{-1}$\ncarboxylic acid', 'OH\n2920 cm$^{-1}$\ncarboxylic acid', 'C-O\n1235 cm$^{-1}$\ncarboxylic acid', 'O-H\n3300 cm$^{-1}$\nalcohol', 'C-O\n1090 cm$^{-1}$\nalcohol']
 waves = [1711, 2920, 1236, 3301, 1090]
 ratios = []
@@ -173,6 +173,7 @@ for a in range(len(waves)):
                 this_wave.append(means[b][c])
     for c in range(len(this_wave)):
         this_wave[c] = this_wave[c]-ref_waves[c]
+        #this_wave[c] = ref_waves[c]/this_wave[c]
         #this_wave[c] = this_wave[c]/abs(ref_waves[c])
     ratios.append(this_wave)
 

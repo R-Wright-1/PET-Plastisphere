@@ -48,7 +48,7 @@ for ax in axis:
     plt.ylabel('Absorbance (%)')
     plt.xlabel('Wavenumber (cm$^{-1}$)')
 
-ax6.set_ylabel(r'Ratio between reference 1410 cm$^{-1}$'+'\nand wavelength')
+ax6.set_ylabel(r'Ratio between reference 1410 cm$^{-1}$'+'\nand wavenumber')
 
 wl = [1710, 2920, 1235, 3300, 1090]
 wl_name = ['C=O\n1710', 'O-H\n2920', 'C-O\n1235', 'O-H\n3300', 'C-O\n1090']

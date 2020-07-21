@@ -12,8 +12,10 @@ import matplotlib.pyplot as plt
 import scipy.stats as stats
 from matplotlib.patches import Patch
 import pandas as pd
+from scipy.integrate import simps
+from numpy import trapz
 
-plt.figure(figsize=(20,20))
+plt.figure(figsize=(20,24))
 
 ax1 = plt.subplot2grid((8,7), (2,0), rowspan=2, colspan=2)
 ax2 = plt.subplot2grid((8,7), (4,0), rowspan=2, sharey=ax1, colspan=2)
@@ -123,41 +125,36 @@ def get_files_protein(files):
                 carbon[a][b][c] = carbon[a][b][c]-noC[b][c]
     axes = [ax1, ax2, ax3]
     xplc1 = [1, 2, 3, 4]
-    labels = ['No carbon', td, ba, 'Community']
-    these_means = [[], [], []]
-    these_all_means = [[], [], []]
-    for a in range(len(carbon)):
-        for b in range(len(carbon[a])):
-            means, stds = [], []
-            all_means = carbon[a][b][:3]+carbon[a][b][3:6]+carbon[a][b][6:]
-            means.append(numpy.mean(carbon[a][b][:3]))
-            means.append(numpy.mean(carbon[a][b][3:6]))
-            means.append(numpy.mean(carbon[a][b][6:]))
-            stds.append(numpy.std(carbon[a][b][:3]))
-            stds.append(numpy.std(carbon[a][b][3:6]))
-            stds.append(numpy.std(carbon[a][b][6:]))
-            these_means[b].append(means)
-            these_all_means[b].append(all_means)
-            axes[b].bar(xplc1[a], numpy.mean(means), color=colors[a], edgecolor='k', yerr=numpy.std(means), error_kw=dict(ecolor='k', lw=2, capsize=2, capthick=2), label=labels[a])
-            if a > 0:
-                ttest = stats.ttest_ind(these_all_means[b][0], all_means)
-                if ttest[1] <= 0.05:
-                    axes[b].text(xplc1[a], numpy.mean(means)+numpy.std(means)+0.1, '*', ha='center', va='bottom', fontsize=12, fontweight='bold')
+    labels = ['No inoculum', td, ba, 'Community']
+    for a in range(3):
+        this_carbon = []
+        for b in range(4):
+            tech_reps = carbon[b][a]
+            biol_reps = [numpy.mean(tech_reps[:3]), numpy.mean(tech_reps[3:6]), numpy.mean(tech_reps[6:])]
+            this_carbon.append(biol_reps)
+        this_carbon_means = [numpy.mean(c) for c in this_carbon]
+        this_carbon_stds = [numpy.std(c) for c in this_carbon]
+        axes[a].bar(xplc1, this_carbon_means, yerr=this_carbon_stds, color=colors, edgecolor='k', error_kw=dict(ecolor='k', lw=2, capsize=2, capthick=2), label=labels)
+        for c in range(1, 4):
+            ttest = stats.ttest_ind(this_carbon[0], this_carbon[c])
+            if ttest[1] <= 0.05:
+                axes[a].text(xplc1[c], this_carbon_means[c]+this_carbon_stds[c]+0.1, '*', ha='center', va='bottom', fontsize=12, fontweight='bold')
     plt.sca(ax1)
-    #plt.xticks(ticks=[1, 2, 3, 4], labels=['No inoculum', td, ba, 'Community'])
-    plt.xticks([1,2,3,4], ['','','',''])
+    #plt.xticks([1,2,3,4], ['','','',''])
+    plt.xticks(ticks=[1, 2, 3, 4], labels=labels, fontsize=10)
     ax1.set_ylim(bottom=0, top=50)
     plt.sca(ax2)
-    #plt.xticks(ticks=[1, 2, 3, 4], labels=['No inoculum', td, ba, 'Community'])
-    plt.xticks([1,2,3,4], ['','','',''])
+    #plt.xticks([1,2,3,4], ['','','',''])
+    plt.xticks(ticks=[1, 2, 3, 4], labels=labels, fontsize=10)
     ax2.set_ylim(bottom=0, top=50)
     plt.sca(ax3)
-    plt.xticks(ticks=[1, 2, 3, 4], labels=['No inoculum', td, ba, 'Community'], fontsize=10)
+    plt.xticks(ticks=[1, 2, 3, 4], labels=labels, fontsize=10)
     ax3.set_ylim(bottom=0, top=50)
     return
 
 handles = [Patch(facecolor=colors[a], edgecolor='k', label=bac_labels[a]) for a in range(len(colors))]
 get_files_protein(files_protein)
+
 
 LC = [[[2.880836090008632, 2.8759996538141106, 3.608023091170047, 2.8725618658153937], [3.1073551669771122, 3.3725272841211305, 4.424672648172658, 3.237487234480522], [3.346628580639322, 4.042532589383279, 4.891648753943692, 3.779796238352676], [3.03499928308463, 3.380769742153617, 4.252187135373816, 3.2414788125860086]], [[0.1756243604420209, 0.13342851604426903, 0.3135618477830579, 0.1700844196763988], [0.26505061509568273, 0.2343180088526368, 0.19060774208309508, 0.2325885491481703], [0.45317229796707426, 0.5183163590758544, 0.4461728250664926, 0.49094613761422573], [0.29078079587500005, 0.2778806373934385, 0.22185590808476927, 0.273573825937945]], [['', '', '*', ''], ['', '*', '*', ''], ['', '*', '*', ''], ['', '*', '*', '']]]
 PET2 = [[[2.8193923968768693, 2.8188141837319445, 2.7464525662959636, 2.8876878563509942], [2.841995301435963, 2.87848455643512, 2.718848789677376, 2.8738434685279177], [2.782569378785949, 2.8712851253522786, 2.604481230853662, 2.777638023929795], [2.7197000713090835, 2.7626460701460456, 2.5978801208359865, 2.7411501817674644]], [[0.049278586515484515, 0.12099836152462225, 0.18309595480959678, 0.0801346121888017], [0.06723145643760439, 0.07970122030824578, 0.15003967041918212, 0.0725721546178073], [0.13679518256650414, 0.12567648570790452, 0.14785499429838356, 0.0745796441610995], [0.0759765038569029, 0.07314957380545388, 0.13190928042129482, 0.06999403129078144]], [['', '', '', ''], ['', '', '', ''], ['', '', '*', ''], ['', '', '*', '']]]
@@ -194,18 +191,24 @@ for a in range(len(LC[0])):
 #bonds = ['C=O\n1710', 'O-H\n2920', 'C-O\n1235', 'O-H\n3300', 'C-O\n1090']
 
 wl = [1711, 1240, 725, 1090]
-bonds = ['C=O\nCA\n'+str(wl[0]), 'C-O\nCA\n'+str(wl[1]), 'C-H\nar\n'+str(wl[2]), 'C-O\nest\n'+str(wl[3])]
+#bonds = ['C=O\nCA\n'+str(wl[0]), 'C-O\nCA\n'+str(wl[1]), 'C-H\nar\n'+str(wl[2]), 'C-O\nest\n'+str(wl[3])]
+bond1 = ['C=O', 'C-O', 'C-H', 'C-O']
+bond2 = [r'I$_{1711}$/I$_{1410}$', r'I$_{1240}$/I$_{1410}$', r'I$_{725}$/I$_{1410}$', r'I$_{1090}$/I$_{1410}$']
+bonds = [bond2[a]+'\n'+bond1[a] for a in range(len(bond1))]
+
 plt.sca(ax4)
-plt.xticks(xlabs, ['', '', '', ''], fontsize=10)
+#plt.xticks(xlabs, ['', '', '', ''], fontsize=10)
+plt.xticks(xlabs, bonds, fontsize=10)
 #plt.ylim([0, 6])
 
 plt.sca(ax5)
-plt.xticks(xlabs, ['', '', '', ''], fontsize=10)
-#plt.ylim([0, 6])
+#plt.xticks(xlabs, ['', '', '', ''], fontsize=10)
+plt.xticks(xlabs, bonds, fontsize=10)
+plt.ylim([0, 3.5])
 
 plt.sca(ax6)
 plt.xticks(xlabs, bonds, fontsize=10)
-#plt.ylim([0, 6])
+plt.ylim([0, 3.5])
 
 
 img = plt.imread("Degradation_mechanism.png")
@@ -213,6 +216,9 @@ ax_empty.imshow(img)
 
 FTIR_ax = [ax7, ax8, ax9]
 FTIR_file = ['corrected_spectra_LC.csv', 'corrected_spectra_WPET.csv', 'corrected_spectra_PET.csv']
+#FTIR_file = ['corrected_spectra_r_LC.txt', 'corrected_spectra_r_WPET.csv', 'corrected_spectra_r_PET.csv']
+
+LC, WPET, PET = [], [], []
 
 for a in range(len(FTIR_ax)):
     this_file = pd.read_csv(FTIR_file[a], index_col=0, header=0)
@@ -220,9 +226,10 @@ for a in range(len(FTIR_ax)):
     for b in range(len(treats)):
         FTIR_ax[a].plot(list(this_file.index.values), this_file.loc[:, treats[b]].values, color=colors[b])
     FTIR_ax[a].set_xlim([2000, 650])
-    if a < 2:
-        plt.sca(FTIR_ax[a])
-        plt.xticks([])
+    #if a < 2:
+    #    plt.sca(FTIR_ax[a])
+    #    plt.xticks([])
+
 
 y = [8, 4.5, 4.75]
 wl.append(1410)
@@ -236,7 +243,7 @@ for a in range(len(FTIR_ax)):
     FTIR_ax[a].set_ylim(ylim)
     plt.sca(FTIR_ax[a])
     plt.yticks(ytck[a], ytck[a])
-        
+
 ax_leg.legend(handles=handles, loc='center right', bbox_to_anchor=(1.02,0.5), fontsize=12)
 ax1.text(-0.2, 0.5, 'Amorphous PET', ha='right', va='center', transform = ax1.transAxes, rotation=90, fontsize=16, fontweight='bold')
 ax2.text(-0.2, 0.5, 'Weathered PET powder', ha='right', va='center', transform = ax2.transAxes, rotation=90, fontsize=16, fontweight='bold')
@@ -255,8 +262,10 @@ ax1.set_title('Protein content', fontsize=16, fontweight='bold')
 ax7.set_title('FTIR spectra', fontsize=16, fontweight='bold')
 ax4.set_title(r'Ratio with reference 1410 cm$^{-1}$', fontsize=16, fontweight='bold')
 
-ax9.set_xlabel(r'Wavelength (cm$^{-1}$)')
+ax7.set_xlabel(r'Wavenumber (cm$^{-1}$)')
+ax8.set_xlabel(r'Wavenumber (cm$^{-1}$)')
+ax9.set_xlabel(r'Wavenumber (cm$^{-1}$)')
 
-plt.subplots_adjust(wspace=0.5)
+plt.subplots_adjust(wspace=0.5, hspace=0.5)
 #plt.tight_layout()
 plt.savefig('PET degradation 2.png', dpi=600)

@@ -11,6 +11,7 @@ import matplotlib as mpl
 from matplotlib.patches import Patch
 import math
 import numpy as np
+import csv
 
 taxonomy = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/2_community_succession/e_nmds_PRC_heatmap/Taxonomy.csv', header=0, index_col=0)
 asvs = list(taxonomy.index.values)
@@ -40,9 +41,9 @@ def get_cols(num):
     else: return colors_40+colors_40+colors_40
 
 taxa = []
-#key_functions = ['PETase', 'tphA2', 'tphA3', 'tphB', 'K18074', 'K18075', 'K18076', 'K00448', 'K00449']
-key_functions = ['PETase', 'K18074', 'K18075', 'K18076', 'K00448', 'K00449', 'monooxygenases', 'dioxygenases']
-key_functions = ['monooxygenases', 'dioxygenases']
+#key_functions = ['PETase', 'tphA2', 'tphA3', 'tphB', 'K00448', 'K00449', 'K18074', 'K18075', 'K18076']
+key_functions = ['PETase', 'tphA2', 'tphA3', 'tphB', 'K18074', 'K18075', 'K18076', 'K00448', 'K00449', 'monooxygenases', 'dioxygenases']
+#key_functions = ['monooxygenases', 'dioxygenases']
 sample_order = ['Day00Inoc', 'Day01NoC', 'Day03NoC', 'Day07NoC', 'Day14NoC', 'Day21NoC', 'Day30NoC', 'Day42NoC', 'Day01LowCrysWater', 'Day03LowCrysWater', 'Day07LowCrysWater', 'Day14LowCrysWater', 'Day21LowCrysWater', 'Day30LowCrysWater', 'Day42LowCrysWater', 'Day01LowCrys', 'Day03LowCrys', 'Day07LowCrys', 'Day14LowCrys', 'Day21LowCrys', 'Day30LowCrys', 'Day42LowCrys', 'Day01PET', 'Day03PET', 'Day07PET', 'Day14PET', 'Day21PET', 'Day30PET', 'Day42PET', 'Day01WeatherPET', 'Day03WeatherPET', 'Day07WeatherPET', 'Day14WeatherPET', 'Day21WeatherPET', 'Day30WeatherPET', 'Day42WeatherPET', 'Day01BHET', 'Day03BHET', 'Day07BHET', 'Day14BHET', 'Day21BHET', 'Day30BHET', 'Day42BHET']
 x = [0, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48]
 all_functions = []
@@ -109,10 +110,34 @@ color_dict = {}
 rename = {}
 count = 0
 for asv in list(max_taxa.index.values):
-    rename[asv] = asv+': '+tax_dict[asv][-1]
+    if ' 'in tax_dict[asv][-1]:
+        name = tax_dict[asv][-1].split(' ')
+        rename[asv] = 'ASV'+str(int(asv[3:]))+r': $'+name[0]+'$ $'+name[1]+'$'
+    else:
+        rename[asv] = 'ASV'+str(int(asv[3:]))+r': $'+tax_dict[asv][-1]+'$'
     color_dict[asv] = colors[count]
     count += 1
 color_dict['Other'] = colors[count]
+
+rename2 = {}
+for asv in list(min_taxa.index.values):
+    if ' 'in tax_dict[asv][-1]:
+        name = tax_dict[asv][-1].split(' ')
+        rename2[asv] = 'ASV'+str(int(asv[3:]))+r': $'+name[0]+'$ $'+name[1]+'$'
+    else:
+        rename2[asv] = 'ASV'+str(int(asv[3:]))+r': $'+tax_dict[asv][-1]+'$'
+
+with open("all_taxa.csv", 'w') as f:
+    writer = csv.writer(f)
+    for name in rename:
+        writer.writerow([name, rename[name]])
+    for name in rename2:
+        writer.writerow([name, rename2[name]])
+
+for func in range(len(all_functions)):
+    function = pd.DataFrame(all_functions[func]).rename(index=rename)
+    function = function.rename(index=rename2)
+    function.to_csv('sorted_'+key_functions[func]+'.csv')
 
 """
 plt.figure(figsize=(8,14))
@@ -165,12 +190,12 @@ plt.sca(ax6)
 plt.xticks(x[1:], labels, fontsize=6)
 ax6.text(0, -0.5, 'Inoculum', ha='center', va='top', rotation=90, fontsize=8)
 
-ax6.legend(handles=handles, loc='upper left', bbox_to_anchor=(0, -0.4), fontsize=8, ncol=2)
+ax6.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, -0.4), fontsize=8, ncol=3)
 
 plt.savefig('Stratified PICRUSt2 output.png', dpi=600, bbox_inches='tight')
 plt.close()
 """
-
+"""
 #key_functions = ['PETase', 'K18074', 'K18075', 'K18076', 'K00448', 'K00449', 'monooxygenases', 'dioxygenases']
 
 plt.figure(figsize=(8,6))
@@ -218,11 +243,11 @@ plt.sca(ax2)
 plt.xticks(x[1:], labels, fontsize=6)
 ax2.text(0, -0.5, 'Inoculum', ha='center', va='top', rotation=90, fontsize=8)
 
-ax2.legend(handles=handles, loc='upper left', bbox_to_anchor=(0, -0.4), fontsize=8, ncol=2)
+ax2.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.5, -0.4), fontsize=8, ncol=3)
 
 plt.savefig('Stratified PICRUSt2 output oxygenases.png', dpi=600, bbox_inches='tight')
 
-    
+"""   
     
 
   

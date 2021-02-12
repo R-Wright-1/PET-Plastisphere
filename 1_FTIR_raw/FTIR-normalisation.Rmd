@@ -1,0 +1,386 @@
+---
+title: "FTIR spectra normalisation"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+  pdf_document:
+    toc: yes
+---
+
+```{R, setup_r, results='hide', include=FALSE}
+library(reticulate)
+library(kableExtra)
+library(knitr)
+library(exactRankTests)
+library(nlme)
+library(dplyr)
+library(ggplot2)
+library(compositions)
+library(vegan)
+library(phyloseq)
+library(ape)
+library(baseline)
+library(hyperSpec)
+
+opts_knit$set(root.dir = '/Users/robynwright/Documents/OneDrive/')
+#reticulate::py_config()
+```
+
+```{python, setup_python, results='hide', include=FALSE}
+import os
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+from Bio.Alphabet import IUPAC
+import pandas as pd
+import csv
+from colorsys import hls_to_rgb
+import numpy as np
+import math
+from matplotlib.lines import Line2D
+import matplotlib as mpl
+from matplotlib.patches import Patch
+import matplotlib.pyplot as plt
+import pickle
+import random
+from scipy.spatial import distance
+from scipy import stats
+from sklearn import manifold
+from sklearn.decomposition import PCA
+import statsmodels.stats.multitest as sm
+```
+
+```{python}
+p = 'LC'
+raw = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/4_community_and_isolates/a_growth_and_FTIR/DT_'+p+'.csv', header=0, index_col=0)
+raw = (raw)*(-1)
+raw = raw.transpose()
+```
+
+```{R}
+raw = py$raw
+raw = as.matrix(raw)
+
+spc = new("hyperSpec", spc = raw)
+smooth = spc.loess(spc, seq(650, 4000, 1))
+baselines <- spc.fit.poly.below(smooth)
+bl = smooth - baselines
+
+#bl_min <- sweep(bl, 2, apply(bl, 2, quantile, 0.01), "-")
+bl_min <- sweep(bl, 1, apply(bl, 1, mean), "/")
+plot(bl_min)
+
+wl = i2wl(bl_min)
+corrected = as.wide.df(bl_min)
+
+write.txt.long(bl_min, file = "/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/4_community_and_isolates/a_growth_and_FTIR/corrected_spectra_r_LC.txt", order = c(".rownames", ".wavelength"))
+
+```
+
+
+```{python}
+#For the incubated samples
+names = []
+
+for a in range(len(raw.index.values)):
+  for b in range(len(r.wl)):
+    names.append(raw.index.values[a])
+
+corrected = pd.read_csv("/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/4_community_and_isolates/a_growth_and_FTIR/corrected_spectra_r_"+p+".txt", sep='\t', header=0)
+corrected.index = names
+
+new_df = []
+for a in range(len(raw.index.values)):
+  this_df = pd.DataFrame(corrected.loc[raw.index.values[a], :])
+  this_df = this_df.set_index('.wavelength')
+  this_df.rename(columns={'spc':raw.index.values[a]}, inplace=True)
+  new_df.append(this_df.transpose())
+
+corrected = pd.concat(new_df)
+corrected = corrected.transpose()
+
+rename_col, rename_ind = {}, {}
+for col in corrected.columns:
+    rename_col[col] = col.split('.')[0]
+
+for ind in corrected.index.values:
+    rename_ind[ind] = int(ind)
+corrected.rename(index=rename_ind, columns=rename_col, inplace=True)
+
+corrected_mean = corrected.groupby(by=corrected.columns, axis=1).mean()
+corrected.to_csv("/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/4_community_and_isolates/a_growth_and_FTIR/corrected_spectra_"+p+"_all.csv")
+corrected_mean.to_csv("/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/4_community_and_isolates/a_growth_and_FTIR/corrected_spectra_"+p+".csv")
+
+
+colors = ['gray', '#028DE9', '#B03A2E', '#F1C40F']
+labels = ['No inoculum', r'$Thioclava$'+'\nsp. BHET1', r'$Bacillus$'+'\nsp. BHET2', 'Community']
+
+plt.figure(figsize=(12,12))
+ax1 = plt.subplot2grid((4,20), (0,0), rowspan=2, colspan=12)
+ax2, ax3, ax4, ax5 = plt.subplot(425), plt.subplot(426), plt.subplot(427), plt.subplot(428)
+axis = [ax1, ax2, ax3, ax4, ax5]
+
+ax6 = plt.subplot2grid((4,20), (0,14), rowspan=2, colspan=8)
+
+for ax in axis:
+    ax.plot(list(corrected_mean.index.values), corrected_mean.loc[:, 'Control'], color=colors[0], label=labels[0])
+    ax.plot(list(corrected_mean.index.values), corrected_mean.loc[:, 'Thioclava'], color=colors[1], label=labels[1])
+    ax.plot(list(corrected_mean.index.values), corrected_mean.loc[:, 'Bacillus'], color=colors[2], label=labels[2])
+    ax.plot(list(corrected_mean.index.values), corrected_mean.loc[:, 'Community'], color=colors[3], label=labels[3])
+    
+    plt.sca(ax)
+    plt.ylabel('Normalised absorbance')
+    plt.xlabel('Wavenumber (cm$^{-1}$)')
+
+ax6.set_ylabel(r'Ratio')
+
+# Wavenumber (cm−1
+# ) - IR band assignment Trend Degradation mechanism
+# 775 - unassigned + Photo-oxidation
+# 900 - (C H2) rocking - gauche - Crystallization
+# 975* - ester (O −C H2) - trans + Crystallization
+# 1040 - ester (O −C H2) - gauche - Crystallization
+# 1125/1096 - ester (C −O) - trans/gauche + Crystallization
+# 1175 - aliphatic ester (C −O) + Photo-oxidation
+# 1340 - C H2 wagging - trans + Hydrolysis
+# 1711 - carbonyl (C = O) - Chain scission
+# 1711 - carbonyl (C = O) - TPA formation peak spitting Photo-oxidation
+# 1711* - carbonyl (C = O) - CEG formation peak broadening Chain scission
+
+
+#wl = [1711, 2920, 1240, 3300, 1090]
+#wl_name = ['C=O\n'+str(wl[0]), 'O-H\n'+str(wl[1]), 'C-O\n'+str(wl[2]), 'O-H\n'+str(wl[3]), 'C-O\n'+str(wl[4])]
+
+wl = [1711, 1240, 725, 1090]#, 1340]
+bond1 = ['C=O', 'C-O', 'C-H', 'C-O']
+bond2 = [r'I$_{1711}$/I$_{1410}$', r'I$_{1240}$/I$_{1410}$', r'I$_{725}$/I$_{1410}$', r'I$_{1090}$/I$_{1410}$']
+wl_name = [bond2[a]+'\n'+bond1[a] for a in range(len(bond1))]
+
+x = [1, 2, 3, 4]
+xplt = []
+
+bars, stds, sig = [], [], []
+
+for a in range(len(wl)):
+    xplt.append(x[1]+0.5)
+    a = wl[a]
+    ref = pd.DataFrame(corrected.loc[1410, :]).transpose()
+    line = pd.DataFrame(corrected.loc[a, :]).transpose()
+    line = line.divide(ref.values[0])
+    m1, m2, m3, m4 = np.mean(line.loc[:, 'Control'].values[0]), np.mean(line.loc[:, 'Thioclava'].values[0]), np.mean(line.loc[:, 'Bacillus'].values[0]), np.mean(line.loc[:, 'Community'].values[0])
+    s1, s2, s3, s4 = np.std(line.loc[:, 'Control'].values[0]), np.std(line.loc[:, 'Thioclava'].values[0]), np.std(line.loc[:, 'Bacillus'].values[0]), np.std(line.loc[:, 'Community'].values[0])
+    tests = ['Thioclava', 'Bacillus', 'Community']
+    m, s = [m1, m2, m3, m4], [s1, s2, s3, s4]
+    this_sig = []
+    for b in range(len(tests)):
+      t = stats.ttest_ind(line.loc[:, 'Control'].values[0], line.loc[:, tests[b]].values[0])
+      if t[1] < 0.05:
+        ax6.text(x[b+1], m[b+1]+s[b+1], '*', ha='center', va='bottom')
+        this_sig.append('*')
+      else:
+        this_sig.append('')
+    bars.append(m)
+    stds.append(s)
+    sig.append(this_sig)
+    ax6.bar(x, m, yerr=s, color=colors, edgecolor='k', width=0.8, error_kw=dict(ecolor='k', lw=1, capsize=2, capthick=1))
+    x = [b+5 for b in x]
+plt.sca(ax6)
+#plt.xticks(xplt+[8.01, 21], wl_name+['\n\ncarboxylic acid', '\n\nalcohol']) 
+plt.xticks(xplt, wl_name) 
+
+print(bars, stds, sig)
+
+ax1.set_title('A', loc='left', fontweight='bold')
+ax2.set_title('C', loc='left', fontweight='bold')
+ax3.set_title('D', loc='left', fontweight='bold')
+ax4.set_title('E', loc='left', fontweight='bold')
+ax5.set_title('F', loc='left', fontweight='bold')
+ax6.set_title('B', loc='left', fontweight='bold')
+
+plt.sca(ax1)
+plt.xlim(2000,650)
+plt.xticks([650, 1000, 1500, 2000])
+
+plt.sca(ax2)
+plt.xlim(1000,650)
+plt.xticks([700, 800, 900, 1000])
+
+plt.sca(ax3)
+plt.xlim([1200,1000])
+plt.xticks([1000, 1040, 1080, 1120, 1160, 1200])
+
+plt.sca(ax4)
+plt.xlim([1600, 1200])
+plt.xticks([1200, 1300, 1400, 1500, 1600])
+
+plt.sca(ax5)
+plt.xlim([1800, 1600])
+plt.xticks([1600, 1640, 1680, 1720, 1760, 1800])
+
+wl.append(1410)
+
+for ax in axis:
+  xlim = ax.get_xlim()
+  ylim = ax.get_ylim()
+  xdist = xlim[0]-xlim[1]
+  for a in wl:
+    if a > xlim[1] and a < xlim[0]:
+      ax.plot([a, a], ylim, color='gray', linestyle='-.', alpha=0.3)
+      ax.text(a+xdist*0.01, ylim[-1]*0.98, str(a), ha='right', va='top', rotation=90)
+  ax.set_ylim(ylim)
+
+ax1.legend(loc='upper left', bbox_to_anchor=(0.05,0.95))
+plt.subplots_adjust(hspace=0.6)
+plt.savefig('/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/4_community_and_isolates/a_growth_and_FTIR/'+p+' baseline corrected.png', dpi=600)
+```
+
+```{python}
+raw = pd.read_csv('/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/1_FTIR_raw/Raw_plastics.csv', header=0, index_col=0)
+raw = (raw)*(-1)
+raw = raw.transpose().iloc[9:, :]
+```
+
+```{R}
+raw = py$raw
+raw = as.matrix(raw)
+
+spc = new("hyperSpec", spc = raw)
+smooth = spc.loess(spc, seq(650, 4000, 1))
+baselines <- spc.fit.poly.below(smooth)
+bl = smooth - baselines
+
+#bl_min <- sweep(bl, 2, apply(bl, 2, quantile, 0.01), "-")
+bl_min <- sweep(bl, 1, apply(bl, 1, mean), "/")
+plot(bl_min)
+
+wl = i2wl(bl_min)
+corrected = as.wide.df(bl_min)
+
+write.txt.long(bl_min, file = "/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/1_FTIR_raw/corrected_spectra_r.txt", order = c(".rownames", ".wavelength"))
+```
+
+```{python}
+#For the raw plastic samples
+names = []
+
+for a in range(len(raw.index.values)):
+  for b in range(len(r.wl)):
+    names.append(raw.index.values[a])
+
+corrected = pd.read_csv("/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/1_FTIR_raw/corrected_spectra_r.txt", sep='\t', header=0)
+corrected.index = names
+
+new_df = []
+for a in range(len(raw.index.values)):
+  this_df = pd.DataFrame(corrected.loc[raw.index.values[a], :])
+  this_df = this_df.set_index('.wavelength')
+  this_df.rename(columns={'spc':raw.index.values[a]}, inplace=True)
+  new_df.append(this_df.transpose())
+
+corrected = pd.concat(new_df)
+corrected = corrected.transpose()
+
+rename_col, rename_ind = {}, {}
+for col in corrected.columns:
+    rename_col[col] = col.split('.')[0]
+
+for ind in corrected.index.values:
+    rename_ind[ind] = int(ind)
+corrected.rename(index=rename_ind, columns=rename_col, inplace=True)
+
+corrected_mean = corrected.groupby(by=corrected.columns, axis=1).mean()
+
+plt.figure(figsize=(12,12))
+ax1 = plt.subplot2grid((4,20), (0,0), rowspan=2, colspan=12)
+ax2, ax3, ax4, ax5 = plt.subplot(425), plt.subplot(426), plt.subplot(427), plt.subplot(428)
+axis = [ax1, ax2, ax3, ax4, ax5]
+
+ax6 = plt.subplot2grid((4,20), (0,14), rowspan=2, colspan=8)
+
+colors = ['b', 'g']
+labels = ['PET powder', 'Weathered PET powder']
+for ax in axis:
+    ax.plot(list(corrected_mean.index.values), corrected_mean.loc[:, 'PET'], color=colors[0], label=labels[0])
+    ax.plot(list(corrected_mean.index.values), corrected_mean.loc[:, 'WPET'], color=colors[1], label=labels[1])
+    plt.sca(ax)
+    plt.ylabel('Normalised absorbance')
+    plt.xlabel('Wavenumber (cm$^{-1}$)')
+
+wl = [1711, 1240, 725, 1090]#, 1340]
+bond1 = ['C=O', 'C-O', 'C-H', 'C-O']
+bond2 = [r'I$_{1711}$/I$_{1410}$', r'I$_{1240}$/I$_{1410}$', r'I$_{725}$/I$_{1410}$', r'I$_{1090}$/I$_{1410}$']
+wl_name = [bond2[a]+'\n'+bond1[a] for a in range(len(bond1))]
+
+#wl = [1712, 2920, 1240, 3300, 1090]
+#wl_name = ['C=O\n'+str(wl[0]), 'O-H\n'+str(wl[1]), 'C-O\n'+str(wl[2]), 'O-H\n'+str(wl[3]), 'C-O\n'+str(wl[4])]
+
+ax6.set_ylabel(r'Ratio')
+
+#wl = [770, 898, 978, 1042, 1122, 1098, 1178, 1338, 1714]
+
+x = [1, 2]
+xplt = []
+
+for a in range(len(wl)):
+    xplt.append(x[0]+0.5)
+    a = wl[a]
+    ref = line = pd.DataFrame(corrected.loc[1410, :]).transpose()
+    line = pd.DataFrame(corrected.loc[a, :]).transpose()
+    line = line.divide(ref.values[0])
+    m2, m3 = np.mean(line.loc[:, 'PET'].values[0]), np.mean(line.loc[:, 'WPET'].values[0])
+    s2, s3 = np.std(line.loc[:, 'PET'].values[0]), np.std(line.loc[:, 'WPET'].values[0])
+    t = stats.ttest_ind(line.loc[:, 'PET'].values[0], line.loc[:, 'WPET'].values[0])
+    print(t)
+    if t[1] < 0.05:
+      ax6.text(x[1], max(m2+s2, m3+s3), '*', ha='center', va='bottom')
+    ax6.bar(x, [m2, m3], yerr=[s2, s3], color=colors, edgecolor='k', width=0.8, error_kw=dict(ecolor='k', lw=1, capsize=2, capthick=1))
+    x = [b+3 for b in x]
+plt.sca(ax6)
+#plt.xticks(xplt+[4.51, 12], wl_name+['\n\ncarboxylic acid', '\n\nalcohol'])   
+plt.xticks(xplt, wl_name)   
+
+ax1.set_title('A', loc='left', fontweight='bold')
+ax2.set_title('C', loc='left', fontweight='bold')
+ax3.set_title('D', loc='left', fontweight='bold')
+ax4.set_title('E', loc='left', fontweight='bold')
+ax5.set_title('F', loc='left', fontweight='bold')
+ax6.set_title('B', loc='left', fontweight='bold')
+
+plt.sca(ax1)
+plt.xlim(2000,500)
+plt.xticks([500, 1000, 1500, 2000])
+
+plt.sca(ax2)
+plt.xlim(1000,650)
+plt.xticks([700, 800, 900, 1000])
+
+plt.sca(ax3)
+plt.xlim([1200,1000])
+plt.xticks([1000, 1040, 1080, 1120, 1160, 1200])
+
+plt.sca(ax4)
+plt.xlim([1600, 1200])
+plt.xticks([1200, 1300, 1400, 1500, 1600])
+
+plt.sca(ax5)
+plt.xlim([1800, 1600])
+plt.xticks([1600, 1640, 1680, 1720, 1760, 1800])
+
+for ax in axis:
+  xlim = ax.get_xlim()
+  ylim = ax.get_ylim()
+  for a in wl:
+    if a > xlim[1] and a < xlim[0]:
+      ax.plot([a, a], ylim, 'k--')
+      ax.text(a, ylim[-1]*1.03, str(a), ha='center', va='bottom', rotation=90)
+  if 1410 > xlim[1] and 1410 < xlim[0]:
+    ax.plot([1410, 1410], ylim, 'k--')
+    ax.text(1410, ylim[-1]*1.03, str(1410), ha='center', va='bottom', rotation=90)
+  ax.set_ylim(ylim)
+
+ax1.legend()
+plt.subplots_adjust(hspace=0.6)
+plt.savefig('/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/1_FTIR_raw/Raw plastics baseline correction.png', dpi=600)
+```

@@ -142,7 +142,10 @@ def plot_nmds(fn, ax):
     #labels = ['BHET', 'Low crystallinity PET biofilm', 'Low crystallinity PET planktonic', 'PET powder', 'Weathered PET powder']
     #labels = ['No carbon', 'Low crystallinity PET planktonic', 'Low crystallinity PET biofilm', 'PET powder', 'Weathered PET powder', 'BHET', 'Inoculum']
     for a in range(len(leg_shapes)):
-        legend_elements.append(Line2D([0], [0], marker=leg_shapes[a], markerfacecolor=marker_cols[a], markeredgecolor=marker_cols[a], label=labels[a], markersize=10, color='none'))
+        if a not in [3,4]:
+            legend_elements.append(Line2D([0], [0], marker=leg_shapes[a], markerfacecolor=marker_cols[a], markeredgecolor='gray', label=labels[a], markersize=10, color='none'))
+        else:
+            legend_elements.append(Line2D([0], [0], marker=leg_shapes[a], markerfacecolor=marker_cols[a], markeredgecolor=marker_cols[a], label=labels[a], markersize=10, color='none'))
     new_legend_elements = []
     order = [6, 0, 5, 2, 1, 3, 4]
     for b in range(len(order)):
@@ -154,6 +157,7 @@ def plot_nmds(fn, ax):
     ax.set_ylabel('nMDS 2')
     plt.sca(ax)
     plt.annotate('Stress = %.3f'%stress, xy=(0.05, 0.95), xycoords='axes fraction')
+    plt.xlim([-90, 90])
     return x, y
 axnMDS = plt.subplot2grid((3,24), (0,0), colspan=10)
 fs=18
@@ -183,8 +187,10 @@ labels = ['BHET', 'Amorphous PET biofilm', 'Amorphous PET planktonic', 'PET powd
 markers = ['p', 's', '^', '1', 'x']
 colors = ['orange', 'm', 'r', 'b', 'g']
 for a in range(1, len(PRC_trt)):
-    ax1.plot(PRC_trt[0][1:], PRC_trt[a][1:], marker=markers[a-1], label=labels[a-1], color=colors[a-1])
-
+    if a not in [4,5]:
+        ax1.plot(PRC_trt[0][1:], PRC_trt[a][1:], marker=markers[a-1], label=labels[a-1], color=colors[a-1], markeredgecolor='gray', markersize=10)
+    else:
+        ax1.plot(PRC_trt[0][1:], PRC_trt[a][1:], marker=markers[a-1], label=labels[a-1], color=colors[a-1], markersize=10)
 ax1.plot(PRC_trt[0][1:], [0, 0, 0, 0, 0, 0, 0, 0], 'k--')
 ax1.legend(loc='best', frameon=False)
 ax1.set_ylabel('Effect')

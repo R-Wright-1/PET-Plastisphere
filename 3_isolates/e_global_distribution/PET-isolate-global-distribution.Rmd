@@ -1,0 +1,847 @@
+
+---
+title: "Distribution of Thioclava sp. BHET1 and Bacillus sp. BHET2 in global plastisphere and planktonic samples"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+  pdf_document:
+    toc: yes
+---
+
+```{R, results='hide', fig.keep='all', message=FALSE, include=FALSE}
+options(warn = -1) 
+library(reticulate)
+library(kableExtra)
+library(knitr)
+library(phyloseq)
+library(microbiome)
+library(philr)
+library(ape)
+library(metacoder)
+library("data.table")
+library(vegan)
+library(tidyr)
+library("plyr")
+library(gridExtra)
+library(randomcoloR)
+library(DESeq2)
+
+folder <- '/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/3_isolates/e_global_distribution/'
+```
+
+```{python, results='hide', fig.keep='all', message=FALSE}
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+import numpy as np
+import os
+import pandas as pd
+import math
+import matplotlib.pyplot as plt
+from scipy.cluster import hierarchy
+import matplotlib as mpl
+from matplotlib.lines import Line2D
+from matplotlib_venn import venn2
+from mpl_toolkits.axes_grid1.inset_locator import InsetPosition
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+from matplotlib.patches import Circle, Wedge, Polygon
+import csv
+from matplotlib.patches import Patch
+from matplotlib import pyplot
+import pickle
+from scipy.spatial import distance
+from scipy import stats
+from sklearn import manifold
+from sklearn.decomposition import PCA
+from scipy.cluster import hierarchy
+import scipy.spatial.distance as ssd
+
+folder = '/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/3_isolates/e_global_distribution/TARA_16S/'
+folder2 = '/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/3_isolates/e_global_distribution/'
+folder3 = '/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/3_isolates/e_global_distribution/plastisphere_16S/'
+bacillus_16S_sanger = 'Bacillus_16S_sanger.fna'
+bacillus_16S_genome = 'Bacillus_16S_genome.fasta'
+thioclava_16S_sanger = 'Thioclava_16S_sanger.fna'
+thioclava_16S_genome = 'Thioclava_16S_genome.fasta'
+mitag_folder = 'TARA_16SrRNA.miTAGs/'
+blast_db_folder = 'blast_database/'
+blast_out = 'blast_out/'
+```
+
+# Abundance in 16S miTAGs {.tabset}
+
+## Get all data
+
+Download the 16S miTAGs data from [here](http://ocean-microbiome.embl.de/companion.html)</br>
+We have the Bacillus and Thioclava genomes saved as:</br>
+- Assembled fasta</br>
+- Annotated fasta (nucleotide)</br>
+- 16S from genome</br>
+- 16S from Sanger sequencing</br>
+</br>
+Make BLAST databases from each of the TARA samples:
+```{python, results='hide', fig.keep='all', eval=FALSE}
+samples = os.listdir(folder+mitag_folder)
+databases = []
+for sample in samples:
+  new_name = sample.split('_')
+  new_name = new_name[0]+'_'+new_name[1]+'_'+new_name[2]
+  databases.append(new_name)
+  in_name = folder+mitag_folder+sample
+  out_name = folder2+blast_db_folder+new_name
+  cmd = 'makeblastdb -in '+in_name+' -dbtype nucl -out '+out_name
+  os.system(cmd)
+```
+
+BLAST against these and save the outputs:
+```{python, results='hide', fig.keep='all', eval=FALSE}
+isolates = [bacillus_16S_sanger, bacillus_16S_genome, thioclava_16S_sanger, thioclava_16S_genome]
+names = ['bacillus_sanger_', 'bacillus_genome_', 'thioclava_sanger_', 'thioclava_genome_']
+folder_out = [blast_out+'bacillus/', blast_out+'bacillus/', blast_out+'thioclava/', blast_out+'thioclava/']
+
+for a in range(len(isolates)):
+  if a <= 1: continue
+  for db in databases:
+    db_name = folder2+blast_db_folder+db
+    query = folder+isolates[a]
+    out_fn = folder2+folder_out[a]+names[a]+db+'.txt'
+    cmd = 'blastn -db '+db_name+' -query '+query+' -out '+out_fn+' -perc_identity 90 -outfmt 6 -max_target_seqs 20000'
+    os.system(cmd)
+```
+
+## Put results into tables
+
+```{python, results='hide', fig.keep='all', eval=FALSE}
+res_fol_bac = folder2+blast_out+'bacillus/'
+bac_genome_info, bac_genome_names = [], []
+bac_sanger_info, bac_sanger_names = [], []
+
+res_fol_thio = folder2+blast_out+'thioclava/'
+thio_genome_info, thio_genome_names = [], []
+thio_sanger_info, thio_sanger_names = [], []
+
+info = [bac_genome_info, bac_sanger_info, thio_genome_info, thio_sanger_info]
+names = [bac_genome_names, bac_sanger_names, thio_genome_names, thio_sanger_names]
+results_folder = [res_fol_bac, res_fol_bac, res_fol_thio, res_fol_thio]
+results_name = ['bacillus_genome_', 'bacillus_sanger_', 'thioclava_genome_', 'thioclava_sanger_']
+
+for db in databases:
+  for a in range(4):
+    name = results_folder[a]+results_name[a]+db+'.txt'
+    results = pd.read_csv(name, sep='\t', names=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore'])
+    names[a].append(db)
+    results_95 = results[results.loc[:, 'pident'] > 95]
+    results_97 = results[results.loc[:, 'pident'] > 97]
+    this_info = [results.shape[0], results_95.shape[0], results_97.shape[0]]
+    info[a].append(this_info)
+
+bacillus_genome = pd.DataFrame(info[0], index=names[0], columns=['90% identity', '95% identity', '97% identity'])
+bacillus_sanger = pd.DataFrame(info[1], index=names[1], columns=['90% identity', '95% identity', '97% identity'])
+thioclava_genome = pd.DataFrame(info[2], index=names[2], columns=['90% identity', '95% identity', '97% identity'])
+thioclava_sanger = pd.DataFrame(info[3], index=names[3], columns=['90% identity', '95% identity', '97% identity'])
+
+bacillus_genome.to_csv(folder+'bacillus_genome_16S_blast.csv')
+bacillus_sanger.to_csv(folder+'bacillus_sanger_16S_blast.csv')
+thioclava_genome.to_csv(folder+'thioclava_genome_16S_blast.csv')
+thioclava_sanger.to_csv(folder+'thioclava_sanger_16S_blast.csv')
+```
+
+Check that we got as many hits as possible with the 5000 limit:
+```{python, fig.keep='all'}
+bacillus_genome = pd.read_csv(folder+'bacillus_genome_16S_blast.csv', header=0, index_col=0)
+bacillus_sanger = pd.read_csv(folder+'bacillus_sanger_16S_blast.csv', header=0, index_col=0)
+thioclava_genome = pd.read_csv(folder+'thioclava_genome_16S_blast.csv', header=0, index_col=0)
+thioclava_sanger = pd.read_csv(folder+'thioclava_sanger_16S_blast.csv', header=0, index_col=0)
+
+print(bacillus_genome.max(axis=0))
+print(bacillus_sanger.max(axis=0))
+print(thioclava_genome.max(axis=0))
+print(thioclava_sanger.max(axis=0))
+```
+
+Now get the total number of sequences in each sample:
+```{python, results='hide', fig.keep='all', eval=FALSE}
+samples = os.listdir(folder+mitag_folder)
+sn, seqs = [], []
+
+for sample in samples:
+  new_name = sample.split('_')
+  new_name = new_name[0]+'_'+new_name[1]+'_'+new_name[2]
+  sn.append(new_name)
+  fh = open(folder+mitag_folder+sample)
+  n = 0
+  for line in fh:
+      if line.startswith(">"):
+          n += 1
+  fh.close()
+  seqs.append(n)
+
+sequences = pd.DataFrame(seqs, index=sn, columns=['Sequences'])
+sequences.to_csv(folder+'sequences_per_sample.csv')
+```
+
+Edit names of sample data:
+```{python, results='hide', fig.keep='all', eval=FALSE}
+sample_locations = pd.read_csv(folder+'TARA_sample_locations.csv', index_col=0, header=0)
+
+new_names = {}
+for sample in sample_locations.index.values:
+  new_sample = sample.split('_')
+  new_sample = new_sample[0]+'_'+new_sample[1]+'_'+new_sample[2]
+  new_names[sample] = new_sample
+
+sample_locations = sample_locations.rename(index=new_names)
+sample_locations.to_csv(folder+'TARA_sample_locations_renamed.csv')
+```
+
+# Abundance in metagenomic assemblies (>1000nt) {.tabset}
+
+## Get the assemblies 
+
+From [Figshare](https://figshare.com/articles/dataset/TARA-RAW-ASSEMBLIES-1000nt/4902920):
+```{bash, eval=FALSE}
+wget https://ndownloader.figshare.com/articles/4902920/versions/1
+mv 1 4902920.zip
+unzip 4902920.zip 
+rm 4902920.zip 
+```
+
+## Do QUAST searches
+
+```{bash, eval=FALSE}
+parallel -j 2 --link 'python /home/robyn/tools/quast-5.0.2/metaquast.py {} -r isolates/Bacillus_annotated.ffn --threads 12 -o quast_results/Bacillus_annotated_{/.}' \
+ ::: TARA_assemblies/*
+ 
+parallel -j 2 --link 'python /home/robyn/tools/quast-5.0.2/metaquast.py {} -r isolates/Bacillus_assembled.fasta --threads 12 -o quast_results/Bacillus_assembled_{/.}' \
+ ::: TARA_assemblies/*
+ 
+parallel -j 2 --link 'python /home/robyn/tools/quast-5.0.2/metaquast.py {} -r isolates/Thioclava_annotated.ffn --threads 12 -o quast_results/Thioclava_annotated_{/.}' \
+ ::: TARA_assemblies/*
+ 
+parallel -j 2 --link 'python /home/robyn/tools/quast-5.0.2/metaquast.py {} -r isolates/Thioclava_assembled.fasta --threads 12 -o quast_results/Thioclava_assembled_{/.}' \
+ ::: TARA_assemblies/*
+ 
+ #tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+```
+
+## Sort this locally after completion
+
+```{python, results='hide', fig.keep='all', eval=FALSE}
+mg_folder = folder2+'metagenome/all/'
+folders = os.listdir(mg_folder)
+coverage, sample = [], []
+count = 0
+for fol in folders:
+  if '.DS_Store' in fol: continue
+  count += 1
+  results = pd.read_csv(mg_folder+fol+'/summary/TSV/Genome_fraction.tsv', sep='\t', header=0, index_col=0)
+  column = results.columns[0]
+  row = results.index.values[0]
+  percent = results.loc[row, column]
+  sample.append(fol)
+  coverage.append(percent)
+
+all_coverage = pd.DataFrame(coverage, index=sample, columns=['Coverage'])
+all_coverage.to_csv(folder2+'metagenome/coverage.csv')
+```
+
+# Abundance in MiSeq succession (this study) {.tabset}
+
+## Make database and do search
+
+```{python, results='hide', fig.keep='all', eval=FALSE}
+cmd = 'makeblastdb -in '+folder+'MiSeq_succession_sequences.fasta -dbtype nucl -out '+folder2+blast_db_folder+'miseq_succession'
+os.system(cmd)
+isolates = [bacillus_16S_sanger, bacillus_16S_genome, thioclava_16S_sanger, thioclava_16S_genome]
+names = ['bacillus_sanger_', 'bacillus_genome_', 'thioclava_sanger_', 'thioclava_genome_']
+folder_out = [blast_out+'bacillus/', blast_out+'bacillus/', blast_out+'thioclava/', blast_out+'thioclava/']
+
+for a in range(len(isolates)):
+  db_name = folder+blast_db_folder+'miseq_succession'
+  query = folder+isolates[a]
+  out_fn = folder2+folder_out[a]+names[a]+'miseq_succession'+'.txt'
+  cmd = 'blastn -db '+db_name+' -query '+query+' -out '+out_fn+' -perc_identity 90 -outfmt 6 -max_target_seqs 20000'
+  os.system(cmd)
+```
+
+## Summary Thioclava sp. BHET1
+
+```{python, results='hide', fig.keep='all'}
+bacillus_matches = pd.read_csv(folder2+blast_out+'bacillus/'+'bacillus_genome_miseq_succession.txt', sep='\t', names=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore'])
+thioclava_matches = pd.read_csv(folder2+blast_out+'thioclava/'+'thioclava_genome_miseq_succession.txt', sep='\t', names=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore'])
+
+results = pd.DataFrame(thioclava_matches)
+matches_90 = results[results.loc[:, 'pident'] > 90]
+matches_95 = results[results.loc[:, 'pident'] > 95]
+matches_97 = results[results.loc[:, 'pident'] > 97]
+matches_99 = results[results.loc[:, 'pident'] > 99]
+
+matches_90 = list(matches_90.loc[:, 'sseqid'].values)
+matches_95 = list(matches_95.loc[:, 'sseqid'].values)
+matches_97 = list(matches_97.loc[:, 'sseqid'].values)
+matches_99 = list(matches_99.loc[:, 'sseqid'].values)
+
+all_abundance = pd.read_csv(folder+'miseq_over_time_all.csv', header=0, index_col=0)
+abundance_95 = list(all_abundance.loc[matches_95, :].sum(axis=0))
+abundance_97 = list(all_abundance.loc[matches_97, :].sum(axis=0))
+abundance_99 = list(all_abundance.loc[matches_99, :].sum(axis=0))
+x = [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49]
+days = [0, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42]
+
+plt.figure(figsize=(15,10))
+ax1 = plt.subplot2grid((10,1), (0,0), frameon=False)
+
+colormap = mpl.cm.get_cmap('plasma', 256)
+norm_01 = mpl.colors.Normalize(vmin=0, vmax=0.3)
+norm_05 = mpl.colors.Normalize(vmin=-0.3, vmax=0.9)
+norm_5 = mpl.colors.Normalize(vmin=-2, vmax=3)
+m_01 = mpl.cm.ScalarMappable(norm=norm_01, cmap=colormap)
+m_05 = mpl.cm.ScalarMappable(norm=norm_05, cmap=colormap)
+m_5 = mpl.cm.ScalarMappable(norm=norm_5, cmap=colormap)
+
+abun = [abundance_95, abundance_97, abundance_99]
+
+for a in range(len(x)):
+  for b in range(3):
+    if abun[b][a] < 0.1: color = m_01.to_rgba(abun[b][a])
+    elif abun[b][a] < 0.5: color = m_05.to_rgba(abun[b][a])
+    else: color = m_5.to_rgba(abun[b][a])
+    plt.bar(x[a], 1, bottom=b, width=1, edgecolor='k', color=color)
+
+plt.xlim([0.5, 49.6]), plt.ylim([-0.1,3])
+plt.xticks(x, days), plt.yticks([0.5, 1.5, 2.5], ['>95% identity', '>97% identity', '>99% identity'])
+labels = ['Inoculum', 'No carbon', 'BHET', 'Amorphous\nPET biofilm', 'Amorphous\nPET planktonic', 'PET powder', 'Weathered PET powder']
+locations = [1, 6, 14, 22, 30, 38, 46]
+text_colors = ['k', 'y', 'orange', 'm', 'r', 'b', 'g']
+for a in range(len(labels)):
+  plt.text(locations[a], 3.2, labels[a], ha='center', color=text_colors[a], fontweight='bold')
+plt.text(26, -0.2, 'Days', ha='center')
+plt.ylim([0.95,3])
+plt.show()
+# plt.savefig(folder2+'Thioclava_miseq_succession.png', bbox_inches='tight', dpi=600)
+```
+
+```{python}
+samples = all_abundance.columns
+print('Maximum >95% identity Thioclava', max(abun[0]), 'in sample', samples[abun[0].index(max(abun[0]))])
+print('Maximum >97% identity Thioclava', max(abun[1]), 'in sample', samples[abun[1].index(max(abun[1]))])
+print('Maximum >99% identity Thioclava', max(abun[2]), 'in sample', samples[abun[2].index(max(abun[2]))])
+```
+
+## Summary Bacillus sp. BHET2
+
+```{python, results='hide', fig.keep='all'}
+bacillus_matches = pd.read_csv(folder2+blast_out+'bacillus/'+'bacillus_genome_miseq_succession.txt', sep='\t', names=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore'])
+
+results = pd.DataFrame(bacillus_matches)
+matches_90 = results[results.loc[:, 'pident'] > 90]
+matches_95 = results[results.loc[:, 'pident'] > 95]
+matches_97 = results[results.loc[:, 'pident'] > 97]
+matches_99 = results[results.loc[:, 'pident'] > 99]
+
+matches_90 = list(matches_90.loc[:, 'sseqid'].values)
+matches_95 = list(matches_95.loc[:, 'sseqid'].values)
+matches_97 = list(matches_97.loc[:, 'sseqid'].values)
+matches_99 = list(matches_99.loc[:, 'sseqid'].values)
+
+all_abundance = pd.read_csv(folder+'miseq_over_time_all.csv', header=0, index_col=0)
+abundance_95 = list(all_abundance.loc[matches_95, :].sum(axis=0))
+abundance_97 = list(all_abundance.loc[matches_97, :].sum(axis=0))
+abundance_99 = list(all_abundance.loc[matches_99, :].sum(axis=0))
+x = [1, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49]
+days = [0, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42, 1, 3, 7, 14, 21, 30, 42]
+
+plt.figure(figsize=(15,10))
+ax1 = plt.subplot2grid((10,1), (0,0), frameon=False)
+
+colormap = mpl.cm.get_cmap('plasma', 256)
+norm_01 = mpl.colors.Normalize(vmin=0, vmax=0.3)
+norm_05 = mpl.colors.Normalize(vmin=-0.3, vmax=0.9)
+norm_5 = mpl.colors.Normalize(vmin=-2, vmax=3)
+m_01 = mpl.cm.ScalarMappable(norm=norm_01, cmap=colormap)
+m_05 = mpl.cm.ScalarMappable(norm=norm_05, cmap=colormap)
+m_5 = mpl.cm.ScalarMappable(norm=norm_5, cmap=colormap)
+
+abun = [abundance_95, abundance_97, abundance_99]
+
+for a in range(len(x)):
+  for b in range(3):
+    if abun[b][a] < 0.1: color = m_01.to_rgba(abun[b][a])
+    elif abun[b][a] < 0.5: color = m_05.to_rgba(abun[b][a])
+    else: color = m_5.to_rgba(abun[b][a])
+    plt.bar(x[a], 1, bottom=b, width=1, edgecolor='k', color=color)
+
+plt.xlim([0.5, 49.6]), plt.ylim([-0.1,3])
+plt.xticks(x, days), plt.yticks([0.5, 1.5, 2.5], ['>95% identity', '>97% identity', '>99% identity'])
+labels = ['Inoculum', 'No carbon', 'BHET', 'Amorphous\nPET biofilm', 'Amorphous\nPET planktonic', 'PET powder', 'Weathered PET powder']
+locations = [1, 6, 14, 22, 30, 38, 46]
+text_colors = ['k', 'y', 'orange', 'm', 'r', 'b', 'g']
+for a in range(len(labels)):
+  plt.text(locations[a], 3.2, labels[a], ha='center', color=text_colors[a], fontweight='bold')
+plt.text(26, -0.2, 'Days', ha='center')
+plt.ylim([0.95,3])
+plt.show()
+# plt.savefig(folder2+'Bacillus_miseq_succession.png', bbox_inches='tight', dpi=600)
+```
+
+```{python}
+samples = all_abundance.columns
+print('Maximum >95% identity Bacillus', max(abun[0]), 'in sample', samples[abun[0].index(max(abun[0]))])
+print('Maximum >97% identity Bacillus', max(abun[1]), 'in sample', samples[abun[1].index(max(abun[1]))])
+print('Maximum >99% identity Bacillus', max(abun[2]), 'in sample', samples[abun[2].index(max(abun[2]))])
+```
+
+# Plot all data from TARA mitag {.tabset}
+
+Note that the data is presented separately here for searches with the 16S sequences from the whole genome sequences of both isolates as well as the 16S sequences from routine sanger sequencing.
+
+```{python, results='hide', fig.keep='all'}
+bacillus_genome = pd.read_csv(folder+'bacillus_genome_16S_blast.csv', index_col=0, header=0)
+bacillus_sanger = pd.read_csv(folder+'bacillus_sanger_16S_blast.csv', index_col=0, header=0)
+thioclava_genome = pd.read_csv(folder+'thioclava_genome_16S_blast.csv', index_col=0, header=0)
+thioclava_sanger = pd.read_csv(folder+'thioclava_sanger_16S_blast.csv', index_col=0, header=0)
+sequences = pd.read_csv(folder+'sequences_per_sample.csv', index_col=0, header=0)
+sample_locations = pd.read_csv(folder+'TARA_sample_locations_renamed.csv', index_col=0, header=0)
+coverage = pd.read_csv(folder2+'metagenome/coverage.csv', index_col=0, header=0)
+
+station_locations = {'004':'ANE', '150':'ANE', '151':'ANE', '152':'ANE', '141':'ANW', '142':'ANW', '145':'ANW', '146':'ANW', '148':'ANW', '149':'ANW', '066':'ASE', '067':'ASE', '068':'ASE', '070':'ASE', '072':'ASW', '076':'ASW', '078':'ASW', '082':'ASW', '036':'ION', '038':'ION', '039':'ION', '041':'ION', '042':'ION', '045':'ION', '048':'ION', '052':'IOS', '056':'IOS', '057':'IOS', '058':'IOS', '062':'IOS', '064':'IOS', '065':'IOS', '018':'MED', '023':'MED', '025':'MED', '030':'MED', '132':'PON', '133':'PON', '137':'PON', '138':'PON', '140':'PON', '100':'PSE', '102':'PSE', '109':'PSE', '110':'PSE', '111':'PSE', '093':'PSE', '094':'PSE', '096':'PSE', '098':'PSE', '099':'PSE', '112':'PSW', '122':'PSE', '123':'PSW', '124':'PSW', '125':'PSW', '128':'PSW', '031':'RED', '032':'RED', '033':'RED', '034':'RED', '084':'SOC', '085':'SOC'}
+
+colormap = mpl.cm.get_cmap('PiYG', 256)
+norm_01 = mpl.colors.Normalize(vmin=0, vmax=0.3)
+norm_05 = mpl.colors.Normalize(vmin=-0.3, vmax=0.9)
+norm_5 = mpl.colors.Normalize(vmin=-2, vmax=3)
+m_01 = mpl.cm.ScalarMappable(norm=norm_01, cmap=colormap)
+m_05 = mpl.cm.ScalarMappable(norm=norm_05, cmap=colormap)
+m_5 = mpl.cm.ScalarMappable(norm=norm_5, cmap=colormap)
+zero = '#6002BF'
+
+
+def get_plot(ra, bc, bc1, sng, surfd, surfd1):
+  for row in ra.index.values:
+    seqs = sequences.loc[row, :].values[0]
+    ra.loc[row, :] = ra.loc[row, :].divide(seqs)*100
+  
+  plt.figure(figsize=(16,16))
+  ax1 = plt.subplot2grid((3,1), (0,0), rowspan=2)
+  img = plt.imread(folder2+'world_map.jpg')
+  ax1.imshow(img, extent=[-180, 180, -90, 90], alpha=0.3)
+  
+  samples = list(ra.index.values)
+  for a in range(len(samples)):
+    if surfd not in samples[a]: continue
+    loc = sample_locations.loc[samples[a], ['Longitude', 'Latitude']].values
+    if not isinstance(loc[0], float):
+      loc = loc[0]
+  
+    mg_station = samples[a].split('_')[1]
+    if mg_station in station_locations:
+      mg_station = station_locations[mg_station]
+      sn = bc1+'_assembled_TARA_'+mg_station+'_RAW'
+      mg_coverage = coverage.loc[sn, 'Coverage']
+    else:
+      mg_coverage = 0
+      
+    sample = ra.loc[samples[a], :].values
+    heatmap = [sample[1], sample[0], mg_coverage, sample[2]]
+    s = 4
+    x, y = [loc[0]-s, loc[0], loc[0]-s, loc[0]], [loc[1]-s, loc[1]-s, loc[1], loc[1]]
+    for b in range(len(heatmap)):
+      if heatmap[b] < 0.1: color = m_01.to_rgba(heatmap[b])
+      elif heatmap[b] < 0.5: color = m_05.to_rgba(heatmap[b])
+      else: color = m_5.to_rgba(heatmap[b])
+      ax1.bar(x[b], height=s, bottom=y[b], color=color, edgecolor='k', width=s)
+  
+  s=6
+  loc = [130, -55]    
+  x, y = [loc[0]-s, loc[0], loc[0]-s, loc[0]], [loc[1]-s, loc[1]-s, loc[1], loc[1]]
+  for b in range(4):
+    ax1.bar(x[b], height=s, bottom=y[b], color='w', edgecolor='k', width=s)
+  
+  ax1.text(x[0]-(s/2)-2, y[0]+(s/2), '>95% identity', ha='right', va='center')
+  ax1.text(x[1]+(s/2)+2, y[1]+(s/2), '>90% identity', ha='left', va='center')
+  ax1.text(x[1]+(s/2)+2, y[2]+(s/2), '>97% identity', ha='left', va='center')
+  ax1.text(x[0]-(s/2)-2, y[3]+(s/2), 'Metagenome coverage', ha='right', va='center')
+  
+  plt.xticks([]), plt.yticks([])
+  plt.title(bc+' relative abundance in '+surfd1+' waters')
+  axins1 = inset_axes(ax1, width="20%", height="5%", loc='lower right', borderpad=4)
+  cb1 = mpl.colorbar.ColorbarBase(axins1, cmap=colormap, norm=norm_01, orientation='horizontal')
+  plt.sca(axins1)
+  plt.xticks([0, 0.1, 0.2, 0.3], [0, 0.1, 0.5, 3])
+  plt.xlabel('%')
+```
+
+## Bacillus sp. BHET2 genome surface 16S
+
+```{python}
+relabun = pd.DataFrame(bacillus_genome)
+bac, bac1, sg, sd, sd1 = '$Bacillus$ sp. BHET2', 'Bacillus', 'genome', 'SRF', 'surface'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+## Bacillus sp. BHET2 genome deep 16S
+
+```{python}
+relabun = pd.DataFrame(bacillus_genome)
+bac, bac1, sg, sd, sd1 = '$Bacillus$ sp. BHET2', 'Bacillus', 'genome', 'DCM', 'deep'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+relabun.to_csv(folder+'bacillus_relabun.csv')
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+## Bacillus sp. BHET2 sanger surface 16S
+
+```{python}
+relabun = pd.DataFrame(bacillus_sanger)
+bac, bac1, sg, sd, sd1 = '$Bacillus$ sp. BHET2', 'Bacillus', 'sanger', 'SRF', 'surface'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+
+## Bacillus sp. BHET2 sanger deep 16S
+
+```{python}
+relabun = pd.DataFrame(bacillus_sanger)
+bac, bac1, sg, sd, sd1 = '$Bacillus$ sp. BHET2', 'Bacillus', 'sanger', 'DCM', 'deep'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+
+## Thioclava sp. BHET1 genome surface 16S
+
+```{python}
+relabun = pd.DataFrame(thioclava_genome)
+bac, bac1, sg, sd, sd1 = '$Thioclava$ sp. BHET1', 'Thioclava', 'genome', 'SRF', 'surface'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+relabun.to_csv(folder+'thioclava_relabun.csv')
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+## Thioclava sp. BHET1 genome deep 16S
+
+```{python}
+relabun = pd.DataFrame(thioclava_genome)
+bac, bac1, sg, sd, sd1 = '$Thioclava$ sp. BHET1', 'Thioclava', 'genome', 'DCM', 'deep'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+## Thioclava sp. BHET1 sanger surface 16S
+
+```{python}
+relabun = pd.DataFrame(thioclava_sanger)
+bac, bac1, sg, sd, sd1 = '$Thioclava$ sp. BHET1', 'Thioclava', 'sanger', 'SRF', 'surface'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+## Thioclava sp. BHET1 sanger deep 16S
+
+```{python}
+relabun = pd.DataFrame(thioclava_sanger)
+bac, bac1, sg, sd, sd1 = '$Thioclava$ sp. BHET1', 'Thioclava', 'sanger', 'DCM', 'deep'
+get_plot(relabun, bac, bac1, sg, sd, sd1)
+plt.show()
+# plt.savefig(folder+bac1+'_'+sg+'_'+sd1+'.png', bbox_inches='tight', dpi=600)
+```
+
+# Search plastisphere meta-analysis and plot data {.tabset}
+
+## Make BLAST databases and search sequences
+
+```{python, results='hide', fig.keep='all', eval=FALSE}
+cmd = 'makeblastdb -in '+folder3+'dna-sequences.fasta -dbtype nucl -out '+folder2+blast_db_folder+'plastisphere_ma'
+os.system(cmd)
+isolates = [bacillus_16S_sanger, bacillus_16S_genome, thioclava_16S_sanger, thioclava_16S_genome]
+names = ['bacillus_sanger_', 'bacillus_genome_', 'thioclava_sanger_', 'thioclava_genome_']
+folder_out = [blast_out+'bacillus/', blast_out+'bacillus/', blast_out+'thioclava/', blast_out+'thioclava/']
+
+for a in range(len(isolates)):
+  db_name = folder2+blast_db_folder+'plastisphere_ma'
+  query = folder+isolates[a]
+  out_fn = folder2+folder_out[a]+names[a]+'plastisphere_ma'+'.txt'
+  cmd = 'blastn -db '+db_name+' -query '+query+' -out '+out_fn+' -perc_identity 90 -outfmt 6 -max_target_seqs 20000'
+  os.system(cmd)
+```
+
+## Convert feature table to relative abundance
+
+Note that these files are zipped in the github folders and will need to be unzipped prior to use.
+```{python, results='hide', fig.keep='all', eval=FALSE}
+ft = pd.read_csv(folder3+'feature-table_w_tax.txt', header=1, index_col=0, sep='\t')
+ft = ft.drop(['taxonomy'], axis=1)
+ft = ft.divide(ft.sum(axis=0), axis=1).multiply(100)
+ft.to_csv(folder3+'feature_table_rel_abun.csv')
+```
+
+## Reduce the feature table
+
+To only ASVs identified in the BLAST searches and only marine samples:
+```{python, results='hide', fig.keep='all'}
+ft = pd.read_csv(folder3+'feature_table_rel_abun.csv', header=0, index_col=0)
+bacillus_matches = pd.read_csv(folder2+blast_out+'bacillus/'+'bacillus_genome_plastisphere_ma.txt', sep='\t', names=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore'])
+thioclava_matches = pd.read_csv(folder2+blast_out+'thioclava/'+'thioclava_genome_plastisphere_ma.txt', sep='\t', names=['qseqid', 'sseqid', 'pident', 'length', 'mismatch', 'gapopen', 'qstart', 'qend', 'sstart', 'send', 'evalue', 'bitscore'])
+all_asv = list(bacillus_matches.loc[:, 'sseqid'].values)+list(thioclava_matches.loc[:, 'sseqid'].values)
+
+ft = ft.loc[all_asv, :]
+md = pd.read_csv(folder3+'metadata.txt', header=0, index_col=0, sep='\t')
+keeping = []
+for sample in ft.columns:
+  if md.loc[sample, 'Environment'] == 'marine':
+    keeping.append(True)
+  else:
+    keeping.append(False)
+
+ft_marine = ft.loc[:, keeping]
+unique = []
+rename_ft_plastic = {}
+other = ['rubber', 'pla', 'san', 'phbv', 'epoxy', 'pa', 'polyester', 'organic', 'blank', 'sediment', 'positive']
+for sample in md.index.values:
+  if md.loc[sample, 'PlasticTypeSpecific'] in other:
+    rename_ft_plastic[sample] = 'other'
+    if 'other' not in unique:
+      unique.append('other')
+  else:
+    rename_ft_plastic[sample] = md.loc[sample, 'PlasticTypeSpecific']
+    if md.loc[sample, 'PlasticTypeSpecific'] not in unique:
+      unique.append(md.loc[sample, 'PlasticTypeSpecific'])
+```
+
+## Look at abundance in different sample types
+
+```{python, results='hide', fig.keep='all'}
+def get_plot(matches, ax, limit=97):
+  ft_plastic = ft_marine.rename(columns=rename_ft_plastic)
+  above = matches[matches.loc[:, 'pident'] > limit]
+  above_asv = list(above.loc[:, 'sseqid'].values)
+  ft_plastic_bac = ft_plastic.loc[above_asv, :]
+  plastic_bac_sum = pd.DataFrame(ft_plastic_bac.sum(axis=0)).transpose().rename(index={0:'Sum'})
+  groups = list(set(plastic_bac_sum.columns))
+  groups = ['other', 'water', 'not_plastic', 'plastic', 'pvc', 'ps', 'pp', 'pe', 'pet']
+  groups.reverse()
+  group_plots = []
+  for group in groups:
+    this_group = plastic_bac_sum.loc['Sum', group]
+    if not isinstance(this_group, float):
+      group_plots.append(plastic_bac_sum.loc['Sum', group].values)
+    else:
+      group_plots.append([this_group])
+  new_groups = ['Other', 'Water', 'Control biofilm', 'Unidentified plastic', 'PVC', 'PS', 'PP', 'PE', 'PET']
+  new_groups.reverse()
+  plt.sca(ax)
+  plt.boxplot(group_plots, labels=new_groups)
+  plt.xticks(rotation=90)
+  if ax == ax1:
+    plt.ylabel('Relative abundance (%)')
+  return
+```
+
+Plot in sample types:
+```{python, results='hide', fig.keep='all'}
+plt.figure(figsize=(10,5))
+ax1, ax2, ax3, ax4 = plt.subplot(141), plt.subplot(142), plt.subplot(143), plt.subplot(144)
+axes = [ax1, ax2, ax3, ax4]
+match = [thioclava_matches, thioclava_matches, bacillus_matches, bacillus_matches, bacillus_matches]
+limits = [97, 99, 97, 99]
+titles = ['$Thioclava$ sp. BHET1\n>97% identity', '$Thioclava$ sp. BHET1\n>99% identity', '$Bacillus$ sp. BHET2\n>97% identity', '$Bacillus$ sp. BHET2\n>99% identity']
+for a in range(len(axes)):
+  get_plot(match[a], axes[a], limit=limits[a])
+  plt.sca(axes[a])
+  # if a != 0:
+  #   plt.yticks([])
+  plt.title(titles[a])
+
+plt.tight_layout()
+plt.show()
+# plt.savefig(folder3+'Both abundance in plastics.png', dpi=600, bbox_inches='tight')
+```
+
+## Thioclava sp. BHET1 abundance in different plastic types
+
+```{python, results='hide', fig.keep='all'}
+def get_plot_scatter(matches, ax, limit=97):
+  ft_plastic = ft_marine.rename(columns=rename_ft_plastic)
+  above = matches[matches.loc[:, 'pident'] > limit]
+  above_asv = list(above.loc[:, 'sseqid'].values)
+  ft_plastic_bac = ft_plastic.loc[above_asv, :]
+  plastic_bac_sum = pd.DataFrame(ft_plastic_bac.sum(axis=0)).transpose().rename(index={0:'Sum'})
+  groups = list(set(plastic_bac_sum.columns))
+  groups = ['other', 'water', 'not_plastic', 'plastic', 'pvc', 'ps', 'pp', 'pe', 'pet']
+  groups.reverse()
+  group_plots = []
+  for group in groups:
+    this_group = plastic_bac_sum.loc['Sum', group]
+    if not isinstance(this_group, float):
+      group_plots.append(plastic_bac_sum.loc['Sum', group].values)
+    else:
+      group_plots.append([this_group])
+  new_groups = ['Other', 'Water', 'Control biofilm', 'Unidentified plastic', 'PVC', 'PS', 'PP', 'PE', 'PET']
+  new_groups.reverse()
+  plt.sca(ax)
+  x = []
+  for g in range(len(groups)):
+    x.append(g)
+    pltx = np.random.normal(g, scale=0.1, size=len(group_plots[g]))
+    # pltx = [g for x in range()]
+    plt.scatter(pltx, group_plots[g], alpha=0.2, s=15)
+    lq, uq = np.quantile(group_plots[g], 0.25), np.quantile(group_plots[g], 0.75)
+    quantiles = [[lq], [uq]]
+    plt.errorbar(g, np.mean(group_plots[g]), color='k', marker='o', capsize=2)
+  
+  # plt.boxplot(group_plots, labels=new_groups)
+  plt.xticks(x, new_groups, rotation=90)
+  if ax == ax1:
+    plt.ylabel('Relative abundance (%)')
+  return lq, uq
+  
+plt.figure(figsize=(3,10))
+ax1, ax2 = plt.subplot(211), plt.subplot(212)
+axes = [ax1, ax2]
+match = [thioclava_matches, thioclava_matches]
+limits = [99, 97]
+titles = ['>99% identity', '>97% identity']
+for a in range(len(axes)):
+  lq, uq = get_plot_scatter(match[a], axes[a], limit=limits[a])
+  print(lq, uq)
+  plt.sca(axes[a])
+  if a == 0:
+    plt.xticks([])
+  plt.ylabel('Relative abundance (%)')
+  axes[a].text(.5,.95,titles[a], ha='center', transform=axes[a].transAxes, fontsize=12)
+
+plt.tight_layout()
+plt.show()
+# plt.savefig(folder3+'Thioclava abundance in plastics.png', dpi=600, bbox_inches='tight')
+```
+
+## Bacillus sp. BHET2 abundance in different plastic types
+
+```{python, results='hide', fig.keep='all'}
+plt.figure(figsize=(3,10))
+ax1, ax2 = plt.subplot(211), plt.subplot(212)
+axes = [ax1, ax2]
+match = [bacillus_matches, bacillus_matches]
+limits = [99, 97]
+titles = ['>99% identity', '>97% identity']
+for a in range(len(axes)):
+  get_plot_scatter(match[a], axes[a], limit=limits[a])
+  plt.sca(axes[a])
+  if a == 0:
+    plt.xticks([])
+  plt.ylabel('Relative abundance (%)')
+  axes[a].text(.5,.95,titles[a], ha='center', transform=axes[a].transAxes, fontsize=12)
+
+plt.tight_layout()
+plt.show()
+# plt.savefig(folder3+'Bacillus abundance in plastics.png', dpi=600, bbox_inches='tight')
+```
+
+## Thioclava sp. BHET1 distribution in plastisphere samples
+Note that here samples are grouped to latitude/longitude multiples of 5. This can be changed by changing the r_base value.</br>
+</br>
+Map plotting function:
+```{python, results='hide', fig.keep='all'}
+def plot_map(matches, ax1=None, cmap='plasma', legend=True, r_base=5):
+  colormap = mpl.cm.get_cmap(cmap, 256)
+  norm_01 = mpl.colors.Normalize(vmin=0, vmax=0.3)
+  norm_05 = mpl.colors.Normalize(vmin=-0.3, vmax=0.9)
+  norm_5 = mpl.colors.Normalize(vmin=-2, vmax=3)
+  m_01 = mpl.cm.ScalarMappable(norm=norm_01, cmap=colormap)
+  m_05 = mpl.cm.ScalarMappable(norm=norm_05, cmap=colormap)
+  m_5 = mpl.cm.ScalarMappable(norm=norm_5, cmap=colormap)
+
+  if ax1 == None:
+    plt.figure(figsize=(16,16))
+    ax1 = plt.subplot2grid((3,1), (0,0), rowspan=2)
+  img = plt.imread(folder2+'world_map.jpg')
+  plt.sca(ax1)
+  ax1.imshow(img, extent=[-180, 180, -90, 90], alpha=0.3)
+  above_97 = matches[matches.loc[:, 'pident'] > 97]
+  above_asv_97 = list(above_97.loc[:, 'sseqid'].values)
+  above_99 = matches[matches.loc[:, 'pident'] > 99]
+  above_asv_99 = list(above_99.loc[:, 'sseqid'].values)
+  # ft_plastic = ft_marine.rename(columns=rename_ft_plastic)
+  # plastic_bac_sum = pd.DataFrame(ft_plastic_bac.sum(axis=0)).transpose().rename(index={0:'Sum'})
+  ft_bac_97 = ft_marine.loc[above_asv_97, :]
+  ft_bac_99 = ft_marine.loc[above_asv_99, :]
+  ft_bac_97 = pd.DataFrame(ft_bac_97.sum(axis=0)).transpose().rename(index={0:'Sum'})
+  ft_bac_99 = pd.DataFrame(ft_bac_99.sum(axis=0)).transpose().rename(index={0:'Sum'})
+  samples = ft_bac_97.columns
+  location = {}
+  for sample in samples:
+    #longitude = x axis, latitude = y axis
+    loc = md.loc[sample, ['Longitude', 'Latitude']]
+    for l in range(len(loc)):
+      loc[l] = r_base * round(loc[l]/r_base)
+    location[sample] = str(loc[0])+', '+str(loc[1])
+  ft_loc_97 = ft_bac_97.rename(columns=location)
+  ft_loc_99 = ft_bac_99.rename(columns=location)
+  ft_loc_97 = ft_loc_97.groupby(by=ft_loc_97.columns, axis=1).max()
+  ft_loc_99 = ft_loc_99.groupby(by=ft_loc_99.columns, axis=1).max()
+  locations = ft_loc_97.columns
+  
+  for loc in locations:
+    loc_string = str(loc)
+    loc = loc.split(',')
+    loc[0], loc[1] = int(loc[0]), int(loc[1])
+    r = 2.5
+    nums = [ft_loc_97.loc['Sum', loc_string], ft_loc_99.loc['Sum', loc_string]]
+    colors = []
+    print(nums)
+    for n in nums:
+      if n < 0.1: n = m_01.to_rgba(n)
+      elif n < 0.5: n = m_05.to_rgba(n)
+      else: n = m_5.to_rgba(n)
+      colors.append(n)
+    wedge1 = Wedge((loc[0], loc[1]), r, 90, -90, facecolor=colors[0], edgecolor='k')
+    wedge2 = Wedge((loc[0], loc[1]), r, -90, 90, facecolor=colors[1], edgecolor='k')
+    ax1.add_artist(wedge1)
+    ax1.add_artist(wedge2)
+  if legend:
+    s=4
+    loc = [140, 55]
+    wedge1 = Wedge((loc[0], loc[1]), s, 90, -90, facecolor='w', edgecolor='k')
+    wedge2 = Wedge((loc[0], loc[1]), s, -90, 90, facecolor='w', edgecolor='k')
+    ax1.add_artist(wedge1)
+    ax1.add_artist(wedge2)
+    ax1.text(loc[0]+5, loc[1], '>99% identity', ha='left', va='center')
+    ax1.text(loc[0]-5, loc[1], '>97% identity', ha='right', va='center')
+    axins1 = inset_axes(ax1, width="20%", height="5%", loc='upper right', borderpad=1)
+    cb1 = mpl.colorbar.ColorbarBase(axins1, cmap=colormap, norm=norm_01, orientation='horizontal')
+    plt.sca(axins1)
+    plt.xticks([0, 0.1, 0.2, 0.3], [0, 0.1, 0.5, 3])
+    plt.xlabel('Relative abundance (%)')
+  
+  plt.sca(ax1)
+  plt.xticks([]), plt.yticks([])
+  return
+```
+
+Distribution Thioclava:
+```{python, results='hide', fig.keep='all'}
+plot_map(thioclava_matches)
+plt.show()
+# plt.savefig(folder3+'Thioclava distribution.png', dpi=600, bbox_inches='tight')
+```
+
+## Bacillus sp. BHET2 distribution in plastisphere samples
+Note that here samples are grouped to latitude/longitude multiples of 5. This can be changed by changing the r_base value in the above function.</br>
+</br>
+Distribution Bacillus:
+```{python, results='hide', fig.keep='all'}
+plot_map(bacillus_matches)
+plt.show()
+# plt.savefig(folder3+'Bacillus distribution.png', dpi=600, bbox_inches='tight')
+```

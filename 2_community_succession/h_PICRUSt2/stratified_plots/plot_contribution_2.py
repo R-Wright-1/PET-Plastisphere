@@ -48,7 +48,7 @@ x = [0, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23,
 all_functions = []
 count = 0
 
-func_names = ['bph (K15750)', 'andAC (K16319)', 'catA (K03381)', 'catB (K01856)', 'HGD (K00451)', 'maiA (K01800)', 'FAH (K01555)', 'paaK (K01912)', 'paaA (K02609)', 'paaB (K02610)', 'paaC (K02611)', 'paaD (K02612)', 'paaE (K02613)', 'paaG (K15866)', 'paaZ (K02618)', 'paaK (K02615)', 'Monooxygenases', 'Dioxygenases']
+func_names = ['bph (K15750)', 'andAC (K16319)', 'catA (K03381)', 'catB (K01856)', 'HGD (K00451)', 'maiA (K01800)', 'FAH (K01555)', 'paaK (K01912)', 'paaA (K02609)', 'paaB (K02610)', 'paaC (K02611)', 'paaD (K02612)', 'paaE (K02613)', 'paaG (K15866)', 'paaZ (K02618)', 'paaJ (K02615)', 'Monooxygenases', 'Dioxygenases']
 
 plt.figure(figsize=(24.82,26.67))
 axes = []

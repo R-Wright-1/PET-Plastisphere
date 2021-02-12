@@ -1,0 +1,2 @@
+This is a placeholder and this folder should contain the fasta files for each samples downloaded from here: http://ocean-microbiome.embl.de/companion.html
+http://ocean-microbiome.embl.de/data/16SrRNA.miTAGs.tgz

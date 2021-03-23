@@ -1,0 +1,439 @@
+---
+title: "Add genes to PICRUSt2"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+---
+
+
+
+
+```python
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+import numpy as np
+import os
+import pandas as pd
+import math
+import matplotlib.pyplot as plt
+from scipy.cluster import hierarchy
+import matplotlib as mpl
+from matplotlib.lines import Line2D
+from matplotlib_venn import venn2
+from mpl_toolkits.axes_grid1.inset_locator import InsetPosition
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+import csv
+from matplotlib.patches import Patch
+from matplotlib import pyplot
+import pickle
+from scipy.spatial import distance
+from scipy import stats
+from sklearn import manifold
+from sklearn.decomposition import PCA
+from scipy.cluster import hierarchy
+import scipy.spatial.distance as ssd
+
+folder = '/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/2_community_succession/z_add_genes_to_picrust/'
+folder_results = '/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/2_community_succession/h_PICRUSt2/'
+```
+
+# Adding additional genes to PICRUSt2 {.tabset}
+
+In this study, I use [PICRUSt2](https://github.com/picrust/picrust2/wiki) to predict the metagenome content of all Plastisphere samples. As the default reference files that PICRUSt2 uses don't contain some of the genes for PET degradation (*e.g.* PETase), I have added these to the reference database. To do this, I downloaded all genomes that are included in PICRUSt2 (or as many as possible - not quite all are available), made an  HMM for the genes of interest (*i.e.* PETase, tphA, etc.) and then ran this HMM on all PICRUSt2 genomes. I then parse the output to determine how many copies of these genes each genome has, and add this as a column to the default PICRUSt2 reference file.
+
+## 
+
+## A. Get genome files 
+
+The PICRUSt2 genomes will need to be downloaded, decompressed and saved somewhere locally. They can be downloaded from [this Figshare file](https://doi.org/10.6084/m9.figshare.12233192). I performed all of the A/B/C sections on a server. I don't think this uses a huge amount of memory, so could theoretically be run on a laptop, but would take considerably longer.
+
+```bash
+wget https://ndownloader.figshare.com/files/22494503
+mv 22494503 JGI_PICRUSt_genomes.tar.bz2
+```
+
+To decompress:
+
+```bash
+tar -xf JGI_PICRUSt_genomes.tar.bz2
+```
+
+Unzip the ko.txt file:
+
+```bash
+gunzip ko.txt.gz
+```
+
+## B. Get additional packages and files
+
+- [Conda](https://docs.conda.io/projects/conda/en/latest/commands/install.html)
+- HMM:
+
+```bash
+conda install -c biocore hmmer
+```
+- Biopython:
+
+```bash
+conda install biopython
+```
+- The [default KEGG ortholog file](https://github.com/picrust/picrust2/blob/master/picrust2/default_files/prokaryotic/ko.txt.gz)
+
+## C. Make HMMs
+
+The HMMs that are currently shown in the HMM/ folder were made from the .fasta files in the 'hmms_to_make' folder. To make these of your own, you can follow these steps.
+
+**(I) Search for the top hits of the gene of interest in [uniprot](https://www.uniprot.org/)**<br/>
+**(II) Click on the genes that you want to include and follow the link for the genomic DNA translation**<br/>
+**(III) Combine all of the DNA sequences into one .fasta file (you can do this using a text editing software)**<br/>
+**(IV) Get a stockholm alignment of the .fasta file. We used https://www.ebi.ac.uk/Tools/msa/clustalo/ (select 'DNA' and the 'STOCKHOLM' alignment option)**<br/>
+**(V) Download this alignment and run: **
+
+```bash
+hmmbuild PETase_DNA.hmm PETase_DNA.sto
+```
+**(VI) Move the .hmm file to the 'hmms/' folder**
+
+## D. Run against the reference genomes
+
+**(I) Give the paths to the files that we are using, changing these if necessary:**
+
+```python
+picrust_seqs = 'JGI_PICRUSt_genomes.fasta'
+hmms = os.listdir(os.getcwd()+'/hmms/')
+ko = 'ko.txt'
+```
+
+**(II) Open these files and set up the directories that we will save things to:**
+
+```python
+#os.system('gunzip '+ko+'.gz')
+try: os.mkdir('hmms_out')
+except: didnt_make = True
+ko_data = pd.read_csv(ko, header=0, index_col=0, sep='\t')
+```
+
+**(III) Perform the HMM searches of the PICRUSt2 sequences using your HMMs (this will take a while to run):**</br>
+Note that the default thresholds will be used here for inclusion unless you set these. You can find out more information on setting these by using `nhmmer --help`.
+
+```python
+for hmm in hmms:
+    os.system('nhmmer hmms/'+hmm+' '+picrust_seqs+' > hmms_out/'+hmm[:-4]+'.out')
+```
+You can open any of the files in the hmms_out folder if you want to check whether you have any hits that are above the inclusion threshold (and whether this fits what you would have expected)
+
+**(IV) Now take the information from these HMMs and add this to the PICRUSt2 KEGG ortholog information that we already have (this is a bit tedious as the HMM.out files don't use tabs between columns or anything that we could use to separate them, so we just have to read them in as text files and look at each character...)**
+
+```python
+hmms_out = os.listdir(os.getcwd()+'/hmms_out')
+main_dir = os.getcwd()
+genomes = list(ko_data.index.values)
+genomes = [str(genomes[i]).replace('-cluster', '') for i in range(len(genomes))]
+for hmm in hmms_out:
+    included_genomes = []
+    with open(main_dir+'/hmms_out/'+hmm, 'rU') as f:
+        contents = f.read()
+    row, rows = '', []
+    for a in range(len(contents)-1):
+        if contents[a:a+1] == '\n':
+            if row == '  ------ inclusion threshold ------':
+                break
+            rows.append(row)
+            row = ''
+        else:
+            row += contents[a]
+    after_start, other_count = False, 0
+    for r in range(len(rows)):
+        if after_start:
+            block = 0
+            this_genome = ''
+            for b in range(1, len(rows[r])):
+                if rows[r][b-1] == ' ' and rows[r][b] != ' ':
+                    block += 1
+                if block == 4 and rows[r][b] != ' ':
+                    this_genome += rows[r][b]
+            if this_genome != '':
+                included_genomes.append(this_genome)
+        count = 0
+        for a in range(len(rows[r])):
+            if rows[r][a] == '-':
+                count += 1
+            if count > 40:
+                after_start = True
+                continue
+    for a in range(len(included_genomes)):
+        if included_genomes[a][-11:] == 'Description':
+            included_genomes[a] = included_genomes[a][:-11]
+    this_col = []
+    for g in genomes:
+        c1 = included_genomes.count(g)
+        c2 = included_genomes.count(g[:-8])
+        this_col.append(c1+c2)
+    ko_data[hmm[:-4]] = this_col
+ko_data.to_csv('ko_all.txt', sep='\t')
+```
+
+You can now check the ko_all.txt file, but there should be new columns titled with your HMM names and counts of how many times these genes are in each of your genomes in the rows.
+
+Run PICRUSt2:
+
+```bash
+picrust2_pipeline.py -s seqs.fna -i feature_table.txt -o picrust_out --custom_trait_tables ko_all.txt --stratified --no_pathways
+```
+
+# Looking at the abundance of these genes in the genomes {.tabset}
+
+## Get list of accession
+
+
+```python
+ko = pd.read_csv(folder+'ko.txt', header=0, index_col=0, sep='\t')
+```
+
+```python
+cols = ko.columns
+ko['PETase'] = 0
+ko['E-value'] = 0
+ko['Bit score'] = 0
+ko = ko.drop(cols, axis=1)
+```
+
+I then saved just the PETases that are above the inclusion threshold as a .csv file, turning the data in the rows into columns using the excel 'data to columns' option.
+
+## Get PETase results as well as ASVs predicted to have PETases
+
+Note that we set the E-value of the PETases in ASVs to be 0.01 - the highest possible, as they don't actually have an E value but we want to be able to plot the E value later.</br>
+
+
+```python
+ko_genomes = list(ko.index.values)
+petase = pd.read_csv(folder+'petase_out.csv', header=0, index_col=3).drop(['bias', 'start', 'end', 'Description'], axis=1)
+new_petase = []
+genomes = list(set(petase.index.values))
+for genome in genomes:
+  genome_return = petase.loc[genome, :].values
+  if isinstance(genome_return[0], float):
+    genome_return = list(genome_return)
+    genome_return.append(1)
+    new_petase.append(genome_return)
+  else:
+    evals, scores = [], []
+    for b in range(len(genome_return)):
+      evals.append(genome_return[b][0])
+      scores.append(genome_return[b][1])
+    new_petase.append([evals, scores, len(evals)])
+new_petase = pd.DataFrame(new_petase, index=genomes, columns=['E-value', 'score', 'PETase'])
+
+rename = {}
+for genome in ko_genomes:
+  if isinstance(genome, str):
+    if 'cluster' in genome:
+      rename[genome.split('-')[0]] = genome
+  else:
+    rename[genome] = str(genome)
+new_petase = new_petase.rename(index=rename)
+
+petase_asv = pd.read_csv(folder_results+'picrust_out/ko_all_predicted_highest.csv', header=0, index_col=0)
+petase_asv = petase_asv.drop(['pcaG', 'pcaH', 'tphA2', 'tphA3', 'tphB'], axis=1)
+petase_asv = petase_asv[petase_asv.loc[:, 'PETase'] > 0]
+
+combine_petase = pd.concat([new_petase, petase_asv]).fillna(0.01)
+```
+
+## Make tree with 16S sequences of genomes and ASVs containing PETases
+
+Rename dataframes based on the sequences in the fasta file (i.e. make sure that '-cluster' on the end of JGI genome ID's isn't stopping the sequences from matching):
+
+```python
+interest = list(combine_petase.index.values)
+seq_folder = folder_results+'picrust_out/intermediate/place_seqs/'
+interest = [str(genome) for genome in interest]
+
+# new_seqs = []
+# ids = []
+rename = {}
+#go through the reference sequences and add them to new sequences if the ID's match
+for record in SeqIO.parse(seq_folder+"ref_seqs_hmmalign.fasta", "fasta"):
+    # if record.id in interest:
+    #   new_seqs.append(record)
+    #   ids.append(str(record.id))
+    # elif record.id.split('-')[0] in interest:
+    #   new_seqs.append(record)
+    #   rename[record.id.split('-')[0]] = record.id
+    if record.id.split('-')[0] in interest:
+      rename[record.id.split('-')[0]] = record.id
+
+# #go through the study sequences and add them to new sequences if the ID's match
+# for record in SeqIO.parse(seq_folder+"study_seqs_hmmalign.fasta", "fasta"):
+#     if record.id in interest:
+#       new_seqs.append(record)
+#       ids.append(str(record.id))
+#  
+# #rename the dataframe (they weren't all strings before and therefore didn't add properly)     
+# ko_genomes = [str(genome) for genome in ko_genomes]
+
+combine_petase.index = combine_petase.index.map(str)
+combine_petase = combine_petase.rename(index=rename)
+petase_only = pd.DataFrame(combine_petase.loc[:, 'PETase']).reset_index()
+
+# #now turn the sequences back into just sequences and not alignments
+# for r in range(len(new_seqs)):
+#   record = new_seqs[r]
+#   seq = str(record.seq)
+#   seq = seq.replace('-', '')
+#   new_seqs[r].seq = Seq(seq)
+# 
+# #write the new file
+# SeqIO.write(new_seqs, seq_folder+'sequences_of_interest.fasta', "fasta")
+```
+
+Combine dataframes:
+
+```python
+petase_eval = pd.DataFrame(combine_petase.loc[:, 'E-value'])
+petase_eval['E-value 1'] = 0.01
+petase_eval['E-value 2'] = 0.01
+petase_eval['E-value others'] = 0.01
+for row in petase_eval.index.values:
+  if isinstance(petase_eval.loc[row, 'E-value'], float):
+    petase_eval.loc[row, 'E-value 1'] = petase_eval.loc[row, 'E-value']
+  elif isinstance(petase_eval.loc[row, 'E-value'], int):
+    petase_eval.loc[row, 'E-value 1'] = petase_eval.loc[row, 'E-value']
+  else:
+    petase_eval.loc[row, 'E-value 1'] = petase_eval.loc[row, 'E-value'][0]
+    petase_eval.loc[row, 'E-value 2'] = petase_eval.loc[row, 'E-value'][1]
+    if len(petase_eval.loc[row, 'E-value']) > 2:
+      petase_eval.loc[row, 'E-value others'] = np.mean(petase_eval.loc[row, 'E-value'][2:])
+
+petase_eval = petase_eval.drop('E-value', axis=1).reset_index()
+petase_eval.to_csv(folder+'PETase_E-values.csv')
+```
+
+Plot tree:
+
+```r
+asv = py$petase_eval
+asv_table = as.matrix(asv[,2:4])
+rownames(asv_table) = asv[,1]
+ASV = otu_table(asv_table, taxa_are_rows = TRUE)
+
+phy_tree <- read_tree(paste(py$folder_results, "picrust_out/out.tre", sep=''))
+
+physeq = phyloseq(ASV, phy_tree)
+
+pdf(file=paste(py$folder, 'tree.pdf', sep=''), height=50, width=15)
+plot_tree(physeq, color="Abundance", label.tips="taxa_names", text.size=2)
+dev.off()
+```
+
+```
+## pdf 
+##   2
+```
+
+```r
+plot_tree(physeq, color="Abundance", label.tips="taxa_names", text.size=2)
+```
+
+![](Add-to-picrust2_files/figure-latex/unnamed-chunk-18-1.pdf)<!-- --> 
+
+## Calculate ASV distances to genomes containing PETases
+
+
+```r
+# tree <- read_tree(paste(py$folder_results, "picrust_out/intermediate/place_seqs/tree.nwk", sep=''))
+tree = phy_tree(physeq)
+PatristicDistMatrix<-cophenetic.phylo(tree)
+write.table(PatristicDistMatrix,file=paste(py$folder, "ASV_distance_nwk.csv", sep=''))
+```
+
+## Get smallest distances
+
+
+```python
+petase_eval = pd.read_csv(folder+'PETase_E-values.csv', header=0, index_col=1)
+petase_eval.index = petase_eval.index.map(str)
+asvs, genomes = [], []
+for ids in petase_eval.index.values:
+  if 'ASV' in ids:
+    asvs.append(ids)
+  else:
+    genomes.append(ids)
+
+asv_min = []
+distances = pd.read_csv(folder+"ASV_distance_nwk.csv", header=0, index_col=0, sep=' ')
+distances = distances.loc[asvs+genomes, asvs+genomes]
+# # distances.to_csv(folder+"ASV_distance_reduced.csv")
+# # distances = pd.read_csv(folder+"ASV_distance_reduced.csv", header=0, index_col=0)
+for asv in asvs:
+  genome_distances = list(distances.loc[asv, genomes])
+  minimum = genomes[genome_distances.index(min(genome_distances))]
+  evals = list(petase_eval.loc[minimum, :])
+  copies = [combine_petase.loc[minimum, 'PETase']]
+  this_asv_min = [minimum, min(genome_distances)]+evals[1:]+copies
+  asv_min.append(this_asv_min)
+
+min_asv_df = pd.DataFrame(asv_min, index=asvs, columns=['Genome match', 'Distance', 'E-value 1', 'E-value 2', 'E-value others', 'PETase copies'])
+min_asv_df.to_csv(folder+'ASV_minimum_distances.csv')
+```
+
+## Get genomes from fasta of all genomes (server)
+
+
+```python
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
+from Bio.Seq import Seq
+
+all_genomes = SeqIO.parse('JGI_PICRUSt_genomes.fasta', "fasta")
+to_get = ['2563366573', '2619619033', '2663762721', '2663762778', '2695420928', '2739368068', '2740892159']
+to_get = set(to_get)
+for genome in all_genomes:
+  for gid in to_get:
+    if gid in genome.id:
+      print(gid)
+      SeqIO.write([genome], gid+'.fasta', "fasta")
+```
+
+## Get PETase sequences
+
+
+```python
+seqs = {'2563366573':[[1685476, 1685267], [1681063, 1680611]], 
+        '2619619033':[[593571, 592795], [6130434, 6129673], [334139, 333366]], 
+        '2663762721':[[1031902, 1032679], [2965294, 2964535]],
+        '2663762778':[[2537917, 2538713], [844882, 844469]],
+        '2695420928':[[2193335, 2193108]],
+        '2739368068':[[1965771, 1966572]],
+        '2740892159':[[2855093, 2854669], [2854022, 2853636], [4695146, 4695512], [5104523, 5104320], [2855945, 2855742]]}
+genomes = os.listdir(folder+'genome_matches/')
+
+all_seqs, rows = [], []
+for seq in seqs:
+  fn = seq+'.txt'
+  if fn not in genomes: continue
+  sequence = ''
+  with open(folder+'genome_matches/'+fn, 'rU') as f:
+    for row in f.read():
+      sequence += row.replace('\n', '')
+  new_seqs = []
+  for sl in seqs[seq]:
+    if sl[0] > sl[1]:
+      new_sl = [sl[1], sl[0]]
+      sl = new_sl
+      add_seq = '(RC) '+sequence[sl[0]:sl[1]]
+    else:
+      add_seq = sequence[sl[0]:sl[1]]
+    new_seqs.append(add_seq)
+  all_seqs.append(new_seqs)
+  rows.append(seq)
+
+seq_df = pd.DataFrame(all_seqs, index=rows, columns=['PETase1', 'PETase2', 'PETase3', 'PETase4', 'PETase5'])
+seq_df.to_csv(folder+'PETase_sequences.csv')
+```
+

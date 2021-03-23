@@ -1,0 +1,47 @@
+/home/robyn/tools/quast-5.0.2/quast.py --threads 12 --colors #E31A1C --ls solid --no-check-meta --contig-thresholds 1000,5000,10000,25000,50000 -t 12 /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/quast_corrected_input/TARA_PON_RAW_not_aligned_anywhere.fasta -o /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned --labels TARA_PON_RAW
+
+Started: 2021-02-08 14:05:55
+
+Logging to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/quast.log
+
+CWD: /home/robyn/PET
+Main parameters: 
+  MODE: meta, threads: 12, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/quast_corrected_input/TARA_PON_RAW_not_aligned_anywhere.fasta ==> TARA_PON_RAW
+
+2021-02-08 14:07:54
+Running Basic statistics processor...
+  Contig files: 
+    TARA_PON_RAW
+  Calculating N50 and L50...
+    TARA_PON_RAW, N50 = 2072, L50 = 402255, Total length = 3411212035, GC % = 39.33, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/basic_stats/GC_content_plot.pdf
+  Drawing TARA_PON_RAW GC content plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/basic_stats/TARA_PON_RAW_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-02-08 14:10:55
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-02-08 14:11:48
+RESULTS:
+  Text versions of total report are saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/report.html
+  PDF version (tables and plots) is saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/report.pdf
+  Icarus (contig browser) is saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_PON_RAW/not_aligned/icarus.html

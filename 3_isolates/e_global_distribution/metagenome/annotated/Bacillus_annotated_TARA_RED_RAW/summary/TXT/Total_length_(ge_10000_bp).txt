@@ -1,0 +1,2 @@
+Assemblies          TARA_RED_RAW
+Bacillus_annotated  709256      

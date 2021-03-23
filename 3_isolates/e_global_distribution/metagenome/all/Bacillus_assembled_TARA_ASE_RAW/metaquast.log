@@ -1,0 +1,80 @@
+/home/robyn/tools/quast-5.0.2/metaquast.py TARA_assemblies/TARA_ASE_RAW.fa -r isolates/Bacillus_assembled.fasta --threads 12 -o quast_results/Bacillus_assembled_TARA_ASE_RAW
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-4.15.0-29-generic-x86_64-with-debian-stretch-sid (linux_64)
+  Python version: 3.7.6
+  CPUs number: 80
+
+Started: 2021-02-08 13:27:07
+
+Logging to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/metaquast.log
+
+Reference(s):
+  isolates/Bacillus_assembled.fasta ==> Bacillus_assembled
+  All references were combined in combined_reference.fasta
+
+Contigs:
+  Pre-processing...
+  TARA_assemblies/TARA_ASE_RAW.fa ==> TARA_ASE_RAW
+
+Starting quast.py for the combined reference...
+(logging to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/combined_reference/quast.log)
+
+Partitioning contigs into bins aligned to each reference..
+  processing TARA_ASE_RAW
+
+Starting quast.py for the contigs aligned to Bacillus_assembled... (logging to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/runs_per_reference/Bacillus_assembled/quast.log)
+
+Starting quast.py for the contigs not aligned anywhere... (logging to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/not_aligned/quast.log)
+
+2021-02-08 13:36:08
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/num_contigs.pdf
+  Drawing Largest contig metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Largest_contig.pdf
+  Drawing Total length metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Total_length.pdf
+  Drawing Largest alignment metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Largest_alignment.pdf
+  Drawing Total aligned length metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Total_aligned_length.pdf
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Total_length_(ge_1000_bp).pdf
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Total_length_(ge_10000_bp).pdf
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Total_length_(ge_50000_bp).pdf
+  Drawing # misassemblies metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/num_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for TARA_ASE_RAW...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/TARA_ASE_RAW_misassemblies.pdf
+  Drawing Misassembled contigs length metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Misassembled_contigs_length.pdf
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/num_mismatches_per_100_kbp.pdf
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/num_indels_per_100_kbp.pdf
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/num_Ns_per_100_kbp.pdf
+  Drawing Genome fraction (%) metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Genome_fraction.pdf
+  Drawing Duplication ratio metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/Duplication_ratio.pdf
+  Drawing NGA50 metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/PDF/NGA50.pdf
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/summary/
+  Icarus (contig browser) is saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/icarus.html
+  Extended version of HTML-report (for all references and assemblies) is saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/report.html
+
+MetaQUAST finished.
+  Log is saved to /home/robyn/PET/quast_results/Bacillus_assembled_TARA_ASE_RAW/metaquast.log
+
+Finished: 2021-02-08 13:36:12
+Elapsed time: 0:09:05.644529
+Total NOTICEs: 5; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

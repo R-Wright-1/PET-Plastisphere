@@ -1,0 +1,20 @@
+Assembly	TARA_RED_RAW
+# contigs (>= 1000 bp)	1039011
+# contigs (>= 5000 bp)	59685
+# contigs (>= 10000 bp)	17013
+# contigs (>= 25000 bp)	3372
+# contigs (>= 50000 bp)	974
+Total length (>= 1000 bp)	2352270145
+Total length (>= 5000 bp)	653562378
+Total length (>= 10000 bp)	366792493
+Total length (>= 25000 bp)	169410209
+Total length (>= 50000 bp)	88932670
+# contigs	1039011
+Largest contig	920255
+Total length	2352270145
+GC (%)	40.13
+N50	2413
+N75	1444
+L50	218634
+L75	542472
+# N's per 100 kbp	0.00

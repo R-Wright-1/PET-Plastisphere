@@ -1,0 +1,3 @@
+Assemblies          TARA_ASW_RAW
+Bacillus_annotated  136500      
+not_aligned         1970658388  

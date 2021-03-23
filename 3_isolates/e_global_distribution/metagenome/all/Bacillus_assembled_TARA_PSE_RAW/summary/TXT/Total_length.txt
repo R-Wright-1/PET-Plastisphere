@@ -1,0 +1,3 @@
+Assemblies          TARA_PSE_RAW
+Bacillus_assembled  213117      
+not_aligned         5520916900  

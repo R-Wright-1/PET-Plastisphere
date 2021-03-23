@@ -1,0 +1,22 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    TARA_IOS_RAW
+# contigs (>= 1000 bp)      1474913     
+# contigs (>= 5000 bp)      53467       
+# contigs (>= 10000 bp)     11762       
+# contigs (>= 25000 bp)     1591        
+# contigs (>= 50000 bp)     350         
+Total length (>= 1000 bp)   2862862331  
+Total length (>= 5000 bp)   493363177   
+Total length (>= 10000 bp)  217008190   
+Total length (>= 25000 bp)  73612244    
+Total length (>= 50000 bp)  32511567    
+# contigs                   1474913     
+Largest contig              584819      
+Total length                2862862331  
+GC (%)                      38.35       
+N50                         1933        
+N75                         1323        
+L50                         391429      
+L75                         846756      
+# N's per 100 kbp           0.00        

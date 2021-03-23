@@ -1,0 +1,40 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     TARA_MED_RAW
+# contigs (>= 1000 bp)       40          
+# contigs (>= 5000 bp)       3           
+# contigs (>= 10000 bp)      0           
+# contigs (>= 25000 bp)      0           
+# contigs (>= 50000 bp)      0           
+Total length (>= 1000 bp)    99876       
+Total length (>= 5000 bp)    16947       
+Total length (>= 10000 bp)   0           
+Total length (>= 25000 bp)   0           
+Total length (>= 50000 bp)   0           
+# contigs                    40          
+Largest contig               5751        
+Total length                 99876       
+Reference length             3561038     
+GC (%)                       48.26       
+Reference GC (%)             41.87       
+N50                          3025        
+N75                          2005        
+L50                          12          
+L75                          22          
+# misassemblies              0           
+# misassembled contigs       0           
+Misassembled contigs length  0           
+# local misassemblies        0           
+# scaffold gap ext. mis.     0           
+# scaffold gap loc. mis.     0           
+# unaligned mis. contigs     3           
+# unaligned contigs          3 + 37 part 
+Unaligned length             96140       
+Genome fraction (%)          0.033       
+Duplication ratio            3.193       
+# N's per 100 kbp            0.00        
+# mismatches per 100 kbp     9230.77     
+# indels per 100 kbp         0.00        
+Largest alignment            230         
+Total aligned length         3736        
+NGA50                        -           

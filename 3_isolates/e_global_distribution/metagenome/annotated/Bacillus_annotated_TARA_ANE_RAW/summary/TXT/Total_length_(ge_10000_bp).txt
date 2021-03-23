@@ -1,0 +1,2 @@
+Assemblies          TARA_ANE_RAW
+Bacillus_annotated  43563       

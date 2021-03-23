@@ -1,0 +1,3 @@
+Assemblies           TARA_MED_RAW
+Thioclava_assembled  107525      
+not_aligned          743739      

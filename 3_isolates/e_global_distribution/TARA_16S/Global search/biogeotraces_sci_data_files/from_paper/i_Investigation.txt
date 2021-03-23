@@ -1,0 +1,106 @@
+# Investigation File generated for Scientific Data with Investigation File Authoring Tool version 0.1.0 on 19/07/2018 - This metadata file is CC0
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	OMIT	NCBITaxon	GAZ	ENVO	UO	OBI	ERO	EFO	NCIT
+Term Source File	http://data.bioontology.org/ontologies/OMIT	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/GAZ	http://data.bioontology.org/ontologies/ENVO	http://data.bioontology.org/ontologies/UO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/ERO	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/NCIT
+Term Source Version	OBO 4.0-12122013-2338	2016AB	$Revision: 1.512 $	unknown	2014-08-18	2014-08-18	2013-08-02	2.97	17.06d
+Term Source Description	Ontology for MicroRNA Target	National Center for Biotechnology Information (NCBI) Organismal Classification	Gazetteer	Environment Ontology	Units of Measurement Ontology	Ontology for Biomedical Investigations	Eagle-I Research Resource Ontology	Experimental Factor Ontology	National Cancer Institute Thesaurus
+INVESTIGATION
+Investigation Identifier
+Investigation Title
+Investigation Description
+Investigation Submission Date
+Investigation Public Release Date
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person Mid Initials
+Investigation Person First Name
+Investigation Person Address
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Email
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	10.1038/sdata.2018.176
+Study Title	Marine microbial metagenomes sampled across space and time
+Study Submission Date	02/05/2018
+Study Public Release Date	04/09/2018
+Study Description	http://www.nature.com/articles/sdata2018176#abstract
+Study File Name	s_Biller_study.txt
+Comment[Subject Keywords]	///;///;///;//
+Comment[Manuscript Licence]	CC BY-4.0
+Comment[Experimental Metadata Licence]	CC0
+Comment[Supplementary Information File Name]	
+Comment[Supplementary Information File Type]	x-zip-compressed
+Comment[Supplementary Information File URL]	http://www.nature.com/articles/sdata2018176#supplementary-information
+Comment[Data Repository]	NCBI Sequence Read Archive;NCBI Sequence Read Archive
+Comment[Data Record Accession]	SRP110813;SRP109831
+Comment[Data Record URI]	http://identifiers.org/insdc.sra:SRP110813;http://identifiers.org/insdc.sra:SRP109831
+STUDY DESIGN DESCRIPTORS
+Study Design Type	biodiversity assessment objective	species comparison design
+Study Design Type Term Accession Number	OBI:0001969	OBI:0001310
+Study Design Type Term Source REF	OBI	OBI
+STUDY PUBLICATIONS
+Study PubMed ID	""	""	""
+Study Publication DOI	doi:10.5670/oceanog.2014.07	doi:10.1038/nrmicro3333	doi:10.1016/S0967-0645(00)00148-X
+Study Publication Author List	""	""	""
+Study Publication Title	GEOTRACES: Changing the Way We Explore Ocean Chemistry	Microbial oceanography and the Hawaii Ocean Time-series programme	Overview of the US JGOFS Bermuda Atlantic Time-series Study (BATS): a decade-scale look at ocean biology and biogeochemistry
+Study Publication Status	published	published	published
+Study Publication Status Term Accession Number			
+Study Publication Status Term Source REF			
+STUDY FACTORS
+Study Factor Name	project	collection time
+Study Factor Type	geographic location	temporal_instant
+Study Factor Type Term Accession Number	GAZ:00000448	http://www.ifomis.org/bfo/1.1/span#TemporalInstant
+Study Factor Type Term Source REF	OBI	ERO
+STUDY ASSAYS
+Study Assay Measurement Type	DNA sequencing
+Study Assay Measurement Type Term Accession Number	OBI:0000626
+Study Assay Measurement Type Term Source REF	ERO
+Study Assay Technology Type	high throughput sample analysis
+Study Assay Technology Type Term Accession Number	ERO:0000696
+Study Assay Technology Type Term Source REF	ERO
+Study Assay Technology Platform	Illumina NextEra XT kit
+Study Assay File Name	a_Biller_assay.txt
+STUDY PROTOCOLS
+Study Protocol Name	Sample collection	DNA extraction	Shotgun sequencing	Taxonomic characterisation	Metagenome assembly
+Study Protocol Type	collection of material	DNA extraction	next generation DNA sequencing	Characterization	Assembly
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0005066	OBI:0000257	ERO:0001183	NCIT:C62606	http://www.ebi.ac.uk/swo/SWO_0000094
+Study Protocol Type Term Source REF	EFO	ERO	ERO	NCIT	ERO
+Study Protocol Description					
+Study Protocol URI	""	""	""	""	""
+Study Protocol Version					
+Study Protocol Parameters Name	""	""	instrument; manufacturer	""	""
+Study Protocol Parameters Name Term Accession Number	""	""	""	""	""
+Study Protocol Parameters Name Term Source REF	""	""	""	""	""
+Study Protocol Components Name	""	""	""	""	""
+Study Protocol Components Type	""	""	""	""	""
+Study Protocol Components Type Term Accession Number	""	""	""	""	""
+Study Protocol Components Type Term Source REF	""	""	""	""	""
+STUDY CONTACTS
+Study Person Last Name	Biller	Berube	Dooley	Williams	Satinsky	Hackl	Hogle	Coe	Bergauer	Bouman	Browning	De Corte	Hassler	Hulston	Jacquot	Maas	Reinthaler	Sintes	Yokokawa	Chisholm
+Study Person First Name	Steven J.	Paul M.	Keven	Madeline	Brandon M.	Thomas	Shane L.	Allison	Kristin	Heather A.	Thomas J.	Daniele	Christel	Debbie	Jeremy E.	Elizabeth W.	Thomas	Eva	Taichi	Sallie W.
+Study Person Mid Initials																				
+Study Person Email	sbiller@wellesley.edu	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	""	chisholm@mit.edu
+Study Person Phone																				
+Study Person Fax																				
+Study Person Address																				
+Study Person Affiliation	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA	Department of Limnology and Bio-Oceanography, University of Vienna, Vienna 1090, Austria	Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK	Marine Biogeochemistry Division, GEOMAR Helmholtz Centre for Ocean Research, Kiel 24148, Germany	Research and Development Center for Marine Biosciences, Japan Agency for Marine-Earth Science and Technology, Yokosuka 237-0061, Japan	Department F.-A. Forel for Environmental and Aquatic Sciences, University of Geneva, Geneva 1211, Switzerland	National Institute of Water and Atmospheric Research, Auckland 1010, New Zealand	Department of Biological Sciences, University of Southern California, Los Angeles, CA 90089, USA	Ministry for Primary Industries, Napier 4144, New Zealand	Department of Limnology and Bio-Oceanography, University of Vienna, Vienna 1090, Austria	Department of Limnology and Bio-Oceanography, University of Vienna, Vienna 1090, Austria	Research and Development Center for Marine Biosciences, Japan Agency for Marine-Earth Science and Technology, Yokosuka 237-0061, Japan	Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
+Study Person Roles																				
+Study Person Roles Term Accession Number																				
+Study Person Roles Term Source REF																				
+Comment[Study Person ORCID]	0000-0002-2638-823X	0000-0001-5598-6602				0000-0003-2595-3863					0000-0002-2864-6087						0000-0003-3881-3122	0000-0002-7408-5647		
+Comment[Funder]																				
+Comment[FundRef ID]																				
+Comment[Funder Term Source REF]																				
+Comment[Grant Identifier]																				

@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       TARA_IOS_RAW
+# fully unaligned contigs      1474881     
+Fully unaligned length         2862386851  
+# partially unaligned contigs  390         
+Partially unaligned length     2076767     
+# N's                          0           

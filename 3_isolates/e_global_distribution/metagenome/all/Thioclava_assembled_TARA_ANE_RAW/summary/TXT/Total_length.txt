@@ -1,0 +1,3 @@
+Assemblies           TARA_ANE_RAW
+Thioclava_assembled  2263390     
+not_aligned          2892649823  

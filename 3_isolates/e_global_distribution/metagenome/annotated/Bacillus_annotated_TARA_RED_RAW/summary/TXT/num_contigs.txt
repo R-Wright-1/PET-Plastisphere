@@ -1,0 +1,3 @@
+Assemblies          TARA_RED_RAW
+Bacillus_annotated  42          
+not_aligned         1039011     

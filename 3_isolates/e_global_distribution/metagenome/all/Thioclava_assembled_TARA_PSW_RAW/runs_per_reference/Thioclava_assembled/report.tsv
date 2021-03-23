@@ -1,0 +1,40 @@
+Assembly	TARA_PSW_RAW
+# contigs (>= 1000 bp)	387
+# contigs (>= 5000 bp)	96
+# contigs (>= 10000 bp)	53
+# contigs (>= 25000 bp)	36
+# contigs (>= 50000 bp)	15
+Total length (>= 1000 bp)	3868949
+Total length (>= 5000 bp)	3279405
+Total length (>= 10000 bp)	2997829
+Total length (>= 25000 bp)	2704483
+Total length (>= 50000 bp)	1996739
+# contigs	387
+Largest contig	729901
+Total length	3868949
+Reference length	7658814
+GC (%)	54.49
+Reference GC (%)	63.29
+N50	54008
+NG50	1094
+N75	15846
+L50	14
+LG50	350
+L75	46
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	4
+# unaligned contigs	19 + 368 part
+Unaligned length	3837278
+Genome fraction (%)	0.105
+Duplication ratio	3.943
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	7993.03
+# indels per 100 kbp	149.40
+Largest alignment	427
+Total aligned length	31671
+NGA50	-

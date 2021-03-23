@@ -1,0 +1,101 @@
+/home/robyn/tools/quast-5.0.2/quast.py --threads 12 --combined-ref --colors #E31A1C --ls solid --ambiguity-usage all TARA_assemblies/TARA_ION_RAW.fa -R /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/quast_corrected_input/combined_reference.fasta -o /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference --labels TARA_ION_RAW
+
+Started: 2021-02-08 16:42:58
+
+Logging to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/quast.log
+
+CWD: /home/robyn/PET
+Main parameters: 
+  MODE: meta, threads: 12, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: all, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/quast_corrected_input/combined_reference.fasta ==> combined_reference
+
+Contigs:
+  Pre-processing...
+  TARA_assemblies/TARA_ION_RAW.fa ==> TARA_ION_RAW
+
+2021-02-08 16:45:42
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta, length = 7658814, num fragments = 2890, GC % = 63.29
+WARNING:   Reference genome is fragmented. You may consider rerunning QUAST using --fragmented option. QUAST will try to detect misassemblies caused by the fragmentation and mark them fake (will be excluded from # misassemblies).
+  Contig files: 
+    TARA_ION_RAW
+  Calculating N50 and L50...
+    TARA_ION_RAW, N50 = 2043, L50 = 406812, Total length = 3246736749, GC % = 36.83, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/basic_stats/GC_content_plot.pdf
+  Drawing TARA_ION_RAW GC content plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/basic_stats/TARA_ION_RAW_GC_content_plot.pdf
+Done.
+
+2021-02-08 16:49:38
+Running Contig analyzer...
+  TARA_ION_RAW
+  Logging to files /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/contigs_report_TARA_ION_RAW.stdout and contigs_report_TARA_ION_RAW.stderr...
+  Aligning contigs to the reference
+  /home/robyn/tools/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm10 -B5 -O4,16 \
+  --no-long-join -r 85 -N 100 -s 65 -z 200 --mask-level 1 --min-occ 200 -g 2500 --score-N \
+  2 --cs -t 12 quast_results/Thioclava_assembled_TARA_ION_RAW/quast_corrected_input/combined_reference.fasta \
+  quast_results/Thioclava_assembled_TARA_ION_RAW/quast_corrected_input/TARA_ION_RAW.fa \
+  > quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/minimap_output/TARA_ION_RAW.coords_tmp \
+  2>> quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/contigs_report_TARA_ION_RAW.stderr
+  Alignments: quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/alignments_TARA_ION_RAW.tsv
+  Analysis is finished.
+
+  Information about interspecies translocations by references for TARA_ION_RAW is saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/interspecies_translocations_by_refs_TARA_ION_RAW.info
+  Drawing Intergenomic misassemblies (found and supposed) metaQUAST summary plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/intergenomic_misassemblies.pdf
+  Creating total report...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2021-02-08 16:51:37
+Running NA-NGA calculation...
+  TARA_ION_RAW, Largest alignment = 159, NA50 = None, LA50 = None
+  Drawing cumulative plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/aligned_stats/NAx_plot.pdf
+Done.
+
+2021-02-08 16:52:33
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  TARA_ION_RAW
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-02-08 16:53:34
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-02-08 16:54:01
+RESULTS:
+  Text versions of total report are saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/report.html
+  PDF version (tables and plots) is saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/report.pdf
+  Icarus (contig browser) is saved to /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ION_RAW/combined_reference/icarus.html

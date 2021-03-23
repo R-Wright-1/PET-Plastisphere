@@ -1,0 +1,14 @@
+[M::mm_idx_gen::0.273*1.30] collected minimizers
+[M::mm_idx_gen::0.307*1.92] sorted minimizers
+[M::main::0.307*1.92] loaded/built the index for 2890 target sequence(s)
+[M::mm_mapopt_update::0.327*1.87] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 2890
+[M::mm_idx_stat::0.338*1.84] distinct minimizers: 752768 (99.47% are singletons); average occurrences: 1.007; average spacing: 10.107
+[M::worker_pipeline::3.586*5.82] mapped 226161 sequences
+[M::worker_pipeline::5.927*7.01] mapped 225663 sequences
+[M::worker_pipeline::7.478*7.96] mapped 227479 sequences
+[M::worker_pipeline::9.569*8.49] mapped 228745 sequences
+[M::worker_pipeline::10.785*8.76] mapped 216765 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /home/robyn/tools/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 100 -s 65 -z 200 --mask-level 1 --min-occ 200 -g 2500 --score-N 2 --cs -t 12 /home/robyn/PET/quast_results/Thioclava_assembled_TARA_PSW_RAW/quast_corrected_input/combined_reference.fasta /home/robyn/PET/quast_results/Thioclava_assembled_TARA_PSW_RAW/combined_reference/../quast_corrected_input/TARA_PSW_RAW.fa
+[M::main] Real time: 10.809 sec; CPU: 94.477 sec

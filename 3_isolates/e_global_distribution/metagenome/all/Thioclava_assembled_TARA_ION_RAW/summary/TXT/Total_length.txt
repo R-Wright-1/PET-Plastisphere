@@ -1,0 +1,3 @@
+Assemblies           TARA_ION_RAW
+Thioclava_assembled  1942203     
+not_aligned          3244794546  

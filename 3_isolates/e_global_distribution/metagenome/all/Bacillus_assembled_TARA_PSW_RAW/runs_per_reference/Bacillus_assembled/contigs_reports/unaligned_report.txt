@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       TARA_PSW_RAW
+# fully unaligned contigs      13          
+Fully unaligned length         252135      
+# partially unaligned contigs  46          
+Partially unaligned length     190937      
+# N's                          0           

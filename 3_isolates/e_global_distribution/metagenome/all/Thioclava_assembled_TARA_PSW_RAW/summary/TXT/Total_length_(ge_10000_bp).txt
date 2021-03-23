@@ -1,0 +1,2 @@
+Assemblies           TARA_PSW_RAW
+Thioclava_assembled  2997829     

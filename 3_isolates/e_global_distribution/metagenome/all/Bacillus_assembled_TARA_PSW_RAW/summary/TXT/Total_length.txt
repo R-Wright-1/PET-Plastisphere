@@ -1,0 +1,3 @@
+Assemblies          TARA_PSW_RAW
+Bacillus_assembled  448757      
+not_aligned         2467520009  

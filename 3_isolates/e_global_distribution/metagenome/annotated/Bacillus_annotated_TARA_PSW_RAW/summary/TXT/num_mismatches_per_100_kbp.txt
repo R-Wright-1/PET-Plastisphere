@@ -1,0 +1,2 @@
+Assemblies          TARA_PSW_RAW
+Bacillus_annotated  13964.50    

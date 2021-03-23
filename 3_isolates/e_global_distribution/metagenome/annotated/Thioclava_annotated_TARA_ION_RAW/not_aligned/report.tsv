@@ -1,0 +1,20 @@
+Assembly	TARA_ION_RAW
+# contigs (>= 1000 bp)	1608391
+# contigs (>= 5000 bp)	67242
+# contigs (>= 10000 bp)	15896
+# contigs (>= 25000 bp)	2265
+# contigs (>= 50000 bp)	490
+Total length (>= 1000 bp)	3245218917
+Total length (>= 5000 bp)	635758784
+Total length (>= 10000 bp)	294333118
+Total length (>= 25000 bp)	101234013
+Total length (>= 50000 bp)	42308709
+# contigs	1608391
+Largest contig	1188021
+Total length	3245218917
+GC (%)	36.83
+N50	2042
+N75	1355
+L50	406894
+L75	904218
+# N's per 100 kbp	0.00

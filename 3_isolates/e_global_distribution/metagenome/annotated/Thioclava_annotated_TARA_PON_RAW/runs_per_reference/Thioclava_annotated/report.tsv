@@ -1,0 +1,38 @@
+Assembly	TARA_PON_RAW
+# contigs (>= 1000 bp)	301
+# contigs (>= 5000 bp)	40
+# contigs (>= 10000 bp)	25
+# contigs (>= 25000 bp)	11
+# contigs (>= 50000 bp)	3
+Total length (>= 1000 bp)	1283134
+Total length (>= 5000 bp)	768051
+Total length (>= 10000 bp)	669062
+Total length (>= 25000 bp)	456871
+Total length (>= 50000 bp)	172950
+# contigs	301
+Largest contig	61783
+Total length	1283134
+Reference length	5854900
+GC (%)	35.64
+Reference GC (%)	63.53
+N50	11720
+N75	2585
+L50	23
+L75	96
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	2
+# unaligned contigs	7 + 292 part
+Unaligned length	1257380
+Genome fraction (%)	0.058
+Duplication ratio	7.550
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	12547.64
+# indels per 100 kbp	146.58
+Largest alignment	335
+Total aligned length	23959
+NGA50	-

@@ -1,0 +1,3 @@
+Assemblies           TARA_ANW_RAW
+Thioclava_annotated  382         
+not_aligned          1266675     

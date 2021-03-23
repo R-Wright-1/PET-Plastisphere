@@ -1,0 +1,3 @@
+Assemblies          TARA_PON_RAW
+Bacillus_annotated  34          
+not_aligned         1663187     

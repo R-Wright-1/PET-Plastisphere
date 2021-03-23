@@ -1,0 +1,20 @@
+Assembly	TARA_PSE_RAW
+# contigs (>= 1000 bp)	2721128
+# contigs (>= 5000 bp)	114812
+# contigs (>= 10000 bp)	29076
+# contigs (>= 25000 bp)	4638
+# contigs (>= 50000 bp)	1042
+Total length (>= 1000 bp)	5514415839
+Total length (>= 5000 bp)	1137758041
+Total length (>= 10000 bp)	565462821
+Total length (>= 25000 bp)	215139645
+Total length (>= 50000 bp)	95795488
+# contigs	2721128
+Largest contig	711776
+Total length	5514415839
+GC (%)	37.03
+N50	2038
+N75	1349
+L50	673553
+L75	1521818
+# N's per 100 kbp	0.00

@@ -1,0 +1,20 @@
+Assembly	TARA_ASW_RAW
+# contigs (>= 1000 bp)	989118
+# contigs (>= 5000 bp)	38864
+# contigs (>= 10000 bp)	9875
+# contigs (>= 25000 bp)	1637
+# contigs (>= 50000 bp)	333
+Total length (>= 1000 bp)	1970658388
+Total length (>= 5000 bp)	382409699
+Total length (>= 10000 bp)	189170118
+Total length (>= 25000 bp)	69941815
+Total length (>= 50000 bp)	26580787
+# contigs	989118
+Largest contig	414653
+Total length	1970658388
+GC (%)	39.48
+N50	1994
+N75	1336
+L50	250872
+L75	558625
+# N's per 100 kbp	0.00

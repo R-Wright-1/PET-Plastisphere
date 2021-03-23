@@ -1,0 +1,25 @@
+Assembly	TARA_ANW_RAW
+# misassemblies	2
+  # contig misassemblies	2
+    # c. relocations	0
+    # c. translocations	2
+    # c. inversions	0
+    # c. interspecies translocations	0
+  # scaffold misassemblies	0
+    # s. relocations	0
+    # s. translocations	0
+    # s. inversions	0
+    # s. interspecies translocations	0
+# misassembled contigs	1
+Misassembled contigs length	1200
+# possibly misassembled contigs	375
+    # possible misassemblies	496
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	6
+# mismatches	833
+# indels	2
+    # indels (<= 5 bp)	1
+    # indels (> 5 bp)	1
+Indels length	25

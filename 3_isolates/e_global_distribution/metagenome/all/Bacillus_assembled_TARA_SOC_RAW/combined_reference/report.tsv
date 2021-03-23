@@ -1,0 +1,37 @@
+Assembly	TARA_SOC_RAW
+# contigs (>= 0 bp)	415693
+# contigs (>= 1000 bp)	415693
+# contigs (>= 5000 bp)	19160
+# contigs (>= 10000 bp)	4878
+# contigs (>= 25000 bp)	753
+# contigs (>= 50000 bp)	146
+Total length (>= 0 bp)	867144156
+Total length (>= 1000 bp)	867144156
+Total length (>= 5000 bp)	185494017
+Total length (>= 10000 bp)	90542706
+Total length (>= 25000 bp)	31376935
+Total length (>= 50000 bp)	11333585
+# contigs	415693
+Largest contig	377717
+Total length	867144156
+Reference length	4234461
+N50	2133
+N75	1393
+L50	101886
+L75	230070
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	2
+# unaligned contigs	415666 + 27 part
+Unaligned length	867141540
+Genome fraction (%)	0.018
+Duplication ratio	3.483
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	10386.15
+# indels per 100 kbp	133.16
+Largest alignment	201
+Total aligned length	2616

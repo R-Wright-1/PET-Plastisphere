@@ -1,0 +1,673 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Add genes to PICRUSt2},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\title{Add genes to PICRUSt2}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{from}\NormalTok{ Bio }\ImportTok{import}\NormalTok{ SeqIO}
+\ImportTok{from}\NormalTok{ Bio.SeqRecord }\ImportTok{import}\NormalTok{ SeqRecord}
+\ImportTok{from}\NormalTok{ Bio.Seq }\ImportTok{import}\NormalTok{ Seq}
+\ImportTok{import}\NormalTok{ numpy }\ImportTok{as}\NormalTok{ np}
+\ImportTok{import}\NormalTok{ os}
+\ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd}
+\ImportTok{import}\NormalTok{ math}
+\ImportTok{import}\NormalTok{ matplotlib.pyplot }\ImportTok{as}\NormalTok{ plt}
+\ImportTok{from}\NormalTok{ scipy.cluster }\ImportTok{import}\NormalTok{ hierarchy}
+\ImportTok{import}\NormalTok{ matplotlib }\ImportTok{as}\NormalTok{ mpl}
+\ImportTok{from}\NormalTok{ matplotlib.lines }\ImportTok{import}\NormalTok{ Line2D}
+\ImportTok{from}\NormalTok{ matplotlib_venn }\ImportTok{import}\NormalTok{ venn2}
+\ImportTok{from}\NormalTok{ mpl_toolkits.axes_grid1.inset_locator }\ImportTok{import}\NormalTok{ InsetPosition}
+\ImportTok{from}\NormalTok{ mpl_toolkits.axes_grid1.inset_locator }\ImportTok{import}\NormalTok{ inset_axes}
+\ImportTok{import}\NormalTok{ csv}
+\ImportTok{from}\NormalTok{ matplotlib.patches }\ImportTok{import}\NormalTok{ Patch}
+\ImportTok{from}\NormalTok{ matplotlib }\ImportTok{import}\NormalTok{ pyplot}
+\ImportTok{import}\NormalTok{ pickle}
+\ImportTok{from}\NormalTok{ scipy.spatial }\ImportTok{import}\NormalTok{ distance}
+\ImportTok{from}\NormalTok{ scipy }\ImportTok{import}\NormalTok{ stats}
+\ImportTok{from}\NormalTok{ sklearn }\ImportTok{import}\NormalTok{ manifold}
+\ImportTok{from}\NormalTok{ sklearn.decomposition }\ImportTok{import}\NormalTok{ PCA}
+\ImportTok{from}\NormalTok{ scipy.cluster }\ImportTok{import}\NormalTok{ hierarchy}
+\ImportTok{import}\NormalTok{ scipy.spatial.distance }\ImportTok{as}\NormalTok{ ssd}
+
+\NormalTok{folder }\OperatorTok{=} \StringTok{'/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/2_community_succession/z_add_genes_to_picrust/'}
+\NormalTok{folder_results }\OperatorTok{=} \StringTok{'/Users/robynwright/Documents/OneDrive/Github/PET-Plastisphere/2_community_succession/h_PICRUSt2/'}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{adding-additional-genes-to-picrust2}{%
+\section{Adding additional genes to
+PICRUSt2}\label{adding-additional-genes-to-picrust2}}
+
+In this study, I use
+\href{https://github.com/picrust/picrust2/wiki}{PICRUSt2} to predict the
+metagenome content of all Plastisphere samples. As the default reference
+files that PICRUSt2 uses don't contain some of the genes for PET
+degradation (\emph{e.g.} PETase), I have added these to the reference
+database. To do this, I downloaded all genomes that are included in
+PICRUSt2 (or as many as possible - not quite all are available), made an
+HMM for the genes of interest (\emph{i.e.} PETase, tphA, etc.) and then
+ran this HMM on all PICRUSt2 genomes. I then parse the output to
+determine how many copies of these genes each genome has, and add this
+as a column to the default PICRUSt2 reference file.
+
+\hypertarget{section}{%
+\subsection{}\label{section}}
+
+\hypertarget{a.-get-genome-files}{%
+\subsection{A. Get genome files}\label{a.-get-genome-files}}
+
+The PICRUSt2 genomes will need to be downloaded, decompressed and saved
+somewhere locally. They can be downloaded from
+\href{https://doi.org/10.6084/m9.figshare.12233192}{this Figshare file}.
+I performed all of the A/B/C sections on a server. I don't think this
+uses a huge amount of memory, so could theoretically be run on a laptop,
+but would take considerably longer.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{wget}\NormalTok{ https://ndownloader.figshare.com/files/22494503}
+\FunctionTok{mv}\NormalTok{ 22494503 JGI_PICRUSt_genomes.tar.bz2}
+\end{Highlighting}
+\end{Shaded}
+
+To decompress:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{tar}\NormalTok{ -xf JGI_PICRUSt_genomes.tar.bz2}
+\end{Highlighting}
+\end{Shaded}
+
+Unzip the ko.txt file:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{gunzip}\NormalTok{ ko.txt.gz}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{b.-get-additional-packages-and-files}{%
+\subsection{B. Get additional packages and
+files}\label{b.-get-additional-packages-and-files}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://docs.conda.io/projects/conda/en/latest/commands/install.html}{Conda}
+\item
+  HMM:
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{conda}\NormalTok{ install -c biocore hmmer}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{itemize}
+\tightlist
+\item
+  Biopython:
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{conda}\NormalTok{ install biopython}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{itemize}
+\tightlist
+\item
+  The
+  \href{https://github.com/picrust/picrust2/blob/master/picrust2/default_files/prokaryotic/ko.txt.gz}{default
+  KEGG ortholog file}
+\end{itemize}
+
+\hypertarget{c.-make-hmms}{%
+\subsection{C. Make HMMs}\label{c.-make-hmms}}
+
+The HMMs that are currently shown in the HMM/ folder were made from the
+.fasta files in the `hmms\_to\_make' folder. To make these of your own,
+you can follow these steps.
+
+\textbf{(I) Search for the top hits of the gene of interest in
+\href{https://www.uniprot.org/}{uniprot}} \textbf{(II) Click on the
+genes that you want to include and follow the link for the genomic DNA
+translation} \textbf{(III) Combine all of the DNA sequences into one
+.fasta file (you can do this using a text editing software)}
+\textbf{(IV) Get a stockholm alignment of the .fasta file. We used
+\url{https://www.ebi.ac.uk/Tools/msa/clustalo/} (select `DNA' and the
+`STOCKHOLM' alignment option)} \textbf{(V) Download this alignment and
+run: }
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{hmmbuild}\NormalTok{ PETase_DNA.hmm PETase_DNA.sto}
+\end{Highlighting}
+\end{Shaded}
+
+\textbf{(VI) Move the .hmm file to the `hmms/' folder}
+
+\hypertarget{d.-run-against-the-reference-genomes}{%
+\subsection{D. Run against the reference
+genomes}\label{d.-run-against-the-reference-genomes}}
+
+\textbf{(I) Give the paths to the files that we are using, changing
+these if necessary:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{picrust_seqs }\OperatorTok{=} \StringTok{'JGI_PICRUSt_genomes.fasta'}
+\NormalTok{hmms }\OperatorTok{=}\NormalTok{ os.listdir(os.getcwd()}\OperatorTok{+}\StringTok{'/hmms/'}\NormalTok{)}
+\NormalTok{ko }\OperatorTok{=} \StringTok{'ko.txt'}
+\end{Highlighting}
+\end{Shaded}
+
+\textbf{(II) Open these files and set up the directories that we will
+save things to:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{#os.system('gunzip '+ko+'.gz')}
+\ControlFlowTok{try}\NormalTok{: os.mkdir(}\StringTok{'hmms_out'}\NormalTok{)}
+\ControlFlowTok{except}\NormalTok{: didnt_make }\OperatorTok{=} \VariableTok{True}
+\NormalTok{ko_data }\OperatorTok{=}\NormalTok{ pd.read_csv(ko, header}\OperatorTok{=}\DecValTok{0}\NormalTok{, index_col}\OperatorTok{=}\DecValTok{0}\NormalTok{, sep}\OperatorTok{=}\StringTok{'}\CharTok{\textbackslash{}t}\StringTok{'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\textbf{(III) Perform the HMM searches of the PICRUSt2 sequences using
+your HMMs (this will take a while to run):} Note that the default
+thresholds will be used here for inclusion unless you set these. You can
+find out more information on setting these by using
+\texttt{nhmmer\ -\/-help}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ControlFlowTok{for}\NormalTok{ hmm }\KeywordTok{in}\NormalTok{ hmms:}
+\NormalTok{    os.system(}\StringTok{'nhmmer hmms/'}\OperatorTok{+}\NormalTok{hmm}\OperatorTok{+}\StringTok{' '}\OperatorTok{+}\NormalTok{picrust_seqs}\OperatorTok{+}\StringTok{' > hmms_out/'}\OperatorTok{+}\NormalTok{hmm[:}\OperatorTok{-}\DecValTok{4}\NormalTok{]}\OperatorTok{+}\StringTok{'.out'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+You can open any of the files in the hmms\_out folder if you want to
+check whether you have any hits that are above the inclusion threshold
+(and whether this fits what you would have expected)
+
+\textbf{(IV) Now take the information from these HMMs and add this to
+the PICRUSt2 KEGG ortholog information that we already have (this is a
+bit tedious as the HMM.out files don't use tabs between columns or
+anything that we could use to separate them, so we just have to read
+them in as text files and look at each character\ldots)}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{hmms_out }\OperatorTok{=}\NormalTok{ os.listdir(os.getcwd()}\OperatorTok{+}\StringTok{'/hmms_out'}\NormalTok{)}
+\NormalTok{main_dir }\OperatorTok{=}\NormalTok{ os.getcwd()}
+\NormalTok{genomes }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(ko_data.index.values)}
+\NormalTok{genomes }\OperatorTok{=}\NormalTok{ [}\BuiltInTok{str}\NormalTok{(genomes[i]).replace(}\StringTok{'-cluster'}\NormalTok{, }\StringTok{''}\NormalTok{) }\ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(genomes))]}
+\ControlFlowTok{for}\NormalTok{ hmm }\KeywordTok{in}\NormalTok{ hmms_out:}
+\NormalTok{    included_genomes }\OperatorTok{=}\NormalTok{ []}
+    \ControlFlowTok{with} \BuiltInTok{open}\NormalTok{(main_dir}\OperatorTok{+}\StringTok{'/hmms_out/'}\OperatorTok{+}\NormalTok{hmm, }\StringTok{'rU'}\NormalTok{) }\ImportTok{as}\NormalTok{ f:}
+\NormalTok{        contents }\OperatorTok{=}\NormalTok{ f.read()}
+\NormalTok{    row, rows }\OperatorTok{=} \StringTok{''}\NormalTok{, []}
+    \ControlFlowTok{for}\NormalTok{ a }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(contents)}\OperatorTok{-}\DecValTok{1}\NormalTok{):}
+        \ControlFlowTok{if}\NormalTok{ contents[a:a}\OperatorTok{+}\DecValTok{1}\NormalTok{] }\OperatorTok{==} \StringTok{'}\CharTok{\textbackslash{}n}\StringTok{'}\NormalTok{:}
+            \ControlFlowTok{if}\NormalTok{ row }\OperatorTok{==} \StringTok{'  ------ inclusion threshold ------'}\NormalTok{:}
+                \ControlFlowTok{break}
+\NormalTok{            rows.append(row)}
+\NormalTok{            row }\OperatorTok{=} \StringTok{''}
+        \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{            row }\OperatorTok{+=}\NormalTok{ contents[a]}
+\NormalTok{    after_start, other_count }\OperatorTok{=} \VariableTok{False}\NormalTok{, }\DecValTok{0}
+    \ControlFlowTok{for}\NormalTok{ r }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(rows)):}
+        \ControlFlowTok{if}\NormalTok{ after_start:}
+\NormalTok{            block }\OperatorTok{=} \DecValTok{0}
+\NormalTok{            this_genome }\OperatorTok{=} \StringTok{''}
+            \ControlFlowTok{for}\NormalTok{ b }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\DecValTok{1}\NormalTok{, }\BuiltInTok{len}\NormalTok{(rows[r])):}
+                \ControlFlowTok{if}\NormalTok{ rows[r][b}\DecValTok{-1}\NormalTok{] }\OperatorTok{==} \StringTok{' '} \KeywordTok{and}\NormalTok{ rows[r][b] }\OperatorTok{!=} \StringTok{' '}\NormalTok{:}
+\NormalTok{                    block }\OperatorTok{+=} \DecValTok{1}
+                \ControlFlowTok{if}\NormalTok{ block }\OperatorTok{==} \DecValTok{4} \KeywordTok{and}\NormalTok{ rows[r][b] }\OperatorTok{!=} \StringTok{' '}\NormalTok{:}
+\NormalTok{                    this_genome }\OperatorTok{+=}\NormalTok{ rows[r][b]}
+            \ControlFlowTok{if}\NormalTok{ this_genome }\OperatorTok{!=} \StringTok{''}\NormalTok{:}
+\NormalTok{                included_genomes.append(this_genome)}
+\NormalTok{        count }\OperatorTok{=} \DecValTok{0}
+        \ControlFlowTok{for}\NormalTok{ a }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(rows[r])):}
+            \ControlFlowTok{if}\NormalTok{ rows[r][a] }\OperatorTok{==} \StringTok{'-'}\NormalTok{:}
+\NormalTok{                count }\OperatorTok{+=} \DecValTok{1}
+            \ControlFlowTok{if}\NormalTok{ count }\OperatorTok{>} \DecValTok{40}\NormalTok{:}
+\NormalTok{                after_start }\OperatorTok{=} \VariableTok{True}
+                \ControlFlowTok{continue}
+    \ControlFlowTok{for}\NormalTok{ a }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(included_genomes)):}
+        \ControlFlowTok{if}\NormalTok{ included_genomes[a][}\OperatorTok{-}\DecValTok{11}\NormalTok{:] }\OperatorTok{==} \StringTok{'Description'}\NormalTok{:}
+\NormalTok{            included_genomes[a] }\OperatorTok{=}\NormalTok{ included_genomes[a][:}\OperatorTok{-}\DecValTok{11}\NormalTok{]}
+\NormalTok{    this_col }\OperatorTok{=}\NormalTok{ []}
+    \ControlFlowTok{for}\NormalTok{ g }\KeywordTok{in}\NormalTok{ genomes:}
+\NormalTok{        c1 }\OperatorTok{=}\NormalTok{ included_genomes.count(g)}
+\NormalTok{        c2 }\OperatorTok{=}\NormalTok{ included_genomes.count(g[:}\OperatorTok{-}\DecValTok{8}\NormalTok{])}
+\NormalTok{        this_col.append(c1}\OperatorTok{+}\NormalTok{c2)}
+\NormalTok{    ko_data[hmm[:}\OperatorTok{-}\DecValTok{4}\NormalTok{]] }\OperatorTok{=}\NormalTok{ this_col}
+\NormalTok{ko_data.to_csv(}\StringTok{'ko_all.txt'}\NormalTok{, sep}\OperatorTok{=}\StringTok{'}\CharTok{\textbackslash{}t}\StringTok{'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+You can now check the ko\_all.txt file, but there should be new columns
+titled with your HMM names and counts of how many times these genes are
+in each of your genomes in the rows.
+
+Run PICRUSt2:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{picrust2_pipeline.py}\NormalTok{ -s seqs.fna -i feature_table.txt -o picrust_out --custom_trait_tables ko_all.txt --stratified --no_pathways}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{looking-at-the-abundance-of-these-genes-in-the-genomes}{%
+\section{Looking at the abundance of these genes in the
+genomes}\label{looking-at-the-abundance-of-these-genes-in-the-genomes}}
+
+\hypertarget{get-list-of-accession}{%
+\subsection{Get list of accession}\label{get-list-of-accession}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{ko }\OperatorTok{=}\NormalTok{ pd.read_csv(folder}\OperatorTok{+}\StringTok{'ko.txt'}\NormalTok{, header}\OperatorTok{=}\DecValTok{0}\NormalTok{, index_col}\OperatorTok{=}\DecValTok{0}\NormalTok{, sep}\OperatorTok{=}\StringTok{'}\CharTok{\textbackslash{}t}\StringTok{'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{cols }\OperatorTok{=}\NormalTok{ ko.columns}
+\NormalTok{ko[}\StringTok{'PETase'}\NormalTok{] }\OperatorTok{=} \DecValTok{0}
+\NormalTok{ko[}\StringTok{'E-value'}\NormalTok{] }\OperatorTok{=} \DecValTok{0}
+\NormalTok{ko[}\StringTok{'Bit score'}\NormalTok{] }\OperatorTok{=} \DecValTok{0}
+\NormalTok{ko }\OperatorTok{=}\NormalTok{ ko.drop(cols, axis}\OperatorTok{=}\DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+I then saved just the PETases that are above the inclusion threshold as
+a .csv file, turning the data in the rows into columns using the excel
+`data to columns' option.
+
+\hypertarget{get-petase-results-as-well-as-asvs-predicted-to-have-petases}{%
+\subsection{Get PETase results as well as ASVs predicted to have
+PETases}\label{get-petase-results-as-well-as-asvs-predicted-to-have-petases}}
+
+Note that we set the E-value of the PETases in ASVs to be 0.01 - the
+highest possible, as they don't actually have an E value but we want to
+be able to plot the E value later.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{ko_genomes }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(ko.index.values)}
+\NormalTok{petase }\OperatorTok{=}\NormalTok{ pd.read_csv(folder}\OperatorTok{+}\StringTok{'petase_out.csv'}\NormalTok{, header}\OperatorTok{=}\DecValTok{0}\NormalTok{, index_col}\OperatorTok{=}\DecValTok{3}\NormalTok{).drop([}\StringTok{'bias'}\NormalTok{, }\StringTok{'start'}\NormalTok{, }\StringTok{'end'}\NormalTok{, }\StringTok{'Description'}\NormalTok{], axis}\OperatorTok{=}\DecValTok{1}\NormalTok{)}
+\NormalTok{new_petase }\OperatorTok{=}\NormalTok{ []}
+\NormalTok{genomes }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(}\BuiltInTok{set}\NormalTok{(petase.index.values))}
+\ControlFlowTok{for}\NormalTok{ genome }\KeywordTok{in}\NormalTok{ genomes:}
+\NormalTok{  genome_return }\OperatorTok{=}\NormalTok{ petase.loc[genome, :].values}
+  \ControlFlowTok{if} \BuiltInTok{isinstance}\NormalTok{(genome_return[}\DecValTok{0}\NormalTok{], }\BuiltInTok{float}\NormalTok{):}
+\NormalTok{    genome_return }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(genome_return)}
+\NormalTok{    genome_return.append(}\DecValTok{1}\NormalTok{)}
+\NormalTok{    new_petase.append(genome_return)}
+  \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{    evals, scores }\OperatorTok{=}\NormalTok{ [], []}
+    \ControlFlowTok{for}\NormalTok{ b }\KeywordTok{in} \BuiltInTok{range}\NormalTok{(}\BuiltInTok{len}\NormalTok{(genome_return)):}
+\NormalTok{      evals.append(genome_return[b][}\DecValTok{0}\NormalTok{])}
+\NormalTok{      scores.append(genome_return[b][}\DecValTok{1}\NormalTok{])}
+\NormalTok{    new_petase.append([evals, scores, }\BuiltInTok{len}\NormalTok{(evals)])}
+\NormalTok{new_petase }\OperatorTok{=}\NormalTok{ pd.DataFrame(new_petase, index}\OperatorTok{=}\NormalTok{genomes, columns}\OperatorTok{=}\NormalTok{[}\StringTok{'E-value'}\NormalTok{, }\StringTok{'score'}\NormalTok{, }\StringTok{'PETase'}\NormalTok{])}
+
+\NormalTok{rename }\OperatorTok{=}\NormalTok{ \{\}}
+\ControlFlowTok{for}\NormalTok{ genome }\KeywordTok{in}\NormalTok{ ko_genomes:}
+  \ControlFlowTok{if} \BuiltInTok{isinstance}\NormalTok{(genome, }\BuiltInTok{str}\NormalTok{):}
+    \ControlFlowTok{if} \StringTok{'cluster'} \KeywordTok{in}\NormalTok{ genome:}
+\NormalTok{      rename[genome.split(}\StringTok{'-'}\NormalTok{)[}\DecValTok{0}\NormalTok{]] }\OperatorTok{=}\NormalTok{ genome}
+  \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{    rename[genome] }\OperatorTok{=} \BuiltInTok{str}\NormalTok{(genome)}
+\NormalTok{new_petase }\OperatorTok{=}\NormalTok{ new_petase.rename(index}\OperatorTok{=}\NormalTok{rename)}
+
+\NormalTok{petase_asv }\OperatorTok{=}\NormalTok{ pd.read_csv(folder_results}\OperatorTok{+}\StringTok{'picrust_out/ko_all_predicted_highest.csv'}\NormalTok{, header}\OperatorTok{=}\DecValTok{0}\NormalTok{, index_col}\OperatorTok{=}\DecValTok{0}\NormalTok{)}
+\NormalTok{petase_asv }\OperatorTok{=}\NormalTok{ petase_asv.drop([}\StringTok{'pcaG'}\NormalTok{, }\StringTok{'pcaH'}\NormalTok{, }\StringTok{'tphA2'}\NormalTok{, }\StringTok{'tphA3'}\NormalTok{, }\StringTok{'tphB'}\NormalTok{], axis}\OperatorTok{=}\DecValTok{1}\NormalTok{)}
+\NormalTok{petase_asv }\OperatorTok{=}\NormalTok{ petase_asv[petase_asv.loc[:, }\StringTok{'PETase'}\NormalTok{] }\OperatorTok{>} \DecValTok{0}\NormalTok{]}
+
+\NormalTok{combine_petase }\OperatorTok{=}\NormalTok{ pd.concat([new_petase, petase_asv]).fillna(}\FloatTok{0.01}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{make-tree-with-16s-sequences-of-genomes-and-asvs-containing-petases}{%
+\subsection{Make tree with 16S sequences of genomes and ASVs containing
+PETases}\label{make-tree-with-16s-sequences-of-genomes-and-asvs-containing-petases}}
+
+Rename dataframes based on the sequences in the fasta file (i.e.~make
+sure that `-cluster' on the end of JGI genome ID's isn't stopping the
+sequences from matching):
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{interest }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(combine_petase.index.values)}
+\NormalTok{seq_folder }\OperatorTok{=}\NormalTok{ folder_results}\OperatorTok{+}\StringTok{'picrust_out/intermediate/place_seqs/'}
+\NormalTok{interest }\OperatorTok{=}\NormalTok{ [}\BuiltInTok{str}\NormalTok{(genome) }\ControlFlowTok{for}\NormalTok{ genome }\KeywordTok{in}\NormalTok{ interest]}
+
+\CommentTok{# new_seqs = []}
+\CommentTok{# ids = []}
+\NormalTok{rename }\OperatorTok{=}\NormalTok{ \{\}}
+\CommentTok{#go through the reference sequences and add them to new sequences if the ID's match}
+\ControlFlowTok{for}\NormalTok{ record }\KeywordTok{in}\NormalTok{ SeqIO.parse(seq_folder}\OperatorTok{+}\StringTok{"ref_seqs_hmmalign.fasta"}\NormalTok{, }\StringTok{"fasta"}\NormalTok{):}
+    \CommentTok{# if record.id in interest:}
+    \CommentTok{#   new_seqs.append(record)}
+    \CommentTok{#   ids.append(str(record.id))}
+    \CommentTok{# elif record.id.split('-')[0] in interest:}
+    \CommentTok{#   new_seqs.append(record)}
+    \CommentTok{#   rename[record.id.split('-')[0]] = record.id}
+    \ControlFlowTok{if}\NormalTok{ record.}\BuiltInTok{id}\NormalTok{.split(}\StringTok{'-'}\NormalTok{)[}\DecValTok{0}\NormalTok{] }\KeywordTok{in}\NormalTok{ interest:}
+\NormalTok{      rename[record.}\BuiltInTok{id}\NormalTok{.split(}\StringTok{'-'}\NormalTok{)[}\DecValTok{0}\NormalTok{]] }\OperatorTok{=}\NormalTok{ record.}\BuiltInTok{id}
+
+\CommentTok{# #go through the study sequences and add them to new sequences if the ID's match}
+\CommentTok{# for record in SeqIO.parse(seq_folder+"study_seqs_hmmalign.fasta", "fasta"):}
+\CommentTok{#     if record.id in interest:}
+\CommentTok{#       new_seqs.append(record)}
+\CommentTok{#       ids.append(str(record.id))}
+\CommentTok{#  }
+\CommentTok{# #rename the dataframe (they weren't all strings before and therefore didn't add properly)     }
+\CommentTok{# ko_genomes = [str(genome) for genome in ko_genomes]}
+
+\NormalTok{combine_petase.index }\OperatorTok{=}\NormalTok{ combine_petase.index.}\BuiltInTok{map}\NormalTok{(}\BuiltInTok{str}\NormalTok{)}
+\NormalTok{combine_petase }\OperatorTok{=}\NormalTok{ combine_petase.rename(index}\OperatorTok{=}\NormalTok{rename)}
+\NormalTok{petase_only }\OperatorTok{=}\NormalTok{ pd.DataFrame(combine_petase.loc[:, }\StringTok{'PETase'}\NormalTok{]).reset_index()}
+
+\CommentTok{# #now turn the sequences back into just sequences and not alignments}
+\CommentTok{# for r in range(len(new_seqs)):}
+\CommentTok{#   record = new_seqs[r]}
+\CommentTok{#   seq = str(record.seq)}
+\CommentTok{#   seq = seq.replace('-', '')}
+\CommentTok{#   new_seqs[r].seq = Seq(seq)}
+\CommentTok{# }
+\CommentTok{# #write the new file}
+\CommentTok{# SeqIO.write(new_seqs, seq_folder+'sequences_of_interest.fasta', "fasta")}
+\end{Highlighting}
+\end{Shaded}
+
+Combine dataframes:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{petase_eval }\OperatorTok{=}\NormalTok{ pd.DataFrame(combine_petase.loc[:, }\StringTok{'E-value'}\NormalTok{])}
+\NormalTok{petase_eval[}\StringTok{'E-value 1'}\NormalTok{] }\OperatorTok{=} \FloatTok{0.01}
+\NormalTok{petase_eval[}\StringTok{'E-value 2'}\NormalTok{] }\OperatorTok{=} \FloatTok{0.01}
+\NormalTok{petase_eval[}\StringTok{'E-value others'}\NormalTok{] }\OperatorTok{=} \FloatTok{0.01}
+\ControlFlowTok{for}\NormalTok{ row }\KeywordTok{in}\NormalTok{ petase_eval.index.values:}
+  \ControlFlowTok{if} \BuiltInTok{isinstance}\NormalTok{(petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{], }\BuiltInTok{float}\NormalTok{):}
+\NormalTok{    petase_eval.loc[row, }\StringTok{'E-value 1'}\NormalTok{] }\OperatorTok{=}\NormalTok{ petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{]}
+  \ControlFlowTok{elif} \BuiltInTok{isinstance}\NormalTok{(petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{], }\BuiltInTok{int}\NormalTok{):}
+\NormalTok{    petase_eval.loc[row, }\StringTok{'E-value 1'}\NormalTok{] }\OperatorTok{=}\NormalTok{ petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{]}
+  \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{    petase_eval.loc[row, }\StringTok{'E-value 1'}\NormalTok{] }\OperatorTok{=}\NormalTok{ petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{][}\DecValTok{0}\NormalTok{]}
+\NormalTok{    petase_eval.loc[row, }\StringTok{'E-value 2'}\NormalTok{] }\OperatorTok{=}\NormalTok{ petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{][}\DecValTok{1}\NormalTok{]}
+    \ControlFlowTok{if} \BuiltInTok{len}\NormalTok{(petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{]) }\OperatorTok{>} \DecValTok{2}\NormalTok{:}
+\NormalTok{      petase_eval.loc[row, }\StringTok{'E-value others'}\NormalTok{] }\OperatorTok{=}\NormalTok{ np.mean(petase_eval.loc[row, }\StringTok{'E-value'}\NormalTok{][}\DecValTok{2}\NormalTok{:])}
+
+\NormalTok{petase_eval }\OperatorTok{=}\NormalTok{ petase_eval.drop(}\StringTok{'E-value'}\NormalTok{, axis}\OperatorTok{=}\DecValTok{1}\NormalTok{).reset_index()}
+\NormalTok{petase_eval.to_csv(folder}\OperatorTok{+}\StringTok{'PETase_E-values.csv'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Plot tree:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{asv =}\StringTok{ }\NormalTok{py}\OperatorTok{$}\NormalTok{petase_eval}
+\NormalTok{asv_table =}\StringTok{ }\KeywordTok{as.matrix}\NormalTok{(asv[,}\DecValTok{2}\OperatorTok{:}\DecValTok{4}\NormalTok{])}
+\KeywordTok{rownames}\NormalTok{(asv_table) =}\StringTok{ }\NormalTok{asv[,}\DecValTok{1}\NormalTok{]}
+\NormalTok{ASV =}\StringTok{ }\KeywordTok{otu_table}\NormalTok{(asv_table, }\DataTypeTok{taxa_are_rows =} \OtherTok{TRUE}\NormalTok{)}
+
+\NormalTok{phy_tree <-}\StringTok{ }\KeywordTok{read_tree}\NormalTok{(}\KeywordTok{paste}\NormalTok{(py}\OperatorTok{$}\NormalTok{folder_results, }\StringTok{"picrust_out/out.tre"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{''}\NormalTok{))}
+
+\NormalTok{physeq =}\StringTok{ }\KeywordTok{phyloseq}\NormalTok{(ASV, phy_tree)}
+
+\KeywordTok{pdf}\NormalTok{(}\DataTypeTok{file=}\KeywordTok{paste}\NormalTok{(py}\OperatorTok{$}\NormalTok{folder, }\StringTok{'tree.pdf'}\NormalTok{, }\DataTypeTok{sep=}\StringTok{''}\NormalTok{), }\DataTypeTok{height=}\DecValTok{50}\NormalTok{, }\DataTypeTok{width=}\DecValTok{15}\NormalTok{)}
+\KeywordTok{plot_tree}\NormalTok{(physeq, }\DataTypeTok{color=}\StringTok{"Abundance"}\NormalTok{, }\DataTypeTok{label.tips=}\StringTok{"taxa_names"}\NormalTok{, }\DataTypeTok{text.size=}\DecValTok{2}\NormalTok{)}
+\KeywordTok{dev.off}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## pdf 
+##   2
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{plot_tree}\NormalTok{(physeq, }\DataTypeTok{color=}\StringTok{"Abundance"}\NormalTok{, }\DataTypeTok{label.tips=}\StringTok{"taxa_names"}\NormalTok{, }\DataTypeTok{text.size=}\DecValTok{2}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{Add-to-picrust2_files/figure-latex/unnamed-chunk-18-1.pdf}
+
+\hypertarget{calculate-asv-distances-to-genomes-containing-petases}{%
+\subsection{Calculate ASV distances to genomes containing
+PETases}\label{calculate-asv-distances-to-genomes-containing-petases}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# tree <- read_tree(paste(py$folder_results, "picrust_out/intermediate/place_seqs/tree.nwk", sep=''))}
+\NormalTok{tree =}\StringTok{ }\KeywordTok{phy_tree}\NormalTok{(physeq)}
+\NormalTok{PatristicDistMatrix<-}\KeywordTok{cophenetic.phylo}\NormalTok{(tree)}
+\KeywordTok{write.table}\NormalTok{(PatristicDistMatrix,}\DataTypeTok{file=}\KeywordTok{paste}\NormalTok{(py}\OperatorTok{$}\NormalTok{folder, }\StringTok{"ASV_distance_nwk.csv"}\NormalTok{, }\DataTypeTok{sep=}\StringTok{''}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{get-smallest-distances}{%
+\subsection{Get smallest distances}\label{get-smallest-distances}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{petase_eval }\OperatorTok{=}\NormalTok{ pd.read_csv(folder}\OperatorTok{+}\StringTok{'PETase_E-values.csv'}\NormalTok{, header}\OperatorTok{=}\DecValTok{0}\NormalTok{, index_col}\OperatorTok{=}\DecValTok{1}\NormalTok{)}
+\NormalTok{petase_eval.index }\OperatorTok{=}\NormalTok{ petase_eval.index.}\BuiltInTok{map}\NormalTok{(}\BuiltInTok{str}\NormalTok{)}
+\NormalTok{asvs, genomes }\OperatorTok{=}\NormalTok{ [], []}
+\ControlFlowTok{for}\NormalTok{ ids }\KeywordTok{in}\NormalTok{ petase_eval.index.values:}
+  \ControlFlowTok{if} \StringTok{'ASV'} \KeywordTok{in}\NormalTok{ ids:}
+\NormalTok{    asvs.append(ids)}
+  \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{    genomes.append(ids)}
+
+\NormalTok{asv_min }\OperatorTok{=}\NormalTok{ []}
+\NormalTok{distances }\OperatorTok{=}\NormalTok{ pd.read_csv(folder}\OperatorTok{+}\StringTok{"ASV_distance_nwk.csv"}\NormalTok{, header}\OperatorTok{=}\DecValTok{0}\NormalTok{, index_col}\OperatorTok{=}\DecValTok{0}\NormalTok{, sep}\OperatorTok{=}\StringTok{' '}\NormalTok{)}
+\NormalTok{distances }\OperatorTok{=}\NormalTok{ distances.loc[asvs}\OperatorTok{+}\NormalTok{genomes, asvs}\OperatorTok{+}\NormalTok{genomes]}
+\CommentTok{# # distances.to_csv(folder+"ASV_distance_reduced.csv")}
+\CommentTok{# # distances = pd.read_csv(folder+"ASV_distance_reduced.csv", header=0, index_col=0)}
+\ControlFlowTok{for}\NormalTok{ asv }\KeywordTok{in}\NormalTok{ asvs:}
+\NormalTok{  genome_distances }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(distances.loc[asv, genomes])}
+\NormalTok{  minimum }\OperatorTok{=}\NormalTok{ genomes[genome_distances.index(}\BuiltInTok{min}\NormalTok{(genome_distances))]}
+\NormalTok{  evals }\OperatorTok{=} \BuiltInTok{list}\NormalTok{(petase_eval.loc[minimum, :])}
+\NormalTok{  copies }\OperatorTok{=}\NormalTok{ [combine_petase.loc[minimum, }\StringTok{'PETase'}\NormalTok{]]}
+\NormalTok{  this_asv_min }\OperatorTok{=}\NormalTok{ [minimum, }\BuiltInTok{min}\NormalTok{(genome_distances)]}\OperatorTok{+}\NormalTok{evals[}\DecValTok{1}\NormalTok{:]}\OperatorTok{+}\NormalTok{copies}
+\NormalTok{  asv_min.append(this_asv_min)}
+
+\NormalTok{min_asv_df }\OperatorTok{=}\NormalTok{ pd.DataFrame(asv_min, index}\OperatorTok{=}\NormalTok{asvs, columns}\OperatorTok{=}\NormalTok{[}\StringTok{'Genome match'}\NormalTok{, }\StringTok{'Distance'}\NormalTok{, }\StringTok{'E-value 1'}\NormalTok{, }\StringTok{'E-value 2'}\NormalTok{, }\StringTok{'E-value others'}\NormalTok{, }\StringTok{'PETase copies'}\NormalTok{])}
+\NormalTok{min_asv_df.to_csv(folder}\OperatorTok{+}\StringTok{'ASV_minimum_distances.csv'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{get-genomes-from-fasta-of-all-genomes-server}{%
+\subsection{Get genomes from fasta of all genomes
+(server)}\label{get-genomes-from-fasta-of-all-genomes-server}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{from}\NormalTok{ Bio }\ImportTok{import}\NormalTok{ SeqIO}
+\ImportTok{from}\NormalTok{ Bio.SeqRecord }\ImportTok{import}\NormalTok{ SeqRecord}
+\ImportTok{from}\NormalTok{ Bio.Seq }\ImportTok{import}\NormalTok{ Seq}
+
+\NormalTok{all_genomes }\OperatorTok{=}\NormalTok{ SeqIO.parse(}\StringTok{'JGI_PICRUSt_genomes.fasta'}\NormalTok{, }\StringTok{"fasta"}\NormalTok{)}
+\NormalTok{to_get }\OperatorTok{=}\NormalTok{ [}\StringTok{'2563366573'}\NormalTok{, }\StringTok{'2619619033'}\NormalTok{, }\StringTok{'2663762721'}\NormalTok{, }\StringTok{'2663762778'}\NormalTok{, }\StringTok{'2695420928'}\NormalTok{, }\StringTok{'2739368068'}\NormalTok{, }\StringTok{'2740892159'}\NormalTok{]}
+\NormalTok{to_get }\OperatorTok{=} \BuiltInTok{set}\NormalTok{(to_get)}
+\ControlFlowTok{for}\NormalTok{ genome }\KeywordTok{in}\NormalTok{ all_genomes:}
+  \ControlFlowTok{for}\NormalTok{ gid }\KeywordTok{in}\NormalTok{ to_get:}
+    \ControlFlowTok{if}\NormalTok{ gid }\KeywordTok{in}\NormalTok{ genome.}\BuiltInTok{id}\NormalTok{:}
+      \BuiltInTok{print}\NormalTok{(gid)}
+\NormalTok{      SeqIO.write([genome], gid}\OperatorTok{+}\StringTok{'.fasta'}\NormalTok{, }\StringTok{"fasta"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{get-petase-sequences}{%
+\subsection{Get PETase sequences}\label{get-petase-sequences}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{seqs }\OperatorTok{=}\NormalTok{ \{}\StringTok{'2563366573'}\NormalTok{:[[}\DecValTok{1685476}\NormalTok{, }\DecValTok{1685267}\NormalTok{], [}\DecValTok{1681063}\NormalTok{, }\DecValTok{1680611}\NormalTok{]], }
+        \StringTok{'2619619033'}\NormalTok{:[[}\DecValTok{593571}\NormalTok{, }\DecValTok{592795}\NormalTok{], [}\DecValTok{6130434}\NormalTok{, }\DecValTok{6129673}\NormalTok{], [}\DecValTok{334139}\NormalTok{, }\DecValTok{333366}\NormalTok{]], }
+        \StringTok{'2663762721'}\NormalTok{:[[}\DecValTok{1031902}\NormalTok{, }\DecValTok{1032679}\NormalTok{], [}\DecValTok{2965294}\NormalTok{, }\DecValTok{2964535}\NormalTok{]],}
+        \StringTok{'2663762778'}\NormalTok{:[[}\DecValTok{2537917}\NormalTok{, }\DecValTok{2538713}\NormalTok{], [}\DecValTok{844882}\NormalTok{, }\DecValTok{844469}\NormalTok{]],}
+        \StringTok{'2695420928'}\NormalTok{:[[}\DecValTok{2193335}\NormalTok{, }\DecValTok{2193108}\NormalTok{]],}
+        \StringTok{'2739368068'}\NormalTok{:[[}\DecValTok{1965771}\NormalTok{, }\DecValTok{1966572}\NormalTok{]],}
+        \StringTok{'2740892159'}\NormalTok{:[[}\DecValTok{2855093}\NormalTok{, }\DecValTok{2854669}\NormalTok{], [}\DecValTok{2854022}\NormalTok{, }\DecValTok{2853636}\NormalTok{], [}\DecValTok{4695146}\NormalTok{, }\DecValTok{4695512}\NormalTok{], [}\DecValTok{5104523}\NormalTok{, }\DecValTok{5104320}\NormalTok{], [}\DecValTok{2855945}\NormalTok{, }\DecValTok{2855742}\NormalTok{]]\}}
+\NormalTok{genomes }\OperatorTok{=}\NormalTok{ os.listdir(folder}\OperatorTok{+}\StringTok{'genome_matches/'}\NormalTok{)}
+
+\NormalTok{all_seqs, rows }\OperatorTok{=}\NormalTok{ [], []}
+\ControlFlowTok{for}\NormalTok{ seq }\KeywordTok{in}\NormalTok{ seqs:}
+\NormalTok{  fn }\OperatorTok{=}\NormalTok{ seq}\OperatorTok{+}\StringTok{'.txt'}
+  \ControlFlowTok{if}\NormalTok{ fn }\KeywordTok{not} \KeywordTok{in}\NormalTok{ genomes: }\ControlFlowTok{continue}
+\NormalTok{  sequence }\OperatorTok{=} \StringTok{''}
+  \ControlFlowTok{with} \BuiltInTok{open}\NormalTok{(folder}\OperatorTok{+}\StringTok{'genome_matches/'}\OperatorTok{+}\NormalTok{fn, }\StringTok{'rU'}\NormalTok{) }\ImportTok{as}\NormalTok{ f:}
+    \ControlFlowTok{for}\NormalTok{ row }\KeywordTok{in}\NormalTok{ f.read():}
+\NormalTok{      sequence }\OperatorTok{+=}\NormalTok{ row.replace(}\StringTok{'}\CharTok{\textbackslash{}n}\StringTok{'}\NormalTok{, }\StringTok{''}\NormalTok{)}
+\NormalTok{  new_seqs }\OperatorTok{=}\NormalTok{ []}
+  \ControlFlowTok{for}\NormalTok{ sl }\KeywordTok{in}\NormalTok{ seqs[seq]:}
+    \ControlFlowTok{if}\NormalTok{ sl[}\DecValTok{0}\NormalTok{] }\OperatorTok{>}\NormalTok{ sl[}\DecValTok{1}\NormalTok{]:}
+\NormalTok{      new_sl }\OperatorTok{=}\NormalTok{ [sl[}\DecValTok{1}\NormalTok{], sl[}\DecValTok{0}\NormalTok{]]}
+\NormalTok{      sl }\OperatorTok{=}\NormalTok{ new_sl}
+\NormalTok{      add_seq }\OperatorTok{=} \StringTok{'(RC) '}\OperatorTok{+}\NormalTok{sequence[sl[}\DecValTok{0}\NormalTok{]:sl[}\DecValTok{1}\NormalTok{]]}
+    \ControlFlowTok{else}\NormalTok{:}
+\NormalTok{      add_seq }\OperatorTok{=}\NormalTok{ sequence[sl[}\DecValTok{0}\NormalTok{]:sl[}\DecValTok{1}\NormalTok{]]}
+\NormalTok{    new_seqs.append(add_seq)}
+\NormalTok{  all_seqs.append(new_seqs)}
+\NormalTok{  rows.append(seq)}
+
+\NormalTok{seq_df }\OperatorTok{=}\NormalTok{ pd.DataFrame(all_seqs, index}\OperatorTok{=}\NormalTok{rows, columns}\OperatorTok{=}\NormalTok{[}\StringTok{'PETase1'}\NormalTok{, }\StringTok{'PETase2'}\NormalTok{, }\StringTok{'PETase3'}\NormalTok{, }\StringTok{'PETase4'}\NormalTok{, }\StringTok{'PETase5'}\NormalTok{])}
+\NormalTok{seq_df.to_csv(folder}\OperatorTok{+}\StringTok{'PETase_sequences.csv'}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\end{document}

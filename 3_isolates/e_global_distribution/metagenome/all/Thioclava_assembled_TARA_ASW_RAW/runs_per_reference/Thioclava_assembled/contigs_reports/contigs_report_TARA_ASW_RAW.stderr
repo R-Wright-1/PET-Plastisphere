@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.256*1.26] collected minimizers
+[M::mm_idx_gen::0.292*1.95] sorted minimizers
+[M::main::0.292*1.95] loaded/built the index for 2890 target sequence(s)
+[M::mm_mapopt_update::0.312*1.89] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 2890
+[M::mm_idx_stat::0.324*1.86] distinct minimizers: 752768 (99.47% are singletons); average occurrences: 1.007; average spacing: 10.107
+[M::worker_pipeline::0.380*2.75] mapped 255 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /home/robyn/tools/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 12 /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ASW_RAW/quast_corrected_input/Thioclava_assembled.fasta /home/robyn/PET/quast_results/Thioclava_assembled_TARA_ASW_RAW/quast_corrected_input/TARA_ASW_RAW_to_Thioclava_assembled.fasta
+[M::main] Real time: 0.399 sec; CPU: 1.064 sec

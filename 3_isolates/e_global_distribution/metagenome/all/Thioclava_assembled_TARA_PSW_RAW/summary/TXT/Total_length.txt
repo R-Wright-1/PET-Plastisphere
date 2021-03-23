@@ -1,0 +1,3 @@
+Assemblies           TARA_PSW_RAW
+Thioclava_assembled  3868949     
+not_aligned          2464099817  

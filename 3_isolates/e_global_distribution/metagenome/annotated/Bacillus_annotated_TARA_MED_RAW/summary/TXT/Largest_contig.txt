@@ -1,0 +1,3 @@
+Assemblies          TARA_MED_RAW
+Bacillus_annotated  5751        
+not_aligned         743739      

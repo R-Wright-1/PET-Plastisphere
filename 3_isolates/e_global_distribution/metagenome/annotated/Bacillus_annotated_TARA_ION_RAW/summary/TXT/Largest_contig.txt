@@ -1,0 +1,3 @@
+Assemblies          TARA_ION_RAW
+Bacillus_annotated  36852       
+not_aligned         1188021     

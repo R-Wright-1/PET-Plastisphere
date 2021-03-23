@@ -1,0 +1,20 @@
+Assembly	TARA_IOS_RAW
+# contigs (>= 1000 bp)	1474881
+# contigs (>= 5000 bp)	53460
+# contigs (>= 10000 bp)	11757
+# contigs (>= 25000 bp)	1589
+# contigs (>= 50000 bp)	348
+Total length (>= 1000 bp)	2862386851
+Total length (>= 5000 bp)	492932781
+Total length (>= 10000 bp)	216588900
+Total length (>= 25000 bp)	73249064
+Total length (>= 50000 bp)	32148387
+# contigs	1474881
+Largest contig	584819
+Total length	2862386851
+GC (%)	38.35
+N50	1933
+N75	1323
+L50	391524
+L75	846815
+# N's per 100 kbp	0.00

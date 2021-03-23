@@ -1,0 +1,2 @@
+Assemblies           TARA_PSE_RAW
+Thioclava_annotated  0.143       

@@ -1,0 +1,22 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    TARA_ANW_RAW
+# contigs (>= 1000 bp)      1267002     
+# contigs (>= 5000 bp)      59394       
+# contigs (>= 10000 bp)     15464       
+# contigs (>= 25000 bp)     2422        
+# contigs (>= 50000 bp)     528         
+Total length (>= 1000 bp)   2648395133  
+Total length (>= 5000 bp)   593247700   
+Total length (>= 10000 bp)  299193005   
+Total length (>= 25000 bp)  113339214   
+Total length (>= 50000 bp)  50614191    
+# contigs                   1267002     
+Largest contig              1019813     
+Total length                2648395133  
+GC (%)                      40.21       
+N50                         2138        
+N75                         1378        
+L50                         302266      
+L75                         696650      
+# N's per 100 kbp           0.00        

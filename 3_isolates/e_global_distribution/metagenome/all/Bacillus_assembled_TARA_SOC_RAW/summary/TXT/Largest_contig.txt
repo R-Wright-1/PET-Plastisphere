@@ -1,0 +1,3 @@
+Assemblies          TARA_SOC_RAW
+Bacillus_assembled  5563        
+not_aligned         377717      

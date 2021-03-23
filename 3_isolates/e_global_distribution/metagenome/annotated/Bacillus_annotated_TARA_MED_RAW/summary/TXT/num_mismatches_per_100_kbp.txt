@@ -1,0 +1,2 @@
+Assemblies          TARA_MED_RAW
+Bacillus_annotated  9230.77     

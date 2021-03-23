@@ -1,0 +1,3 @@
+Assemblies           TARA_PON_RAW
+Thioclava_annotated  1283134     
+not_aligned          3410021982  

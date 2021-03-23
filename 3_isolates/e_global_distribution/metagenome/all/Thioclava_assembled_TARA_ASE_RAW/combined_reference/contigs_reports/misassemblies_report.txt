@@ -1,0 +1,27 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                              TARA_ASE_RAW
+# misassemblies                       2           
+  # contig misassemblies              2           
+    # c. relocations                  0           
+    # c. translocations               2           
+    # c. inversions                   0           
+    # c. interspecies translocations  0           
+  # scaffold misassemblies            0           
+    # s. relocations                  0           
+    # s. translocations               0           
+    # s. inversions                   0           
+    # s. interspecies translocations  0           
+# misassembled contigs                1           
+Misassembled contigs length           5552        
+# possibly misassembled contigs       141         
+    # possible misassemblies          158         
+# local misassemblies                 0           
+# scaffold gap ext. mis.              0           
+# scaffold gap loc. mis.              0           
+# unaligned mis. contigs              5           
+# mismatches                          348         
+# indels                              2           
+    # indels (<= 5 bp)                2           
+    # indels (> 5 bp)                 0           
+Indels length                         4           

@@ -1,0 +1,97 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+950	1047	98	1	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_37687	95.92		True
+CONTIG	TARA_RED_k99_37687	19867	correct_unaligned
+1136	1208	721	793	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_215069	97.26		True
+CONTIG	TARA_RED_k99_215069	1085	correct_unaligned
+CONTIG	TARA_RED_k99_1558045	2765	unaligned
+1136	1209	554	627	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_3088831	97.3		True
+CONTIG	TARA_RED_k99_3088831	4233	correct_unaligned
+1136	1219	542	625	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_3169398	95.24		True
+CONTIG	TARA_RED_k99_3169398	1072	correct_unaligned
+1135	1209	80	6	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_3231004	96.0		True
+CONTIG	TARA_RED_k99_3231004	527714	correct_unaligned
+1145	1225	1	81	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_3249627	95.06		True
+CONTIG	TARA_RED_k99_3249627	2960	correct_unaligned
+1136	1209	1032	1105	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_4689058	95.95		True
+CONTIG	TARA_RED_k99_4689058	1541	correct_unaligned
+CONTIG	TARA_RED_k99_5618919	2772	unaligned
+1425	1500	4065	3990	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_6220645	96.05		True
+CONTIG	TARA_RED_k99_6220645	5694	correct_unaligned
+14	87	1394	1321	Bacillus_assembled_NODE_72_length_306_cov_43.0279	TARA_RED_k99_6791446	98.65		True
+CONTIG	TARA_RED_k99_6791446	1404	correct_unaligned
+1136	1208	5	77	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_7542630	98.63		True
+CONTIG	TARA_RED_k99_7542630	2017	correct_unaligned
+977	1088	1862	1751	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_7799382	97.32		True
+CONTIG	TARA_RED_k99_7799382	1862	correct_unaligned
+826	910	1672	1756	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_8065549	96.47		True
+CONTIG	TARA_RED_k99_8065549	3488	correct_unaligned
+977	1073	1900	1804	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_8994046	98.97		True
+CONTIG	TARA_RED_k99_8994046	1900	correct_unaligned
+949	1022	1022	949	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_1173973	98.65		True
+CONTIG	TARA_RED_k99_1173973	1027	correct_unaligned
+930	1011	434	515	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_1638345	97.56		True
+CONTIG	TARA_RED_k99_1638345	1161	correct_unaligned
+931	1022	2179	2088	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_2164520	96.74		True
+CONTIG	TARA_RED_k99_2164520	2179	correct_unaligned
+952	1023	1	72	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_2256385	98.61		True
+CONTIG	TARA_RED_k99_2256385	1214	correct_unaligned
+949	1022	6	79	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_3232074	98.65		True
+CONTIG	TARA_RED_k99_3232074	1384	correct_unaligned
+1186	1299	249	362	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_3354940	98.25		True
+unknown
+2061	2177	1120	1236	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_3354940	98.29		True
+unknown
+CONTIG	TARA_RED_k99_3354940	4899	mis_unaligned
+941	1022	1614	1533	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_4463771	98.78		True
+CONTIG	TARA_RED_k99_4463771	1691	correct_unaligned
+933	1011	3223	3145	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_4643822	97.47		True
+CONTIG	TARA_RED_k99_4643822	3232	correct_unaligned
+931	1023	1	93	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_4703135	96.77		True
+CONTIG	TARA_RED_k99_4703135	1448	correct_unaligned
+915	1023	18286	18394	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_4823446	95.41		True
+CONTIG	TARA_RED_k99_4823446	18394	correct_unaligned
+CONTIG	TARA_RED_k99_4884113	1518	unaligned
+929	1023	1	95	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_5006910	96.84		True
+CONTIG	TARA_RED_k99_5006910	1249	correct_unaligned
+949	1023	20582	20508	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_5452237	98.67		True
+CONTIG	TARA_RED_k99_5452237	20582	correct_unaligned
+930	1011	75190	75271	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_5793721	97.56		True
+CONTIG	TARA_RED_k99_5793721	75297	correct_unaligned
+CONTIG	TARA_RED_k99_6510398	43067	unaligned
+955	1026	1	72	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_6775123	98.61		True
+CONTIG	TARA_RED_k99_6775123	1691	correct_unaligned
+910	1003	1213	1306	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_7057342	98.94		True
+CONTIG	TARA_RED_k99_7057342	1306	correct_unaligned
+949	1028	1094	1015	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_7234386	98.75		True
+CONTIG	TARA_RED_k99_7234386	1094	correct_unaligned
+293	376	85	2	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_7370208	98.81		True
+CONTIG	TARA_RED_k99_7370208	18272	correct_unaligned
+CONTIG	TARA_RED_k99_7880385	2208	unaligned
+930	1011	484	565	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_8142536	98.78		True
+CONTIG	TARA_RED_k99_8142536	2622	correct_unaligned
+295	408	114	1	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_8223311	95.61		True
+CONTIG	TARA_RED_k99_8223311	29130	correct_unaligned
+930	1022	1007	915	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_8347353	95.7		True
+CONTIG	TARA_RED_k99_8347353	1027	correct_unaligned
+915	1006	92	1	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_8400043	97.83		True
+unknown
+293	376	708	625	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_8400043	98.81		True
+unknown
+CONTIG	TARA_RED_k99_8400043	3234	mis_unaligned
+293	421	721	593	Bacillus_assembled_NODE_15_length_2952_cov_608.46	TARA_RED_k99_8588466	96.12		True
+CONTIG	TARA_RED_k99_8588466	1827	correct_unaligned
+1440	1504	1	65	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_1203034	100.0		True
+CONTIG	TARA_RED_k99_1203034	2666	correct_unaligned
+1002	1084	1	83	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_1356034	95.18		True
+CONTIG	TARA_RED_k99_1356034	3373	correct_unaligned
+482	566	437	353	Bacillus_assembled_NODE_22_length_579_cov_368.356	TARA_RED_k99_2273887	95.29		True
+CONTIG	TARA_RED_k99_2273887	1056	correct_unaligned
+CONTIG	TARA_RED_k99_5416633	1358	unaligned
+483	566	109	26	Bacillus_assembled_NODE_22_length_579_cov_368.356	TARA_RED_k99_5977289	95.24		True
+CONTIG	TARA_RED_k99_5977289	1068	correct_unaligned
+1144	1208	3103	3039	Bacillus_assembled_NODE_18_length_1541_cov_593.512	TARA_RED_k99_7651802	96.92		True
+CONTIG	TARA_RED_k99_7651802	3105	correct_unaligned
+13	85	1015	1088	Bacillus_assembled_NODE_72_length_306_cov_43.0279	TARA_RED_k99_7821477	98.65		True
+CONTIG	TARA_RED_k99_7821477	1716	correct_unaligned
+37	235	662	862	Bacillus_assembled_NODE_39_length_441_cov_0.751592	TARA_RED_k99_7974996	97.01		True
+CONTIG	TARA_RED_k99_7974996	1487	correct_unaligned

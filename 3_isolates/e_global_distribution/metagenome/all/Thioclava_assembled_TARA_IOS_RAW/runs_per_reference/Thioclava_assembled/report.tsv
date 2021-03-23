@@ -1,0 +1,38 @@
+Assembly	TARA_IOS_RAW
+# contigs (>= 1000 bp)	390
+# contigs (>= 5000 bp)	63
+# contigs (>= 10000 bp)	27
+# contigs (>= 25000 bp)	12
+# contigs (>= 50000 bp)	7
+Total length (>= 1000 bp)	2109625
+Total length (>= 5000 bp)	1461348
+Total length (>= 10000 bp)	1209972
+Total length (>= 25000 bp)	964754
+Total length (>= 50000 bp)	781309
+# contigs	390
+Largest contig	205375
+Total length	2109625
+Reference length	7658814
+GC (%)	43.11
+Reference GC (%)	63.29
+N50	18934
+N75	3330
+L50	17
+L75	94
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	5
+# unaligned contigs	10 + 380 part
+Unaligned length	2077865
+Genome fraction (%)	0.059
+Duplication ratio	7.011
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	13774.83
+# indels per 100 kbp	88.30
+Largest alignment	585
+Total aligned length	31760
+NGA50	-

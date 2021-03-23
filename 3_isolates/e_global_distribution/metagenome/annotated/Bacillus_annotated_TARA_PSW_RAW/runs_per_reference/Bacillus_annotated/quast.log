@@ -1,0 +1,101 @@
+/home/robyn/tools/quast-5.0.2/quast.py --threads 12 --colors #E31A1C --ls solid --no-check-meta --contig-thresholds 1000,5000,10000,25000,50000 /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/quast_corrected_input/TARA_PSW_RAW_to_Bacillus_annotated.fasta -R /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/quast_corrected_input/Bacillus_annotated.ffn -o /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated --labels TARA_PSW_RAW
+
+Started: 2021-02-08 12:05:08
+
+Logging to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/quast.log
+
+CWD: /home/robyn/PET
+Main parameters: 
+  MODE: meta, threads: 12, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/quast_corrected_input/Bacillus_annotated.ffn ==> Bacillus_annotated
+
+Contigs:
+  Pre-processing...
+  /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/quast_corrected_input/TARA_PSW_RAW_to_Bacillus_annotated.fasta ==> TARA_PSW_RAW
+
+2021-02-08 12:05:08
+Running Basic statistics processor...
+  Reference genome:
+    Bacillus_annotated.ffn, length = 3561038, num fragments = 4375, GC % = 41.87
+WARNING:   Reference genome is fragmented. You may consider rerunning QUAST using --fragmented option. QUAST will try to detect misassemblies caused by the fragmentation and mark them fake (will be excluded from # misassemblies).
+  Contig files: 
+    TARA_PSW_RAW
+  Calculating N50 and L50...
+    TARA_PSW_RAW, N50 = 222419, L50 = 1, Total length = 439264, GC % = 50.36, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/basic_stats/GC_content_plot.pdf
+  Drawing TARA_PSW_RAW GC content plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/basic_stats/TARA_PSW_RAW_GC_content_plot.pdf
+Done.
+
+2021-02-08 12:05:09
+Running Contig analyzer...
+  TARA_PSW_RAW
+  Logging to files /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/contigs_report_TARA_PSW_RAW.stdout and contigs_report_TARA_PSW_RAW.stderr...
+  Aligning contigs to the reference
+  /home/robyn/tools/quast-5.0.2/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+  --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N \
+  2 --cs -t 12 quast_results/Bacillus_annotated_TARA_PSW_RAW/quast_corrected_input/Bacillus_annotated.ffn \
+  quast_results/Bacillus_annotated_TARA_PSW_RAW/quast_corrected_input/TARA_PSW_RAW_to_Bacillus_annotated.fasta \
+  > quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/minimap_output/TARA_PSW_RAW.coords_tmp \
+  2>> quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/contigs_report_TARA_PSW_RAW.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2021-02-08 12:05:14
+Running NA-NGA calculation...
+  TARA_PSW_RAW, Largest alignment = 200, NA50 = None, LA50 = None
+  Drawing cumulative plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/aligned_stats/NGAx_plot.pdf
+Done.
+
+2021-02-08 12:05:14
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  TARA_PSW_RAW
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-02-08 12:05:15
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2021-02-08 12:05:17
+RESULTS:
+  Text versions of total report are saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/report.html
+  PDF version (tables and plots) is saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/report.pdf
+  Icarus (contig browser) is saved to /home/robyn/PET/quast_results/Bacillus_annotated_TARA_PSW_RAW/runs_per_reference/Bacillus_annotated/icarus.html

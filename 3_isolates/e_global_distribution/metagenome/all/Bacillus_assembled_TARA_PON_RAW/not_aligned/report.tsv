@@ -1,0 +1,20 @@
+Assembly	TARA_PON_RAW
+# contigs (>= 1000 bp)	1663179
+# contigs (>= 5000 bp)	73320
+# contigs (>= 10000 bp)	19113
+# contigs (>= 25000 bp)	3249
+# contigs (>= 50000 bp)	778
+Total length (>= 1000 bp)	3411212035
+Total length (>= 5000 bp)	739374663
+Total length (>= 10000 bp)	376859143
+Total length (>= 25000 bp)	150171410
+Total length (>= 50000 bp)	67234015
+# contigs	1663179
+Largest contig	594166
+Total length	3411212035
+GC (%)	39.33
+N50	2072
+N75	1355
+L50	402255
+L75	922371
+# N's per 100 kbp	0.00

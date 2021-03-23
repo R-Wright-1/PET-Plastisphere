@@ -1,0 +1,3 @@
+Assemblies           TARA_ASE_RAW
+Thioclava_assembled  326665      
+not_aligned          1429853246  

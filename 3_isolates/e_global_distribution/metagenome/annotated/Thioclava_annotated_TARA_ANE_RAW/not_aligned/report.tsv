@@ -1,0 +1,20 @@
+Assembly	TARA_ANE_RAW
+# contigs (>= 1000 bp)	1381847
+# contigs (>= 5000 bp)	67278
+# contigs (>= 10000 bp)	17064
+# contigs (>= 25000 bp)	2554
+# contigs (>= 50000 bp)	436
+Total length (>= 1000 bp)	2892794232
+Total length (>= 5000 bp)	646490270
+Total length (>= 10000 bp)	311228661
+Total length (>= 25000 bp)	103887481
+Total length (>= 50000 bp)	33733318
+# contigs	1381847
+Largest contig	1038928
+Total length	2892794232
+GC (%)	37.04
+N50	2155
+N75	1382
+L50	330893
+L75	759424
+# N's per 100 kbp	0.00

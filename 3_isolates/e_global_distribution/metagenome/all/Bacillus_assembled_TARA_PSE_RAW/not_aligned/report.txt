@@ -1,0 +1,22 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    TARA_PSE_RAW
+# contigs (>= 1000 bp)      2722032     
+# contigs (>= 5000 bp)      115021      
+# contigs (>= 10000 bp)     29179       
+# contigs (>= 25000 bp)     4697        
+# contigs (>= 50000 bp)     1069        
+Total length (>= 1000 bp)   5520916900  
+Total length (>= 5000 bp)   1142816267  
+Total length (>= 10000 bp)  569754948   
+Total length (>= 25000 bp)  218749415   
+Total length (>= 50000 bp)  98296282    
+# contigs                   2722032     
+Largest contig              711776      
+Total length                5520916900  
+GC (%)                      37.05       
+N50                         2040        
+N75                         1350        
+L50                         672726      
+L75                         1521486     
+# N's per 100 kbp           0.00        

@@ -1,0 +1,38 @@
+Assembly	TARA_RED_RAW
+# contigs (>= 1000 bp)	48
+# contigs (>= 5000 bp)	9
+# contigs (>= 10000 bp)	8
+# contigs (>= 25000 bp)	4
+# contigs (>= 50000 bp)	2
+Total length (>= 1000 bp)	836956
+Total length (>= 5000 bp)	758017
+Total length (>= 10000 bp)	752323
+Total length (>= 25000 bp)	675208
+Total length (>= 50000 bp)	603011
+# contigs	48
+Largest contig	527714
+Total length	836956
+Reference length	4234461
+GC (%)	42.95
+Reference GC (%)	41.03
+N50	527714
+N75	43067
+L50	1
+L75	3
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	2
+# unaligned contigs	6 + 42 part
+Unaligned length	833059
+Genome fraction (%)	0.029
+Duplication ratio	3.161
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	8353.61
+# indels per 100 kbp	162.21
+Largest alignment	201
+Total aligned length	3897
+NGA50	-

@@ -1,0 +1,164 @@
+Bacillus_assembled_NODE_1_length_1874643_cov_50.3494
+1 1874643
+Bacillus_assembled_NODE_2_length_621780_cov_52.6137
+1 621780
+Bacillus_assembled_NODE_3_length_530889_cov_50.9443
+1 530889
+Bacillus_assembled_NODE_4_length_376474_cov_52.9236
+1 376474
+Bacillus_assembled_NODE_5_length_310039_cov_51.9954
+1 310039
+Bacillus_assembled_NODE_6_length_100785_cov_50.7553
+1 100785
+Bacillus_assembled_NODE_7_length_93216_cov_51.0957
+1 93216
+Bacillus_assembled_NODE_8_length_61786_cov_51.2392
+1 59104
+59193 61786
+Bacillus_assembled_NODE_9_length_60040_cov_55.1083
+1 60040
+Bacillus_assembled_NODE_10_length_58499_cov_54.0036
+1 58499
+Bacillus_assembled_NODE_11_length_45752_cov_51.3645
+1 45752
+Bacillus_assembled_NODE_12_length_22336_cov_51.0903
+1 22336
+Bacillus_assembled_NODE_13_length_21699_cov_42.7121
+1 21699
+Bacillus_assembled_NODE_14_length_21673_cov_53.3192
+1 21673
+Bacillus_assembled_NODE_15_length_2952_cov_608.46
+1 277
+422 913
+1039 1770
+1874 2952
+Bacillus_assembled_NODE_16_length_2835_cov_176.747
+1 2835
+Bacillus_assembled_NODE_17_length_1631_cov_115.134
+1 1631
+Bacillus_assembled_NODE_18_length_1541_cov_593.512
+1 86
+152 825
+1226 1388
+Bacillus_assembled_NODE_19_length_1472_cov_55.9056
+1 1472
+Bacillus_assembled_NODE_20_length_1003_cov_54.5811
+1 1003
+Bacillus_assembled_NODE_21_length_664_cov_47.5847
+1 664
+Bacillus_assembled_NODE_22_length_579_cov_368.356
+1 479
+Bacillus_assembled_NODE_23_length_550_cov_50.0236
+1 550
+Bacillus_assembled_NODE_24_length_529_cov_0.922886
+1 529
+Bacillus_assembled_NODE_25_length_498_cov_108.941
+1 498
+Bacillus_assembled_NODE_26_length_481_cov_0.700565
+1 481
+Bacillus_assembled_NODE_27_length_477_cov_31.24
+1 477
+Bacillus_assembled_NODE_28_length_474_cov_0.711816
+1 474
+Bacillus_assembled_NODE_29_length_468_cov_0.703812
+1 468
+Bacillus_assembled_NODE_30_length_468_cov_0.72434
+1 468
+Bacillus_assembled_NODE_31_length_465_cov_0.704142
+1 465
+Bacillus_assembled_NODE_32_length_460_cov_0.744745
+1 460
+Bacillus_assembled_NODE_33_length_457_cov_0.70303
+1 457
+Bacillus_assembled_NODE_34_length_457_cov_0.751515
+1 457
+Bacillus_assembled_NODE_35_length_455_cov_0.710366
+1 455
+Bacillus_assembled_NODE_36_length_450_cov_1.0031
+1 450
+Bacillus_assembled_NODE_37_length_448_cov_0.722741
+1 448
+Bacillus_assembled_NODE_38_length_441_cov_0.847134
+1 441
+Bacillus_assembled_NODE_39_length_441_cov_0.751592
+236 441
+Bacillus_assembled_NODE_40_length_437_cov_0.796774
+1 437
+Bacillus_assembled_NODE_41_length_434_cov_0.801303
+1 434
+Bacillus_assembled_NODE_42_length_427_cov_0.826667
+1 427
+Bacillus_assembled_NODE_43_length_425_cov_0.781879
+1 425
+Bacillus_assembled_NODE_44_length_423_cov_0.797297
+1 423
+Bacillus_assembled_NODE_45_length_419_cov_0.777397
+1 419
+Bacillus_assembled_NODE_46_length_418_cov_0.824742
+1 418
+Bacillus_assembled_NODE_47_length_407_cov_0.707143
+1 407
+Bacillus_assembled_NODE_48_length_406_cov_0.888889
+1 406
+Bacillus_assembled_NODE_49_length_406_cov_0.577061
+1 406
+Bacillus_assembled_NODE_50_length_407_cov_0.562724
+1 407
+Bacillus_assembled_NODE_51_length_405_cov_0.888489
+1 405
+Bacillus_assembled_NODE_52_length_405_cov_0.661871
+1 405
+Bacillus_assembled_NODE_53_length_403_cov_0.862319
+1 403
+Bacillus_assembled_NODE_54_length_399_cov_0.908088
+1 399
+Bacillus_assembled_NODE_55_length_399_cov_0.908088
+1 399
+Bacillus_assembled_NODE_56_length_399_cov_1.76103
+1 399
+Bacillus_assembled_NODE_57_length_397_cov_0.918519
+1 397
+Bacillus_assembled_NODE_58_length_395_cov_0.925373
+1 395
+Bacillus_assembled_NODE_59_length_392_cov_0.709434
+1 392
+Bacillus_assembled_NODE_60_length_389_cov_0.938931
+1 389
+Bacillus_assembled_NODE_61_length_389_cov_0.881679
+1 389
+Bacillus_assembled_NODE_62_length_385_cov_0.96124
+1 385
+Bacillus_assembled_NODE_63_length_384_cov_0.961089
+1 384
+Bacillus_assembled_NODE_64_length_383_cov_0.964844
+1 383
+Bacillus_assembled_NODE_65_length_381_cov_0.976378
+1 381
+Bacillus_assembled_NODE_66_length_379_cov_1.80556
+1 379
+Bacillus_assembled_NODE_67_length_376_cov_104.51
+1 376
+Bacillus_assembled_NODE_68_length_335_cov_66.7885
+1 335
+Bacillus_assembled_NODE_69_length_317_cov_59.1368
+1 317
+Bacillus_assembled_NODE_70_length_308_cov_107.337
+1 308
+Bacillus_assembled_NODE_71_length_307_cov_61.1278
+1 307
+Bacillus_assembled_NODE_72_length_306_cov_43.0279
+99 306
+Bacillus_assembled_NODE_73_length_252_cov_17.568
+1 252
+Bacillus_assembled_NODE_74_length_234_cov_266.327
+1 234
+Bacillus_assembled_NODE_75_length_219_cov_144.185
+1 219
+Bacillus_assembled_NODE_76_length_193_cov_34.9848
+1 193
+Bacillus_assembled_NODE_77_length_146_cov_94.4211
+1 146
+Bacillus_assembled_NODE_78_length_139_cov_78.75
+1 139
+Bacillus_assembled_NODE_79_length_129_cov_215.5
+1 129

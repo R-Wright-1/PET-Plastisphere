@@ -1,0 +1,8749 @@
+Bacillus_annotated_GFJPDDAG_00001
+1 474
+Bacillus_annotated_GFJPDDAG_00002
+1 1146
+Bacillus_annotated_GFJPDDAG_00003
+1 1233
+Bacillus_annotated_GFJPDDAG_00004
+1 912
+Bacillus_annotated_GFJPDDAG_00005
+1 1044
+Bacillus_annotated_GFJPDDAG_00006
+1 927
+Bacillus_annotated_GFJPDDAG_00007
+1 870
+Bacillus_annotated_GFJPDDAG_00008
+1 540
+Bacillus_annotated_GFJPDDAG_00009
+1 552
+Bacillus_annotated_GFJPDDAG_00010
+1 1821
+Bacillus_annotated_GFJPDDAG_00011
+1 531
+Bacillus_annotated_GFJPDDAG_00012
+1 447
+Bacillus_annotated_GFJPDDAG_00013
+1 528
+Bacillus_annotated_GFJPDDAG_00014
+1 1023
+Bacillus_annotated_GFJPDDAG_00015
+1 639
+Bacillus_annotated_GFJPDDAG_00016
+1 1803
+Bacillus_annotated_GFJPDDAG_00017
+1 351
+Bacillus_annotated_GFJPDDAG_00018
+1 186
+Bacillus_annotated_GFJPDDAG_00019
+1 336
+Bacillus_annotated_GFJPDDAG_00020
+1 831
+Bacillus_annotated_GFJPDDAG_00021
+1 402
+Bacillus_annotated_GFJPDDAG_00022
+1 792
+Bacillus_annotated_GFJPDDAG_00023
+1 1701
+Bacillus_annotated_GFJPDDAG_00024
+1 1107
+Bacillus_annotated_GFJPDDAG_00025
+1 1347
+Bacillus_annotated_GFJPDDAG_00026
+1 1464
+Bacillus_annotated_GFJPDDAG_00027
+1 384
+Bacillus_annotated_GFJPDDAG_00028
+1 837
+Bacillus_annotated_GFJPDDAG_00029
+1 2574
+Bacillus_annotated_GFJPDDAG_00030
+1 882
+Bacillus_annotated_GFJPDDAG_00031
+1 363
+Bacillus_annotated_GFJPDDAG_00032
+1 570
+Bacillus_annotated_GFJPDDAG_00033
+1 459
+Bacillus_annotated_GFJPDDAG_00034
+1 1065
+Bacillus_annotated_GFJPDDAG_00035
+1 558
+Bacillus_annotated_GFJPDDAG_00036
+1 924
+Bacillus_annotated_GFJPDDAG_00037
+1 516
+Bacillus_annotated_GFJPDDAG_00038
+1 207
+Bacillus_annotated_GFJPDDAG_00039
+1 237
+Bacillus_annotated_GFJPDDAG_00040
+1 1200
+Bacillus_annotated_GFJPDDAG_00041
+1 627
+Bacillus_annotated_GFJPDDAG_00042
+1 654
+Bacillus_annotated_GFJPDDAG_00043
+1 555
+Bacillus_annotated_GFJPDDAG_00044
+1 507
+Bacillus_annotated_GFJPDDAG_00045
+1 1353
+Bacillus_annotated_GFJPDDAG_00046
+1 411
+Bacillus_annotated_GFJPDDAG_00047
+1 387
+Bacillus_annotated_GFJPDDAG_00048
+1 867
+Bacillus_annotated_GFJPDDAG_00049
+1 1368
+Bacillus_annotated_GFJPDDAG_00050
+1 234
+Bacillus_annotated_GFJPDDAG_00051
+1 891
+Bacillus_annotated_GFJPDDAG_00052
+1 633
+Bacillus_annotated_GFJPDDAG_00053
+1 1893
+Bacillus_annotated_GFJPDDAG_00054
+1 834
+Bacillus_annotated_GFJPDDAG_00055
+1 453
+Bacillus_annotated_GFJPDDAG_00056
+1 1710
+Bacillus_annotated_GFJPDDAG_00057
+1 1290
+Bacillus_annotated_GFJPDDAG_00058
+1 780
+Bacillus_annotated_GFJPDDAG_00059
+1 216
+Bacillus_annotated_GFJPDDAG_00060
+1 735
+Bacillus_annotated_GFJPDDAG_00061
+1 240
+Bacillus_annotated_GFJPDDAG_00062
+1 2022
+Bacillus_annotated_GFJPDDAG_00063
+1 948
+Bacillus_annotated_GFJPDDAG_00064
+1 1098
+Bacillus_annotated_GFJPDDAG_00065
+1 1107
+Bacillus_annotated_GFJPDDAG_00066
+1 1425
+Bacillus_annotated_GFJPDDAG_00067
+1 999
+Bacillus_annotated_GFJPDDAG_00068
+1 984
+Bacillus_annotated_GFJPDDAG_00069
+1 1344
+Bacillus_annotated_GFJPDDAG_00070
+1 4353
+Bacillus_annotated_GFJPDDAG_00071
+1 147
+Bacillus_annotated_GFJPDDAG_00072
+1 1791
+Bacillus_annotated_GFJPDDAG_00073
+1 2157
+Bacillus_annotated_GFJPDDAG_00074
+1 1050
+Bacillus_annotated_GFJPDDAG_00075
+1 438
+Bacillus_annotated_GFJPDDAG_00076
+1 771
+Bacillus_annotated_GFJPDDAG_00077
+1 660
+Bacillus_annotated_GFJPDDAG_00078
+1 717
+Bacillus_annotated_GFJPDDAG_00079
+1 987
+Bacillus_annotated_GFJPDDAG_00080
+1 504
+Bacillus_annotated_GFJPDDAG_00081
+1 96
+Bacillus_annotated_GFJPDDAG_00082
+1 420
+Bacillus_annotated_GFJPDDAG_00083
+1 1548
+Bacillus_annotated_GFJPDDAG_00084
+1 1125
+Bacillus_annotated_GFJPDDAG_00085
+1 471
+Bacillus_annotated_GFJPDDAG_00086
+1 1254
+Bacillus_annotated_GFJPDDAG_00087
+1 1407
+Bacillus_annotated_GFJPDDAG_00088
+1 1107
+Bacillus_annotated_GFJPDDAG_00089
+1 1080
+Bacillus_annotated_GFJPDDAG_00090
+1 1497
+Bacillus_annotated_GFJPDDAG_00091
+1 837
+Bacillus_annotated_GFJPDDAG_00092
+1 1104
+Bacillus_annotated_GFJPDDAG_00093
+1 621
+Bacillus_annotated_GFJPDDAG_00094
+1 1503
+Bacillus_annotated_GFJPDDAG_00095
+1 927
+Bacillus_annotated_GFJPDDAG_00096
+1 549
+Bacillus_annotated_GFJPDDAG_00097
+1 756
+Bacillus_annotated_GFJPDDAG_00098
+1 1017
+Bacillus_annotated_GFJPDDAG_00099
+1 1152
+Bacillus_annotated_GFJPDDAG_00100
+1 819
+Bacillus_annotated_GFJPDDAG_00101
+1 960
+Bacillus_annotated_GFJPDDAG_00102
+1 795
+Bacillus_annotated_GFJPDDAG_00103
+1 525
+Bacillus_annotated_GFJPDDAG_00104
+1 855
+Bacillus_annotated_GFJPDDAG_00105
+1 786
+Bacillus_annotated_GFJPDDAG_00106
+1 1263
+Bacillus_annotated_GFJPDDAG_00107
+1 333
+Bacillus_annotated_GFJPDDAG_00108
+1 216
+Bacillus_annotated_GFJPDDAG_00109
+1 333
+Bacillus_annotated_GFJPDDAG_00110
+1 429
+Bacillus_annotated_GFJPDDAG_00111
+1 900
+Bacillus_annotated_GFJPDDAG_00112
+1 927
+Bacillus_annotated_GFJPDDAG_00113
+1 903
+Bacillus_annotated_GFJPDDAG_00114
+1 1188
+Bacillus_annotated_GFJPDDAG_00115
+1 693
+Bacillus_annotated_GFJPDDAG_00116
+1 663
+Bacillus_annotated_GFJPDDAG_00117
+1 231
+Bacillus_annotated_GFJPDDAG_00118
+1 525
+Bacillus_annotated_GFJPDDAG_00119
+1 924
+Bacillus_annotated_GFJPDDAG_00120
+1 549
+Bacillus_annotated_GFJPDDAG_00121
+1 591
+Bacillus_annotated_GFJPDDAG_00122
+1 654
+Bacillus_annotated_GFJPDDAG_00123
+1 459
+Bacillus_annotated_GFJPDDAG_00124
+1 228
+Bacillus_annotated_GFJPDDAG_00125
+1 894
+Bacillus_annotated_GFJPDDAG_00126
+1 1185
+Bacillus_annotated_GFJPDDAG_00127
+1 816
+Bacillus_annotated_GFJPDDAG_00128
+1 1305
+Bacillus_annotated_GFJPDDAG_00129
+1 1167
+Bacillus_annotated_GFJPDDAG_00130
+1 351
+Bacillus_annotated_GFJPDDAG_00131
+1 444
+Bacillus_annotated_GFJPDDAG_00132
+1 765
+Bacillus_annotated_GFJPDDAG_00133
+1 621
+Bacillus_annotated_GFJPDDAG_00134
+1 423
+Bacillus_annotated_GFJPDDAG_00135
+1 597
+Bacillus_annotated_GFJPDDAG_00136
+1 1479
+Bacillus_annotated_GFJPDDAG_00137
+1 1314
+Bacillus_annotated_GFJPDDAG_00138
+1 93
+Bacillus_annotated_GFJPDDAG_00139
+1 375
+Bacillus_annotated_GFJPDDAG_00140
+1 519
+Bacillus_annotated_GFJPDDAG_00141
+1 753
+Bacillus_annotated_GFJPDDAG_00142
+1 597
+Bacillus_annotated_GFJPDDAG_00143
+1 483
+Bacillus_annotated_GFJPDDAG_00144
+1 1161
+Bacillus_annotated_GFJPDDAG_00145
+1 594
+Bacillus_annotated_GFJPDDAG_00146
+1 528
+Bacillus_annotated_GFJPDDAG_00147
+1 732
+Bacillus_annotated_GFJPDDAG_00148
+1 531
+Bacillus_annotated_GFJPDDAG_00149
+1 1671
+Bacillus_annotated_GFJPDDAG_00150
+1 1191
+Bacillus_annotated_GFJPDDAG_00151
+1 717
+Bacillus_annotated_GFJPDDAG_00152
+1 1767
+Bacillus_annotated_GFJPDDAG_00153
+1 555
+Bacillus_annotated_GFJPDDAG_00154
+1 1227
+Bacillus_annotated_GFJPDDAG_00155
+1 864
+Bacillus_annotated_GFJPDDAG_00156
+1 570
+Bacillus_annotated_GFJPDDAG_00157
+1 249
+Bacillus_annotated_GFJPDDAG_00158
+1 1065
+Bacillus_annotated_GFJPDDAG_00159
+1 1473
+Bacillus_annotated_GFJPDDAG_00160
+1 600
+Bacillus_annotated_GFJPDDAG_00161
+1 669
+Bacillus_annotated_GFJPDDAG_00162
+1 519
+Bacillus_annotated_GFJPDDAG_00163
+1 1146
+Bacillus_annotated_GFJPDDAG_00164
+1 456
+Bacillus_annotated_GFJPDDAG_00165
+1 570
+Bacillus_annotated_GFJPDDAG_00166
+1 261
+Bacillus_annotated_GFJPDDAG_00167
+1 222
+Bacillus_annotated_GFJPDDAG_00168
+1 636
+Bacillus_annotated_GFJPDDAG_00169
+1 384
+Bacillus_annotated_GFJPDDAG_00170
+1 765
+Bacillus_annotated_GFJPDDAG_00171
+1 912
+Bacillus_annotated_GFJPDDAG_00172
+1 585
+Bacillus_annotated_GFJPDDAG_00173
+1 1278
+Bacillus_annotated_GFJPDDAG_00174
+1 966
+Bacillus_annotated_GFJPDDAG_00175
+1 975
+Bacillus_annotated_GFJPDDAG_00176
+1 684
+Bacillus_annotated_GFJPDDAG_00177
+1 345
+Bacillus_annotated_GFJPDDAG_00178
+1 843
+Bacillus_annotated_GFJPDDAG_00179
+1 1347
+Bacillus_annotated_GFJPDDAG_00180
+1 648
+Bacillus_annotated_GFJPDDAG_00181
+1 198
+Bacillus_annotated_GFJPDDAG_00182
+1 669
+Bacillus_annotated_GFJPDDAG_00183
+1 582
+Bacillus_annotated_GFJPDDAG_00184
+1 1131
+Bacillus_annotated_GFJPDDAG_00185
+1 1050
+Bacillus_annotated_GFJPDDAG_00186
+1 123
+Bacillus_annotated_GFJPDDAG_00187
+1 615
+Bacillus_annotated_GFJPDDAG_00188
+1 897
+Bacillus_annotated_GFJPDDAG_00189
+1 192
+Bacillus_annotated_GFJPDDAG_00190
+1 1311
+Bacillus_annotated_GFJPDDAG_00191
+1 1047
+Bacillus_annotated_GFJPDDAG_00192
+1 198
+Bacillus_annotated_GFJPDDAG_00193
+1 729
+Bacillus_annotated_GFJPDDAG_00194
+1 1479
+Bacillus_annotated_GFJPDDAG_00195
+1 273
+Bacillus_annotated_GFJPDDAG_00196
+1 567
+Bacillus_annotated_GFJPDDAG_00197
+1 222
+Bacillus_annotated_GFJPDDAG_00198
+1 834
+Bacillus_annotated_GFJPDDAG_00199
+1 702
+Bacillus_annotated_GFJPDDAG_00200
+1 963
+Bacillus_annotated_GFJPDDAG_00201
+1 447
+Bacillus_annotated_GFJPDDAG_00202
+1 774
+Bacillus_annotated_GFJPDDAG_00203
+1 1173
+Bacillus_annotated_GFJPDDAG_00204
+1 1083
+Bacillus_annotated_GFJPDDAG_00205
+1 366
+Bacillus_annotated_GFJPDDAG_00206
+1 1092
+Bacillus_annotated_GFJPDDAG_00207
+1 1104
+Bacillus_annotated_GFJPDDAG_00208
+1 1293
+Bacillus_annotated_GFJPDDAG_00209
+1 900
+Bacillus_annotated_GFJPDDAG_00210
+1 1260
+Bacillus_annotated_GFJPDDAG_00211
+1 540
+Bacillus_annotated_GFJPDDAG_00212
+1 465
+Bacillus_annotated_GFJPDDAG_00213
+1 510
+Bacillus_annotated_GFJPDDAG_00214
+1 675
+Bacillus_annotated_GFJPDDAG_00215
+1 771
+Bacillus_annotated_GFJPDDAG_00216
+1 600
+Bacillus_annotated_GFJPDDAG_00217
+1 792
+Bacillus_annotated_GFJPDDAG_00218
+1 681
+Bacillus_annotated_GFJPDDAG_00219
+1 870
+Bacillus_annotated_GFJPDDAG_00220
+1 354
+Bacillus_annotated_GFJPDDAG_00221
+1 777
+Bacillus_annotated_GFJPDDAG_00222
+1 408
+Bacillus_annotated_GFJPDDAG_00223
+1 702
+Bacillus_annotated_GFJPDDAG_00224
+1 1125
+Bacillus_annotated_GFJPDDAG_00225
+1 1239
+Bacillus_annotated_GFJPDDAG_00226
+1 984
+Bacillus_annotated_GFJPDDAG_00227
+1 840
+Bacillus_annotated_GFJPDDAG_00228
+1 870
+Bacillus_annotated_GFJPDDAG_00229
+1 384
+Bacillus_annotated_GFJPDDAG_00230
+1 2802
+Bacillus_annotated_GFJPDDAG_00231
+1 837
+Bacillus_annotated_GFJPDDAG_00232
+1 171
+Bacillus_annotated_GFJPDDAG_00233
+1 477
+Bacillus_annotated_GFJPDDAG_00234
+1 1191
+Bacillus_annotated_GFJPDDAG_00235
+1 1293
+Bacillus_annotated_GFJPDDAG_00236
+1 711
+Bacillus_annotated_GFJPDDAG_00237
+1 657
+Bacillus_annotated_GFJPDDAG_00238
+1 2757
+Bacillus_annotated_GFJPDDAG_00239
+1 609
+Bacillus_annotated_GFJPDDAG_00240
+1 1035
+Bacillus_annotated_GFJPDDAG_00241
+1 114
+Bacillus_annotated_GFJPDDAG_00242
+1 255
+Bacillus_annotated_GFJPDDAG_00243
+1 357
+Bacillus_annotated_GFJPDDAG_00244
+1 183
+Bacillus_annotated_GFJPDDAG_00245
+1 501
+Bacillus_annotated_GFJPDDAG_00246
+1 453
+Bacillus_annotated_GFJPDDAG_00247
+1 2265
+Bacillus_annotated_GFJPDDAG_00248
+1 1284
+Bacillus_annotated_GFJPDDAG_00249
+1 330
+Bacillus_annotated_GFJPDDAG_00250
+1 591
+Bacillus_annotated_GFJPDDAG_00251
+1 309
+Bacillus_annotated_GFJPDDAG_00252
+1 1218
+Bacillus_annotated_GFJPDDAG_00253
+1 174
+Bacillus_annotated_GFJPDDAG_00254
+1 1926
+Bacillus_annotated_GFJPDDAG_00255
+1 1515
+Bacillus_annotated_GFJPDDAG_00256
+1 468
+Bacillus_annotated_GFJPDDAG_00257
+1 1647
+Bacillus_annotated_GFJPDDAG_00258
+1 477
+Bacillus_annotated_GFJPDDAG_00259
+1 150
+Bacillus_annotated_GFJPDDAG_00260
+1 198
+Bacillus_annotated_GFJPDDAG_00261
+1 771
+Bacillus_annotated_GFJPDDAG_00262
+1 450
+Bacillus_annotated_GFJPDDAG_00263
+1 1071
+Bacillus_annotated_GFJPDDAG_00264
+1 567
+Bacillus_annotated_GFJPDDAG_00265
+1 3618
+Bacillus_annotated_GFJPDDAG_00266
+1 183
+Bacillus_annotated_GFJPDDAG_00267
+1 828
+Bacillus_annotated_GFJPDDAG_00268
+1 900
+Bacillus_annotated_GFJPDDAG_00269
+1 489
+Bacillus_annotated_GFJPDDAG_00270
+1 267
+Bacillus_annotated_GFJPDDAG_00271
+1 912
+Bacillus_annotated_GFJPDDAG_00272
+1 387
+Bacillus_annotated_GFJPDDAG_00273
+1 681
+Bacillus_annotated_GFJPDDAG_00274
+1 657
+Bacillus_annotated_GFJPDDAG_00275
+1 177
+Bacillus_annotated_GFJPDDAG_00276
+1 201
+Bacillus_annotated_GFJPDDAG_00277
+1 417
+Bacillus_annotated_GFJPDDAG_00278
+1 219
+Bacillus_annotated_GFJPDDAG_00279
+1 675
+Bacillus_annotated_GFJPDDAG_00280
+1 183
+Bacillus_annotated_GFJPDDAG_00281
+1 1131
+Bacillus_annotated_GFJPDDAG_00282
+1 1692
+Bacillus_annotated_GFJPDDAG_00283
+1 498
+Bacillus_annotated_GFJPDDAG_00284
+1 858
+Bacillus_annotated_GFJPDDAG_00285
+1 93
+Bacillus_annotated_GFJPDDAG_00286
+1 642
+Bacillus_annotated_GFJPDDAG_00287
+1 1887
+Bacillus_annotated_GFJPDDAG_00288
+1 1128
+Bacillus_annotated_GFJPDDAG_00289
+1 435
+Bacillus_annotated_GFJPDDAG_00290
+1 777
+Bacillus_annotated_GFJPDDAG_00291
+1 594
+Bacillus_annotated_GFJPDDAG_00292
+1 690
+Bacillus_annotated_GFJPDDAG_00293
+1 795
+Bacillus_annotated_GFJPDDAG_00294
+1 486
+Bacillus_annotated_GFJPDDAG_00295
+1 639
+Bacillus_annotated_GFJPDDAG_00296
+1 654
+Bacillus_annotated_GFJPDDAG_00297
+1 252
+Bacillus_annotated_GFJPDDAG_00298
+1 132
+Bacillus_annotated_GFJPDDAG_00299
+1 852
+Bacillus_annotated_GFJPDDAG_00300
+1 483
+Bacillus_annotated_GFJPDDAG_00301
+1 978
+Bacillus_annotated_GFJPDDAG_00302
+1 831
+Bacillus_annotated_GFJPDDAG_00303
+1 588
+Bacillus_annotated_GFJPDDAG_00304
+1 741
+Bacillus_annotated_GFJPDDAG_00305
+1 1029
+Bacillus_annotated_GFJPDDAG_00306
+1 543
+Bacillus_annotated_GFJPDDAG_00307
+1 423
+Bacillus_annotated_GFJPDDAG_00308
+1 504
+Bacillus_annotated_GFJPDDAG_00309
+1 582
+Bacillus_annotated_GFJPDDAG_00310
+1 141
+Bacillus_annotated_GFJPDDAG_00311
+1 1791
+Bacillus_annotated_GFJPDDAG_00312
+1 1308
+Bacillus_annotated_GFJPDDAG_00313
+1 699
+Bacillus_annotated_GFJPDDAG_00314
+1 663
+Bacillus_annotated_GFJPDDAG_00315
+1 1266
+Bacillus_annotated_GFJPDDAG_00316
+1 834
+Bacillus_annotated_GFJPDDAG_00317
+1 1431
+Bacillus_annotated_GFJPDDAG_00318
+1 291
+Bacillus_annotated_GFJPDDAG_00319
+1 225
+Bacillus_annotated_GFJPDDAG_00320
+1 723
+Bacillus_annotated_GFJPDDAG_00321
+1 171
+Bacillus_annotated_GFJPDDAG_00322
+1 177
+Bacillus_annotated_GFJPDDAG_00323
+1 1092
+Bacillus_annotated_GFJPDDAG_00324
+1 771
+Bacillus_annotated_GFJPDDAG_00325
+1 321
+Bacillus_annotated_GFJPDDAG_00326
+1 144
+Bacillus_annotated_GFJPDDAG_00327
+1 123
+Bacillus_annotated_GFJPDDAG_00328
+1 705
+Bacillus_annotated_GFJPDDAG_00329
+1 930
+Bacillus_annotated_GFJPDDAG_00330
+1 1146
+Bacillus_annotated_GFJPDDAG_00331
+1 117
+Bacillus_annotated_GFJPDDAG_00332
+1 591
+Bacillus_annotated_GFJPDDAG_00333
+1 1530
+Bacillus_annotated_GFJPDDAG_00334
+1 933
+Bacillus_annotated_GFJPDDAG_00335
+1 726
+Bacillus_annotated_GFJPDDAG_00336
+1 921
+Bacillus_annotated_GFJPDDAG_00337
+1 414
+Bacillus_annotated_GFJPDDAG_00338
+1 1620
+Bacillus_annotated_GFJPDDAG_00339
+1 246
+Bacillus_annotated_GFJPDDAG_00340
+1 285
+Bacillus_annotated_GFJPDDAG_00341
+1 360
+Bacillus_annotated_GFJPDDAG_00342
+1 810
+Bacillus_annotated_GFJPDDAG_00343
+1 774
+Bacillus_annotated_GFJPDDAG_00344
+1 1368
+Bacillus_annotated_GFJPDDAG_00345
+1 768
+Bacillus_annotated_GFJPDDAG_00346
+1 717
+Bacillus_annotated_GFJPDDAG_00347
+1 1095
+Bacillus_annotated_GFJPDDAG_00348
+1 1503
+Bacillus_annotated_GFJPDDAG_00349
+1 1071
+Bacillus_annotated_GFJPDDAG_00350
+1 150
+Bacillus_annotated_GFJPDDAG_00351
+1 582
+Bacillus_annotated_GFJPDDAG_00352
+1 558
+Bacillus_annotated_GFJPDDAG_00353
+1 1146
+Bacillus_annotated_GFJPDDAG_00354
+1 600
+Bacillus_annotated_GFJPDDAG_00355
+1 780
+Bacillus_annotated_GFJPDDAG_00356
+1 324
+Bacillus_annotated_GFJPDDAG_00357
+1 873
+Bacillus_annotated_GFJPDDAG_00358
+1 696
+Bacillus_annotated_GFJPDDAG_00359
+1 1095
+Bacillus_annotated_GFJPDDAG_00360
+1 657
+Bacillus_annotated_GFJPDDAG_00361
+1 1194
+Bacillus_annotated_GFJPDDAG_00362
+1 471
+Bacillus_annotated_GFJPDDAG_00363
+1 1290
+Bacillus_annotated_GFJPDDAG_00364
+1 1248
+Bacillus_annotated_GFJPDDAG_00365
+1 303
+Bacillus_annotated_GFJPDDAG_00366
+1 996
+Bacillus_annotated_GFJPDDAG_00367
+1 1863
+Bacillus_annotated_GFJPDDAG_00368
+1 837
+Bacillus_annotated_GFJPDDAG_00369
+1 669
+Bacillus_annotated_GFJPDDAG_00370
+1 1551
+Bacillus_annotated_GFJPDDAG_00371
+1 276
+Bacillus_annotated_GFJPDDAG_00372
+1 1446
+Bacillus_annotated_GFJPDDAG_00373
+1 858
+Bacillus_annotated_GFJPDDAG_00374
+1 1398
+Bacillus_annotated_GFJPDDAG_00375
+1 612
+Bacillus_annotated_GFJPDDAG_00376
+1 1026
+Bacillus_annotated_GFJPDDAG_00377
+1 789
+Bacillus_annotated_GFJPDDAG_00378
+1 606
+Bacillus_annotated_GFJPDDAG_00379
+1 1203
+Bacillus_annotated_GFJPDDAG_00380
+1 792
+Bacillus_annotated_GFJPDDAG_00381
+1 156
+Bacillus_annotated_GFJPDDAG_00382
+1 1005
+Bacillus_annotated_GFJPDDAG_00383
+1 597
+Bacillus_annotated_GFJPDDAG_00384
+1 1623
+Bacillus_annotated_GFJPDDAG_00385
+1 489
+Bacillus_annotated_GFJPDDAG_00386
+1 825
+Bacillus_annotated_GFJPDDAG_00387
+1 1062
+Bacillus_annotated_GFJPDDAG_00388
+1 987
+Bacillus_annotated_GFJPDDAG_00389
+1 615
+Bacillus_annotated_GFJPDDAG_00390
+1 618
+Bacillus_annotated_GFJPDDAG_00391
+1 450
+Bacillus_annotated_GFJPDDAG_00392
+1 249
+Bacillus_annotated_GFJPDDAG_00393
+1 555
+Bacillus_annotated_GFJPDDAG_00394
+1 198
+Bacillus_annotated_GFJPDDAG_00395
+1 1524
+Bacillus_annotated_GFJPDDAG_00396
+1 207
+Bacillus_annotated_GFJPDDAG_00397
+1 150
+Bacillus_annotated_GFJPDDAG_00398
+1 1512
+Bacillus_annotated_GFJPDDAG_00399
+1 705
+Bacillus_annotated_GFJPDDAG_00400
+1 270
+Bacillus_annotated_GFJPDDAG_00401
+1 438
+Bacillus_annotated_GFJPDDAG_00402
+1 1092
+Bacillus_annotated_GFJPDDAG_00403
+1 1533
+Bacillus_annotated_GFJPDDAG_00404
+1 1110
+Bacillus_annotated_GFJPDDAG_00405
+1 1104
+Bacillus_annotated_GFJPDDAG_00406
+1 315
+Bacillus_annotated_GFJPDDAG_00407
+1 345
+Bacillus_annotated_GFJPDDAG_00408
+1 597
+Bacillus_annotated_GFJPDDAG_00409
+1 465
+Bacillus_annotated_GFJPDDAG_00410
+1 366
+Bacillus_annotated_GFJPDDAG_00411
+1 537
+Bacillus_annotated_GFJPDDAG_00412
+1 192
+Bacillus_annotated_GFJPDDAG_00413
+1 114
+Bacillus_annotated_GFJPDDAG_00414
+1 198
+Bacillus_annotated_GFJPDDAG_00415
+1 486
+Bacillus_annotated_GFJPDDAG_00416
+1 492
+Bacillus_annotated_GFJPDDAG_00417
+1 855
+Bacillus_annotated_GFJPDDAG_00418
+1 579
+Bacillus_annotated_GFJPDDAG_00419
+1 408
+Bacillus_annotated_GFJPDDAG_00420
+1 546
+Bacillus_annotated_GFJPDDAG_00421
+1 294
+Bacillus_annotated_GFJPDDAG_00422
+1 726
+Bacillus_annotated_GFJPDDAG_00423
+1 477
+Bacillus_annotated_GFJPDDAG_00424
+1 180
+Bacillus_annotated_GFJPDDAG_00425
+1 1221
+Bacillus_annotated_GFJPDDAG_00426
+1 126
+Bacillus_annotated_GFJPDDAG_00427
+1 681
+Bacillus_annotated_GFJPDDAG_00428
+1 1410
+Bacillus_annotated_GFJPDDAG_00429
+1 522
+Bacillus_annotated_GFJPDDAG_00430
+1 2847
+Bacillus_annotated_GFJPDDAG_00431
+1 1245
+Bacillus_annotated_GFJPDDAG_00432
+1 159
+Bacillus_annotated_GFJPDDAG_00433
+1 135
+Bacillus_annotated_GFJPDDAG_00434
+1 1674
+Bacillus_annotated_GFJPDDAG_00435
+1 882
+Bacillus_annotated_GFJPDDAG_00436
+1 639
+Bacillus_annotated_GFJPDDAG_00437
+1 333
+Bacillus_annotated_GFJPDDAG_00438
+1 207
+Bacillus_annotated_GFJPDDAG_00439
+1 204
+Bacillus_annotated_GFJPDDAG_00440
+1 906
+Bacillus_annotated_GFJPDDAG_00441
+1 882
+Bacillus_annotated_GFJPDDAG_00442
+1 1920
+Bacillus_annotated_GFJPDDAG_00443
+1 1575
+Bacillus_annotated_GFJPDDAG_00444
+1 1305
+Bacillus_annotated_GFJPDDAG_00445
+1 1140
+Bacillus_annotated_GFJPDDAG_00446
+1 630
+Bacillus_annotated_GFJPDDAG_00447
+1 1179
+Bacillus_annotated_GFJPDDAG_00448
+1 762
+Bacillus_annotated_GFJPDDAG_00449
+1 282
+Bacillus_annotated_GFJPDDAG_00450
+1 456
+Bacillus_annotated_GFJPDDAG_00451
+1 351
+Bacillus_annotated_GFJPDDAG_00452
+1 1140
+Bacillus_annotated_GFJPDDAG_00453
+1 1113
+Bacillus_annotated_GFJPDDAG_00454
+1 1527
+Bacillus_annotated_GFJPDDAG_00455
+1 132
+Bacillus_annotated_GFJPDDAG_00456
+1 216
+Bacillus_annotated_GFJPDDAG_00457
+1 132
+Bacillus_annotated_GFJPDDAG_00458
+1 2127
+Bacillus_annotated_GFJPDDAG_00459
+1 1602
+Bacillus_annotated_GFJPDDAG_00460
+1 279
+Bacillus_annotated_GFJPDDAG_00461
+1 441
+Bacillus_annotated_GFJPDDAG_00462
+1 429
+Bacillus_annotated_GFJPDDAG_00463
+1 1938
+Bacillus_annotated_GFJPDDAG_00464
+1 729
+Bacillus_annotated_GFJPDDAG_00465
+1 516
+Bacillus_annotated_GFJPDDAG_00466
+1 1677
+Bacillus_annotated_GFJPDDAG_00467
+1 459
+Bacillus_annotated_GFJPDDAG_00468
+1 909
+Bacillus_annotated_GFJPDDAG_00469
+1 192
+Bacillus_annotated_GFJPDDAG_00470
+1 429
+Bacillus_annotated_GFJPDDAG_00471
+1 927
+Bacillus_annotated_GFJPDDAG_00472
+1 1092
+Bacillus_annotated_GFJPDDAG_00473
+1 618
+Bacillus_annotated_GFJPDDAG_00474
+1 690
+Bacillus_annotated_GFJPDDAG_00475
+1 453
+Bacillus_annotated_GFJPDDAG_00476
+1 2409
+Bacillus_annotated_GFJPDDAG_00477
+1 1500
+Bacillus_annotated_GFJPDDAG_00478
+1 609
+Bacillus_annotated_GFJPDDAG_00479
+1 1275
+Bacillus_annotated_GFJPDDAG_00480
+1 465
+Bacillus_annotated_GFJPDDAG_00481
+1 1344
+Bacillus_annotated_GFJPDDAG_00482
+1 570
+Bacillus_annotated_GFJPDDAG_00483
+1 1257
+Bacillus_annotated_GFJPDDAG_00484
+1 762
+Bacillus_annotated_GFJPDDAG_00485
+1 234
+Bacillus_annotated_GFJPDDAG_00486
+1 654
+Bacillus_annotated_GFJPDDAG_00487
+1 570
+Bacillus_annotated_GFJPDDAG_00488
+1 1029
+Bacillus_annotated_GFJPDDAG_00489
+1 237
+Bacillus_annotated_GFJPDDAG_00490
+1 936
+Bacillus_annotated_GFJPDDAG_00491
+1 834
+Bacillus_annotated_GFJPDDAG_00492
+1 708
+Bacillus_annotated_GFJPDDAG_00493
+1 441
+Bacillus_annotated_GFJPDDAG_00494
+1 180
+Bacillus_annotated_GFJPDDAG_00495
+1 369
+Bacillus_annotated_GFJPDDAG_00496
+1 396
+Bacillus_annotated_GFJPDDAG_00497
+1 186
+Bacillus_annotated_GFJPDDAG_00498
+1 138
+Bacillus_annotated_GFJPDDAG_00499
+1 279
+Bacillus_annotated_GFJPDDAG_00500
+1 783
+Bacillus_annotated_GFJPDDAG_00501
+1 300
+Bacillus_annotated_GFJPDDAG_00502
+1 645
+Bacillus_annotated_GFJPDDAG_00503
+1 444
+Bacillus_annotated_GFJPDDAG_00504
+1 546
+Bacillus_annotated_GFJPDDAG_00505
+1 1785
+Bacillus_annotated_GFJPDDAG_00506
+1 579
+Bacillus_annotated_GFJPDDAG_00507
+1 537
+Bacillus_annotated_GFJPDDAG_00508
+1 498
+Bacillus_annotated_GFJPDDAG_00509
+1 786
+Bacillus_annotated_GFJPDDAG_00510
+1 195
+Bacillus_annotated_GFJPDDAG_00511
+1 315
+Bacillus_annotated_GFJPDDAG_00512
+1 288
+Bacillus_annotated_GFJPDDAG_00513
+1 894
+Bacillus_annotated_GFJPDDAG_00514
+1 537
+Bacillus_annotated_GFJPDDAG_00515
+1 375
+Bacillus_annotated_GFJPDDAG_00516
+1 312
+Bacillus_annotated_GFJPDDAG_00517
+1 291
+Bacillus_annotated_GFJPDDAG_00518
+1 594
+Bacillus_annotated_GFJPDDAG_00519
+1 1026
+Bacillus_annotated_GFJPDDAG_00520
+1 438
+Bacillus_annotated_GFJPDDAG_00521
+1 528
+Bacillus_annotated_GFJPDDAG_00522
+1 411
+Bacillus_annotated_GFJPDDAG_00523
+1 183
+Bacillus_annotated_GFJPDDAG_00524
+1 942
+Bacillus_annotated_GFJPDDAG_00525
+1 468
+Bacillus_annotated_GFJPDDAG_00526
+1 1788
+Bacillus_annotated_GFJPDDAG_00527
+1 828
+Bacillus_annotated_GFJPDDAG_00528
+1 279
+Bacillus_annotated_GFJPDDAG_00529
+1 525
+Bacillus_annotated_GFJPDDAG_00530
+1 471
+Bacillus_annotated_GFJPDDAG_00531
+1 159
+Bacillus_annotated_GFJPDDAG_00532
+1 276
+Bacillus_annotated_GFJPDDAG_00533
+1 336
+Bacillus_annotated_GFJPDDAG_00534
+1 96
+Bacillus_annotated_GFJPDDAG_00535
+1 795
+Bacillus_annotated_GFJPDDAG_00536
+1 624
+Bacillus_annotated_GFJPDDAG_00537
+1 819
+Bacillus_annotated_GFJPDDAG_00538
+1 702
+Bacillus_annotated_GFJPDDAG_00539
+1 387
+Bacillus_annotated_GFJPDDAG_00540
+1 771
+Bacillus_annotated_GFJPDDAG_00541
+1 444
+Bacillus_annotated_GFJPDDAG_00542
+1 270
+Bacillus_annotated_GFJPDDAG_00543
+1 768
+Bacillus_annotated_GFJPDDAG_00544
+1 390
+Bacillus_annotated_GFJPDDAG_00545
+1 2058
+Bacillus_annotated_GFJPDDAG_00546
+1 1524
+Bacillus_annotated_GFJPDDAG_00547
+1 1146
+Bacillus_annotated_GFJPDDAG_00548
+1 1155
+Bacillus_annotated_GFJPDDAG_00549
+1 1116
+Bacillus_annotated_GFJPDDAG_00550
+1 1620
+Bacillus_annotated_GFJPDDAG_00551
+1 789
+Bacillus_annotated_GFJPDDAG_00552
+1 468
+Bacillus_annotated_GFJPDDAG_00553
+1 1194
+Bacillus_annotated_GFJPDDAG_00554
+1 234
+Bacillus_annotated_GFJPDDAG_00555
+1 576
+Bacillus_annotated_GFJPDDAG_00556
+1 801
+Bacillus_annotated_GFJPDDAG_00557
+1 441
+Bacillus_annotated_GFJPDDAG_00558
+1 378
+Bacillus_annotated_GFJPDDAG_00559
+1 1395
+Bacillus_annotated_GFJPDDAG_00560
+1 564
+Bacillus_annotated_GFJPDDAG_00561
+1 228
+Bacillus_annotated_GFJPDDAG_00562
+1 207
+Bacillus_annotated_GFJPDDAG_00563
+1 465
+Bacillus_annotated_GFJPDDAG_00564
+1 1275
+Bacillus_annotated_GFJPDDAG_00565
+1 630
+Bacillus_annotated_GFJPDDAG_00566
+1 1227
+Bacillus_annotated_GFJPDDAG_00567
+1 168
+Bacillus_annotated_GFJPDDAG_00568
+1 426
+Bacillus_annotated_GFJPDDAG_00569
+1 696
+Bacillus_annotated_GFJPDDAG_00570
+1 480
+Bacillus_annotated_GFJPDDAG_00571
+1 2214
+Bacillus_annotated_GFJPDDAG_00572
+1 1158
+Bacillus_annotated_GFJPDDAG_00573
+1 876
+Bacillus_annotated_GFJPDDAG_00574
+1 708
+Bacillus_annotated_GFJPDDAG_00575
+1 507
+Bacillus_annotated_GFJPDDAG_00576
+1 834
+Bacillus_annotated_GFJPDDAG_00577
+1 669
+Bacillus_annotated_GFJPDDAG_00578
+1 498
+Bacillus_annotated_GFJPDDAG_00579
+1 750
+Bacillus_annotated_GFJPDDAG_00580
+1 201
+Bacillus_annotated_GFJPDDAG_00581
+1 414
+Bacillus_annotated_GFJPDDAG_00582
+1 1041
+Bacillus_annotated_GFJPDDAG_00583
+1 504
+Bacillus_annotated_GFJPDDAG_00584
+1 1758
+Bacillus_annotated_GFJPDDAG_00585
+1 594
+Bacillus_annotated_GFJPDDAG_00586
+1 579
+Bacillus_annotated_GFJPDDAG_00587
+1 582
+Bacillus_annotated_GFJPDDAG_00588
+1 786
+Bacillus_annotated_GFJPDDAG_00589
+1 1197
+Bacillus_annotated_GFJPDDAG_00590
+1 1395
+Bacillus_annotated_GFJPDDAG_00591
+1 1113
+Bacillus_annotated_GFJPDDAG_00592
+1 798
+Bacillus_annotated_GFJPDDAG_00593
+1 1620
+Bacillus_annotated_GFJPDDAG_00594
+1 1092
+Bacillus_annotated_GFJPDDAG_00595
+1 1146
+Bacillus_annotated_GFJPDDAG_00596
+1 498
+Bacillus_annotated_GFJPDDAG_00597
+1 486
+Bacillus_annotated_GFJPDDAG_00598
+1 513
+Bacillus_annotated_GFJPDDAG_00599
+1 879
+Bacillus_annotated_GFJPDDAG_00600
+1 603
+Bacillus_annotated_GFJPDDAG_00601
+1 1194
+Bacillus_annotated_GFJPDDAG_00602
+1 108
+Bacillus_annotated_GFJPDDAG_00603
+1 828
+Bacillus_annotated_GFJPDDAG_00604
+1 201
+Bacillus_annotated_GFJPDDAG_00605
+1 615
+Bacillus_annotated_GFJPDDAG_00606
+1 897
+Bacillus_annotated_GFJPDDAG_00607
+1 1098
+Bacillus_annotated_GFJPDDAG_00608
+1 174
+Bacillus_annotated_GFJPDDAG_00609
+1 201
+Bacillus_annotated_GFJPDDAG_00610
+1 1941
+Bacillus_annotated_GFJPDDAG_00611
+1 324
+Bacillus_annotated_GFJPDDAG_00612
+1 987
+Bacillus_annotated_GFJPDDAG_00613
+1 396
+Bacillus_annotated_GFJPDDAG_00614
+1 2904
+Bacillus_annotated_GFJPDDAG_00615
+1 1365
+Bacillus_annotated_GFJPDDAG_00616
+1 2565
+Bacillus_annotated_GFJPDDAG_00617
+1 1371
+Bacillus_annotated_GFJPDDAG_00618
+1 546
+Bacillus_annotated_GFJPDDAG_00619
+1 438
+Bacillus_annotated_GFJPDDAG_00620
+1 732
+Bacillus_annotated_GFJPDDAG_00621
+1 306
+Bacillus_annotated_GFJPDDAG_00622
+1 231
+Bacillus_annotated_GFJPDDAG_00623
+1 606
+Bacillus_annotated_GFJPDDAG_00624
+1 861
+Bacillus_annotated_GFJPDDAG_00625
+1 333
+Bacillus_annotated_GFJPDDAG_00626
+1 285
+Bacillus_annotated_GFJPDDAG_00627
+1 534
+Bacillus_annotated_GFJPDDAG_00628
+1 252
+Bacillus_annotated_GFJPDDAG_00629
+1 624
+Bacillus_annotated_GFJPDDAG_00630
+1 624
+Bacillus_annotated_GFJPDDAG_00631
+1 1482
+Bacillus_annotated_GFJPDDAG_00632
+1 564
+Bacillus_annotated_GFJPDDAG_00633
+1 558
+Bacillus_annotated_GFJPDDAG_00634
+1 540
+Bacillus_annotated_GFJPDDAG_00635
+1 1011
+Bacillus_annotated_GFJPDDAG_00636
+1 480
+Bacillus_annotated_GFJPDDAG_00637
+1 1461
+Bacillus_annotated_GFJPDDAG_00638
+1 780
+Bacillus_annotated_GFJPDDAG_00639
+1 891
+Bacillus_annotated_GFJPDDAG_00640
+1 963
+Bacillus_annotated_GFJPDDAG_00641
+1 798
+Bacillus_annotated_GFJPDDAG_00642
+1 1029
+Bacillus_annotated_GFJPDDAG_00643
+1 531
+Bacillus_annotated_GFJPDDAG_00644
+1 1281
+Bacillus_annotated_GFJPDDAG_00645
+1 186
+Bacillus_annotated_GFJPDDAG_00646
+1 345
+Bacillus_annotated_GFJPDDAG_00647
+1 252
+Bacillus_annotated_GFJPDDAG_00648
+1 399
+Bacillus_annotated_GFJPDDAG_00649
+1 1263
+Bacillus_annotated_GFJPDDAG_00650
+1 870
+Bacillus_annotated_GFJPDDAG_00651
+1 1026
+Bacillus_annotated_GFJPDDAG_00652
+1 267
+Bacillus_annotated_GFJPDDAG_00653
+1 1188
+Bacillus_annotated_GFJPDDAG_00654
+1 501
+Bacillus_annotated_GFJPDDAG_00655
+1 1107
+Bacillus_annotated_GFJPDDAG_00656
+1 594
+Bacillus_annotated_GFJPDDAG_00657
+1 1158
+Bacillus_annotated_GFJPDDAG_00658
+1 657
+Bacillus_annotated_GFJPDDAG_00659
+1 429
+Bacillus_annotated_GFJPDDAG_00660
+1 225
+Bacillus_annotated_GFJPDDAG_00661
+1 294
+Bacillus_annotated_GFJPDDAG_00662
+1 468
+Bacillus_annotated_GFJPDDAG_00663
+1 393
+Bacillus_annotated_GFJPDDAG_00664
+1 519
+Bacillus_annotated_GFJPDDAG_00665
+1 381
+Bacillus_annotated_GFJPDDAG_00666
+1 159
+Bacillus_annotated_GFJPDDAG_00667
+1 447
+Bacillus_annotated_GFJPDDAG_00668
+1 696
+Bacillus_annotated_GFJPDDAG_00669
+1 1362
+Bacillus_annotated_GFJPDDAG_00670
+1 261
+Bacillus_annotated_GFJPDDAG_00671
+1 1002
+Bacillus_annotated_GFJPDDAG_00672
+1 447
+Bacillus_annotated_GFJPDDAG_00673
+1 810
+Bacillus_annotated_GFJPDDAG_00674
+1 111
+Bacillus_annotated_GFJPDDAG_00675
+1 1194
+Bacillus_annotated_GFJPDDAG_00676
+1 168
+Bacillus_annotated_GFJPDDAG_00677
+1 171
+Bacillus_annotated_GFJPDDAG_00678
+1 219
+Bacillus_annotated_GFJPDDAG_00679
+1 504
+Bacillus_annotated_GFJPDDAG_00680
+1 804
+Bacillus_annotated_GFJPDDAG_00681
+1 150
+Bacillus_annotated_GFJPDDAG_00682
+1 243
+Bacillus_annotated_GFJPDDAG_00683
+1 624
+Bacillus_annotated_GFJPDDAG_00684
+1 507
+Bacillus_annotated_GFJPDDAG_00685
+1 183
+Bacillus_annotated_GFJPDDAG_00686
+1 351
+Bacillus_annotated_GFJPDDAG_00687
+1 645
+Bacillus_annotated_GFJPDDAG_00688
+1 189
+Bacillus_annotated_GFJPDDAG_00689
+1 918
+Bacillus_annotated_GFJPDDAG_00690
+1 1242
+Bacillus_annotated_GFJPDDAG_00691
+1 243
+Bacillus_annotated_GFJPDDAG_00692
+1 477
+Bacillus_annotated_GFJPDDAG_00693
+1 528
+Bacillus_annotated_GFJPDDAG_00694
+1 627
+Bacillus_annotated_GFJPDDAG_00695
+1 1722
+Bacillus_annotated_GFJPDDAG_00696
+1 621
+Bacillus_annotated_GFJPDDAG_00697
+1 945
+Bacillus_annotated_GFJPDDAG_00698
+1 201
+Bacillus_annotated_GFJPDDAG_00699
+1 708
+Bacillus_annotated_GFJPDDAG_00700
+1 1266
+Bacillus_annotated_GFJPDDAG_00701
+1 474
+Bacillus_annotated_GFJPDDAG_00702
+1 1725
+Bacillus_annotated_GFJPDDAG_00703
+1 1863
+Bacillus_annotated_GFJPDDAG_00704
+1 180
+Bacillus_annotated_GFJPDDAG_00705
+1 993
+Bacillus_annotated_GFJPDDAG_00706
+1 1272
+Bacillus_annotated_GFJPDDAG_00707
+1 888
+Bacillus_annotated_GFJPDDAG_00708
+1 861
+Bacillus_annotated_GFJPDDAG_00709
+1 702
+Bacillus_annotated_GFJPDDAG_00710
+1 1404
+Bacillus_annotated_GFJPDDAG_00711
+1 501
+Bacillus_annotated_GFJPDDAG_00712
+1 336
+Bacillus_annotated_GFJPDDAG_00713
+1 1290
+Bacillus_annotated_GFJPDDAG_00714
+1 420
+Bacillus_annotated_GFJPDDAG_00715
+1 1200
+Bacillus_annotated_GFJPDDAG_00716
+1 852
+Bacillus_annotated_GFJPDDAG_00717
+1 1017
+Bacillus_annotated_GFJPDDAG_00718
+1 183
+Bacillus_annotated_GFJPDDAG_00719
+1 420
+Bacillus_annotated_GFJPDDAG_00720
+1 1191
+Bacillus_annotated_GFJPDDAG_00721
+1 687
+Bacillus_annotated_GFJPDDAG_00722
+1 1374
+Bacillus_annotated_GFJPDDAG_00723
+1 435
+Bacillus_annotated_GFJPDDAG_00724
+1 195
+Bacillus_annotated_GFJPDDAG_00725
+1 3039
+Bacillus_annotated_GFJPDDAG_00726
+1 306
+Bacillus_annotated_GFJPDDAG_00727
+1 237
+Bacillus_annotated_GFJPDDAG_00728
+1 408
+Bacillus_annotated_GFJPDDAG_00729
+1 816
+Bacillus_annotated_GFJPDDAG_00730
+1 282
+Bacillus_annotated_GFJPDDAG_00731
+1 1197
+Bacillus_annotated_GFJPDDAG_00732
+1 552
+Bacillus_annotated_GFJPDDAG_00733
+1 2136
+Bacillus_annotated_GFJPDDAG_00734
+1 204
+Bacillus_annotated_GFJPDDAG_00735
+1 420
+Bacillus_annotated_GFJPDDAG_00736
+1 324
+Bacillus_annotated_GFJPDDAG_00737
+1 771
+Bacillus_annotated_GFJPDDAG_00738
+1 1335
+Bacillus_annotated_GFJPDDAG_00739
+1 672
+Bacillus_annotated_GFJPDDAG_00740
+1 549
+Bacillus_annotated_GFJPDDAG_00741
+1 654
+Bacillus_annotated_GFJPDDAG_00742
+1 294
+Bacillus_annotated_GFJPDDAG_00743
+1 309
+Bacillus_annotated_GFJPDDAG_00744
+1 141
+Bacillus_annotated_GFJPDDAG_00745
+1 573
+Bacillus_annotated_GFJPDDAG_00746
+1 597
+Bacillus_annotated_GFJPDDAG_00747
+1 531
+Bacillus_annotated_GFJPDDAG_00748
+1 273
+Bacillus_annotated_GFJPDDAG_00749
+1 246
+Bacillus_annotated_GFJPDDAG_00750
+1 234
+Bacillus_annotated_GFJPDDAG_00751
+1 489
+Bacillus_annotated_GFJPDDAG_00752
+1 777
+Bacillus_annotated_GFJPDDAG_00753
+1 360
+Bacillus_annotated_GFJPDDAG_00754
+1 423
+Bacillus_annotated_GFJPDDAG_00755
+1 213
+Bacillus_annotated_GFJPDDAG_00756
+1 792
+Bacillus_annotated_GFJPDDAG_00757
+1 1515
+Bacillus_annotated_GFJPDDAG_00758
+1 1194
+Bacillus_annotated_GFJPDDAG_00759
+1 234
+Bacillus_annotated_GFJPDDAG_00760
+1 1119
+Bacillus_annotated_GFJPDDAG_00761
+1 819
+Bacillus_annotated_GFJPDDAG_00762
+1 1995
+Bacillus_annotated_GFJPDDAG_00763
+1 750
+Bacillus_annotated_GFJPDDAG_00764
+1 210
+Bacillus_annotated_GFJPDDAG_00765
+1 366
+Bacillus_annotated_GFJPDDAG_00766
+1 654
+Bacillus_annotated_GFJPDDAG_00767
+1 855
+Bacillus_annotated_GFJPDDAG_00768
+1 819
+Bacillus_annotated_GFJPDDAG_00769
+1 747
+Bacillus_annotated_GFJPDDAG_00770
+1 501
+Bacillus_annotated_GFJPDDAG_00771
+1 339
+Bacillus_annotated_GFJPDDAG_00772
+1 585
+Bacillus_annotated_GFJPDDAG_00773
+1 480
+Bacillus_annotated_GFJPDDAG_00774
+1 420
+Bacillus_annotated_GFJPDDAG_00775
+1 450
+Bacillus_annotated_GFJPDDAG_00776
+1 174
+Bacillus_annotated_GFJPDDAG_00777
+1 474
+Bacillus_annotated_GFJPDDAG_00778
+1 1131
+Bacillus_annotated_GFJPDDAG_00779
+1 231
+Bacillus_annotated_GFJPDDAG_00780
+1 150
+Bacillus_annotated_GFJPDDAG_00781
+1 282
+Bacillus_annotated_GFJPDDAG_00782
+1 402
+Bacillus_annotated_GFJPDDAG_00783
+1 489
+Bacillus_annotated_GFJPDDAG_00784
+1 366
+Bacillus_annotated_GFJPDDAG_00785
+1 1704
+Bacillus_annotated_GFJPDDAG_00786
+1 849
+Bacillus_annotated_GFJPDDAG_00787
+1 237
+Bacillus_annotated_GFJPDDAG_00788
+1 888
+Bacillus_annotated_GFJPDDAG_00789
+1 2142
+Bacillus_annotated_GFJPDDAG_00790
+1 90
+Bacillus_annotated_GFJPDDAG_00791
+1 252
+Bacillus_annotated_GFJPDDAG_00792
+1 186
+Bacillus_annotated_GFJPDDAG_00793
+1 396
+Bacillus_annotated_GFJPDDAG_00794
+1 414
+Bacillus_annotated_GFJPDDAG_00795
+1 333
+Bacillus_annotated_GFJPDDAG_00796
+1 249
+Bacillus_annotated_GFJPDDAG_00797
+1 1020
+Bacillus_annotated_GFJPDDAG_00798
+1 192
+Bacillus_annotated_GFJPDDAG_00799
+1 798
+Bacillus_annotated_GFJPDDAG_00800
+1 798
+Bacillus_annotated_GFJPDDAG_00801
+1 1134
+Bacillus_annotated_GFJPDDAG_00802
+1 444
+Bacillus_annotated_GFJPDDAG_00803
+1 198
+Bacillus_annotated_GFJPDDAG_00804
+1 285
+Bacillus_annotated_GFJPDDAG_00805
+1 1740
+Bacillus_annotated_GFJPDDAG_00806
+1 1788
+Bacillus_annotated_GFJPDDAG_00807
+1 1008
+Bacillus_annotated_GFJPDDAG_00808
+1 621
+Bacillus_annotated_GFJPDDAG_00809
+1 777
+Bacillus_annotated_GFJPDDAG_00810
+1 915
+Bacillus_annotated_GFJPDDAG_00811
+1 693
+Bacillus_annotated_GFJPDDAG_00812
+1 987
+Bacillus_annotated_GFJPDDAG_00813
+1 426
+Bacillus_annotated_GFJPDDAG_00814
+1 543
+Bacillus_annotated_GFJPDDAG_00815
+1 1326
+Bacillus_annotated_GFJPDDAG_00816
+1 132
+Bacillus_annotated_GFJPDDAG_00817
+1 618
+Bacillus_annotated_GFJPDDAG_00818
+1 507
+Bacillus_annotated_GFJPDDAG_00819
+1 708
+Bacillus_annotated_GFJPDDAG_00820
+1 195
+Bacillus_annotated_GFJPDDAG_00821
+1 381
+Bacillus_annotated_GFJPDDAG_00822
+1 2328
+Bacillus_annotated_GFJPDDAG_00823
+1 1221
+Bacillus_annotated_GFJPDDAG_00824
+1 1293
+Bacillus_annotated_GFJPDDAG_00825
+1 858
+Bacillus_annotated_GFJPDDAG_00826
+1 1224
+Bacillus_annotated_GFJPDDAG_00827
+1 531
+Bacillus_annotated_GFJPDDAG_00828
+1 1116
+Bacillus_annotated_GFJPDDAG_00829
+1 1506
+Bacillus_annotated_GFJPDDAG_00830
+1 150
+Bacillus_annotated_GFJPDDAG_00831
+1 525
+Bacillus_annotated_GFJPDDAG_00832
+1 966
+Bacillus_annotated_GFJPDDAG_00833
+1 1059
+Bacillus_annotated_GFJPDDAG_00834
+1 1470
+Bacillus_annotated_GFJPDDAG_00835
+1 555
+Bacillus_annotated_GFJPDDAG_00836
+1 789
+Bacillus_annotated_GFJPDDAG_00837
+1 630
+Bacillus_annotated_GFJPDDAG_00838
+1 429
+Bacillus_annotated_GFJPDDAG_00839
+1 591
+Bacillus_annotated_GFJPDDAG_00840
+1 525
+Bacillus_annotated_GFJPDDAG_00841
+1 729
+Bacillus_annotated_GFJPDDAG_00842
+1 954
+Bacillus_annotated_GFJPDDAG_00843
+1 846
+Bacillus_annotated_GFJPDDAG_00844
+1 1116
+Bacillus_annotated_GFJPDDAG_00845
+1 1263
+Bacillus_annotated_GFJPDDAG_00846
+1 747
+Bacillus_annotated_GFJPDDAG_00847
+1 1917
+Bacillus_annotated_GFJPDDAG_00848
+1 2157
+Bacillus_annotated_GFJPDDAG_00849
+1 531
+Bacillus_annotated_GFJPDDAG_00850
+1 1194
+Bacillus_annotated_GFJPDDAG_00851
+1 837
+Bacillus_annotated_GFJPDDAG_00852
+1 1233
+Bacillus_annotated_GFJPDDAG_00853
+1 117
+Bacillus_annotated_GFJPDDAG_00854
+1 1257
+Bacillus_annotated_GFJPDDAG_00855
+1 1020
+Bacillus_annotated_GFJPDDAG_00856
+1 336
+Bacillus_annotated_GFJPDDAG_00857
+1 405
+Bacillus_annotated_GFJPDDAG_00858
+1 1740
+Bacillus_annotated_GFJPDDAG_00859
+1 270
+Bacillus_annotated_GFJPDDAG_00860
+1 981
+Bacillus_annotated_GFJPDDAG_00861
+1 1251
+Bacillus_annotated_GFJPDDAG_00862
+1 261
+Bacillus_annotated_GFJPDDAG_00863
+1 228
+Bacillus_annotated_GFJPDDAG_00864
+1 480
+Bacillus_annotated_GFJPDDAG_00865
+1 573
+Bacillus_annotated_GFJPDDAG_00866
+1 1128
+Bacillus_annotated_GFJPDDAG_00867
+1 777
+Bacillus_annotated_GFJPDDAG_00868
+1 1461
+Bacillus_annotated_GFJPDDAG_00869
+1 921
+Bacillus_annotated_GFJPDDAG_00870
+1 1404
+Bacillus_annotated_GFJPDDAG_00871
+1 690
+Bacillus_annotated_GFJPDDAG_00872
+1 381
+Bacillus_annotated_GFJPDDAG_00873
+1 360
+Bacillus_annotated_GFJPDDAG_00874
+1 297
+Bacillus_annotated_GFJPDDAG_00875
+1 1128
+Bacillus_annotated_GFJPDDAG_00876
+1 357
+Bacillus_annotated_GFJPDDAG_00877
+1 261
+Bacillus_annotated_GFJPDDAG_00878
+1 891
+Bacillus_annotated_GFJPDDAG_00879
+1 522
+Bacillus_annotated_GFJPDDAG_00880
+1 297
+Bacillus_annotated_GFJPDDAG_00881
+1 438
+Bacillus_annotated_GFJPDDAG_00882
+1 651
+Bacillus_annotated_GFJPDDAG_00883
+1 297
+Bacillus_annotated_GFJPDDAG_00884
+1 789
+Bacillus_annotated_GFJPDDAG_00885
+1 444
+Bacillus_annotated_GFJPDDAG_00886
+1 2583
+Bacillus_annotated_GFJPDDAG_00887
+1 717
+Bacillus_annotated_GFJPDDAG_00888
+1 1131
+Bacillus_annotated_GFJPDDAG_00889
+1 813
+Bacillus_annotated_GFJPDDAG_00890
+1 129
+Bacillus_annotated_GFJPDDAG_00891
+1 801
+Bacillus_annotated_GFJPDDAG_00892
+1 1335
+Bacillus_annotated_GFJPDDAG_00893
+1 753
+Bacillus_annotated_GFJPDDAG_00894
+1 588
+Bacillus_annotated_GFJPDDAG_00895
+1 309
+Bacillus_annotated_GFJPDDAG_00896
+1 288
+Bacillus_annotated_GFJPDDAG_00897
+1 198
+Bacillus_annotated_GFJPDDAG_00898
+1 1143
+Bacillus_annotated_GFJPDDAG_00899
+1 600
+Bacillus_annotated_GFJPDDAG_00900
+1 714
+Bacillus_annotated_GFJPDDAG_00901
+1 579
+Bacillus_annotated_GFJPDDAG_00902
+1 1428
+Bacillus_annotated_GFJPDDAG_00903
+1 804
+Bacillus_annotated_GFJPDDAG_00904
+1 624
+Bacillus_annotated_GFJPDDAG_00905
+1 1098
+Bacillus_annotated_GFJPDDAG_00906
+1 204
+Bacillus_annotated_GFJPDDAG_00907
+1 765
+Bacillus_annotated_GFJPDDAG_00908
+1 1023
+Bacillus_annotated_GFJPDDAG_00909
+1 1386
+Bacillus_annotated_GFJPDDAG_00910
+1 774
+Bacillus_annotated_GFJPDDAG_00911
+1 1230
+Bacillus_annotated_GFJPDDAG_00912
+1 1599
+Bacillus_annotated_GFJPDDAG_00913
+1 567
+Bacillus_annotated_GFJPDDAG_00914
+1 417
+Bacillus_annotated_GFJPDDAG_00915
+1 1077
+Bacillus_annotated_GFJPDDAG_00916
+1 777
+Bacillus_annotated_GFJPDDAG_00917
+1 978
+Bacillus_annotated_GFJPDDAG_00918
+1 1176
+Bacillus_annotated_GFJPDDAG_00919
+1 759
+Bacillus_annotated_GFJPDDAG_00920
+1 450
+Bacillus_annotated_GFJPDDAG_00921
+1 405
+Bacillus_annotated_GFJPDDAG_00922
+1 156
+Bacillus_annotated_GFJPDDAG_00923
+1 699
+Bacillus_annotated_GFJPDDAG_00924
+1 1065
+Bacillus_annotated_GFJPDDAG_00925
+1 1146
+Bacillus_annotated_GFJPDDAG_00926
+1 603
+Bacillus_annotated_GFJPDDAG_00927
+1 1611
+Bacillus_annotated_GFJPDDAG_00928
+1 225
+Bacillus_annotated_GFJPDDAG_00929
+1 777
+Bacillus_annotated_GFJPDDAG_00930
+1 723
+Bacillus_annotated_GFJPDDAG_00931
+1 558
+Bacillus_annotated_GFJPDDAG_00932
+1 1563
+Bacillus_annotated_GFJPDDAG_00933
+1 537
+Bacillus_annotated_GFJPDDAG_00934
+1 189
+Bacillus_annotated_GFJPDDAG_00935
+1 789
+Bacillus_annotated_GFJPDDAG_00936
+1 1833
+Bacillus_annotated_GFJPDDAG_00937
+1 1242
+Bacillus_annotated_GFJPDDAG_00938
+1 204
+Bacillus_annotated_GFJPDDAG_00939
+1 6210
+Bacillus_annotated_GFJPDDAG_00940
+1 417
+Bacillus_annotated_GFJPDDAG_00941
+1 375
+Bacillus_annotated_GFJPDDAG_00942
+1 459
+Bacillus_annotated_GFJPDDAG_00943
+1 765
+Bacillus_annotated_GFJPDDAG_00944
+1 411
+Bacillus_annotated_GFJPDDAG_00945
+1 1425
+Bacillus_annotated_GFJPDDAG_00946
+1 2439
+Bacillus_annotated_GFJPDDAG_00947
+1 1977
+Bacillus_annotated_GFJPDDAG_00948
+1 408
+Bacillus_annotated_GFJPDDAG_00949
+1 900
+Bacillus_annotated_GFJPDDAG_00950
+1 657
+Bacillus_annotated_GFJPDDAG_00951
+1 978
+Bacillus_annotated_GFJPDDAG_00952
+1 1299
+Bacillus_annotated_GFJPDDAG_00953
+1 585
+Bacillus_annotated_GFJPDDAG_00954
+1 1161
+Bacillus_annotated_GFJPDDAG_00955
+1 261
+Bacillus_annotated_GFJPDDAG_00956
+1 291
+Bacillus_annotated_GFJPDDAG_00957
+1 306
+Bacillus_annotated_GFJPDDAG_00958
+1 417
+Bacillus_annotated_GFJPDDAG_00959
+1 228
+Bacillus_annotated_GFJPDDAG_00960
+1 147
+Bacillus_annotated_GFJPDDAG_00961
+1 588
+Bacillus_annotated_GFJPDDAG_00962
+1 2712
+Bacillus_annotated_GFJPDDAG_00963
+1 261
+Bacillus_annotated_GFJPDDAG_00964
+1 138
+Bacillus_annotated_GFJPDDAG_00965
+1 1413
+Bacillus_annotated_GFJPDDAG_00966
+1 393
+Bacillus_annotated_GFJPDDAG_00967
+1 966
+Bacillus_annotated_GFJPDDAG_00968
+1 2223
+Bacillus_annotated_GFJPDDAG_00969
+1 642
+Bacillus_annotated_GFJPDDAG_00970
+1 129
+Bacillus_annotated_GFJPDDAG_00971
+1 1530
+Bacillus_annotated_GFJPDDAG_00972
+1 570
+Bacillus_annotated_GFJPDDAG_00973
+1 786
+Bacillus_annotated_GFJPDDAG_00974
+1 204
+Bacillus_annotated_GFJPDDAG_00975
+1 156
+Bacillus_annotated_GFJPDDAG_00976
+1 1287
+Bacillus_annotated_GFJPDDAG_00977
+1 744
+Bacillus_annotated_GFJPDDAG_00978
+1 1248
+Bacillus_annotated_GFJPDDAG_00979
+1 687
+Bacillus_annotated_GFJPDDAG_00980
+1 381
+Bacillus_annotated_GFJPDDAG_00981
+1 654
+Bacillus_annotated_GFJPDDAG_00982
+1 2163
+Bacillus_annotated_GFJPDDAG_00983
+1 1098
+Bacillus_annotated_GFJPDDAG_00984
+1 444
+Bacillus_annotated_GFJPDDAG_00985
+1 369
+Bacillus_annotated_GFJPDDAG_00986
+1 846
+Bacillus_annotated_GFJPDDAG_00987
+1 1665
+Bacillus_annotated_GFJPDDAG_00988
+1 1491
+Bacillus_annotated_GFJPDDAG_00989
+1 831
+Bacillus_annotated_GFJPDDAG_00990
+1 558
+Bacillus_annotated_GFJPDDAG_00991
+1 768
+Bacillus_annotated_GFJPDDAG_00992
+1 798
+Bacillus_annotated_GFJPDDAG_00993
+1 192
+Bacillus_annotated_GFJPDDAG_00994
+1 1242
+Bacillus_annotated_GFJPDDAG_00995
+1 432
+Bacillus_annotated_GFJPDDAG_00996
+1 504
+Bacillus_annotated_GFJPDDAG_00997
+1 501
+Bacillus_annotated_GFJPDDAG_00998
+1 1032
+Bacillus_annotated_GFJPDDAG_00999
+1 546
+Bacillus_annotated_GFJPDDAG_01000
+1 1314
+Bacillus_annotated_GFJPDDAG_01001
+1 393
+Bacillus_annotated_GFJPDDAG_01002
+1 1272
+Bacillus_annotated_GFJPDDAG_01003
+1 411
+Bacillus_annotated_GFJPDDAG_01004
+1 606
+Bacillus_annotated_GFJPDDAG_01005
+1 2169
+Bacillus_annotated_GFJPDDAG_01006
+1 396
+Bacillus_annotated_GFJPDDAG_01007
+1 723
+Bacillus_annotated_GFJPDDAG_01008
+1 750
+Bacillus_annotated_GFJPDDAG_01009
+1 183
+Bacillus_annotated_GFJPDDAG_01010
+1 204
+Bacillus_annotated_GFJPDDAG_01011
+1 642
+Bacillus_annotated_GFJPDDAG_01012
+1 762
+Bacillus_annotated_GFJPDDAG_01013
+1 630
+Bacillus_annotated_GFJPDDAG_01014
+1 438
+Bacillus_annotated_GFJPDDAG_01015
+1 636
+Bacillus_annotated_GFJPDDAG_01016
+1 420
+Bacillus_annotated_GFJPDDAG_01017
+1 465
+Bacillus_annotated_GFJPDDAG_01018
+1 837
+Bacillus_annotated_GFJPDDAG_01019
+1 204
+Bacillus_annotated_GFJPDDAG_01020
+1 552
+Bacillus_annotated_GFJPDDAG_01021
+1 1575
+Bacillus_annotated_GFJPDDAG_01022
+1 510
+Bacillus_annotated_GFJPDDAG_01023
+1 1683
+Bacillus_annotated_GFJPDDAG_01024
+1 378
+Bacillus_annotated_GFJPDDAG_01025
+1 231
+Bacillus_annotated_GFJPDDAG_01026
+1 552
+Bacillus_annotated_GFJPDDAG_01027
+1 984
+Bacillus_annotated_GFJPDDAG_01028
+1 702
+Bacillus_annotated_GFJPDDAG_01029
+1 3081
+Bacillus_annotated_GFJPDDAG_01030
+1 339
+Bacillus_annotated_GFJPDDAG_01031
+1 1005
+Bacillus_annotated_GFJPDDAG_01032
+1 924
+Bacillus_annotated_GFJPDDAG_01033
+1 1080
+Bacillus_annotated_GFJPDDAG_01034
+1 1029
+Bacillus_annotated_GFJPDDAG_01035
+1 1626
+Bacillus_annotated_GFJPDDAG_01036
+1 1014
+Bacillus_annotated_GFJPDDAG_01037
+1 954
+Bacillus_annotated_GFJPDDAG_01038
+1 933
+Bacillus_annotated_GFJPDDAG_01039
+1 825
+Bacillus_annotated_GFJPDDAG_01040
+1 180
+Bacillus_annotated_GFJPDDAG_01041
+1 537
+Bacillus_annotated_GFJPDDAG_01042
+1 1176
+Bacillus_annotated_GFJPDDAG_01043
+1 690
+Bacillus_annotated_GFJPDDAG_01044
+1 1074
+Bacillus_annotated_GFJPDDAG_01045
+1 678
+Bacillus_annotated_GFJPDDAG_01046
+1 1272
+Bacillus_annotated_GFJPDDAG_01047
+1 276
+Bacillus_annotated_GFJPDDAG_01048
+1 228
+Bacillus_annotated_GFJPDDAG_01049
+1 153
+Bacillus_annotated_GFJPDDAG_01050
+1 327
+Bacillus_annotated_GFJPDDAG_01051
+1 525
+Bacillus_annotated_GFJPDDAG_01052
+1 666
+Bacillus_annotated_GFJPDDAG_01053
+1 291
+Bacillus_annotated_GFJPDDAG_01054
+1 396
+Bacillus_annotated_GFJPDDAG_01055
+1 525
+Bacillus_annotated_GFJPDDAG_01056
+1 522
+Bacillus_annotated_GFJPDDAG_01057
+1 453
+Bacillus_annotated_GFJPDDAG_01058
+1 366
+Bacillus_annotated_GFJPDDAG_01059
+1 1101
+Bacillus_annotated_GFJPDDAG_01060
+1 711
+Bacillus_annotated_GFJPDDAG_01061
+1 492
+Bacillus_annotated_GFJPDDAG_01062
+1 450
+Bacillus_annotated_GFJPDDAG_01063
+1 744
+Bacillus_annotated_GFJPDDAG_01064
+1 912
+Bacillus_annotated_GFJPDDAG_01065
+1 345
+Bacillus_annotated_GFJPDDAG_01066
+1 642
+Bacillus_annotated_GFJPDDAG_01067
+1 507
+Bacillus_annotated_GFJPDDAG_01068
+1 522
+Bacillus_annotated_GFJPDDAG_01069
+1 384
+Bacillus_annotated_GFJPDDAG_01070
+1 1086
+Bacillus_annotated_GFJPDDAG_01071
+1 879
+Bacillus_annotated_GFJPDDAG_01072
+1 696
+Bacillus_annotated_GFJPDDAG_01073
+1 549
+Bacillus_annotated_GFJPDDAG_01074
+1 528
+Bacillus_annotated_GFJPDDAG_01075
+1 432
+Bacillus_annotated_GFJPDDAG_01076
+1 375
+Bacillus_annotated_GFJPDDAG_01077
+1 888
+Bacillus_annotated_GFJPDDAG_01078
+1 2157
+Bacillus_annotated_GFJPDDAG_01079
+1 1122
+Bacillus_annotated_GFJPDDAG_01080
+1 1002
+Bacillus_annotated_GFJPDDAG_01081
+1 372
+Bacillus_annotated_GFJPDDAG_01082
+1 765
+Bacillus_annotated_GFJPDDAG_01083
+1 846
+Bacillus_annotated_GFJPDDAG_01084
+1 1398
+Bacillus_annotated_GFJPDDAG_01085
+1 810
+Bacillus_annotated_GFJPDDAG_01086
+1 216
+Bacillus_annotated_GFJPDDAG_01087
+1 327
+Bacillus_annotated_GFJPDDAG_01088
+1 567
+Bacillus_annotated_GFJPDDAG_01089
+1 1164
+Bacillus_annotated_GFJPDDAG_01090
+1 213
+Bacillus_annotated_GFJPDDAG_01091
+1 477
+Bacillus_annotated_GFJPDDAG_01092
+1 237
+Bacillus_annotated_GFJPDDAG_01093
+1 315
+Bacillus_annotated_GFJPDDAG_01094
+1 1425
+Bacillus_annotated_GFJPDDAG_01095
+1 645
+Bacillus_annotated_GFJPDDAG_01096
+1 738
+Bacillus_annotated_GFJPDDAG_01097
+1 906
+Bacillus_annotated_GFJPDDAG_01098
+1 738
+Bacillus_annotated_GFJPDDAG_01099
+1 993
+Bacillus_annotated_GFJPDDAG_01100
+1 762
+Bacillus_annotated_GFJPDDAG_01101
+1 882
+Bacillus_annotated_GFJPDDAG_01102
+1 3060
+Bacillus_annotated_GFJPDDAG_01103
+1 1452
+Bacillus_annotated_GFJPDDAG_01104
+1 495
+Bacillus_annotated_GFJPDDAG_01105
+1 798
+Bacillus_annotated_GFJPDDAG_01106
+1 792
+Bacillus_annotated_GFJPDDAG_01107
+1 885
+Bacillus_annotated_GFJPDDAG_01108
+1 621
+Bacillus_annotated_GFJPDDAG_01109
+1 330
+Bacillus_annotated_GFJPDDAG_01110
+1 636
+Bacillus_annotated_GFJPDDAG_01111
+1 357
+Bacillus_annotated_GFJPDDAG_01112
+1 399
+Bacillus_annotated_GFJPDDAG_01113
+1 1359
+Bacillus_annotated_GFJPDDAG_01114
+1 3165
+Bacillus_annotated_GFJPDDAG_01115
+1 618
+Bacillus_annotated_GFJPDDAG_01116
+1 915
+Bacillus_annotated_GFJPDDAG_01117
+1 1254
+Bacillus_annotated_GFJPDDAG_01118
+1 663
+Bacillus_annotated_GFJPDDAG_01119
+1 1002
+Bacillus_annotated_GFJPDDAG_01120
+1 363
+Bacillus_annotated_GFJPDDAG_01121
+1 297
+Bacillus_annotated_GFJPDDAG_01122
+1 636
+Bacillus_annotated_GFJPDDAG_01123
+1 435
+Bacillus_annotated_GFJPDDAG_01124
+1 774
+Bacillus_annotated_GFJPDDAG_01125
+1 192
+Bacillus_annotated_GFJPDDAG_01126
+1 462
+Bacillus_annotated_GFJPDDAG_01127
+1 435
+Bacillus_annotated_GFJPDDAG_01128
+1 1368
+Bacillus_annotated_GFJPDDAG_01129
+1 1224
+Bacillus_annotated_GFJPDDAG_01130
+1 1047
+Bacillus_annotated_GFJPDDAG_01131
+1 1071
+Bacillus_annotated_GFJPDDAG_01132
+1 762
+Bacillus_annotated_GFJPDDAG_01133
+1 642
+Bacillus_annotated_GFJPDDAG_01134
+1 822
+Bacillus_annotated_GFJPDDAG_01135
+1 567
+Bacillus_annotated_GFJPDDAG_01136
+1 831
+Bacillus_annotated_GFJPDDAG_01137
+1 741
+Bacillus_annotated_GFJPDDAG_01138
+1 702
+Bacillus_annotated_GFJPDDAG_01139
+1 1632
+Bacillus_annotated_GFJPDDAG_01140
+1 291
+Bacillus_annotated_GFJPDDAG_01141
+1 1482
+Bacillus_annotated_GFJPDDAG_01142
+1 417
+Bacillus_annotated_GFJPDDAG_01143
+1 1482
+Bacillus_annotated_GFJPDDAG_01144
+1 669
+Bacillus_annotated_GFJPDDAG_01145
+1 150
+Bacillus_annotated_GFJPDDAG_01146
+1 1773
+Bacillus_annotated_GFJPDDAG_01147
+1 309
+Bacillus_annotated_GFJPDDAG_01148
+1 1185
+Bacillus_annotated_GFJPDDAG_01149
+1 675
+Bacillus_annotated_GFJPDDAG_01150
+1 477
+Bacillus_annotated_GFJPDDAG_01151
+1 225
+Bacillus_annotated_GFJPDDAG_01152
+1 288
+Bacillus_annotated_GFJPDDAG_01153
+1 114
+Bacillus_annotated_GFJPDDAG_01154
+1 471
+Bacillus_annotated_GFJPDDAG_01155
+1 276
+Bacillus_annotated_GFJPDDAG_01156
+1 729
+Bacillus_annotated_GFJPDDAG_01157
+1 1203
+Bacillus_annotated_GFJPDDAG_01158
+1 900
+Bacillus_annotated_GFJPDDAG_01159
+1 147
+Bacillus_annotated_GFJPDDAG_01160
+1 1272
+Bacillus_annotated_GFJPDDAG_01161
+1 351
+Bacillus_annotated_GFJPDDAG_01162
+1 1854
+Bacillus_annotated_GFJPDDAG_01163
+1 1608
+Bacillus_annotated_GFJPDDAG_01164
+1 564
+Bacillus_annotated_GFJPDDAG_01165
+1 729
+Bacillus_annotated_GFJPDDAG_01166
+1 798
+Bacillus_annotated_GFJPDDAG_01167
+1 1002
+Bacillus_annotated_GFJPDDAG_01168
+1 897
+Bacillus_annotated_GFJPDDAG_01169
+1 297
+Bacillus_annotated_GFJPDDAG_01170
+1 321
+Bacillus_annotated_GFJPDDAG_01171
+1 177
+Bacillus_annotated_GFJPDDAG_01172
+1 777
+Bacillus_annotated_GFJPDDAG_01173
+1 606
+Bacillus_annotated_GFJPDDAG_01174
+1 462
+Bacillus_annotated_GFJPDDAG_01175
+1 1059
+Bacillus_annotated_GFJPDDAG_01176
+1 549
+Bacillus_annotated_GFJPDDAG_01177
+1 909
+Bacillus_annotated_GFJPDDAG_01178
+1 606
+Bacillus_annotated_GFJPDDAG_01179
+1 981
+Bacillus_annotated_GFJPDDAG_01180
+1 846
+Bacillus_annotated_GFJPDDAG_01181
+1 639
+Bacillus_annotated_GFJPDDAG_01182
+1 3447
+Bacillus_annotated_GFJPDDAG_01183
+1 1851
+Bacillus_annotated_GFJPDDAG_01184
+1 1185
+Bacillus_annotated_GFJPDDAG_01185
+1 1125
+Bacillus_annotated_GFJPDDAG_01186
+1 999
+Bacillus_annotated_GFJPDDAG_01187
+1 627
+Bacillus_annotated_GFJPDDAG_01188
+1 627
+Bacillus_annotated_GFJPDDAG_01189
+1 663
+Bacillus_annotated_GFJPDDAG_01190
+1 1215
+Bacillus_annotated_GFJPDDAG_01191
+1 558
+Bacillus_annotated_GFJPDDAG_01192
+1 1878
+Bacillus_annotated_GFJPDDAG_01193
+1 579
+Bacillus_annotated_GFJPDDAG_01194
+1 597
+Bacillus_annotated_GFJPDDAG_01195
+1 822
+Bacillus_annotated_GFJPDDAG_01196
+1 297
+Bacillus_annotated_GFJPDDAG_01197
+1 1158
+Bacillus_annotated_GFJPDDAG_01198
+1 1476
+Bacillus_annotated_GFJPDDAG_01199
+1 1080
+Bacillus_annotated_GFJPDDAG_01200
+1 3135
+Bacillus_annotated_GFJPDDAG_01201
+1 1146
+Bacillus_annotated_GFJPDDAG_01202
+1 138
+Bacillus_annotated_GFJPDDAG_01203
+1 528
+Bacillus_annotated_GFJPDDAG_01204
+1 97
+Bacillus_annotated_GFJPDDAG_01205
+1 513
+Bacillus_annotated_GFJPDDAG_01206
+1 1326
+Bacillus_annotated_GFJPDDAG_01207
+1 426
+Bacillus_annotated_GFJPDDAG_01208
+1 480
+Bacillus_annotated_GFJPDDAG_01209
+1 480
+Bacillus_annotated_GFJPDDAG_01210
+1 396
+Bacillus_annotated_GFJPDDAG_01211
+1 708
+Bacillus_annotated_GFJPDDAG_01212
+1 177
+Bacillus_annotated_GFJPDDAG_01213
+1 1122
+Bacillus_annotated_GFJPDDAG_01214
+1 222
+Bacillus_annotated_GFJPDDAG_01215
+1 438
+Bacillus_annotated_GFJPDDAG_01216
+1 2004
+Bacillus_annotated_GFJPDDAG_01217
+1 234
+Bacillus_annotated_GFJPDDAG_01218
+1 651
+Bacillus_annotated_GFJPDDAG_01219
+1 327
+Bacillus_annotated_GFJPDDAG_01220
+1 621
+Bacillus_annotated_GFJPDDAG_01221
+1 1335
+Bacillus_annotated_GFJPDDAG_01222
+1 417
+Bacillus_annotated_GFJPDDAG_01223
+1 1269
+Bacillus_annotated_GFJPDDAG_01224
+1 1254
+Bacillus_annotated_GFJPDDAG_01225
+1 609
+Bacillus_annotated_GFJPDDAG_01226
+1 948
+Bacillus_annotated_GFJPDDAG_01227
+1 237
+Bacillus_annotated_GFJPDDAG_01228
+1 936
+Bacillus_annotated_GFJPDDAG_01229
+1 2385
+Bacillus_annotated_GFJPDDAG_01230
+1 567
+Bacillus_annotated_GFJPDDAG_01231
+1 1446
+Bacillus_annotated_GFJPDDAG_01232
+1 1875
+Bacillus_annotated_GFJPDDAG_01233
+1 2634
+Bacillus_annotated_GFJPDDAG_01234
+1 642
+Bacillus_annotated_GFJPDDAG_01235
+1 819
+Bacillus_annotated_GFJPDDAG_01236
+1 927
+Bacillus_annotated_GFJPDDAG_01237
+1 369
+Bacillus_annotated_GFJPDDAG_01238
+1 1356
+Bacillus_annotated_GFJPDDAG_01239
+1 1467
+Bacillus_annotated_GFJPDDAG_01240
+1 1602
+Bacillus_annotated_GFJPDDAG_01241
+1 189
+Bacillus_annotated_GFJPDDAG_01242
+1 213
+Bacillus_annotated_GFJPDDAG_01243
+1 1470
+Bacillus_annotated_GFJPDDAG_01244
+1 1428
+Bacillus_annotated_GFJPDDAG_01245
+1 1287
+Bacillus_annotated_GFJPDDAG_01246
+1 1356
+Bacillus_annotated_GFJPDDAG_01247
+1 891
+Bacillus_annotated_GFJPDDAG_01248
+1 1449
+Bacillus_annotated_GFJPDDAG_01249
+1 525
+Bacillus_annotated_GFJPDDAG_01250
+1 2169
+Bacillus_annotated_GFJPDDAG_01251
+1 537
+Bacillus_annotated_GFJPDDAG_01252
+1 432
+Bacillus_annotated_GFJPDDAG_01253
+1 1566
+Bacillus_annotated_GFJPDDAG_01254
+1 576
+Bacillus_annotated_GFJPDDAG_01255
+1 387
+Bacillus_annotated_GFJPDDAG_01256
+1 1182
+Bacillus_annotated_GFJPDDAG_01257
+1 777
+Bacillus_annotated_GFJPDDAG_01258
+1 756
+Bacillus_annotated_GFJPDDAG_01259
+1 1554
+Bacillus_annotated_GFJPDDAG_01260
+1 264
+Bacillus_annotated_GFJPDDAG_01261
+1 762
+Bacillus_annotated_GFJPDDAG_01262
+1 1074
+Bacillus_annotated_GFJPDDAG_01263
+1 1203
+Bacillus_annotated_GFJPDDAG_01264
+1 1149
+Bacillus_annotated_GFJPDDAG_01265
+1 1761
+Bacillus_annotated_GFJPDDAG_01266
+1 597
+Bacillus_annotated_GFJPDDAG_01267
+1 771
+Bacillus_annotated_GFJPDDAG_01268
+1 882
+Bacillus_annotated_GFJPDDAG_01269
+1 882
+Bacillus_annotated_GFJPDDAG_01270
+1 822
+Bacillus_annotated_GFJPDDAG_01271
+1 993
+Bacillus_annotated_GFJPDDAG_01272
+1 1095
+Bacillus_annotated_GFJPDDAG_01273
+1 723
+Bacillus_annotated_GFJPDDAG_01274
+1 807
+Bacillus_annotated_GFJPDDAG_01275
+1 1224
+Bacillus_annotated_GFJPDDAG_01276
+1 960
+Bacillus_annotated_GFJPDDAG_01277
+1 1068
+Bacillus_annotated_GFJPDDAG_01278
+1 915
+Bacillus_annotated_GFJPDDAG_01279
+1 705
+Bacillus_annotated_GFJPDDAG_01280
+1 387
+Bacillus_annotated_GFJPDDAG_01281
+1 135
+Bacillus_annotated_GFJPDDAG_01282
+1 1209
+Bacillus_annotated_GFJPDDAG_01283
+1 1161
+Bacillus_annotated_GFJPDDAG_01284
+1 1497
+Bacillus_annotated_GFJPDDAG_01285
+1 867
+Bacillus_annotated_GFJPDDAG_01286
+1 1743
+Bacillus_annotated_GFJPDDAG_01287
+1 924
+Bacillus_annotated_GFJPDDAG_01288
+1 261
+Bacillus_annotated_GFJPDDAG_01289
+1 804
+Bacillus_annotated_GFJPDDAG_01290
+1 1560
+Bacillus_annotated_GFJPDDAG_01291
+1 1254
+Bacillus_annotated_GFJPDDAG_01292
+1 1236
+Bacillus_annotated_GFJPDDAG_01293
+1 579
+Bacillus_annotated_GFJPDDAG_01294
+1 906
+Bacillus_annotated_GFJPDDAG_01295
+1 792
+Bacillus_annotated_GFJPDDAG_01296
+1 258
+Bacillus_annotated_GFJPDDAG_01297
+1 663
+Bacillus_annotated_GFJPDDAG_01298
+1 1290
+Bacillus_annotated_GFJPDDAG_01299
+1 1275
+Bacillus_annotated_GFJPDDAG_01300
+1 960
+Bacillus_annotated_GFJPDDAG_01301
+1 1050
+Bacillus_annotated_GFJPDDAG_01302
+1 1536
+Bacillus_annotated_GFJPDDAG_01303
+1 1098
+Bacillus_annotated_GFJPDDAG_01304
+1 726
+Bacillus_annotated_GFJPDDAG_01305
+1 2364
+Bacillus_annotated_GFJPDDAG_01306
+1 207
+Bacillus_annotated_GFJPDDAG_01307
+1 756
+Bacillus_annotated_GFJPDDAG_01308
+1 1668
+Bacillus_annotated_GFJPDDAG_01309
+1 873
+Bacillus_annotated_GFJPDDAG_01310
+1 1239
+Bacillus_annotated_GFJPDDAG_01311
+1 1047
+Bacillus_annotated_GFJPDDAG_01312
+1 594
+Bacillus_annotated_GFJPDDAG_01313
+1 903
+Bacillus_annotated_GFJPDDAG_01314
+1 237
+Bacillus_annotated_GFJPDDAG_01315
+1 1242
+Bacillus_annotated_GFJPDDAG_01316
+1 1005
+Bacillus_annotated_GFJPDDAG_01317
+1 2124
+Bacillus_annotated_GFJPDDAG_01318
+1 270
+Bacillus_annotated_GFJPDDAG_01319
+1 945
+Bacillus_annotated_GFJPDDAG_01320
+1 909
+Bacillus_annotated_GFJPDDAG_01321
+1 369
+Bacillus_annotated_GFJPDDAG_01322
+1 279
+Bacillus_annotated_GFJPDDAG_01323
+1 2184
+Bacillus_annotated_GFJPDDAG_01324
+1 318
+Bacillus_annotated_GFJPDDAG_01325
+1 270
+Bacillus_annotated_GFJPDDAG_01326
+1 1134
+Bacillus_annotated_GFJPDDAG_01327
+1 636
+Bacillus_annotated_GFJPDDAG_01328
+1 4320
+Bacillus_annotated_GFJPDDAG_01329
+1 1707
+Bacillus_annotated_GFJPDDAG_01330
+1 1269
+Bacillus_annotated_GFJPDDAG_01331
+1 1146
+Bacillus_annotated_GFJPDDAG_01332
+1 786
+Bacillus_annotated_GFJPDDAG_01333
+1 792
+Bacillus_annotated_GFJPDDAG_01334
+1 558
+Bacillus_annotated_GFJPDDAG_01335
+1 726
+Bacillus_annotated_GFJPDDAG_01336
+1 882
+Bacillus_annotated_GFJPDDAG_01337
+1 708
+Bacillus_annotated_GFJPDDAG_01338
+1 525
+Bacillus_annotated_GFJPDDAG_01339
+1 759
+Bacillus_annotated_GFJPDDAG_01340
+1 498
+Bacillus_annotated_GFJPDDAG_01341
+1 636
+Bacillus_annotated_GFJPDDAG_01342
+1 447
+Bacillus_annotated_GFJPDDAG_01343
+1 2025
+Bacillus_annotated_GFJPDDAG_01344
+1 1083
+Bacillus_annotated_GFJPDDAG_01345
+1 861
+Bacillus_annotated_GFJPDDAG_01346
+1 1155
+Bacillus_annotated_GFJPDDAG_01347
+1 2037
+Bacillus_annotated_GFJPDDAG_01348
+1 1083
+Bacillus_annotated_GFJPDDAG_01349
+1 777
+Bacillus_annotated_GFJPDDAG_01350
+1 270
+Bacillus_annotated_GFJPDDAG_01351
+1 666
+Bacillus_annotated_GFJPDDAG_01352
+1 633
+Bacillus_annotated_GFJPDDAG_01353
+1 363
+Bacillus_annotated_GFJPDDAG_01354
+1 1170
+Bacillus_annotated_GFJPDDAG_01355
+1 999
+Bacillus_annotated_GFJPDDAG_01356
+1 426
+Bacillus_annotated_GFJPDDAG_01357
+1 1239
+Bacillus_annotated_GFJPDDAG_01358
+1 390
+Bacillus_annotated_GFJPDDAG_01359
+1 633
+Bacillus_annotated_GFJPDDAG_01360
+1 1272
+Bacillus_annotated_GFJPDDAG_01361
+1 591
+Bacillus_annotated_GFJPDDAG_01362
+1 447
+Bacillus_annotated_GFJPDDAG_01363
+1 1320
+Bacillus_annotated_GFJPDDAG_01364
+1 807
+Bacillus_annotated_GFJPDDAG_01365
+1 1014
+Bacillus_annotated_GFJPDDAG_01366
+1 1596
+Bacillus_annotated_GFJPDDAG_01367
+1 306
+Bacillus_annotated_GFJPDDAG_01368
+1 462
+Bacillus_annotated_GFJPDDAG_01369
+1 390
+Bacillus_annotated_GFJPDDAG_01370
+1 780
+Bacillus_annotated_GFJPDDAG_01371
+1 1413
+Bacillus_annotated_GFJPDDAG_01372
+1 543
+Bacillus_annotated_GFJPDDAG_01373
+1 900
+Bacillus_annotated_GFJPDDAG_01374
+1 1299
+Bacillus_annotated_GFJPDDAG_01375
+1 2076
+Bacillus_annotated_GFJPDDAG_01376
+1 876
+Bacillus_annotated_GFJPDDAG_01377
+1 903
+Bacillus_annotated_GFJPDDAG_01378
+1 1161
+Bacillus_annotated_GFJPDDAG_01379
+1 282
+Bacillus_annotated_GFJPDDAG_01380
+1 1812
+Bacillus_annotated_GFJPDDAG_01381
+1 771
+Bacillus_annotated_GFJPDDAG_01382
+1 867
+Bacillus_annotated_GFJPDDAG_01383
+1 540
+Bacillus_annotated_GFJPDDAG_01384
+1 345
+Bacillus_annotated_GFJPDDAG_01385
+1 738
+Bacillus_annotated_GFJPDDAG_01386
+1 519
+Bacillus_annotated_GFJPDDAG_01387
+1 387
+Bacillus_annotated_GFJPDDAG_01388
+1 234
+Bacillus_annotated_GFJPDDAG_01389
+1 273
+Bacillus_annotated_GFJPDDAG_01390
+1 1344
+Bacillus_annotated_GFJPDDAG_01391
+1 333
+Bacillus_annotated_GFJPDDAG_01392
+1 990
+Bacillus_annotated_GFJPDDAG_01393
+1 3567
+Bacillus_annotated_GFJPDDAG_01394
+1 747
+Bacillus_annotated_GFJPDDAG_01395
+1 234
+Bacillus_annotated_GFJPDDAG_01396
+1 744
+Bacillus_annotated_GFJPDDAG_01397
+1 945
+Bacillus_annotated_GFJPDDAG_01398
+1 990
+Bacillus_annotated_GFJPDDAG_01399
+1 582
+Bacillus_annotated_GFJPDDAG_01400
+1 2052
+Bacillus_annotated_GFJPDDAG_01401
+1 894
+Bacillus_annotated_GFJPDDAG_01402
+1 663
+Bacillus_annotated_GFJPDDAG_01403
+1 1665
+Bacillus_annotated_GFJPDDAG_01404
+1 363
+Bacillus_annotated_GFJPDDAG_01405
+1 189
+Bacillus_annotated_GFJPDDAG_01406
+1 648
+Bacillus_annotated_GFJPDDAG_01407
+1 651
+Bacillus_annotated_GFJPDDAG_01408
+1 882
+Bacillus_annotated_GFJPDDAG_01409
+1 1947
+Bacillus_annotated_GFJPDDAG_01410
+1 750
+Bacillus_annotated_GFJPDDAG_01411
+1 1359
+Bacillus_annotated_GFJPDDAG_01412
+1 951
+Bacillus_annotated_GFJPDDAG_01413
+1 486
+Bacillus_annotated_GFJPDDAG_01414
+1 2424
+Bacillus_annotated_GFJPDDAG_01415
+1 1230
+Bacillus_annotated_GFJPDDAG_01416
+1 222
+Bacillus_annotated_GFJPDDAG_01417
+1 615
+Bacillus_annotated_GFJPDDAG_01418
+1 273
+Bacillus_annotated_GFJPDDAG_01419
+1 993
+Bacillus_annotated_GFJPDDAG_01420
+1 2682
+Bacillus_annotated_GFJPDDAG_01421
+1 1704
+Bacillus_annotated_GFJPDDAG_01422
+1 624
+Bacillus_annotated_GFJPDDAG_01423
+1 711
+Bacillus_annotated_GFJPDDAG_01424
+1 942
+Bacillus_annotated_GFJPDDAG_01425
+1 774
+Bacillus_annotated_GFJPDDAG_01426
+1 3213
+Bacillus_annotated_GFJPDDAG_01427
+1 1092
+Bacillus_annotated_GFJPDDAG_01428
+1 1287
+Bacillus_annotated_GFJPDDAG_01429
+1 1002
+Bacillus_annotated_GFJPDDAG_01430
+1 1440
+Bacillus_annotated_GFJPDDAG_01431
+1 546
+Bacillus_annotated_GFJPDDAG_01432
+1 912
+Bacillus_annotated_GFJPDDAG_01433
+1 519
+Bacillus_annotated_GFJPDDAG_01434
+1 282
+Bacillus_annotated_GFJPDDAG_01435
+1 2772
+Bacillus_annotated_GFJPDDAG_01436
+1 516
+Bacillus_annotated_GFJPDDAG_01437
+1 771
+Bacillus_annotated_GFJPDDAG_01438
+1 264
+Bacillus_annotated_GFJPDDAG_01439
+1 447
+Bacillus_annotated_GFJPDDAG_01440
+1 675
+Bacillus_annotated_GFJPDDAG_01441
+1 837
+Bacillus_annotated_GFJPDDAG_01442
+1 288
+Bacillus_annotated_GFJPDDAG_01443
+1 777
+Bacillus_annotated_GFJPDDAG_01444
+1 720
+Bacillus_annotated_GFJPDDAG_01445
+1 927
+Bacillus_annotated_GFJPDDAG_01446
+1 1164
+Bacillus_annotated_GFJPDDAG_01447
+1 1299
+Bacillus_annotated_GFJPDDAG_01448
+1 363
+Bacillus_annotated_GFJPDDAG_01449
+1 729
+Bacillus_annotated_GFJPDDAG_01450
+1 696
+Bacillus_annotated_GFJPDDAG_01451
+1 786
+Bacillus_annotated_GFJPDDAG_01452
+1 1101
+Bacillus_annotated_GFJPDDAG_01453
+1 1350
+Bacillus_annotated_GFJPDDAG_01454
+1 975
+Bacillus_annotated_GFJPDDAG_01455
+1 423
+Bacillus_annotated_GFJPDDAG_01456
+1 1461
+Bacillus_annotated_GFJPDDAG_01457
+1 1917
+Bacillus_annotated_GFJPDDAG_01458
+1 2196
+Bacillus_annotated_GFJPDDAG_01459
+1 369
+Bacillus_annotated_GFJPDDAG_01460
+1 936
+Bacillus_annotated_GFJPDDAG_01461
+1 432
+Bacillus_annotated_GFJPDDAG_01462
+1 1620
+Bacillus_annotated_GFJPDDAG_01463
+1 387
+Bacillus_annotated_GFJPDDAG_01464
+1 897
+Bacillus_annotated_GFJPDDAG_01465
+1 1542
+Bacillus_annotated_GFJPDDAG_01466
+1 216
+Bacillus_annotated_GFJPDDAG_01467
+1 1350
+Bacillus_annotated_GFJPDDAG_01468
+1 477
+Bacillus_annotated_GFJPDDAG_01469
+1 615
+Bacillus_annotated_GFJPDDAG_01470
+1 759
+Bacillus_annotated_GFJPDDAG_01471
+1 174
+Bacillus_annotated_GFJPDDAG_01472
+1 543
+Bacillus_annotated_GFJPDDAG_01473
+1 1212
+Bacillus_annotated_GFJPDDAG_01474
+1 1044
+Bacillus_annotated_GFJPDDAG_01475
+1 780
+Bacillus_annotated_GFJPDDAG_01476
+1 1230
+Bacillus_annotated_GFJPDDAG_01477
+1 498
+Bacillus_annotated_GFJPDDAG_01478
+1 558
+Bacillus_annotated_GFJPDDAG_01479
+1 1416
+Bacillus_annotated_GFJPDDAG_01480
+1 315
+Bacillus_annotated_GFJPDDAG_01481
+1 390
+Bacillus_annotated_GFJPDDAG_01482
+1 276
+Bacillus_annotated_GFJPDDAG_01483
+1 315
+Bacillus_annotated_GFJPDDAG_01484
+1 447
+Bacillus_annotated_GFJPDDAG_01485
+1 396
+Bacillus_annotated_GFJPDDAG_01486
+1 243
+Bacillus_annotated_GFJPDDAG_01487
+1 423
+Bacillus_annotated_GFJPDDAG_01488
+1 489
+Bacillus_annotated_GFJPDDAG_01489
+1 1053
+Bacillus_annotated_GFJPDDAG_01490
+1 435
+Bacillus_annotated_GFJPDDAG_01491
+1 360
+Bacillus_annotated_GFJPDDAG_01492
+1 1059
+Bacillus_annotated_GFJPDDAG_01493
+1 462
+Bacillus_annotated_GFJPDDAG_01494
+1 909
+Bacillus_annotated_GFJPDDAG_01495
+1 333
+Bacillus_annotated_GFJPDDAG_01496
+1 630
+Bacillus_annotated_GFJPDDAG_01497
+1 1869
+Bacillus_annotated_GFJPDDAG_01498
+1 1077
+Bacillus_annotated_GFJPDDAG_01499
+1 915
+Bacillus_annotated_GFJPDDAG_01500
+1 918
+Bacillus_annotated_GFJPDDAG_01501
+1 3441
+Bacillus_annotated_GFJPDDAG_01502
+1 1218
+Bacillus_annotated_GFJPDDAG_01503
+1 282
+Bacillus_annotated_GFJPDDAG_01504
+1 933
+Bacillus_annotated_GFJPDDAG_01505
+1 498
+Bacillus_annotated_GFJPDDAG_01506
+1 1329
+Bacillus_annotated_GFJPDDAG_01507
+1 603
+Bacillus_annotated_GFJPDDAG_01508
+1 456
+Bacillus_annotated_GFJPDDAG_01509
+1 201
+Bacillus_annotated_GFJPDDAG_01510
+1 426
+Bacillus_annotated_GFJPDDAG_01511
+1 309
+Bacillus_annotated_GFJPDDAG_01512
+1 1839
+Bacillus_annotated_GFJPDDAG_01513
+1 186
+Bacillus_annotated_GFJPDDAG_01514
+1 798
+Bacillus_annotated_GFJPDDAG_01515
+1 201
+Bacillus_annotated_GFJPDDAG_01516
+1 621
+Bacillus_annotated_GFJPDDAG_01517
+1 273
+Bacillus_annotated_GFJPDDAG_01518
+1 957
+Bacillus_annotated_GFJPDDAG_01519
+1 1470
+Bacillus_annotated_GFJPDDAG_01520
+1 120
+Bacillus_annotated_GFJPDDAG_01521
+1 834
+Bacillus_annotated_GFJPDDAG_01522
+1 249
+Bacillus_annotated_GFJPDDAG_01523
+1 387
+Bacillus_annotated_GFJPDDAG_01524
+1 1410
+Bacillus_annotated_GFJPDDAG_01525
+1 1359
+Bacillus_annotated_GFJPDDAG_01526
+1 978
+Bacillus_annotated_GFJPDDAG_01527
+1 1116
+Bacillus_annotated_GFJPDDAG_01528
+1 660
+Bacillus_annotated_GFJPDDAG_01529
+1 555
+Bacillus_annotated_GFJPDDAG_01530
+1 771
+Bacillus_annotated_GFJPDDAG_01531
+1 207
+Bacillus_annotated_GFJPDDAG_01532
+1 1668
+Bacillus_annotated_GFJPDDAG_01533
+1 657
+Bacillus_annotated_GFJPDDAG_01534
+1 1014
+Bacillus_annotated_GFJPDDAG_01535
+1 1338
+Bacillus_annotated_GFJPDDAG_01536
+1 975
+Bacillus_annotated_GFJPDDAG_01537
+1 1824
+Bacillus_annotated_GFJPDDAG_01538
+1 1746
+Bacillus_annotated_GFJPDDAG_01539
+1 456
+Bacillus_annotated_GFJPDDAG_01540
+1 543
+Bacillus_annotated_GFJPDDAG_01541
+1 867
+Bacillus_annotated_GFJPDDAG_01542
+1 846
+Bacillus_annotated_GFJPDDAG_01543
+1 936
+Bacillus_annotated_GFJPDDAG_01544
+1 2406
+Bacillus_annotated_GFJPDDAG_01545
+1 1119
+Bacillus_annotated_GFJPDDAG_01546
+1 708
+Bacillus_annotated_GFJPDDAG_01547
+1 879
+Bacillus_annotated_GFJPDDAG_01548
+1 726
+Bacillus_annotated_GFJPDDAG_01549
+1 126
+Bacillus_annotated_GFJPDDAG_01550
+1 441
+Bacillus_annotated_GFJPDDAG_01551
+1 246
+Bacillus_annotated_GFJPDDAG_01552
+1 957
+Bacillus_annotated_GFJPDDAG_01553
+1 234
+Bacillus_annotated_GFJPDDAG_01554
+1 498
+Bacillus_annotated_GFJPDDAG_01555
+1 240
+Bacillus_annotated_GFJPDDAG_01556
+1 1224
+Bacillus_annotated_GFJPDDAG_01557
+1 768
+Bacillus_annotated_GFJPDDAG_01558
+1 219
+Bacillus_annotated_GFJPDDAG_01559
+1 2094
+Bacillus_annotated_GFJPDDAG_01560
+1 291
+Bacillus_annotated_GFJPDDAG_01561
+1 468
+Bacillus_annotated_GFJPDDAG_01562
+1 903
+Bacillus_annotated_GFJPDDAG_01563
+1 447
+Bacillus_annotated_GFJPDDAG_01564
+1 198
+Bacillus_annotated_GFJPDDAG_01565
+1 723
+Bacillus_annotated_GFJPDDAG_01566
+1 435
+Bacillus_annotated_GFJPDDAG_01567
+1 666
+Bacillus_annotated_GFJPDDAG_01568
+1 588
+Bacillus_annotated_GFJPDDAG_01569
+1 996
+Bacillus_annotated_GFJPDDAG_01570
+1 1152
+Bacillus_annotated_GFJPDDAG_01571
+1 210
+Bacillus_annotated_GFJPDDAG_01572
+1 1722
+Bacillus_annotated_GFJPDDAG_01573
+1 267
+Bacillus_annotated_GFJPDDAG_01574
+1 264
+Bacillus_annotated_GFJPDDAG_01575
+1 1257
+Bacillus_annotated_GFJPDDAG_01576
+1 1194
+Bacillus_annotated_GFJPDDAG_01577
+1 939
+Bacillus_annotated_GFJPDDAG_01578
+1 738
+Bacillus_annotated_GFJPDDAG_01579
+1 180
+Bacillus_annotated_GFJPDDAG_01580
+1 588
+Bacillus_annotated_GFJPDDAG_01581
+1 195
+Bacillus_annotated_GFJPDDAG_01582
+1 180
+Bacillus_annotated_GFJPDDAG_01583
+1 1386
+Bacillus_annotated_GFJPDDAG_01584
+1 120
+Bacillus_annotated_GFJPDDAG_01585
+1 1038
+Bacillus_annotated_GFJPDDAG_01586
+1 1695
+Bacillus_annotated_GFJPDDAG_01587
+1 450
+Bacillus_annotated_GFJPDDAG_01588
+1 246
+Bacillus_annotated_GFJPDDAG_01589
+1 1182
+Bacillus_annotated_GFJPDDAG_01590
+1 786
+Bacillus_annotated_GFJPDDAG_01591
+1 600
+Bacillus_annotated_GFJPDDAG_01592
+1 462
+Bacillus_annotated_GFJPDDAG_01593
+1 2154
+Bacillus_annotated_GFJPDDAG_01594
+1 1026
+Bacillus_annotated_GFJPDDAG_01595
+1 1731
+Bacillus_annotated_GFJPDDAG_01596
+1 126
+Bacillus_annotated_GFJPDDAG_01597
+1 159
+Bacillus_annotated_GFJPDDAG_01598
+1 525
+Bacillus_annotated_GFJPDDAG_01599
+1 1353
+Bacillus_annotated_GFJPDDAG_01600
+1 201
+Bacillus_annotated_GFJPDDAG_01601
+1 1095
+Bacillus_annotated_GFJPDDAG_01602
+1 756
+Bacillus_annotated_GFJPDDAG_01603
+1 1272
+Bacillus_annotated_GFJPDDAG_01604
+1 768
+Bacillus_annotated_GFJPDDAG_01605
+1 462
+Bacillus_annotated_GFJPDDAG_01606
+1 1095
+Bacillus_annotated_GFJPDDAG_01607
+1 3084
+Bacillus_annotated_GFJPDDAG_01608
+1 870
+Bacillus_annotated_GFJPDDAG_01609
+1 1407
+Bacillus_annotated_GFJPDDAG_01610
+1 1038
+Bacillus_annotated_GFJPDDAG_01611
+1 1572
+Bacillus_annotated_GFJPDDAG_01612
+1 234
+Bacillus_annotated_GFJPDDAG_01613
+1 1218
+Bacillus_annotated_GFJPDDAG_01614
+1 1476
+Bacillus_annotated_GFJPDDAG_01615
+1 1056
+Bacillus_annotated_GFJPDDAG_01616
+1 135
+Bacillus_annotated_GFJPDDAG_01617
+1 1392
+Bacillus_annotated_GFJPDDAG_01618
+1 813
+Bacillus_annotated_GFJPDDAG_01619
+1 549
+Bacillus_annotated_GFJPDDAG_01620
+1 819
+Bacillus_annotated_GFJPDDAG_01621
+1 201
+Bacillus_annotated_GFJPDDAG_01622
+1 444
+Bacillus_annotated_GFJPDDAG_01623
+1 330
+Bacillus_annotated_GFJPDDAG_01624
+1 729
+Bacillus_annotated_GFJPDDAG_01625
+1 1038
+Bacillus_annotated_GFJPDDAG_01626
+1 2247
+Bacillus_annotated_GFJPDDAG_01627
+1 411
+Bacillus_annotated_GFJPDDAG_01628
+1 774
+Bacillus_annotated_GFJPDDAG_01629
+1 177
+Bacillus_annotated_GFJPDDAG_01630
+1 1413
+Bacillus_annotated_GFJPDDAG_01631
+1 861
+Bacillus_annotated_GFJPDDAG_01632
+1 927
+Bacillus_annotated_GFJPDDAG_01633
+1 201
+Bacillus_annotated_GFJPDDAG_01634
+1 174
+Bacillus_annotated_GFJPDDAG_01635
+1 72
+Bacillus_annotated_GFJPDDAG_01636
+1 225
+Bacillus_annotated_GFJPDDAG_01637
+1 1986
+Bacillus_annotated_GFJPDDAG_01638
+1 522
+Bacillus_annotated_GFJPDDAG_01639
+1 996
+Bacillus_annotated_GFJPDDAG_01640
+1 555
+Bacillus_annotated_GFJPDDAG_01641
+1 726
+Bacillus_annotated_GFJPDDAG_01642
+1 525
+Bacillus_annotated_GFJPDDAG_01643
+1 423
+Bacillus_annotated_GFJPDDAG_01644
+1 678
+Bacillus_annotated_GFJPDDAG_01645
+1 900
+Bacillus_annotated_GFJPDDAG_01646
+1 279
+Bacillus_annotated_GFJPDDAG_01647
+1 261
+Bacillus_annotated_GFJPDDAG_01648
+1 126
+Bacillus_annotated_GFJPDDAG_01649
+1 693
+Bacillus_annotated_GFJPDDAG_01650
+1 357
+Bacillus_annotated_GFJPDDAG_01651
+1 1017
+Bacillus_annotated_GFJPDDAG_01652
+1 474
+Bacillus_annotated_GFJPDDAG_01653
+1 468
+Bacillus_annotated_GFJPDDAG_01654
+1 192
+Bacillus_annotated_GFJPDDAG_01655
+1 357
+Bacillus_annotated_GFJPDDAG_01656
+1 495
+Bacillus_annotated_GFJPDDAG_01657
+1 534
+Bacillus_annotated_GFJPDDAG_01658
+1 777
+Bacillus_annotated_GFJPDDAG_01659
+1 486
+Bacillus_annotated_GFJPDDAG_01660
+1 1863
+Bacillus_annotated_GFJPDDAG_01661
+1 1401
+Bacillus_annotated_GFJPDDAG_01662
+1 738
+Bacillus_annotated_GFJPDDAG_01663
+1 894
+Bacillus_annotated_GFJPDDAG_01664
+1 798
+Bacillus_annotated_GFJPDDAG_01665
+1 663
+Bacillus_annotated_GFJPDDAG_01666
+1 375
+Bacillus_annotated_GFJPDDAG_01667
+1 582
+Bacillus_annotated_GFJPDDAG_01668
+1 642
+Bacillus_annotated_GFJPDDAG_01669
+1 402
+Bacillus_annotated_GFJPDDAG_01670
+1 798
+Bacillus_annotated_GFJPDDAG_01671
+1 189
+Bacillus_annotated_GFJPDDAG_01672
+1 1824
+Bacillus_annotated_GFJPDDAG_01673
+1 1185
+Bacillus_annotated_GFJPDDAG_01674
+1 1506
+Bacillus_annotated_GFJPDDAG_01675
+1 672
+Bacillus_annotated_GFJPDDAG_01676
+1 396
+Bacillus_annotated_GFJPDDAG_01677
+1 573
+Bacillus_annotated_GFJPDDAG_01678
+1 228
+Bacillus_annotated_GFJPDDAG_01679
+1 1194
+Bacillus_annotated_GFJPDDAG_01680
+1 936
+Bacillus_annotated_GFJPDDAG_01681
+1 1071
+Bacillus_annotated_GFJPDDAG_01682
+1 1026
+Bacillus_annotated_GFJPDDAG_01683
+1 930
+Bacillus_annotated_GFJPDDAG_01684
+1 1653
+Bacillus_annotated_GFJPDDAG_01685
+1 384
+Bacillus_annotated_GFJPDDAG_01686
+1 999
+Bacillus_annotated_GFJPDDAG_01687
+1 750
+Bacillus_annotated_GFJPDDAG_01688
+1 222
+Bacillus_annotated_GFJPDDAG_01689
+1 762
+Bacillus_annotated_GFJPDDAG_01690
+1 1245
+Bacillus_annotated_GFJPDDAG_01691
+1 933
+Bacillus_annotated_GFJPDDAG_01692
+1 216
+Bacillus_annotated_GFJPDDAG_01693
+1 189
+Bacillus_annotated_GFJPDDAG_01694
+1 969
+Bacillus_annotated_GFJPDDAG_01695
+1 717
+Bacillus_annotated_GFJPDDAG_01696
+1 744
+Bacillus_annotated_GFJPDDAG_01697
+1 168
+Bacillus_annotated_GFJPDDAG_01698
+1 2592
+Bacillus_annotated_GFJPDDAG_01699
+1 180
+Bacillus_annotated_GFJPDDAG_01700
+1 810
+Bacillus_annotated_GFJPDDAG_01701
+1 693
+Bacillus_annotated_GFJPDDAG_01702
+1 309
+Bacillus_annotated_GFJPDDAG_01703
+1 774
+Bacillus_annotated_GFJPDDAG_01704
+1 816
+Bacillus_annotated_GFJPDDAG_01705
+1 183
+Bacillus_annotated_GFJPDDAG_01706
+1 192
+Bacillus_annotated_GFJPDDAG_01707
+1 738
+Bacillus_annotated_GFJPDDAG_01708
+1 855
+Bacillus_annotated_GFJPDDAG_01709
+1 858
+Bacillus_annotated_GFJPDDAG_01710
+1 132
+Bacillus_annotated_GFJPDDAG_01711
+1 492
+Bacillus_annotated_GFJPDDAG_01712
+1 1353
+Bacillus_annotated_GFJPDDAG_01713
+1 870
+Bacillus_annotated_GFJPDDAG_01714
+1 1032
+Bacillus_annotated_GFJPDDAG_01715
+1 1539
+Bacillus_annotated_GFJPDDAG_01716
+1 843
+Bacillus_annotated_GFJPDDAG_01717
+1 1287
+Bacillus_annotated_GFJPDDAG_01718
+1 1278
+Bacillus_annotated_GFJPDDAG_01719
+1 1761
+Bacillus_annotated_GFJPDDAG_01720
+1 1356
+Bacillus_annotated_GFJPDDAG_01721
+1 342
+Bacillus_annotated_GFJPDDAG_01722
+1 1389
+Bacillus_annotated_GFJPDDAG_01723
+1 834
+Bacillus_annotated_GFJPDDAG_01724
+1 1503
+Bacillus_annotated_GFJPDDAG_01725
+1 1524
+Bacillus_annotated_GFJPDDAG_01726
+1 165
+Bacillus_annotated_GFJPDDAG_01727
+1 1848
+Bacillus_annotated_GFJPDDAG_01728
+1 564
+Bacillus_annotated_GFJPDDAG_01729
+1 2910
+Bacillus_annotated_GFJPDDAG_01730
+1 372
+Bacillus_annotated_GFJPDDAG_01731
+1 870
+Bacillus_annotated_GFJPDDAG_01732
+1 1203
+Bacillus_annotated_GFJPDDAG_01733
+1 222
+Bacillus_annotated_GFJPDDAG_01734
+1 231
+Bacillus_annotated_GFJPDDAG_01735
+1 630
+Bacillus_annotated_GFJPDDAG_01736
+1 177
+Bacillus_annotated_GFJPDDAG_01737
+1 408
+Bacillus_annotated_GFJPDDAG_01738
+1 219
+Bacillus_annotated_GFJPDDAG_01739
+1 3762
+Bacillus_annotated_GFJPDDAG_01740
+1 3489
+Bacillus_annotated_GFJPDDAG_01741
+1 387
+Bacillus_annotated_GFJPDDAG_01742
+1 549
+Bacillus_annotated_GFJPDDAG_01743
+1 1488
+Bacillus_annotated_GFJPDDAG_01744
+1 1161
+Bacillus_annotated_GFJPDDAG_01745
+1 1179
+Bacillus_annotated_GFJPDDAG_01746
+1 744
+Bacillus_annotated_GFJPDDAG_01747
+1 912
+Bacillus_annotated_GFJPDDAG_01748
+1 1005
+Bacillus_annotated_GFJPDDAG_01749
+1 990
+Bacillus_annotated_GFJPDDAG_01750
+1 861
+Bacillus_annotated_GFJPDDAG_01751
+1 708
+Bacillus_annotated_GFJPDDAG_01752
+1 765
+Bacillus_annotated_GFJPDDAG_01753
+1 1224
+Bacillus_annotated_GFJPDDAG_01754
+1 1506
+Bacillus_annotated_GFJPDDAG_01755
+1 3222
+Bacillus_annotated_GFJPDDAG_01756
+1 561
+Bacillus_annotated_GFJPDDAG_01757
+1 642
+Bacillus_annotated_GFJPDDAG_01758
+1 1971
+Bacillus_annotated_GFJPDDAG_01759
+1 390
+Bacillus_annotated_GFJPDDAG_01760
+1 570
+Bacillus_annotated_GFJPDDAG_01761
+1 237
+Bacillus_annotated_GFJPDDAG_01762
+1 1272
+Bacillus_annotated_GFJPDDAG_01763
+1 312
+Bacillus_annotated_GFJPDDAG_01764
+1 723
+Bacillus_annotated_GFJPDDAG_01765
+1 558
+Bacillus_annotated_GFJPDDAG_01766
+1 1074
+Bacillus_annotated_GFJPDDAG_01767
+1 1251
+Bacillus_annotated_GFJPDDAG_01768
+1 891
+Bacillus_annotated_GFJPDDAG_01769
+1 1323
+Bacillus_annotated_GFJPDDAG_01770
+1 711
+Bacillus_annotated_GFJPDDAG_01771
+1 1599
+Bacillus_annotated_GFJPDDAG_01772
+1 369
+Bacillus_annotated_GFJPDDAG_01773
+1 930
+Bacillus_annotated_GFJPDDAG_01774
+1 768
+Bacillus_annotated_GFJPDDAG_01775
+1 777
+Bacillus_annotated_GFJPDDAG_01776
+1 321
+Bacillus_annotated_GFJPDDAG_01777
+1 1557
+Bacillus_annotated_GFJPDDAG_01778
+1 987
+Bacillus_annotated_GFJPDDAG_01779
+1 735
+Bacillus_annotated_GFJPDDAG_01780
+1 135
+Bacillus_annotated_GFJPDDAG_01781
+1 753
+Bacillus_annotated_GFJPDDAG_01782
+1 2199
+Bacillus_annotated_GFJPDDAG_01783
+1 576
+Bacillus_annotated_GFJPDDAG_01784
+1 1407
+Bacillus_annotated_GFJPDDAG_01785
+1 1407
+Bacillus_annotated_GFJPDDAG_01786
+1 930
+Bacillus_annotated_GFJPDDAG_01787
+1 1032
+Bacillus_annotated_GFJPDDAG_01788
+1 507
+Bacillus_annotated_GFJPDDAG_01789
+1 576
+Bacillus_annotated_GFJPDDAG_01790
+1 654
+Bacillus_annotated_GFJPDDAG_01791
+1 1029
+Bacillus_annotated_GFJPDDAG_01792
+1 807
+Bacillus_annotated_GFJPDDAG_01793
+1 1398
+Bacillus_annotated_GFJPDDAG_01794
+1 594
+Bacillus_annotated_GFJPDDAG_01795
+1 1203
+Bacillus_annotated_GFJPDDAG_01796
+1 408
+Bacillus_annotated_GFJPDDAG_01797
+1 705
+Bacillus_annotated_GFJPDDAG_01798
+1 1233
+Bacillus_annotated_GFJPDDAG_01799
+1 744
+Bacillus_annotated_GFJPDDAG_01800
+1 423
+Bacillus_annotated_GFJPDDAG_01801
+1 537
+Bacillus_annotated_GFJPDDAG_01802
+1 195
+Bacillus_annotated_GFJPDDAG_01803
+1 372
+Bacillus_annotated_GFJPDDAG_01804
+1 129
+Bacillus_annotated_GFJPDDAG_01805
+1 642
+Bacillus_annotated_GFJPDDAG_01806
+1 330
+Bacillus_annotated_GFJPDDAG_01807
+1 537
+Bacillus_annotated_GFJPDDAG_01808
+1 93
+Bacillus_annotated_GFJPDDAG_01809
+1 180
+Bacillus_annotated_GFJPDDAG_01810
+1 951
+Bacillus_annotated_GFJPDDAG_01811
+1 180
+Bacillus_annotated_GFJPDDAG_01812
+1 942
+Bacillus_annotated_GFJPDDAG_01813
+1 1206
+Bacillus_annotated_GFJPDDAG_01814
+1 2976
+Bacillus_annotated_GFJPDDAG_01815
+1 1206
+Bacillus_annotated_GFJPDDAG_01816
+1 1251
+Bacillus_annotated_GFJPDDAG_01817
+1 900
+Bacillus_annotated_GFJPDDAG_01818
+1 186
+Bacillus_annotated_GFJPDDAG_01819
+1 795
+Bacillus_annotated_GFJPDDAG_01820
+1 1614
+Bacillus_annotated_GFJPDDAG_01821
+1 1497
+Bacillus_annotated_GFJPDDAG_01822
+1 870
+Bacillus_annotated_GFJPDDAG_01823
+1 354
+Bacillus_annotated_GFJPDDAG_01824
+1 1140
+Bacillus_annotated_GFJPDDAG_01825
+1 1074
+Bacillus_annotated_GFJPDDAG_01826
+1 1092
+Bacillus_annotated_GFJPDDAG_01827
+1 1374
+Bacillus_annotated_GFJPDDAG_01828
+1 1194
+Bacillus_annotated_GFJPDDAG_01829
+1 399
+Bacillus_annotated_GFJPDDAG_01830
+1 210
+Bacillus_annotated_GFJPDDAG_01831
+1 189
+Bacillus_annotated_GFJPDDAG_01832
+1 261
+Bacillus_annotated_GFJPDDAG_01833
+1 918
+Bacillus_annotated_GFJPDDAG_01834
+1 1098
+Bacillus_annotated_GFJPDDAG_01835
+1 180
+Bacillus_annotated_GFJPDDAG_01836
+1 219
+Bacillus_annotated_GFJPDDAG_01837
+1 1386
+Bacillus_annotated_GFJPDDAG_01838
+1 786
+Bacillus_annotated_GFJPDDAG_01839
+1 1137
+Bacillus_annotated_GFJPDDAG_01840
+1 1461
+Bacillus_annotated_GFJPDDAG_01841
+1 549
+Bacillus_annotated_GFJPDDAG_01842
+1 735
+Bacillus_annotated_GFJPDDAG_01843
+1 666
+Bacillus_annotated_GFJPDDAG_01844
+1 825
+Bacillus_annotated_GFJPDDAG_01845
+1 150
+Bacillus_annotated_GFJPDDAG_01846
+1 609
+Bacillus_annotated_GFJPDDAG_01847
+1 495
+Bacillus_annotated_GFJPDDAG_01848
+1 381
+Bacillus_annotated_GFJPDDAG_01849
+1 1023
+Bacillus_annotated_GFJPDDAG_01850
+1 903
+Bacillus_annotated_GFJPDDAG_01851
+1 2019
+Bacillus_annotated_GFJPDDAG_01852
+1 1758
+Bacillus_annotated_GFJPDDAG_01853
+1 1272
+Bacillus_annotated_GFJPDDAG_01854
+1 99
+Bacillus_annotated_GFJPDDAG_01855
+1 525
+Bacillus_annotated_GFJPDDAG_01856
+1 507
+Bacillus_annotated_GFJPDDAG_01857
+1 1407
+Bacillus_annotated_GFJPDDAG_01858
+1 1245
+Bacillus_annotated_GFJPDDAG_01859
+1 429
+Bacillus_annotated_GFJPDDAG_01860
+1 1029
+Bacillus_annotated_GFJPDDAG_01861
+1 246
+Bacillus_annotated_GFJPDDAG_01862
+1 780
+Bacillus_annotated_GFJPDDAG_01863
+1 738
+Bacillus_annotated_GFJPDDAG_01864
+1 726
+Bacillus_annotated_GFJPDDAG_01865
+1 294
+Bacillus_annotated_GFJPDDAG_01866
+1 987
+Bacillus_annotated_GFJPDDAG_01867
+1 906
+Bacillus_annotated_GFJPDDAG_01868
+1 903
+Bacillus_annotated_GFJPDDAG_01869
+1 186
+Bacillus_annotated_GFJPDDAG_01870
+1 894
+Bacillus_annotated_GFJPDDAG_01871
+1 2112
+Bacillus_annotated_GFJPDDAG_01872
+1 372
+Bacillus_annotated_GFJPDDAG_01873
+1 330
+Bacillus_annotated_GFJPDDAG_01874
+1 1374
+Bacillus_annotated_GFJPDDAG_01875
+1 1287
+Bacillus_annotated_GFJPDDAG_01876
+1 777
+Bacillus_annotated_GFJPDDAG_01877
+1 1611
+Bacillus_annotated_GFJPDDAG_01878
+1 630
+Bacillus_annotated_GFJPDDAG_01879
+1 345
+Bacillus_annotated_GFJPDDAG_01880
+1 1413
+Bacillus_annotated_GFJPDDAG_01881
+1 1194
+Bacillus_annotated_GFJPDDAG_01882
+1 243
+Bacillus_annotated_GFJPDDAG_01883
+1 303
+Bacillus_annotated_GFJPDDAG_01884
+1 255
+Bacillus_annotated_GFJPDDAG_01885
+1 540
+Bacillus_annotated_GFJPDDAG_01886
+1 636
+Bacillus_annotated_GFJPDDAG_01887
+1 1122
+Bacillus_annotated_GFJPDDAG_01888
+1 1752
+Bacillus_annotated_GFJPDDAG_01889
+1 1542
+Bacillus_annotated_GFJPDDAG_01890
+1 426
+Bacillus_annotated_GFJPDDAG_01891
+1 474
+Bacillus_annotated_GFJPDDAG_01892
+1 396
+Bacillus_annotated_GFJPDDAG_01893
+1 900
+Bacillus_annotated_GFJPDDAG_01894
+1 615
+Bacillus_annotated_GFJPDDAG_01895
+1 831
+Bacillus_annotated_GFJPDDAG_01896
+1 2280
+Bacillus_annotated_GFJPDDAG_01897
+1 1269
+Bacillus_annotated_GFJPDDAG_01898
+1 933
+Bacillus_annotated_GFJPDDAG_01899
+1 462
+Bacillus_annotated_GFJPDDAG_01900
+1 960
+Bacillus_annotated_GFJPDDAG_01901
+1 309
+Bacillus_annotated_GFJPDDAG_01902
+1 612
+Bacillus_annotated_GFJPDDAG_01903
+1 1719
+Bacillus_annotated_GFJPDDAG_01904
+1 1734
+Bacillus_annotated_GFJPDDAG_01905
+1 1644
+Bacillus_annotated_GFJPDDAG_01906
+1 1302
+Bacillus_annotated_GFJPDDAG_01907
+1 576
+Bacillus_annotated_GFJPDDAG_01908
+1 333
+Bacillus_annotated_GFJPDDAG_01909
+1 111
+Bacillus_annotated_GFJPDDAG_01910
+1 537
+Bacillus_annotated_GFJPDDAG_01911
+1 951
+Bacillus_annotated_GFJPDDAG_01912
+1 492
+Bacillus_annotated_GFJPDDAG_01913
+1 654
+Bacillus_annotated_GFJPDDAG_01914
+1 852
+Bacillus_annotated_GFJPDDAG_01915
+1 1023
+Bacillus_annotated_GFJPDDAG_01916
+1 306
+Bacillus_annotated_GFJPDDAG_01917
+1 990
+Bacillus_annotated_GFJPDDAG_01918
+1 669
+Bacillus_annotated_GFJPDDAG_01919
+1 492
+Bacillus_annotated_GFJPDDAG_01920
+1 1170
+Bacillus_annotated_GFJPDDAG_01921
+1 174
+Bacillus_annotated_GFJPDDAG_01922
+1 183
+Bacillus_annotated_GFJPDDAG_01923
+1 1896
+Bacillus_annotated_GFJPDDAG_01924
+1 90
+Bacillus_annotated_GFJPDDAG_01925
+1 750
+Bacillus_annotated_GFJPDDAG_01926
+1 474
+Bacillus_annotated_GFJPDDAG_01927
+1 870
+Bacillus_annotated_GFJPDDAG_01928
+1 1134
+Bacillus_annotated_GFJPDDAG_01929
+1 672
+Bacillus_annotated_GFJPDDAG_01930
+1 438
+Bacillus_annotated_GFJPDDAG_01931
+1 969
+Bacillus_annotated_GFJPDDAG_01932
+1 1041
+Bacillus_annotated_GFJPDDAG_01933
+1 1029
+Bacillus_annotated_GFJPDDAG_01934
+1 726
+Bacillus_annotated_GFJPDDAG_01935
+1 1575
+Bacillus_annotated_GFJPDDAG_01936
+1 1812
+Bacillus_annotated_GFJPDDAG_01937
+1 1275
+Bacillus_annotated_GFJPDDAG_01938
+1 828
+Bacillus_annotated_GFJPDDAG_01939
+1 942
+Bacillus_annotated_GFJPDDAG_01940
+1 74
+Bacillus_annotated_GFJPDDAG_01941
+1 84
+Bacillus_annotated_GFJPDDAG_01942
+1 74
+Bacillus_annotated_GFJPDDAG_01943
+1 75
+Bacillus_annotated_GFJPDDAG_01944
+1 72
+Bacillus_annotated_GFJPDDAG_01945
+1 76
+Bacillus_annotated_GFJPDDAG_01946
+1 74
+Bacillus_annotated_GFJPDDAG_01947
+1 84
+Bacillus_annotated_GFJPDDAG_01948
+1 76
+Bacillus_annotated_GFJPDDAG_01949
+1 76
+Bacillus_annotated_GFJPDDAG_01950
+1 77
+Bacillus_annotated_GFJPDDAG_01951
+1 76
+Bacillus_annotated_GFJPDDAG_01952
+1 76
+Bacillus_annotated_GFJPDDAG_01953
+1 75
+Bacillus_annotated_GFJPDDAG_01954
+1 92
+Bacillus_annotated_GFJPDDAG_01955
+1 75
+Bacillus_annotated_GFJPDDAG_01956
+1 112
+Bacillus_annotated_GFJPDDAG_01957
+1 1044
+Bacillus_annotated_GFJPDDAG_01958
+1 258
+Bacillus_annotated_GFJPDDAG_01959
+1 1041
+Bacillus_annotated_GFJPDDAG_01960
+1 621
+Bacillus_annotated_GFJPDDAG_01961
+1 180
+Bacillus_annotated_GFJPDDAG_01962
+1 504
+Bacillus_annotated_GFJPDDAG_01963
+1 429
+Bacillus_annotated_GFJPDDAG_01964
+1 327
+Bacillus_annotated_GFJPDDAG_01965
+1 393
+Bacillus_annotated_GFJPDDAG_01966
+1 306
+Bacillus_annotated_GFJPDDAG_01967
+1 1056
+Bacillus_annotated_GFJPDDAG_01968
+1 609
+Bacillus_annotated_GFJPDDAG_01969
+1 252
+Bacillus_annotated_GFJPDDAG_01970
+1 273
+Bacillus_annotated_GFJPDDAG_01971
+1 210
+Bacillus_annotated_GFJPDDAG_01972
+1 243
+Bacillus_annotated_GFJPDDAG_01973
+1 144
+Bacillus_annotated_GFJPDDAG_01974
+1 804
+Bacillus_annotated_GFJPDDAG_01975
+1 252
+Bacillus_annotated_GFJPDDAG_01976
+1 228
+Bacillus_annotated_GFJPDDAG_01977
+1 519
+Bacillus_annotated_GFJPDDAG_01978
+1 1902
+Bacillus_annotated_GFJPDDAG_01979
+1 801
+Bacillus_annotated_GFJPDDAG_01980
+1 1551
+Bacillus_annotated_GFJPDDAG_01981
+1 795
+Bacillus_annotated_GFJPDDAG_01982
+1 2430
+Bacillus_annotated_GFJPDDAG_01983
+1 390
+Bacillus_annotated_GFJPDDAG_01984
+1 624
+Bacillus_annotated_GFJPDDAG_01985
+1 381
+Bacillus_annotated_GFJPDDAG_01986
+1 330
+Bacillus_annotated_GFJPDDAG_01987
+1 333
+Bacillus_annotated_GFJPDDAG_01988
+1 270
+Bacillus_annotated_GFJPDDAG_01989
+1 1398
+Bacillus_annotated_GFJPDDAG_01990
+1 576
+Bacillus_annotated_GFJPDDAG_01991
+1 1206
+Bacillus_annotated_GFJPDDAG_01992
+1 303
+Bacillus_annotated_GFJPDDAG_01993
+1 1722
+Bacillus_annotated_GFJPDDAG_01994
+1 438
+Bacillus_annotated_GFJPDDAG_01995
+1 381
+Bacillus_annotated_GFJPDDAG_01996
+1 306
+Bacillus_annotated_GFJPDDAG_01997
+1 255
+Bacillus_annotated_GFJPDDAG_01998
+1 555
+Bacillus_annotated_GFJPDDAG_01999
+1 918
+Bacillus_annotated_GFJPDDAG_02000
+1 174
+Bacillus_annotated_GFJPDDAG_02001
+1 642
+Bacillus_annotated_GFJPDDAG_02002
+1 465
+Bacillus_annotated_GFJPDDAG_02003
+1 117
+Bacillus_annotated_GFJPDDAG_02004
+1 204
+Bacillus_annotated_GFJPDDAG_02005
+1 474
+Bacillus_annotated_GFJPDDAG_02006
+1 171
+Bacillus_annotated_GFJPDDAG_02007
+1 570
+Bacillus_annotated_GFJPDDAG_02008
+1 186
+Bacillus_annotated_GFJPDDAG_02009
+1 1332
+Bacillus_annotated_GFJPDDAG_02010
+1 381
+Bacillus_annotated_GFJPDDAG_02011
+1 663
+Bacillus_annotated_GFJPDDAG_02012
+1 906
+Bacillus_annotated_GFJPDDAG_02013
+1 423
+Bacillus_annotated_GFJPDDAG_02014
+1 1503
+Bacillus_annotated_GFJPDDAG_02015
+1 135
+Bacillus_annotated_GFJPDDAG_02016
+1 171
+Bacillus_annotated_GFJPDDAG_02017
+1 168
+Bacillus_annotated_GFJPDDAG_02018
+1 108
+Bacillus_annotated_GFJPDDAG_02019
+1 138
+Bacillus_annotated_GFJPDDAG_02020
+1 264
+Bacillus_annotated_GFJPDDAG_02021
+1 993
+Bacillus_annotated_GFJPDDAG_02022
+1 102
+Bacillus_annotated_GFJPDDAG_02023
+1 213
+Bacillus_annotated_GFJPDDAG_02024
+1 1410
+Bacillus_annotated_GFJPDDAG_02025
+1 558
+Bacillus_annotated_GFJPDDAG_02026
+1 639
+Bacillus_annotated_GFJPDDAG_02027
+1 72
+Bacillus_annotated_GFJPDDAG_02028
+1 381
+Bacillus_annotated_GFJPDDAG_02029
+1 246
+Bacillus_annotated_GFJPDDAG_02030
+1 636
+Bacillus_annotated_GFJPDDAG_02031
+1 174
+Bacillus_annotated_GFJPDDAG_02032
+1 360
+Bacillus_annotated_GFJPDDAG_02033
+1 315
+Bacillus_annotated_GFJPDDAG_02034
+1 1104
+Bacillus_annotated_GFJPDDAG_02035
+1 1197
+Bacillus_annotated_GFJPDDAG_02036
+1 1878
+Bacillus_annotated_GFJPDDAG_02037
+1 969
+Bacillus_annotated_GFJPDDAG_02038
+1 207
+Bacillus_annotated_GFJPDDAG_02039
+1 1461
+Bacillus_annotated_GFJPDDAG_02040
+1 879
+Bacillus_annotated_GFJPDDAG_02041
+1 1581
+Bacillus_annotated_GFJPDDAG_02042
+1 180
+Bacillus_annotated_GFJPDDAG_02043
+1 786
+Bacillus_annotated_GFJPDDAG_02044
+1 567
+Bacillus_annotated_GFJPDDAG_02045
+1 150
+Bacillus_annotated_GFJPDDAG_02046
+1 582
+Bacillus_annotated_GFJPDDAG_02047
+1 1008
+Bacillus_annotated_GFJPDDAG_02048
+1 2325
+Bacillus_annotated_GFJPDDAG_02049
+1 702
+Bacillus_annotated_GFJPDDAG_02050
+1 351
+Bacillus_annotated_GFJPDDAG_02051
+1 1761
+Bacillus_annotated_GFJPDDAG_02052
+1 660
+Bacillus_annotated_GFJPDDAG_02053
+1 774
+Bacillus_annotated_GFJPDDAG_02054
+1 816
+Bacillus_annotated_GFJPDDAG_02055
+1 888
+Bacillus_annotated_GFJPDDAG_02056
+1 834
+Bacillus_annotated_GFJPDDAG_02057
+1 912
+Bacillus_annotated_GFJPDDAG_02058
+1 2175
+Bacillus_annotated_GFJPDDAG_02059
+1 1215
+Bacillus_annotated_GFJPDDAG_02060
+1 609
+Bacillus_annotated_GFJPDDAG_02061
+1 480
+Bacillus_annotated_GFJPDDAG_02062
+1 1629
+Bacillus_annotated_GFJPDDAG_02063
+1 774
+Bacillus_annotated_GFJPDDAG_02064
+1 1170
+Bacillus_annotated_GFJPDDAG_02065
+1 366
+Bacillus_annotated_GFJPDDAG_02066
+1 1119
+Bacillus_annotated_GFJPDDAG_02067
+1 384
+Bacillus_annotated_GFJPDDAG_02068
+1 570
+Bacillus_annotated_GFJPDDAG_02069
+1 363
+Bacillus_annotated_GFJPDDAG_02070
+1 417
+Bacillus_annotated_GFJPDDAG_02071
+1 858
+Bacillus_annotated_GFJPDDAG_02072
+1 777
+Bacillus_annotated_GFJPDDAG_02073
+1 882
+Bacillus_annotated_GFJPDDAG_02074
+1 255
+Bacillus_annotated_GFJPDDAG_02075
+1 894
+Bacillus_annotated_GFJPDDAG_02076
+1 1308
+Bacillus_annotated_GFJPDDAG_02077
+1 711
+Bacillus_annotated_GFJPDDAG_02078
+1 957
+Bacillus_annotated_GFJPDDAG_02079
+1 1119
+Bacillus_annotated_GFJPDDAG_02080
+1 711
+Bacillus_annotated_GFJPDDAG_02081
+1 375
+Bacillus_annotated_GFJPDDAG_02082
+1 1143
+Bacillus_annotated_GFJPDDAG_02083
+1 540
+Bacillus_annotated_GFJPDDAG_02084
+1 1131
+Bacillus_annotated_GFJPDDAG_02085
+1 1815
+Bacillus_annotated_GFJPDDAG_02086
+1 318
+Bacillus_annotated_GFJPDDAG_02087
+1 810
+Bacillus_annotated_GFJPDDAG_02088
+1 588
+Bacillus_annotated_GFJPDDAG_02089
+1 1374
+Bacillus_annotated_GFJPDDAG_02090
+1 753
+Bacillus_annotated_GFJPDDAG_02091
+1 144
+Bacillus_annotated_GFJPDDAG_02092
+1 909
+Bacillus_annotated_GFJPDDAG_02093
+1 399
+Bacillus_annotated_GFJPDDAG_02094
+1 393
+Bacillus_annotated_GFJPDDAG_02095
+1 474
+Bacillus_annotated_GFJPDDAG_02096
+1 2166
+Bacillus_annotated_GFJPDDAG_02097
+1 960
+Bacillus_annotated_GFJPDDAG_02098
+1 1188
+Bacillus_annotated_GFJPDDAG_02099
+1 285
+Bacillus_annotated_GFJPDDAG_02100
+1 453
+Bacillus_annotated_GFJPDDAG_02101
+1 1002
+Bacillus_annotated_GFJPDDAG_02102
+1 1311
+Bacillus_annotated_GFJPDDAG_02103
+1 447
+Bacillus_annotated_GFJPDDAG_02104
+1 174
+Bacillus_annotated_GFJPDDAG_02105
+1 936
+Bacillus_annotated_GFJPDDAG_02106
+1 672
+Bacillus_annotated_GFJPDDAG_02107
+1 1665
+Bacillus_annotated_GFJPDDAG_02108
+1 1335
+Bacillus_annotated_GFJPDDAG_02109
+1 753
+Bacillus_annotated_GFJPDDAG_02110
+1 942
+Bacillus_annotated_GFJPDDAG_02111
+1 1128
+Bacillus_annotated_GFJPDDAG_02112
+1 1830
+Bacillus_annotated_GFJPDDAG_02113
+1 567
+Bacillus_annotated_GFJPDDAG_02114
+1 1038
+Bacillus_annotated_GFJPDDAG_02115
+1 1194
+Bacillus_annotated_GFJPDDAG_02116
+1 1833
+Bacillus_annotated_GFJPDDAG_02117
+1 336
+Bacillus_annotated_GFJPDDAG_02118
+1 1209
+Bacillus_annotated_GFJPDDAG_02119
+1 1110
+Bacillus_annotated_GFJPDDAG_02120
+1 252
+Bacillus_annotated_GFJPDDAG_02121
+1 1029
+Bacillus_annotated_GFJPDDAG_02122
+1 2256
+Bacillus_annotated_GFJPDDAG_02123
+1 570
+Bacillus_annotated_GFJPDDAG_02124
+1 618
+Bacillus_annotated_GFJPDDAG_02125
+1 822
+Bacillus_annotated_GFJPDDAG_02126
+1 747
+Bacillus_annotated_GFJPDDAG_02127
+1 354
+Bacillus_annotated_GFJPDDAG_02128
+1 567
+Bacillus_annotated_GFJPDDAG_02129
+1 570
+Bacillus_annotated_GFJPDDAG_02130
+1 300
+Bacillus_annotated_GFJPDDAG_02131
+1 831
+Bacillus_annotated_GFJPDDAG_02132
+1 1101
+Bacillus_annotated_GFJPDDAG_02133
+1 522
+Bacillus_annotated_GFJPDDAG_02134
+1 141
+Bacillus_annotated_GFJPDDAG_02135
+1 792
+Bacillus_annotated_GFJPDDAG_02136
+1 540
+Bacillus_annotated_GFJPDDAG_02137
+1 141
+Bacillus_annotated_GFJPDDAG_02138
+1 717
+Bacillus_annotated_GFJPDDAG_02139
+1 156
+Bacillus_annotated_GFJPDDAG_02140
+1 234
+Bacillus_annotated_GFJPDDAG_02141
+1 1137
+Bacillus_annotated_GFJPDDAG_02142
+1 924
+Bacillus_annotated_GFJPDDAG_02143
+1 693
+Bacillus_annotated_GFJPDDAG_02144
+1 639
+Bacillus_annotated_GFJPDDAG_02145
+1 207
+Bacillus_annotated_GFJPDDAG_02146
+1 696
+Bacillus_annotated_GFJPDDAG_02147
+1 1746
+Bacillus_annotated_GFJPDDAG_02148
+1 477
+Bacillus_annotated_GFJPDDAG_02149
+1 636
+Bacillus_annotated_GFJPDDAG_02150
+1 1287
+Bacillus_annotated_GFJPDDAG_02151
+1 933
+Bacillus_annotated_GFJPDDAG_02152
+1 645
+Bacillus_annotated_GFJPDDAG_02153
+1 1134
+Bacillus_annotated_GFJPDDAG_02154
+1 291
+Bacillus_annotated_GFJPDDAG_02155
+1 417
+Bacillus_annotated_GFJPDDAG_02156
+1 267
+Bacillus_annotated_GFJPDDAG_02157
+1 2634
+Bacillus_annotated_GFJPDDAG_02158
+1 1077
+Bacillus_annotated_GFJPDDAG_02159
+1 1005
+Bacillus_annotated_GFJPDDAG_02160
+1 597
+Bacillus_annotated_GFJPDDAG_02161
+1 2397
+Bacillus_annotated_GFJPDDAG_02162
+1 672
+Bacillus_annotated_GFJPDDAG_02163
+1 1116
+Bacillus_annotated_GFJPDDAG_02164
+1 1143
+Bacillus_annotated_GFJPDDAG_02165
+1 420
+Bacillus_annotated_GFJPDDAG_02166
+1 1275
+Bacillus_annotated_GFJPDDAG_02167
+1 720
+Bacillus_annotated_GFJPDDAG_02168
+1 951
+Bacillus_annotated_GFJPDDAG_02169
+1 927
+Bacillus_annotated_GFJPDDAG_02170
+1 711
+Bacillus_annotated_GFJPDDAG_02171
+1 375
+Bacillus_annotated_GFJPDDAG_02172
+1 780
+Bacillus_annotated_GFJPDDAG_02173
+1 765
+Bacillus_annotated_GFJPDDAG_02174
+1 1770
+Bacillus_annotated_GFJPDDAG_02175
+1 1275
+Bacillus_annotated_GFJPDDAG_02176
+1 177
+Bacillus_annotated_GFJPDDAG_02177
+1 1767
+Bacillus_annotated_GFJPDDAG_02178
+1 441
+Bacillus_annotated_GFJPDDAG_02179
+1 2190
+Bacillus_annotated_GFJPDDAG_02180
+1 513
+Bacillus_annotated_GFJPDDAG_02181
+1 2364
+Bacillus_annotated_GFJPDDAG_02182
+1 336
+Bacillus_annotated_GFJPDDAG_02183
+1 927
+Bacillus_annotated_GFJPDDAG_02184
+1 2265
+Bacillus_annotated_GFJPDDAG_02185
+1 321
+Bacillus_annotated_GFJPDDAG_02186
+1 1551
+Bacillus_annotated_GFJPDDAG_02187
+1 645
+Bacillus_annotated_GFJPDDAG_02188
+1 1296
+Bacillus_annotated_GFJPDDAG_02189
+1 396
+Bacillus_annotated_GFJPDDAG_02190
+1 270
+Bacillus_annotated_GFJPDDAG_02191
+1 1140
+Bacillus_annotated_GFJPDDAG_02192
+1 1026
+Bacillus_annotated_GFJPDDAG_02193
+1 207
+Bacillus_annotated_GFJPDDAG_02194
+1 1002
+Bacillus_annotated_GFJPDDAG_02195
+1 612
+Bacillus_annotated_GFJPDDAG_02196
+1 549
+Bacillus_annotated_GFJPDDAG_02197
+1 735
+Bacillus_annotated_GFJPDDAG_02198
+1 975
+Bacillus_annotated_GFJPDDAG_02199
+1 1623
+Bacillus_annotated_GFJPDDAG_02200
+1 1113
+Bacillus_annotated_GFJPDDAG_02201
+1 846
+Bacillus_annotated_GFJPDDAG_02202
+1 1590
+Bacillus_annotated_GFJPDDAG_02203
+1 1137
+Bacillus_annotated_GFJPDDAG_02204
+1 543
+Bacillus_annotated_GFJPDDAG_02205
+1 852
+Bacillus_annotated_GFJPDDAG_02206
+1 456
+Bacillus_annotated_GFJPDDAG_02207
+1 1287
+Bacillus_annotated_GFJPDDAG_02208
+1 534
+Bacillus_annotated_GFJPDDAG_02209
+1 291
+Bacillus_annotated_GFJPDDAG_02210
+1 336
+Bacillus_annotated_GFJPDDAG_02211
+1 309
+Bacillus_annotated_GFJPDDAG_02212
+1 126
+Bacillus_annotated_GFJPDDAG_02213
+1 1446
+Bacillus_annotated_GFJPDDAG_02214
+1 867
+Bacillus_annotated_GFJPDDAG_02215
+1 774
+Bacillus_annotated_GFJPDDAG_02216
+1 804
+Bacillus_annotated_GFJPDDAG_02217
+1 684
+Bacillus_annotated_GFJPDDAG_02218
+1 522
+Bacillus_annotated_GFJPDDAG_02219
+1 882
+Bacillus_annotated_GFJPDDAG_02220
+1 1008
+Bacillus_annotated_GFJPDDAG_02221
+1 711
+Bacillus_annotated_GFJPDDAG_02222
+1 573
+Bacillus_annotated_GFJPDDAG_02223
+1 978
+Bacillus_annotated_GFJPDDAG_02224
+1 441
+Bacillus_annotated_GFJPDDAG_02225
+1 759
+Bacillus_annotated_GFJPDDAG_02226
+1 621
+Bacillus_annotated_GFJPDDAG_02227
+1 966
+Bacillus_annotated_GFJPDDAG_02228
+1 744
+Bacillus_annotated_GFJPDDAG_02229
+1 498
+Bacillus_annotated_GFJPDDAG_02230
+1 1212
+Bacillus_annotated_GFJPDDAG_02231
+1 1044
+Bacillus_annotated_GFJPDDAG_02232
+1 1662
+Bacillus_annotated_GFJPDDAG_02233
+1 1368
+Bacillus_annotated_GFJPDDAG_02234
+1 753
+Bacillus_annotated_GFJPDDAG_02235
+1 1278
+Bacillus_annotated_GFJPDDAG_02236
+1 549
+Bacillus_annotated_GFJPDDAG_02237
+1 588
+Bacillus_annotated_GFJPDDAG_02238
+1 1872
+Bacillus_annotated_GFJPDDAG_02239
+1 2880
+Bacillus_annotated_GFJPDDAG_02240
+1 1713
+Bacillus_annotated_GFJPDDAG_02241
+1 1317
+Bacillus_annotated_GFJPDDAG_02242
+1 2652
+Bacillus_annotated_GFJPDDAG_02243
+1 1035
+Bacillus_annotated_GFJPDDAG_02244
+1 1197
+Bacillus_annotated_GFJPDDAG_02245
+1 1293
+Bacillus_annotated_GFJPDDAG_02246
+1 975
+Bacillus_annotated_GFJPDDAG_02247
+1 783
+Bacillus_annotated_GFJPDDAG_02248
+1 933
+Bacillus_annotated_GFJPDDAG_02249
+1 834
+Bacillus_annotated_GFJPDDAG_02250
+1 1461
+Bacillus_annotated_GFJPDDAG_02251
+1 486
+Bacillus_annotated_GFJPDDAG_02252
+1 735
+Bacillus_annotated_GFJPDDAG_02253
+1 648
+Bacillus_annotated_GFJPDDAG_02254
+1 783
+Bacillus_annotated_GFJPDDAG_02255
+1 588
+Bacillus_annotated_GFJPDDAG_02256
+1 2325
+Bacillus_annotated_GFJPDDAG_02257
+1 1659
+Bacillus_annotated_GFJPDDAG_02258
+1 723
+Bacillus_annotated_GFJPDDAG_02259
+1 1272
+Bacillus_annotated_GFJPDDAG_02260
+1 1287
+Bacillus_annotated_GFJPDDAG_02261
+1 1002
+Bacillus_annotated_GFJPDDAG_02262
+1 77
+Bacillus_annotated_GFJPDDAG_02263
+1 510
+Bacillus_annotated_GFJPDDAG_02264
+1 597
+Bacillus_annotated_GFJPDDAG_02265
+1 738
+Bacillus_annotated_GFJPDDAG_02266
+1 1077
+Bacillus_annotated_GFJPDDAG_02267
+1 801
+Bacillus_annotated_GFJPDDAG_02268
+1 459
+Bacillus_annotated_GFJPDDAG_02269
+1 225
+Bacillus_annotated_GFJPDDAG_02270
+1 471
+Bacillus_annotated_GFJPDDAG_02271
+1 1602
+Bacillus_annotated_GFJPDDAG_02272
+1 771
+Bacillus_annotated_GFJPDDAG_02273
+1 1764
+Bacillus_annotated_GFJPDDAG_02274
+1 609
+Bacillus_annotated_GFJPDDAG_02275
+1 438
+Bacillus_annotated_GFJPDDAG_02276
+1 1239
+Bacillus_annotated_GFJPDDAG_02277
+1 1770
+Bacillus_annotated_GFJPDDAG_02278
+1 1455
+Bacillus_annotated_GFJPDDAG_02279
+1 921
+Bacillus_annotated_GFJPDDAG_02280
+1 750
+Bacillus_annotated_GFJPDDAG_02281
+1 768
+Bacillus_annotated_GFJPDDAG_02282
+1 1464
+Bacillus_annotated_GFJPDDAG_02283
+1 930
+Bacillus_annotated_GFJPDDAG_02284
+1 954
+Bacillus_annotated_GFJPDDAG_02285
+1 1185
+Bacillus_annotated_GFJPDDAG_02286
+1 315
+Bacillus_annotated_GFJPDDAG_02287
+1 981
+Bacillus_annotated_GFJPDDAG_02288
+1 774
+Bacillus_annotated_GFJPDDAG_02289
+1 771
+Bacillus_annotated_GFJPDDAG_02290
+1 588
+Bacillus_annotated_GFJPDDAG_02291
+1 1695
+Bacillus_annotated_GFJPDDAG_02292
+1 408
+Bacillus_annotated_GFJPDDAG_02293
+1 2358
+Bacillus_annotated_GFJPDDAG_02294
+1 1710
+Bacillus_annotated_GFJPDDAG_02295
+1 540
+Bacillus_annotated_GFJPDDAG_02296
+1 261
+Bacillus_annotated_GFJPDDAG_02297
+1 924
+Bacillus_annotated_GFJPDDAG_02298
+1 2415
+Bacillus_annotated_GFJPDDAG_02299
+1 1038
+Bacillus_annotated_GFJPDDAG_02300
+1 762
+Bacillus_annotated_GFJPDDAG_02301
+1 222
+Bacillus_annotated_GFJPDDAG_02302
+1 1086
+Bacillus_annotated_GFJPDDAG_02303
+1 489
+Bacillus_annotated_GFJPDDAG_02304
+1 399
+Bacillus_annotated_GFJPDDAG_02305
+1 570
+Bacillus_annotated_GFJPDDAG_02306
+1 279
+Bacillus_annotated_GFJPDDAG_02307
+1 360
+Bacillus_annotated_GFJPDDAG_02308
+1 201
+Bacillus_annotated_GFJPDDAG_02309
+1 504
+Bacillus_annotated_GFJPDDAG_02310
+1 1932
+Bacillus_annotated_GFJPDDAG_02311
+1 867
+Bacillus_annotated_GFJPDDAG_02312
+1 933
+Bacillus_annotated_GFJPDDAG_02313
+1 1389
+Bacillus_annotated_GFJPDDAG_02314
+1 456
+Bacillus_annotated_GFJPDDAG_02315
+1 381
+Bacillus_annotated_GFJPDDAG_02316
+1 381
+Bacillus_annotated_GFJPDDAG_02317
+1 1029
+Bacillus_annotated_GFJPDDAG_02318
+1 606
+Bacillus_annotated_GFJPDDAG_02319
+1 633
+Bacillus_annotated_GFJPDDAG_02320
+1 825
+Bacillus_annotated_GFJPDDAG_02321
+1 2631
+Bacillus_annotated_GFJPDDAG_02322
+1 936
+Bacillus_annotated_GFJPDDAG_02323
+1 954
+Bacillus_annotated_GFJPDDAG_02324
+1 1800
+Bacillus_annotated_GFJPDDAG_02325
+1 720
+Bacillus_annotated_GFJPDDAG_02326
+1 477
+Bacillus_annotated_GFJPDDAG_02327
+1 939
+Bacillus_annotated_GFJPDDAG_02328
+1 1275
+Bacillus_annotated_GFJPDDAG_02329
+1 1119
+Bacillus_annotated_GFJPDDAG_02330
+1 459
+Bacillus_annotated_GFJPDDAG_02331
+1 1107
+Bacillus_annotated_GFJPDDAG_02332
+1 387
+Bacillus_annotated_GFJPDDAG_02333
+1 249
+Bacillus_annotated_GFJPDDAG_02334
+1 1761
+Bacillus_annotated_GFJPDDAG_02335
+1 960
+Bacillus_annotated_GFJPDDAG_02336
+1 984
+Bacillus_annotated_GFJPDDAG_02337
+1 870
+Bacillus_annotated_GFJPDDAG_02338
+1 660
+Bacillus_annotated_GFJPDDAG_02339
+1 1239
+Bacillus_annotated_GFJPDDAG_02340
+1 3357
+Bacillus_annotated_GFJPDDAG_02341
+1 336
+Bacillus_annotated_GFJPDDAG_02342
+1 507
+Bacillus_annotated_GFJPDDAG_02343
+1 414
+Bacillus_annotated_GFJPDDAG_02344
+1 846
+Bacillus_annotated_GFJPDDAG_02345
+1 1707
+Bacillus_annotated_GFJPDDAG_02346
+1 357
+Bacillus_annotated_GFJPDDAG_02347
+1 321
+Bacillus_annotated_GFJPDDAG_02348
+1 426
+Bacillus_annotated_GFJPDDAG_02349
+1 1215
+Bacillus_annotated_GFJPDDAG_02350
+1 966
+Bacillus_annotated_GFJPDDAG_02351
+1 453
+Bacillus_annotated_GFJPDDAG_02352
+1 339
+Bacillus_annotated_GFJPDDAG_02353
+1 528
+Bacillus_annotated_GFJPDDAG_02354
+1 444
+Bacillus_annotated_GFJPDDAG_02355
+1 495
+Bacillus_annotated_GFJPDDAG_02356
+1 471
+Bacillus_annotated_GFJPDDAG_02357
+1 219
+Bacillus_annotated_GFJPDDAG_02358
+1 543
+Bacillus_annotated_GFJPDDAG_02359
+1 399
+Bacillus_annotated_GFJPDDAG_02360
+1 486
+Bacillus_annotated_GFJPDDAG_02361
+1 963
+Bacillus_annotated_GFJPDDAG_02362
+1 171
+Bacillus_annotated_GFJPDDAG_02363
+1 678
+Bacillus_annotated_GFJPDDAG_02364
+1 3033
+Bacillus_annotated_GFJPDDAG_02365
+1 225
+Bacillus_annotated_GFJPDDAG_02366
+1 915
+Bacillus_annotated_GFJPDDAG_02367
+1 843
+Bacillus_annotated_GFJPDDAG_02368
+1 327
+Bacillus_annotated_GFJPDDAG_02369
+1 324
+Bacillus_annotated_GFJPDDAG_02370
+1 462
+Bacillus_annotated_GFJPDDAG_02371
+1 612
+Bacillus_annotated_GFJPDDAG_02372
+1 474
+Bacillus_annotated_GFJPDDAG_02373
+1 813
+Bacillus_annotated_GFJPDDAG_02374
+1 423
+Bacillus_annotated_GFJPDDAG_02375
+1 381
+Bacillus_annotated_GFJPDDAG_02376
+1 198
+Bacillus_annotated_GFJPDDAG_02377
+1 732
+Bacillus_annotated_GFJPDDAG_02378
+1 624
+Bacillus_annotated_GFJPDDAG_02379
+1 363
+Bacillus_annotated_GFJPDDAG_02380
+1 570
+Bacillus_annotated_GFJPDDAG_02381
+1 1578
+Bacillus_annotated_GFJPDDAG_02382
+1 1947
+Bacillus_annotated_GFJPDDAG_02383
+1 2184
+Bacillus_annotated_GFJPDDAG_02384
+1 183
+Bacillus_annotated_GFJPDDAG_02385
+1 942
+Bacillus_annotated_GFJPDDAG_02386
+1 306
+Bacillus_annotated_GFJPDDAG_02387
+1 312
+Bacillus_annotated_GFJPDDAG_02388
+1 1320
+Bacillus_annotated_GFJPDDAG_02389
+1 762
+Bacillus_annotated_GFJPDDAG_02390
+1 243
+Bacillus_annotated_GFJPDDAG_02391
+1 681
+Bacillus_annotated_GFJPDDAG_02392
+1 1119
+Bacillus_annotated_GFJPDDAG_02393
+1 1332
+Bacillus_annotated_GFJPDDAG_02394
+1 273
+Bacillus_annotated_GFJPDDAG_02395
+1 906
+Bacillus_annotated_GFJPDDAG_02396
+1 1329
+Bacillus_annotated_GFJPDDAG_02397
+1 1041
+Bacillus_annotated_GFJPDDAG_02398
+1 633
+Bacillus_annotated_GFJPDDAG_02399
+1 993
+Bacillus_annotated_GFJPDDAG_02400
+1 534
+Bacillus_annotated_GFJPDDAG_02401
+1 162
+Bacillus_annotated_GFJPDDAG_02402
+1 114
+Bacillus_annotated_GFJPDDAG_02403
+1 741
+Bacillus_annotated_GFJPDDAG_02404
+1 855
+Bacillus_annotated_GFJPDDAG_02405
+1 171
+Bacillus_annotated_GFJPDDAG_02406
+1 849
+Bacillus_annotated_GFJPDDAG_02407
+1 594
+Bacillus_annotated_GFJPDDAG_02408
+1 711
+Bacillus_annotated_GFJPDDAG_02409
+1 522
+Bacillus_annotated_GFJPDDAG_02410
+1 486
+Bacillus_annotated_GFJPDDAG_02411
+1 573
+Bacillus_annotated_GFJPDDAG_02412
+1 210
+Bacillus_annotated_GFJPDDAG_02413
+1 630
+Bacillus_annotated_GFJPDDAG_02414
+1 963
+Bacillus_annotated_GFJPDDAG_02415
+1 1203
+Bacillus_annotated_GFJPDDAG_02416
+1 1197
+Bacillus_annotated_GFJPDDAG_02417
+1 837
+Bacillus_annotated_GFJPDDAG_02418
+1 663
+Bacillus_annotated_GFJPDDAG_02419
+1 1026
+Bacillus_annotated_GFJPDDAG_02420
+1 111
+Bacillus_annotated_GFJPDDAG_02421
+1 453
+Bacillus_annotated_GFJPDDAG_02422
+1 531
+Bacillus_annotated_GFJPDDAG_02423
+1 657
+Bacillus_annotated_GFJPDDAG_02424
+1 1272
+Bacillus_annotated_GFJPDDAG_02425
+1 1632
+Bacillus_annotated_GFJPDDAG_02426
+1 918
+Bacillus_annotated_GFJPDDAG_02427
+1 480
+Bacillus_annotated_GFJPDDAG_02428
+1 921
+Bacillus_annotated_GFJPDDAG_02429
+1 510
+Bacillus_annotated_GFJPDDAG_02430
+1 681
+Bacillus_annotated_GFJPDDAG_02431
+1 192
+Bacillus_annotated_GFJPDDAG_02432
+1 519
+Bacillus_annotated_GFJPDDAG_02433
+1 495
+Bacillus_annotated_GFJPDDAG_02434
+1 1950
+Bacillus_annotated_GFJPDDAG_02435
+1 276
+Bacillus_annotated_GFJPDDAG_02436
+1 1158
+Bacillus_annotated_GFJPDDAG_02437
+1 1215
+Bacillus_annotated_GFJPDDAG_02438
+1 936
+Bacillus_annotated_GFJPDDAG_02439
+1 657
+Bacillus_annotated_GFJPDDAG_02440
+1 1197
+Bacillus_annotated_GFJPDDAG_02441
+1 804
+Bacillus_annotated_GFJPDDAG_02442
+1 186
+Bacillus_annotated_GFJPDDAG_02443
+1 1089
+Bacillus_annotated_GFJPDDAG_02444
+1 681
+Bacillus_annotated_GFJPDDAG_02445
+1 816
+Bacillus_annotated_GFJPDDAG_02446
+1 1005
+Bacillus_annotated_GFJPDDAG_02447
+1 153
+Bacillus_annotated_GFJPDDAG_02448
+1 453
+Bacillus_annotated_GFJPDDAG_02449
+1 1395
+Bacillus_annotated_GFJPDDAG_02450
+1 1212
+Bacillus_annotated_GFJPDDAG_02451
+1 321
+Bacillus_annotated_GFJPDDAG_02452
+1 837
+Bacillus_annotated_GFJPDDAG_02453
+1 1194
+Bacillus_annotated_GFJPDDAG_02454
+1 987
+Bacillus_annotated_GFJPDDAG_02455
+1 501
+Bacillus_annotated_GFJPDDAG_02456
+1 1569
+Bacillus_annotated_GFJPDDAG_02457
+1 486
+Bacillus_annotated_GFJPDDAG_02458
+1 711
+Bacillus_annotated_GFJPDDAG_02459
+1 543
+Bacillus_annotated_GFJPDDAG_02460
+1 1011
+Bacillus_annotated_GFJPDDAG_02461
+1 801
+Bacillus_annotated_GFJPDDAG_02462
+1 918
+Bacillus_annotated_GFJPDDAG_02463
+1 1608
+Bacillus_annotated_GFJPDDAG_02464
+1 1584
+Bacillus_annotated_GFJPDDAG_02465
+1 204
+Bacillus_annotated_GFJPDDAG_02466
+1 1212
+Bacillus_annotated_GFJPDDAG_02467
+1 1152
+Bacillus_annotated_GFJPDDAG_02468
+1 1341
+Bacillus_annotated_GFJPDDAG_02469
+1 1695
+Bacillus_annotated_GFJPDDAG_02470
+1 795
+Bacillus_annotated_GFJPDDAG_02471
+1 654
+Bacillus_annotated_GFJPDDAG_02472
+1 486
+Bacillus_annotated_GFJPDDAG_02473
+1 642
+Bacillus_annotated_GFJPDDAG_02474
+1 1182
+Bacillus_annotated_GFJPDDAG_02475
+1 1842
+Bacillus_annotated_GFJPDDAG_02476
+1 603
+Bacillus_annotated_GFJPDDAG_02477
+1 1263
+Bacillus_annotated_GFJPDDAG_02478
+1 2943
+Bacillus_annotated_GFJPDDAG_02479
+1 1719
+Bacillus_annotated_GFJPDDAG_02480
+1 633
+Bacillus_annotated_GFJPDDAG_02481
+1 648
+Bacillus_annotated_GFJPDDAG_02482
+1 1203
+Bacillus_annotated_GFJPDDAG_02483
+1 1095
+Bacillus_annotated_GFJPDDAG_02484
+1 729
+Bacillus_annotated_GFJPDDAG_02485
+1 816
+Bacillus_annotated_GFJPDDAG_02486
+1 999
+Bacillus_annotated_GFJPDDAG_02487
+1 1077
+Bacillus_annotated_GFJPDDAG_02488
+1 2157
+Bacillus_annotated_GFJPDDAG_02489
+1 546
+Bacillus_annotated_GFJPDDAG_02490
+1 312
+Bacillus_annotated_GFJPDDAG_02491
+1 489
+Bacillus_annotated_GFJPDDAG_02492
+1 522
+Bacillus_annotated_GFJPDDAG_02493
+1 1116
+Bacillus_annotated_GFJPDDAG_02494
+1 1320
+Bacillus_annotated_GFJPDDAG_02495
+1 669
+Bacillus_annotated_GFJPDDAG_02496
+1 1104
+Bacillus_annotated_GFJPDDAG_02497
+1 2892
+Bacillus_annotated_GFJPDDAG_02498
+1 606
+Bacillus_annotated_GFJPDDAG_02499
+1 810
+Bacillus_annotated_GFJPDDAG_02500
+1 318
+Bacillus_annotated_GFJPDDAG_02501
+1 1032
+Bacillus_annotated_GFJPDDAG_02502
+1 504
+Bacillus_annotated_GFJPDDAG_02503
+1 447
+Bacillus_annotated_GFJPDDAG_02504
+1 1494
+Bacillus_annotated_GFJPDDAG_02505
+1 180
+Bacillus_annotated_GFJPDDAG_02506
+1 525
+Bacillus_annotated_GFJPDDAG_02507
+1 1074
+Bacillus_annotated_GFJPDDAG_02508
+1 315
+Bacillus_annotated_GFJPDDAG_02509
+1 843
+Bacillus_annotated_GFJPDDAG_02510
+1 645
+Bacillus_annotated_GFJPDDAG_02511
+1 324
+Bacillus_annotated_GFJPDDAG_02512
+1 774
+Bacillus_annotated_GFJPDDAG_02513
+1 2136
+Bacillus_annotated_GFJPDDAG_02514
+1 954
+Bacillus_annotated_GFJPDDAG_02515
+1 972
+Bacillus_annotated_GFJPDDAG_02516
+1 552
+Bacillus_annotated_GFJPDDAG_02517
+1 930
+Bacillus_annotated_GFJPDDAG_02518
+1 276
+Bacillus_annotated_GFJPDDAG_02519
+1 849
+Bacillus_annotated_GFJPDDAG_02520
+1 1407
+Bacillus_annotated_GFJPDDAG_02521
+1 222
+Bacillus_annotated_GFJPDDAG_02522
+1 720
+Bacillus_annotated_GFJPDDAG_02523
+1 1620
+Bacillus_annotated_GFJPDDAG_02524
+1 1263
+Bacillus_annotated_GFJPDDAG_02525
+1 183
+Bacillus_annotated_GFJPDDAG_02526
+1 318
+Bacillus_annotated_GFJPDDAG_02527
+1 2415
+Bacillus_annotated_GFJPDDAG_02528
+1 777
+Bacillus_annotated_GFJPDDAG_02529
+1 1323
+Bacillus_annotated_GFJPDDAG_02530
+1 1362
+Bacillus_annotated_GFJPDDAG_02531
+1 504
+Bacillus_annotated_GFJPDDAG_02532
+1 1185
+Bacillus_annotated_GFJPDDAG_02533
+1 165
+Bacillus_annotated_GFJPDDAG_02534
+1 294
+Bacillus_annotated_GFJPDDAG_02535
+1 573
+Bacillus_annotated_GFJPDDAG_02536
+1 996
+Bacillus_annotated_GFJPDDAG_02537
+1 2367
+Bacillus_annotated_GFJPDDAG_02538
+1 1074
+Bacillus_annotated_GFJPDDAG_02539
+1 804
+Bacillus_annotated_GFJPDDAG_02540
+1 516
+Bacillus_annotated_GFJPDDAG_02541
+1 1203
+Bacillus_annotated_GFJPDDAG_02542
+1 156
+Bacillus_annotated_GFJPDDAG_02543
+1 1590
+Bacillus_annotated_GFJPDDAG_02544
+1 150
+Bacillus_annotated_GFJPDDAG_02545
+1 789
+Bacillus_annotated_GFJPDDAG_02546
+1 561
+Bacillus_annotated_GFJPDDAG_02547
+1 186
+Bacillus_annotated_GFJPDDAG_02548
+1 2304
+Bacillus_annotated_GFJPDDAG_02549
+1 198
+Bacillus_annotated_GFJPDDAG_02550
+1 1758
+Bacillus_annotated_GFJPDDAG_02551
+1 333
+Bacillus_annotated_GFJPDDAG_02552
+1 243
+Bacillus_annotated_GFJPDDAG_02553
+1 783
+Bacillus_annotated_GFJPDDAG_02554
+1 1002
+Bacillus_annotated_GFJPDDAG_02555
+1 777
+Bacillus_annotated_GFJPDDAG_02556
+1 801
+Bacillus_annotated_GFJPDDAG_02557
+1 474
+Bacillus_annotated_GFJPDDAG_02558
+1 342
+Bacillus_annotated_GFJPDDAG_02559
+1 393
+Bacillus_annotated_GFJPDDAG_02560
+1 246
+Bacillus_annotated_GFJPDDAG_02561
+1 183
+Bacillus_annotated_GFJPDDAG_02562
+1 177
+Bacillus_annotated_GFJPDDAG_02563
+1 474
+Bacillus_annotated_GFJPDDAG_02564
+1 231
+Bacillus_annotated_GFJPDDAG_02565
+1 936
+Bacillus_annotated_GFJPDDAG_02566
+1 1359
+Bacillus_annotated_GFJPDDAG_02567
+1 1032
+Bacillus_annotated_GFJPDDAG_02568
+1 723
+Bacillus_annotated_GFJPDDAG_02569
+1 372
+Bacillus_annotated_GFJPDDAG_02570
+1 99
+Bacillus_annotated_GFJPDDAG_02571
+1 1107
+Bacillus_annotated_GFJPDDAG_02572
+1 1491
+Bacillus_annotated_GFJPDDAG_02573
+1 819
+Bacillus_annotated_GFJPDDAG_02574
+1 810
+Bacillus_annotated_GFJPDDAG_02575
+1 1755
+Bacillus_annotated_GFJPDDAG_02576
+1 1407
+Bacillus_annotated_GFJPDDAG_02577
+1 924
+Bacillus_annotated_GFJPDDAG_02578
+1 756
+Bacillus_annotated_GFJPDDAG_02579
+1 2406
+Bacillus_annotated_GFJPDDAG_02580
+1 1446
+Bacillus_annotated_GFJPDDAG_02581
+1 1029
+Bacillus_annotated_GFJPDDAG_02582
+1 1158
+Bacillus_annotated_GFJPDDAG_02583
+1 1860
+Bacillus_annotated_GFJPDDAG_02584
+1 72
+Bacillus_annotated_GFJPDDAG_02585
+1 91
+Bacillus_annotated_GFJPDDAG_02586
+1 75
+Bacillus_annotated_GFJPDDAG_02587
+Bacillus_annotated_GFJPDDAG_02588
+1 74
+Bacillus_annotated_GFJPDDAG_02589
+1 76
+Bacillus_annotated_GFJPDDAG_02590
+1 76
+Bacillus_annotated_GFJPDDAG_02591
+1 77
+Bacillus_annotated_GFJPDDAG_02592
+1 76
+Bacillus_annotated_GFJPDDAG_02593
+1 93
+Bacillus_annotated_GFJPDDAG_02594
+1 77
+Bacillus_annotated_GFJPDDAG_02595
+1 77
+Bacillus_annotated_GFJPDDAG_02596
+1 76
+Bacillus_annotated_GFJPDDAG_02597
+1 112
+Bacillus_annotated_GFJPDDAG_02598
+1 651
+Bacillus_annotated_GFJPDDAG_02599
+1 552
+Bacillus_annotated_GFJPDDAG_02600
+1 201
+Bacillus_annotated_GFJPDDAG_02601
+1 480
+Bacillus_annotated_GFJPDDAG_02602
+1 1161
+Bacillus_annotated_GFJPDDAG_02603
+1 1299
+Bacillus_annotated_GFJPDDAG_02604
+1 726
+Bacillus_annotated_GFJPDDAG_02605
+1 255
+Bacillus_annotated_GFJPDDAG_02606
+1 687
+Bacillus_annotated_GFJPDDAG_02607
+1 2232
+Bacillus_annotated_GFJPDDAG_02608
+1 1422
+Bacillus_annotated_GFJPDDAG_02609
+1 1029
+Bacillus_annotated_GFJPDDAG_02610
+1 576
+Bacillus_annotated_GFJPDDAG_02611
+1 1536
+Bacillus_annotated_GFJPDDAG_02612
+1 1275
+Bacillus_annotated_GFJPDDAG_02613
+1 114
+Bacillus_annotated_GFJPDDAG_02614
+1 453
+Bacillus_annotated_GFJPDDAG_02615
+1 1740
+Bacillus_annotated_GFJPDDAG_02616
+1 1047
+Bacillus_annotated_GFJPDDAG_02617
+1 300
+Bacillus_annotated_GFJPDDAG_02618
+1 687
+Bacillus_annotated_GFJPDDAG_02619
+1 2226
+Bacillus_annotated_GFJPDDAG_02620
+1 2007
+Bacillus_annotated_GFJPDDAG_02621
+1 1152
+Bacillus_annotated_GFJPDDAG_02622
+1 111
+Bacillus_annotated_GFJPDDAG_02623
+1 1509
+Bacillus_annotated_GFJPDDAG_02624
+1 1590
+Bacillus_annotated_GFJPDDAG_02625
+1 1281
+Bacillus_annotated_GFJPDDAG_02626
+1 1035
+Bacillus_annotated_GFJPDDAG_02627
+1 1230
+Bacillus_annotated_GFJPDDAG_02628
+1 810
+Bacillus_annotated_GFJPDDAG_02629
+1 1161
+Bacillus_annotated_GFJPDDAG_02630
+1 1065
+Bacillus_annotated_GFJPDDAG_02631
+1 3078
+Bacillus_annotated_GFJPDDAG_02632
+1 954
+Bacillus_annotated_GFJPDDAG_02633
+1 474
+Bacillus_annotated_GFJPDDAG_02634
+1 1065
+Bacillus_annotated_GFJPDDAG_02635
+1 291
+Bacillus_annotated_GFJPDDAG_02636
+1 1461
+Bacillus_annotated_GFJPDDAG_02637
+1 1431
+Bacillus_annotated_GFJPDDAG_02638
+1 1662
+Bacillus_annotated_GFJPDDAG_02639
+1 156
+Bacillus_annotated_GFJPDDAG_02640
+1 429
+Bacillus_annotated_GFJPDDAG_02641
+1 165
+Bacillus_annotated_GFJPDDAG_02642
+1 567
+Bacillus_annotated_GFJPDDAG_02643
+1 381
+Bacillus_annotated_GFJPDDAG_02644
+1 780
+Bacillus_annotated_GFJPDDAG_02645
+1 801
+Bacillus_annotated_GFJPDDAG_02646
+1 456
+Bacillus_annotated_GFJPDDAG_02647
+1 957
+Bacillus_annotated_GFJPDDAG_02648
+1 351
+Bacillus_annotated_GFJPDDAG_02649
+1 306
+Bacillus_annotated_GFJPDDAG_02650
+1 369
+Bacillus_annotated_GFJPDDAG_02651
+1 1377
+Bacillus_annotated_GFJPDDAG_02652
+1 231
+Bacillus_annotated_GFJPDDAG_02653
+1 195
+Bacillus_annotated_GFJPDDAG_02654
+1 1191
+Bacillus_annotated_GFJPDDAG_02655
+1 1008
+Bacillus_annotated_GFJPDDAG_02656
+1 720
+Bacillus_annotated_GFJPDDAG_02657
+1 1194
+Bacillus_annotated_GFJPDDAG_02658
+1 2745
+Bacillus_annotated_GFJPDDAG_02659
+1 867
+Bacillus_annotated_GFJPDDAG_02660
+1 816
+Bacillus_annotated_GFJPDDAG_02661
+1 660
+Bacillus_annotated_GFJPDDAG_02662
+1 723
+Bacillus_annotated_GFJPDDAG_02663
+1 534
+Bacillus_annotated_GFJPDDAG_02664
+1 1965
+Bacillus_annotated_GFJPDDAG_02665
+1 903
+Bacillus_annotated_GFJPDDAG_02666
+1 396
+Bacillus_annotated_GFJPDDAG_02667
+1 786
+Bacillus_annotated_GFJPDDAG_02668
+1 1623
+Bacillus_annotated_GFJPDDAG_02669
+1 816
+Bacillus_annotated_GFJPDDAG_02670
+1 543
+Bacillus_annotated_GFJPDDAG_02671
+1 144
+Bacillus_annotated_GFJPDDAG_02672
+1 300
+Bacillus_annotated_GFJPDDAG_02673
+1 597
+Bacillus_annotated_GFJPDDAG_02674
+1 762
+Bacillus_annotated_GFJPDDAG_02675
+1 456
+Bacillus_annotated_GFJPDDAG_02676
+1 2172
+Bacillus_annotated_GFJPDDAG_02677
+1 1728
+Bacillus_annotated_GFJPDDAG_02678
+1 1782
+Bacillus_annotated_GFJPDDAG_02679
+1 423
+Bacillus_annotated_GFJPDDAG_02680
+1 639
+Bacillus_annotated_GFJPDDAG_02681
+1 516
+Bacillus_annotated_GFJPDDAG_02682
+1 249
+Bacillus_annotated_GFJPDDAG_02683
+1 1458
+Bacillus_annotated_GFJPDDAG_02684
+1 486
+Bacillus_annotated_GFJPDDAG_02685
+1 1167
+Bacillus_annotated_GFJPDDAG_02686
+1 1077
+Bacillus_annotated_GFJPDDAG_02687
+1 327
+Bacillus_annotated_GFJPDDAG_02688
+1 948
+Bacillus_annotated_GFJPDDAG_02689
+1 1050
+Bacillus_annotated_GFJPDDAG_02690
+1 1311
+Bacillus_annotated_GFJPDDAG_02691
+1 600
+Bacillus_annotated_GFJPDDAG_02692
+1 2265
+Bacillus_annotated_GFJPDDAG_02693
+1 438
+Bacillus_annotated_GFJPDDAG_02694
+1 156
+Bacillus_annotated_GFJPDDAG_02695
+1 240
+Bacillus_annotated_GFJPDDAG_02696
+1 963
+Bacillus_annotated_GFJPDDAG_02697
+1 522
+Bacillus_annotated_GFJPDDAG_02698
+1 1344
+Bacillus_annotated_GFJPDDAG_02699
+1 1116
+Bacillus_annotated_GFJPDDAG_02700
+1 1557
+Bacillus_annotated_GFJPDDAG_02701
+1 684
+Bacillus_annotated_GFJPDDAG_02702
+1 846
+Bacillus_annotated_GFJPDDAG_02703
+1 456
+Bacillus_annotated_GFJPDDAG_02704
+1 1602
+Bacillus_annotated_GFJPDDAG_02705
+1 282
+Bacillus_annotated_GFJPDDAG_02706
+1 1326
+Bacillus_annotated_GFJPDDAG_02707
+1 969
+Bacillus_annotated_GFJPDDAG_02708
+1 357
+Bacillus_annotated_GFJPDDAG_02709
+1 819
+Bacillus_annotated_GFJPDDAG_02710
+1 480
+Bacillus_annotated_GFJPDDAG_02711
+1 309
+Bacillus_annotated_GFJPDDAG_02712
+1 780
+Bacillus_annotated_GFJPDDAG_02713
+1 774
+Bacillus_annotated_GFJPDDAG_02714
+1 1518
+Bacillus_annotated_GFJPDDAG_02715
+1 876
+Bacillus_annotated_GFJPDDAG_02716
+1 1206
+Bacillus_annotated_GFJPDDAG_02717
+1 222
+Bacillus_annotated_GFJPDDAG_02718
+1 876
+Bacillus_annotated_GFJPDDAG_02719
+1 666
+Bacillus_annotated_GFJPDDAG_02720
+1 336
+Bacillus_annotated_GFJPDDAG_02721
+1 957
+Bacillus_annotated_GFJPDDAG_02722
+1 1008
+Bacillus_annotated_GFJPDDAG_02723
+1 1029
+Bacillus_annotated_GFJPDDAG_02724
+1 813
+Bacillus_annotated_GFJPDDAG_02725
+1 396
+Bacillus_annotated_GFJPDDAG_02726
+1 1170
+Bacillus_annotated_GFJPDDAG_02727
+1 1065
+Bacillus_annotated_GFJPDDAG_02728
+1 996
+Bacillus_annotated_GFJPDDAG_02729
+1 1176
+Bacillus_annotated_GFJPDDAG_02730
+1 1428
+Bacillus_annotated_GFJPDDAG_02731
+1 1116
+Bacillus_annotated_GFJPDDAG_02732
+1 1233
+Bacillus_annotated_GFJPDDAG_02733
+1 612
+Bacillus_annotated_GFJPDDAG_02734
+1 984
+Bacillus_annotated_GFJPDDAG_02735
+1 1146
+Bacillus_annotated_GFJPDDAG_02736
+1 900
+Bacillus_annotated_GFJPDDAG_02737
+1 1668
+Bacillus_annotated_GFJPDDAG_02738
+1 1722
+Bacillus_annotated_GFJPDDAG_02739
+1 525
+Bacillus_annotated_GFJPDDAG_02740
+1 1032
+Bacillus_annotated_GFJPDDAG_02741
+1 1554
+Bacillus_annotated_GFJPDDAG_02742
+1 1113
+Bacillus_annotated_GFJPDDAG_02743
+1 1416
+Bacillus_annotated_GFJPDDAG_02744
+1 606
+Bacillus_annotated_GFJPDDAG_02745
+1 984
+Bacillus_annotated_GFJPDDAG_02746
+1 1299
+Bacillus_annotated_GFJPDDAG_02747
+1 1062
+Bacillus_annotated_GFJPDDAG_02748
+1 936
+Bacillus_annotated_GFJPDDAG_02749
+1 306
+Bacillus_annotated_GFJPDDAG_02750
+1 1206
+Bacillus_annotated_GFJPDDAG_02751
+1 1323
+Bacillus_annotated_GFJPDDAG_02752
+1 1134
+Bacillus_annotated_GFJPDDAG_02753
+1 1608
+Bacillus_annotated_GFJPDDAG_02754
+1 546
+Bacillus_annotated_GFJPDDAG_02755
+1 237
+Bacillus_annotated_GFJPDDAG_02756
+1 2253
+Bacillus_annotated_GFJPDDAG_02757
+1 147
+Bacillus_annotated_GFJPDDAG_02758
+1 624
+Bacillus_annotated_GFJPDDAG_02759
+1 1284
+Bacillus_annotated_GFJPDDAG_02760
+1 1380
+Bacillus_annotated_GFJPDDAG_02761
+1 1386
+Bacillus_annotated_GFJPDDAG_02762
+1 1323
+Bacillus_annotated_GFJPDDAG_02763
+1 1410
+Bacillus_annotated_GFJPDDAG_02764
+1 855
+Bacillus_annotated_GFJPDDAG_02765
+1 1344
+Bacillus_annotated_GFJPDDAG_02766
+1 1524
+Bacillus_annotated_GFJPDDAG_02767
+1 720
+Bacillus_annotated_GFJPDDAG_02768
+1 588
+Bacillus_annotated_GFJPDDAG_02769
+1 1272
+Bacillus_annotated_GFJPDDAG_02770
+1 1965
+Bacillus_annotated_GFJPDDAG_02771
+1 195
+Bacillus_annotated_GFJPDDAG_02772
+1 153
+Bacillus_annotated_GFJPDDAG_02773
+1 201
+Bacillus_annotated_GFJPDDAG_02774
+1 1533
+Bacillus_annotated_GFJPDDAG_02775
+1 654
+Bacillus_annotated_GFJPDDAG_02776
+1 429
+Bacillus_annotated_GFJPDDAG_02777
+1 855
+Bacillus_annotated_GFJPDDAG_02778
+1 3150
+Bacillus_annotated_GFJPDDAG_02779
+1 1317
+Bacillus_annotated_GFJPDDAG_02780
+1 1878
+Bacillus_annotated_GFJPDDAG_02781
+1 135
+Bacillus_annotated_GFJPDDAG_02782
+1 720
+Bacillus_annotated_GFJPDDAG_02783
+1 1788
+Bacillus_annotated_GFJPDDAG_02784
+1 345
+Bacillus_annotated_GFJPDDAG_02785
+1 654
+Bacillus_annotated_GFJPDDAG_02786
+1 732
+Bacillus_annotated_GFJPDDAG_02787
+1 1050
+Bacillus_annotated_GFJPDDAG_02788
+1 630
+Bacillus_annotated_GFJPDDAG_02789
+1 927
+Bacillus_annotated_GFJPDDAG_02790
+1 660
+Bacillus_annotated_GFJPDDAG_02791
+1 1131
+Bacillus_annotated_GFJPDDAG_02792
+1 930
+Bacillus_annotated_GFJPDDAG_02793
+1 1359
+Bacillus_annotated_GFJPDDAG_02794
+1 963
+Bacillus_annotated_GFJPDDAG_02795
+1 810
+Bacillus_annotated_GFJPDDAG_02796
+1 1959
+Bacillus_annotated_GFJPDDAG_02797
+1 288
+Bacillus_annotated_GFJPDDAG_02798
+1 801
+Bacillus_annotated_GFJPDDAG_02799
+1 417
+Bacillus_annotated_GFJPDDAG_02800
+1 435
+Bacillus_annotated_GFJPDDAG_02801
+1 234
+Bacillus_annotated_GFJPDDAG_02802
+1 1449
+Bacillus_annotated_GFJPDDAG_02803
+1 1023
+Bacillus_annotated_GFJPDDAG_02804
+1 909
+Bacillus_annotated_GFJPDDAG_02805
+1 504
+Bacillus_annotated_GFJPDDAG_02806
+1 159
+Bacillus_annotated_GFJPDDAG_02807
+1 1092
+Bacillus_annotated_GFJPDDAG_02808
+1 444
+Bacillus_annotated_GFJPDDAG_02809
+1 723
+Bacillus_annotated_GFJPDDAG_02810
+1 558
+Bacillus_annotated_GFJPDDAG_02811
+1 498
+Bacillus_annotated_GFJPDDAG_02812
+1 651
+Bacillus_annotated_GFJPDDAG_02813
+1 498
+Bacillus_annotated_GFJPDDAG_02814
+1 849
+Bacillus_annotated_GFJPDDAG_02815
+1 1641
+Bacillus_annotated_GFJPDDAG_02816
+1 114
+Bacillus_annotated_GFJPDDAG_02817
+1 1881
+Bacillus_annotated_GFJPDDAG_02818
+1 975
+Bacillus_annotated_GFJPDDAG_02819
+1 1080
+Bacillus_annotated_GFJPDDAG_02820
+1 228
+Bacillus_annotated_GFJPDDAG_02821
+1 648
+Bacillus_annotated_GFJPDDAG_02822
+1 1353
+Bacillus_annotated_GFJPDDAG_02823
+1 717
+Bacillus_annotated_GFJPDDAG_02824
+1 564
+Bacillus_annotated_GFJPDDAG_02825
+1 1005
+Bacillus_annotated_GFJPDDAG_02826
+1 1659
+Bacillus_annotated_GFJPDDAG_02827
+1 978
+Bacillus_annotated_GFJPDDAG_02828
+1 486
+Bacillus_annotated_GFJPDDAG_02829
+1 1194
+Bacillus_annotated_GFJPDDAG_02830
+1 129
+Bacillus_annotated_GFJPDDAG_02831
+1 1185
+Bacillus_annotated_GFJPDDAG_02832
+1 1455
+Bacillus_annotated_GFJPDDAG_02833
+1 1290
+Bacillus_annotated_GFJPDDAG_02834
+1 582
+Bacillus_annotated_GFJPDDAG_02835
+1 1233
+Bacillus_annotated_GFJPDDAG_02836
+1 393
+Bacillus_annotated_GFJPDDAG_02837
+1 459
+Bacillus_annotated_GFJPDDAG_02838
+1 1194
+Bacillus_annotated_GFJPDDAG_02839
+1 168
+Bacillus_annotated_GFJPDDAG_02840
+1 378
+Bacillus_annotated_GFJPDDAG_02841
+1 186
+Bacillus_annotated_GFJPDDAG_02842
+1 1482
+Bacillus_annotated_GFJPDDAG_02843
+1 147
+Bacillus_annotated_GFJPDDAG_02844
+1 792
+Bacillus_annotated_GFJPDDAG_02845
+1 792
+Bacillus_annotated_GFJPDDAG_02846
+1 1392
+Bacillus_annotated_GFJPDDAG_02847
+1 1095
+Bacillus_annotated_GFJPDDAG_02848
+1 936
+Bacillus_annotated_GFJPDDAG_02849
+1 2478
+Bacillus_annotated_GFJPDDAG_02850
+1 1317
+Bacillus_annotated_GFJPDDAG_02851
+1 990
+Bacillus_annotated_GFJPDDAG_02852
+1 450
+Bacillus_annotated_GFJPDDAG_02853
+1 1317
+Bacillus_annotated_GFJPDDAG_02854
+1 558
+Bacillus_annotated_GFJPDDAG_02855
+1 225
+Bacillus_annotated_GFJPDDAG_02856
+1 495
+Bacillus_annotated_GFJPDDAG_02857
+1 420
+Bacillus_annotated_GFJPDDAG_02858
+1 843
+Bacillus_annotated_GFJPDDAG_02859
+1 1740
+Bacillus_annotated_GFJPDDAG_02860
+1 717
+Bacillus_annotated_GFJPDDAG_02861
+1 1449
+Bacillus_annotated_GFJPDDAG_02862
+1 105
+Bacillus_annotated_GFJPDDAG_02863
+1 198
+Bacillus_annotated_GFJPDDAG_02864
+1 552
+Bacillus_annotated_GFJPDDAG_02865
+1 639
+Bacillus_annotated_GFJPDDAG_02866
+1 1215
+Bacillus_annotated_GFJPDDAG_02867
+1 1026
+Bacillus_annotated_GFJPDDAG_02868
+1 513
+Bacillus_annotated_GFJPDDAG_02869
+1 1431
+Bacillus_annotated_GFJPDDAG_02870
+1 594
+Bacillus_annotated_GFJPDDAG_02871
+1 174
+Bacillus_annotated_GFJPDDAG_02872
+1 555
+Bacillus_annotated_GFJPDDAG_02873
+1 1680
+Bacillus_annotated_GFJPDDAG_02874
+1 1581
+Bacillus_annotated_GFJPDDAG_02875
+1 1722
+Bacillus_annotated_GFJPDDAG_02876
+1 195
+Bacillus_annotated_GFJPDDAG_02877
+1 1917
+Bacillus_annotated_GFJPDDAG_02878
+1 1185
+Bacillus_annotated_GFJPDDAG_02879
+1 384
+Bacillus_annotated_GFJPDDAG_02880
+1 414
+Bacillus_annotated_GFJPDDAG_02881
+1 1059
+Bacillus_annotated_GFJPDDAG_02882
+1 2538
+Bacillus_annotated_GFJPDDAG_02883
+1 852
+Bacillus_annotated_GFJPDDAG_02884
+1 174
+Bacillus_annotated_GFJPDDAG_02885
+1 1128
+Bacillus_annotated_GFJPDDAG_02886
+1 183
+Bacillus_annotated_GFJPDDAG_02887
+1 447
+Bacillus_annotated_GFJPDDAG_02888
+1 1557
+Bacillus_annotated_GFJPDDAG_02889
+1 570
+Bacillus_annotated_GFJPDDAG_02890
+1 777
+Bacillus_annotated_GFJPDDAG_02891
+1 870
+Bacillus_annotated_GFJPDDAG_02892
+1 1401
+Bacillus_annotated_GFJPDDAG_02893
+1 228
+Bacillus_annotated_GFJPDDAG_02894
+1 540
+Bacillus_annotated_GFJPDDAG_02895
+1 1101
+Bacillus_annotated_GFJPDDAG_02896
+1 1275
+Bacillus_annotated_GFJPDDAG_02897
+1 558
+Bacillus_annotated_GFJPDDAG_02898
+1 120
+Bacillus_annotated_GFJPDDAG_02899
+1 489
+Bacillus_annotated_GFJPDDAG_02900
+1 591
+Bacillus_annotated_GFJPDDAG_02901
+1 276
+Bacillus_annotated_GFJPDDAG_02902
+1 387
+Bacillus_annotated_GFJPDDAG_02903
+1 558
+Bacillus_annotated_GFJPDDAG_02904
+1 1143
+Bacillus_annotated_GFJPDDAG_02905
+1 258
+Bacillus_annotated_GFJPDDAG_02906
+1 612
+Bacillus_annotated_GFJPDDAG_02907
+1 666
+Bacillus_annotated_GFJPDDAG_02908
+1 120
+Bacillus_annotated_GFJPDDAG_02909
+1 1353
+Bacillus_annotated_GFJPDDAG_02910
+1 798
+Bacillus_annotated_GFJPDDAG_02911
+1 978
+Bacillus_annotated_GFJPDDAG_02912
+1 699
+Bacillus_annotated_GFJPDDAG_02913
+1 753
+Bacillus_annotated_GFJPDDAG_02914
+1 1158
+Bacillus_annotated_GFJPDDAG_02915
+1 210
+Bacillus_annotated_GFJPDDAG_02916
+1 1647
+Bacillus_annotated_GFJPDDAG_02917
+1 1266
+Bacillus_annotated_GFJPDDAG_02918
+1 420
+Bacillus_annotated_GFJPDDAG_02919
+1 1344
+Bacillus_annotated_GFJPDDAG_02920
+1 981
+Bacillus_annotated_GFJPDDAG_02921
+1 243
+Bacillus_annotated_GFJPDDAG_02922
+1 600
+Bacillus_annotated_GFJPDDAG_02923
+1 456
+Bacillus_annotated_GFJPDDAG_02924
+1 957
+Bacillus_annotated_GFJPDDAG_02925
+1 579
+Bacillus_annotated_GFJPDDAG_02926
+1 441
+Bacillus_annotated_GFJPDDAG_02927
+1 993
+Bacillus_annotated_GFJPDDAG_02928
+1 237
+Bacillus_annotated_GFJPDDAG_02929
+1 174
+Bacillus_annotated_GFJPDDAG_02930
+1 678
+Bacillus_annotated_GFJPDDAG_02931
+1 654
+Bacillus_annotated_GFJPDDAG_02932
+1 534
+Bacillus_annotated_GFJPDDAG_02933
+1 411
+Bacillus_annotated_GFJPDDAG_02934
+1 1296
+Bacillus_annotated_GFJPDDAG_02935
+1 789
+Bacillus_annotated_GFJPDDAG_02936
+1 1416
+Bacillus_annotated_GFJPDDAG_02937
+1 342
+Bacillus_annotated_GFJPDDAG_02938
+1 384
+Bacillus_annotated_GFJPDDAG_02939
+1 387
+Bacillus_annotated_GFJPDDAG_02940
+1 651
+Bacillus_annotated_GFJPDDAG_02941
+1 111
+Bacillus_annotated_GFJPDDAG_02942
+1 414
+Bacillus_annotated_GFJPDDAG_02943
+1 762
+Bacillus_annotated_GFJPDDAG_02944
+1 495
+Bacillus_annotated_GFJPDDAG_02945
+1 483
+Bacillus_annotated_GFJPDDAG_02946
+1 216
+Bacillus_annotated_GFJPDDAG_02947
+1 1248
+Bacillus_annotated_GFJPDDAG_02948
+1 495
+Bacillus_annotated_GFJPDDAG_02949
+1 372
+Bacillus_annotated_GFJPDDAG_02950
+1 1368
+Bacillus_annotated_GFJPDDAG_02951
+1 270
+Bacillus_annotated_GFJPDDAG_02952
+1 2112
+Bacillus_annotated_GFJPDDAG_02953
+1 1743
+Bacillus_annotated_GFJPDDAG_02954
+1 165
+Bacillus_annotated_GFJPDDAG_02955
+1 837
+Bacillus_annotated_GFJPDDAG_02956
+1 840
+Bacillus_annotated_GFJPDDAG_02957
+1 840
+Bacillus_annotated_GFJPDDAG_02958
+1 1293
+Bacillus_annotated_GFJPDDAG_02959
+1 270
+Bacillus_annotated_GFJPDDAG_02960
+1 1470
+Bacillus_annotated_GFJPDDAG_02961
+1 1155
+Bacillus_annotated_GFJPDDAG_02962
+1 1824
+Bacillus_annotated_GFJPDDAG_02963
+1 834
+Bacillus_annotated_GFJPDDAG_02964
+1 558
+Bacillus_annotated_GFJPDDAG_02965
+1 333
+Bacillus_annotated_GFJPDDAG_02966
+1 2040
+Bacillus_annotated_GFJPDDAG_02967
+1 1911
+Bacillus_annotated_GFJPDDAG_02968
+1 2076
+Bacillus_annotated_GFJPDDAG_02969
+1 1143
+Bacillus_annotated_GFJPDDAG_02970
+1 660
+Bacillus_annotated_GFJPDDAG_02971
+1 90
+Bacillus_annotated_GFJPDDAG_02972
+1 537
+Bacillus_annotated_GFJPDDAG_02973
+1 1407
+Bacillus_annotated_GFJPDDAG_02974
+1 264
+Bacillus_annotated_GFJPDDAG_02975
+1 1287
+Bacillus_annotated_GFJPDDAG_02976
+1 498
+Bacillus_annotated_GFJPDDAG_02977
+1 903
+Bacillus_annotated_GFJPDDAG_02978
+1 2001
+Bacillus_annotated_GFJPDDAG_02979
+1 711
+Bacillus_annotated_GFJPDDAG_02980
+1 882
+Bacillus_annotated_GFJPDDAG_02981
+1 1188
+Bacillus_annotated_GFJPDDAG_02982
+1 1389
+Bacillus_annotated_GFJPDDAG_02983
+1 594
+Bacillus_annotated_GFJPDDAG_02984
+1 1026
+Bacillus_annotated_GFJPDDAG_02985
+1 813
+Bacillus_annotated_GFJPDDAG_02986
+1 1395
+Bacillus_annotated_GFJPDDAG_02987
+1 1446
+Bacillus_annotated_GFJPDDAG_02988
+1 1035
+Bacillus_annotated_GFJPDDAG_02989
+1 573
+Bacillus_annotated_GFJPDDAG_02990
+1 789
+Bacillus_annotated_GFJPDDAG_02991
+1 813
+Bacillus_annotated_GFJPDDAG_02992
+1 654
+Bacillus_annotated_GFJPDDAG_02993
+1 624
+Bacillus_annotated_GFJPDDAG_02994
+1 702
+Bacillus_annotated_GFJPDDAG_02995
+1 2217
+Bacillus_annotated_GFJPDDAG_02996
+1 312
+Bacillus_annotated_GFJPDDAG_02997
+1 1353
+Bacillus_annotated_GFJPDDAG_02998
+1 900
+Bacillus_annotated_GFJPDDAG_02999
+1 864
+Bacillus_annotated_GFJPDDAG_03000
+1 924
+Bacillus_annotated_GFJPDDAG_03001
+1 393
+Bacillus_annotated_GFJPDDAG_03002
+1 450
+Bacillus_annotated_GFJPDDAG_03003
+1 318
+Bacillus_annotated_GFJPDDAG_03004
+1 1032
+Bacillus_annotated_GFJPDDAG_03005
+1 474
+Bacillus_annotated_GFJPDDAG_03006
+1 378
+Bacillus_annotated_GFJPDDAG_03007
+1 708
+Bacillus_annotated_GFJPDDAG_03008
+1 774
+Bacillus_annotated_GFJPDDAG_03009
+1 150
+Bacillus_annotated_GFJPDDAG_03010
+1 201
+Bacillus_annotated_GFJPDDAG_03011
+1 246
+Bacillus_annotated_GFJPDDAG_03012
+1 201
+Bacillus_annotated_GFJPDDAG_03013
+1 1443
+Bacillus_annotated_GFJPDDAG_03014
+1 258
+Bacillus_annotated_GFJPDDAG_03015
+1 993
+Bacillus_annotated_GFJPDDAG_03016
+1 831
+Bacillus_annotated_GFJPDDAG_03017
+1 900
+Bacillus_annotated_GFJPDDAG_03018
+1 1236
+Bacillus_annotated_GFJPDDAG_03019
+1 2166
+Bacillus_annotated_GFJPDDAG_03020
+1 3330
+Bacillus_annotated_GFJPDDAG_03021
+1 423
+Bacillus_annotated_GFJPDDAG_03022
+1 531
+Bacillus_annotated_GFJPDDAG_03023
+1 447
+Bacillus_annotated_GFJPDDAG_03024
+1 1077
+Bacillus_annotated_GFJPDDAG_03025
+1 951
+Bacillus_annotated_GFJPDDAG_03026
+1 1263
+Bacillus_annotated_GFJPDDAG_03027
+1 1095
+Bacillus_annotated_GFJPDDAG_03028
+1 1422
+Bacillus_annotated_GFJPDDAG_03029
+1 1104
+Bacillus_annotated_GFJPDDAG_03030
+1 384
+Bacillus_annotated_GFJPDDAG_03031
+1 594
+Bacillus_annotated_GFJPDDAG_03032
+1 1035
+Bacillus_annotated_GFJPDDAG_03033
+1 717
+Bacillus_annotated_GFJPDDAG_03034
+1 357
+Bacillus_annotated_GFJPDDAG_03035
+1 147
+Bacillus_annotated_GFJPDDAG_03036
+1 1701
+Bacillus_annotated_GFJPDDAG_03037
+1 2235
+Bacillus_annotated_GFJPDDAG_03038
+1 339
+Bacillus_annotated_GFJPDDAG_03039
+1 693
+Bacillus_annotated_GFJPDDAG_03040
+1 4563
+Bacillus_annotated_GFJPDDAG_03041
+1 333
+Bacillus_annotated_GFJPDDAG_03042
+1 495
+Bacillus_annotated_GFJPDDAG_03043
+1 468
+Bacillus_annotated_GFJPDDAG_03044
+1 186
+Bacillus_annotated_GFJPDDAG_03045
+1 1419
+Bacillus_annotated_GFJPDDAG_03046
+1 936
+Bacillus_annotated_GFJPDDAG_03047
+1 210
+Bacillus_annotated_GFJPDDAG_03048
+1 369
+Bacillus_annotated_GFJPDDAG_03049
+1 1479
+Bacillus_annotated_GFJPDDAG_03050
+1 357
+Bacillus_annotated_GFJPDDAG_03051
+1 435
+Bacillus_annotated_GFJPDDAG_03052
+1 858
+Bacillus_annotated_GFJPDDAG_03053
+1 777
+Bacillus_annotated_GFJPDDAG_03054
+1 435
+Bacillus_annotated_GFJPDDAG_03055
+1 1533
+Bacillus_annotated_GFJPDDAG_03056
+1 867
+Bacillus_annotated_GFJPDDAG_03057
+1 1095
+Bacillus_annotated_GFJPDDAG_03058
+1 1026
+Bacillus_annotated_GFJPDDAG_03059
+1 690
+Bacillus_annotated_GFJPDDAG_03060
+1 582
+Bacillus_annotated_GFJPDDAG_03061
+1 519
+Bacillus_annotated_GFJPDDAG_03062
+1 1059
+Bacillus_annotated_GFJPDDAG_03063
+1 570
+Bacillus_annotated_GFJPDDAG_03064
+1 1245
+Bacillus_annotated_GFJPDDAG_03065
+1 675
+Bacillus_annotated_GFJPDDAG_03066
+1 291
+Bacillus_annotated_GFJPDDAG_03067
+1 549
+Bacillus_annotated_GFJPDDAG_03068
+1 252
+Bacillus_annotated_GFJPDDAG_03069
+1 726
+Bacillus_annotated_GFJPDDAG_03070
+1 1404
+Bacillus_annotated_GFJPDDAG_03071
+1 609
+Bacillus_annotated_GFJPDDAG_03072
+1 918
+Bacillus_annotated_GFJPDDAG_03073
+1 165
+Bacillus_annotated_GFJPDDAG_03074
+1 1167
+Bacillus_annotated_GFJPDDAG_03075
+1 918
+Bacillus_annotated_GFJPDDAG_03076
+1 1089
+Bacillus_annotated_GFJPDDAG_03077
+1 339
+Bacillus_annotated_GFJPDDAG_03078
+1 864
+Bacillus_annotated_GFJPDDAG_03079
+1 306
+Bacillus_annotated_GFJPDDAG_03080
+1 1281
+Bacillus_annotated_GFJPDDAG_03081
+1 291
+Bacillus_annotated_GFJPDDAG_03082
+1 1317
+Bacillus_annotated_GFJPDDAG_03083
+1 138
+Bacillus_annotated_GFJPDDAG_03084
+1 924
+Bacillus_annotated_GFJPDDAG_03085
+1 555
+Bacillus_annotated_GFJPDDAG_03086
+1 1551
+Bacillus_annotated_GFJPDDAG_03087
+1 1056
+Bacillus_annotated_GFJPDDAG_03088
+1 351
+Bacillus_annotated_GFJPDDAG_03089
+1 456
+Bacillus_annotated_GFJPDDAG_03090
+1 4599
+Bacillus_annotated_GFJPDDAG_03091
+1 1488
+Bacillus_annotated_GFJPDDAG_03092
+1 1449
+Bacillus_annotated_GFJPDDAG_03093
+1 714
+Bacillus_annotated_GFJPDDAG_03094
+1 1869
+Bacillus_annotated_GFJPDDAG_03095
+1 933
+Bacillus_annotated_GFJPDDAG_03096
+1 471
+Bacillus_annotated_GFJPDDAG_03097
+1 957
+Bacillus_annotated_GFJPDDAG_03098
+1 489
+Bacillus_annotated_GFJPDDAG_03099
+1 876
+Bacillus_annotated_GFJPDDAG_03100
+1 468
+Bacillus_annotated_GFJPDDAG_03101
+1 384
+Bacillus_annotated_GFJPDDAG_03102
+1 390
+Bacillus_annotated_GFJPDDAG_03103
+1 222
+Bacillus_annotated_GFJPDDAG_03104
+1 459
+Bacillus_annotated_GFJPDDAG_03105
+1 354
+Bacillus_annotated_GFJPDDAG_03106
+1 120
+Bacillus_annotated_GFJPDDAG_03107
+1 111
+Bacillus_annotated_GFJPDDAG_03108
+1 831
+Bacillus_annotated_GFJPDDAG_03109
+1 204
+Bacillus_annotated_GFJPDDAG_03110
+1 861
+Bacillus_annotated_GFJPDDAG_03111
+1 126
+Bacillus_annotated_GFJPDDAG_03112
+1 291
+Bacillus_annotated_GFJPDDAG_03113
+1 549
+Bacillus_annotated_GFJPDDAG_03114
+1 1335
+Bacillus_annotated_GFJPDDAG_03115
+1 909
+Bacillus_annotated_GFJPDDAG_03116
+1 648
+Bacillus_annotated_GFJPDDAG_03117
+1 861
+Bacillus_annotated_GFJPDDAG_03118
+1 588
+Bacillus_annotated_GFJPDDAG_03119
+1 627
+Bacillus_annotated_GFJPDDAG_03120
+1 303
+Bacillus_annotated_GFJPDDAG_03121
+1 1350
+Bacillus_annotated_GFJPDDAG_03122
+1 669
+Bacillus_annotated_GFJPDDAG_03123
+1 1011
+Bacillus_annotated_GFJPDDAG_03124
+1 480
+Bacillus_annotated_GFJPDDAG_03125
+1 1284
+Bacillus_annotated_GFJPDDAG_03126
+1 1176
+Bacillus_annotated_GFJPDDAG_03127
+1 1641
+Bacillus_annotated_GFJPDDAG_03128
+1 573
+Bacillus_annotated_GFJPDDAG_03129
+1 900
+Bacillus_annotated_GFJPDDAG_03130
+1 1380
+Bacillus_annotated_GFJPDDAG_03131
+1 1026
+Bacillus_annotated_GFJPDDAG_03132
+1 126
+Bacillus_annotated_GFJPDDAG_03133
+1 1125
+Bacillus_annotated_GFJPDDAG_03134
+1 2406
+Bacillus_annotated_GFJPDDAG_03135
+1 1380
+Bacillus_annotated_GFJPDDAG_03136
+1 573
+Bacillus_annotated_GFJPDDAG_03137
+1 2559
+Bacillus_annotated_GFJPDDAG_03138
+1 219
+Bacillus_annotated_GFJPDDAG_03139
+1 219
+Bacillus_annotated_GFJPDDAG_03140
+1 1038
+Bacillus_annotated_GFJPDDAG_03141
+1 666
+Bacillus_annotated_GFJPDDAG_03142
+1 816
+Bacillus_annotated_GFJPDDAG_03143
+1 1158
+Bacillus_annotated_GFJPDDAG_03144
+1 438
+Bacillus_annotated_GFJPDDAG_03145
+1 5259
+Bacillus_annotated_GFJPDDAG_03146
+1 966
+Bacillus_annotated_GFJPDDAG_03147
+1 1203
+Bacillus_annotated_GFJPDDAG_03148
+1 1323
+Bacillus_annotated_GFJPDDAG_03149
+1 1233
+Bacillus_annotated_GFJPDDAG_03150
+1 1308
+Bacillus_annotated_GFJPDDAG_03151
+1 819
+Bacillus_annotated_GFJPDDAG_03152
+1 564
+Bacillus_annotated_GFJPDDAG_03153
+1 1530
+Bacillus_annotated_GFJPDDAG_03154
+1 2049
+Bacillus_annotated_GFJPDDAG_03155
+1 1068
+Bacillus_annotated_GFJPDDAG_03156
+1 240
+Bacillus_annotated_GFJPDDAG_03157
+1 927
+Bacillus_annotated_GFJPDDAG_03158
+1 747
+Bacillus_annotated_GFJPDDAG_03159
+1 387
+Bacillus_annotated_GFJPDDAG_03160
+1 897
+Bacillus_annotated_GFJPDDAG_03161
+1 888
+Bacillus_annotated_GFJPDDAG_03162
+1 462
+Bacillus_annotated_GFJPDDAG_03163
+1 126
+Bacillus_annotated_GFJPDDAG_03164
+1 921
+Bacillus_annotated_GFJPDDAG_03165
+1 903
+Bacillus_annotated_GFJPDDAG_03166
+1 363
+Bacillus_annotated_GFJPDDAG_03167
+1 90
+Bacillus_annotated_GFJPDDAG_03168
+1 852
+Bacillus_annotated_GFJPDDAG_03169
+1 1488
+Bacillus_annotated_GFJPDDAG_03170
+1 702
+Bacillus_annotated_GFJPDDAG_03171
+1 417
+Bacillus_annotated_GFJPDDAG_03172
+1 270
+Bacillus_annotated_GFJPDDAG_03173
+1 495
+Bacillus_annotated_GFJPDDAG_03174
+1 1578
+Bacillus_annotated_GFJPDDAG_03175
+1 906
+Bacillus_annotated_GFJPDDAG_03176
+1 591
+Bacillus_annotated_GFJPDDAG_03177
+1 444
+Bacillus_annotated_GFJPDDAG_03178
+1 222
+Bacillus_annotated_GFJPDDAG_03179
+1 1149
+Bacillus_annotated_GFJPDDAG_03180
+1 360
+Bacillus_annotated_GFJPDDAG_03181
+1 1524
+Bacillus_annotated_GFJPDDAG_03182
+1 405
+Bacillus_annotated_GFJPDDAG_03183
+1 348
+Bacillus_annotated_GFJPDDAG_03184
+1 390
+Bacillus_annotated_GFJPDDAG_03185
+1 333
+Bacillus_annotated_GFJPDDAG_03186
+1 756
+Bacillus_annotated_GFJPDDAG_03187
+1 546
+Bacillus_annotated_GFJPDDAG_03188
+1 579
+Bacillus_annotated_GFJPDDAG_03189
+1 168
+Bacillus_annotated_GFJPDDAG_03190
+1 837
+Bacillus_annotated_GFJPDDAG_03191
+1 1125
+Bacillus_annotated_GFJPDDAG_03192
+1 2511
+Bacillus_annotated_GFJPDDAG_03193
+1 984
+Bacillus_annotated_GFJPDDAG_03194
+1 873
+Bacillus_annotated_GFJPDDAG_03195
+1 315
+Bacillus_annotated_GFJPDDAG_03196
+1 687
+Bacillus_annotated_GFJPDDAG_03197
+1 885
+Bacillus_annotated_GFJPDDAG_03198
+1 1356
+Bacillus_annotated_GFJPDDAG_03199
+1 93
+Bacillus_annotated_GFJPDDAG_03200
+1 240
+Bacillus_annotated_GFJPDDAG_03201
+1 582
+Bacillus_annotated_GFJPDDAG_03202
+1 381
+Bacillus_annotated_GFJPDDAG_03203
+1 1140
+Bacillus_annotated_GFJPDDAG_03204
+1 1296
+Bacillus_annotated_GFJPDDAG_03205
+1 1068
+Bacillus_annotated_GFJPDDAG_03206
+1 1455
+Bacillus_annotated_GFJPDDAG_03207
+1 663
+Bacillus_annotated_GFJPDDAG_03208
+1 1347
+Bacillus_annotated_GFJPDDAG_03209
+1 780
+Bacillus_annotated_GFJPDDAG_03210
+1 1341
+Bacillus_annotated_GFJPDDAG_03211
+1 1176
+Bacillus_annotated_GFJPDDAG_03212
+1 1149
+Bacillus_annotated_GFJPDDAG_03213
+1 960
+Bacillus_annotated_GFJPDDAG_03214
+1 1074
+Bacillus_annotated_GFJPDDAG_03215
+1 801
+Bacillus_annotated_GFJPDDAG_03216
+1 1197
+Bacillus_annotated_GFJPDDAG_03217
+1 459
+Bacillus_annotated_GFJPDDAG_03218
+1 459
+Bacillus_annotated_GFJPDDAG_03219
+1 1203
+Bacillus_annotated_GFJPDDAG_03220
+1 1386
+Bacillus_annotated_GFJPDDAG_03221
+1 708
+Bacillus_annotated_GFJPDDAG_03222
+1 1233
+Bacillus_annotated_GFJPDDAG_03223
+1 957
+Bacillus_annotated_GFJPDDAG_03224
+1 873
+Bacillus_annotated_GFJPDDAG_03225
+1 864
+Bacillus_annotated_GFJPDDAG_03226
+1 657
+Bacillus_annotated_GFJPDDAG_03227
+1 1323
+Bacillus_annotated_GFJPDDAG_03228
+1 1080
+Bacillus_annotated_GFJPDDAG_03229
+1 1176
+Bacillus_annotated_GFJPDDAG_03230
+1 156
+Bacillus_annotated_GFJPDDAG_03231
+1 642
+Bacillus_annotated_GFJPDDAG_03232
+1 231
+Bacillus_annotated_GFJPDDAG_03233
+1 2043
+Bacillus_annotated_GFJPDDAG_03234
+1 1983
+Bacillus_annotated_GFJPDDAG_03235
+1 2874
+Bacillus_annotated_GFJPDDAG_03236
+1 315
+Bacillus_annotated_GFJPDDAG_03237
+1 1128
+Bacillus_annotated_GFJPDDAG_03238
+1 204
+Bacillus_annotated_GFJPDDAG_03239
+1 357
+Bacillus_annotated_GFJPDDAG_03240
+1 642
+Bacillus_annotated_GFJPDDAG_03241
+1 936
+Bacillus_annotated_GFJPDDAG_03242
+1 837
+Bacillus_annotated_GFJPDDAG_03243
+1 966
+Bacillus_annotated_GFJPDDAG_03244
+1 651
+Bacillus_annotated_GFJPDDAG_03245
+1 540
+Bacillus_annotated_GFJPDDAG_03246
+1 1188
+Bacillus_annotated_GFJPDDAG_03247
+1 624
+Bacillus_annotated_GFJPDDAG_03248
+1 1275
+Bacillus_annotated_GFJPDDAG_03249
+1 588
+Bacillus_annotated_GFJPDDAG_03250
+1 642
+Bacillus_annotated_GFJPDDAG_03251
+1 735
+Bacillus_annotated_GFJPDDAG_03252
+1 759
+Bacillus_annotated_GFJPDDAG_03253
+1 630
+Bacillus_annotated_GFJPDDAG_03254
+1 1512
+Bacillus_annotated_GFJPDDAG_03255
+1 948
+Bacillus_annotated_GFJPDDAG_03256
+1 717
+Bacillus_annotated_GFJPDDAG_03257
+1 459
+Bacillus_annotated_GFJPDDAG_03258
+1 894
+Bacillus_annotated_GFJPDDAG_03259
+1 960
+Bacillus_annotated_GFJPDDAG_03260
+1 948
+Bacillus_annotated_GFJPDDAG_03261
+1 264
+Bacillus_annotated_GFJPDDAG_03262
+1 1608
+Bacillus_annotated_GFJPDDAG_03263
+1 1044
+Bacillus_annotated_GFJPDDAG_03264
+1 1413
+Bacillus_annotated_GFJPDDAG_03265
+1 3237
+Bacillus_annotated_GFJPDDAG_03266
+1 372
+Bacillus_annotated_GFJPDDAG_03267
+1 2877
+Bacillus_annotated_GFJPDDAG_03268
+1 597
+Bacillus_annotated_GFJPDDAG_03269
+1 74
+Bacillus_annotated_GFJPDDAG_03270
+1 600
+Bacillus_annotated_GFJPDDAG_03271
+1 1344
+Bacillus_annotated_GFJPDDAG_03272
+1 246
+Bacillus_annotated_GFJPDDAG_03273
+1 1020
+Bacillus_annotated_GFJPDDAG_03274
+1 1008
+Bacillus_annotated_GFJPDDAG_03275
+1 1185
+Bacillus_annotated_GFJPDDAG_03276
+1 765
+Bacillus_annotated_GFJPDDAG_03277
+1 1536
+Bacillus_annotated_GFJPDDAG_03278
+1 1293
+Bacillus_annotated_GFJPDDAG_03279
+1 228
+Bacillus_annotated_GFJPDDAG_03280
+1 747
+Bacillus_annotated_GFJPDDAG_03281
+1 2343
+Bacillus_annotated_GFJPDDAG_03282
+1 471
+Bacillus_annotated_GFJPDDAG_03283
+1 261
+Bacillus_annotated_GFJPDDAG_03284
+1 411
+Bacillus_annotated_GFJPDDAG_03285
+1 1182
+Bacillus_annotated_GFJPDDAG_03286
+1 327
+Bacillus_annotated_GFJPDDAG_03287
+1 918
+Bacillus_annotated_GFJPDDAG_03288
+1 687
+Bacillus_annotated_GFJPDDAG_03289
+1 1362
+Bacillus_annotated_GFJPDDAG_03290
+1 564
+Bacillus_annotated_GFJPDDAG_03291
+1 462
+Bacillus_annotated_GFJPDDAG_03292
+1 216
+Bacillus_annotated_GFJPDDAG_03293
+1 2457
+Bacillus_annotated_GFJPDDAG_03294
+1 1044
+Bacillus_annotated_GFJPDDAG_03295
+1 1962
+Bacillus_annotated_GFJPDDAG_03296
+1 612
+Bacillus_annotated_GFJPDDAG_03297
+1 300
+Bacillus_annotated_GFJPDDAG_03298
+1 774
+Bacillus_annotated_GFJPDDAG_03299
+1 630
+Bacillus_annotated_GFJPDDAG_03300
+1 1431
+Bacillus_annotated_GFJPDDAG_03301
+1 1386
+Bacillus_annotated_GFJPDDAG_03302
+1 1254
+Bacillus_annotated_GFJPDDAG_03303
+1 1197
+Bacillus_annotated_GFJPDDAG_03304
+1 495
+Bacillus_annotated_GFJPDDAG_03305
+1 633
+Bacillus_annotated_GFJPDDAG_03306
+1 630
+Bacillus_annotated_GFJPDDAG_03307
+1 747
+Bacillus_annotated_GFJPDDAG_03308
+1 1311
+Bacillus_annotated_GFJPDDAG_03309
+1 945
+Bacillus_annotated_GFJPDDAG_03310
+1 1350
+Bacillus_annotated_GFJPDDAG_03311
+1 1533
+Bacillus_annotated_GFJPDDAG_03312
+1 1794
+Bacillus_annotated_GFJPDDAG_03313
+1 585
+Bacillus_annotated_GFJPDDAG_03314
+1 1350
+Bacillus_annotated_GFJPDDAG_03315
+1 1821
+Bacillus_annotated_GFJPDDAG_03316
+1 1221
+Bacillus_annotated_GFJPDDAG_03317
+1 414
+Bacillus_annotated_GFJPDDAG_03318
+1 1089
+Bacillus_annotated_GFJPDDAG_03319
+1 1644
+Bacillus_annotated_GFJPDDAG_03320
+1 99
+Bacillus_annotated_GFJPDDAG_03321
+1 435
+Bacillus_annotated_GFJPDDAG_03322
+1 1206
+Bacillus_annotated_GFJPDDAG_03323
+1 276
+Bacillus_annotated_GFJPDDAG_03324
+1 156
+Bacillus_annotated_GFJPDDAG_03325
+1 1215
+Bacillus_annotated_GFJPDDAG_03326
+1 993
+Bacillus_annotated_GFJPDDAG_03327
+1 315
+Bacillus_annotated_GFJPDDAG_03328
+1 849
+Bacillus_annotated_GFJPDDAG_03329
+1 984
+Bacillus_annotated_GFJPDDAG_03330
+1 273
+Bacillus_annotated_GFJPDDAG_03331
+1 543
+Bacillus_annotated_GFJPDDAG_03332
+1 1083
+Bacillus_annotated_GFJPDDAG_03333
+1 615
+Bacillus_annotated_GFJPDDAG_03334
+1 708
+Bacillus_annotated_GFJPDDAG_03335
+1 1053
+Bacillus_annotated_GFJPDDAG_03336
+1 1143
+Bacillus_annotated_GFJPDDAG_03337
+1 639
+Bacillus_annotated_GFJPDDAG_03338
+1 411
+Bacillus_annotated_GFJPDDAG_03339
+1 423
+Bacillus_annotated_GFJPDDAG_03340
+1 429
+Bacillus_annotated_GFJPDDAG_03341
+1 288
+Bacillus_annotated_GFJPDDAG_03342
+1 537
+Bacillus_annotated_GFJPDDAG_03343
+1 876
+Bacillus_annotated_GFJPDDAG_03344
+1 1164
+Bacillus_annotated_GFJPDDAG_03345
+1 456
+Bacillus_annotated_GFJPDDAG_03346
+1 1443
+Bacillus_annotated_GFJPDDAG_03347
+1 816
+Bacillus_annotated_GFJPDDAG_03348
+1 858
+Bacillus_annotated_GFJPDDAG_03349
+1 1401
+Bacillus_annotated_GFJPDDAG_03350
+1 180
+Bacillus_annotated_GFJPDDAG_03351
+1 141
+Bacillus_annotated_GFJPDDAG_03352
+1 1401
+Bacillus_annotated_GFJPDDAG_03353
+1 315
+Bacillus_annotated_GFJPDDAG_03354
+1 1044
+Bacillus_annotated_GFJPDDAG_03355
+1 1098
+Bacillus_annotated_GFJPDDAG_03356
+1 1089
+Bacillus_annotated_GFJPDDAG_03357
+1 1506
+Bacillus_annotated_GFJPDDAG_03358
+1 957
+Bacillus_annotated_GFJPDDAG_03359
+1 987
+Bacillus_annotated_GFJPDDAG_03360
+1 966
+Bacillus_annotated_GFJPDDAG_03361
+1 819
+Bacillus_annotated_GFJPDDAG_03362
+1 765
+Bacillus_annotated_GFJPDDAG_03363
+1 264
+Bacillus_annotated_GFJPDDAG_03364
+1 348
+Bacillus_annotated_GFJPDDAG_03365
+1 258
+Bacillus_annotated_GFJPDDAG_03366
+1 918
+Bacillus_annotated_GFJPDDAG_03367
+1 504
+Bacillus_annotated_GFJPDDAG_03368
+1 1464
+Bacillus_annotated_GFJPDDAG_03369
+1 627
+Bacillus_annotated_GFJPDDAG_03370
+1 138
+Bacillus_annotated_GFJPDDAG_03371
+1 2385
+Bacillus_annotated_GFJPDDAG_03372
+1 1179
+Bacillus_annotated_GFJPDDAG_03373
+1 1785
+Bacillus_annotated_GFJPDDAG_03374
+1 780
+Bacillus_annotated_GFJPDDAG_03375
+1 303
+Bacillus_annotated_GFJPDDAG_03376
+1 357
+Bacillus_annotated_GFJPDDAG_03377
+1 384
+Bacillus_annotated_GFJPDDAG_03378
+1 237
+Bacillus_annotated_GFJPDDAG_03379
+1 414
+Bacillus_annotated_GFJPDDAG_03380
+1 318
+Bacillus_annotated_GFJPDDAG_03381
+1 351
+Bacillus_annotated_GFJPDDAG_03382
+1 1023
+Bacillus_annotated_GFJPDDAG_03383
+1 669
+Bacillus_annotated_GFJPDDAG_03384
+1 825
+Bacillus_annotated_GFJPDDAG_03385
+1 366
+Bacillus_annotated_GFJPDDAG_03386
+1 147
+Bacillus_annotated_GFJPDDAG_03387
+1 786
+Bacillus_annotated_GFJPDDAG_03388
+1 1311
+Bacillus_annotated_GFJPDDAG_03389
+1 1230
+Bacillus_annotated_GFJPDDAG_03390
+1 441
+Bacillus_annotated_GFJPDDAG_03391
+1 1398
+Bacillus_annotated_GFJPDDAG_03392
+1 843
+Bacillus_annotated_GFJPDDAG_03393
+1 825
+Bacillus_annotated_GFJPDDAG_03394
+1 1353
+Bacillus_annotated_GFJPDDAG_03395
+1 303
+Bacillus_annotated_GFJPDDAG_03396
+1 99
+Bacillus_annotated_GFJPDDAG_03397
+1 1113
+Bacillus_annotated_GFJPDDAG_03398
+1 765
+Bacillus_annotated_GFJPDDAG_03399
+1 1563
+Bacillus_annotated_GFJPDDAG_03400
+1 1527
+Bacillus_annotated_GFJPDDAG_03401
+1 108
+Bacillus_annotated_GFJPDDAG_03402
+1 999
+Bacillus_annotated_GFJPDDAG_03403
+1 918
+Bacillus_annotated_GFJPDDAG_03404
+1 729
+Bacillus_annotated_GFJPDDAG_03405
+1 276
+Bacillus_annotated_GFJPDDAG_03406
+1 294
+Bacillus_annotated_GFJPDDAG_03407
+1 270
+Bacillus_annotated_GFJPDDAG_03408
+1 438
+Bacillus_annotated_GFJPDDAG_03409
+1 765
+Bacillus_annotated_GFJPDDAG_03410
+1 252
+Bacillus_annotated_GFJPDDAG_03411
+1 492
+Bacillus_annotated_GFJPDDAG_03412
+1 1002
+Bacillus_annotated_GFJPDDAG_03413
+1 963
+Bacillus_annotated_GFJPDDAG_03414
+1 237
+Bacillus_annotated_GFJPDDAG_03415
+1 327
+Bacillus_annotated_GFJPDDAG_03416
+1 1068
+Bacillus_annotated_GFJPDDAG_03417
+1 237
+Bacillus_annotated_GFJPDDAG_03418
+1 699
+Bacillus_annotated_GFJPDDAG_03419
+1 363
+Bacillus_annotated_GFJPDDAG_03420
+1 645
+Bacillus_annotated_GFJPDDAG_03421
+1 123
+Bacillus_annotated_GFJPDDAG_03422
+1 618
+Bacillus_annotated_GFJPDDAG_03423
+1 999
+Bacillus_annotated_GFJPDDAG_03424
+1 1281
+Bacillus_annotated_GFJPDDAG_03425
+1 498
+Bacillus_annotated_GFJPDDAG_03426
+1 126
+Bacillus_annotated_GFJPDDAG_03427
+1 318
+Bacillus_annotated_GFJPDDAG_03428
+1 702
+Bacillus_annotated_GFJPDDAG_03429
+1 891
+Bacillus_annotated_GFJPDDAG_03430
+1 786
+Bacillus_annotated_GFJPDDAG_03431
+1 480
+Bacillus_annotated_GFJPDDAG_03432
+1 1506
+Bacillus_annotated_GFJPDDAG_03433
+1 195
+Bacillus_annotated_GFJPDDAG_03434
+1 1320
+Bacillus_annotated_GFJPDDAG_03435
+1 480
+Bacillus_annotated_GFJPDDAG_03436
+1 246
+Bacillus_annotated_GFJPDDAG_03437
+1 384
+Bacillus_annotated_GFJPDDAG_03438
+1 369
+Bacillus_annotated_GFJPDDAG_03439
+1 363
+Bacillus_annotated_GFJPDDAG_03440
+1 285
+Bacillus_annotated_GFJPDDAG_03441
+1 477
+Bacillus_annotated_GFJPDDAG_03442
+1 1482
+Bacillus_annotated_GFJPDDAG_03443
+1 342
+Bacillus_annotated_GFJPDDAG_03444
+1 435
+Bacillus_annotated_GFJPDDAG_03445
+1 2406
+Bacillus_annotated_GFJPDDAG_03446
+1 261
+Bacillus_annotated_GFJPDDAG_03447
+1 576
+Bacillus_annotated_GFJPDDAG_03448
+1 1848
+Bacillus_annotated_GFJPDDAG_03449
+1 1221
+Bacillus_annotated_GFJPDDAG_03450
+1 621
+Bacillus_annotated_GFJPDDAG_03451
+1 399
+Bacillus_annotated_GFJPDDAG_03452
+1 738
+Bacillus_annotated_GFJPDDAG_03453
+1 204
+Bacillus_annotated_GFJPDDAG_03454
+1 531
+Bacillus_annotated_GFJPDDAG_03455
+1 1164
+Bacillus_annotated_GFJPDDAG_03456
+1 909
+Bacillus_annotated_GFJPDDAG_03457
+1 501
+Bacillus_annotated_GFJPDDAG_03458
+1 1170
+Bacillus_annotated_GFJPDDAG_03459
+1 372
+Bacillus_annotated_GFJPDDAG_03460
+1 1329
+Bacillus_annotated_GFJPDDAG_03461
+1 288
+Bacillus_annotated_GFJPDDAG_03462
+1 192
+Bacillus_annotated_GFJPDDAG_03463
+1 408
+Bacillus_annotated_GFJPDDAG_03464
+1 555
+Bacillus_annotated_GFJPDDAG_03465
+1 1521
+Bacillus_annotated_GFJPDDAG_03466
+1 333
+Bacillus_annotated_GFJPDDAG_03467
+1 1371
+Bacillus_annotated_GFJPDDAG_03468
+1 1194
+Bacillus_annotated_GFJPDDAG_03469
+1 1245
+Bacillus_annotated_GFJPDDAG_03470
+1 1404
+Bacillus_annotated_GFJPDDAG_03471
+1 234
+Bacillus_annotated_GFJPDDAG_03472
+1 501
+Bacillus_annotated_GFJPDDAG_03473
+1 666
+Bacillus_annotated_GFJPDDAG_03474
+1 1350
+Bacillus_annotated_GFJPDDAG_03475
+1 408
+Bacillus_annotated_GFJPDDAG_03476
+1 993
+Bacillus_annotated_GFJPDDAG_03477
+1 546
+Bacillus_annotated_GFJPDDAG_03478
+1 1182
+Bacillus_annotated_GFJPDDAG_03479
+1 213
+Bacillus_annotated_GFJPDDAG_03480
+1 261
+Bacillus_annotated_GFJPDDAG_03481
+1 210
+Bacillus_annotated_GFJPDDAG_03482
+1 447
+Bacillus_annotated_GFJPDDAG_03483
+1 144
+Bacillus_annotated_GFJPDDAG_03484
+1 270
+Bacillus_annotated_GFJPDDAG_03485
+1 1425
+Bacillus_annotated_GFJPDDAG_03486
+1 255
+Bacillus_annotated_GFJPDDAG_03487
+1 339
+Bacillus_annotated_GFJPDDAG_03488
+1 123
+Bacillus_annotated_GFJPDDAG_03489
+1 219
+Bacillus_annotated_GFJPDDAG_03490
+1 246
+Bacillus_annotated_GFJPDDAG_03491
+1 1092
+Bacillus_annotated_GFJPDDAG_03492
+1 2535
+Bacillus_annotated_GFJPDDAG_03493
+1 114
+Bacillus_annotated_GFJPDDAG_03494
+1 1932
+Bacillus_annotated_GFJPDDAG_03495
+1 255
+Bacillus_annotated_GFJPDDAG_03496
+1 1119
+Bacillus_annotated_GFJPDDAG_03497
+1 228
+Bacillus_annotated_GFJPDDAG_03498
+1 1137
+Bacillus_annotated_GFJPDDAG_03499
+1 1347
+Bacillus_annotated_GFJPDDAG_03500
+1 135
+Bacillus_annotated_GFJPDDAG_03501
+1 375
+Bacillus_annotated_GFJPDDAG_03502
+1 789
+Bacillus_annotated_GFJPDDAG_03503
+1 618
+Bacillus_annotated_GFJPDDAG_03504
+1 1386
+Bacillus_annotated_GFJPDDAG_03505
+1 1893
+Bacillus_annotated_GFJPDDAG_03506
+1 717
+Bacillus_annotated_GFJPDDAG_03507
+1 870
+Bacillus_annotated_GFJPDDAG_03508
+1 762
+Bacillus_annotated_GFJPDDAG_03509
+1 840
+Bacillus_annotated_GFJPDDAG_03510
+1 714
+Bacillus_annotated_GFJPDDAG_03511
+1 621
+Bacillus_annotated_GFJPDDAG_03512
+1 930
+Bacillus_annotated_GFJPDDAG_03513
+1 198
+Bacillus_annotated_GFJPDDAG_03514
+1 1101
+Bacillus_annotated_GFJPDDAG_03515
+1 288
+Bacillus_annotated_GFJPDDAG_03516
+1 525
+Bacillus_annotated_GFJPDDAG_03517
+1 237
+Bacillus_annotated_GFJPDDAG_03518
+1 2067
+Bacillus_annotated_GFJPDDAG_03519
+1 924
+Bacillus_annotated_GFJPDDAG_03520
+1 1974
+Bacillus_annotated_GFJPDDAG_03521
+1 447
+Bacillus_annotated_GFJPDDAG_03522
+1 1353
+Bacillus_annotated_GFJPDDAG_03523
+1 1725
+Bacillus_annotated_GFJPDDAG_03524
+1 1293
+Bacillus_annotated_GFJPDDAG_03525
+1 1023
+Bacillus_annotated_GFJPDDAG_03526
+1 465
+Bacillus_annotated_GFJPDDAG_03527
+1 309
+Bacillus_annotated_GFJPDDAG_03528
+1 1242
+Bacillus_annotated_GFJPDDAG_03529
+1 414
+Bacillus_annotated_GFJPDDAG_03530
+1 978
+Bacillus_annotated_GFJPDDAG_03531
+1 76
+Bacillus_annotated_GFJPDDAG_03532
+1 72
+Bacillus_annotated_GFJPDDAG_03533
+1 77
+Bacillus_annotated_GFJPDDAG_03534
+1 73
+Bacillus_annotated_GFJPDDAG_03535
+1 1488
+Bacillus_annotated_GFJPDDAG_03536
+1 708
+Bacillus_annotated_GFJPDDAG_03537
+1 1827
+Bacillus_annotated_GFJPDDAG_03538
+1 1335
+Bacillus_annotated_GFJPDDAG_03539
+1 804
+Bacillus_annotated_GFJPDDAG_03540
+1 795
+Bacillus_annotated_GFJPDDAG_03541
+1 1242
+Bacillus_annotated_GFJPDDAG_03542
+1 159
+Bacillus_annotated_GFJPDDAG_03543
+1 480
+Bacillus_annotated_GFJPDDAG_03544
+1 2064
+Bacillus_annotated_GFJPDDAG_03545
+1 306
+Bacillus_annotated_GFJPDDAG_03546
+1 1650
+Bacillus_annotated_GFJPDDAG_03547
+1 1248
+Bacillus_annotated_GFJPDDAG_03548
+1 1002
+Bacillus_annotated_GFJPDDAG_03549
+1 471
+Bacillus_annotated_GFJPDDAG_03550
+1 1191
+Bacillus_annotated_GFJPDDAG_03551
+1 762
+Bacillus_annotated_GFJPDDAG_03552
+1 1491
+Bacillus_annotated_GFJPDDAG_03553
+1 168
+Bacillus_annotated_GFJPDDAG_03554
+1 231
+Bacillus_annotated_GFJPDDAG_03555
+1 753
+Bacillus_annotated_GFJPDDAG_03556
+1 876
+Bacillus_annotated_GFJPDDAG_03557
+1 1335
+Bacillus_annotated_GFJPDDAG_03558
+1 777
+Bacillus_annotated_GFJPDDAG_03559
+1 1176
+Bacillus_annotated_GFJPDDAG_03560
+1 594
+Bacillus_annotated_GFJPDDAG_03561
+1 261
+Bacillus_annotated_GFJPDDAG_03562
+1 489
+Bacillus_annotated_GFJPDDAG_03563
+1 474
+Bacillus_annotated_GFJPDDAG_03564
+1 261
+Bacillus_annotated_GFJPDDAG_03565
+1 267
+Bacillus_annotated_GFJPDDAG_03566
+1 924
+Bacillus_annotated_GFJPDDAG_03567
+1 768
+Bacillus_annotated_GFJPDDAG_03568
+1 255
+Bacillus_annotated_GFJPDDAG_03569
+1 807
+Bacillus_annotated_GFJPDDAG_03570
+1 276
+Bacillus_annotated_GFJPDDAG_03571
+1 285
+Bacillus_annotated_GFJPDDAG_03572
+1 330
+Bacillus_annotated_GFJPDDAG_03573
+1 801
+Bacillus_annotated_GFJPDDAG_03574
+1 396
+Bacillus_annotated_GFJPDDAG_03575
+1 1776
+Bacillus_annotated_GFJPDDAG_03576
+1 1356
+Bacillus_annotated_GFJPDDAG_03577
+1 1131
+Bacillus_annotated_GFJPDDAG_03578
+1 1161
+Bacillus_annotated_GFJPDDAG_03579
+1 105
+Bacillus_annotated_GFJPDDAG_03580
+1 258
+Bacillus_annotated_GFJPDDAG_03581
+1 1470
+Bacillus_annotated_GFJPDDAG_03582
+1 1344
+Bacillus_annotated_GFJPDDAG_03583
+1 672
+Bacillus_annotated_GFJPDDAG_03584
+1 375
+Bacillus_annotated_GFJPDDAG_03585
+1 972
+Bacillus_annotated_GFJPDDAG_03586
+1 522
+Bacillus_annotated_GFJPDDAG_03587
+1 135
+Bacillus_annotated_GFJPDDAG_03588
+1 1542
+Bacillus_annotated_GFJPDDAG_03589
+1 855
+Bacillus_annotated_GFJPDDAG_03590
+1 735
+Bacillus_annotated_GFJPDDAG_03591
+1 1035
+Bacillus_annotated_GFJPDDAG_03592
+1 369
+Bacillus_annotated_GFJPDDAG_03593
+1 645
+Bacillus_annotated_GFJPDDAG_03594
+1 153
+Bacillus_annotated_GFJPDDAG_03595
+1 699
+Bacillus_annotated_GFJPDDAG_03596
+1 1170
+Bacillus_annotated_GFJPDDAG_03597
+1 1191
+Bacillus_annotated_GFJPDDAG_03598
+1 942
+Bacillus_annotated_GFJPDDAG_03599
+1 1245
+Bacillus_annotated_GFJPDDAG_03600
+1 1362
+Bacillus_annotated_GFJPDDAG_03601
+1 132
+Bacillus_annotated_GFJPDDAG_03602
+1 1314
+Bacillus_annotated_GFJPDDAG_03603
+1 1518
+Bacillus_annotated_GFJPDDAG_03604
+1 870
+Bacillus_annotated_GFJPDDAG_03605
+1 1095
+Bacillus_annotated_GFJPDDAG_03606
+1 99
+Bacillus_annotated_GFJPDDAG_03607
+1 966
+Bacillus_annotated_GFJPDDAG_03608
+1 156
+Bacillus_annotated_GFJPDDAG_03609
+1 222
+Bacillus_annotated_GFJPDDAG_03610
+1 576
+Bacillus_annotated_GFJPDDAG_03611
+1 351
+Bacillus_annotated_GFJPDDAG_03612
+1 795
+Bacillus_annotated_GFJPDDAG_03613
+1 648
+Bacillus_annotated_GFJPDDAG_03614
+1 1017
+Bacillus_annotated_GFJPDDAG_03615
+1 723
+Bacillus_annotated_GFJPDDAG_03616
+1 684
+Bacillus_annotated_GFJPDDAG_03617
+1 348
+Bacillus_annotated_GFJPDDAG_03618
+1 810
+Bacillus_annotated_GFJPDDAG_03619
+1 351
+Bacillus_annotated_GFJPDDAG_03620
+1 759
+Bacillus_annotated_GFJPDDAG_03621
+1 666
+Bacillus_annotated_GFJPDDAG_03622
+1 177
+Bacillus_annotated_GFJPDDAG_03623
+1 294
+Bacillus_annotated_GFJPDDAG_03624
+1 372
+Bacillus_annotated_GFJPDDAG_03625
+1 468
+Bacillus_annotated_GFJPDDAG_03626
+1 423
+Bacillus_annotated_GFJPDDAG_03627
+1 747
+Bacillus_annotated_GFJPDDAG_03628
+1 972
+Bacillus_annotated_GFJPDDAG_03629
+1 843
+Bacillus_annotated_GFJPDDAG_03630
+1 822
+Bacillus_annotated_GFJPDDAG_03631
+1 225
+Bacillus_annotated_GFJPDDAG_03632
+1 1302
+Bacillus_annotated_GFJPDDAG_03633
+1 510
+Bacillus_annotated_GFJPDDAG_03634
+1 186
+Bacillus_annotated_GFJPDDAG_03635
+1 186
+Bacillus_annotated_GFJPDDAG_03636
+1 687
+Bacillus_annotated_GFJPDDAG_03637
+1 504
+Bacillus_annotated_GFJPDDAG_03638
+1 2067
+Bacillus_annotated_GFJPDDAG_03639
+1 831
+Bacillus_annotated_GFJPDDAG_03640
+1 873
+Bacillus_annotated_GFJPDDAG_03641
+1 438
+Bacillus_annotated_GFJPDDAG_03642
+1 1671
+Bacillus_annotated_GFJPDDAG_03643
+1 180
+Bacillus_annotated_GFJPDDAG_03644
+1 654
+Bacillus_annotated_GFJPDDAG_03645
+1 954
+Bacillus_annotated_GFJPDDAG_03646
+1 1206
+Bacillus_annotated_GFJPDDAG_03647
+1 2118
+Bacillus_annotated_GFJPDDAG_03648
+1 1188
+Bacillus_annotated_GFJPDDAG_03649
+1 852
+Bacillus_annotated_GFJPDDAG_03650
+1 1137
+Bacillus_annotated_GFJPDDAG_03651
+1 1140
+Bacillus_annotated_GFJPDDAG_03652
+1 654
+Bacillus_annotated_GFJPDDAG_03653
+1 3267
+Bacillus_annotated_GFJPDDAG_03654
+1 552
+Bacillus_annotated_GFJPDDAG_03655
+1 1605
+Bacillus_annotated_GFJPDDAG_03656
+1 525
+Bacillus_annotated_GFJPDDAG_03657
+1 363
+Bacillus_annotated_GFJPDDAG_03658
+1 858
+Bacillus_annotated_GFJPDDAG_03659
+1 642
+Bacillus_annotated_GFJPDDAG_03660
+1 1284
+Bacillus_annotated_GFJPDDAG_03661
+1 963
+Bacillus_annotated_GFJPDDAG_03662
+1 1263
+Bacillus_annotated_GFJPDDAG_03663
+1 213
+Bacillus_annotated_GFJPDDAG_03664
+1 612
+Bacillus_annotated_GFJPDDAG_03665
+1 453
+Bacillus_annotated_GFJPDDAG_03666
+1 1074
+Bacillus_annotated_GFJPDDAG_03667
+1 870
+Bacillus_annotated_GFJPDDAG_03668
+1 807
+Bacillus_annotated_GFJPDDAG_03669
+1 441
+Bacillus_annotated_GFJPDDAG_03670
+1 1041
+Bacillus_annotated_GFJPDDAG_03671
+1 555
+Bacillus_annotated_GFJPDDAG_03672
+1 438
+Bacillus_annotated_GFJPDDAG_03673
+1 1290
+Bacillus_annotated_GFJPDDAG_03674
+1 444
+Bacillus_annotated_GFJPDDAG_03675
+1 543
+Bacillus_annotated_GFJPDDAG_03676
+1 1242
+Bacillus_annotated_GFJPDDAG_03677
+1 630
+Bacillus_annotated_GFJPDDAG_03678
+1 1152
+Bacillus_annotated_GFJPDDAG_03679
+1 222
+Bacillus_annotated_GFJPDDAG_03680
+1 375
+Bacillus_annotated_GFJPDDAG_03681
+1 714
+Bacillus_annotated_GFJPDDAG_03682
+1 213
+Bacillus_annotated_GFJPDDAG_03683
+1 528
+Bacillus_annotated_GFJPDDAG_03684
+1 537
+Bacillus_annotated_GFJPDDAG_03685
+1 1509
+Bacillus_annotated_GFJPDDAG_03686
+1 858
+Bacillus_annotated_GFJPDDAG_03687
+1 1404
+Bacillus_annotated_GFJPDDAG_03688
+1 405
+Bacillus_annotated_GFJPDDAG_03689
+1 672
+Bacillus_annotated_GFJPDDAG_03690
+1 633
+Bacillus_annotated_GFJPDDAG_03691
+1 222
+Bacillus_annotated_GFJPDDAG_03692
+1 237
+Bacillus_annotated_GFJPDDAG_03693
+1 750
+Bacillus_annotated_GFJPDDAG_03694
+1 1305
+Bacillus_annotated_GFJPDDAG_03695
+1 1014
+Bacillus_annotated_GFJPDDAG_03696
+1 438
+Bacillus_annotated_GFJPDDAG_03697
+1 876
+Bacillus_annotated_GFJPDDAG_03698
+1 162
+Bacillus_annotated_GFJPDDAG_03699
+1 261
+Bacillus_annotated_GFJPDDAG_03700
+1 1011
+Bacillus_annotated_GFJPDDAG_03701
+1 843
+Bacillus_annotated_GFJPDDAG_03702
+1 843
+Bacillus_annotated_GFJPDDAG_03703
+1 279
+Bacillus_annotated_GFJPDDAG_03704
+1 435
+Bacillus_annotated_GFJPDDAG_03705
+1 297
+Bacillus_annotated_GFJPDDAG_03706
+1 591
+Bacillus_annotated_GFJPDDAG_03707
+1 297
+Bacillus_annotated_GFJPDDAG_03708
+1 195
+Bacillus_annotated_GFJPDDAG_03709
+1 126
+Bacillus_annotated_GFJPDDAG_03710
+1 321
+Bacillus_annotated_GFJPDDAG_03711
+1 441
+Bacillus_annotated_GFJPDDAG_03712
+1 378
+Bacillus_annotated_GFJPDDAG_03713
+1 174
+Bacillus_annotated_GFJPDDAG_03714
+1 2826
+Bacillus_annotated_GFJPDDAG_03715
+1 1644
+Bacillus_annotated_GFJPDDAG_03716
+1 1722
+Bacillus_annotated_GFJPDDAG_03717
+1 1236
+Bacillus_annotated_GFJPDDAG_03718
+1 666
+Bacillus_annotated_GFJPDDAG_03719
+1 162
+Bacillus_annotated_GFJPDDAG_03720
+1 423
+Bacillus_annotated_GFJPDDAG_03721
+1 174
+Bacillus_annotated_GFJPDDAG_03722
+1 192
+Bacillus_annotated_GFJPDDAG_03723
+1 249
+Bacillus_annotated_GFJPDDAG_03724
+1 486
+Bacillus_annotated_GFJPDDAG_03725
+1 447
+Bacillus_annotated_GFJPDDAG_03726
+1 1533
+Bacillus_annotated_GFJPDDAG_03727
+1 1671
+Bacillus_annotated_GFJPDDAG_03728
+1 1284
+Bacillus_annotated_GFJPDDAG_03729
+1 951
+Bacillus_annotated_GFJPDDAG_03730
+1 324
+Bacillus_annotated_GFJPDDAG_03731
+1 132
+Bacillus_annotated_GFJPDDAG_03732
+1 882
+Bacillus_annotated_GFJPDDAG_03733
+1 3363
+Bacillus_annotated_GFJPDDAG_03734
+1 1050
+Bacillus_annotated_GFJPDDAG_03735
+1 1185
+Bacillus_annotated_GFJPDDAG_03736
+1 810
+Bacillus_annotated_GFJPDDAG_03737
+1 822
+Bacillus_annotated_GFJPDDAG_03738
+1 3336
+Bacillus_annotated_GFJPDDAG_03739
+1 1560
+Bacillus_annotated_GFJPDDAG_03740
+1 1110
+Bacillus_annotated_GFJPDDAG_03741
+1 393
+Bacillus_annotated_GFJPDDAG_03742
+1 1173
+Bacillus_annotated_GFJPDDAG_03743
+1 2805
+Bacillus_annotated_GFJPDDAG_03744
+1 1797
+Bacillus_annotated_GFJPDDAG_03745
+1 1050
+Bacillus_annotated_GFJPDDAG_03746
+1 1185
+Bacillus_annotated_GFJPDDAG_03747
+1 1530
+Bacillus_annotated_GFJPDDAG_03748
+1 1485
+Bacillus_annotated_GFJPDDAG_03749
+1 729
+Bacillus_annotated_GFJPDDAG_03750
+1 1101
+Bacillus_annotated_GFJPDDAG_03751
+1 1047
+Bacillus_annotated_GFJPDDAG_03752
+1 186
+Bacillus_annotated_GFJPDDAG_03753
+1 687
+Bacillus_annotated_GFJPDDAG_03754
+1 1158
+Bacillus_annotated_GFJPDDAG_03755
+1 633
+Bacillus_annotated_GFJPDDAG_03756
+1 126
+Bacillus_annotated_GFJPDDAG_03757
+1 1143
+Bacillus_annotated_GFJPDDAG_03758
+1 678
+Bacillus_annotated_GFJPDDAG_03759
+1 2376
+Bacillus_annotated_GFJPDDAG_03760
+1 549
+Bacillus_annotated_GFJPDDAG_03761
+1 717
+Bacillus_annotated_GFJPDDAG_03762
+1 858
+Bacillus_annotated_GFJPDDAG_03763
+1 723
+Bacillus_annotated_GFJPDDAG_03764
+1 579
+Bacillus_annotated_GFJPDDAG_03765
+1 174
+Bacillus_annotated_GFJPDDAG_03766
+1 402
+Bacillus_annotated_GFJPDDAG_03767
+1 1686
+Bacillus_annotated_GFJPDDAG_03768
+1 1419
+Bacillus_annotated_GFJPDDAG_03769
+1 948
+Bacillus_annotated_GFJPDDAG_03770
+1 687
+Bacillus_annotated_GFJPDDAG_03771
+1 1425
+Bacillus_annotated_GFJPDDAG_03772
+1 912
+Bacillus_annotated_GFJPDDAG_03773
+1 291
+Bacillus_annotated_GFJPDDAG_03774
+1 555
+Bacillus_annotated_GFJPDDAG_03775
+1 936
+Bacillus_annotated_GFJPDDAG_03776
+1 216
+Bacillus_annotated_GFJPDDAG_03777
+1 774
+Bacillus_annotated_GFJPDDAG_03778
+1 744
+Bacillus_annotated_GFJPDDAG_03779
+1 705
+Bacillus_annotated_GFJPDDAG_03780
+1 768
+Bacillus_annotated_GFJPDDAG_03781
+1 1821
+Bacillus_annotated_GFJPDDAG_03782
+1 1116
+Bacillus_annotated_GFJPDDAG_03783
+1 651
+Bacillus_annotated_GFJPDDAG_03784
+1 624
+Bacillus_annotated_GFJPDDAG_03785
+1 1260
+Bacillus_annotated_GFJPDDAG_03786
+1 1860
+Bacillus_annotated_GFJPDDAG_03787
+1 1221
+Bacillus_annotated_GFJPDDAG_03788
+1 1098
+Bacillus_annotated_GFJPDDAG_03789
+1 1305
+Bacillus_annotated_GFJPDDAG_03790
+1 525
+Bacillus_annotated_GFJPDDAG_03791
+1 1524
+Bacillus_annotated_GFJPDDAG_03792
+1 174
+Bacillus_annotated_GFJPDDAG_03793
+1 258
+Bacillus_annotated_GFJPDDAG_03794
+1 768
+Bacillus_annotated_GFJPDDAG_03795
+1 1551
+Bacillus_annotated_GFJPDDAG_03796
+1 897
+Bacillus_annotated_GFJPDDAG_03797
+1 74
+Bacillus_annotated_GFJPDDAG_03798
+Bacillus_annotated_GFJPDDAG_03799
+1 77
+Bacillus_annotated_GFJPDDAG_03800
+1 86
+Bacillus_annotated_GFJPDDAG_03801
+1 83
+Bacillus_annotated_GFJPDDAG_03802
+1 76
+Bacillus_annotated_GFJPDDAG_03803
+1 75
+Bacillus_annotated_GFJPDDAG_03804
+1 77
+Bacillus_annotated_GFJPDDAG_03805
+1 74
+Bacillus_annotated_GFJPDDAG_03806
+1 91
+Bacillus_annotated_GFJPDDAG_03807
+1 75
+Bacillus_annotated_GFJPDDAG_03808
+1 477
+Bacillus_annotated_GFJPDDAG_03809
+1 2169
+Bacillus_annotated_GFJPDDAG_03810
+1 597
+Bacillus_annotated_GFJPDDAG_03811
+1 798
+Bacillus_annotated_GFJPDDAG_03812
+1 471
+Bacillus_annotated_GFJPDDAG_03813
+1 333
+Bacillus_annotated_GFJPDDAG_03814
+1 1011
+Bacillus_annotated_GFJPDDAG_03815
+1 402
+Bacillus_annotated_GFJPDDAG_03816
+1 357
+Bacillus_annotated_GFJPDDAG_03817
+1 831
+Bacillus_annotated_GFJPDDAG_03818
+1 351
+Bacillus_annotated_GFJPDDAG_03819
+1 282
+Bacillus_annotated_GFJPDDAG_03820
+1 1206
+Bacillus_annotated_GFJPDDAG_03821
+1 1014
+Bacillus_annotated_GFJPDDAG_03822
+1 351
+Bacillus_annotated_GFJPDDAG_03823
+1 585
+Bacillus_annotated_GFJPDDAG_03824
+1 1449
+Bacillus_annotated_GFJPDDAG_03825
+1 480
+Bacillus_annotated_GFJPDDAG_03826
+1 966
+Bacillus_annotated_GFJPDDAG_03827
+1 444
+Bacillus_annotated_GFJPDDAG_03828
+1 447
+Bacillus_annotated_GFJPDDAG_03829
+1 1533
+Bacillus_annotated_GFJPDDAG_03830
+1 729
+Bacillus_annotated_GFJPDDAG_03831
+1 1377
+Bacillus_annotated_GFJPDDAG_03832
+1 1071
+Bacillus_annotated_GFJPDDAG_03833
+1 1188
+Bacillus_annotated_GFJPDDAG_03834
+1 906
+Bacillus_annotated_GFJPDDAG_03835
+1 552
+Bacillus_annotated_GFJPDDAG_03836
+1 1089
+Bacillus_annotated_GFJPDDAG_03837
+1 1020
+Bacillus_annotated_GFJPDDAG_03838
+1 1425
+Bacillus_annotated_GFJPDDAG_03839
+1 582
+Bacillus_annotated_GFJPDDAG_03840
+1 663
+Bacillus_annotated_GFJPDDAG_03841
+1 969
+Bacillus_annotated_GFJPDDAG_03842
+1 798
+Bacillus_annotated_GFJPDDAG_03843
+1 864
+Bacillus_annotated_GFJPDDAG_03844
+1 1233
+Bacillus_annotated_GFJPDDAG_03845
+1 489
+Bacillus_annotated_GFJPDDAG_03846
+1 741
+Bacillus_annotated_GFJPDDAG_03847
+1 774
+Bacillus_annotated_GFJPDDAG_03848
+1 1176
+Bacillus_annotated_GFJPDDAG_03849
+1 624
+Bacillus_annotated_GFJPDDAG_03850
+1 1017
+Bacillus_annotated_GFJPDDAG_03851
+1 519
+Bacillus_annotated_GFJPDDAG_03852
+1 582
+Bacillus_annotated_GFJPDDAG_03853
+1 900
+Bacillus_annotated_GFJPDDAG_03854
+1 285
+Bacillus_annotated_GFJPDDAG_03855
+1 150
+Bacillus_annotated_GFJPDDAG_03856
+1 621
+Bacillus_annotated_GFJPDDAG_03857
+1 414
+Bacillus_annotated_GFJPDDAG_03858
+1 168
+Bacillus_annotated_GFJPDDAG_03859
+1 1434
+Bacillus_annotated_GFJPDDAG_03860
+1 1449
+Bacillus_annotated_GFJPDDAG_03861
+1 258
+Bacillus_annotated_GFJPDDAG_03862
+1 273
+Bacillus_annotated_GFJPDDAG_03863
+1 591
+Bacillus_annotated_GFJPDDAG_03864
+1 1173
+Bacillus_annotated_GFJPDDAG_03865
+1 1404
+Bacillus_annotated_GFJPDDAG_03866
+1 756
+Bacillus_annotated_GFJPDDAG_03867
+1 786
+Bacillus_annotated_GFJPDDAG_03868
+1 462
+Bacillus_annotated_GFJPDDAG_03869
+1 1980
+Bacillus_annotated_GFJPDDAG_03870
+1 711
+Bacillus_annotated_GFJPDDAG_03871
+1 585
+Bacillus_annotated_GFJPDDAG_03872
+1 864
+Bacillus_annotated_GFJPDDAG_03873
+1 795
+Bacillus_annotated_GFJPDDAG_03874
+1 2184
+Bacillus_annotated_GFJPDDAG_03875
+1 192
+Bacillus_annotated_GFJPDDAG_03876
+1 1506
+Bacillus_annotated_GFJPDDAG_03877
+1 1110
+Bacillus_annotated_GFJPDDAG_03878
+1 453
+Bacillus_annotated_GFJPDDAG_03879
+1 1425
+Bacillus_annotated_GFJPDDAG_03880
+1 678
+Bacillus_annotated_GFJPDDAG_03881
+1 495
+Bacillus_annotated_GFJPDDAG_03882
+1 501
+Bacillus_annotated_GFJPDDAG_03883
+1 639
+Bacillus_annotated_GFJPDDAG_03884
+1 798
+Bacillus_annotated_GFJPDDAG_03885
+1 108
+Bacillus_annotated_GFJPDDAG_03886
+1 1869
+Bacillus_annotated_GFJPDDAG_03887
+1 1830
+Bacillus_annotated_GFJPDDAG_03888
+1 1593
+Bacillus_annotated_GFJPDDAG_03889
+1 2145
+Bacillus_annotated_GFJPDDAG_03890
+1 813
+Bacillus_annotated_GFJPDDAG_03891
+1 468
+Bacillus_annotated_GFJPDDAG_03892
+1 360
+Bacillus_annotated_GFJPDDAG_03893
+1 1107
+Bacillus_annotated_GFJPDDAG_03894
+1 924
+Bacillus_annotated_GFJPDDAG_03895
+1 1803
+Bacillus_annotated_GFJPDDAG_03896
+1 1350
+Bacillus_annotated_GFJPDDAG_03897
+1 1242
+Bacillus_annotated_GFJPDDAG_03898
+1 837
+Bacillus_annotated_GFJPDDAG_03899
+1 639
+Bacillus_annotated_GFJPDDAG_03900
+1 564
+Bacillus_annotated_GFJPDDAG_03901
+1 162
+Bacillus_annotated_GFJPDDAG_03902
+1 903
+Bacillus_annotated_GFJPDDAG_03903
+1 76
+Bacillus_annotated_GFJPDDAG_03904
+1 73
+Bacillus_annotated_GFJPDDAG_03905
+1 75
+Bacillus_annotated_GFJPDDAG_03906
+1 84
+Bacillus_annotated_GFJPDDAG_03907
+1 76
+Bacillus_annotated_GFJPDDAG_03908
+1 76
+Bacillus_annotated_GFJPDDAG_03909
+1 75
+Bacillus_annotated_GFJPDDAG_03910
+1 73
+Bacillus_annotated_GFJPDDAG_03911
+1 75
+Bacillus_annotated_GFJPDDAG_03912
+1 112
+Bacillus_annotated_GFJPDDAG_03913
+1 264
+Bacillus_annotated_GFJPDDAG_03914
+1 1248
+Bacillus_annotated_GFJPDDAG_03915
+1 504
+Bacillus_annotated_GFJPDDAG_03916
+1 234
+Bacillus_annotated_GFJPDDAG_03917
+1 801
+Bacillus_annotated_GFJPDDAG_03918
+1 807
+Bacillus_annotated_GFJPDDAG_03919
+1 600
+Bacillus_annotated_GFJPDDAG_03920
+1 288
+Bacillus_annotated_GFJPDDAG_03921
+1 528
+Bacillus_annotated_GFJPDDAG_03922
+1 429
+Bacillus_annotated_GFJPDDAG_03923
+1 438
+Bacillus_annotated_GFJPDDAG_03924
+1 900
+Bacillus_annotated_GFJPDDAG_03925
+1 240
+Bacillus_annotated_GFJPDDAG_03926
+1 372
+Bacillus_annotated_GFJPDDAG_03927
+1 534
+Bacillus_annotated_GFJPDDAG_03928
+1 492
+Bacillus_annotated_GFJPDDAG_03929
+1 642
+Bacillus_annotated_GFJPDDAG_03930
+1 636
+Bacillus_annotated_GFJPDDAG_03931
+1 351
+Bacillus_annotated_GFJPDDAG_03932
+1 186
+Bacillus_annotated_GFJPDDAG_03933
+1 663
+Bacillus_annotated_GFJPDDAG_03934
+1 2076
+Bacillus_annotated_GFJPDDAG_03935
+1 1971
+Bacillus_annotated_GFJPDDAG_03936
+1 474
+Bacillus_annotated_GFJPDDAG_03937
+1 255
+Bacillus_annotated_GFJPDDAG_03938
+1 939
+Bacillus_annotated_GFJPDDAG_03939
+1 369
+Bacillus_annotated_GFJPDDAG_03940
+1 1515
+Bacillus_annotated_GFJPDDAG_03941
+1 1743
+Bacillus_annotated_GFJPDDAG_03942
+1 471
+Bacillus_annotated_GFJPDDAG_03943
+1 1389
+Bacillus_annotated_GFJPDDAG_03944
+1 1149
+Bacillus_annotated_GFJPDDAG_03945
+1 1398
+Bacillus_annotated_GFJPDDAG_03946
+1 984
+Bacillus_annotated_GFJPDDAG_03947
+1 1008
+Bacillus_annotated_GFJPDDAG_03948
+1 1017
+Bacillus_annotated_GFJPDDAG_03949
+1 927
+Bacillus_annotated_GFJPDDAG_03950
+1 846
+Bacillus_annotated_GFJPDDAG_03951
+1 1050
+Bacillus_annotated_GFJPDDAG_03952
+1 705
+Bacillus_annotated_GFJPDDAG_03953
+1 726
+Bacillus_annotated_GFJPDDAG_03954
+1 375
+Bacillus_annotated_GFJPDDAG_03955
+1 144
+Bacillus_annotated_GFJPDDAG_03956
+1 402
+Bacillus_annotated_GFJPDDAG_03957
+1 447
+Bacillus_annotated_GFJPDDAG_03958
+1 339
+Bacillus_annotated_GFJPDDAG_03959
+1 939
+Bacillus_annotated_GFJPDDAG_03960
+1 522
+Bacillus_annotated_GFJPDDAG_03961
+1 537
+Bacillus_annotated_GFJPDDAG_03962
+1 144
+Bacillus_annotated_GFJPDDAG_03963
+1 636
+Bacillus_annotated_GFJPDDAG_03964
+1 1275
+Bacillus_annotated_GFJPDDAG_03965
+1 1296
+Bacillus_annotated_GFJPDDAG_03966
+1 792
+Bacillus_annotated_GFJPDDAG_03967
+1 636
+Bacillus_annotated_GFJPDDAG_03968
+1 381
+Bacillus_annotated_GFJPDDAG_03969
+1 885
+Bacillus_annotated_GFJPDDAG_03970
+1 738
+Bacillus_annotated_GFJPDDAG_03971
+1 705
+Bacillus_annotated_GFJPDDAG_03972
+1 2052
+Bacillus_annotated_GFJPDDAG_03973
+1 162
+Bacillus_annotated_GFJPDDAG_03974
+1 2118
+Bacillus_annotated_GFJPDDAG_03975
+1 513
+Bacillus_annotated_GFJPDDAG_03976
+1 744
+Bacillus_annotated_GFJPDDAG_03977
+1 324
+Bacillus_annotated_GFJPDDAG_03978
+1 1626
+Bacillus_annotated_GFJPDDAG_03979
+1 246
+Bacillus_annotated_GFJPDDAG_03980
+1 849
+Bacillus_annotated_GFJPDDAG_03981
+1 501
+Bacillus_annotated_GFJPDDAG_03982
+1 906
+Bacillus_annotated_GFJPDDAG_03983
+1 807
+Bacillus_annotated_GFJPDDAG_03984
+1 414
+Bacillus_annotated_GFJPDDAG_03985
+1 981
+Bacillus_annotated_GFJPDDAG_03986
+1 672
+Bacillus_annotated_GFJPDDAG_03987
+1 327
+Bacillus_annotated_GFJPDDAG_03988
+1 159
+Bacillus_annotated_GFJPDDAG_03989
+1 165
+Bacillus_annotated_GFJPDDAG_03990
+1 273
+Bacillus_annotated_GFJPDDAG_03991
+1 987
+Bacillus_annotated_GFJPDDAG_03992
+1 309
+Bacillus_annotated_GFJPDDAG_03993
+1 1107
+Bacillus_annotated_GFJPDDAG_03994
+1 225
+Bacillus_annotated_GFJPDDAG_03995
+1 744
+Bacillus_annotated_GFJPDDAG_03996
+1 204
+Bacillus_annotated_GFJPDDAG_03997
+1 261
+Bacillus_annotated_GFJPDDAG_03998
+1 549
+Bacillus_annotated_GFJPDDAG_03999
+1 1749
+Bacillus_annotated_GFJPDDAG_04000
+1 1017
+Bacillus_annotated_GFJPDDAG_04001
+1 966
+Bacillus_annotated_GFJPDDAG_04002
+1 1614
+Bacillus_annotated_GFJPDDAG_04003
+1 1005
+Bacillus_annotated_GFJPDDAG_04004
+1 897
+Bacillus_annotated_GFJPDDAG_04005
+1 1083
+Bacillus_annotated_GFJPDDAG_04006
+1 1290
+Bacillus_annotated_GFJPDDAG_04007
+1 1011
+Bacillus_annotated_GFJPDDAG_04008
+1 792
+Bacillus_annotated_GFJPDDAG_04009
+1 786
+Bacillus_annotated_GFJPDDAG_04010
+1 405
+Bacillus_annotated_GFJPDDAG_04011
+1 465
+Bacillus_annotated_GFJPDDAG_04012
+1 951
+Bacillus_annotated_GFJPDDAG_04013
+1 549
+Bacillus_annotated_GFJPDDAG_04014
+1 441
+Bacillus_annotated_GFJPDDAG_04015
+1 351
+Bacillus_annotated_GFJPDDAG_04016
+1 867
+Bacillus_annotated_GFJPDDAG_04017
+1 369
+Bacillus_annotated_GFJPDDAG_04018
+1 1554
+Bacillus_annotated_GFJPDDAG_04019
+1 462
+Bacillus_annotated_GFJPDDAG_04020
+1 129
+Bacillus_annotated_GFJPDDAG_04021
+1 540
+Bacillus_annotated_GFJPDDAG_04022
+1 135
+Bacillus_annotated_GFJPDDAG_04023
+1 156
+Bacillus_annotated_GFJPDDAG_04024
+1 768
+Bacillus_annotated_GFJPDDAG_04025
+1 381
+Bacillus_annotated_GFJPDDAG_04026
+1 666
+Bacillus_annotated_GFJPDDAG_04027
+1 222
+Bacillus_annotated_GFJPDDAG_04028
+1 564
+Bacillus_annotated_GFJPDDAG_04029
+1 1542
+Bacillus_annotated_GFJPDDAG_04030
+1 267
+Bacillus_annotated_GFJPDDAG_04031
+1 300
+Bacillus_annotated_GFJPDDAG_04032
+1 2103
+Bacillus_annotated_GFJPDDAG_04033
+1 648
+Bacillus_annotated_GFJPDDAG_04034
+1 159
+Bacillus_annotated_GFJPDDAG_04035
+1 363
+Bacillus_annotated_GFJPDDAG_04036
+1 1323
+Bacillus_annotated_GFJPDDAG_04037
+1 354
+Bacillus_annotated_GFJPDDAG_04038
+1 999
+Bacillus_annotated_GFJPDDAG_04039
+1 579
+Bacillus_annotated_GFJPDDAG_04040
+1 1320
+Bacillus_annotated_GFJPDDAG_04041
+1 363
+Bacillus_annotated_GFJPDDAG_04042
+1 1368
+Bacillus_annotated_GFJPDDAG_04043
+1 831
+Bacillus_annotated_GFJPDDAG_04044
+1 327
+Bacillus_annotated_GFJPDDAG_04045
+1 396
+Bacillus_annotated_GFJPDDAG_04046
+1 453
+Bacillus_annotated_GFJPDDAG_04047
+1 897
+Bacillus_annotated_GFJPDDAG_04048
+1 138
+Bacillus_annotated_GFJPDDAG_04049
+1 1575
+Bacillus_annotated_GFJPDDAG_04050
+1 714
+Bacillus_annotated_GFJPDDAG_04051
+1 231
+Bacillus_annotated_GFJPDDAG_04052
+1 1728
+Bacillus_annotated_GFJPDDAG_04053
+1 714
+Bacillus_annotated_GFJPDDAG_04054
+1 684
+Bacillus_annotated_GFJPDDAG_04055
+1 930
+Bacillus_annotated_GFJPDDAG_04056
+1 213
+Bacillus_annotated_GFJPDDAG_04057
+1 1317
+Bacillus_annotated_GFJPDDAG_04058
+1 630
+Bacillus_annotated_GFJPDDAG_04059
+1 123
+Bacillus_annotated_GFJPDDAG_04060
+1 654
+Bacillus_annotated_GFJPDDAG_04061
+1 711
+Bacillus_annotated_GFJPDDAG_04062
+1 189
+Bacillus_annotated_GFJPDDAG_04063
+1 1251
+Bacillus_annotated_GFJPDDAG_04064
+1 1992
+Bacillus_annotated_GFJPDDAG_04065
+1 894
+Bacillus_annotated_GFJPDDAG_04066
+1 1848
+Bacillus_annotated_GFJPDDAG_04067
+1 573
+Bacillus_annotated_GFJPDDAG_04068
+1 519
+Bacillus_annotated_GFJPDDAG_04069
+1 5598
+Bacillus_annotated_GFJPDDAG_04070
+1 162
+Bacillus_annotated_GFJPDDAG_04071
+1 1230
+Bacillus_annotated_GFJPDDAG_04072
+1 147
+Bacillus_annotated_GFJPDDAG_04073
+1 75
+Bacillus_annotated_GFJPDDAG_04074
+1 76
+Bacillus_annotated_GFJPDDAG_04075
+1 76
+Bacillus_annotated_GFJPDDAG_04076
+1 76
+Bacillus_annotated_GFJPDDAG_04077
+Bacillus_annotated_GFJPDDAG_04078
+1 75
+Bacillus_annotated_GFJPDDAG_04079
+1 89
+Bacillus_annotated_GFJPDDAG_04080
+1 77
+Bacillus_annotated_GFJPDDAG_04081
+Bacillus_annotated_GFJPDDAG_04082
+1 76
+Bacillus_annotated_GFJPDDAG_04083
+1 76
+Bacillus_annotated_GFJPDDAG_04084
+1 74
+Bacillus_annotated_GFJPDDAG_04085
+1 93
+Bacillus_annotated_GFJPDDAG_04086
+1 76
+Bacillus_annotated_GFJPDDAG_04087
+1 77
+Bacillus_annotated_GFJPDDAG_04088
+1 76
+Bacillus_annotated_GFJPDDAG_04089
+1 84
+Bacillus_annotated_GFJPDDAG_04090
+1 74
+Bacillus_annotated_GFJPDDAG_04091
+1 74
+Bacillus_annotated_GFJPDDAG_04092
+1 75
+Bacillus_annotated_GFJPDDAG_04093
+1 74
+Bacillus_annotated_GFJPDDAG_04094
+1 74
+Bacillus_annotated_GFJPDDAG_04095
+Bacillus_annotated_GFJPDDAG_04096
+1 75
+Bacillus_annotated_GFJPDDAG_04097
+1 112
+Bacillus_annotated_GFJPDDAG_04098
+1 462
+Bacillus_annotated_GFJPDDAG_04099
+1 549
+Bacillus_annotated_GFJPDDAG_04100
+1 1083
+Bacillus_annotated_GFJPDDAG_04101
+1 2448
+Bacillus_annotated_GFJPDDAG_04102
+1 1377
+Bacillus_annotated_GFJPDDAG_04103
+1 1074
+Bacillus_annotated_GFJPDDAG_04104
+1 1092
+Bacillus_annotated_GFJPDDAG_04105
+1 705
+Bacillus_annotated_GFJPDDAG_04106
+1 477
+Bacillus_annotated_GFJPDDAG_04107
+1 1458
+Bacillus_annotated_GFJPDDAG_04108
+1 651
+Bacillus_annotated_GFJPDDAG_04109
+1 1401
+Bacillus_annotated_GFJPDDAG_04110
+1 426
+Bacillus_annotated_GFJPDDAG_04111
+1 744
+Bacillus_annotated_GFJPDDAG_04112
+1 510
+Bacillus_annotated_GFJPDDAG_04113
+1 654
+Bacillus_annotated_GFJPDDAG_04114
+1 147
+Bacillus_annotated_GFJPDDAG_04115
+1 180
+Bacillus_annotated_GFJPDDAG_04116
+1 534
+Bacillus_annotated_GFJPDDAG_04117
+1 426
+Bacillus_annotated_GFJPDDAG_04118
+1 702
+Bacillus_annotated_GFJPDDAG_04119
+1 501
+Bacillus_annotated_GFJPDDAG_04120
+1 360
+Bacillus_annotated_GFJPDDAG_04121
+1 609
+Bacillus_annotated_GFJPDDAG_04122
+1 3558
+Bacillus_annotated_GFJPDDAG_04123
+1 3600
+Bacillus_annotated_GFJPDDAG_04124
+1 249
+Bacillus_annotated_GFJPDDAG_04125
+1 423
+Bacillus_annotated_GFJPDDAG_04126
+1 471
+Bacillus_annotated_GFJPDDAG_04127
+1 2079
+Bacillus_annotated_GFJPDDAG_04128
+1 1191
+Bacillus_annotated_GFJPDDAG_04129
+1 309
+Bacillus_annotated_GFJPDDAG_04130
+1 630
+Bacillus_annotated_GFJPDDAG_04131
+1 624
+Bacillus_annotated_GFJPDDAG_04132
+1 285
+Bacillus_annotated_GFJPDDAG_04133
+1 831
+Bacillus_annotated_GFJPDDAG_04134
+1 279
+Bacillus_annotated_GFJPDDAG_04135
+1 342
+Bacillus_annotated_GFJPDDAG_04136
+1 657
+Bacillus_annotated_GFJPDDAG_04137
+1 435
+Bacillus_annotated_GFJPDDAG_04138
+1 204
+Bacillus_annotated_GFJPDDAG_04139
+1 264
+Bacillus_annotated_GFJPDDAG_04140
+1 369
+Bacillus_annotated_GFJPDDAG_04141
+1 312
+Bacillus_annotated_GFJPDDAG_04142
+1 540
+Bacillus_annotated_GFJPDDAG_04143
+1 186
+Bacillus_annotated_GFJPDDAG_04144
+1 399
+Bacillus_annotated_GFJPDDAG_04145
+1 540
+Bacillus_annotated_GFJPDDAG_04146
+1 363
+Bacillus_annotated_GFJPDDAG_04147
+1 501
+Bacillus_annotated_GFJPDDAG_04148
+1 183
+Bacillus_annotated_GFJPDDAG_04149
+1 441
+Bacillus_annotated_GFJPDDAG_04150
+1 1293
+Bacillus_annotated_GFJPDDAG_04151
+1 651
+Bacillus_annotated_GFJPDDAG_04152
+1 747
+Bacillus_annotated_GFJPDDAG_04153
+1 324
+Bacillus_annotated_GFJPDDAG_04154
+1 219
+Bacillus_annotated_GFJPDDAG_04155
+1 114
+Bacillus_annotated_GFJPDDAG_04156
+1 366
+Bacillus_annotated_GFJPDDAG_04157
+1 390
+Bacillus_annotated_GFJPDDAG_04158
+1 945
+Bacillus_annotated_GFJPDDAG_04159
+1 363
+Bacillus_annotated_GFJPDDAG_04160
+1 945
+Bacillus_annotated_GFJPDDAG_04161
+1 870
+Bacillus_annotated_GFJPDDAG_04162
+1 798
+Bacillus_annotated_GFJPDDAG_04163
+1 753
+Bacillus_annotated_GFJPDDAG_04164
+1 438
+Bacillus_annotated_GFJPDDAG_04165
+1 393
+Bacillus_annotated_GFJPDDAG_04166
+1 447
+Bacillus_annotated_GFJPDDAG_04167
+1 726
+Bacillus_annotated_GFJPDDAG_04168
+1 1050
+Bacillus_annotated_GFJPDDAG_04169
+1 645
+Bacillus_annotated_GFJPDDAG_04170
+1 636
+Bacillus_annotated_GFJPDDAG_04171
+1 753
+Bacillus_annotated_GFJPDDAG_04172
+1 231
+Bacillus_annotated_GFJPDDAG_04173
+1 112
+Bacillus_annotated_GFJPDDAG_04174
+1 201
+Bacillus_annotated_GFJPDDAG_04175
+1 1416
+Bacillus_annotated_GFJPDDAG_04176
+1 648
+Bacillus_annotated_GFJPDDAG_04177
+1 330
+Bacillus_annotated_GFJPDDAG_04178
+1 441
+Bacillus_annotated_GFJPDDAG_04179
+1 984
+Bacillus_annotated_GFJPDDAG_04180
+1 828
+Bacillus_annotated_GFJPDDAG_04181
+1 375
+Bacillus_annotated_GFJPDDAG_04182
+1 771
+Bacillus_annotated_GFJPDDAG_04183
+1 873
+Bacillus_annotated_GFJPDDAG_04184
+1 282
+Bacillus_annotated_GFJPDDAG_04185
+1 99
+Bacillus_annotated_GFJPDDAG_04186
+1 1962
+Bacillus_annotated_GFJPDDAG_04187
+1 768
+Bacillus_annotated_GFJPDDAG_04188
+1 1227
+Bacillus_annotated_GFJPDDAG_04189
+1 561
+Bacillus_annotated_GFJPDDAG_04190
+1 879
+Bacillus_annotated_GFJPDDAG_04191
+1 879
+Bacillus_annotated_GFJPDDAG_04192
+1 270
+Bacillus_annotated_GFJPDDAG_04193
+1 183
+Bacillus_annotated_GFJPDDAG_04194
+1 855
+Bacillus_annotated_GFJPDDAG_04195
+1 837
+Bacillus_annotated_GFJPDDAG_04196
+1 375
+Bacillus_annotated_GFJPDDAG_04197
+1 294
+Bacillus_annotated_GFJPDDAG_04198
+1 1374
+Bacillus_annotated_GFJPDDAG_04199
+1 960
+Bacillus_annotated_GFJPDDAG_04200
+1 654
+Bacillus_annotated_GFJPDDAG_04201
+1 558
+Bacillus_annotated_GFJPDDAG_04202
+1 231
+Bacillus_annotated_GFJPDDAG_04203
+1 3534
+Bacillus_annotated_GFJPDDAG_04204
+1 537
+Bacillus_annotated_GFJPDDAG_04205
+1 1620
+Bacillus_annotated_GFJPDDAG_04206
+1 1461
+Bacillus_annotated_GFJPDDAG_04207
+1 279
+Bacillus_annotated_GFJPDDAG_04208
+1 303
+Bacillus_annotated_GFJPDDAG_04209
+1 654
+Bacillus_annotated_GFJPDDAG_04210
+1 390
+Bacillus_annotated_GFJPDDAG_04211
+1 426
+Bacillus_annotated_GFJPDDAG_04212
+1 480
+Bacillus_annotated_GFJPDDAG_04213
+1 573
+Bacillus_annotated_GFJPDDAG_04214
+1 765
+Bacillus_annotated_GFJPDDAG_04215
+1 74
+Bacillus_annotated_GFJPDDAG_04216
+1 77
+Bacillus_annotated_GFJPDDAG_04217
+1 2493
+Bacillus_annotated_GFJPDDAG_04218
+1 741
+Bacillus_annotated_GFJPDDAG_04219
+1 1014
+Bacillus_annotated_GFJPDDAG_04220
+1 1437
+Bacillus_annotated_GFJPDDAG_04221
+1 549
+Bacillus_annotated_GFJPDDAG_04222
+1 1962
+Bacillus_annotated_GFJPDDAG_04223
+1 768
+Bacillus_annotated_GFJPDDAG_04224
+1 882
+Bacillus_annotated_GFJPDDAG_04225
+1 882
+Bacillus_annotated_GFJPDDAG_04226
+1 135
+Bacillus_annotated_GFJPDDAG_04227
+1 930
+Bacillus_annotated_GFJPDDAG_04228
+1 1404
+Bacillus_annotated_GFJPDDAG_04229
+1 588
+Bacillus_annotated_GFJPDDAG_04230
+1 858
+Bacillus_annotated_GFJPDDAG_04231
+1 822
+Bacillus_annotated_GFJPDDAG_04232
+1 366
+Bacillus_annotated_GFJPDDAG_04233
+1 525
+Bacillus_annotated_GFJPDDAG_04234
+1 225
+Bacillus_annotated_GFJPDDAG_04235
+1 1488
+Bacillus_annotated_GFJPDDAG_04236
+1 96
+Bacillus_annotated_GFJPDDAG_04237
+1 2070
+Bacillus_annotated_GFJPDDAG_04238
+1 843
+Bacillus_annotated_GFJPDDAG_04239
+1 1335
+Bacillus_annotated_GFJPDDAG_04240
+1 1554
+Bacillus_annotated_GFJPDDAG_04241
+1 2208
+Bacillus_annotated_GFJPDDAG_04242
+1 1218
+Bacillus_annotated_GFJPDDAG_04243
+1 957
+Bacillus_annotated_GFJPDDAG_04244
+1 828
+Bacillus_annotated_GFJPDDAG_04245
+1 1470
+Bacillus_annotated_GFJPDDAG_04246
+1 825
+Bacillus_annotated_GFJPDDAG_04247
+1 837
+Bacillus_annotated_GFJPDDAG_04248
+1 282
+Bacillus_annotated_GFJPDDAG_04249
+1 690
+Bacillus_annotated_GFJPDDAG_04250
+1 129
+Bacillus_annotated_GFJPDDAG_04251
+1 840
+Bacillus_annotated_GFJPDDAG_04252
+1 840
+Bacillus_annotated_GFJPDDAG_04253
+1 207
+Bacillus_annotated_GFJPDDAG_04254
+1 648
+Bacillus_annotated_GFJPDDAG_04255
+1 399
+Bacillus_annotated_GFJPDDAG_04256
+1 417
+Bacillus_annotated_GFJPDDAG_04257
+1 660
+Bacillus_annotated_GFJPDDAG_04258
+1 378
+Bacillus_annotated_GFJPDDAG_04259
+1 582
+Bacillus_annotated_GFJPDDAG_04260
+1 1659
+Bacillus_annotated_GFJPDDAG_04261
+1 1389
+Bacillus_annotated_GFJPDDAG_04262
+1 207
+Bacillus_annotated_GFJPDDAG_04263
+1 933
+Bacillus_annotated_GFJPDDAG_04264
+1 927
+Bacillus_annotated_GFJPDDAG_04265
+1 1350
+Bacillus_annotated_GFJPDDAG_04266
+1 1155
+Bacillus_annotated_GFJPDDAG_04267
+1 780
+Bacillus_annotated_GFJPDDAG_04268
+1 1194
+Bacillus_annotated_GFJPDDAG_04269
+1 156
+Bacillus_annotated_GFJPDDAG_04270
+1 1638
+Bacillus_annotated_GFJPDDAG_04271
+1 288
+Bacillus_annotated_GFJPDDAG_04272
+1 744
+Bacillus_annotated_GFJPDDAG_04273
+1 210
+Bacillus_annotated_GFJPDDAG_04274
+1 783
+Bacillus_annotated_GFJPDDAG_04275
+1 171
+Bacillus_annotated_GFJPDDAG_04276
+1 678
+Bacillus_annotated_GFJPDDAG_04277
+1 1947
+Bacillus_annotated_GFJPDDAG_04278
+1 1017
+Bacillus_annotated_GFJPDDAG_04279
+1 438
+Bacillus_annotated_GFJPDDAG_04280
+1 696
+Bacillus_annotated_GFJPDDAG_04281
+1 456
+Bacillus_annotated_GFJPDDAG_04282
+1 77
+Bacillus_annotated_GFJPDDAG_04283
+1 76
+Bacillus_annotated_GFJPDDAG_04284
+1 112
+Bacillus_annotated_GFJPDDAG_04285
+1 177
+Bacillus_annotated_GFJPDDAG_04286
+1 492
+Bacillus_annotated_GFJPDDAG_04287
+1 921
+Bacillus_annotated_GFJPDDAG_04288
+1 693
+Bacillus_annotated_GFJPDDAG_04289
+1 1875
+Bacillus_annotated_GFJPDDAG_04290
+1 912
+Bacillus_annotated_GFJPDDAG_04291
+1 753
+Bacillus_annotated_GFJPDDAG_04292
+1 1980
+Bacillus_annotated_GFJPDDAG_04293
+1 1011
+Bacillus_annotated_GFJPDDAG_04294
+1 876
+Bacillus_annotated_GFJPDDAG_04295
+1 822
+Bacillus_annotated_GFJPDDAG_04296
+1 1209
+Bacillus_annotated_GFJPDDAG_04297
+1 750
+Bacillus_annotated_GFJPDDAG_04298
+1 1356
+Bacillus_annotated_GFJPDDAG_04299
+1 73
+Bacillus_annotated_GFJPDDAG_04300
+1 1113
+Bacillus_annotated_GFJPDDAG_04301
+1 198
+Bacillus_annotated_GFJPDDAG_04302
+1 1440
+Bacillus_annotated_GFJPDDAG_04303
+1 609
+Bacillus_annotated_GFJPDDAG_04304
+1 351
+Bacillus_annotated_GFJPDDAG_04305
+1 795
+Bacillus_annotated_GFJPDDAG_04306
+1 1032
+Bacillus_annotated_GFJPDDAG_04307
+1 1164
+Bacillus_annotated_GFJPDDAG_04308
+1 801
+Bacillus_annotated_GFJPDDAG_04309
+1 990
+Bacillus_annotated_GFJPDDAG_04310
+1 585
+Bacillus_annotated_GFJPDDAG_04311
+1 1419
+Bacillus_annotated_GFJPDDAG_04312
+1 3345
+Bacillus_annotated_GFJPDDAG_04313
+1 1155
+Bacillus_annotated_GFJPDDAG_04314
+1 1467
+Bacillus_annotated_GFJPDDAG_04315
+1 687
+Bacillus_annotated_GFJPDDAG_04316
+1 318
+Bacillus_annotated_GFJPDDAG_04317
+1 147
+Bacillus_annotated_GFJPDDAG_04318
+1 174
+Bacillus_annotated_GFJPDDAG_04319
+1 1425
+Bacillus_annotated_GFJPDDAG_04320
+1 1653
+Bacillus_annotated_GFJPDDAG_04321
+1 837
+Bacillus_annotated_GFJPDDAG_04322
+1 174
+Bacillus_annotated_GFJPDDAG_04323
+1 1992
+Bacillus_annotated_GFJPDDAG_04324
+1 228
+Bacillus_annotated_GFJPDDAG_04325
+1 480
+Bacillus_annotated_GFJPDDAG_04326
+1 264
+Bacillus_annotated_GFJPDDAG_04327
+1 219
+Bacillus_annotated_GFJPDDAG_04328
+1 597
+Bacillus_annotated_GFJPDDAG_04329
+1 321
+Bacillus_annotated_GFJPDDAG_04330
+1 1689
+Bacillus_annotated_GFJPDDAG_04331
+1 495
+Bacillus_annotated_GFJPDDAG_04332
+1 540
+Bacillus_annotated_GFJPDDAG_04333
+1 1284
+Bacillus_annotated_GFJPDDAG_04334
+1 657
+Bacillus_annotated_GFJPDDAG_04335
+1 669
+Bacillus_annotated_GFJPDDAG_04336
+1 360
+Bacillus_annotated_GFJPDDAG_04337
+1 93
+Bacillus_annotated_GFJPDDAG_04338
+1 1278
+Bacillus_annotated_GFJPDDAG_04339
+1 591
+Bacillus_annotated_GFJPDDAG_04340
+1 882
+Bacillus_annotated_GFJPDDAG_04341
+1 1356
+Bacillus_annotated_GFJPDDAG_04342
+1 1464
+Bacillus_annotated_GFJPDDAG_04343
+1 936
+Bacillus_annotated_GFJPDDAG_04344
+1 483
+Bacillus_annotated_GFJPDDAG_04345
+1 111
+Bacillus_annotated_GFJPDDAG_04346
+129 768
+886 1646
+1760 1907
+2165 2479
+2654 2932
+Bacillus_annotated_GFJPDDAG_04347
+1 312
+Bacillus_annotated_GFJPDDAG_04348
+1 759
+Bacillus_annotated_GFJPDDAG_04349
+1 1548
+Bacillus_annotated_GFJPDDAG_04350
+1 1236
+Bacillus_annotated_GFJPDDAG_04351
+1 753
+829 896
+1142 1334
+Bacillus_annotated_GFJPDDAG_04352
+1 111
+Bacillus_annotated_GFJPDDAG_04353
+1 75
+Bacillus_annotated_GFJPDDAG_04354
+1 85
+Bacillus_annotated_GFJPDDAG_04355
+1 76
+Bacillus_annotated_GFJPDDAG_04356
+1 76
+Bacillus_annotated_GFJPDDAG_04357
+1 76
+Bacillus_annotated_GFJPDDAG_04358
+1 112
+Bacillus_annotated_GFJPDDAG_04359
+1 112
+Bacillus_annotated_GFJPDDAG_04360
+1 76
+Bacillus_annotated_GFJPDDAG_04361
+1 76
+Bacillus_annotated_GFJPDDAG_04362
+1 76
+Bacillus_annotated_GFJPDDAG_04363
+1 76
+Bacillus_annotated_GFJPDDAG_04364
+Bacillus_annotated_GFJPDDAG_04365
+1 77
+Bacillus_annotated_GFJPDDAG_04366
+1 89
+Bacillus_annotated_GFJPDDAG_04367
+1 162
+Bacillus_annotated_GFJPDDAG_04368
+1 342
+Bacillus_annotated_GFJPDDAG_04369
+Bacillus_annotated_GFJPDDAG_04370
+1 76
+Bacillus_annotated_GFJPDDAG_04371
+1 76
+Bacillus_annotated_GFJPDDAG_04372
+1 76
+Bacillus_annotated_GFJPDDAG_04373
+1 76
+Bacillus_annotated_GFJPDDAG_04374
+1 75
+Bacillus_annotated_GFJPDDAG_04375
+1 89

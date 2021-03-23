@@ -1,0 +1,38 @@
+Assembly	TARA_ION_RAW
+# contigs (>= 1000 bp)	383
+# contigs (>= 5000 bp)	57
+# contigs (>= 10000 bp)	30
+# contigs (>= 25000 bp)	10
+# contigs (>= 50000 bp)	5
+Total length (>= 1000 bp)	1942203
+Total length (>= 5000 bp)	1282191
+Total length (>= 10000 bp)	1102192
+Total length (>= 25000 bp)	798696
+Total length (>= 50000 bp)	622831
+# contigs	383
+Largest contig	154464
+Total length	1942203
+Reference length	7658814
+GC (%)	46.95
+Reference GC (%)	63.29
+N50	13494
+N75	3293
+L50	19
+L75	102
+# misassemblies	0
+# misassembled contigs	0
+Misassembled contigs length	0
+# local misassemblies	0
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# unaligned mis. contigs	2
+# unaligned contigs	8 + 374 part
+Unaligned length	1910879
+Genome fraction (%)	0.057
+Duplication ratio	7.211
+# N's per 100 kbp	0.00
+# mismatches per 100 kbp	12430.94
+# indels per 100 kbp	92.08
+Largest alignment	159
+Total aligned length	30385
+NGA50	-

@@ -1,0 +1,2 @@
+Assemblies           TARA_ASE_RAW
+Thioclava_annotated  4767.79     

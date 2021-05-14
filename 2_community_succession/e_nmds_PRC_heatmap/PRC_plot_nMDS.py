@@ -161,8 +161,8 @@ def plot_nmds(fn, ax):
     return x, y
 axnMDS = plt.subplot2grid((3,24), (0,0), colspan=10)
 fs=18
-axnMDS.set_title('nMDS', fontsize=fs)
-axnMDS.set_title('A', loc='left', fontsize=fs)
+axnMDS.set_title('nMDS', fontsize=fs, fontweight='bold')
+axnMDS.set_title('A', loc='left', fontsize=fs, fontweight='bold')
 x, y = plot_nmds('all_samples_not_grouped.csv', axnMDS)
 plt.savefig('nMDS only.png')
 nmds1, nmds2 = x, y
@@ -179,8 +179,8 @@ for a in range(len(PRC_trt)):
         if b > 0:
             PRC_trt[a][b] = float(PRC_trt[a][b])
 ax1 = plt.subplot2grid((3,24), (0,12), colspan=7)
-ax1.set_title('Principal Response Curve', fontsize=fs)
-ax1.set_title('B', loc='left', fontsize=fs)
+ax1.set_title('Principal Response Curve', fontsize=fs, fontweight='bold')
+ax1.set_title('B', loc='left', fontsize=fs, fontweight='bold')
 
 
 labels = ['BHET', 'Amorphous PET biofilm', 'Amorphous PET planktonic', 'PET powder', 'Weathered PET powder']
@@ -357,14 +357,14 @@ axLCW = plt.subplot2grid((24,58), (9,26), colspan=7, rowspan=10)
 axPET = plt.subplot2grid((24,58), (9,34), colspan=7, rowspan=10)
 axWPET = plt.subplot2grid((24,58), (9,42), colspan=7, rowspan=10)
 axblob = plt.subplot2grid((24,58), (9,50), rowspan=10)
-axInoc.set_title('Inoculum')
-axNC.set_title('No carbon', color='y')
-axBHET.set_title('BHET', color=colors[0])
-axLC.set_title('Amorphous\nPET biofilm', color=colors[1])
-axLCW.set_title('Amorphous\nPET planktonic', color=colors[2])
-axPET.set_title('PET powder', color=colors[3])
-axWPET.set_title('Weathered PET powder', color=colors[4])
-axInoc.text(0.5, len(asv_find)+2, 'C', va='center', ha='center', fontsize=fs)
+axInoc.set_title('Inoculum', fontweight='bold')
+axNC.set_title('No carbon', color='y', fontweight='bold')
+axBHET.set_title('BHET', color=colors[0], fontweight='bold')
+axLC.set_title('Amorphous\nPET biofilm', color=colors[1], fontweight='bold')
+axLCW.set_title('Amorphous\nPET planktonic', color=colors[2], fontweight='bold')
+axPET.set_title('PET powder', color=colors[3], fontweight='bold')
+axWPET.set_title('Weathered PET powder', color=colors[4], fontweight='bold')
+axInoc.text(0.5, len(asv_find)+2, 'C', va='center', ha='center', fontsize=fs, fontweight='bold')
 
 plots = [axInoc, axNC, axBHET, axLC, axLCW, axPET, axWPET]
 axLC.text(44, -1.8, 'Day', ha='center', va='center')
@@ -450,7 +450,7 @@ for a in range(len(plot_rows)):
 plt.sca(axblob)
 plt.yticks(ally, asv_find)   
 
-plt.savefig('PRC_python_new_color_nMDS_log.png', dpi=600, bbox_inches='tight')
+plt.savefig('PRC_python_new_color_nMDS_log.tiff', dpi=600, bbox_inches='tight')
 plt.close()
 
 

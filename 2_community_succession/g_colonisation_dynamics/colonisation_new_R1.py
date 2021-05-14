@@ -179,6 +179,6 @@ axcolbar.text(0.9, 0.5, '1', ha='center', va='center', color='k')
 plt.xlabel('Normalised\nrelative\nabundance')
 
 plt.subplots_adjust(wspace=0.8)
-plt.savefig('New figure.png', bbox_inches='tight', dpi=600)
+plt.savefig('New figure.tiff', bbox_inches='tight', dpi=600)
 
     

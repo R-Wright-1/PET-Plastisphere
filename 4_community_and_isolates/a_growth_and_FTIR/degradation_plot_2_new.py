@@ -14,6 +14,7 @@ from matplotlib.patches import Patch
 import pandas as pd
 from scipy.integrate import simps
 from numpy import trapz
+from matplotlib.lines import Line2D
 
 plt.figure(figsize=(20,24))
 
@@ -154,7 +155,8 @@ def get_files_protein(files):
     ax3.set_ylim(bottom=0, top=50)
     return
 
-handles = [Patch(facecolor=colors[a], edgecolor='k', label=bac_labels[a]) for a in range(len(colors))]
+#handles = [Patch(facecolor=colors[a], edgecolor='k', label=bac_labels[a]) for a in range(len(colors))]
+handles = [Line2D([0], [0], marker='s', color='w', label=bac_labels[a], markerfacecolor=colors[a], markersize=15) for a in range(len(colors))]
 #get_files_protein(files_protein)
 
 
@@ -279,4 +281,4 @@ ax9.set_xlabel(r'Wavenumber (cm$^{-1}$)')
 
 plt.subplots_adjust(wspace=0.5, hspace=0.5)
 #plt.tight_layout()
-plt.savefig('PET degradation 3.png', dpi=600)
+plt.savefig('PET degradation 3.tiff', dpi=600)

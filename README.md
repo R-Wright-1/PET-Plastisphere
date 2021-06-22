@@ -1,8 +1,7 @@
 # A multi-OMIC characterisation of biodegradation and microbial community succession within the PET Plastisphere
 ### Robyn J. Wright, Rafael Bosch, Morgan G.I. Langille, Matthew I. Gibson and Joseph A. Christie-Oleza
 
-This is the Github repository for all code used to produce the analyses in [A Multi-OMIC Characterisation of Biodegradation and Microbial Community Succession Within the PET Plastisphere](https://https://www.researchsquare.com/article/rs-104576/v1)</br>
-<i>Note that this link will be updated with a link to the full paper once published. It has been accepted for publication in Microbiome</i></br>
+This is the Github repository for all code used to produce the analyses in [A Multi-OMIC Characterisation of Biodegradation and Microbial Community Succession Within the PET Plastisphere](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01054-5)</br>
 
 I have not provided comprehensive instructions on reproducing these analyses, but with some basic knowledge of Python usage, the scripts should be able to just be run (in the directories that they are in, as these already have the data needed). In some cases, larger files may need unzipping etc. Please feel free to [email me](mailto:robyn.wright@dal.ca) with any questions.
 
